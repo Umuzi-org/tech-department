@@ -16,17 +16,18 @@ Recruits will be told all their deadlines up front. As professionals they will n
 
 ### Week 1
 
-- WORKSHOP: make umuzi better short
-- TOPIC: introduction to linux
+- WORKSHOP: introduction to linux
 - WORKSHOP: introduction to development tools and environment for web
-- PROJECT INTRO: basic website frontend events
-- TOPIC: introduction to stack overflow
-  x how to ask good questions
+- PROJECT INTRO: memory game
+- WORKSHOP: git basics
+- WORKSHOP: Time managment
+- WORKSHOP: Being a professional
+- WORKSHOP: Constructuve Feedback
+- WORKSHOP: introduction to stack overflow
 
 ### Week 2
 
 - TOPIC: introduction to bash
-- WORKSHOP: git basics
 - FCC DEADLINE: Javascript Algorithms And Data Structures Certification: Basic JavaScript
   x giving and receiving feedback
 
@@ -108,3 +109,9 @@ The recruits will deliver their first project: a simple DOM-based game. Besies t
 - ? presentation skills and public speaking
 - technical interview
 - time managment
+
+
+
+
+
+- WORKSHOP: make umuzi better short
