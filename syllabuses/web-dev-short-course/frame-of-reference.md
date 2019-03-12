@@ -81,18 +81,25 @@ Recruits will be told all their deadlines up front. As professionals they will n
 - Product team introduction
 
 - PROJECT CODE REVIEW: update game to use REST api
+- PROJECT: TODO app
+
 
 ### Week 12
+
+- WORKSHOP: Introduction to DESIGN PATTERNS using javascript 
+- PROJECT: CALCULATOR app
+
+
+
 
 # Month 4: Product teams
 
 ### Week 13
-
 ### Week 14
-
 ### Week 15
 
 ### Week 16
+
 
 - salary negotiation
 - ? presentation skills and public speaking
