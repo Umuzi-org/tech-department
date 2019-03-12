@@ -18,57 +18,46 @@ Recruits will be told all their deadlines up front. As professionals they will n
 
 - WORKSHOP: introduction to linux
 - WORKSHOP: introduction to development tools and environment for web
-- PROJECT INTRO: memory game
-- WORKSHOP: git basics
+- TOPIC: introduction to bash
 - WORKSHOP: Time managment
 - WORKSHOP: Being a professional
 - WORKSHOP: Constructuve Feedback
 - WORKSHOP: introduction to stack overflow
+- PROJECT INTRO: memory game
 
 ### Week 2
 
-- TOPIC: introduction to bash
-- FCC DEADLINE: Javascript Algorithms And Data Structures Certification: Basic JavaScript
-  x giving and receiving feedback
+- WORKSHOP: git basics
+- WORKSHOP: clean code for web
 
 ### Week 3
 
-- WORKSHOP: clean code for web
-- FCC DEADLINE: Responsive Web Design Certification: HTML and HTML 5
-- FCC DEADLINE: Responsive Web Design Certification: Basic CSS
+- WORKSHOP: introduction to unit tests with Mocha
 
 ### Week 4
 
-- WORKSHOP: introduction to unit tests with Mocha
-- FCC DEADLINE: Javascript Algorithms And Data Structures Certification: ES6
+- TOPIC: OOP basics
+- WORKSHOP: Object Oriented Thinking
 
 ## Month 2
 
-The recruits will deliver their first project: a simple DOM-based game. Besies that they'll develop more advanced coding skills and practices.
 
 ### Week 5
 
 - PROJECT DEADLINE: basic website frontend events
-- FCC DEADLINE: Javascript Algorithms And Data Structures Certification: Debugging
 
 ### Week 6
 
 - WORKSHOP: introduction to Node and friends
 - PROJECT CODE REVIEW: basic website frontend events
-- FCC DEADLINE: Javascript Algorithms And Data Structures Certification: Basic Data Structures
-- FCC DEADLINE: Javascript Algorithms And Data Structures Certification: Basic Algorithm Scripting
 
 ### Week 7
 
 - WORKSHOP: introduction to express
-- FCC DEADLINE: Javascript Algorithms And Data Structures Certification: Object Oriented Programming
-- WORKSHOP: Object Oriented Thinking
   x design patterns
 
 ### Week 8
 
-- FCC DEADLINE: Front End Libraries Certification: Bootstrap
-- FCC DEADLINE: Front End Libraries Certification: jQuery
 
 ## Month 3
 
