@@ -16,75 +16,69 @@ Recruits will be told all their deadlines up front. As professionals they will n
 
 ### Week 1
 
-- TOPIC: make umuzi better short
-- TOPIC: introduction to linux
+- WORKSHOP: introduction to linux
+- WORKSHOP: Time managment
+- WORKSHOP: Being a professional
+- WORKSHOP: Constructuve Feedback
+- WORKSHOP: introduction to stack overflow
+- PROJECT INTRO: memory game
+- TOPIC: introduction to bash
 - WORKSHOP: introduction to development tools and environment for web
-- PROJECT INTRO: basic website frontend events
 
 ### Week 2
 
-- TOPIC: introduction to bash
 - WORKSHOP: git basics
-- FCC DEADLINE: Javascript Algorithms And Data Structures Certification: Basic JavaScript
+- WORKSHOP: clean code for web
 
 ### Week 3
 
-- WORKSHOP: clean code for web
-- FCC DEADLINE: Responsive Web Design Certification: HTML and HTML 5
-- FCC DEADLINE: Responsive Web Design Certification: Basic CSS
+- WORKSHOP: introduction to unit tests with Mocha
 
 ### Week 4
 
-- WORKSHOP: introduction to unit tests with Mocha
-- FCC DEADLINE: Javascript Algorithms And Data Structures Certification: ES6
+- TOPIC: OOP basics
+- WORKSHOP: Object Oriented Thinking
 
 ## Month 2
 
-The recruits will deliver their first project: a simple DOM-based game. Besies that they'll develop more advanced coding skills and practices.
 
 ### Week 5
 
 - PROJECT DEADLINE: basic website frontend events
-- FCC DEADLINE: Javascript Algorithms And Data Structures Certification: Debugging
 
 ### Week 6
 
 - WORKSHOP: introduction to Node and friends
 - PROJECT CODE REVIEW: basic website frontend events
-- FCC DEADLINE: Javascript Algorithms And Data Structures Certification: Basic Data Structures
-- FCC DEADLINE: Javascript Algorithms And Data Structures Certification: Basic Algorithm Scripting
 
 ### Week 7
 
 - WORKSHOP: introduction to express
-- FCC DEADLINE: Javascript Algorithms And Data Structures Certification: Object Oriented Programming
-- WORKSHOP: Object Oriented Thinking
+  x design patterns
 
 ### Week 8
 
-- FCC DEADLINE: Front End Libraries Certification: Bootstrap
-- FCC DEADLINE: Front End Libraries Certification: jQuery
 
 ## Month 3
+
+### Week 9
 
 - DATACAMP DEADLINE: sql basics: https://www.datacamp.com/courses/introduction-to-relational-databases-in-sql
 - WORKSHOP: node and sql
 - PROJECT INTRO: expose a simple REST api for game
 - PROJECT INTRO: update game to use REST api
 
-### Week 9
+### Week 10
 
 - PROJECT DEADLINE: expose a simple REST api for game
 
-### Week 10
+### Week 11
 
 - PROJECT DEADLINE: update game to use REST api
 - PROJECT CODE REVIEW: expose a simple REST api for game
 - WORKSHOP: git for teamwork
 - WORKSHOP: Intro to Agile
 - Product team introduction
-
-### Week 11
 
 - PROJECT CODE REVIEW: update game to use REST api
 - PROJECT: TODO app
@@ -107,4 +101,13 @@ The recruits will deliver their first project: a simple DOM-based game. Besies t
 ### Week 16
 
 
+- salary negotiation
+- ? presentation skills and public speaking
+- technical interview
+- time managment
 
+
+
+
+
+- WORKSHOP: make umuzi better short
