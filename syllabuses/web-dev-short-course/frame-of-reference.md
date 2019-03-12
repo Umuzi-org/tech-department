@@ -17,13 +17,13 @@ Recruits will be told all their deadlines up front. As professionals they will n
 ### Week 1
 
 - WORKSHOP: introduction to linux
-- WORKSHOP: introduction to development tools and environment for web
-- TOPIC: introduction to bash
 - WORKSHOP: Time managment
 - WORKSHOP: Being a professional
 - WORKSHOP: Constructuve Feedback
 - WORKSHOP: introduction to stack overflow
 - PROJECT INTRO: memory game
+- TOPIC: introduction to bash
+- WORKSHOP: introduction to development tools and environment for web
 
 ### Week 2
 

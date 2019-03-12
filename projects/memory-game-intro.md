@@ -15,14 +15,15 @@ Create a Memory game MVP. Requirements:
 
 Or if this seems like a boring game to you then do something else.  But talk to us first. And make the MVP first!
 
-## Submission
+## Submission process
 
 - Make sure you follow good coding practices, your code should be readable. Your code should be in a git repo with a sensible name. You should push your latest code to your repo before you leave the office every day.
-- You will be reviewing each other's code. We will tell you who to review on Monday. Please take the code review process seriously, it's a great way to learn about good practice
-- Incorperate your reviewer's feedback into your code.
-- Next wednesday you will be epected to demonstrate your basic game
+- You will be reviewing each other's code. We will tell you who to review. Please take the code review process seriously, it's a great way to learn about good practice and teamwork
+- Incorperate your reviewer's feedback into your code
+- You will be expected to demonstrate your basic game
 - Your game code will then be reviewed by an Umuzi staff member
 - we will then have a workshop in which we go over any common mistakes and highlight anything excellent
+- we will communicate all the dates involved
 
 ## Note
 
