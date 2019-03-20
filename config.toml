@@ -1,0 +1,39 @@
+baseURL = "/"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+
+title = "Umuzi Tech Department"
+theme = "hugo-theme-learn"
+themesdir = "themes"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+
+[params]
+  editURL = "https://github.com/Umuzi-org/tech-department"
+  description = "Documentation for Umuzi Tech Department"
+  author = "Umuzi Tech"
+  showVisitedLinks = false
+  disableBreadcrumb = false
+  disableNextPrev = true
+  themeVariant="green"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[Languages]
+[Languages.en]
+title = "Documentation for Umuzi Tech Department"
+weight = 1
+languageName = "English"
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/Umuzi-org/tech-department"
+weight = 10
+
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
+url = "/credits"
+weight = 30
