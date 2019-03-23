@@ -15,6 +15,8 @@ At this point you should be comfortable with using Git from the command line.
 
 Make a Git branch for your new work and make sure to `push` your latest code atleast daily. You should submit your work as a pull request on your buddy's repo, your buddy will review your code before merging it using Github's code-review tooling. 
 
+
+
 ## Questions about Git?
 
 Please ask one of our junior facilitators first. If they can't help then ask one of the senior managers.
