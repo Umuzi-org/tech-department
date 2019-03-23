@@ -4,8 +4,10 @@ title: Web Dev home study
 weight: 1
 ---
 
+If you want to get into one of our web-dev courses it would be best if you do some preparation on your own. 
 
-Free Code Camp
+[Free Code Camp](https://learn.freecodecamp.org/)
+
 - Javascript Algorithms And Data Structures Certification: Basic JavaScript
 - Responsive Web Design Certification: HTML and HTML 5
 - Responsive Web Design Certification: Basic CSS
