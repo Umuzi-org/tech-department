@@ -39,9 +39,7 @@ weight: 1
 ## Week 3: Personal portfolio and conducting research
 
 - NCIT 03: Conducting research and user interviews
-
-## Workshop: Survey design with Google Forms
-
+- Workshop: Survey design with Google Forms
 - Assignment: Research notes
 - Continue to work on portfolio website
 
@@ -83,6 +81,7 @@ weight: 1
 
 ## Weeks 9 & 10: OOP
 
+? DATACAMP DEADLINE: https://www.datacamp.com/courses/object-oriented-programming-in-python
 - NCIT 15: Object-oriented programming
 - Assignment: Designing a dice-based poker game
 

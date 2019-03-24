@@ -4,15 +4,7 @@ title: Week by week
 weight: 1
 ---
 
-## Month 0
-
-### Week 1 - 3
-
-- TOPIC: make umuzi better full.
-
-## Month 1 - 5: Systems Development and Data Engineering
-
-The first few months for a Umuzi tech recruit are dedicated to obtaining a National Certificate of Information Technology: Systems Development (Level 5), while also learning basic data engineering concepts.
+## Month 0: #MakeUmuziBetter
 
 ### Week 1: Linux and intro to curriculum
 
@@ -33,47 +25,53 @@ The first few months for a Umuzi tech recruit are dedicated to obtaining a Natio
 - NCIT 03: Conducting research and user interviews
 - Workshop: Survey design with Google Forms
 - PROJECT DEADLINE: Development of a portfolio website
-  ? Assignment: Research notes
+  ? PROJECT INTRO: Research notes
 
 ### Week 4:
 
 - NCIT 04: reporting
+
+### Week 5:
+
 - NCIT 05: Research presentation
 - NCIT 06: Workshop: Giving and receiving constructive feedback
 
-### Week 5:
+### Week 6:
 
 - NCIT 07: History of the Internet and online gaming
 - NCIT 08: Web design for business
 - NCIT 09: Building an online business
 - DATACAMP: https://www.datacamp.com/courses/intro-to-python-for-data-science
 
-### Week 6:
 
+### Week 7:
+
+- NCIT 10: Agile project management
+- NCIT 11: Agile meetings
 - NCIT 12: Boolean algebra, logic
   ? Workshop: Problem solving techniques
+
+### Week 8:
+
 - NCIT 13: Version control (GIT) for teamwork (insufficient)
 - NCIT 14: Pseudocode and documentation
   ? Workshop: Project organization and naming conventions, cookie-cutter data science
 
-### Week 7:
+### Weeks 9 & 10: OOP
 
 - NCIT 15: Object-oriented programming
 - DATACAMP DEADLINE: https://www.datacamp.com/courses/object-oriented-programming-in-python
-- NCIT 16: Test-driven development
-  ? Assignment: Testing your code with py.test and unittest
-
-### Week 8:
-
-- DATACAMP DEADLINE: sql basics: https://www.datacamp.com/courses/introduction-to-relational-databases-in-sql
-
-* NCIT 17: Assignment: Create MySQL database with employee and product tables
-
-### Weeks 9:
 
 ### Week 11:
 
+- NCIT 16: Test-driven development
+  ? Assignment: Testing your code with py.test and unittest
+
+
 ### Week 12:
+
+- DATACAMP DEADLINE: sql basics: https://www.datacamp.com/courses/introduction-to-relational-databases-in-sql
+- NCIT 17: Assignment: Create MySQL database with employee and product tables
 
 ### Week 13:
 
@@ -113,7 +111,6 @@ Assignment: Construct queries using previously designed database
 - NCIT 10: Agile project management
 - NCIT 11: Agile meetings
 
-## Months 6-9: Product Teams
 
 Product teams are teams of no more than 6 recruits guided by a product owner (Umuzi staff). The teams use the Scrum methodology to build real-world, web-based products. Recruits learn additional frameworks (e.g. Django) and packages as needed for the products.
 
