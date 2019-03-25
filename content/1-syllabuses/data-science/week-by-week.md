@@ -117,14 +117,16 @@ weight: 1
 - Workshop: Intro to mySQL and relational databases
 - Datacamp: https://www.datacamp.com/courses/introduction-to-relational-databases-in-sql
 - NCIT 17: Assignment: Create MySQL database with employee and product tables
-Data quality control
+- Data quality control
 
 ## Week 18:  SQL
 
 - Datacamp: https://www.datacamp.com/courses/intro-to-sql-for-data-science
 - Datacamp: https://www.datacamp.com/courses/intermediate-sql
 - Assignment: Construct queries using previously designed database
-- Week 19: Dashboards - visualising data from a database
+
+## Week 19: Dashboards - visualising data from a database
+
 - Introduction to Plotly & Dash
 - NCIT 18: Input & Output
 - Webscraping
@@ -133,9 +135,7 @@ Data quality control
 ## Week 20: Search and sort techniques
 
 - Introduction to algorithms
-
-## NCIT 19: Search and sort techniques
-
+- NCIT 19: Search and sort techniques
 - Assignment: search and sort algorithms
 
 ## Week 21: Decision Trees
