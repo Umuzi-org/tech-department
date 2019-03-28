@@ -39,13 +39,13 @@ Recruits will be told all their deadlines up front. As professionals they will n
 ### Week 3
 
 - WORKSHOP: introduction to unit tests theory
-- WORKSHOP: introduction to unit tests with Mocha
+- WORKSHOP: introduction to unit tests with Mocha or Jasmine
 - TOPIC: OOP basics
-- WORKSHOP: Object Oriented Thinking
 - PROJECT CODE REVIEW: basic website frontend events
 
 ### Week 4
 
+- WORKSHOP: Object Oriented Thinking
 - WORKSHOP: introduction to Node and friends
 - WORKSHOP: introduction to express
 
