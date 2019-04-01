@@ -4,9 +4,23 @@ weight: 1
 pre: "<b>1. </b>"
 ---
 
+## Take Note
+
+This is a Test Driven Development Project. Please follow a test driven methodologies. That means that you write your test code first!
+
+The basic idea of TDD is to write the test code before you write any actual code. So you write a test (which will fail) then you write the code that will make the test pass.
+
+When you submit your code (on Github people!) then your tests MUST BE included in your code base.
+
+In a professional setting, untested code is incomplete code.
+
+In general: Follow recognised best practices around whatever language and test framework you are using. Eg: consistent naming conventions of functions, test files and literally everything else. Literally.
+
 ## Instructions
 
 Write a software system for keeping track of bowling scores. You can read about traditional 10 pin bowling scoring [here](https://en.wikipedia.org/wiki/Ten-pin_bowling#Scoring).
+
+Please put your tests in a directory named "tests" (unless the testing framework you are using follows some other convention(which is unlikely)).
 
 ### Initial inputs:
 
