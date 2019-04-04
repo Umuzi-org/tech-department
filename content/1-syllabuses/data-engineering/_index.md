@@ -19,7 +19,6 @@ Computer Science
 Time and Space complexity
 Data Structuring
 
-
 Extraction
 REST APIs
 Databases
@@ -39,7 +38,3 @@ Optional extras:
 Deploy/write / launch micro-services e.g. using Docker
 Cloud services (AWS, Azure, etc)
 Web frameworks (Django, Flask)
-
-
-
-

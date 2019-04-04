@@ -4,23 +4,30 @@ title: Week by week
 weight: 1
 ---
 
-- Week 0 - Intro to Jupyter Notebook
-- Week 10 & 11 - Statistical thinking
-- Week 13 & 14- Object-oriented programming
-- Week 15 - Test-driven development
-- Week 18 - MySQL
-- Week 19 - SQL and Python
-- Week 21 - Search and sort
-- Week 4 - Git
-- Week 4 - Linux
-- Week 5 - Web development
-- Week 6 - Survey design
-- Week 7 - Data visualisation
-- Week 8 & 9 - Data wrangling
-
+- Week 00 - Intro to Jupyter Notebook
+- Week 01 - Linux
+- Week 02 - Git
+- Week 02 - Web development
+- Week 03 - Survey design
+- Week 04 - Data visualisation
+- Week 05 - Data wrangling
+- Week 06 - The Internet and Ethics in Data
+- Week 07 - Agile project management
+- Week 08 - Naming conventions and folder structures
+- Week 09 & 10 - Object-oriented programming
+- Week 11 - Test-driven development
+- Week 12 & 13 - Statistical thinking
+- Week 14 & 15 - Cross-validation & Simple Linear Regression
+- Week 16 - Multivariate Linear Regression
+- Week 17 - Intro to Relational Databases
+- Week 18 - SQL and Python
+- Week 19 - Dashboards
+- Week 20 - Search and sort
+- Week 21 - Decision Trees
+- Week 22-23 - Logistic Regression
+- Week 24 - K-Means Clustering
 
 ## Month 0: #MakeUmuziBetter
-
 
 ## Week 1: Linux and intro to curriculum
 
@@ -28,7 +35,6 @@ weight: 1
 - Introduction to NCIT curriculum
 - NCIT 01: Business and technology
 - NCIT 02: Ethics and professionalism in IT
-
 
 ## Week 2: Useful tools and personal portfolio
 
@@ -50,7 +56,6 @@ weight: 1
 - Workshop: Central tendency, variance and data visualisation
 
 - NCIT 04: Creating a reproducible report using Jupyter Notebooks
-
 
 ## Week 5: Presentations and professional communication
 
@@ -82,10 +87,11 @@ weight: 1
 ## Weeks 9 & 10: OOP
 
 ? DATACAMP DEADLINE: https://www.datacamp.com/courses/object-oriented-programming-in-python
+
 - NCIT 15: Object-oriented programming
 - Assignment: Designing a dice-based poker game
 
-## Week 11: Test-driven development 
+## Week 11: Test-driven development
 
 - NCIT 16: Test-driven development
 - Assignment: Testing your code with py.test and unittest
@@ -107,7 +113,7 @@ weight: 1
 - Test, training and validation sets
 - Assignment: Predicting employee salaries
 
-## Week 16:  Multivariate Regression
+## Week 16: Multivariate Regression
 
 - One-hot encoding and multiple regression
 - Assignment: Predicting employee salaries
@@ -119,7 +125,7 @@ weight: 1
 - NCIT 17: Assignment: Create MySQL database with employee and product tables
 - Data quality control
 
-## Week 18:  SQL
+## Week 18: SQL
 
 - Datacamp: https://www.datacamp.com/courses/intro-to-sql-for-data-science
 - Datacamp: https://www.datacamp.com/courses/intermediate-sql
@@ -157,4 +163,3 @@ weight: 1
 - Datacamp: Predicting song genres, https://www.datacamp.com/projects/449
 
 ## Months 6-9: Product Teams
-
