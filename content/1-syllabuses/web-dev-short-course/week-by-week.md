@@ -44,11 +44,11 @@ Recruits will be told all their deadlines up front. As professionals they will n
 ### Week 4
 
 - TOPIC: OOP basics
-- WORKSHOP: introduction to Node and friends
-- WORKSHOP: introduction to express
 
 ## Month 2
 
+- WORKSHOP: introduction to Node and friends
+- WORKSHOP: introduction to express
 - WORKSHOP: Object Oriented Thinking
 
 ### Week 5
