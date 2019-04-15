@@ -61,7 +61,7 @@ NB: The list of provided resources is not exhaustive feel free to check arround 
     3. **/deleteAllProspects** (delete all prospects)
     4. **/viewProspects** (view all prospects)
     5. **/viewProspect:id** (view a single prospect)
-    6. **/updateProspect:id **(Update a single prospect)
+    6. **/updateProspect:id**(Update a single prospect)
 - The service to use Mongodb database and Mongoose schema.
 
 ### Resources 
