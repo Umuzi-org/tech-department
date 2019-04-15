@@ -54,14 +54,14 @@ NB: The list of provided resources is not exhaustive feel free to check arround 
 
 - Setup a server within a fourth folder - name it as you wish.
 - You are required to create a back-end service that will help capture basic informations about prospective student who come to inquire here at Umuzi. 
-- Captured information should include the following: Visitor’s Name and surname, age, date and time, subject of inquiry, the name of the person who assisted the visitor. 
+- Captured information should include the following: Visitor’s **Name and surname**, **age, **date** and **time**, **subject of inquiry**and **the name of the person who assisted the visitor**. 
 - The back-end service to provide the following end points:
-    1. /addNewProspect (add a new prospect)
-    2. /deleteProspect:id (delete a single prospect)
-    3. /deleteAllProspects (delete all prospects)
-    4. /viewProspects (view all prospects)
-    5. /viewProspect:id (view a single prospect)
-    6. /updateProspect:id (Update a single prospect)
+    1. **/addNewProspect **(add a new prospect)
+    2. **/deleteProspect:id** (delete a single prospect)
+    3. **/deleteAllProspects** (delete all prospects)
+    4. **/viewProspects** (view all prospects)
+    5. **/viewProspect:id** (view a single prospect)
+    6. **/updateProspect:id **(Update a single prospect)
 - The service to use Mongodb database and Mongoose schema.
 
 ### Resources 
