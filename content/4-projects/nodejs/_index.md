@@ -54,7 +54,7 @@ NB: The list of provided resources is not exhaustive feel free to check arround 
 
 - Setup a server within a fourth folder - name it as you wish.
 - You are required to create a back-end service that will help capture basic informations about prospective student who come to inquire here at Umuzi. 
-- Captured information should include the following: Visitor’s **Name and surname**, **age, **date** and **time**, **subject of inquiry**and **the name of the person who assisted the visitor**. 
+- Captured information should include the following: Visitor’s **Name and surname**, **age**, **date** and **time**, **subject of inquiry**and **the name of the person who assisted the visitor**. 
 - The back-end service to provide the following end points:
     1. **/addNewProspect**(add a new prospect)
     2. **/deleteProspect:id** (delete a single prospect)
