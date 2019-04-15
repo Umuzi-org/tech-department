@@ -2,7 +2,9 @@
 
 # Nodejs Challenges
 
-## Task 1 : Http server (http, get, serve static files)   
+
+##Task 1 : Http server (http, get, serve static files)   
+
 
 - Make a copy of your game and rename the copy to nodeApp.
 -  Setup a node server with express within nodeApp folder  to serve your game on port 8080 to  https://localhost:8080 or localhost:8080
@@ -66,7 +68,8 @@ NB: The list of provided resources is not exhaustive feel free to check arround 
 
 - [About restful API](https://searchmicroservices.techtarget.com/definition/RESTful-API)
 - [Build a restful API with node](https://medium.com/@purposenigeria/build-a-restful-api-with-node-js-and-express-js-d7e59c7a3dfb )
-- [Test your API-ends](https://www.getpostman.com/)
+
+3. [Test your API-ends](https://www.getpostman.com/)
 
 
 
