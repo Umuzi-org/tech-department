@@ -4,9 +4,7 @@ title: Automated Testing pandas and numpy
 weight: 15
 ---
 
-
-## Prerequisites
-automated-testing-with-pytest
+Testing and data can get a little tricky. Check these out:
 
 Automate your data analysis testing (Stephen Childs) https://www.youtube.com/watch?v=ovvU41ve1FQ
 

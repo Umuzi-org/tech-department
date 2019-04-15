@@ -4,7 +4,6 @@ title: Week by week
 weight: 1
 ---
 
-
 The web dev short course is a short and intense introduction to full stack web development using modern JavaScript.
 
 Course duration: 6 months. The last 2 months are an internship.
@@ -39,32 +38,28 @@ Recruits will be told all their deadlines up front. As professionals they will n
 ### Week 3
 
 - WORKSHOP: introduction to unit tests theory
-- WORKSHOP: introduction to unit tests with Mocha
-- TOPIC: OOP basics
-- WORKSHOP: Object Oriented Thinking
+- WORKSHOP: introduction to unit tests with Mocha or Jasmine
 - PROJECT CODE REVIEW: basic website frontend events
 
 ### Week 4
 
-- WORKSHOP: introduction to Node and friends
-- WORKSHOP: introduction to express
+- TOPIC: OOP basics
 
 ## Month 2
 
-
+- WORKSHOP: introduction to Node and friends
+- WORKSHOP: introduction to express
+- WORKSHOP: Object Oriented Thinking
 
 ### Week 5
 
-
 ### Week 6
-
 
 ### Week 7
 
-  x design patterns
+x design patterns
 
 ### Week 8
-
 
 ## Month 3
 
@@ -106,8 +101,4 @@ Recruits will be told all their deadlines up front. As professionals they will n
 - technical interview
 - time managment
 
-
-
-
-
-- WORKSHOP: make umuzi better short
+* WORKSHOP: make umuzi better short
