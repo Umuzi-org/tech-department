@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git intro on Documentation for Umuzi Tech Department</title>
+    <link>/2-topics/git/</link>
+    <description>Recent content in Git intro on Documentation for Umuzi Tech Department</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 19 Mar 2019 16:50:16 +0200</lastBuildDate>
+    
+	<atom:link href="/2-topics/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Git Books</title>
+      <link>/2-topics/git/git-book/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/2-topics/git/git-book/</guid>
+      <description>The Git Book We keep our git repos on Github so dont worry about the server setup stuff. The first three chapters will serve you well initially
+https://git-scm.com/book/en/v2
+Pro Git https://github.com/progit/progit2</description>
+    </item>
+    
+    <item>
+      <title>Version Control &amp; Scrum using Trello &amp; Github</title>
+      <link>/2-topics/git/version-control-and-scrum/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/2-topics/git/version-control-and-scrum/</guid>
+      <description>Scrum roles  Team Member Developers, designers, and anyone who&amp;rsquo;s doing that actual production of work. Responsible for working with the Product Owner to break down tasks &amp;amp; reach completion on different ticket items. Scrum Master The facilitator of the scrum process. If this person is doing their job right, the team becomes independent over time. Product Owner The stakeholder for the product. This person is in charge of deciding what the MVP, and different versions of the product look like.</description>
+    </item>
+    
+  </channel>
+</rss>

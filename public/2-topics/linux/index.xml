@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on Documentation for Umuzi Tech Department</title>
+    <link>/2-topics/linux/</link>
+    <description>Recent content in linux on Documentation for Umuzi Tech Department</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 19 Mar 2019 16:50:16 +0200</lastBuildDate>
+    
+	<atom:link href="/2-topics/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction to Bash</title>
+      <link>/2-topics/linux/introduction-to-bash/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/2-topics/linux/introduction-to-bash/</guid>
+      <description> (Command line bootcamp)[http://rik.smith-unna.com/command_line_bootcamp/]  </description>
+    </item>
+    
+    <item>
+      <title>Introduction to Linux</title>
+      <link>/2-topics/linux/introduction-to-linux/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/2-topics/linux/introduction-to-linux/</guid>
+      <description> Introdution to linux Linux is an operating system (much like windows is an operating system). Linux started of as one nerd&amp;rsquo;s hobby but quickly grew in fame. Linux is free, it&amp;rsquo;s source code is freely avaiable, and it is created, developed and used by a large communi
+https://www.youtube.com/watch?v=PTaL1s3YJPY http://rik.smith-unna.com/command_line_bootcamp/?id=1d0zyezf844
+Excercises: </description>
+    </item>
+    
+  </channel>
+</rss>

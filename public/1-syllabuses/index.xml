@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Syllabus on Documentation for Umuzi Tech Department</title>
+    <link>/1-syllabuses/</link>
+    <description>Recent content in Syllabus on Documentation for Umuzi Tech Department</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 19 Mar 2019 16:50:16 +0200</lastBuildDate>
+    
+	<atom:link href="/1-syllabuses/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Product Teams</title>
+      <link>/1-syllabuses/product-teams/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/1-syllabuses/product-teams/</guid>
+      <description>Product teams are teams of no more than 6 recruits guided by a product owner (Umuzi staff). The teams use the Scrum methodology to build real-world, web-based products. Recruits learn additional frameworks (e.g., Django) and packages as needed for the products.
+An example of a current product is Umuzi’s online application process. In the past, Umuzi has used a combination of Google Forms and other, off-the-shelf, tools, to create an online application process for applicants.</description>
+    </item>
+    
+    <item>
+      <title>Online Learning and bootcamp</title>
+      <link>/1-syllabuses/online-learning-and-bootbamp/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/1-syllabuses/online-learning-and-bootbamp/</guid>
+      <description>Month -1: Online Learning and Bootcamp During the application process, we ask prospective recruits to learn basic python with an introduction to data management and visualisation with pandas, numpy and matplotlib. In the screening process, they also complete aptitude (literacy, numeracy, logical thinking, problem solving, statistical understanding, and sequencing) and personality tests (grit, resilience, empathising and systemising, agreeableness, openness to new experience, emotional stability, conscientiousness and intellect/imagination). Those who perform well on the aptitude tests, are a good personality fit for work professionalism, and are able to learn new skills on their own, are invited for an interview, and a selection of interviewees are invited bootcamp.</description>
+    </item>
+    
+  </channel>
+</rss>

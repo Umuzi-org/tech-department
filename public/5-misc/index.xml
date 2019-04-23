@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Misc on Documentation for Umuzi Tech Department</title>
+    <link>/5-misc/</link>
+    <description>Recent content in Misc on Documentation for Umuzi Tech Department</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 19 Mar 2019 16:50:16 +0200</lastBuildDate>
+    
+	<atom:link href="/5-misc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How our learnerships work</title>
+      <link>/5-misc/how-our-learnerships-work/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/5-misc/how-our-learnerships-work/</guid>
+      <description>Target Audience Any black South African over the age of 18, not currently employed or currently underemployed
+Prerequisites • English literacy • Matric maths • No technical prerequisites, just a strong motivation to challenge oneself and learn new things • Ability to work in an agile, human-centred way
+Duration • 160 hours of training in HCD and Agile through the Umuzi workshops and crash course • 1360 hours of subject-specific, technical training over 8 months at Umuzi proper • 3 months of full-time work experience with Umuzi’s world-class employer-partners.</description>
+    </item>
+    
+    <item>
+      <title>Make Umuzi Better (long)</title>
+      <link>/5-misc/make-umuzi-better-full/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/5-misc/make-umuzi-better-full/</guid>
+      <description>Make Umuzi Better (MUB) A recruit’s journey starts with a three-week programme called Make Umuzi Better. Recruits from all departments form small cross-functional teams to tackle issues at Umuzi&amp;ndash;anything from mental health to kitchen norms to the physical layout of our space. To accomplish this, they learn about and execute Human-Centered Design, a technique used throughout their time at Umuzi. Each team maps out user journeys, conducts interviews and surveys, designs a prototype of their solution, and presents it to the staff and external guests.</description>
+    </item>
+    
+    <item>
+      <title>Make Umuzi Better short course</title>
+      <link>/5-misc/make-umuzi-better-short/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/5-misc/make-umuzi-better-short/</guid>
+      <description>A recruit’s journey starts with a three-day programme called Make Umuzi Better. The recruits are expected to work in a team to tackle issues at Umuzi&amp;ndash;anything from mental health to kitchen norms to the physical layout of our space. To accomplish this, they learn about and execute Human-Centered Design, a technique used throughout their time at Umuzi. Each team maps out user journeys, conducts interviews and surveys, designs a prototype of their solution, and presents it to the staff and external guests.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/5-misc/code-review/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/5-misc/code-review/</guid>
+      <description> Code Review Session Once a project has been submitted and reviewed then a group code-review session will be held by a tech team staff member. The review will:
+ highlight outstanding work highlight common problems and solutions get a few of the recruits to explain their reasoning and code structures publicly give the recruits a chance to ask questions and give feedback  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/5-misc/junior-data-sci-job-spec/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/5-misc/junior-data-sci-job-spec/</guid>
+      <description>28 Madison Street Jeppestown PBO: 930 033 432
+Data Science (Junior) Job Specification
+Abilities • Object-oriented coding using Python • Data importing from a variety of sources (relational databases, JSON, REST APIs) • Cleaning, manipulating and merging data using Python • Visualising categorical and continuous data in Python and Tableau / Redash • Summarising data • Interpreting graphs and models • Hypothesis testing • Survey design • Modelling data: basic regression, classification and clustering techniques • Performing cross-validation and model diagnostics • Creating and querying relational databases using Python and SQL • Using version-control software, individually and as part of a team</description>
+    </item>
+    
+  </channel>
+</rss>

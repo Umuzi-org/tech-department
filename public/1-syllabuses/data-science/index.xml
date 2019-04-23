@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Science on Documentation for Umuzi Tech Department</title>
+    <link>/1-syllabuses/data-science/</link>
+    <description>Recent content in Data Science on Documentation for Umuzi Tech Department</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 19 Mar 2019 16:50:16 +0200</lastBuildDate>
+    
+	<atom:link href="/1-syllabuses/data-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Week by week</title>
+      <link>/1-syllabuses/data-science/week-by-week/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/1-syllabuses/data-science/week-by-week/</guid>
+      <description>Week 00 - Intro to Jupyter Notebook Week 01 - Linux Week 02 - Git Week 02 - Web development Week 03 - Survey design Week 04 - Data visualisation Week 05 - Data wrangling Week 06 - The Internet and Ethics in Data Week 07 - Agile project management Week 08 - Naming conventions and folder structures Week 09 &amp;amp; 10 - Object-oriented programming Week 11 - Test-driven development Week 12 &amp;amp; 13 - Statistical thinking Week 14 &amp;amp; 15 - Cross-validation &amp;amp; Simple Linear Regression Week 16 - Multivariate Linear Regression Week 17 - Intro to Relational Databases Week 18 - SQL and Python Week 19 - Dashboards Week 20 - Search and sort Week 21 - Decision Trees Week 22-23 - Logistic Regression Week 24 - K-Means Clustering  Month 0: #MakeUmuziBetter Week 1: Linux and intro to curriculum  Command line bootcamp Introduction to NCIT curriculum NCIT 01: Business and technology NCIT 02: Ethics and professionalism in IT  Week 2: Useful tools and personal portfolio  Version control workshop Project management with Trello (first intro to Agile and Scrum methodologies) Development of a portfolio website with HTML5, CSS and bootstrap  Week 3: Personal portfolio and conducting research  NCIT 03: Conducting research and user interviews Workshop: Survey design with Google Forms Assignment: Research notes Continue to work on portfolio website  Week 4: Reporting results  Introduction to data manipulation, summarisation and visualisation Importing and visualising data collected during the previous week Workshop: Central tendency, variance and data visualisation</description>
+    </item>
+    
+  </channel>
+</rss>

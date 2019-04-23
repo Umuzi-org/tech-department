@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unit Testing on Documentation for Umuzi Tech Department</title>
+    <link>/2-topics/python-specific/unit-testing/</link>
+    <description>Recent content in Unit Testing on Documentation for Umuzi Tech Department</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 19 Mar 2019 16:50:16 +0200</lastBuildDate>
+    
+	<atom:link href="/2-topics/python-specific/unit-testing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Automated Testing in Python</title>
+      <link>/2-topics/python-specific/unit-testing/automated-testing-with-pytest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2-topics/python-specific/unit-testing/automated-testing-with-pytest/</guid>
+      <description>There are a bunch of different test frameworks and test runners that Python allows. The main ones people tend to use are
+ unittest pytest  These are both great tools with pros and cons. We have chosen to go with pytest for our course because of the lack of boiler-plate code. But don&amp;rsquo;t be scared of different frameworks!
+Different testing tools have different ways of achieving similar goals. Make sure you understand why we test, what to test and when to test.</description>
+    </item>
+    
+    <item>
+      <title>Automated Testing pandas and numpy</title>
+      <link>/2-topics/python-specific/unit-testing/automated-testing-pandas-and-numpy/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/2-topics/python-specific/unit-testing/automated-testing-pandas-and-numpy/</guid>
+      <description>Testing and data can get a little tricky. Check these out:
+Automate your data analysis testing (Stephen Childs) https://www.youtube.com/watch?v=ovvU41ve1FQ
+https://penandpants.com/2014/10/07/testing-with-numpy-and-pandas/</description>
+    </item>
+    
+  </channel>
+</rss>

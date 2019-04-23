@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Engineering on Documentation for Umuzi Tech Department</title>
+    <link>/1-syllabuses/data-engineering/</link>
+    <description>Recent content in Data Engineering on Documentation for Umuzi Tech Department</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 19 Mar 2019 16:50:16 +0200</lastBuildDate>
+    
+	<atom:link href="/1-syllabuses/data-engineering/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Week by week</title>
+      <link>/1-syllabuses/data-engineering/week-by-week/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/1-syllabuses/data-engineering/week-by-week/</guid>
+      <description>Month 0: #MakeUmuziBetter Week 1: Linux and intro to curriculum  TOPIC: introduction to linux TOPIC: introduction to bash WORKSHOP: Introduction to NCIT curriculum NCIT 01: Business and technology NCIT 02: Ethics and Professionalism in IT  Week 2: Useful tools and personal portfolio  WORKSHOP: Git basics PROJECT INTRO: Development of a portfolio website ? bootstrap etc have to be learned. FCC  Week 3: Personal portfolio and conducting research  NCIT 03: Conducting research and user interviews Workshop: Survey design with Google Forms PROJECT DEADLINE: Development of a portfolio website ?</description>
+    </item>
+    
+  </channel>
+</rss>

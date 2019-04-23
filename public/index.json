@@ -1,0 +1,589 @@
+[
+{
+	"uri": "/1-syllabuses/data-engineering/",
+	"title": "Data Engineering",
+	"tags": [],
+	"description": "",
+	"content": "Data Engineering Track Data Engineering: Job Description Data Engineers can Extract, Transform and Load data from many different sources to create unified data warehouses that enable the Data Scientists to build business-relevant analyses and make important business decisions. Data Engineering: Programme\nTECHNICAL Basic Linux / Authentication security Object-Oriented Python Basic SQL Relational DB\nComputer Science Time and Space complexity Data Structuring\nExtraction REST APIs Databases SaaS API (e.g. Google Forms, FB, etc.) Web scraping\nData Transformation Advanced SQL, Python [Using Intermediate Queues (Kafka, RabbitMQ)] Data transformation at scale\nData Loading (My)SQL, DB schema Architecture / DB schema\nOptional extras: Deploy/write / launch micro-services e.g. using Docker Cloud services (AWS, Azure, etc) Web frameworks (Django, Flask)\n"
+},
+{
+	"uri": "/1-syllabuses/data-science/",
+	"title": "Data Science",
+	"tags": [],
+	"description": "",
+	"content": " Data Science Programme Summary Prerequisites English literacy Matric maths (not maths literacy) No specific technical prerequisites, except a strong aptitude for coding and strong motivation to challenge oneself and learn new things, assessed through Umuzi’s rigorous application process Ability to work in an agile, human-centred way\nDuration 160 hours of training in HCD and Agile through the Umuzi workshops and crash course 1360 hours of subject-specific, technical training over 8 months at Umuzi proper 3 months of full-time work experience with Umuzi’s world-class employer-partners\nCost 100% free for learners Learners receive a stipend for living costs Employer partners sponsor the training costs and stipends\nObjectives of Training Umuzi helps talented young South Africans move from un- / under-employment into high-value careers.\nUmuzi’s tech programmes are focussed on the most in-demand skills and technologies in the current market: full stack JavaScript for web development, Python and SQL for data science and data engineering.\nUmuzi develops all-round professionals, with a focus on soft skills, Human Centred Design and Agile Scrum methodology.\nData Science (Junior) Job Specification This is the target level of skill for an alumnus leaving the programme.\nAbilities ● Object-oriented coding using Python ● Data importing from a variety of sources (relational databases, JSON, REST APIs) ● Cleaning, manipulating and merging data using Python ● Visualising categorical and continuous data in Python and Tableau / Redash ● Summarising data ● Interpreting graphs and models ● Hypothesis testing ● Survey design ● Modelling data: basic regression, classification and clustering techniques ● Performing cross-validation and model diagnostics ● Creating and querying relational databases using Python and SQL ● Using version-control software, individually and as part of a team Python ● Ability to create and debug functions ● Object-oriented programming ● Comfortable with scientific libraries such as numpy, pandas, statsmodels, scikit-learn, matplotlib, seaborn ● Familiar with Jupyter Notebooks SQL ● Database, table and key creation ● Querying data ● Joining tables Linux (Ubuntu) ● File and directory navigation and manipulation ● Basic bash scripting ● Setting user permissions and file ownership ● Standard input/out, stream redirection, piping and filters ● Installing, updating and upgrading packages HTML5 ● Ability to create a basic HTML page ● Ability to link pages in a website ● Create a responsive site that will suit all devices and keep content fixed ● Create an html page that is user friendly Methodologies and Professional Skills ● Scrum and Agile ● Ability to break down tasks and use productivity tools such as Trello ● Presentation skills Tech Stack ● Linux, Python, MySQL, Tableau / Redash, HTML5, CSS, Git Data Science Curriculum Data Science Track Data Science: Job Description Using computer science and applied statistics, data scientists find valuable patterns where other people just see noise. Harvard Business Review says Data Scientist is \u0026ldquo;The Sexiest Job of the 21st Century,\u0026rdquo; and we agree. It’s a rare combination of interesting challenges and high-value opportunities. Data skills are a superpower, and with great power comes great job responsibilities. Our data scientist learn basic mathematics, programming, data extraction and manipulation, and data analysis and interpretation skills. Data Science: Programme\nTECHNICAL Environments and languages Git Linux \u0026amp; bash scripting Python MySQL Jupyter Notebooks Tableau / Redash CSS \u0026amp; HTML\nContent: Mathematics and statistics Basic algebra Hypothesis testing Distributions, central tendency and variation Effect sizes and confidence intervals\nProgramming Functions, variables, data types Object-oriented programming Test driven development Debugging\nData extraction and analytics Importing, cleaning and manipulation of data Database management and quality control Data visualisation Data exploration, summarisation and reporting Statistical learning techniques, incl. regression, classification and clustering Survey design Interacting with APIs\nPROFESSIONAL Human Centred Design Thinking Agile\nThe full data science curriculum and frame of reference can be found here: https://github.com/Umuzi-org/master-reference\n"
+},
+{
+	"uri": "/2-topics/python-specific/data-visualisation/",
+	"title": "Data Visualisation",
+	"tags": [],
+	"description": "",
+	"content": "Go through the datacamp course Introduction to Data Visualisation with Python: https://www.datacamp.com/courses/introduction-to-data-visualization-with-python\nOnce you have completed the course, complete the Datacamp project Exploring the Evolution of Linux: https://www.datacamp.com/projects/111\n"
+},
+{
+	"uri": "/2-topics/python-specific/data-wrangling/",
+	"title": "Data Wrangling",
+	"tags": [],
+	"description": "",
+	"content": "Complete the DataCamp skills track Data Manipulation with Python: https://www.datacamp.com/tracks/data-manipulation-with-python\n"
+},
+{
+	"uri": "/4-projects/memory-game/1-deadline/",
+	"title": "Deadline 1: Code review",
+	"tags": [],
+	"description": "",
+	"content": "  “Any fool can write code that a computer can understand.\nGood programmers write code that humans can understand.” ~ Martin Fowler\n You will be paired up with someone else. You will be expected to review each other\u0026rsquo;s code. This need not follow formal code review processes, you can just sit next to each other and chat if you want.\nAny constructive feedback should be incorperated into the code. By the end of this process each game should have fewer bugs (if there were any to begin with) and be generally more human-readable.\nEach of you should take note of what you learned in this process.\n what makes code easy to work with what makes code hard to work with any weird bugs or inefficiencies that could hae been avoided notable technology choices anything else?  note Be kind and respectful, even when giving feedback on cray-cray spagetti code. This process can be frustrating and it can be painful to hear people critisize your work. Just remember, the point of this process is to learn.\nsubmission Check on slack\n"
+},
+{
+	"uri": "/2-topics/git/",
+	"title": "Git intro",
+	"tags": [],
+	"description": "",
+	"content": "Go through the Git slides and the Datacamp course \u0026lsquo;Introduction to Git for Data Science\u0026rsquo;: https://www.datacamp.com/courses/introduction-to-git-for-data-science\n"
+},
+{
+	"uri": "/2-topics/python-specific/intro-to-jupyter-notebook/",
+	"title": "Introduction to Jupeter Notebooks",
+	"tags": [],
+	"description": "",
+	"content": "Download and install miniconda on your machine. This will install python and and the conda package manager for python. Make sure that you set the python path. Setting the path will allow you to simply type \u0026lsquo;python\u0026rsquo; into the terminal to open python.\nYou also want to install the following packages:\n jupyter-notebook numpy pandas matplotlib scipy scikit-learn  You can install packages by typing conda install name-of-package, e.g. conda install numpy.\n"
+},
+{
+	"uri": "/1-syllabuses/product-teams/",
+	"title": "Product Teams",
+	"tags": [],
+	"description": "",
+	"content": "Product teams are teams of no more than 6 recruits guided by a product owner (Umuzi staff). The teams use the Scrum methodology to build real-world, web-based products. Recruits learn additional frameworks (e.g., Django) and packages as needed for the products.\nAn example of a current product is Umuzi’s online application process. In the past, Umuzi has used a combination of Google Forms and other, off-the-shelf, tools, to create an online application process for applicants. Now, under the leadership of Umuzi’s Data Science and Web Development managers, a team of Umuzi recruits is developing a custom solution which will allow applicants to apply to Umuzi, complete a variety of online learning and tests, enable managers to easily sort candidates by results, and automatically handle communications with the candidates. It’s through real builds like this that recruits put their learning into practice. Additional learning In addition to the curriculum listed above, the recruits participate in workshops given by industry professionals and Umuzi staff. Generally there are 2-3 workshops each month. Topics include time management, public speaking, networking, preparing for technical interviews, introduction to new frameworks, tech trends, etc.\nRecruits are also encouraged to attend industry meetups, conferences, and hackathons. On average, recruits attend 1 meetup/conference per month and 1-2 hackathons during their time at Umuzi.\n"
+},
+{
+	"uri": "/1-syllabuses/web-dev-long/",
+	"title": "Web Dev full course",
+	"tags": [],
+	"description": "",
+	"content": " Web Development: Job Description A web developer is someone who designs and implements modern, responsive websites and webapps. They must be strong at technical web development skills (full-stack Javascript, CSS and HTML, and associated libraries and frameworks); have strong visual and design skills; and strong modern engineering methodologies (including Git and Agile).\nWeb Development: Programme TECHNICAL Languages:  HTML CSS Modern JavaScript  Frameworks:  Node.JS/Express JQuery Bootstrap, CSS grid React or Angular Mocha  Databases:  MongoDB MySQL  Other stuff  REST APIs Git Linux  PROFESSIONAL  Human Centred Design Agile  "
+},
+{
+	"uri": "/1-syllabuses/home-study-web-dev-prep/",
+	"title": "Web Dev home study",
+	"tags": [],
+	"description": "",
+	"content": "If you want to get into one of our web-dev courses it would be best if you do some preparation on your own.\nFree Code Camp\n Javascript Algorithms And Data Structures Certification: Basic JavaScript Responsive Web Design Certification: HTML and HTML 5 Responsive Web Design Certification: Basic CSS Javascript Algorithms And Data Structures Certification: ES6 Javascript Algorithms And Data Structures Certification: Debugging Javascript Algorithms And Data Structures Certification: Basic Data Structures Javascript Algorithms And Data Structures Certification: Basic Algorithm Scripting Javascript Algorithms And Data Structures Certification: Object Oriented Programming Front End Libraries Certification: Bootstrap Front End Libraries Certification: jQuery  "
+},
+{
+	"uri": "/1-syllabuses/web-dev-short-course/",
+	"title": "Web Dev short course",
+	"tags": [],
+	"description": "",
+	"content": "Our web dev short course is a compressed and extra-high intensity version of ouw web-dev long course. The major difference between these courses is: - web dev short is 6 months long in total - this course is not NCIT certified\nBasically we focus on getting students coding and teaming as soon as possible.\n"
+},
+{
+	"uri": "/1-syllabuses/data-engineering/week-by-week/",
+	"title": "Week by week",
+	"tags": [],
+	"description": "",
+	"content": " Month 0: #MakeUmuziBetter Week 1: Linux and intro to curriculum  TOPIC: introduction to linux TOPIC: introduction to bash WORKSHOP: Introduction to NCIT curriculum NCIT 01: Business and technology NCIT 02: Ethics and Professionalism in IT  Week 2: Useful tools and personal portfolio  WORKSHOP: Git basics PROJECT INTRO: Development of a portfolio website ? bootstrap etc have to be learned. FCC  Week 3: Personal portfolio and conducting research  NCIT 03: Conducting research and user interviews Workshop: Survey design with Google Forms PROJECT DEADLINE: Development of a portfolio website ? PROJECT INTRO: Research notes  Week 4:  NCIT 04: reporting  Week 5:  NCIT 05: Research presentation NCIT 06: Workshop: Giving and receiving constructive feedback  Week 6:  NCIT 07: History of the Internet and online gaming NCIT 08: Web design for business NCIT 09: Building an online business DATACAMP: https://www.datacamp.com/courses/intro-to-python-for-data-science  Week 7:  WORKSHOP: virtualenvironments and environmental variables NCIT 10: Agile project management NCIT 11: Agile meetings NCIT 12: Boolean algebra, logic ? Workshop: Problem solving techniques  Week 8:  NCIT 13: Version control (GIT) for teamwork (insufficient) NCIT 14: Pseudocode and documentation ? Workshop: Project organization and naming conventions, cookie-cutter data science  Weeks 9 \u0026amp; 10: OOP  NCIT 15: Object-oriented programming DATACAMP DEADLINE: https://www.datacamp.com/courses/object-oriented-programming-in-python  Week 11:  NCIT 16: Test-driven development Assignment: Testing your code with py.test and unittest  Week 12:  Workshop: Intro to mySQL and relational databases DATACAMP DEADLINE: sql basics: https://www.datacamp.com/courses/introduction-to-relational-databases-in-sql NCIT 17: Assignment: Create MySQL database with employee and product tables  Week 13:  Datacamp: https://www.datacamp.com/courses/intermediate-sql Assignment: Construct queries using previously designed database WORKSHOP: sqlalchemy  Week 14  NCIT 18: Input \u0026amp; Output TOPIC: XPath WORKSHOP: web scraping with selenium and XPath Webscraping Getting data from a database  Week 15:  NCIT 19: Search and sort techniques Assignment: search and sort algorithms  Week 16:  WORKSHOP: flask  Week 17: Week 18: SQL Week 19: Week 20: Week 21: Week 22: Week 23: Week 24: Months 6-9: Product Teams Product teams are teams of no more than 6 recruits guided by a product owner (Umuzi staff). The teams use the Scrum methodology to build real-world, web-based products. Recruits learn additional frameworks (e.g. Django) and packages as needed for the products.\nAdditional learning In addition to the curriculum listed above, the recruits participate in workshops given by industry professionals and Umuzi staff. Generally there are 2-3 workshops each month. Topics include time management, public speaking, networking, preparing for technical interviews, introduction to new frameworks, tech trends, etc.\nRecruits are also encouraged to attend industry meetups, conferences, and hackathons. On average, recruits attend 1 meetup/conference per month and 1-2 hackathons during their time at Umuzi.\nTODO  WORKSHOP: Object Oriented Thinking TOPIC: database tradeoffs TOPIC: HTML TOPIC: JSON TOPIC: Intro to docker WORKSHOP: git basics WORKSHOP: clean code for Python dev PROJECT INTRO: sql schema design, normalisation and denormalisation PROJECT INTRO: screen scrape with selenium into a db PROJECT INTRO: collect data from api and load into db PROJECT INTRO: send data to another api WORKSHOP: introduction to development tools and environment for data eng WORKSHOP: introduction to unit tests with PyTest TOPIC: streaming versus batch processing  if there is time: It would be nice to just let them touch on various tools just so they know what exists. It might prevent them from re-inventing wheels.\n TOPIC: Intro DAGs with Airflow. or Luigi TOPIC: Intro to cloud computing with GCP. cloudsql and vms in detail. and mention other things and point at tutorials as needed. TOPIC: Redis basics TOPIC: Introduction to Spark (just so they know what it is and where to find info if they need to)  "
+},
+{
+	"uri": "/1-syllabuses/data-science/week-by-week/",
+	"title": "Week by week",
+	"tags": [],
+	"description": "",
+	"content": "  Week 00 - Intro to Jupyter Notebook Week 01 - Linux Week 02 - Git Week 02 - Web development Week 03 - Survey design Week 04 - Data visualisation Week 05 - Data wrangling Week 06 - The Internet and Ethics in Data Week 07 - Agile project management Week 08 - Naming conventions and folder structures Week 09 \u0026amp; 10 - Object-oriented programming Week 11 - Test-driven development Week 12 \u0026amp; 13 - Statistical thinking Week 14 \u0026amp; 15 - Cross-validation \u0026amp; Simple Linear Regression Week 16 - Multivariate Linear Regression Week 17 - Intro to Relational Databases Week 18 - SQL and Python Week 19 - Dashboards Week 20 - Search and sort Week 21 - Decision Trees Week 22-23 - Logistic Regression Week 24 - K-Means Clustering  Month 0: #MakeUmuziBetter Week 1: Linux and intro to curriculum  Command line bootcamp Introduction to NCIT curriculum NCIT 01: Business and technology NCIT 02: Ethics and professionalism in IT  Week 2: Useful tools and personal portfolio  Version control workshop Project management with Trello (first intro to Agile and Scrum methodologies) Development of a portfolio website with HTML5, CSS and bootstrap  Week 3: Personal portfolio and conducting research  NCIT 03: Conducting research and user interviews Workshop: Survey design with Google Forms Assignment: Research notes Continue to work on portfolio website  Week 4: Reporting results  Introduction to data manipulation, summarisation and visualisation Importing and visualising data collected during the previous week Workshop: Central tendency, variance and data visualisation\n NCIT 04: Creating a reproducible report using Jupyter Notebooks\n  Week 5: Presentations and professional communication  NCIT 05: Research presentation Assignment: 10-min presentation using Jupyter Notebooks and RISE NCIT 06 Workshop: Giving and receiving constructive feedback  Week 6: The Internet and Business / Data Ethics  NCIT curriculum 07: History of the Internet and how the internet works 08: Web design for business; Ethics of data science 09: Building an online business  Week 7: Project management and problem solving  Introduction to Agile NCIT 10: Agile project management NCIT 11: Agile meetings NCIT 12: Boolean algebra, logic Workshop: Problem solving techniques  Week 8: Version control and documentation  NCIT 13: Version control (GIT) for teamwork NCIT 14: Pseudocode and documentation Workshop: Project organization and naming conventions, cookie-cutter data science  Weeks 9 \u0026amp; 10: OOP ? DATACAMP DEADLINE: https://www.datacamp.com/courses/object-oriented-programming-in-python\n NCIT 15: Object-oriented programming Assignment: Designing a dice-based poker game  Week 11: Test-driven development  NCIT 16: Test-driven development Assignment: Testing your code with py.test and unittest  Week 12: Statistical Thinking in Python  Hypothesis testing, probability and confidence intervals Correlation Assignment: Salary Correlates  Week 13: Statistical Thinking in Python  Missing data, outliers, influential values Salary assignment cont Overview of different machine learning techniques  Week 14 \u0026amp; 15: Cross-validation and Linear Regression  Test, training and validation sets Assignment: Predicting employee salaries  Week 16: Multivariate Regression  One-hot encoding and multiple regression Assignment: Predicting employee salaries  Week 17: Introduction to relational databases  Workshop: Intro to mySQL and relational databases Datacamp: https://www.datacamp.com/courses/introduction-to-relational-databases-in-sql NCIT 17: Assignment: Create MySQL database with employee and product tables Data quality control  Week 18: SQL  Datacamp: https://www.datacamp.com/courses/intro-to-sql-for-data-science Datacamp: https://www.datacamp.com/courses/intermediate-sql Assignment: Construct queries using previously designed database  Week 19: Dashboards - visualising data from a database  Introduction to Plotly \u0026amp; Dash NCIT 18: Input \u0026amp; Output Webscraping Getting data from a database  Week 20: Search and sort techniques  Introduction to algorithms NCIT 19: Search and sort techniques Assignment: search and sort algorithms  Week 21: Decision Trees  Datacamp: https://www.datacamp.com/courses/machine-learning-with-tree-based-models-in-python Assignment: https://www.kaggle.com/danilodiogo/churn-analysis-decision-tree-random-forest  Week 22-23: Logistic Regression  Datacamp: Predicting credit card approvals, https://www.datacamp.com/projects/558 Assignment: Titanic predictions / Predictors of success at Umuzi  Week 24: K-Means Clustering  Assignment: Iris dataset, https://www.kaggle.com/shrutimechlearn/classification-with-iris-dataset/data Assignment: https://www.kaggle.com/thebrownviking20/in-depth-eda-and-k-means-clustering https://www.kaggle.com/koki25ando/cluster-analysis-of-whisky-reviews-using-k-means Optional: Principal Components Analysis Datacamp: Predicting song genres, https://www.datacamp.com/projects/449  Months 6-9: Product Teams "
+},
+{
+	"uri": "/1-syllabuses/web-dev-long/week-by-week/",
+	"title": "Week by week",
+	"tags": [],
+	"description": "",
+	"content": " Month -1: Online Learning and Bootcamp During the application process, we ask prospective recruits to learn basic HTML and CSS skills through free online platforms (currently FreeCodeCamp and Khan Academy). In the screening process, they also complete aptitude (literacy, numeracy, logical thinking, problem solving, statistical understanding, and sequencing) and personality tests (grit, resilience, empathising and systemising, agreeableness, openness to new experience, emotional stability, conscientiousness and intellect/imagination). Those who perform well on the aptitude tests, are a good personality fit for work professionalism, and are able to learn new skills on their own, are invited for an interview, and a selection of interviewees are invited bootcamp.\nDuring a two-week bootcamp, the final stage of of Umuzi’s selection process, the applicants continue with online learning through FreeCodeCamp and are given a series of challenges. There are two short web development challenges they complete in their first week. In the second week, they start learning JavaScript and are given 5 simple challenges, as well as a more difficult problem (we don’t expect them to solve the difficult problem, we only ask them to walk us through their approach for trying to solve it). In addition to these technical challenges, we also have a series of group games and challenges to learn how they work with a team and under pressure. If the applicant performs well during bootcamp, they are invited to join Umuzi as a recruit.\nMonth 0: #MakeUmuziBetter A recruit’s journey starts with a three-week programme called Make Umuzi Better. Recruits from all departments form small cross-functional teams to tackle issues at Umuzi\u0026ndash;anything from mental health to kitchen norms to the physical layout of our space. To accomplish this, they learn about and execute Human-Centered Design, a technique used throughout their time at Umuzi. Each team maps out user journeys, conducts interviews and surveys, designs a prototype of their solution, and presents it to the staff and external guests. Months 1-4: Game Development Curriculum The first few months for a Umuzi Web Dev recruit are dedicated to obtaining a National Certificate of Information Technology: Systems Development (Level 5).\nDuring this time they are spending the first hour of each day going through lessons of FreeCodeCamp (primarily increasing their JavaScript knowledge).\nA note on Umuzi’s formal qualification and accreditation: Umuzi is a registered training provider with MICT SETA. Our National Certificate IT (Systems Development) (NCIT) qualification is a learnership requirement (i.e. Umuzi’s employer partners can therefore recognise their training and stipend spend as part of their skills development budgets). We work hard to both meet the National Certificate requirements and deliver a practical and relevant learning experience (which are not always well aligned) however, we firmly believe the most important part is the practical application of learning rather than merely meeting the unit standard requirements. Below we refer to the formal NCIT requirements e.g. 01: Business and technology.\nWeek 1: Linux and intro to curriculum Command line bootcamp Introduction to game development (NCIT curriculum) 01: Business and technology 02: Ethics and Professionalism in IT\nWeek 2: Useful tools and personal portfolio Git 101 workshop Project management with Trello (first intro to Agile and Scrum methodologies) Development of a personal website to showcase a portfolio of their work\nWeek 3: Personal portfolio and game research Continue to work on portfolio website Game development curriculum 03: Conducting research and user interviews Workshop: Survey design and analysis in Google Forms Assignment: Research notes\nWeek 4: Technical reports Game development curriculum 04: Writing a report on game research Assignment: technical report Portfolio websites due\nWeek 5: Presentations and feedback Game development curriculum 05: Presentations on game research Assignment: 10-min presentation with slides 06: Giving and receiving constructive feedback\nWeek 6: Web design Game development curriculum 07: History of the Internet and online gaming 08: Web design for business 09: Building an online business\nWeek 7: Project management and problem solving Game development curriculum 10: Agile project management 11: Agile meetings 12: Thinking like a machine (boolean algebra, logic) Workshop: Problem solving techniques\nWeek 8: Version control and documentation Game development curriculum 13: Version control (GIT) 14: Pseudocode and documentation Workshop: Project organization and naming conventions\nWeek 9: OOP Game development curriculum 15: Object-oriented programming Assignment: OOP person class Discuss game idea\nWeek 10: Game development workshop Workshop on game development in HTML5 Build Breakout game through live demos Game development curriculum Assignment: OOP due Watch game dev tutorials Finalize game idea\nWeek 11: Test-driven development and catch-up Game development curriculum 16: Test-driven development Assignment: TDD assignment with Mocha.js Watch game dev tutorials Catch up on assignments, readings, assessments for the curriculum\nWeek 12: Game development Game development curriculum Build game\nWeek 13: Game development Game development curriculum Build game Assignment: MVP of game due\nWeek 14: Node.js Workshop: Asynchronous vs synchronous code Workshop: Introduction to Node.js\nWeek 15: Database development Game development curriculum Assignment: Add login functionality to game using Node 17: Database development\nWeek 16: MongoDB Workshop: Using mongoDB to store user information Game development curriculum Assignment: Add database to game to store user data\nWeek 17: MySQL Workshop: Intro to mySQL and relational databases Game development curriculum Continue development of version 2\nWeek 18: Analytics and user feedback Game development curriculum 18: Analytics Assignment: add Google Analytics to game website Assignment: create user survey to collect feedback\nWeek 19: Search and sort techniques Game development curriculum 19: Search and sort Assignment: search and sort algorithms Continue game development based on feedback\nWeek 20: Finishing the game Game development curriculum Final version of game due 20: Software development process review\nMonths 5-9: Product Teams After recruits have finished with the formal qualification and their HTML5 game, they move on to working on our product teams.\nProduct teams are teams of no more than 6 recruits guided by a product owner (Umuzi staff). The teams use the Scrum methodology to build real-world, web-based products.They conduct research on new libraries and frameworks as needed for the products.\nThey also receive additional training on the MERN stack with stand-alone projects.\nWeek 21: Product team introduction Working with product owners and older recruits to understand the current state of whatever product team they join Participate in stand-ups and start owning tickets Update portfolio to make sure all projects completed during first 20 weeks are listed\nWeek 22: React Introduction to React Video tutorial lessons Assignment: React app Continue with product team work\nWeek 23: Node and Express Refresher on Node and Express and Socket.io Assignment: Node, Express, Socket app Continue with product team work\nWeek 24: Product team and OOP review Work on product teams Workshop reviewing OOP topics Catch up on stand-alone projects\nWeek 25: MongoDB Refresher on mongoDB and mongoose Assignment: Integrating database into application Continue on product team work\nWeek 26: Product team Work on product teams Catch up on stand-alone projects\nWeek 27: Product team and Portfolio Work on product teams Check in with managers to make sure all finished products are in portfolio\nWeek 28-35: Product team Work on product teams Learn new frameworks as needed Maintain personal portfolio\nAdditional learning In addition to the curriculum listed above, the recruits participate in workshops given by industry professionals and Umuzi staff. Generally there are 2-3 workshops each month. Topics include time management, public speaking, networking, preparing for technical interviews, introduction to new frameworks, tech trends, etc.\nRecruits are also encouraged to attend industry meetups, conferences, and hackathons. On average, recruits attend 1 meetup/conference per month and 1-2 hackathons during their time at Umuzi.\n"
+},
+{
+	"uri": "/1-syllabuses/web-dev-short-course/week-by-week/",
+	"title": "Week by week",
+	"tags": [],
+	"description": "",
+	"content": " The web dev short course is a short and intense introduction to full stack web development using modern JavaScript.\nCourse duration: 6 months. The last 2 months are an internship.\nThere is a lot of ground to cover so recruits will be encouraged to move forward with free code camp content whenever they have the time to do so. The FCC deadlines marked on this sheet are merely guidelines, ideally the recruits will be way ahead of the deadlines.\nIf a recruit is way ahead of schedule then that\u0026rsquo;s great. If we can put them onto product teams earlier then we will.\nMonth 1 The first month is dedicated to getting the recruits started. They\u0026rsquo;ll be able to gain basic proficiency in specific tooling, get to grips with how Umuzi works, and be given their first coding project.\nRecruits will be told all their deadlines up front. As professionals they will need to be able to manage their time so they are expected to do so from Day 1.\nWeek 1  PROJECT INTRO: memory-game-intro WORKSHOP: introduction-to-linux WORKSHOP: Time managment WORKSHOP: Being a professional WORKSHOP: Constructuve Feedback WORKSHOP: introduction to stack overflow WORKSHOP: introduction to development tools and environment for web TOPIC: introduction to bash  Week 2  WORKSHOP: git basics WORKSHOP: clean code for web PROJECT DEADLINE: memory-game  Week 3  WORKSHOP: introduction to unit tests theory WORKSHOP: introduction to unit tests with Mocha or Jasmine PROJECT CODE REVIEW: basic website frontend events  Week 4  TOPIC: OOP basics  Month 2  WORKSHOP: introduction to Node and friends WORKSHOP: introduction to express WORKSHOP: Object Oriented Thinking  Week 5 Week 6 Week 7 x design patterns\nWeek 8 Month 3 Week 9  DATACAMP DEADLINE: sql basics: https://www.datacamp.com/courses/introduction-to-relational-databases-in-sql WORKSHOP: node and sql PROJECT INTRO: expose a simple REST api for game PROJECT INTRO: update game to use REST api  Week 10  PROJECT DEADLINE: expose a simple REST api for game  Week 11  PROJECT DEADLINE: update game to use REST api PROJECT CODE REVIEW: expose a simple REST api for game WORKSHOP: git for teamwork WORKSHOP: Intro to Agile Product team introduction\n PROJECT CODE REVIEW: update game to use REST api\n  Week 12 Month 4: Product teams Week 13 Week 14 Week 15 Week 16  salary negotiation ? presentation skills and public speaking technical interview time managment\n WORKSHOP: make umuzi better short\n  "
+},
+{
+	"uri": "/2-topics/python-specific/unit-testing/automated-testing-with-pytest/",
+	"title": "Automated Testing in Python",
+	"tags": [],
+	"description": "",
+	"content": "There are a bunch of different test frameworks and test runners that Python allows. The main ones people tend to use are\n unittest pytest  These are both great tools with pros and cons. We have chosen to go with pytest for our course because of the lack of boiler-plate code. But don\u0026rsquo;t be scared of different frameworks!\nDifferent testing tools have different ways of achieving similar goals. Make sure you understand why we test, what to test and when to test.\nIf you end up working on a project that uses unnittest instead of pytest then use unittest. Eg: Django projects are traditionally tested using unittest instead of Pytest so there is a bunch of cool Django tooling around that, which is totally fine.\nRead and understand the following:\n https://github.com/shashikumarraja/pytest_tutorial https://automationpanda.com/2017/03/14/python-testing-101-pytest/  And here are the pytest docs. The official documentation is a source of the latest and greatest straight-from-the-horses-mouth knowledge.\n"
+},
+{
+	"uri": "/1-syllabuses/",
+	"title": "Syllabus",
+	"tags": [],
+	"description": "",
+	"content": "We support a few different paths.\n"
+},
+{
+	"uri": "/4-projects/tdd/1-bowling/",
+	"title": "ten-pin bowling scoring system",
+	"tags": [],
+	"description": "",
+	"content": " Take Note This is a Test Driven Development Project. Please follow a test driven methodologies. That means that you write your test code first!\nThe basic idea of TDD is to write the test code before you write any actual code. So you write a test (which will fail) then you write the code that will make the test pass.\nWhen you submit your code (on Github people!) then your tests MUST BE included in your code base.\nIn a professional setting, untested code is incomplete code.\nIn general: Follow recognised best practices around whatever language and test framework you are using. Eg: consistent naming conventions of functions, test files and literally everything else. Literally.\nInstructions Write a software system for keeping track of bowling scores. You can read about traditional 10 pin bowling scoring here.\nPlease put your tests in a directory named \u0026ldquo;tests\u0026rdquo; (unless the testing framework you are using follows some other convention(which is unlikely)).\nInitial inputs: The names of the players eg \u0026ldquo;Uncle Bob Martin\u0026rdquo; and \u0026ldquo;Ada Lovelace\u0026rdquo;\nGameplay Once the game has started, the players take turns until the game is concluded. Each player gets to throw the bowling ball up to three times during their turn. Each time they throw they can knock down up to a maximum of 10 pins.\nPLEASE DO NOT IMPLEMENT A FANCY GUI. we dont care to see the bowling pins or the ball, we dont care about physics.\nThe only input that will matter here is the number of pins knocked over.\nOutputs We should be able to access at any point in time:\n the total score of any player the \u0026ldquo;leaderboard\u0026rdquo; of the current game (who is in first place, second, third etc) the points any person accumulated during a single turn (aka frame) how many turns are left who\u0026rsquo;s turn is it now? whose turn is it next?  "
+},
+{
+	"uri": "/4-projects/memory-game/2-code-review-workshop/",
+	"title": "Code Review Workshop",
+	"tags": [],
+	"description": "",
+	"content": "Once your dirst deadline is met you will have developed some opinions about what good (and bad) code looks like. And of corse the senior staff members have their own opinions.\nIn this session: Senior staff members will highlight a few common problems and some outstanding results. You will also each be given a chance to tell us something you learned.\n"
+},
+{
+	"uri": "/4-projects/tdd/2-string-calculator/",
+	"title": "string-calculator",
+	"tags": [],
+	"description": "",
+	"content": "Do this: https://osherove.com/tdd-kata-1/\n"
+},
+{
+	"uri": "/4-projects/memory-game/3-deadline/",
+	"title": "Deadline 2: configurable grid size",
+	"tags": [],
+	"description": "",
+	"content": " Implement the following user story on your code-review-buddy\u0026rsquo;s game:\nAs a user I want to be able to choose the dimensions of the grid each time I play the game. For example I might want to play on a 2x2 grid or a 3x2 grid.\nUse Git! At this point you should be comfortable with using Git from the command line.\nMake a Git branch for your new work and make sure to push your latest code atleast daily. You should submit your work as a pull request on your buddy\u0026rsquo;s repo, your buddy will review your code before merging it using Github\u0026rsquo;s code-review tooling.\nQuestions about Git? Please ask one of our junior facilitators first. If they can\u0026rsquo;t help then ask one of the senior managers.\nWhy Git? Git makes a lot of people uncomfortable. If you are struggling to see the point then examine the fact that the software engineering industry as a whole sees the point. If you work in a professional software development team then Git is something you will need to use.\n"
+},
+{
+	"uri": "/2-topics/",
+	"title": "Topics",
+	"tags": [],
+	"description": "",
+	"content": "A topic is a collection of learning materials that the recruit can go through on their own.\n"
+},
+{
+	"uri": "/3-workshops/",
+	"title": "Workshops",
+	"tags": [],
+	"description": "",
+	"content": "A workshop is an interactive session that includes at least one Umuzi staff member. These will often be presentations, demonstrations or Q\u0026amp;A sessions.\nThis section includes all the references and explanations needed to put on a workshop.\n"
+},
+{
+	"uri": "/4-projects/",
+	"title": "Projects",
+	"tags": [],
+	"description": "",
+	"content": " Units of work with strict deadlines to be completed alone or in groups\nProjects have three parts:\nPROJECT INTRO This is when the project is given to the recruits. Everything is explained, they are pointed at useful resources and clear instructions, and they are told the deadline.\nPROJECT DEADLINE This is when the projects are due. Umuzi staff members will now review the code to give feedback.\nFor code projects The recruits need to provide evidence that they got another recruit to review their work, and that they reviewed another recruits work prior to the deadline.\nThe recruit is expected to submit code and documentation in the form of a git repo. All git, coding, testing and documentation best practices that the course has covered thus far need to be adhered to.\nPROJECT CODE REVIEW Once the staff members have reviewed code projects then a code review session will be held. This is a kind of workshop where an Umuzi staff member will present on the project submissions.\n If anyone did something awesome then highlight that If there is a common misconception or mistake then highlight that highlight any subtle lessons that should have been learned get feedback from the recruits, Q\u0026amp;A get a few of the recruitts to explain parts of their code and approaches to the group  If anyone submitted nonesense - either they were sloppy or they just didn\u0026rsquo;t get it, then don\u0026rsquo;t make them the center of attention. Pull them aside after the code review and have a private discussion. This should happen after the group code review session because that way they will see the standard of the group as a whole and possibly be motivated to conform.\n"
+},
+{
+	"uri": "/5-misc/",
+	"title": "Misc",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/3-workshops/agile-scrum/",
+	"title": "Agile and Scrum",
+	"tags": [],
+	"description": "",
+	"content": "https://docs.google.com/presentation/d/1jkpl8EZBzvX3zKnWEyX7LKlbGcIocYkxTDIGmT42S8A\nhttps://docs.google.com/presentation/d/1Qr66MxmoiV-3-ZiSj5Ro_B8QneKOfC8UAp0DCfDOdoA\n"
+},
+{
+	"uri": "/2-topics/python-specific/unit-testing/automated-testing-pandas-and-numpy/",
+	"title": "Automated Testing pandas and numpy",
+	"tags": [],
+	"description": "",
+	"content": "Testing and data can get a little tricky. Check these out:\nAutomate your data analysis testing (Stephen Childs) https://www.youtube.com/watch?v=ovvU41ve1FQ\nhttps://penandpants.com/2014/10/07/testing-with-numpy-and-pandas/\n"
+},
+{
+	"uri": "/4-projects/first-personal-website/",
+	"title": "Build your first personal website",
+	"tags": [],
+	"description": "",
+	"content": "For the learnership you will create a website with your CV and a portfolio of your work. Create the website and host it on Github. You will be updating your portfolio throughout the learnership.\nBrief: Create a Personal Website\nSummary: Create a personal website to showcase your talents and ambitions and to let the world know more about you. In the future, this will be the website you send to potential employers, so it should have the ability to show a portfolio of your best work.\nDetails: The content and information you choose to display is up to you. There should be some information about your skills, interests, and previous experience, as well as information on how to get in touch with you. Think about the user experience when designing your layout and navigation.\nThe HTML and CSS should be developed in a logical way with good naming conventions that would allow another developer to easily understand and build upon your code.\nYour web page files and folders should be organised and named in a logical manner.\nOnce you have finished your design and are satisfied with the style and content, upload the website to be hosted on GitHub Pages.\nRequirements:\n• Website can be a single page or have multiple pages (the structure is up to you), but it must contain the following information: ◦ About me, Skills (Your tech stack: the languages and tools you use), Projects/Portfolio, and Contact (social media, email, phone, etc) • Website must be responsive to different screen sizes - use a mobile-first approach! ◦ Use CSS Grid (see tutorials below) to design your site and make it responsive • Website must be developed using HTML and CSS Grid with a logical structure and naming conventions in your code • Some basic JavaScript/Jquery should be integrated into the site in some way to make it more interactive and user-friendly • Submit a link to the completed website on your cohort’s Slack channel • Feel free to use icons, colours, pictures or organograms if you need to. • Create a board and make use of Trello which will assist you in breaking down your tasks.  Links How to make a GitHub Page : https://pages.github.com/ CSS Grid: https://scrimba.com/g/gR8PTE (Screencast tutorials) https://css-tricks.com/snippets/css/complete-guide-grid/ (more info)\n"
+},
+{
+	"uri": "/3-workshops/clean-code/",
+	"title": "Clean Code",
+	"tags": [],
+	"description": "",
+	"content": " “Any fool can write code that a computer can understand.\nGood programmers write code that humans can understand.” ~ Martin Fowler\n "
+},
+{
+	"uri": "/3-workshops/general-coding-best-practices/",
+	"title": "Clean Code (language agnostic)",
+	"tags": [],
+	"description": "",
+	"content": "https://docs.google.com/presentation/d/1mTjvcPtkf0q_h594bpaLIiRpi8QKmAryOxLwSFEvyeM/edit#slide=id.g1f87997393_0_782\n"
+},
+{
+	"uri": "/3-workshops/clean-code-for-web/",
+	"title": "Clean Code for web",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/4-projects/development-of-a-portfolio-website/",
+	"title": "Development of a Portfolio website",
+	"tags": [],
+	"description": "",
+	"content": "with HTML5, CSS and bootstrap\nTODO\n"
+},
+{
+	"uri": "/4-projects/expose-a-simple-rest-api-for-game/",
+	"title": "Expose a simple REST api for your game",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/3-workshops/git-basics/",
+	"title": "Git Basics",
+	"tags": [],
+	"description": "",
+	"content": "https://docs.google.com/presentation/d/1Uz9PX1A-bDlxEMDXjrTaGs588QrbVwDDMhPEmuY8WA4/edit#slide=id.p\nhttps://docs.google.com/presentation/d/1N6EeW3BE2r9CZDOSgT5dUBYX9-d8QT15_tA-9OtnIfI/edit#slide=id.p\n"
+},
+{
+	"uri": "/2-topics/git/git-book/",
+	"title": "Git Books",
+	"tags": [],
+	"description": "",
+	"content": " The Git Book We keep our git repos on Github so dont worry about the server setup stuff. The first three chapters will serve you well initially\nhttps://git-scm.com/book/en/v2\nPro Git https://github.com/progit/progit2\n"
+},
+{
+	"uri": "/3-workshops/git-for-teamwork/",
+	"title": "Git for Teamwork",
+	"tags": [],
+	"description": "",
+	"content": " PREREQUISITES:  workshop/git-basics  TODO\n"
+},
+{
+	"uri": "/5-misc/how-our-learnerships-work/",
+	"title": "How our learnerships work",
+	"tags": [],
+	"description": "",
+	"content": "Target Audience Any black South African over the age of 18, not currently employed or currently underemployed\nPrerequisites • English literacy • Matric maths • No technical prerequisites, just a strong motivation to challenge oneself and learn new things • Ability to work in an agile, human-centred way\nDuration • 160 hours of training in HCD and Agile through the Umuzi workshops and crash course • 1360 hours of subject-specific, technical training over 8 months at Umuzi proper • 3 months of full-time work experience with Umuzi’s world-class employer-partners.\nCost • 100% free for students • Students receive a stipend of R3500 per month for living costs\nObjectives of Training\nUmuzi helps talented young South Africans move from unemployment into high-value careers.\nUmuzi’s tech programmes are focussed on the most in-demand skills and technologies in the current market: full stack JavaScript for web development, Python and SQL for data science and data engineering.\nUmuzi develops all-round professionals, with a focus on soft skills, Human Centred Design and Agile Scrum methodology.\n"
+},
+{
+	"uri": "/3-workshops/how-to-be-a-professional/",
+	"title": "How to be a professional",
+	"tags": [],
+	"description": "",
+	"content": "https://docs.google.com/presentation/d/1g_3BDfqmcRSaPxOHAAXg_-FeBXM3gAuo5D10OlMjeHQ\n"
+},
+{
+	"uri": "/4-projects/how-to-submit-your-project/",
+	"title": "How to submit your project",
+	"tags": [],
+	"description": "",
+	"content": " How to submit your project Create a repo on github. The repo name should be: \u0026ldquo;umuzi-project-[the project description filename without the extension]\u0026ldquo;. Eg: if you are completing the project described in \u0026ldquo;basic-website-frontend-events.md\u0026rdquo; then you should name your github repo: \u0026ldquo;umuzi-project-basic-website-frontend-events\u0026rdquo;\nAll coding projects will be submitted as git repos. You are expected to use git properly, you will be penalised if you only have one gigantic commit or if your commit messages are nonesense.\nThere should be a clear README that describes how to launch your program. Maybe a script needs to be run, maybe an index.html needs to be opened in a browser. Tell us what we need to do.\nOnce your code is all neat and tidy in git then post a link to the #project-submissions channel on slack.\nTODO: should we use older cohorts to review code before we do? It\u0026rsquo;ll be good practice for them but might effect deadlines\n"
+},
+{
+	"uri": "/3-workshops/interviewing-sucessfully/",
+	"title": "Interviewing sucessfully",
+	"tags": [],
+	"description": "",
+	"content": "https://docs.google.com/presentation/d/16FMMbvXrrNBOS3RJfG0-CHERvlldaiY7pq_i3cs4S_c\n"
+},
+{
+	"uri": "/3-workshops/intro-to-agile/",
+	"title": "Intro to Agile",
+	"tags": [],
+	"description": "",
+	"content": "Project management with Trello (first intro to Agile and Scrum methodologies)\nTODO\n"
+},
+{
+	"uri": "/2-topics/linux/introduction-to-bash/",
+	"title": "Introduction to Bash",
+	"tags": [],
+	"description": "",
+	"content": " (Command line bootcamp)[http://rik.smith-unna.com/command_line_bootcamp/]  "
+},
+{
+	"uri": "/3-workshops/introduction-to-express/",
+	"title": "Introduction to Express js",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/2-topics/linux/introduction-to-linux/",
+	"title": "Introduction to Linux",
+	"tags": [],
+	"description": "",
+	"content": " Introdution to linux Linux is an operating system (much like windows is an operating system). Linux started of as one nerd\u0026rsquo;s hobby but quickly grew in fame. Linux is free, it\u0026rsquo;s source code is freely avaiable, and it is created, developed and used by a large communi\nhttps://www.youtube.com/watch?v=PTaL1s3YJPY http://rik.smith-unna.com/command_line_bootcamp/?id=1d0zyezf844\nExcercises: "
+},
+{
+	"uri": "/3-workshops/introduction-to-linux/",
+	"title": "Introduction to Linux",
+	"tags": [],
+	"description": "",
+	"content": "presentation: https://docs.google.com/presentation/d/1dhj1-p9Ufl4ilSy_Nu8sw-kuNVWkSvhp0dn5KGo9TyY post install guide 1: https://gitlab.com/prelude-open-source/mint-post-install-guide post install guide 2: https://fossbytes.com/things-to-do-after-installing-linux-mint/\nGo through the Linux Introduction slides and complete the command line tutorial here: http://rik.smith-unna.com/command_line_bootcamp/?id=1d0zyezf844 Or use the tutorial here if the above link is not working: http://korflab.ucdavis.edu/bootcamp.html\nOnce you have completed the command line tutorial, you can optionally complete the exercises in this directory.\nhttps://drive.google.com/drive/folders/1Y_MkM737c1GHIuu9oM0AxAAoskms9maP?usp=sharing\n"
+},
+{
+	"uri": "/3-workshops/introduction-to-mode-and-friends/",
+	"title": "Introduction to Mode and Friends",
+	"tags": [],
+	"description": "",
+	"content": "TODO\n"
+},
+{
+	"uri": "/3-workshops/introduction-to-node-and-friends/",
+	"title": "Introduction to Node and Friends",
+	"tags": [],
+	"description": "",
+	"content": "https://docs.google.com/presentation/d/1dtrsWOWjoA9A9nTmznCkdYz0oRK6O76jXRINp0tzjrQ\n"
+},
+{
+	"uri": "/3-workshops/node-and-sql/",
+	"title": "Introduction to Node and SQL",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/3-workshops/introduction-to-development-tools-and-environment-for-web/",
+	"title": "Introduction to development environment for web",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/3-workshops/introduction-to-unit-tests-with-mocha/",
+	"title": "Introduction to unit tests with Mocha",
+	"tags": [],
+	"description": "",
+	"content": "https://github.com/dwyl/learn-tdd https://jrsinclair.com/articles/2016/gentle-introduction-to-javascript-tdd-intro/ https://codeburst.io/javascript-unit-testing-using-mocha-and-chai-1d97d9f18e71 https://mochajs.org/ https://medium.com/@williamjoshualacey/unit-testing-with-mocha-fda6a6f360c6 https://blog.logrocket.com/a-quick-and-complete-guide-to-mocha-testing-d0e0ea09f09d\n"
+},
+{
+	"uri": "/5-misc/make-umuzi-better-full/",
+	"title": "Make Umuzi Better (long)",
+	"tags": [],
+	"description": "",
+	"content": " Make Umuzi Better (MUB) A recruit’s journey starts with a three-week programme called Make Umuzi Better. Recruits from all departments form small cross-functional teams to tackle issues at Umuzi\u0026ndash;anything from mental health to kitchen norms to the physical layout of our space. To accomplish this, they learn about and execute Human-Centered Design, a technique used throughout their time at Umuzi. Each team maps out user journeys, conducts interviews and surveys, designs a prototype of their solution, and presents it to the staff and external guests.\n"
+},
+{
+	"uri": "/5-misc/make-umuzi-better-short/",
+	"title": "Make Umuzi Better short course",
+	"tags": [],
+	"description": "",
+	"content": "A recruit’s journey starts with a three-day programme called Make Umuzi Better. The recruits are expected to work in a team to tackle issues at Umuzi\u0026ndash;anything from mental health to kitchen norms to the physical layout of our space. To accomplish this, they learn about and execute Human-Centered Design, a technique used throughout their time at Umuzi. Each team maps out user journeys, conducts interviews and surveys, designs a prototype of their solution, and presents it to the staff and external guests.\nThere are a few goals to this program:\n recruits are introduced to Human Centered Design principles (HCD) recruits are submerged into Umuzi culture from the get go recruits are empowered to make useful contributions to Umuzi as an organisation and community  "
+},
+{
+	"uri": "/4-projects/memory-game/",
+	"title": "Memory game intro",
+	"tags": [],
+	"description": "",
+	"content": " Here is an example of a memory game: http://dkmgames.com/memory/pairsrun.php\nInstructions Create a Memory game MVP. Requirements:\n make use of simple dom elements, no fancy graphics needed or canvas stuff a single player can play the game no time limit (for the player. You, on the other hand have a deadline to meet) board is a pre-defined size board allows one set of symbols to be randomly hidden  Submission process  Make sure you follow good coding practices, your code should be readable. Your code should be in a git repo with a sensible name. You should push your latest code to your repo before you leave the office every day. once you are done with the basic game then please communicate this fact to your managers by emailing them your submission. You will be expected to demonstrate your basic game  Note This project will be multiple phases. We will ask you to implement different features over time. We will also mix things up a bit and get you to implement features on other people\u0026rsquo;s games. So be kind to your colleagues and write clear code!\n You will be reviewing each other\u0026rsquo;s code. We will tell you who to review. Please take the code review process seriously, it\u0026rsquo;s a great way to learn about good practice and teamwork Incorperate your reviewer\u0026rsquo;s feedback into your code Your game code will then be reviewed by an Umuzi staff member we will then have a workshop in which we go over any common mistakes and highlight anything excellent we will communicate all the dates involved  "
+},
+{
+	"uri": "/3-workshops/nodejs-async-vs-sync/",
+	"title": "Node Sync/Async",
+	"tags": [],
+	"description": "",
+	"content": "https://docs.google.com/presentation/d/19ppsjmkKAvJcasK_BnjptTUfF4KQwaInDKVkhK1b6vA\n"
+},
+{
+	"uri": "/4-projects/oop-in-js/",
+	"title": "OOP in Js",
+	"tags": [],
+	"description": "",
+	"content": " Assignment 1: Basics Assignment Description\nCreate a class called Person which defines the generic data and functionality of a person. Now as we know there are a lot of things involved with a Person e.g (age,gender,their address, height, shoe size, passport number, etc). but in this case we are only interested in showing their name, age, gender, and interests, and we also want to be able to write a short introduction about them based on this data, and get them to say Hello. This is known as abstraction in OOP ,creating a simple model of a more complex thing, which represents its most important aspects in a way that is easy to work with for our program\u0026rsquo;s purposes.\nRemember! From your Person class, you will create object instances — objects that contain the data and functionality defined in the class.\nE.g) Class: Person Name Surname Age Gender Interests: an array of activities/interests Full Name: returns the person’s Name + Surname Greeting: “Hello I’m +Name!”\nObject: FirstPerson Name: Nosipho Surname: Masondo Age: 8 Gender: Female Interests: Dancing,Singing Greeting: “Hello I’m Nosipho”\nObject: SecondPerson Name: Thando Surname: Ngwane Age:16 Gender: Male Interests: playing games,drawing Method: I am Thando Ngwane I am 16 and my interests are playing games and and drawing.\nWhen an object instance is created from a class, the class\u0026rsquo;s constructor function is run to create it. This process of creating an object instance from a class is called instantiation — the object instance is instantiated from the class.\nIn JavaScript we use special functions called constructor functions to define objects and their features.They are useful because you\u0026rsquo;ll often come across situations in which you don\u0026rsquo;t know how many objects you will be creating; constructors provide the means to create as many objects as you need in an effective way, attaching data and functions to them as required.\nI hope this information is useful!\n\u000cAssignment 2: Dice You’ve all seen dice before. A die (singular for dice) usually has 6 sides, but can have more. Eg 20 sided dice are a thing.\nA die has a value (eg if 1 dot is showing then the value is 1). When a die is rolled then it’s value randomly changes. A six sided die has a ⅙ chance of landing on any of the sides.\nA weighted die is less random. A weighted die has a higher chance of landing on a specific number (or specific numbers).\nDraw a class diagram to represent the above Write the code\nDice are made in a factory. A factory can only make one kind of die. Eg there could be a factory that only makes 6 sided dice, and another factory that only makes 20 sided dice.\nFactories are imperfect, sometimes there are manufacturing flaws. Every factory has a possibility of creating a weighted die by mistake.\n Create a DiceFactory class. It should have a method called makeDie that outputs a single die instance  Since dice factories are imperfect, their outputted dice need to be tested. A dice tester can test one die at a time. It tests the die by rolling it a bunch of times and checking that the results are properly random. A dice tester can only test one kind of die, for example one dice tester might only test 6 sided dice, and another might only test 20 sided dice.\n Write a class to represent a DiceTester. It should have a method called testDie that has a single die as an input and returns True if the die is fair. If the wrong kind of Die is input then the DiceTester should be able to detect that and log an error.  \u000cAssignment 3: Compound interest A Bank Account has a balance, an interest rate and a monthly fee.\nFor example if a person has an interest rate of 12% (which is totally unrealistic but make the numbers easier) and they have R1000 in their bank account then they will receive (R1000 x 12% / 12) after one month of saving. That means they earned R10 in interest. Now if their monthly fee on that account is R50 then their final balance after 1 month is R1000+R10-R50 = R960.\nThe balance of a bank account can also change if a deposit or withdrawal is made. Money can also be transferred between bank accounts.\nA bank account also has a type, for example Cheque, Savings or Credit Card. Bank accounts belong to People. One person can own multiple bank accounts.\nA bank account also has a number that uniquely identifies it within the bank. If I wanted to transfer money from my bank account to yours then all I should need is your bank account number.\nDraw a UML diagram that depicts all the classes described above Write code to match your UML\n"
+},
+{
+	"uri": "/4-projects/oop-in-python/",
+	"title": "OOP in Python",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/3-workshops/object-oriented-thinking/",
+	"title": "Object Orientated thinking",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/2-topics/introduction-to-stackoverflow/",
+	"title": "Stack Overflow",
+	"tags": [],
+	"description": "",
+	"content": "Stack Overflow will save your life. Use it.\nIt\u0026rsquo;s a question and answer platform where\nhttps://stackoverflow.com/help/how-to-ask\n"
+},
+{
+	"uri": "/2-topics/git/version-control-and-scrum/",
+	"title": "Version Control &amp; Scrum using Trello &amp; Github",
+	"tags": [],
+	"description": "",
+	"content": " Scrum roles  Team Member Developers, designers, and anyone who\u0026rsquo;s doing that actual production of work. Responsible for working with the Product Owner to break down tasks \u0026amp; reach completion on different ticket items. Scrum Master The facilitator of the scrum process. If this person is doing their job right, the team becomes independent over time. Product Owner The stakeholder for the product. This person is in charge of deciding what the MVP, and different versions of the product look like. They are also responsible for ensuring the backlog is in correct order.  Scrum Meetings Planning  When: At the beginning of the sprint What: The team commits to a set of tickets for the sprint that they think they can complete. Why: Gives a goal to work towards, ensures that there is a select pool of tickets that the team can then have the freedom to choose as they please.  Storytime  When: As needed. 2-3+ sprint\u0026rsquo;s worth of tickets should be in the backlog at all times. What: The team hashes out different story point from the product manager, converting them into tickets that are an appropriate size with unambiguous requirements. Why: So every ticket is clear on what needs to be accomplished.  Review  When: At the end of every sprint What: Team demos all work done for an audience including, but not limited to, stakeholders \u0026amp; team members Why: It\u0026rsquo;s not only nice to show off work, but it ensures that everything is actually working in harmony.  Retro  When: After the end of every sprint What: The team, with the intention of improving the scrum process, covers the following issues together What went well What went poorly What can be done to improve Why: The scrum process should be adaptable to the organization\u0026rsquo;s needs. This also allows all members of the team to participate and own the process.  Standup  When: Every day What: Team answers following questions in order - What did I do to advance the team\u0026rsquo;s goals in the sprint yesterday? - What is impeding me from working on the team\u0026rsquo;s goals for this sprint? All other discussions are tabled for smaller groups afterwards Why: Helps to adapt to problems that come up, and to initiate conversation about different topics.  General issue board procedure Every time you move a ticket from one column to another, you are unassigning yourself. A ticket in the done column is reassigned to the person who did the development work on it. Comment on the tickets as a form of taking notes \u0026amp; passing on explanations from one person to another. Attach all resources to the ticket whether they are points of reference, design documents, etc. Name the tickets so there is no confusion as to what is being accomplished. Add every requirement to the checklist, and be specific. Check off requirements as you finish work on them in development.\nBacklog Items in the backlog represent the conceived work for the team over the next 2-3+ sprints. Before items are able to be moved into the \u0026ldquo;To Do\u0026rdquo; column, they need to be looked over by the team during the \u0026ldquo;Storytime\u0026rdquo; meeting to make sure that the objectives are clear. Various labeling/measuring can take place on these tickets, like adding the feature they\u0026rsquo;re associated with, the estimated work hours to complete the feature, and more.\nTo Do Tickets in to-do are in the queue for the team\u0026rsquo;s current sprint. The team commits to completing a given amount of tickets in the coming sprint during the \u0026ldquo;Planning\u0026rdquo; meeting.\nDeveloping Tickets moved to developing are being actively worked on by the person assigned to them.\nGit Action Before any coding occurs, pull down the latest version from \u0026ldquo;origin/master\u0026rdquo;. Then, after coding is finished, create a new branch with a name corresponding to your ticket. Commit, push to origin, and create a pull request in Github.\nCode Review Tickets in code review are having their associated code (or design) reviewed. A team member will look at the pull request on Github and see that the code is well formed, doesn\u0026rsquo;t have obvious bugs, and accomplishes what it set out to do. If necessary, changes are suggested, and the ticket is sent back to development.\nGit Action If the code passes review, the pull request is approved and the branch is merged into master.\nQuality Assurance Tickets in quality assurance are being checked to make sure the user experiences what the ticket was set out to accomplish. If there\u0026rsquo;s bugs or missing functionality, send it back to development. ####Git Action Pull the merge commit from origin/master for testing.\nDone: Tickets here are done.\n"
+},
+{
+	"uri": "/1-syllabuses/online-learning-and-bootbamp/",
+	"title": "Online Learning and bootcamp",
+	"tags": [],
+	"description": "",
+	"content": " Month -1: Online Learning and Bootcamp During the application process, we ask prospective recruits to learn basic python with an introduction to data management and visualisation with pandas, numpy and matplotlib. In the screening process, they also complete aptitude (literacy, numeracy, logical thinking, problem solving, statistical understanding, and sequencing) and personality tests (grit, resilience, empathising and systemising, agreeableness, openness to new experience, emotional stability, conscientiousness and intellect/imagination). Those who perform well on the aptitude tests, are a good personality fit for work professionalism, and are able to learn new skills on their own, are invited for an interview, and a selection of interviewees are invited bootcamp.\nDuring bootcamp, the final stage of of Umuzi’s selection process, the applicants continue with online learning, presenting the results of their work at the end of the bootcamp. In addition to these technical challenges, we also have a series of teamwork challenges to learn how they communicate within a team and work under pressure; as well as individual tasks to assess ability to follow instructions, control impulsive reactions and plan actions. If the applicant performs well during bootcamp, they are invited to join Umuzi as a recruit.\n"
+},
+{
+	"uri": "/makeumuzibetter/",
+	"title": "Online Learning and bootcamp",
+	"tags": [],
+	"description": "",
+	"content": "A recruit’s journey starts with a three-week programme called #MakeUmuziBetter. Recruits from all departments form small cross-functional teams to tackle issues at Umuzi\u0026ndash;anything from mental health to kitchen norms to the physical layout of our space. To accomplish this, they learn about and execute Human-Centered Design, a technique used throughout their time at Umuzi. Each team maps out user journeys, conducts interviews and surveys, designs a prototype of their solution, and presents it to the staff and external guests. Months 1-5: Systems Development and Data Science The first few months for a Umuzi tech recruit are dedicated to obtaining a National Certificate of Information Technology: Systems Development (Level 5), while also learning basic data science concepts.\nA note on Umuzi’s formal qualification and accreditation: Umuzi is a registered training provider with MICT SETA. Our National Certificate IT (Systems Development) (NCIT) qualification is a learnership requirement (i.e. Umuzi’s employer partners can therefore recognise their training and stipend spend as part of their skills development budgets). We work hard to both meet the National Certificate requirements and deliver a practical and relevant learning experience (which are not always well aligned) however, we firmly believe the most important part is the practical application of learning rather than merely meeting the unit standard requirements. Below we refer to the formal NCIT requirements e.g. NCIT01: Business and technology.\n"
+},
+{
+	"uri": "/2-topics/python-specific/sql-and-python/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": "Complete the Datacamp skill track Importing \u0026amp; Cleaning Data with Python: https://www.datacamp.com/tracks/importing-cleaning-data-with-python\n"
+},
+{
+	"uri": "/2-topics/python-specific/statistical-thinking/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": "Complete the DataCamp courses Statistical Thinking in Python Part 1 and Statistical Thinking in Python Part 2: https://www.datacamp.com/courses/statistical-thinking-in-python-part-1 https://www.datacamp.com/courses/statistical-thinking-in-python-part-2\nThen, completed the Correlation assignment using the salary dataset.\n"
+},
+{
+	"uri": "/3-workshops/time-managment/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": " Time Managment TODO: which one?\nhttps://docs.google.com/presentation/d/1gRAGqSma21RkbnfoCO2KM565EfGCf9m4ZuJ9S7mcyFc\nhttps://docs.google.com/presentation/d/1gOBA6zen5jre1DxCKRU9zHpVDFh2n8yPMXw2STCOkCw\n"
+},
+{
+	"uri": "/4-projects/statistical-thinking/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": "Umuzi assignment: Predicting salaries differences\nSubmission: Commit your notebook changes to GitHub. Once you are done, create an html report from the notebook. The last GitHub commit done before 12pm will be marked.\nTo complete this assignment, you should watch the following videos: Crash Course Statistics: Measures of Spread Crash Course Statistics: Plots, Outliers and Justin Timberlake Crash Course Statistics: Correlation Doesn’t Equal Causation\nIn the next series of challenges, we will predict employee salaries from different employee characteristics (or features). We ask employees working in four different fields to state their salary and some background information.\nImport the data salary.csv to a Jupyter Notebook and answer the following questions:\nQuestion 1 a) How many responders are there? Are there any missing values in any of the variables? b) What is the lowest salary and highest salary in the group? c) What is the mean salary for the sample? Include the standard error of the mean. d) What is the standard deviation for the years worked? e) What is the median salary for the sample? f) What is the interquartile range for salary in the sample? g) How many men are there in the sample? How many women are there in the sample? Present this information in a table. h) How many women are executives compared to men? i) Create a histogram for the variable Salary. j) Examine the histogram and describe the distribution for Salary. k) Create a bar graph to show the different average salaries of men and women. (Bonus: Add error bars to the bars showing the 95% confidence interval). What does the graph tell you about the difference between men and women’s salaries? l) Create a scatterplot showing the relationship between Years Worked and Salary (don’t forget to insert a trend line). What is the relationship between Years Worked and Salary? 1. Describe any patterns in the scatterplot. Do you notice any unusual/extreme values that do not fit the general trend? If you see any unusual values, briefly describe them (Who are they? In what way are they different?) m) Using the pearsonr function from the scipy.stats package, calculate the Pearson correlation coefficient (and its corresponding p value) to determine the nature of the relationship between Years Worked and Salary. See help(pearsonr) for help on this function. 1. Interpret the size and direction of the correlation statistic. 2. Is the relationship statistically significant? Report the appropriate statistic(s) to support your answer.\n"
+},
+{
+	"uri": "/5-misc/code-review/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": " Code Review Session Once a project has been submitted and reviewed then a group code-review session will be held by a tech team staff member. The review will:\n highlight outstanding work highlight common problems and solutions get a few of the recruits to explain their reasoning and code structures publicly give the recruits a chance to ask questions and give feedback  "
+},
+{
+	"uri": "/5-misc/junior-data-sci-job-spec/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": "28 Madison Street Jeppestown PBO: 930 033 432\nData Science (Junior) Job Specification\nAbilities • Object-oriented coding using Python • Data importing from a variety of sources (relational databases, JSON, REST APIs) • Cleaning, manipulating and merging data using Python • Visualising categorical and continuous data in Python and Tableau / Redash • Summarising data • Interpreting graphs and models • Hypothesis testing • Survey design • Modelling data: basic regression, classification and clustering techniques • Performing cross-validation and model diagnostics • Creating and querying relational databases using Python and SQL • Using version-control software, individually and as part of a team\nPython • Ability to create and debug functions • Object-oriented programming • Comfortable with scientific libraries such as numpy, pandas, statsmodels, scikit-learn, matplotlib, seaborn • Familiar with Jupyter Notebooks\nSQL • Database, table and key creation • Querying data • Joining tables\nLinux (Ubuntu) • File and directory navigation and manipulation • Basic bash scripting • Setting user permissions and file ownership • Standard input/out, stream redirection, piping and filters • Installing, updating and upgrading packages\nHTML5 • Ability to create a basic HTML page • Ability to link pages in a website • Create a responsive site that will suit all devices and keep content fixed • Create an html page that is user friendly\nMethodologies and Professional Skills • Scrum and Agile • Ability to break down tasks and use productivity tools such as Trello • Presentation skills\nTech Stack • Linux, Python, MySQL, Tableau / Redash, HTML5, CSS, Git\nThe successful Candidate will • Have a National Certificate NQF level 5 in IT • Be ready for three months’ work experience • Have experience working in teams, producing and reviewing code for real-life products\n"
+},
+{
+	"uri": "/formative-assessments/tdd/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": "Formative Assessment 16 Test-driven development (115359 \u0026amp; 115384)\nReadings: https://docs.python.org/3/library/unittest.html https://docs.python-guide.org/writing/tests/ https://jeffknupp.com/blog/2013/12/09/improve-your-python-understanding-unit-testing/\nVideo: https://www.youtube.com/watch?v=6tNS--WetLI\nData Assignment:\nWrite a script called factorial.py that takes a number and returns its factorial.\nSteps: Think about which tests you want to do on that function. Write the tests first. Test an empty function called factorial - it should fail the tests Add code for returning the factorial of a number - it should pass for numbers \u0026gt;= 1 Add code for dealing with zero - should pass unit test for zero and for numbers \u0026gt;= 1 Add code for dealing with negative numbers Add code for dealing with non-numeric input\nTake a screenshot test of all the stages as you write the program. Upload your assignment to Github once you are done.\nReferences https://whatis.techtarget.com/definition/factorial\n"
+},
+{
+	"uri": "/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/credits/",
+	"title": "Credits",
+	"tags": [],
+	"description": "",
+	"content": " Contributors Thanks to them  for making Open Source Software a better place !\nghcontributors \u0026ldquo;https://api.github.com/repos/Umuzi-org/tech-department/contributors?per_page=100\u0026quot; %}}\n"
+},
+{
+	"uri": "/formative-assessments/",
+	"title": "Formative-assessments",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/2-topics/python-specific/oop_for_python/",
+	"title": "Intro OOP(Object-oriented Programming) for Pthyon",
+	"tags": [],
+	"description": "",
+	"content": " This is A reading Presentation of Object-oriented Programming (OOP) for Python. Note.This is an introduction, this is just to give you a clearer perspective on OOP.  Below is the link to the presentation for OOP  https://drive.google.com/file/d/1DzMx2P8xSBCp3HdTU8KgXXRNUA3GaXga/view?usp=\n"
+},
+{
+	"uri": "/2-topics/js-and-node-specific/introduction-to-node/",
+	"title": "Introduction to Node",
+	"tags": [],
+	"description": "",
+	"content": " https://codeburst.io/getting-started-with-node-js-a-beginners-guide-b03e25bca71b https://docs.npmjs.com/about-packages-and-modules https://www.w3schools.com/nodejs/nodejs_npm.asp https://medium.com/@richardkall/installing-node-js-using-node-version-manager-nvm-c21546a613bc https://medium.com/@richardkall/installing-node-js-using-node-version-manager-nvm-c21546a613bc  "
+},
+{
+	"uri": "/2-topics/js-and-node-specific/",
+	"title": "JS and Node",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/3-workshops/node/",
+	"title": "Node Introduction",
+	"tags": [],
+	"description": "",
+	"content": " Introduction to Node\n Asynchronous vs Synchronous\n  "
+},
+{
+	"uri": "/1-syllabuses/web-dev-short-course/self-study/",
+	"title": "Self Study",
+	"tags": [],
+	"description": "",
+	"content": "For the most part the web-dev short course is based on projects. Recruits are expected to walk away with a solid understanding of many topics. While projects are underway, the recruits are expected to work their way through the followingt material:\n Command-line bootcamp: This will get you up to speed with the basics of terminal usage: http://rik.smith-unna.com/command_line_bootcamp/ Intro to linux presentation: https://docs.google.com/presentation/d/1dhj1-p9Ufl4ilSy_Nu8sw-kuNVWkSvhp0dn5KGo9TyY/edit Sheena\u0026rsquo;s awesome linux mint post-install guide: https://gitlab.com/prelude-open-source/mint-post-install-guide (you can skip the parts about python, virtualenv, pip) There is a website called stackoverflow that is completely amazing. You can ask tech questions there and they will get answered by kind and knowledgeable strangers. So long as you ask proper questions: https://stackoverflow.com/help/how-to-ask This is the Git book.. Git is great. long live the git. https://git-scm.com/book/en/v2 Git should be installed by default on linux mint. We\u0026rsquo;ll be using github a lot. And this book is way too big. If you get familiar with chaplets 1-3 it will serve you well  You can also continue with the FreeCodeCamp syllabus on your own time. Ideally you will be pretty familiar with this stuff: Free Code Camp\n Javascript Algorithms And Data Structures Certification: Basic JavaScript Javascript Algorithms And Data Structures Certification: ES6 Javascript Algorithms And Data Structures Certification: Debugging Javascript Algorithms And Data Structures Certification: Basic Data Structures Javascript Algorithms And Data Structures Certification: Basic Algorithm Scripting Javascript Algorithms And Data Structures Certification: Object Oriented Programming\n Responsive Web Design Certification: HTML and HTML 5\n Responsive Web Design Certification: Basic CSS\n Front End Libraries Certification: Bootstrap\n Front End Libraries Certification: jQuery\n  "
+},
+{
+	"uri": "/showcase/",
+	"title": "Showcase",
+	"tags": [],
+	"description": "",
+	"content": " TAT by OVH "
+},
+{
+	"uri": "/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/4-projects/tdd/",
+	"title": "Test Driven Development",
+	"tags": [],
+	"description": "",
+	"content": "The excercises in this section can be done in any language. The aim is to have working logic, not a beautiful user interface. You will be expected to demonstrate your working code and also to build on lessons you have already learned.\n if you know oop please use it where it is appropriate write clean code (it will be revewed by your peers and by senior staff) use Git from the command line. This is a suuuper important skill in industry have fun :) (but not too much)  "
+},
+{
+	"uri": "/",
+	"title": "Umuzi Tech Department",
+	"tags": [],
+	"description": "",
+	"content": " Umuzi Tech Department This website/repo is the source of truth around what we teach here in Umuzi\u0026rsquo;s tech department. For a list of our courses and week-by-week teaching plans please click on the Syllabuses link below. The rest of the content in the different sections are resourses references by the individual courses.\nFeel free to use this or to contribute.\n"
+},
+{
+	"uri": "/2-topics/python-specific/unit-testing/",
+	"title": "Unit Testing",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/2-topics/unit-testing/",
+	"title": "Unit testing (language agnostic concepts)",
+	"tags": [],
+	"description": "",
+	"content": "The following videos use JavaScript to demonstrate and explain some key concepts around unit testing. Even if JS is not your vibe these are worth watching.\n Lesson 1: Why Unit Testing Lesson 2: Your first tests Lesson 3: Test Runners. This discussion on test runners mentions a bunch of JS stuff. But there are still many language agnostic concepts that are worth knowing about. Examples of Python test runners are unittest and pytest.  If you are actually doing JS then it\u0026rsquo;s totally worth watching the rest of this series of videos.\n"
+},
+{
+	"uri": "/2-topics/linux/",
+	"title": "linux",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/2-topics/python-specific/",
+	"title": "python specific resources",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Dev full course on Documentation for Umuzi Tech Department</title>
+    <link>/1-syllabuses/web-dev-long/</link>
+    <description>Recent content in Web Dev full course on Documentation for Umuzi Tech Department</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 19 Mar 2019 16:50:16 +0200</lastBuildDate>
+    
+	<atom:link href="/1-syllabuses/web-dev-long/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Week by week</title>
+      <link>/1-syllabuses/web-dev-long/week-by-week/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/1-syllabuses/web-dev-long/week-by-week/</guid>
+      <description>Month -1: Online Learning and Bootcamp During the application process, we ask prospective recruits to learn basic HTML and CSS skills through free online platforms (currently FreeCodeCamp and Khan Academy). In the screening process, they also complete aptitude (literacy, numeracy, logical thinking, problem solving, statistical understanding, and sequencing) and personality tests (grit, resilience, empathising and systemising, agreeableness, openness to new experience, emotional stability, conscientiousness and intellect/imagination). Those who perform well on the aptitude tests, are a good personality fit for work professionalism, and are able to learn new skills on their own, are invited for an interview, and a selection of interviewees are invited bootcamp.</description>
+    </item>
+    
+  </channel>
+</rss>

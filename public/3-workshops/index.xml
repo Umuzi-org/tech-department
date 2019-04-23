@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workshops on Documentation for Umuzi Tech Department</title>
+    <link>/3-workshops/</link>
+    <description>Recent content in Workshops on Documentation for Umuzi Tech Department</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 09 Apr 2016 16:50:16 +0200</lastBuildDate>
+    
+	<atom:link href="/3-workshops/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Agile and Scrum</title>
+      <link>/3-workshops/agile-scrum/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/3-workshops/agile-scrum/</guid>
+      <description>https://docs.google.com/presentation/d/1jkpl8EZBzvX3zKnWEyX7LKlbGcIocYkxTDIGmT42S8A
+https://docs.google.com/presentation/d/1Qr66MxmoiV-3-ZiSj5Ro_B8QneKOfC8UAp0DCfDOdoA</description>
+    </item>
+    
+    <item>
+      <title>Clean Code</title>
+      <link>/3-workshops/clean-code/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/3-workshops/clean-code/</guid>
+      <description> “Any fool can write code that a computer can understand.
+Good programmers write code that humans can understand.” ~ Martin Fowler
+ </description>
+    </item>
+    
+    <item>
+      <title>Clean Code (language agnostic)</title>
+      <link>/3-workshops/general-coding-best-practices/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/3-workshops/general-coding-best-practices/</guid>
+      <description>https://docs.google.com/presentation/d/1mTjvcPtkf0q_h594bpaLIiRpi8QKmAryOxLwSFEvyeM/edit#slide=id.g1f87997393_0_782</description>
+    </item>
+    
+    <item>
+      <title>Clean Code for web</title>
+      <link>/3-workshops/clean-code-for-web/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/3-workshops/clean-code-for-web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git Basics</title>
+      <link>/3-workshops/git-basics/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/3-workshops/git-basics/</guid>
+      <description>https://docs.google.com/presentation/d/1Uz9PX1A-bDlxEMDXjrTaGs588QrbVwDDMhPEmuY8WA4/edit#slide=id.p
+https://docs.google.com/presentation/d/1N6EeW3BE2r9CZDOSgT5dUBYX9-d8QT15_tA-9OtnIfI/edit#slide=id.p</description>
+    </item>
+    
+    <item>
+      <title>Git for Teamwork</title>
+      <link>/3-workshops/git-for-teamwork/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/3-workshops/git-for-teamwork/</guid>
+      <description>PREREQUISITES:  workshop/git-basics  TODO</description>
+    </item>
+    
+    <item>
+      <title>How to be a professional</title>
+      <link>/3-workshops/how-to-be-a-professional/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/3-workshops/how-to-be-a-professional/</guid>
+      <description>https://docs.google.com/presentation/d/1g_3BDfqmcRSaPxOHAAXg_-FeBXM3gAuo5D10OlMjeHQ</description>
+    </item>
+    
+    <item>
+      <title>Interviewing sucessfully</title>
+      <link>/3-workshops/interviewing-sucessfully/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/3-workshops/interviewing-sucessfully/</guid>
+      <description>https://docs.google.com/presentation/d/16FMMbvXrrNBOS3RJfG0-CHERvlldaiY7pq_i3cs4S_c</description>
+    </item>
+    
+    <item>
+      <title>Intro to Agile</title>
+      <link>/3-workshops/intro-to-agile/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/3-workshops/intro-to-agile/</guid>
+      <description>Project management with Trello (first intro to Agile and Scrum methodologies)
+TODO</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Express js</title>
+      <link>/3-workshops/introduction-to-express/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/3-workshops/introduction-to-express/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to Linux</title>
+      <link>/3-workshops/introduction-to-linux/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/3-workshops/introduction-to-linux/</guid>
+      <description>presentation: https://docs.google.com/presentation/d/1dhj1-p9Ufl4ilSy_Nu8sw-kuNVWkSvhp0dn5KGo9TyY post install guide 1: https://gitlab.com/prelude-open-source/mint-post-install-guide post install guide 2: https://fossbytes.com/things-to-do-after-installing-linux-mint/
+Go through the Linux Introduction slides and complete the command line tutorial here: http://rik.smith-unna.com/command_line_bootcamp/?id=1d0zyezf844 Or use the tutorial here if the above link is not working: http://korflab.ucdavis.edu/bootcamp.html
+Once you have completed the command line tutorial, you can optionally complete the exercises in this directory.
+https://drive.google.com/drive/folders/1Y_MkM737c1GHIuu9oM0AxAAoskms9maP?usp=sharing</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Mode and Friends</title>
+      <link>/3-workshops/introduction-to-mode-and-friends/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/3-workshops/introduction-to-mode-and-friends/</guid>
+      <description>TODO</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Node and Friends</title>
+      <link>/3-workshops/introduction-to-node-and-friends/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/3-workshops/introduction-to-node-and-friends/</guid>
+      <description>https://docs.google.com/presentation/d/1dtrsWOWjoA9A9nTmznCkdYz0oRK6O76jXRINp0tzjrQ</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Node and SQL</title>
+      <link>/3-workshops/node-and-sql/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/3-workshops/node-and-sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to development environment for web</title>
+      <link>/3-workshops/introduction-to-development-tools-and-environment-for-web/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/3-workshops/introduction-to-development-tools-and-environment-for-web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to unit tests with Mocha</title>
+      <link>/3-workshops/introduction-to-unit-tests-with-mocha/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/3-workshops/introduction-to-unit-tests-with-mocha/</guid>
+      <description>https://github.com/dwyl/learn-tdd https://jrsinclair.com/articles/2016/gentle-introduction-to-javascript-tdd-intro/ https://codeburst.io/javascript-unit-testing-using-mocha-and-chai-1d97d9f18e71 https://mochajs.org/ https://medium.com/@williamjoshualacey/unit-testing-with-mocha-fda6a6f360c6 https://blog.logrocket.com/a-quick-and-complete-guide-to-mocha-testing-d0e0ea09f09d</description>
+    </item>
+    
+    <item>
+      <title>Node Sync/Async</title>
+      <link>/3-workshops/nodejs-async-vs-sync/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/3-workshops/nodejs-async-vs-sync/</guid>
+      <description>https://docs.google.com/presentation/d/19ppsjmkKAvJcasK_BnjptTUfF4KQwaInDKVkhK1b6vA</description>
+    </item>
+    
+    <item>
+      <title>Object Orientated thinking</title>
+      <link>/3-workshops/object-oriented-thinking/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/3-workshops/object-oriented-thinking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/3-workshops/time-managment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/3-workshops/time-managment/</guid>
+      <description>Time Managment TODO: which one?
+https://docs.google.com/presentation/d/1gRAGqSma21RkbnfoCO2KM565EfGCf9m4ZuJ9S7mcyFc
+https://docs.google.com/presentation/d/1gOBA6zen5jre1DxCKRU9zHpVDFh2n8yPMXw2STCOkCw</description>
+    </item>
+    
+  </channel>
+</rss>

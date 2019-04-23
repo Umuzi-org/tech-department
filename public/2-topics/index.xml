@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Topics on Documentation for Umuzi Tech Department</title>
+    <link>/2-topics/</link>
+    <description>Recent content in Topics on Documentation for Umuzi Tech Department</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 09 Apr 2016 16:50:16 +0200</lastBuildDate>
+    
+	<atom:link href="/2-topics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Stack Overflow</title>
+      <link>/2-topics/introduction-to-stackoverflow/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/2-topics/introduction-to-stackoverflow/</guid>
+      <description>Stack Overflow will save your life. Use it.
+It&amp;rsquo;s a question and answer platform where
+https://stackoverflow.com/help/how-to-ask</description>
+    </item>
+    
+    <item>
+      <title>Unit testing (language agnostic concepts)</title>
+      <link>/2-topics/unit-testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2-topics/unit-testing/</guid>
+      <description>The following videos use JavaScript to demonstrate and explain some key concepts around unit testing. Even if JS is not your vibe these are worth watching.
+ Lesson 1: Why Unit Testing Lesson 2: Your first tests Lesson 3: Test Runners. This discussion on test runners mentions a bunch of JS stuff. But there are still many language agnostic concepts that are worth knowing about. Examples of Python test runners are unittest and pytest.</description>
+    </item>
+    
+  </channel>
+</rss>

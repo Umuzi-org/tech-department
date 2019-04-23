@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Memory game intro on Documentation for Umuzi Tech Department</title>
+    <link>/4-projects/memory-game/</link>
+    <description>Recent content in Memory game intro on Documentation for Umuzi Tech Department</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 19 Mar 2019 16:50:16 +0200</lastBuildDate>
+    
+	<atom:link href="/4-projects/memory-game/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deadline 1: Code review</title>
+      <link>/4-projects/memory-game/1-deadline/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/4-projects/memory-game/1-deadline/</guid>
+      <description>“Any fool can write code that a computer can understand.
+Good programmers write code that humans can understand.” ~ Martin Fowler
+ You will be paired up with someone else. You will be expected to review each other&amp;rsquo;s code. This need not follow formal code review processes, you can just sit next to each other and chat if you want.
+Any constructive feedback should be incorperated into the code.</description>
+    </item>
+    
+    <item>
+      <title>Code Review Workshop</title>
+      <link>/4-projects/memory-game/2-code-review-workshop/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/4-projects/memory-game/2-code-review-workshop/</guid>
+      <description>Once your dirst deadline is met you will have developed some opinions about what good (and bad) code looks like. And of corse the senior staff members have their own opinions.
+In this session: Senior staff members will highlight a few common problems and some outstanding results. You will also each be given a chance to tell us something you learned.</description>
+    </item>
+    
+    <item>
+      <title>Deadline 2: configurable grid size</title>
+      <link>/4-projects/memory-game/3-deadline/</link>
+      <pubDate>Tue, 19 Mar 2019 16:50:16 +0200</pubDate>
+      
+      <guid>/4-projects/memory-game/3-deadline/</guid>
+      <description>Implement the following user story on your code-review-buddy&amp;rsquo;s game:
+As a user I want to be able to choose the dimensions of the grid each time I play the game. For example I might want to play on a 2x2 grid or a 3x2 grid.
+Use Git! At this point you should be comfortable with using Git from the command line.
+Make a Git branch for your new work and make sure to push your latest code atleast daily.</description>
+    </item>
+    
+  </channel>
+</rss>
