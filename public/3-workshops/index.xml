@@ -192,5 +192,24 @@ https://docs.google.com/presentation/d/1gRAGqSma21RkbnfoCO2KM565EfGCf9m4ZuJ9S7mc
 https://docs.google.com/presentation/d/1gOBA6zen5jre1DxCKRU9zHpVDFh2n8yPMXw2STCOkCw</description>
     </item>
     
+    <item>
+      <title>Intro to Presentation</title>
+      <link>/3-workshops/intro-to-presentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/3-workshops/intro-to-presentation/</guid>
+      <description>Link to the slides: https://docs.google.com/presentation/d/1gictqI99Sn58VNwbCTB2H1X_u8osahXT_3j97ATLuAo/edit?usp=sharing</description>
+    </item>
+    
+    <item>
+      <title>Unit testing Introduction</title>
+      <link>/3-workshops/intro-to-unit-testing-with-jasmine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/3-workshops/intro-to-unit-testing-with-jasmine/</guid>
+      <description>..* (A brief introduction to unit testing.) [https://docs.google.com/presentation/d/15fp6kmxREgYz9VSaZB-mB39NZWM_I-haxrcUQlkF9eg/edit?ts=5c99eb27]
+..* (A brief introduction to Jasmine)[https://docs.google.com/presentation/d/1uMKBJ9AKYFYxr_LCLBDyfWp8-ngqn25lD5bR6DBH-N8/edit#slide=id.gc6f90357f_0_0]</description>
+    </item>
+    
   </channel>
 </rss>

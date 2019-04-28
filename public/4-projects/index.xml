@@ -61,5 +61,15 @@ All coding projects will be submitted as git repos. You are expected to use git 
 Create a class called Person which defines the generic data and functionality of a person. Now as we know there are a lot of things involved with a Person e.g (age,gender,their address, height, shoe size, passport number, etc). but in this case we are only interested in showing their name, age, gender, and interests, and we also want to be able to write a short introduction about them based on this data, and get them to say Hello.</description>
     </item>
     
+    <item>
+      <title>Git Basic Excercises</title>
+      <link>/4-projects/git-excercises/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/4-projects/git-excercises/</guid>
+      <description>Introduction This little excercise will take you through the basic git mechanisms you need to know about in order to be productive. By the end of this excercise you&amp;rsquo;ll be able to create and manage your own git repos
+Creating and managing your own repo Note: you can do all of this stuff from the command line! You should be using linux. Open up a termanal and do the following:</description>
+    </item>
+    
   </channel>
 </rss>
