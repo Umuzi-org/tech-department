@@ -1,28 +1,26 @@
 
+
+
 :root{
     
-    --MAIN-TEXT-color:#323232; /* Color of text by default */
-    --MAIN-TITLES-TEXT-color: #5e5e5e; /* Color of titles h2-h3-h4-h5 */
-    --MAIN-LINK-color:#599a3e; /* Color of links */
-    --MAIN-LINK-HOVER-color:#3f6d2c; /* Color of hovered links */
-    --MAIN-ANCHOR-color: #599a3e; /* color of anchors on titles */
-
-    --MENU-HEADER-BG-color:#74b559; /* Background color of menu header */
-    --MENU-HEADER-BORDER-color:#9cd484; /*Color of menu header border */ 
-    
-    --MENU-SEARCH-BG-color:#599a3e; /* Search field background color (by default borders + icons) */
-    --MENU-SEARCH-BOX-color: #84c767; /* Override search field border color */
-    --MENU-SEARCH-BOX-ICONS-color: #c7f7c4; /* Override search field icons color */
-
-    --MENU-SECTIONS-ACTIVE-BG-color:#1b211c; /* Background color of the active section and its childs */
-    --MENU-SECTIONS-BG-color:#222723; /* Background color of other sections */
-    --MENU-SECTIONS-LINK-color: #ccc; /* Color of links in menu */
-    --MENU-SECTIONS-LINK-HOVER-color: #e6e6e6;  /* Color of links in menu, when hovered */
-    --MENU-SECTION-ACTIVE-CATEGORY-color: #777; /* Color of active category text */
-    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #fff; /* Color of background for the active category (only) */
-
-    --MENU-VISITED-color: #599a3e; /* Color of 'page visited' icons in menu */
-    --MENU-SECTION-HR-color: #18211c; /* Color of <hr> separator in menu */
+    --MAIN-TEXT-color: #323232;
+    --MAIN-TITLES-TEXT-color: #5e5e5e;
+    --MAIN-LINK-color: #9a7d3e;
+    --MAIN-LINK-HOVER-color: #6d552c;
+    --MAIN-ANCHOR-color: #9a7a3e;
+    --MENU-HEADER-BG-color: #f19f0b;
+    --MENU-HEADER-BORDER-color: #d4b484;
+    --MENU-SEARCH-BG-color: #9a793e;
+    --MENU-SEARCH-BOX-color: #c7a367;
+    --MENU-SEARCH-BOX-ICONS-color: #f7e5c4;
+    --MENU-SECTIONS-ACTIVE-BG-color: #1b211c;
+    --MENU-SECTIONS-BG-color: #222723;
+    --MENU-SECTIONS-LINK-color: #ccc;
+    --MENU-SECTIONS-LINK-HOVER-color: #e6e6e6;
+    --MENU-SECTION-ACTIVE-CATEGORY-color: #777;
+    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #fff;
+    --MENU-VISITED-color: #9a783e;
+    --MENU-SECTION-HR-color: #18211c;
     
 }
 

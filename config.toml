@@ -15,7 +15,7 @@ defaultContentLanguageInSubdir= true
   showVisitedLinks = false
   disableBreadcrumb = false
   disableNextPrev = true
-  themeVariant="green"
+  themeVariant="mine"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
