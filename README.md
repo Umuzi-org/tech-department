@@ -1,6 +1,6 @@
 # Tech department content
 
-This repo aims to contain all the info needed to run Umuzi's technical courses. It's not quite there yet
+This repo aims to contain all the info needed to run [Umuzi's technical courses](https://style.d3hv5c7o5j7vym.amplifyapp.com). It's not quite there yet
 
 ## To clone this repo
 

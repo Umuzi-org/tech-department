@@ -56,6 +56,13 @@
 	"content": "Product teams are teams of no more than 6 recruits guided by a product owner (Umuzi staff). The teams use the Scrum methodology to build real-world, web-based products. Recruits learn additional frameworks (e.g., Django) and packages as needed for the products.\nAn example of a current product is Umuzi’s online application process. In the past, Umuzi has used a combination of Google Forms and other, off-the-shelf, tools, to create an online application process for applicants. Now, under the leadership of Umuzi’s Data Science and Web Development managers, a team of Umuzi recruits is developing a custom solution which will allow applicants to apply to Umuzi, complete a variety of online learning and tests, enable managers to easily sort candidates by results, and automatically handle communications with the candidates. It’s through real builds like this that recruits put their learning into practice. Additional learning In addition to the curriculum listed above, the recruits participate in workshops given by industry professionals and Umuzi staff. Generally there are 2-3 workshops each month. Topics include time management, public speaking, networking, preparing for technical interviews, introduction to new frameworks, tech trends, etc.\nRecruits are also encouraged to attend industry meetups, conferences, and hackathons. On average, recruits attend 1 meetup/conference per month and 1-2 hackathons during their time at Umuzi.\n"
 },
 {
+	"uri": "/1-syllabuses/",
+	"title": "Syllabus",
+	"tags": [],
+	"description": "",
+	"content": "We support a few different paths.\n"
+},
+{
 	"uri": "/1-syllabuses/web-dev-long/",
 	"title": "Web Dev full course",
 	"tags": [],
@@ -110,13 +117,6 @@
 	"tags": [],
 	"description": "",
 	"content": "There are a bunch of different test frameworks and test runners that Python allows. The main ones people tend to use are\n unittest pytest  These are both great tools with pros and cons. We have chosen to go with pytest for our course because of the lack of boiler-plate code. But don\u0026rsquo;t be scared of different frameworks!\nDifferent testing tools have different ways of achieving similar goals. Make sure you understand why we test, what to test and when to test.\nIf you end up working on a project that uses unnittest instead of pytest then use unittest. Eg: Django projects are traditionally tested using unittest instead of Pytest so there is a bunch of cool Django tooling around that, which is totally fine.\nRead and understand the following:\n https://github.com/shashikumarraja/pytest_tutorial https://automationpanda.com/2017/03/14/python-testing-101-pytest/  And here are the pytest docs. The official documentation is a source of the latest and greatest straight-from-the-horses-mouth knowledge.\n"
-},
-{
-	"uri": "/1-syllabuses/",
-	"title": "Syllabus",
-	"tags": [],
-	"description": "",
-	"content": "We support a few different paths.\n"
 },
 {
 	"uri": "/4-projects/tdd/1-bowling/",
@@ -427,6 +427,34 @@
 	"content": "A recruit’s journey starts with a three-week programme called #MakeUmuziBetter. Recruits from all departments form small cross-functional teams to tackle issues at Umuzi\u0026ndash;anything from mental health to kitchen norms to the physical layout of our space. To accomplish this, they learn about and execute Human-Centered Design, a technique used throughout their time at Umuzi. Each team maps out user journeys, conducts interviews and surveys, designs a prototype of their solution, and presents it to the staff and external guests. Months 1-5: Systems Development and Data Science The first few months for a Umuzi tech recruit are dedicated to obtaining a National Certificate of Information Technology: Systems Development (Level 5), while also learning basic data science concepts.\nA note on Umuzi’s formal qualification and accreditation: Umuzi is a registered training provider with MICT SETA. Our National Certificate IT (Systems Development) (NCIT) qualification is a learnership requirement (i.e. Umuzi’s employer partners can therefore recognise their training and stipend spend as part of their skills development budgets). We work hard to both meet the National Certificate requirements and deliver a practical and relevant learning experience (which are not always well aligned) however, we firmly believe the most important part is the practical application of learning rather than merely meeting the unit standard requirements. Below we refer to the formal NCIT requirements e.g. NCIT01: Business and technology.\n"
 },
 {
+	"uri": "/",
+	"title": "Umuzi Tech Department",
+	"tags": [],
+	"description": "",
+	"content": " Umuzi Tech Department This website/repo is the source of truth around what we teach here in Umuzi\u0026rsquo;s tech department. For a list of our courses and week-by-week teaching plans please click on the Syllabuses link below. The rest of the content in the different sections are resourses references by the individual courses.\nFeel free to use this or to contribute.\n"
+},
+{
+	"uri": "/2-topics/python-specific/unit-testing/",
+	"title": "Unit Testing",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/2-topics/linux/",
+	"title": "linux",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/2-topics/python-specific/",
+	"title": "python specific resources",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "/2-topics/python-specific/sql-and-python/",
 	"title": "",
 	"tags": [],
@@ -446,6 +474,20 @@
 	"tags": [],
 	"description": "",
 	"content": " Time Managment TODO: which one?\nhttps://docs.google.com/presentation/d/1gRAGqSma21RkbnfoCO2KM565EfGCf9m4ZuJ9S7mcyFc\nhttps://docs.google.com/presentation/d/1gOBA6zen5jre1DxCKRU9zHpVDFh2n8yPMXw2STCOkCw\n"
+},
+{
+	"uri": "/4-projects/linux-/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": " Linux challenges Task 1 : Basic Task  Use the linux terminal to do the following :\n Find the desktop folder Create a directory and name in myProject Change directory to myProject Create a files and name it ‘ app.js ’ Change directory to Desktop and create another directory, name it myProject2 Copy ‘app.js’ from myProject to myProject2    Resources  Linux basic commands  "
+},
+{
+	"uri": "/4-projects/nodejs/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": " Nodejs Challenges Task 1 : Http server (http, get, serve static files)  Make a copy of your game and rename the copy to nodeApp. Setup a node server with express within nodeApp folder to serve your game on port 8080 to https://localhost:8080 or localhost:8080  Resources NB: The list of provided resources is not exhaustive feel free to check arround (google\u0026hellip;) for more.\n Basic node server Express documentation Static files Express, node overview  Task 2: Request handling (basic routing, post, form, middleware)  Set-up a node server within a second folder (with a name of your choice) Create a form with a public folder, similar to this one (do not mind the style). The form is to be served on https://localhost:8000/form Upon submission the form should collect all data and submit them to a screen within a JSON format  Resources  Basic routing Express Middleware More about middleware About bodyParser  Task 3: HTML template engine (Javascript templates, fetch, api)  Setup a sever within a third folder Create a single page website which provide weather to visitors. The site should be similar to this one , however you are required to used PUG as template and ES6 The site url to be served by entering the following url: localhost:8880/weather  Resources  About javascript template engines (Short explanation) More on Javascript templates API Fetch  Task 4: A registration restful API ( API end-point, routing, MongoDB, database schema)  Setup a server within a fourth folder - name it as you wish. You are required to create a back-end service that will help capture basic informations about prospective student who come to inquire here at Umuzi. Captured information should include the following: Visitor’s Name and surname, age, date and time, subject of inquiryand the name of the person who assisted the visitor. The back-end service to provide the following end points:  /addNewProspect(add a new prospect) /deleteProspect:id (delete a single prospect) /deleteAllProspects (delete all prospects) /viewProspects (view all prospects) /viewProspect:id (view a single prospect) /updateProspect:id(Update a single prospect)  The service to use Mongodb database and Mongoose schema.  Resources  About restful API Build a restful API with node\n Test your API-ends\n  "
 },
 {
 	"uri": "/4-projects/statistical-thinking/",
@@ -476,6 +518,13 @@
 	"content": "Formative Assessment 16 Test-driven development (115359 \u0026amp; 115384)\nReadings: https://docs.python.org/3/library/unittest.html https://docs.python-guide.org/writing/tests/ https://jeffknupp.com/blog/2013/12/09/improve-your-python-understanding-unit-testing/\nVideo: https://www.youtube.com/watch?v=6tNS--WetLI\nData Assignment:\nWrite a script called factorial.py that takes a number and returns its factorial.\nSteps: Think about which tests you want to do on that function. Write the tests first. Test an empty function called factorial - it should fail the tests Add code for returning the factorial of a number - it should pass for numbers \u0026gt;= 1 Add code for dealing with zero - should pass unit test for zero and for numbers \u0026gt;= 1 Add code for dealing with negative numbers Add code for dealing with non-numeric input\nTake a screenshot test of all the stages as you write the program. Upload your assignment to Github once you are done.\nReferences https://whatis.techtarget.com/definition/factorial\n"
 },
 {
+	"uri": "/3-workshops/redux_intro/",
+	"title": "Basic introduction to Redux",
+	"tags": [],
+	"description": "",
+	"content": " Redux is  marketed as a state managment tool. It can be used to manage state an a whole lot more usually used with React or other frontend web framework concepts are similar to the Command Pattern. This is an OOP design pattern that unlocks a lot of stuff beyond simple state managment  Resources The basics:\n This tutorial is really good: https://redux.js.org/basics/basic-tutorial This logger middleware helps: https://github.com/LogRocket/redux-logger  If you want to start using redux with asyncronous code (eg ajax requests) then you\u0026rsquo;ll need to use another tool:\n for simple stuff: https://github.com/reduxjs/redux-thunk for complicated side-effect models something like this is probably better: https://github.com/redux-saga/redux-saga  Concepts There are a few concepts that are super important\nStore Lets say you are making a TODO application. This application has a beautiful frontend that automatically renders your todo items from a datastructure. Something like this:\nconst store = { todos : [ {title: \u0026quot;get groceries\u0026quot;, done: false}, {title: \u0026quot;call mom\u0026quot;, done: true}, {title: \u0026quot;learn Redux\u0026quot;, done: false}, {title: \u0026quot;walk dog\u0026quot;, done: false}, ] }  In redux, the store is immutable. We\u0026rsquo;ll see what that implies when we talk about reducers a little later.\nTools like React make it easy to take an application state and turn it into widgets but we wont get into that just yet. You can do this with pure vanilla JavaScript by looping over our todos and simply appending DOM elements.\nAction An action is also a JSON object. Here are some examples:\n{type: \u0026quot;ADD_TODO\u0026quot;, title: \u0026quot;pay rent\u0026quot;} {type: \u0026quot;DELETE_TODO\u0026quot;, index: 2} {type: \u0026quot;SET_DONE\u0026quot;, index: 1, done: true} {type: \u0026quot;SET_DONE\u0026quot;, index: 1, done: false}  Given the example \u0026ldquo;store\u0026rdquo; we set up above can you see what effects these actions should have? What does it look like we are trying to do here?\nNow there is some weird language around this. If you want Redux to execute an action then you dispatch the action. Then Redux should update the store through use of a reducer (we\u0026rsquo;ll get to those soon).\nSo if we wanted Redux to actually add a thing to our todo list we would do something like:\ndispatch({type: \u0026quot;ADD_TODO\u0026quot;, title: \u0026quot;pay rent\u0026quot;})  This is kinda a pain to write out so usually instead of doing thigs like this we make use of action creators. Eg:\nconst ADD_TODO = \u0026quot;ADD_TODO\u0026quot; function addTodo(title){ //action creator // validation maybe return {type: ADD_TODO, title: title} } dispatch(addTodo(\u0026quot;learn redux\u0026quot;))  Reducer Reducers are the things that execute actions on the state. Here is an example following from the above:\nconst initialState = { // note the use of const. This is immutable todos : [1,2,3], stuff : \u0026quot;things\u0026quot; } function theReducer(state = initialState, action){ // {type: ADD_TODO, title: \u0026quot;buy hats\u0026quot;} switch(action.type){ case ADD_TODO: return { ...state, // we copy all the things using some ES6 syntax todos: [...state.todos, {title: action.title, done:false }] } // { // todos : [1,2,3,{type: ADD_TODO, title: \u0026quot;buy hats\u0026quot;}], // stuff : \u0026quot;things\u0026quot; //} case DELETE_TODO: return { stuff } case SET_DONE: return { otherStuff } default: // nothing changes return state } }  A helloworld example We are using ES6 syntax\nBut what about KISS? KISS == Keep It Simple, Stupid\nThis does seem like a complicated way to do a simple thing\u0026hellip; Think about this:\n actions are objects. That means we can store them and track them in different ways. actions are executed in specific ways and have predictable results the hard \u0026ldquo;thinking\u0026rdquo; of your application is all held in reducers so that makes testing easy and consistent we have a history of every hange made to the state of an application  Look up the \u0026ldquo;Command Pattern\u0026rdquo; . Redux isn\u0026rsquo;t exactly the same but very similar. Therefore there are similar applications.\n Frontend development: different buttons, inputsand widgets dispatch different actions in a predictable way Actions can be grouped. Meaning we can dispatch one action that dispatches a whole lot of different actions Macro recording. We can record the actions a user takes so that we can replay them later Reducers can be in a seperate code-base. we can send actions over a network and dispatch them elsewhere, we can send the same action to multiple computers to allow parallel processing undo/redo functionality becomes trivial feedback: if a number of actions need to be completed in order to complete a large task then we can track the completion of those actions and update a progress bar Actions can be added to a task queue instead of being dispatched immediately transactional behavior: you can have an action like {type: TRANSACTION_BEGIN} and then at some later stage {type: TRANSACTION_ROLLBACK} can be used to undo all the changes that happened in the transaction  Industry Redux is mostly used in the context of React. It is used for frontend development. But there is so much more it could do.\n"
+},
+{
 	"uri": "/categories/",
 	"title": "Categories",
 	"tags": [],
@@ -497,11 +546,25 @@
 	"content": ""
 },
 {
+	"uri": "/4-projects/git-excercises/",
+	"title": "Git Basic Excercises",
+	"tags": [],
+	"description": "",
+	"content": " Introduction This little excercise will take you through the basic git mechanisms you need to know about in order to be productive. By the end of this excercise you\u0026rsquo;ll be able to create and manage your own git repos\nCreating and managing your own repo Note: you can do all of this stuff from the command line! You should be using linux. Open up a termanal and do the following:\nYour initial commit  Create a directory named git-basic-excercises cd into your new directory look at what\u0026rsquo;s inside using ls -a. It should be empty initialise your git repo using git init. Then check ls -a again. Can you spot the difference? check the status of your repo by typing git status type in touch README.md. This creates a new blank file. Then check ls -a and git status again. type in git log. The output should make sense to you Now add your readme file to your git staging area. Hint: use the git add command Then check your git status again. Can you see the difference? Try to unstage your file and check your git status again Ok, now for your firstcommit: Make sure your readme file is staged then type in git commit -m \u0026quot;initial commit\u0026quot; Your output should be something like this:  [master (root-commit) 2103b64] initial commit 1 file changed, 0 insertions(+), 0 deletions(-) create mode 100644 README.md  type in git log isn\u0026rsquo;t that nice? press q to exit  more commits!  type in nano README.md. This will open up a text editor. Type in some stuff and then press ctrl x to exit. Then y then enter. This will save your changes type in cat README.md. This will print your file to the console take a look at the git stats again and make sure you understand it commit your changes to your repo. Your commit should have the message \u0026quot;second commit\u0026quot; make some more changes to your readme and make a \u0026quot;third commit\u0026quot;  check this out  type in git log. You should see all your commits there. It should look something like this:  commit a57585d3cf93e64c04e62e58dfe8151d191503cf (HEAD -\u0026gt; master) Author: Sheena O'Connell \u0026lt;sheena.oconnell@gmail.com\u0026gt; Date: Tue Apr 23 15:07:40 2019 +0200 third commit commit a48c005c761902395cf9a50f13ddbffeee4f5537 Author: Sheena O'Connell \u0026lt;sheena.oconnell@gmail.com\u0026gt; Date: Tue Apr 23 15:07:12 2019 +0200 second commit commit 2103b6418ecf4f70effabb639cfad6ac9d57c089 Author: Sheena O'Connell \u0026lt;sheena.oconnell@gmail.com\u0026gt; Date: Tue Apr 23 14:43:51 2019 +0200 initial commit  Each commit has a \u0026ldquo;hash\u0026rdquo;. That\u0026rsquo;s the weird alphanumeric string thingy.\n Copy the commit hash for your second commit. You can just select it with your mouse and right click and choose \u0026lsquo;copy\u0026rsquo; press q to exit the log view. You should now be back at the terminal type in git checkout and then paste in the commit hash and press enter cat README.md It\u0026rsquo;s like going back in time git checkout master cat README.md Now we are up to date  You can jump to any commit using git checkout. You can checkout a branch, a commit hash, or a tag. We didn\u0026rsquo;t explore tags here.\nWhen you checkout a branch, you checkout the latest commit on that branch.\nbranching The real power of git is in branching. Branching is what alows big teams of developers to work on the same code base. Let\u0026rsquo;s explore branching a little bit.\n git branch This lists all your branches. Git makes a branch named master by default Now create a new branch called milkshake-flavours. git is not too restricive when it comes to naming our branches. It\u0026rsquo;s generally best to choose a name that has something to do with what the branch is for. Our branch is about milkshakes type in git branch. Notice the little *. check out your new branch. type in git branch again and look at the *. Can you see what it means? Try switching between the different branches and see how hings change. Make sure you are on the milkshake-flavours branch then type in nano milkshakes.md and write fill in a few flavours. Mmmm. save and exit what does git status tell you? commit your new file with the message \u0026quot;added initial flavours\u0026quot; take a look at your git log again. It should make sense checkout your master branch. It\u0026rsquo;ll look a little different. Can you see why? from your master branch, create a new branch called history and check it out. If you say git log it should only have three commits type in history \u0026gt; history.txt. Can you guess what it does? commit your changes with the message \u0026quot;added history\u0026quot;. Take a look at the git log now checkout your milkshake branch and look at the git log. it should have your three master commits and your one milkshake commit make some arbitrary changes to the readme file and make a new commit with the message \u0026quot;random readme changes\u0026quot; checkout history again and cat README.md now on your history branchfo the following:  rm README.md echo \u0026quot;booya\u0026quot; \u0026gt; README.md  You should know what these lines do. commit your changes. Use the commit message \u0026quot;rewrote readme\u0026quot; checkout master again  Just make sure we are still on track If you have followed along up until this point then your branches should look like this:\nType in:\ngit checkout master ls  this outputs:\nREADME.md  Check the log:\ngit log  this outputs something like:\ncommit a57585d3cf93e64c04e62e58dfe8151d191503cf (HEAD -\u0026gt; master) Author: Sheena O'Connell \u0026lt;sheena.oconnell@gmail.com\u0026gt; Date: Tue Apr 23 15:07:40 2019 +0200 third commit commit a48c005c761902395cf9a50f13ddbffeee4f5537 Author: Sheena O'Connell \u0026lt;sheena.oconnell@gmail.com\u0026gt; Date: Tue Apr 23 15:07:12 2019 +0200 second commit commit 2103b6418ecf4f70effabb639cfad6ac9d57c089 Author: Sheena O'Connell \u0026lt;sheena.oconnell@gmail.com\u0026gt; Date: Tue Apr 23 14:43:51 2019 +0200 initial commit  Now lets look at milkshake-flavours:\ngit checkout milkshake-flavours ls  You will see two files:\nmilkshakes.md README.md  And git log will look like:\ncommit d2559d9758f3ec0f7928f6cbef705c6fa9679edf (HEAD -\u0026gt; milkshake-flavours) Author: Sheena O'Connell \u0026lt;sheena.oconnell@gmail.com\u0026gt; Date: Tue Apr 23 15:25:07 2019 +0200 added initial flavours commit a57585d3cf93e64c04e62e58dfe8151d191503cf (master) Author: Sheena O'Connell \u0026lt;sheena.oconnell@gmail.com\u0026gt; Date: Tue Apr 23 15:07:40 2019 +0200 third commit commit a48c005c761902395cf9a50f13ddbffeee4f5537 Author: Sheena O'Connell \u0026lt;sheena.oconnell@gmail.com\u0026gt; Date: Tue Apr 23 15:07:12 2019 +0200 second commit commit 2103b6418ecf4f70effabb639cfad6ac9d57c089 Author: Sheena O'Connell \u0026lt;sheena.oconnell@gmail.com\u0026gt; Date: Tue Apr 23 14:43:51 2019 +0200 initial commit  Finally history:\ngit checkout history ls  there should be two files:\nhistory.txt README.md  and git log outputs\ncommit 34025ac2b26accb7c5c18ec048a4982d3bae8909 (HEAD -\u0026gt; history) Author: Sheena O'Connell \u0026lt;sheena.oconnell@gmail.com\u0026gt; Date: Tue Apr 23 15:38:05 2019 +0200 rewrote readme commit b9e3c50fb65c7b2df0f09b921a15a7fc146e0bfb Author: Sheena O'Connell \u0026lt;sheena.oconnell@gmail.com\u0026gt; Date: Tue Apr 23 15:36:04 2019 +0200 added history commit a57585d3cf93e64c04e62e58dfe8151d191503cf (master) Author: Sheena O'Connell \u0026lt;sheena.oconnell@gmail.com\u0026gt; Date: Tue Apr 23 15:07:40 2019 +0200 third commit commit a48c005c761902395cf9a50f13ddbffeee4f5537 Author: Sheena O'Connell \u0026lt;sheena.oconnell@gmail.com\u0026gt; Date: Tue Apr 23 15:07:12 2019 +0200 second commit commit 2103b6418ecf4f70effabb639cfad6ac9d57c089 Author: Sheena O'Connell \u0026lt;sheena.oconnell@gmail.com\u0026gt; Date: Tue Apr 23 14:43:51 2019 +0200 initial commit  merging Now we want to get the master up to date with all out changes. Let\u0026rsquo;s start with the milkshake branch\n merge milkshake-flavours into master\ngit checkout master git merge milkshake-flavours  Use ls and git log to see what this did\n merge history into master\n Use ls and git log to see what this did As you can see a whole lot of changes have been made to the master branch\n Now lets take a look at the other branches\ngit checkout history git log ... git checkout milkshake-flavours git log  These branches were not effected by the merge!\n  In general if we want to merge branch X into branch Y:\ngit checkout Y git merge X  This adds a commit to branch Y and doesn\u0026rsquo;t change branch X\n merge the master branch into history. Use git log to see whats up. checkout master again. git log again. Can you spot any differences?  GitHub  Go to Github.com (using your browser of choice) and create a new public repository using the user interface. Name it git-basic-excercises\n You will see a bunch of weird looking things. There is a section entitled \u0026ldquo;…or push an existing repository from the command line\u0026rdquo;. We have an existing reporitory and a command line. So this seems appropriate. Copy the commands from there and paste them into your terminal. this will push your changes to github.\n Refresh your browser. Cool eh?\n  Now you should see a little dropdown box on github that says \u0026ldquo;Branch: master\u0026rdquo;. Click there. your other branches aren\u0026rsquo;t available.\n Push your other branches to github. We want all branches to be listed  Pulling and remotes  You should still be inside the git-basic-excercises directory. Let\u0026rsquo;s get out of there. cd ../ Now let\u0026rsquo;s clone a repo. point your browser here: https://github.com/Umuzi-org/tech-department Now there is a friendly green button that says \u0026ldquo;Clone or download\u0026rdquo;. Click on it. You will see a url come up. Copy it. You will need to paste it into the terminal in a moment In your terminal type in git clone $THE_URL_YOU_JUST_COPIED. It should look something like this: git clone https://github.com/Umuzi-org/tech-department cd into the tech-department directory that was just created explore a little using git branch and git log type in git branch -a. This shows the remote branches try to checkout the branch called project/git-basic-excercises on your local computer. You can do it, you\u0026rsquo;ll need to figure out how type in git remote -v  Going foward We just covered the basics here. Please make sure you understand this stuff. It\u0026rsquo;s super important. Git might seem like a weird theoretical thing to a lot of you. It might seem completely unrelated to the actual job of writing code. But it\u0026rsquo;s not. Git makes teamwork on dev teams possible. Without it we\u0026rsquo;d spend more time shouting at each other than writing useful code. So learn it. Be comfortable with it. When we start working in teams later on all will be made clear.\nIf you are curious now, spend some time googling git branching stratergies. We use the feature branching stratergy here. We\u0026rsquo;ll cover it in depth later on in the course.\n"
+},
+{
 	"uri": "/2-topics/python-specific/oop_for_python/",
 	"title": "Intro OOP(Object-oriented Programming) for Pthyon",
 	"tags": [],
 	"description": "",
 	"content": " This is A reading Presentation of Object-oriented Programming (OOP) for Python. Note.This is an introduction, this is just to give you a clearer perspective on OOP.  Below is the link to the presentation for OOP  https://drive.google.com/file/d/1DzMx2P8xSBCp3HdTU8KgXXRNUA3GaXga/view?usp=\n"
+},
+{
+	"uri": "/3-workshops/intro-to-presentation/",
+	"title": "Intro to Presentation",
+	"tags": [],
+	"description": "",
+	"content": "Link to the slides: https://docs.google.com/presentation/d/1gictqI99Sn58VNwbCTB2H1X_u8osahXT_3j97ATLuAo/edit?usp=sharing\n"
 },
 {
 	"uri": "/2-topics/js-and-node-specific/introduction-to-node/",
@@ -519,10 +582,10 @@
 },
 {
 	"uri": "/3-workshops/node/",
-	"title": "Node Introduction",
+	"title": "Node",
 	"tags": [],
 	"description": "",
-	"content": " Introduction to Node\n Asynchronous vs Synchronous\n  "
+	"content": " Introduction (slides)  Introduction to Node\n Asynchronous vs Synchronous\n  Challenges "
 },
 {
 	"uri": "/1-syllabuses/web-dev-short-course/self-study/",
@@ -553,20 +616,6 @@
 	"content": "The excercises in this section can be done in any language. The aim is to have working logic, not a beautiful user interface. You will be expected to demonstrate your working code and also to build on lessons you have already learned.\n if you know oop please use it where it is appropriate write clean code (it will be revewed by your peers and by senior staff) use Git from the command line. This is a suuuper important skill in industry have fun :) (but not too much)  "
 },
 {
-	"uri": "/",
-	"title": "Umuzi Tech Department",
-	"tags": [],
-	"description": "",
-	"content": " Umuzi Tech Department This website/repo is the source of truth around what we teach here in Umuzi\u0026rsquo;s tech department. For a list of our courses and week-by-week teaching plans please click on the Syllabuses link below. The rest of the content in the different sections are resourses references by the individual courses.\nFeel free to use this or to contribute.\n"
-},
-{
-	"uri": "/2-topics/python-specific/unit-testing/",
-	"title": "Unit Testing",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
 	"uri": "/2-topics/unit-testing/",
 	"title": "Unit testing (language agnostic concepts)",
 	"tags": [],
@@ -574,16 +623,9 @@
 	"content": "The following videos use JavaScript to demonstrate and explain some key concepts around unit testing. Even if JS is not your vibe these are worth watching.\n Lesson 1: Why Unit Testing Lesson 2: Your first tests Lesson 3: Test Runners. This discussion on test runners mentions a bunch of JS stuff. But there are still many language agnostic concepts that are worth knowing about. Examples of Python test runners are unittest and pytest.  If you are actually doing JS then it\u0026rsquo;s totally worth watching the rest of this series of videos.\n"
 },
 {
-	"uri": "/2-topics/linux/",
-	"title": "linux",
+	"uri": "/3-workshops/intro-to-unit-testing-with-jasmine/",
+	"title": "Unit testing Introduction",
 	"tags": [],
 	"description": "",
-	"content": ""
-},
-{
-	"uri": "/2-topics/python-specific/",
-	"title": "python specific resources",
-	"tags": [],
-	"description": "",
-	"content": ""
+	"content": "..* (A brief introduction to unit testing.) [https://docs.google.com/presentation/d/15fp6kmxREgYz9VSaZB-mB39NZWM_I-haxrcUQlkF9eg/edit?ts=5c99eb27]\n..* (A brief introduction to Jasmine)[https://docs.google.com/presentation/d/1uMKBJ9AKYFYxr_LCLBDyfWp8-ngqn25lD5bR6DBH-N8/edit#slide=id.gc6f90357f_0_0]\n"
 }]
