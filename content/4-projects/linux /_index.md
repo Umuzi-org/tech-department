@@ -59,3 +59,11 @@ Create an empty file named exercise.txt and move this file to the /tmp direc
 6. locate pad_copy.txt
 
 Note: foreach instruction write a script and save it under this task
+
+## Task 6 Find commands
+## Task 7 Installing softwares
+## Task 8 Linux documentation how to
+## Task 9 File operation
+## Task 10 Text editor
+## Task 11 User environment
+## Task 12 Bash and basic scripting
