@@ -25,7 +25,7 @@ Create an empty file named exercise.txt and move this file to the /tmp direc
 2. [Absolute and Relative Paths (video)](https://www.youtube.com/watch?v=ephId3mYu9o)
 
 
-## Task 3
+## Task 3 : Cat commands
 
 1. Create 3 files namely umuzi.txt, recruits.txt and cohort.txt. 
 2. Fill all 3 files with contents of your choice.
@@ -38,7 +38,7 @@ Create an empty file named exercise.txt and move this file to the /tmp direc
 1. [Standard File Streams (video)](https://www.youtube.com/watch?v=shFMEJJ_fpU)
 2. [The cat commands](http://www.linfo.org/cat.html)
 
-## Task 4 
+## Task 4 : The locate command
 
 1. Write a script to help you locate a file named umuzi
 2. Write a second script that will search for the same file and send the result of the search to a file named search_result.txt
@@ -49,7 +49,7 @@ Create an empty file named exercise.txt and move this file to the /tmp direc
 2. http://bit.ly/2IUg2KH
 
 
-##Task 5
+## Task 5 The locate command cont..
 
 1. create a file within mydocument folder, add to is a file named pad.txt
 2. Change the working directory to Desktop create a folder and name it work
