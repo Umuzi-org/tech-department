@@ -4,8 +4,32 @@ title: Week by week
 weight: 1
 ---
 
-## Month 0: #MakeUmuziBetter
+- Week 00 - Intro to Python (no need for Jupyter)
+- Week 01 - Linux
+- Week 02 - Git
+- Week 02 - Web development
+- Week 03 - Survey design
+- Week 04 - Getting to know Python a little better through TDD
+- Week 05 - Intro to docker (this will be useful when we get to databases section)
+- Week 06 - The Internet and Ethics in Data + Virtual Environments and environmental variables
+- Week 07 - exposing an API with Flask
+- Week 08 - Naming conventions and folder structures. (@michelle: does this really take a week?)
+- Week 09 & 10 - Object-oriented programming
+- Week 11 - Intro to Relational Databases
+- Week 12 - SQL and Python
+- Week 13 - Sqlalchemy and Alembic
+- Week 14 & 15 - Intro to NoSQL databases. Intro to MongoDB. Intro to Redis
+- Week 16 & 17 & 18 - Data sourcing: web scraping (selenium and xpath), requests, JSON, XML, REST apis, intro to GraphQL
+- Week 17 - Choosing a task queue: ZeroMQ versus RabbitMQ versus Kafka. + little zeroMQ + Docker project
+- Week 18 - Introduction to DAGs (probably with Airflow)
+- week 19 -
+- Week 20 - Search and sort (@michelle, this is NCIT, right?)
+- Week 21 -
+- Week 22 -
+- Week 23 -
+- Week 24 - Agile project management
 
+## Month 0: #MakeUmuziBetter
 
 ## Week 1: Linux and intro to curriculum
 
@@ -68,7 +92,6 @@ weight: 1
 - NCIT 16: Test-driven development
 - Assignment: Testing your code with py.test and unittest
 
-
 ## Week 12:
 
 - Workshop: Intro to mySQL and relational databases
@@ -98,16 +121,13 @@ weight: 1
 
 - WORKSHOP: flask
 
-
 ## Week 17:
 
 ## Week 18: SQL
 
-
 ## Week 19:
 
-
-## Week 20: 
+## Week 20:
 
 ## Week 21:
 
@@ -119,8 +139,6 @@ weight: 1
 
 ## Months 6-9: Product Teams
 
-
-
 Product teams are teams of no more than 6 recruits guided by a product owner (Umuzi staff). The teams use the Scrum methodology to build real-world, web-based products. Recruits learn additional frameworks (e.g. Django) and packages as needed for the products.
 
 ## Additional learning
@@ -128,7 +146,6 @@ Product teams are teams of no more than 6 recruits guided by a product owner (Um
 In addition to the curriculum listed above, the recruits participate in workshops given by industry professionals and Umuzi staff. Generally there are 2-3 workshops each month. Topics include time management, public speaking, networking, preparing for technical interviews, introduction to new frameworks, tech trends, etc.
 
 Recruits are also encouraged to attend industry meetups, conferences, and hackathons. On average, recruits attend 1 meetup/conference per month and 1-2 hackathons during their time at Umuzi.
-
 
 ## TODO
 
