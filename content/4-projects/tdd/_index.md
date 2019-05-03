@@ -8,3 +8,5 @@ The excercises in this section can be done in any language. The aim is to have w
 - write clean code (it will be revewed by your peers and by senior staff)
 - use Git from the command line. This is a suuuper important skill in industry
 - have fun :) (but not too much)
+
+There are a few excercises here. Try the ones marked as easy first.

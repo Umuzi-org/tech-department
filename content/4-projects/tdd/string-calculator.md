@@ -1,7 +1,6 @@
 ---
 title: string-calculator
-weight: 2
-pre: "<b>2. </b>"
+pre: "<b>MEDIUM: </b>"
 ---
 
 Do this: https://osherove.com/tdd-kata-1/
