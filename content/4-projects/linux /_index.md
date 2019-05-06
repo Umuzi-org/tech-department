@@ -45,22 +45,31 @@ Create an empty file named exercise.txt and move this file to the /tmp direc
 
 ### Resources 
 
-1.  http://bit.ly/2GPWP9E
+1. http://bit.ly/2GPWP9E
 2. http://bit.ly/2IUg2KH
 
 
 ## Task 5 The locate command cont..
 
-1. create a file within mydocument folder, add to is a file named pad.txt
-2. Change the working directory to Desktop create a folder and name it work
-3. Copy  pad.txt to the currently working directory as pad_copy.txt
-4. Update the database used by locate by running updatedb.
+1. Create a file within mydocument folder, add to is a file named pad.txt
+2. change the working directory to Desktop create a folder and name it work
+3. copy  pad.txt to the currently working directory as pad_copy.txt
+4. update the database used by locate by running updatedb.
 5. change the working directory to the previous one (cd -)
 6. locate pad_copy.txt
 
 Note: foreach instruction write a script and save it under this task
 
 ## Task 6 Find commands
+
+1. Create a script that searches the home directory for all existing files 
+2. change directory to My document, create a file named search_result.text. Save and change directory to Descktop
+3. write a scritpt to retrive all directories,files and subdirectories, write the result to search_result.txt
+
+## Resources
+
+1. https://bit.ly/2VQbkDK
+
 ## Task 7 Installing softwares
 ## Task 8 Linux documentation how to
 ## Task 9 File operation
