@@ -21,7 +21,7 @@ Please do one step at a time, resist the temptation to read ahead.
 Make this function work:
 
 ```
-function list_all_js_function_names(path_to_js_file):
+def list_all_js_function_names(path_to_js_file):
     """
     path_to_js_file is a path to a file on your hard drive
     This function will read the entire input file and then return a list of js function names as strings
