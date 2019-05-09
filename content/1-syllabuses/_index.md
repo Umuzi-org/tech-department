@@ -20,7 +20,9 @@ This is a living document and there are a few things that need to be fleshed out
 - this doesn't account for MUB so well. MUB should happen sometime...
 - the syllabus is really long. There is a lot to cover so that has effects on Product teams. There are decisions to be made there.
 
-## potential MUB assessments
+## Potential MUB assessments
+
+We might be able to get some of out NCIT assessments out of the way during MUB.
 
 - NCIT 03: Conducting research and user interviews
 - NCIT 04: reporting
