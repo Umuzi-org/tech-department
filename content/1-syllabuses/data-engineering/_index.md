@@ -4,37 +4,43 @@ title: Data Engineering
 weight: 1
 ---
 
-Data Engineering Track
-Data Engineering: Job Description
+## Data Engineering: Job Description
+
 Data Engineers can Extract, Transform and Load data from many different sources to create unified data warehouses that enable the Data Scientists to build business-relevant analyses and make important business decisions.
 Data Engineering: Programme
 
-TECHNICAL
+## TECHNICAL
+
 Basic Linux / Authentication security
 Object-Oriented Python
 Basic SQL
 Relational DB
 
-Computer Science
+## Computer Science
+
 Time and Space complexity
 Data Structuring
 
-Extraction
+## Extraction
+
 REST APIs
 Databases
 SaaS API (e.g. Google Forms, FB, etc.)
 Web scraping
 
-Data Transformation
+## Data Transformation
+
 Advanced SQL, Python
 [Using Intermediate Queues (Kafka, RabbitMQ)]
 Data transformation at scale
 
-Data Loading
+## Data Loading
+
 (My)SQL, DB schema
 Architecture / DB schema
 
-Optional extras:
+## Optional extras:
+
 Deploy/write / launch micro-services e.g. using Docker
 Cloud services (AWS, Azure, etc)
 Web frameworks (Django, Flask)
