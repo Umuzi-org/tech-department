@@ -53,11 +53,11 @@ We start off by introducing the applicants to the development environment and re
 This is the same for everyone.
 
 - {{% contentlink "workshops/how-to-be-a-professional" %}}
-- {{% contentlink "topics/linux/introduction-to-linux" %}}
+- {{% contentlink "topics/linux/intro-to-linux" %}}
 - {{% contentlink "topics/linux/intro-to-bash" %}}
 - {{% contentlink "workshops/fat-penguine" %}}
-- {{% contentlink "workshops/introduction-to-linux" %}}
-- {{% contentlink "workshops/introduction-to-ncit" %}}
+- {{% contentlink "workshops/intro-to-linux" %}}
+- {{% contentlink "workshops/intro-to-ncit" %}}
 - PROJECT: Bash and Linux intro [TODO]
 
 ## Week 2: Git and personal portfolio
@@ -67,20 +67,21 @@ Recruits learn a bit about how to build an online presence
 This is for everyone.
 
 - {{% contentlink "topics/git/git-book" %}}
+- {{% contentlink "topics/git/git-basics" %}}
+- {{% contentlink "workshops/git-basics" %}}
+- {{% contentlink "workshops/intro-to-css-architecture" %}}
+- {{% contentlink "topics/what-to-put-in-your-cv" %}}
+- {{% contentlink "projects/portfolio-website" %}} - Introduction
 
-- WORKSHOP: introduction to CSS
-- WORKSHOP: Introduction to Git basics
-- WORKSHOP: what should be in your cv
-- TOPIC: git basics (videos on DataCamp?)
-- PROJECT INTRO: Portfolio website
-- NCIT 13: Version control (GIT) for teamwork (insufficient)
+* NCIT 13: Version control (GIT) for teamwork
 
 ## Week 3: Finish portfolio project
 
 The recruits finish off their portfolios. From this point forward they are expected to keep their portfolios up to date on their own time.
 
-- PROJECT DEADLINE: Portfolio website
-- (TODO) check what is really required here from an NCIT perspective for all courses. Adapt if needed.
+- {{% contentlink "projects/portfolio-website" %}} - Deadline
+
+* (TODO) check what is really required here from an NCIT perspective for all courses. Adapt if needed.
 
 ## Week 4: Research and Survey Design
 

@@ -42,10 +42,11 @@ def check_metadata(file_path):
     the required metadata
     """
     # TODO
+    # required = ['title']
+    # allowed  = ['pre', 'weight', 'ready']
 
 if __name__ == '__main__':
     fixup('content')
 
 
 
-    [ '', 'anchor', 'as_posix', '', 'chmod', 'cwd', 'drive', 'exists', 'expanduser', 'glob', 'group', , 'is_absolute', 'is_block_device', 'is_char_device', 'is_dir', 'is_fifo', '', 'is_mount', , 'iterdir', , , 'lstat', 'match', 'mkdir', 'name', 'open', , 'parent', 'parents', 'parts', 'read_bytes', 'read_text', 'relative_to', 'rename', 'replace', 'resolve', '', 'rmdir', 'root', 'samefile', 'stat', 'stem', 'suffix', 'suffixes', 'symlink_to', 'touch', 'unlink', 'with_name', 'with_suffix', 'write_bytes', 'write_text']
