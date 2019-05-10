@@ -6,6 +6,11 @@
 <a href="/{{ $trimmed }}">
   {{ $first | upper }}:
   {{ with .Site.GetPage "home" $trimmed}}
+
+  {{ if not .Params.Ready }}
+  [TODO]
+  {{ end }}
+
   {{ .Params.Title }}
   {{ end }}
 </a>

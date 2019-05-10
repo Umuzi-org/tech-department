@@ -11,11 +11,13 @@ We support a few different learning paths. Data Science, Data Engineering and We
 This is a living document and there are a few things that need to be fleshed out:
 
 - as far as possible each bullet point that describes a piece of our syllabus should be marked as a WORKSHOP, TOPIC or PROJECT. Or excercise??
+
   - WORKSHOP == instructor led event.
   - TOPIC == self study material
   - PROJECT == you know
-  - EXCERCISE == like a project but no deliverable. Something the recruits should do to
-- every topic, workshop and challenge needs to be linked to
+  - EXCERCISE == like a project but no deliverable. Something the recruits should do to practice on their own
+
+- every topic, workshop and challenge needs to be linked to in this document
 - we need to make sure all the NCIT requirements have been dealt with before hitting the summative assessment
 - this doesn't account for MUB so well. MUB should happen sometime...
 - the syllabus is really long. There is a lot to cover so that has effects on Product teams. There are decisions to be made there.
@@ -35,30 +37,28 @@ This is the final step of our interview process. If applicants get through the b
 
 We start off by introducing the applicants to the development environment and resources that they'll be using. Then they get to work.
 
-{{partial }}
-
 - WEB_DEV:
-  - Use FreeCodeCamp. Specifically focus on Basic JavaScript (don't worry about HTML and css for this one)
+  - Use [FreeCodeCamp](https://learn.freecodecamp.org/). Start off with JavaScript Algorithms And Data Structures Certification (300 hours)
   - JS challenges are given
 - DATA_SCI:
   - Introduction to Jupiter notebooks
-  - DataCamp intro to Python
+  - [DataCamp intro to Python](https://www.datacamp.com/courses/intro-to-python-for-data-science)
   - visualization challenges
 - DATA_ENG:
-  - introduction to Python (resource to be selected)
+  - introduction to Python (resource to be selected) [TODO]
   - Python coding challenges given
 
 ## Week 1: Linux
 
 This is the same for everyone.
 
-- WORKSHOP: How to be a professional (@ Umuzi)
-- WORKSHOP: Intro to Linux presentation
-- PROJECT: Bash and Linux intro
-- WORKSHOP: Fat Penguin! (aka ice breaker)
-- TOPIC: introduction to Linux
-- TOPIC: introduction to bash
-- WORKSHOP: Introduction to NCIT curriculum
+- {{% contentlink "workshops/how-to-be-a-professional" %}}
+- {{% contentlink "topics/linux/introduction-to-linux" %}}
+- {{% contentlink "topics/linux/intro-to-bash" %}}
+- {{% contentlink "workshops/fat-penguine" %}}
+- {{% contentlink "workshops/introduction-to-linux" %}}
+- {{% contentlink "workshops/introduction-to-ncit" %}}
+- PROJECT: Bash and Linux intro [TODO]
 
 ## Week 2: Git and personal portfolio
 
@@ -66,11 +66,12 @@ Recruits learn a bit about how to build an online presence
 
 This is for everyone.
 
+- {{% contentlink "topics/git/git-book" %}}
+
 - WORKSHOP: introduction to CSS
 - WORKSHOP: Introduction to Git basics
 - WORKSHOP: what should be in your cv
 - TOPIC: git basics (videos on DataCamp?)
-- {{% contentlink "topics/git" %}}
 - PROJECT INTRO: Portfolio website
 - NCIT 13: Version control (GIT) for teamwork (insufficient)
 
