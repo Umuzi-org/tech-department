@@ -35,6 +35,8 @@ This is the final step of our interview process. If applicants get through the b
 
 We start off by introducing the applicants to the development environment and resources that they'll be using. Then they get to work.
 
+{{partial }}
+
 - WEB_DEV:
   - Use FreeCodeCamp. Specifically focus on Basic JavaScript (don't worry about HTML and css for this one)
   - JS challenges are given
@@ -68,6 +70,7 @@ This is for everyone.
 - WORKSHOP: Introduction to Git basics
 - WORKSHOP: what should be in your cv
 - TOPIC: git basics (videos on DataCamp?)
+- {{% contentlink "topics/git" %}}
 - PROJECT INTRO: Portfolio website
 - NCIT 13: Version control (GIT) for teamwork (insufficient)
 
