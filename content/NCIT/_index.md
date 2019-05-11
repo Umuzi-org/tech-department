@@ -1,6 +1,7 @@
 ---
 title: NCIT Index
 weight: 5
+pre: "<b>5. </b>"
 ---
 
 In order to hit our NCIT requirements, recruits need to hit a variety of outcomes. Over the course of our syllabus the following assessments are completed:

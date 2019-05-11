@@ -91,18 +91,13 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - WEB_DEV:
 
-  - validating user input
+  - TOPIC: validating user input
 
 - DATA_SCI:
-  Learn about using
 
   - TOPIC: How to Google Form like a boss
   - TOPIC: Asking the right questions/ how to design a good question
   - TOPIC: regular expressions
-
-- (TODO) find out what NCIT requirements we can hit with MUB.
-  - presentations
-  - research??
 
 ## Week 5: Some specific skills
 
@@ -122,7 +117,7 @@ Everyone does the same thing here:
 - Privacy
 - POPI and friends
 
-- NCIT 07: History of the Internet and online gaming
+- NCIT 07: History of the Internet
 - NCIT 08: Web design for business
 - NCIT 09: Building an online business
 
