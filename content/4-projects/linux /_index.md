@@ -61,6 +61,16 @@ Create an empty file named exercise.txt and move this file to the /tmp direc
 Note: foreach instruction write a script and save it under this task
 
 ## Task 6 Find commands
+1. Write a script to find all files ending with 'pdf' on your computer
+2. Write a second command that takes the result of the previous search and copy  into a folder of your choice. 
+3. Write a command to display files that where modified today.
+
+### Resources 
+
+1. https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
+2. https://unix.stackexchange.com/questions/70455/how-to-run-find-exec-script
+
+
 ## Task 7 Installing softwares
 ## Task 8 Linux documentation how to
 ## Task 9 File operation
