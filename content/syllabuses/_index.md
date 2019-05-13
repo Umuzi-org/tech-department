@@ -58,7 +58,7 @@ This is the same for everyone.
 - {{% contentlink "workshops/ice-breaker" %}}
 - {{% contentlink "workshops/intro-to-linux" %}}
 - {{% contentlink "workshops/intro-to-ncit" %}}
-- PROJECT: Bash and Linux intro [TODO]
+- {{% contentlink "project/bash-and-linux" %}} INTRO
 
 ## Week 2: Git and personal portfolio
 
@@ -87,17 +87,16 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - ALL_DATA:
 
-  - TOPIC: Data validation
+  - {{% contentlink "topics/data-validation-with-python-and-regex" %}}
 
 - WEB_DEV:
 
-  - TOPIC: validating user input
+  - {{% contentlink "topics/validating-user-input-for-web" %}}
+  - {{% contentlink "topics/regular-expressions" %}}
 
 - DATA_SCI:
-
   - TOPIC: How to Google Form like a boss
   - TOPIC: Asking the right questions/ how to design a good question
-  - TOPIC: regular expressions
 
 ## Week 5: Some specific skills
 

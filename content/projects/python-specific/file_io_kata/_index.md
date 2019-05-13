@@ -74,6 +74,36 @@ list_all_js_function_names("/path/to/script.js")
 - get familiar with file inputs
 - practice (very) basic looping
 
+### Hints :)
+
+There is a lot to this function. It should be broken down a bit instead of doing everything in one go. Remember that we are doing TDD here, that's test driven development. In TDD you try to write the most trivial test possible, then you make that test pass, then you refactor. Then repeat. Try to make sure that each test you write is as small and self-contained as possible while still being useful.
+
+Here are some ideas for some tests:
+
+- test that given a one-line string, your function can detect whether or not it contains a function definition. eg:
+
+  - "function fooo(bar){" is a function definition
+  - "a = foo('hi there')" is not a function definition
+  - "foo.bar = function something(){" is a function definition
+
+- test that you can return the correct function name. Eg:
+  - "function fooo(bar){" the function name is `fooo`
+  - "a = foo('hi there')" there is no function defined here
+  - "foo.bar = function something(){" the function name is `foo.bar`
+
+Then you'll need to extend your code so that it can take a javascript file as input.
+
+### Resources
+
+- https://docs.python.org/3/howto/regex.html#using-regular-expressions
+- https://www.w3schools.com/python/python_regex.asp
+
+You'll need to understand `re.search` to get this right
+
+And here is some file input/output (file io) documentation:
+
+- https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
+
 ## Step 2
 
 Upgrade the `list_all_js_function_names` function so that it also returns the start line number and end line number for the functions. Functions in Js are defined with the use of curley brackets.
