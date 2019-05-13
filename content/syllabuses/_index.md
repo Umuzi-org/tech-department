@@ -55,7 +55,7 @@ This is the same for everyone.
 - {{% contentlink "workshops/how-to-be-a-professional" %}}
 - {{% contentlink "topics/linux/intro-to-linux" %}}
 - {{% contentlink "topics/linux/intro-to-bash" %}}
-- {{% contentlink "workshops/fat-penguine" %}}
+- {{% contentlink "workshops/ice-breaker" %}}
 - {{% contentlink "workshops/intro-to-linux" %}}
 - {{% contentlink "workshops/intro-to-ncit" %}}
 - PROJECT: Bash and Linux intro [TODO]
