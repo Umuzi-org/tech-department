@@ -20,7 +20,7 @@ First write a test function. it can be called `test_function` or something simil
 
 - write a test to demonstrate that `add(0,0)` will return 0. Run the test. It should fail. Now make the test pass by creating an `add` function.
 - write a test to demonstrate that `add(-1,-1)` should return -2 then edit `add` to make your test pass
-- write a test to demonstrate that`add(4,5)` should return 9 then edit `add` to make the test pass
+- write a test to demonstrate that `add(4,5)` should return 9 then edit `add` to make the test pass
 
 ## 2. Make sure you can add as many numbers as you want
 

@@ -4,6 +4,8 @@ pre: "<b>1. </b>"
 weight: 1
 ---
 
+- {{% contentlink "topics/git/git-book" %}}
+
 We support a few different learning paths. Data Science, Data Engineering and Web Dev (for now). what follows below is a week-by-week breakdown of these courses. This is all on one page because our various courses have enough in common that it makes sense to keep then syncronised.
 
 ## Note
@@ -58,7 +60,7 @@ This is the same for everyone.
 - {{% contentlink "workshops/ice-breaker" %}}
 - {{% contentlink "workshops/intro-to-linux" %}}
 - {{% contentlink "workshops/intro-to-ncit" %}}
-- {{% contentlink "project/bash-and-linux" %}} INTRO
+- {{% contentlink "projects/linux" %}} INTRO
 
 ## Week 2: Git and personal portfolio
 
