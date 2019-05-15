@@ -5,20 +5,13 @@
 
 <a href="/{{ $trimmed }}">
   {{ $first | upper }}:
-  {{ with .Site.GetPage "home" $trimmed}}
+  {{ with .Site.GetPage $path }}
 
-  {{ if not .Params.Ready }}
-  [TODO]
-  {{ end }}
-  ({{ $trimmed }})
-  {{ .Params.Title }}
+    {{ if not .Params.Ready }}
+        [TODO]
+    {{ end }}
+
+    {{ .Params.Title }}
 
   {{ end }}
 </a>
-
-<ul>
-  <li>{{ with .Site.GetPage "home" $trimmed}}{{ .Params.Title }}{{ end }}</li>
-  <li>{{ with .Site.GetPage "" $trimmed}}{{ .Params.Title }}{{ end }}</li>
-  <li>{{ with .Site.GetPage "/" $trimmed}}{{ .Params.Title }}{{ end }}</li>
-  <li>{{ with .Site.GetPage $path }}{{ .Params.Title }}{{ end }}</li>
-</ul>
