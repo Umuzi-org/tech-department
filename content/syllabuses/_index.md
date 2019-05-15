@@ -4,8 +4,6 @@ pre: "<b>1. </b>"
 weight: 1
 ---
 
-- {{% contentlink "topics/git/git-book" %}}
-
 We support a few different learning paths. Data Science, Data Engineering and Web Dev (for now). what follows below is a week-by-week breakdown of these courses. This is all on one page because our various courses have enough in common that it makes sense to keep then syncronised.
 
 ## Note
