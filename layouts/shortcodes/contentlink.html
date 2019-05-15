@@ -15,3 +15,10 @@
 
   {{ end }}
 </a>
+
+<ul>
+  <li>{{ with .Site.GetPage "home" $trimmed}}{{ .Params.Title }}{{ end }}</li>
+  <li>{{ with .Site.GetPage "" $trimmed}}{{ .Params.Title }}{{ end }}</li>
+  <li>{{ with .Site.GetPage "/" $trimmed}}{{ .Params.Title }}{{ end }}</li>
+  <li>{{ with .Site.GetPage $path }}{{ .Params.Title }}{{ end }}</li>
+</ul>
