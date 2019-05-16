@@ -1,5 +1,5 @@
 ---
-title: JS code review May 2019
+title: js code review May 2019
 ---
 
 ## Use the git
@@ -10,19 +10,19 @@ The next person who gives us a drag and drop upload will be shamed with a bell.
 
 ## Take pride in your work
 
-There are some pieces of feedback that were given before that were not incorporated into your code. It makes the review process a pain in the neck because I like to keep my code review comments DRY.
+There are some pieces of feedback that were given before that were not incorperated into your code. It makes the review process a pain in the neck because I like to keep my code review comments DRY.
 
 To learn as much as you can from this feedback:
 
 - make your work excellent
-- don't copy from tutorials you found on the internet, make sure you know how to make it work yourself
+- dont copy from tutorials you found on the internet, make sure you know how to make it work yourself
 
 You are here to learn. So learn.
 
 Learn your technical skills and learn to produce like a professional
 
 - your code should work
-- if there is a front-end it should not be a complete mess. A lot of the time we don't need something beautiful. But don't give us something un-usable
+- if there is a frontend it should not be a complete mess. A lot of the time we don't need something beautiful. But don't give us something un-usable
 - and did I mention git?
 
 ## Obvious comments
@@ -40,7 +40,7 @@ Obvious comments shouldn't be left in the code. It just means there is more stuf
 Ideally:
 
 - code should be self-documenting. Meaning, your code should be so obvious that comments aren't even necessary
-- if comments are required then that is OK, but don't say obvious things.
+- if comments are required then that is ok, but dont say obvious things.
 
 ```
     /**
@@ -54,9 +54,9 @@ Ideally:
 
 This is a common thing that happens a lot. Should have spoken about it more before but...
 
-Think about your project as a number of layers. You have a data and logic layer, this holds information about...information. It doesn't care about HTML. It doesn't KNOW about HTML.
+Think about your project as a number of layers. You have a data and logic layer, this holds information about...informatoin. It doesn't care about html. It doesn't KNOW about html.
 
-Then there is the UI layer stuff. It generates DOM elements from the data. And it triggers data-layer functionality based on DOM events.
+Then there is the ui layer stuff. It generates DOM elements from the data. And it triggers data-layer functionality based on DOM events.
 
 You'll get to play with this concept more soon.
 
@@ -209,7 +209,7 @@ const cardPack = ["img\\a.jpg.jpg", "img\\a.jpg.jpg", "img\\body.jpg.jpg",
                   "img\\em.jpg.jpg", "img\\html.jpg.jpg", "img\\html.jpg.jpg"]
 ```
 
-This game only works on windows. Seriously, what URL looks\like\this?
+This game only works on windows. Seriously, what url looks\like\this?
 
 ## funky indenting
 
@@ -221,7 +221,7 @@ function loadGame(selection) {
           document.getElementById("gameDisplay").removeChild(gameDisplay.childNodes[0]);
         }
 
-  //The arrays that store all the URLs to picks and the dataset names
+  //The arrays that store all the urls to picks and the dataset names
   const cardPack = [...stuff
         for (var i = 0; i < selection * 2; i++) {
 
@@ -257,7 +257,7 @@ Call a hammer a hammer. Call a nail a nail. Etc
 
 ## One git repo one project
 
-Don't put arbitrary things that have nothing to do with each other in the same repo. What does a memory game have to do with bowling?
+Dont put arbitrary things that have nothing to do with each other in the same repo. What does a memory game have to do with bowling?
 
 ## If it walks like a loop and quacks like a loop, try using a loop
 
@@ -279,7 +279,7 @@ frames = [frame1,frame2, etc]
 then loop...
 ```
 
-## there are still memory games that are js embedded in HTML
+## there are still memory games that are js embedded in html
 
 Take some pride in your work. You are here to learn. Pursue excellence.
 
@@ -348,9 +348,9 @@ complicated_code_begins_here()
 
 ## Model-view
 
-One way to make complicated logic easier to test and understand and more portable is to have a clear separation of concerns. Think of it as a bunch of layers.
+One way to make complicated logic easier to test and understand and more portable is to have a clear seperation of concerns. Think of it as a bunch of latyers.
 
-Create a bunch of code that is all about describing data. This is frontend-agnostic. Then have a visual layer that ties into that and makes your data visible and accessible.
+Create a bunch of code that is all about describing data. This is frontend-agnostic. Then have a visual layer that ties into that and makes your data visable and accessable.
 
 This is an example of loose-coupling
 
@@ -392,7 +392,7 @@ Eg:
     }
 ```
 
-I shouldn't have to read the body of the function to know what it does. The name and optional documentation should be enough. What would be a better name for this function?
+I shouldn't have to read the body of the function to know what it does. The nam and optional documentation should be enough. What would be a better name for this function?
 
 ## Your tests are not your application
 
@@ -404,7 +404,7 @@ If this is a TDD project then do it in a test driven way. There are big parts of
 
 Untested code is a form of technical debt.
 
-Also, we give you these exercises for a reason. If we are playing chess then the easiest way to win might be to drop-kick your opponent but that's not the point. If you have a TDD assignment then figure out how you can use your tests to inform the structure of your code, and figure out how to write testable code.
+Also, we give you these excercises for a reason. If we are playing chess then the easiest way to win might be to drop-kick your opponent but that's not the point. If you have a TDD assignment then figure out how you can use your tests to inform the structure of your code, and figure out how to write testable code.
 
 ## HTML in JS
 
@@ -419,9 +419,9 @@ document.getElementById("currentNext").innerHTML =
         " - " + Player.list[nextPlayer]. totalScore + " points</div>";
 ```
 
-## A cool example of separating concerns
+## A cool example of seperating concerns
 
-This function is all about drawing a picture of some details. It is in no way concerned with calculating those details. It just shows them. This function does only one thing, and it does that one thing well.
+This function is all about drawing a picture of some details. It is in no way concerned with calculating those details. It just shows them. Thios function does only one thing, and it does that one thing well.
 
 ```
 function showDetails(player) {
