@@ -82,7 +82,7 @@ The other thing to know is that hugo is written in go. So these html files are a
 
 If you want to change content (eg: you want to update or create a workshop or topic), then you will need to create a markdown file within the content directory. If you don't put your file in the right place it will not show up on the website. If you don't get your metadata right then things wont work out either.
 
-
+TODO
 
 ## The syllabus index page
 

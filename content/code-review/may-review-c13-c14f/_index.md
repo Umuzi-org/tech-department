@@ -2,6 +2,12 @@
 title: js code review May 2019
 ---
 
+## Use the git
+
+From the command line. Seriously. For all further projects forever.
+
+The next person who gives us a drag and drop upload will be shamed with a bell.
+
 ## Take pride in your work
 
 There are some pieces of feedback that were given before that were not incorperated into your code. It makes the review process a pain in the neck because I like to keep my code review comments DRY.
@@ -10,6 +16,8 @@ To learn as much as you can from this feedback:
 
 - make your work excellent
 - dont copy from tutorials you found on the internet, make sure you know how to make it work yourself
+
+You are here to learn. So learn.
 
 ## Obvious comments
 
@@ -344,4 +352,101 @@ This is an example of loose-coupling
 
 - your tests should be small and specific. Gigantic tests should not
 
-# TODO: C14F Bowling
+## some code just isn't self documenting. In these cases add documentation
+
+Eg:
+```
+    scores(){
+        this.updateTotals();
+        if (this.firstRoll[this.index] && this.firstRoll[this.index].innerHTML == 10)
+            this.secondRoll[this.index].innerHTML = 0;
+
+        if (this.firstRoll[this.index] && this.index < 9){
+            //one strike
+            if (this.firstRoll[this.index - 1] && this.firstRoll[this.index - 1].innerHTML == 10)
+                this.frameScore[this.index - 1].innerHTML = Number(this.firstRoll[this.index - 1].innerHTML) + Number(this.firstRoll[this.index].innerHTML) + Number(this.secondRoll[this.index].innerHTML);
+            //two strikes
+            if ((this.firstRoll[this.index - 2] && this.firstRoll[this.index - 2].innerHTML == 10) && (this.firstRoll[this.index - 1].innerHTML == 10))
+                this.frameScore[this.index - 2].innerHTML = Number(this.firstRoll[this.index - 2].innerHTML) + Number(this.firstRoll[this.index - 1].innerHTML) + Number(this.firstRoll[this.index].innerHTML);
+            //three strikes
+            if (this.firstRoll[this.index - 2] && this.firstRoll[this.index - 2].innerHTML == 10 && this.firstRoll[this.index - 1].innerHTML == 10 && this.firstRoll[this.index].innerHTML == 10)
+                this.frameScore[this.index - 2].innerHTML = Number(this.firstRoll[this.index - 2].innerHTML) + Number(this.firstRoll[this.index - 1].innerHTML) + Number(this.firstRoll[this.index].innerHTML);
+            //spare
+            if (this.firstRoll[this.index - 1] && Number(this.firstRoll[this.index - 1].innerHTML) != 10 && (Number(this.firstRoll[this.index - 1].innerHTML) + Number(this.secondRoll[this.index - 1].innerHTML) == 10))
+                this.frameScore[this.index - 1].innerHTML = Number(this.firstRoll[this.index - 1].innerHTML) + Number(this.secondRoll[this.index - 1].innerHTML) + Number(this.firstRoll[this.index].innerHTML);
+            this.frameScore[this.index].innerHTML = Number(this.firstRoll[this.index].innerHTML) + Number(this.secondRoll[this.index].innerHTML);
+            this.totalScore[0].innerHTML = Number(this.frameScore[0].innerHTML);
+
+            if (this.index >= 1)
+                this.updateTotals();
+        } else if (this.index == 9) {
+          this.secondRoll[9].innerHTML = Math.floor(Math.random() * this.pins + 1);
+          this.thirdRoll[0].innerHTML = Math.floor(Math.random() * this.pins + 1);
+        }
+    }
+```
+
+I shouldn't have to read the body of the function to know what it does. The nam and optional documentation should be enough. What would be a better name for this function?
+
+## Your tests are not your application
+
+Don't put the specrunner in your index.html file. Imagine you are building this for a client. They care about bowling. You care about doing a good job. The test runner and test results are not client-facing.
+
+## Play by the rules
+
+If this is a TDD project then do it in a test driven way. There are big parts of many people's codebases without tests at all. Eg: if the manner in which players take turns in the game has some complexity, maybe it would be good to test the logic that chooses whose turn it is?
+
+Untested code is a form of technical debt.
+
+Also, we give you these excercises for a reason. If we are playing chess then the easiest way to win might be to drop-kick your opponent but that's not the point. If you have a TDD assignment then figure out how you can use your tests to inform the structure of your code, and figure out how to write testable code.
+
+## HTML in JS
+
+Try make it tidy at least. Use one notation at a time. Care about indentation and readability.
+
+```
+document.getElementById("currentNext").innerHTML =
+        `<strong>Round: </strong> ${Player.list[showPlayer].round - Player.list[showPlayer].numOfStrikes + 1}  Throw#: ${Player.list[showPlayer].throw+1}` +
+        "<div id='" + Player.list[showPlayer].name + "'><strong>Current Player: </strong>" + Player.list[showPlayer].name + " - " +
+        Player.list[showPlayer]. totalScore + " points" +
+        "<br><strong>Next Player: </strong>" + Player.list[nextPlayer].name +
+        " - " + Player.list[nextPlayer]. totalScore + " points</div>";
+```
+
+## A cool example of seperating concerns
+
+This function is all about drawing a picture of some details. It is in no way concerned with calculating those details. It just shows them. Thios function does only one thing, and it does that one thing well.
+
+```
+function showDetails(player) {
+    console.log("Show details for " + Player.list[player -1].name);
+    document.getElementById("showDetails").innerHTML =
+        "<strong>Player Name: </strong>" + Player.list[player - 1].name +
+        "<br><strong>Points: </strong>" + Player.list[player - 1].totalScore +
+        "<br><strong>Position: </strong>" + Player.list[player - 1].pos +
+        "<br><strong>scores: </strong> [" + Player.list[player - 1].score + "]";
+}
+```
+
+(Nice one Axel)
+
+This idea is at the core of modern js frontend frameworks. Exciting things are on the horizon for you guys.
+
+## names people
+
+```
+function getPos() {
+```
+
+FTW?
+
+
+## ok this is just a bit strange
+
+```
+  this.addPlayer = (playerName = new Player()) => {
+    this.players.push(playerName);
+  }
+```
+
+What is playerName suposed to be here. A string or an object?
