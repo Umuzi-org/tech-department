@@ -17,7 +17,8 @@ git clone --recursive git@github.com:Umuzi-org/tech-department.git
 This is a hugo based application. To get yourself set up on a debian machine:
 
 ```
-sudo apt install golang hugo
+sudo apt install golang
+./install_hugo.sh
 ```
 
 To run the development server:
