@@ -4,9 +4,9 @@ title: How to Contribute
 
 If you want to contribute content to this repo there are a few things you need to know.
 
-Firstly, this is a [Hugo](https://gohugo.io/) based web site. If you are contributing to the content of this site you will be editing markdown files. So you wont need to know too much about how Hugo works in order to be effective. If you need to figure out the mechanics of this thing, best read the Hugo docs.
+Firstly, this is a [Hugo](https://gohugo.io/) based web site. If you are contributing to the content of this site you will be editing markdown files. So you wont need to know too much about how Hugo works in order to be effective. If you need to figure out the mechanics of this thing, best read the hugo docs.
 
-## Road-map
+## Roadmap
 
 So this repo is very much a work in progress. There are a few major tasks that need doing:
 
@@ -18,7 +18,7 @@ So this repo is very much a work in progress. There are a few major tasks that n
 
 ## First you need to get yourself set up
 
-You'll notice a link to our GitHub repo in the menu on the left. See it? Cool. You'll need to fork that.
+You'll notice a link to our github repo in the menu on the left. See it? Cool. You'll need to fork that.
 
 There are installation instructions in the README.
 
@@ -30,15 +30,15 @@ Once you have made your changes then:
 
 ## Don't make any changes to the public/ directory
 
-This is really important. It might be tempting to you to write some HTML, js or css in there. Resist that temptation. This is a Hugo based website. This means that the public directory is generated automagically. Any changes you make within the public directory will be overwritten.
+This is really important. It might be tempting to you to write some html, js or css in there. Resist that temptation. This is a hugo based website. This means that the public directory is generated automagically. Any changes you make within the public directory wil be overwritten.
 
 ## If you want to make changes to look and feel or basic site functionality
 
-This gets interesting. Basically, Hugo allows the use of themes. The theme we are using is called `Hugo-theme-learn` and you can find it inside the `themes` directory in this repo. So most of the visual elements you see when looking at this website is generated through use of that theme.
+This gets interesting. Basically, hugo allows the use of themes. The theme we are using is called `hugo-theme-learn` and you can find it inside the `themes` directory in this repo. So most of the visual elements you see when looking at this website is generated through use of that theme.
 
-If you want to override anything about how the theme behaves (maybe changing a colour or layout, or adding a functionality) then DO NOT directly edit the theme files.
+If you want to override anything about how the theme behaves (maybe changing a color or layout, or adding a functionality) then DO NOT directly edit the theme files.
 
-If you want to change how a theme behaves then you need to override that behaviour WITHOUT directly editing the theme.
+If you want to change how a theme behaves then you need to override that behavior WITHOUT directly editing the theme.
 
 Take a look at this directory structure:
 
@@ -47,7 +47,7 @@ Take a look at this directory structure:
 ├── archetypes
 ├── config.toml
 ├── content
-├── install_Hugo.sh
+├── install_hugo.sh
 ├── layouts
 ├── LICENSE.md
 ├── public
@@ -55,7 +55,7 @@ Take a look at this directory structure:
 ├── resources
 ├── static
 └── themes
-    └── Hugo-theme-learn
+    └── hugo-theme-learn
         ├── archetypes
         ├── CHANGELOG.md
         ├── exampleSite
@@ -77,7 +77,7 @@ Have an example:
 Let's say we want to change what the menu looks like. You would do something like this:
 
 ```
-cp themes/Hugo-theme-learn/layouts/partials/menu.html layouts/partials/menu.html
+cp themes/hugo-theme-learn/layouts/partials/menu.html layouts/partials/menu.html
 ```
 
 Cool, so now we have two copies of `menu.html`. Make your changes to the new one.
@@ -90,7 +90,7 @@ Cool, so now we have two copies of `menu.html`. Make your changes to the new one
 |       └── menu.html  ### EDIT THIS ONE
 ...
 └── themes
-    └── Hugo-theme-learn
+    └── hugo-theme-learn
         ├── layouts
             └── partials
                 └── menu.html ### NOT THIS ONE
@@ -99,11 +99,11 @@ Cool, so now we have two copies of `menu.html`. Make your changes to the new one
 
 Nice eh?
 
-The other thing to know is that Hugo is written in go. So these html files are actually go templates. So that's a topic you can read about on your own. Go templates are used in lots of interesting places.
+The other thing to know is that hugo is written in go. So these html files are actually go templates. So that's a topic you can read about on your own. Go templates are used in lots of interesting places.
 
 ## The syllabus index page
 
-When you are running the development server (`Hugo serve`) then you can see this page [here](http://localhost:1313/syllabuses/). This is where each supported curriculum is outlined, week by week.
+When you are running the development server (`hugo serve`) then you can see this page [here](http://localhost:1313/syllabuses/). This is where each supported curriculum is outlined, week by week.
 
 Take a look at the contents of [week 1](http://localhost:1313/syllabuses/#week-1-linux).
 
@@ -183,7 +183,7 @@ So you know how to specify a title in your frontmatter, there are a few more thi
 
 The only really compulsory thing is the title.
 
-Here is the frontmatter of the `content/syllabuses/_index.md`
+Here is the frontmatter of the `content/syllabusus/_index.md`
 
 ```
 ---
@@ -195,7 +195,7 @@ weight: 1
 ```
 
 - since the weight is 1 this item shows up as the first item in the menu on the left
-- the menu item is rendered with HTML something like this: `<b>1. </b> Syllabus`
+- the menu item is rendered with html something like this: `<b>1. </b> Syllabus`
 
 ## Advanced folder structure
 
@@ -216,4 +216,4 @@ You can also use this kind of folder structure if you want to include other reso
 
 ## What not to include
 
-Please don't include large binary files in the repo. Just link to that sort of thing. This includes pdfs, presentations, videos and other documents.
+Please dont include large binary files in the repo. Just link to that sort of thing. This includes pdfs, presentations, videos and other documents.
