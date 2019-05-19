@@ -30,7 +30,7 @@ Once you have made your changes then:
 
 ## Don't make any changes to the public/ directory
 
-This is really important. It might be tempting to you to write some HTML, js or css in there. Resist that temptation. This is a Hugo based website. This means that the public directory is generated automagically. Any changes you make within the public directory will be overwritten.
+This is really important. It might be tempting to you to write some HTML, js or css in there. Resist that temptation. This is a Hugo based website. This means that the public directory is generated auto-magically. Any changes you make within the public directory will be overwritten.
 
 ## If you want to make changes to look and feel or basic site functionality
 
@@ -171,7 +171,7 @@ Once you have saved your file then you should be able to see it in the it in the
 
 And you can make a content link to your new file like this:
 
-Yous content-link will look like this: {{% contentlink "topics/intro-to-beautifulsoup" %}}
+Use content-link will look like this: {{% contentlink "topics/intro-to-beautifulsoup" %}}
 
 ## Advanced frontmatter
 
@@ -216,4 +216,4 @@ You can also use this kind of folder structure if you want to include other reso
 
 ## What not to include
 
-Please don't include large binary files in the repo. Just link to that sort of thing. This includes pdfs, presentations, videos and other documents.
+Please don't include large binary files in the repo. Just link to that sort of thing. This includes PDFs, presentations, videos and other documents.

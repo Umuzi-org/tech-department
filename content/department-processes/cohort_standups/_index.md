@@ -6,7 +6,7 @@ Standups happen first thing in the morning. These will usually be run by junior 
 
 ## Before standup, the facilitator will
 
-- check the calanders and make sure they are familiar with upcoming events and deadlines
+- check the calenders and make sure they are familiar with upcoming events and deadlines
 - check slack in case there are any important messages that should be conveyed to their groups. Eg: "only half the C23Zs have submitted their rocket-surgery assignments"
 
 ## During standup, the facilitator will

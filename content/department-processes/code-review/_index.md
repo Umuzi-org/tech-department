@@ -6,7 +6,7 @@ If a recruit submits a code assignment then we kick off a multi-phase review pro
 
 ## Phase 1: junior review
 
-If code is submitted by a recruit then that code should be reviewed by a junior reviewer by the end of the next working day. If the workload is too big for junior staff then they need to seek out assistace as early as possible so that we can hit this target.
+If code is submitted by a recruit then that code should be reviewed by a junior reviewer by the end of the next working day. If the workload is too big for junior staff then they need to seek out assistance as early as possible so that we can hit this target.
 
 Assistance can come in the form of senior help, or help from specific trusted recruits.
 
@@ -24,17 +24,17 @@ Senior review WORKSHOP must happen within 3 working days of the junior review be
 
 Once the junior review process has been completed then the senior review process begins
 
-- if any recruit has been marked as a RED FLAG during the junior review process then this should be dealt with on a case by case basis. This mighe mean giving extra help and support to the recruit in question, or it might mean taking disciplinery action
+- if any recruit has been marked as a RED FLAG during the junior review process then this should be dealt with on a case by case basis. This might mean giving extra help and support to the recruit in question, or it might mean taking disciplinary action
 - the senior reviewer will go through all the code that the junior reviewer is happy with and take notes on:
   - what is awesome
   - what can be done better
   - just look for teachable things
 
-The senior reviewer will schedule a group review workshop. This workshop MUST BE attended by junior reviewers. It should not be open to other cohorts because we dont want to tear anyone's code to pieces in front of a large audience. If any bad code needs to be highlighted then dont mentioon any names, keep it gentle, don't point fingers at anyone unless it is to highlight something good.
+The senior reviewer will schedule a group review workshop. This workshop MUST BE attended by junior reviewers. It should not be open to other cohorts because we don't want to tear anyone's code to pieces in front of a large audience. If any bad code needs to be highlighted then don't mention any names, keep it gentle, don't point fingers at anyone unless it is to highlight something good.
 
-## Pase 0: peer review
+## Phase 0: peer review
 
-Recruits should review each other's code as well. When a recruit is new to our program then they wont know what good code looks like. But once they have had their code reviewed a few times then they can be useful in reducing our code review work load. This process still nees to be flashed out.
+Recruits should review each other's code as well. When a recruit is new to our program then they wont know what good code looks like. But once they have had their code reviewed a few times then they can be useful in reducing our code review work load. This process still needs to be flashed out.
 
 Options here are:
 

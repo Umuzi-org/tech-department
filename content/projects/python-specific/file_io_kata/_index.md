@@ -106,7 +106,7 @@ And here is some file input/output (file io) documentation:
 
 ## Step 2
 
-Upgrade the `list_all_js_function_names` function so that it also returns the start line number and end line number for the functions. Functions in Js are defined with the use of curley brackets.
+Upgrade the `list_all_js_function_names` function so that it also returns the start line number and end line number for the functions. Functions in Js are defined with the use of curly brackets.
 
 Instead of returning a list of strings, return a list of dicts.
 
@@ -132,4 +132,4 @@ Note that functions can be defined inside functions.
 
 ### Step 3
 
-TBA
+TBA TODO

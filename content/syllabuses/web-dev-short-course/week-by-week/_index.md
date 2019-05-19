@@ -22,9 +22,9 @@ Recruits will be told all their deadlines up front. As professionals they will n
 
 - PROJECT INTRO: memory-game-intro
 - WORKSHOP: introduction-to-linux
-- WORKSHOP: Time managment
+- WORKSHOP: Time management
 - WORKSHOP: Being a professional
-- WORKSHOP: Constructuve Feedback
+- WORKSHOP: Constructive Feedback
 - WORKSHOP: introduction to stack overflow
 - WORKSHOP: introduction to development tools and environment for web
 - TOPIC: introduction to bash
@@ -99,6 +99,6 @@ x design patterns
 - salary negotiation
 - ? presentation skills and public speaking
 - technical interview
-- time managment
+- time management
 
 * WORKSHOP: make umuzi better short
