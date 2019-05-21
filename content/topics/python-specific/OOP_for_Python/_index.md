@@ -2,7 +2,7 @@
 title: Intro OOP(Object-oriented Programming) for Python
 ---
 
-This is a reading Presentation of Object-oriented Programming (OOP) for Python.
+This is a reading presentation of Object-oriented Programming (OOP) for Python.
 
 ### Note:
 
