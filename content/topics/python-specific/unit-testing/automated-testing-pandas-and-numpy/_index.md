@@ -1,7 +1,5 @@
 ---
-date: 2019-03-19T16:50:16+02:00
 title: Automated Testing pandas and numpy
-weight: 15
 ---
 
 Testing and data can get a little tricky. Check these out:

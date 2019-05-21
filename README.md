@@ -60,3 +60,14 @@ topic: Introduction to Flask
 For the most part the best place to do this is in the layouts directory.
 
 DO NOT EVER make changes directly in the public directory. If you do this your changes will be destroyed. Everything in public gets generated auto-magically so your stuff will just get over-written.
+
+### Lint
+
+Run `python3.7 lint.py` to make sure all your markdown frontmatter is ok.
+
+To set up your environment:
+
+```
+mkvirtualenv -p $(which python3.7) umuzi-tech-dept
+pip install -r requirements.txt
+```

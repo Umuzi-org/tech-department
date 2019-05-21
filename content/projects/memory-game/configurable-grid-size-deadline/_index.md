@@ -1,8 +1,8 @@
 ---
 date: 2019-03-19T16:50:16+02:00
-title: "Deadline 2: configurable grid size"
-pre: "3. "
-weight: 3
+title: "configurable grid size"
+pre: "4. "
+weight: 4
 ---
 
 Implement the following user story on your code-review-buddy's game:

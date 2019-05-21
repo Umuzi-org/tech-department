@@ -7,11 +7,14 @@
   {{ $first | upper }}:
   {{ with .Site.GetPage $path }}
 
-    {{ if not .Params.Ready }}
-        [TODO]
-    {{ end }}
+  {{ if not .Params.Ready }}
+  [TODO]
+  {{ end }}
 
-    {{ .Params.Title }}
+  {{ .Params.Title }}
 
+  {{else}}
+
+  [missing title or page]
   {{ end }}
 </a>

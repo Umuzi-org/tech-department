@@ -1,4 +1,6 @@
-Umuzi assignment: Predicting salaries differences
+---
+title: Predicting salaries differences
+---
 
 Submission: Commit your notebook changes to GitHub. Once you are done, create an html report from the notebook. The last GitHub commit done before 12pm will be marked.
 

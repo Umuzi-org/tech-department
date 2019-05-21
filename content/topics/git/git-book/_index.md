@@ -1,12 +1,13 @@
 ---
-date: 2019-03-19T16:50:16+02:00
 title: Git Books
-weight: 15
+ready: true
 ---
+
+You don't need to know absolutely everything about Git in order to start using it. We keep our git repos on Github so don't worry about the server setup stuff.
 
 ## The Git Book
 
-We keep our git repos on Github so dont worry about the server setup stuff. The first three chapters will serve you well initially
+The first three chapters will serve you well initially:
 
 https://git-scm.com/book/en/v2
 

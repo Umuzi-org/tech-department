@@ -1,4 +1,6 @@
-# Time Management
+---
+title: Time Management
+---
 
 TODO: which one?
 

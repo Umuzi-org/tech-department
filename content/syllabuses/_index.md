@@ -4,9 +4,13 @@ pre: "<b>1. </b>"
 weight: 1
 ---
 
-We support a few different learning paths. Data Science, Data Engineering and Web Dev (for now). what follows below is a week-by-week breakdown of these courses. This is all on one page because our various courses have enough in common that it makes sense to keep then syncronised.
+We support a few different technical learning paths. Data Science, Data Engineering and Web Dev. What follows below is a week-by-week breakdown of these courses. This is all on one page because our various courses have enough in common that it makes sense to keep then synchronized.
 
-## Note
+## A note on Umuzi’s formal qualification and accreditation
+
+Umuzi is a registered training provider with NCIT SETA. Our National Certificate IT (Systems Development) (NCIT) qualification is a learnership requirement (i.e. Umuzi’s employer partners can therefore recognize their training and stipend spend as part of their skills development budgets). We work hard to both meet the National Certificate requirements and deliver a practical and relevant learning experience (which are not always well aligned) however, we firmly believe the most important part is the practical application of learning rather than merely meeting the unit standard requirements. Below we refer to the formal NCIT requirements e.g. NCIT01: Business and technology.
+
+## Terminology
 
 This is a living document and there are a few things that need to be fleshed out:
 
@@ -15,7 +19,7 @@ This is a living document and there are a few things that need to be fleshed out
   - WORKSHOP == instructor led event.
   - TOPIC == self study material
   - PROJECT == you know
-  - EXCERCISE == like a project but no deliverable. Something the recruits should do to practice on their own
+  - EXERCISE == like a project but no deliverable. Something the recruits should do to practice on their own
 
 - every topic, workshop and challenge needs to be linked to in this document
 - we need to make sure all the NCIT requirements have been dealt with before hitting the summative assessment
@@ -45,19 +49,21 @@ We start off by introducing the applicants to the development environment and re
   - [DataCamp intro to Python](https://www.datacamp.com/courses/intro-to-python-for-data-science)
   - visualization challenges
 - DATA_ENG:
-  - introduction to Python (resource to be selected) [TODO]
+  - introduction to Python (resource to be selected)
+    - https://www.datacamp.com/courses/intro-to-python-for-data-science/?utm_source=learnpython_com&utm_campaign=learnpython_tutorials#
+    - https://www.learnpython.org/
   - Python coding challenges given
 
 ## Week 1: Linux
 
 This is the same for everyone.
 
+- {{% contentlink "workshops/ice-breaker" %}}
 - {{% contentlink "workshops/how-to-be-a-professional" %}}
+- {{% contentlink "workshops/intro-to-ncit" %}}
 - {{% contentlink "topics/linux/intro-to-linux" %}}
 - {{% contentlink "topics/linux/intro-to-bash" %}}
-- {{% contentlink "workshops/ice-breaker" %}}
 - {{% contentlink "workshops/intro-to-linux" %}}
-- {{% contentlink "workshops/intro-to-ncit" %}}
 - {{% contentlink "projects/linux" %}} INTRO
 
 ## Week 2: Git and personal portfolio
@@ -73,15 +79,13 @@ This is for everyone.
 - {{% contentlink "topics/what-to-put-in-your-cv" %}}
 - {{% contentlink "projects/portfolio-website" %}} - Introduction
 
-* NCIT 13: Version control (GIT) for teamwork
+- NCIT 13: Version control (GIT) for teamwork
 
 ## Week 3: Finish portfolio project
 
 The recruits finish off their portfolios. From this point forward they are expected to keep their portfolios up to date on their own time.
 
 - {{% contentlink "projects/portfolio-website" %}} - Deadline
-
-* (TODO) check what is really required here from an NCIT perspective for all courses. Adapt if needed.
 
 ## Week 4: Research and Survey Design
 
@@ -95,15 +99,24 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "topics/regular-expressions" %}}
 
 - DATA_SCI:
-  - TOPIC: How to Google Form like a boss
-  - TOPIC: Asking the right questions/ how to design a good question
+  - {{% contentlink "topics/google-forms-like-a-boss" %}}
+  - {{% contentlink "topics/how-to-ask-the-right-questions" %}}
 
 ## Week 5: Some specific skills
 
 - DATA_SCI:
+
   - visualization and write a report
+  - {{% contentlink "topics/python-specific/data-visualisation" %}}
+
 - DATA_ENG:
-  - getting to know Python through TDD
+
+  - {{% contentlink "topics/python-specific/unit-testing/automated-testing-with-pytest" %}}
+  - {{% contentlink "projects/tdd/simple-calculator" %}}
+  - {{% contentlink "projects/tdd/password-checker" %}}
+  - {{% contentlink "projects/tdd/string-calculator" %}}
+  - {{% contentlink "projects/python-specific/file_io_kata" %}}
+
 - WEB_DEV:
   - Web Design
 
@@ -111,22 +124,20 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 Everyone does the same thing here:
 
-- How the Internet works, include a little bit of protocol stack and life-cycle of a request
-- Ethics of data
-- Privacy
-- POPI and friends
+- {{% contentlink "topics/how-the-internet-works" %}}
+- {{% contentlink "topics/data-ethics-and-privacy" %}}
 
-- NCIT 07: History of the Internet
-- NCIT 08: Web design for business
-- NCIT 09: Building an online business
+* NCIT 07: History of the Internet
+* NCIT 08: Web design for business
+* NCIT 09: Building an online business
 
 ## Week 7: Tech in Business and Honing L33t skillz
 
 This is pretty much the same for everyone
 
-- Coding katas in language of choice
-- Learn the lingo of the tech landscape (API, database, data pipeline, etl, vm, container, open source, IAAS, etc)
-- WORKSHOP: Code quality and how to review code
+- Coding katas in language of choice. Or catch up for those who have fallen behind on anything.
+- {{% contentlink "topics/tech-terminology" %}}
+- {{% contentlink "workshops/general-coding-best-practices" %}}
 
 - NCIT 01: Business and technology
 - NCIT 02: Ethics and Professionalism in IT
@@ -136,26 +147,38 @@ This is pretty much the same for everyone
 
 - DATA_SCI:
 
-  - data wrangling
+  - {{% contentlink "topics/python-specific/data-wrangling" %}}
+  - {{% contentlink "topics/python-specific/unit-testing/automated-testing-with-pytest" %}}
+  - {{% contentlink "projects/tdd/simple-calculator" %}}
+  - {{% contentlink "projects/tdd/password-checker" %}}
+  - {{% contentlink "projects/tdd/string-calculator" %}}
+  - {{% contentlink "topics/functional-programming-intro" %}}
 
-- ALL:
-  The data scientists wont go as in depth in these topics
-  - TDD
-  - Functional Programming
-    - NCIT 16: Test-driven development
+- DATA_ENG:
+  - {{% contentlink "topics/functional-programming-intro" %}}
+
+* WEB_DEV:
+  - {{% contentlink "projects/tdd/simple-calculator" %}}
+  - {{% contentlink "projects/tdd/password-checker" %}}
+  - {{% contentlink "projects/tdd/string-calculator" %}}
+  - {{% contentlink "topics/functional-programming-intro" %}}
+
+- NCIT 16: Test-driven development
 
 ## Week 11 & 12
 
 - WEB_DEV:
 
-  - PROJECT_INTRO: DOM manipulation with a memory game
+  - {{% contentlink "topics/dom-manipulation-with-vanilla-js" %}}
+  - {{% contentlink "projects/memory-game/intro" %}} INTRO
 
 - DATA_SCI:
 
-  - Statistical thinking
+  - {{% contentlink "topics/python-specific/statistical-thinking/" %}} INTRO
 
 - DATA_ENG:
-  - Intro to APIs. Expose a rest api using flask. Use JSON files as a database
+  - {{% contentlink "topics/python-specific/intro-to-apis/" %}}
+  - {{% contentlink "projects/python-specific/expose-rest-api-simple/" %}}
 
 ## Week 13 & 14: OOP
 
@@ -256,20 +279,22 @@ MUB must happen before this point.
 
 - DATA_SCI:
   - Decision Trees
-- DATA_ENG:
-  - react/angular/vue continued
 - WEB_DEV:
+  - react/angular/vue continued
+- DATA_ENG:
   - graphQL
   - consuming APIs with the requests module
 
 ## Week 25
 
 - DATA_SCI:
-  - Logistic Regression
+  - {{% contentlink "topics/logistic-regression" %}}
 - DATA_ENG:
-  - Sqlalchemy and Alembic
+  - {{% contentlink "topics/sqlalchemy-and-alembic" %}}
 - WEB_DEV:
-  - redux/socketio/async
+  - {{% contentlink "workshops/nodejs-socketio" %}}
+  - {{% contentlink "workshops/nodejs-async-vs-sync" %}}
+  - {{% contentlink "workshops/redux_intro/" %}}
 
 ## Week 26
 
