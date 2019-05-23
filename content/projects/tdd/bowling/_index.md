@@ -16,6 +16,8 @@ In a professional setting, untested code is incomplete code.
 
 In general: Follow recognized best practices around whatever language and test framework you are using. Eg: consistent naming conventions of functions, test files and literally everything else. Literally.
 
+Also this is a team project. Do this in groups of two following a TDD ping-pong approach as described here: {{% contentlink "workshops/intro-to-pair-programming/" %}}
+
 ## Instructions
 
 Write a software system for keeping track of bowling scores. You can read about traditional 10 pin bowling scoring [here](https://en.wikipedia.org/wiki/Ten-pin_bowling#Scoring).
