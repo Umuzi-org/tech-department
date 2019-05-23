@@ -56,7 +56,7 @@ We start off by introducing the applicants to the development environment and re
 
 ## Week 1: Linux
 
-ALL:
+- ALL:
     - {{% contentlink "workshops/ice-breaker" %}}
     - {{% contentlink "workshops/how-to-be-a-professional" %}}
     - {{% contentlink "workshops/intro-to-ncit" %}}
@@ -69,13 +69,13 @@ ALL:
 
 Recruits learn a bit about how to build an online presence
 
-ALL:
-- {{% contentlink "topics/git/git-book" %}}
-- {{% contentlink "topics/git/git-basics" %}}
-- {{% contentlink "workshops/git-basics" %}}
-- {{% contentlink "workshops/intro-to-css-architecture" %}}
-- {{% contentlink "topics/what-to-put-in-your-cv" %}}
-- {{% contentlink "projects/portfolio-website" %}} - Introduction
+- ALL:
+    - {{% contentlink "topics/git/git-book" %}}
+    - {{% contentlink "topics/git/git-basics" %}}
+    - {{% contentlink "workshops/git-basics" %}}
+    - {{% contentlink "workshops/intro-to-css-architecture" %}}
+    - {{% contentlink "topics/what-to-put-in-your-cv" %}}
+    - {{% contentlink "projects/portfolio-website" %}} - Introduction
 
 - NCIT 13: Version control (GIT) for teamwork
 
@@ -242,11 +242,10 @@ All recruits will do this
 
 ## Week 20: NCIT bits and pieces
 
-ALL:
-
-- {{% contentlink "workshops/intro-to-agile/" %}}
-- {{% contentlink "workshops/agile-scrum/" %}}
-- {{% contentlink "topics/optimizations-and-big-o/" %}}
+- ALL:
+    - {{% contentlink "workshops/intro-to-agile/" %}}
+    - {{% contentlink "workshops/agile-scrum/" %}}
+    - {{% contentlink "topics/optimizations-and-big-o/" %}}
 
 - NCIT 19: Search and sort techniques
 - NCIT 10: Agile project management
