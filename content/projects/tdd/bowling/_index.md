@@ -1,6 +1,7 @@
 ---
 title: ten-pin bowling scoring system
 pre: "<b>HARD: </b>"
+todo: get a second opinion. Are there enough details here?
 ---
 
 ## Take Note
