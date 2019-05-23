@@ -8,37 +8,44 @@ from pathlib import Path
 import frontmatter
 
 
-def fixup(path):
+def check_all_frontmatter(path):
     location = Path(path)
     assert location.is_dir(), location
     for child in location.iterdir():
         if child.is_dir():
-            fixup(child)
+            check_all_frontmatter(child)
         else:
-            check_metadata(child)
-            # fix_file(child)
+            check_one_file_frontmatter(child)
 
 
-def fix_file(file_path):
-    name = file_path.name
-    if not name.endswith(".md"):
-        # we only care about markdown files.
-        return
-    if name.startswith("_index."):
-        # looks good
-        return
-    # make a directory with the same name as the file (without the extension)
-    suffix = "".join(file_path.suffixes)
-    prefix = name[: -len(suffix)]
+# def fix_file(file_path):
+#     """ take a file at a specific path and change it as follows
 
-    new_dir = file_path.parent / prefix
-    new_dir.mkdir()
+#     path/to/some/awesome_topic.md
+#     =>
+#     path/to/some/awesome_topic/_index.md
 
-    new_path = new_dir / f"_index{suffix}"
-    file_path.rename(new_path)
+#     probably no longer needed
+#     """
+#     name = file_path.name
+#     if not name.endswith(".md"):
+#         # we only care about markdown files.
+#         return
+#     if name.startswith("_index."):
+#         # looks good
+#         return
+#     # make a directory with the same name as the file (without the extension)
+#     suffix = "".join(file_path.suffixes)
+#     prefix = name[: -len(suffix)]
+
+#     new_dir = file_path.parent / prefix
+#     new_dir.mkdir()
+
+#     new_path = new_dir / f"_index{suffix}"
+#     file_path.rename(new_path)
 
 
-def check_metadata(file_path):
+def check_one_file_frontmatter(file_path):
     """ given the path to a markdown file, make sure that the frontmatter includes
     the required metadata
     """
@@ -49,7 +56,7 @@ def check_metadata(file_path):
     post = frontmatter.load(file_path)
 
     required = ["title"]
-    allowed = ["pre", "weight", "ready", "date", "disableToc"]
+    allowed = ["pre", "weight", "ready", "date", "disableToc", "todo", "attn"]
 
     for key in post.keys():
         if key not in required + allowed:
@@ -61,6 +68,12 @@ def check_metadata(file_path):
             continue
 
 
+def check_contentlinks_ok():
+    import os
+
+    os.system("hugo")
+
+
 if __name__ == "__main__":
-    fixup("content")
+    check_all_frontmatter("content")
 

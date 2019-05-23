@@ -62,5 +62,4 @@ NB: The list of provided resources is not exhaustive feel free to check around (
 
 - [About restful API](https://searchmicroservices.techtarget.com/definition/RESTful-API)
 - [Build a restful API with node](https://medium.com/@purposenigeria/build-a-restful-api-with-node-js-and-express-js-d7e59c7a3dfb)
-
 - [Test your API-ends](https://www.getpostman.com/)

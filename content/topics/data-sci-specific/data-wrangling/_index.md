@@ -1,9 +1,8 @@
 ---
-date: 2019-03-19T16:50:16+02:00
 title: Data Wrangling
-weight: 1
 ---
 
+Intro to pandas and data manipulation [here](https://www.kaggle.com/learn/pandas)
 
-Complete the DataCamp skills track Data Manipulation with Python:
+If you'd like more, complete the DataCamp skills track Data Manipulation with Python:
 https://www.datacamp.com/tracks/data-manipulation-with-python

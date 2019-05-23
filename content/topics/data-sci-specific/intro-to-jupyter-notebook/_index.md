@@ -18,3 +18,5 @@ You also want to install the following packages:
 
 You can install packages by typing `conda install name-of-package`, e.g.
 `conda install numpy`.
+
+You can find some lessons [here](https://drive.google.com/open?id=19Ui8g3fppAFStkdNmRuZvCyF0D0p4pHf)

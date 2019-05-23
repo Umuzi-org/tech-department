@@ -1,3 +1,7 @@
+---
+title: Dashboard Assignment
+---
+
 Instruction for the dashboard assignment to follow.
 
 ## References:

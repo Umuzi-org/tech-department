@@ -106,10 +106,10 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - DATA_SCI:
 
-  - visualization and write a report
   - {{% contentlink "topics/python-specific/data-visualisation" %}}
 
 - DATA_ENG:
+  Get as far as possible with the following exercises. We'll continue later
 
   - {{% contentlink "topics/python-specific/unit-testing/automated-testing-with-pytest" %}}
   - {{% contentlink "projects/tdd/simple-calculator" %}}
@@ -118,7 +118,7 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/python-specific/file_io_kata" %}}
 
 - WEB_DEV:
-  - Web Design
+  - {{% contentlink "topics/intro-to-web-design/" %}}
 
 ## Week 6: The Internet and Ethics in tech
 
@@ -127,9 +127,9 @@ Everyone does the same thing here:
 - {{% contentlink "topics/how-the-internet-works" %}}
 - {{% contentlink "topics/data-ethics-and-privacy" %}}
 
-* NCIT 07: History of the Internet
-* NCIT 08: Web design for business
-* NCIT 09: Building an online business
+- NCIT 07: History of the Internet
+- NCIT 08: Web design for business
+- NCIT 09: Building an online business
 
 ## Week 7: Tech in Business and Honing L33t skillz
 
@@ -155,9 +155,11 @@ This is pretty much the same for everyone
   - {{% contentlink "topics/functional-programming-intro" %}}
 
 - DATA_ENG:
+
   - {{% contentlink "topics/functional-programming-intro" %}}
 
-* WEB_DEV:
+- WEB_DEV:
+
   - {{% contentlink "projects/tdd/simple-calculator" %}}
   - {{% contentlink "projects/tdd/password-checker" %}}
   - {{% contentlink "projects/tdd/string-calculator" %}}
@@ -182,129 +184,143 @@ This is pretty much the same for everyone
 
 ## Week 13 & 14: OOP
 
-everybody will do this in their language
-
 - NCIT 15: Object-oriented programming
 
-- WORKSHOP: Intro to OOP
-- PROJECT: Basic oop exercises
-- PROJECT: Bowling??
+- DATA_SCI
 
-- WEB_DEV:
-  - intro to node
+  - {{% contentlink "topics/python-specific/oop-for-python/" %}}
+  - {{% contentlink "projects/oop-in-python/" %}}
+
+- DATA_ENG
+
+  - {{% contentlink "topics/python-specific/oop-for-python/" %}}
+  - {{% contentlink "projects/oop-in-python/" %}}
+  - {{% contentlink "projects/tdd/bowling/" %}} INTRO
+
+- WEB_DEV
+  - {{% contentlink "projects/oop-in-js/" %}}
+  - {{% contentlink "workshops/node/" %}}
+  - {{% contentlink "projects/nodejs/" %}}
+  - {{% contentlink "topics/js-and-node-specific/introduction-to-node/" %}}
 
 ## Week 15:
 
-Everyone:
+ALL:
 
-- Operating system environmental variables, source and export, bashrc
-- Brief intro to docker and docker compose (just so they can run and kill containers)
+- {{% contentlink "topics/os-environmental-variables/" %}}
+- {{% contentlink "topics/intro-to-docker/" %}}
 
 ALL_DATA:
 
-- virtual environments
-- os.environ
+- {{% contentlink "topics/python-specific/virtual-envs/" %}}
 
 WEB_DEV:
 
-- dotenv
+- {{% contentlink "topics/js-and-node-specific/dotenv/" %}}
 
 ## Week 16 & 17: Introduction to SQL
 
 All recruits will do this
 
-- WORKSHOP: Introduction to SQL and relational data
-- PROJECT: Getting to know sql
-- WORKSHOP: SQL and (node/python)
+- {{% contentlink "workshops/node-and-sql/" %}}
+- {{% contentlink "topics/python-specific/sql-and-python/" %}}
+- {{% contentlink "topics/sql-and-data-quality-control/" %}}
+
 - NCIT 17: Assignment: Create MySQL database with employee and product tables
 
 ## Week 18 & 19
 
-- ALL:
-
-  - web scraping
-  - NCIT 18: Input & Output
+- NCIT 18: Input & Output
 
 - DATA_SCI:
 
-  - dashboards
+  - {{% contentlink "topics/python-specific/web-scraping/" %}}
+  - {{% contentlink "topics/data-sci-specific/dashboards/" %}}
 
 - DATA_ENG:
 
-  - PROJECT: REST API using SQL DB
+  - {{% contentlink "topics/data-sci-specific/cross-validation-and-simple-linear-regression/" %}}
+  - {{% contentlink "projects/build-rest-api-with-db/" %}}
 
 - WEB_DEV:
-  - express intro
-  - PROJECT: REST API using SQL DB
+  - {{% contentlink "workshops/intro-to-express/" %}}
+  - {{% contentlink "projects/build-rest-api-with-db/" %}}
 
 ## Week 20: NCIT bits and pieces
 
-Everyone:
+ALL:
 
-- Agile
+- {{% contentlink "workshops/intro-to-agile/" %}}
+- {{% contentlink "workshops/agile-scrum/" %}}
+- {{% contentlink "topics/optimizations-and-big-o/" %}}
+
 - NCIT 19: Search and sort techniques
-- optimising your code
-- Big O notation
 - NCIT 10: Agile project management
 - NCIT 11: Agile meetings
 - NCIT 12: Boolean algebra, logic
 
 ## Week 21: NCIT bits and pieces
 
-Everyone: NCIT Summative assessment
-
 MUB must happen before this point.
+
+ALL:
+
+- NCIT Summative assessment
 
 ## Week 22:
 
 - DATA_SCI:
-  - Cross-validation & Simple Linear Regression
+  - {{% contentlink "topics/data-sci-specific/cross-validation-and-simple-linear-regression/" %}}
 - DATA_ENG:
-  - MongoDB and Python
+  - {{% contentlink "topics/python-specific/mongodb/" %}}
 - WEB_DEV:
-  - MongoDB and JS
+  - {{% contentlink "topics/js-and-node-specific/mongodb/" %}}
 - ALL:
-  - Database roundup/comparison
+  - {{% contentlink "topics/database-comparison/" %}}
 
 ## Week 23
 
 - DATA_SCI:
-  - Multivariate Linear Regression
+  - {{% contentlink "topics/data-sci-specific/multivariate-linear-regression" %}}
 - DATA_ENG:
-  - DAGs with Luigi
+  - {{% contentlink "topics/dags-with-airflow" %}}
 - WEB_DEV:
-  - react/angular/vue
+  select one of the following:
+  - {{% contentlink "topics/web-frontend/intro-to-angular/" %}}
+  - {{% contentlink "topics/web-frontend/intro-to-react/" %}}
+  - {{% contentlink "topics/web-frontend/intro-to-vue/" %}}
 
 ## Week 24
 
 - DATA_SCI:
-  - Decision Trees
+  - {{% contentlink "topics/data-sci-specific/decision-trees" %}}
 - WEB_DEV:
-  - react/angular/vue continued
+  - continue with frontend web framework
 - DATA_ENG:
-  - graphQL
-  - consuming APIs with the requests module
+  - {{% contentlink "projects/python-consuming-an-api-with-requests/" %}}
+  - {{% contentlink "topics/graphql/" %}}
 
 ## Week 25
 
 - DATA_SCI:
-  - {{% contentlink "topics/logistic-regression" %}}
+  - {{% contentlink "topics/data-sci-specific/logistic-regression" %}}
 - DATA_ENG:
   - {{% contentlink "topics/sqlalchemy-and-alembic" %}}
 - WEB_DEV:
-  - {{% contentlink "workshops/nodejs-socketio" %}}
+  - {{% contentlink "workshops/nodejs-intro-to-socketio/" %}}
   - {{% contentlink "workshops/nodejs-async-vs-sync" %}}
   - {{% contentlink "workshops/redux_intro/" %}}
 
 ## Week 26
 
 - DATA_SCI:
-  -K-Means Clustering
+
+  - {{% contentlink "topics/data-sci-specific/k-means-clustering" %}}
+
 - DATA_ENG:
-  - Choosing a task queue: ZeroMQ versus RabbitMQ versus Kafka
-  - PROJECT: distributed workloads with zeroMQ
-- WEB_DEV:
-  - redux/socketio/async/
-- ALL:
-  - Agile recap
-  - Git for Teamwork (feature branching)
+  - {{% contentlink "topics/choosing-a-task-queue" %}}
+  - {{% contentlink "projects/distributed-workloads-with-zeromq" %}}
+
+* ALL:
+  - {{% contentlink "workshops/git-for-teamwork/" %}}
+  - {{% contentlink "workshops/agile-recap/" %}}

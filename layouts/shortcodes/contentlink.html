@@ -3,9 +3,9 @@
 {{ $elements := split $path "/" }}
 {{ $first := index ($elements) 0 }}
 
-<a href="/{{ $trimmed }}">
+<a href="/{{ $trimmed }}" class="contentlink">
   {{ $first | upper }}:
-  {{ with .Site.GetPage $path }}
+  {{ with .Site.GetPage $trimmed }}
 
   {{ if not .Params.Ready }}
   [TODO]
@@ -15,6 +15,6 @@
 
   {{else}}
 
-  [missing title or page]
+  [MISSING title or page]
   {{ end }}
 </a>

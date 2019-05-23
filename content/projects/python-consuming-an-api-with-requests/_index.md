@@ -1,3 +1,3 @@
 ---
-title: "Consuming HTTP APIs with Python"
+title: consuming APIs with the requests module
 ---

@@ -5,3 +5,4 @@ weight: 15
 ---
 
 - (Command line bootcamp)[http://rik.smith-unna.com/command_line_bootcamp/]
+- http://korflab.ucdavis.edu/bootcamp.html

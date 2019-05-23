@@ -1,3 +1,7 @@
+---
+title: Multivariate Linear Regression
+---
+
 This week is all about one-hot encoding and multiple regression.
 
 For more information and the assignment: [Predicting employee salaries](https://www.github.com/Umuzi-org/salary/blob/master/assignment3.md)

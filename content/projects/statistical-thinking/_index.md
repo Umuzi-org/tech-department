@@ -2,6 +2,12 @@
 title: Predicting salaries differences
 ---
 
+Complete the DataCamp courses Statistical Thinking in Python Part 1 and Statistical Thinking in Python Part 2:
+https://www.datacamp.com/courses/statistical-thinking-in-python-part-1
+https://www.datacamp.com/courses/statistical-thinking-in-python-part-2
+
+Then, completed the Correlation assignment using the salary dataset.
+
 Submission: Commit your notebook changes to GitHub. Once you are done, create an html report from the notebook. The last GitHub commit done before 12pm will be marked.
 
 To complete this assignment, you should watch the following videos:
