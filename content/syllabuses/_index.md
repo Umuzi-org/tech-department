@@ -56,22 +56,20 @@ We start off by introducing the applicants to the development environment and re
 
 ## Week 1: Linux
 
-This is the same for everyone.
-
-- {{% contentlink "workshops/ice-breaker" %}}
-- {{% contentlink "workshops/how-to-be-a-professional" %}}
-- {{% contentlink "workshops/intro-to-ncit" %}}
-- {{% contentlink "topics/linux/intro-to-linux" %}}
-- {{% contentlink "topics/linux/intro-to-bash" %}}
-- {{% contentlink "workshops/intro-to-linux" %}}
-- {{% contentlink "projects/linux" %}} INTRO
+ALL:
+    - {{% contentlink "workshops/ice-breaker" %}}
+    - {{% contentlink "workshops/how-to-be-a-professional" %}}
+    - {{% contentlink "workshops/intro-to-ncit" %}}
+    - {{% contentlink "topics/linux/intro-to-linux" %}}
+    - {{% contentlink "topics/linux/intro-to-bash" %}}
+    - {{% contentlink "workshops/intro-to-linux" %}}
+    - {{% contentlink "projects/linux" %}} INTRO
 
 ## Week 2: Git and personal portfolio
 
 Recruits learn a bit about how to build an online presence
 
-This is for everyone.
-
+ALL:
 - {{% contentlink "topics/git/git-book" %}}
 - {{% contentlink "topics/git/git-basics" %}}
 - {{% contentlink "workshops/git-basics" %}}
@@ -122,8 +120,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 ## Week 6: The Internet and Ethics in tech
 
-Everyone does the same thing here:
-
+ALL:
 - {{% contentlink "topics/how-the-internet-works" %}}
 - {{% contentlink "topics/data-ethics-and-privacy" %}}
 
@@ -133,8 +130,7 @@ Everyone does the same thing here:
 
 ## Week 7: Tech in Business and Honing L33t skillz
 
-This is pretty much the same for everyone
-
+ALL:
 - Coding katas in language of choice. Or catch up for those who have fallen behind on anything.
 - {{% contentlink "topics/tech-terminology" %}}
 - {{% contentlink "workshops/general-coding-best-practices" %}}
