@@ -3,18 +3,14 @@
 {{ $elements := split $path "/" }}
 {{ $first := index ($elements) 0 }}
 
-<a href="/{{ $trimmed }}" class="contentlink">
+<a href="/{{ $trimmed }}">
   {{ $first | upper }}:
   {{ with .Site.GetPage $trimmed }}
-
-  {{ if not .Params.Ready }}
-  [TODO]
-  {{ end }}
-
-  {{ .Params.Title }}
-
+    {{ if not .Params.Ready }}
+        <span class="contentlink-todo"  data="{{ $path }}">[TODO]</span>
+    {{ end }}
+    {{ .Params.Title }}
   {{else}}
-
-  [MISSING title or page]
+    <span class="contentlink-missing" data="{{ $path }}">[MISSING title or page]</span>
   {{ end }}
 </a>

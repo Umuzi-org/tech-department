@@ -70,8 +70,9 @@ def check_one_file_frontmatter(file_path):
 
 def check_contentlinks_ok():
     import os
-
     os.system("hugo")
+    os.system('grep -r "contentlink-missing" public')  # TODO
+    os.system('grep -r "contentlink-todo" public')  # TODO
 
 
 if __name__ == "__main__":

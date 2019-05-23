@@ -91,11 +91,11 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - ALL_DATA:
 
-  - {{% contentlink "topics/data-validation-with-python-and-regex" %}}
+  - {{% contentlink "projects/data-validation-with-python-and-regex" %}}
 
 - WEB_DEV:
 
-  - {{% contentlink "topics/validating-user-input-for-web" %}}
+  - {{% contentlink "projects/validating-user-input-for-web" %}}
   - {{% contentlink "topics/regular-expressions" %}}
 
 - DATA_SCI:
@@ -106,7 +106,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - DATA_SCI:
 
-  - {{% contentlink "topics/python-specific/data-visualisation" %}}
+  - {{% contentlink "topics/data-sci-specific/data-visualisation" %}}
 
 - DATA_ENG:
   Get as far as possible with the following exercises. We'll continue later
@@ -147,7 +147,7 @@ This is pretty much the same for everyone
 
 - DATA_SCI:
 
-  - {{% contentlink "topics/python-specific/data-wrangling" %}}
+  - {{% contentlink "topics/data-sci-specific/data-wrangling" %}}
   - {{% contentlink "topics/python-specific/unit-testing/automated-testing-with-pytest" %}}
   - {{% contentlink "projects/tdd/simple-calculator" %}}
   - {{% contentlink "projects/tdd/password-checker" %}}
@@ -176,7 +176,7 @@ This is pretty much the same for everyone
 
 - DATA_SCI:
 
-  - {{% contentlink "topics/python-specific/statistical-thinking/" %}} INTRO
+  - {{% contentlink "topics/data-sci-specific/statistical-thinking/" %}} INTRO
 
 - DATA_ENG:
   - {{% contentlink "topics/python-specific/intro-to-apis/" %}}
@@ -233,12 +233,10 @@ All recruits will do this
 - NCIT 18: Input & Output
 
 - DATA_SCI:
-
   - {{% contentlink "topics/python-specific/web-scraping/" %}}
   - {{% contentlink "topics/data-sci-specific/dashboards/" %}}
 
 - DATA_ENG:
-
   - {{% contentlink "topics/data-sci-specific/cross-validation-and-simple-linear-regression/" %}}
   - {{% contentlink "projects/build-rest-api-with-db/" %}}
 
