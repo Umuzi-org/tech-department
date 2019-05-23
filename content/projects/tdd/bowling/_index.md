@@ -13,7 +13,7 @@ When you submit your code (on Github people!) then your tests MUST BE included i
 
 In a professional setting, untested code is incomplete code.
 
-In general: Follow recognised best practices around whatever language and test framework you are using. Eg: consistent naming conventions of functions, test files and literally everything else. Literally.
+In general: Follow recognized best practices around whatever language and test framework you are using. Eg: consistent naming conventions of functions, test files and literally everything else. Literally.
 
 ## Instructions
 
@@ -21,21 +21,19 @@ Write a software system for keeping track of bowling scores. You can read about 
 
 Please put your tests in a directory named "tests" (unless the testing framework you are using follows some other convention(which is unlikely)).
 
-### Initial inputs:
-
-The names of the players eg "Uncle Bob Martin" and "Ada Lovelace"
-
 ### Gameplay
 
-Once the game has started, the players take turns until the game is concluded. Each player gets to throw the bowling ball up to three times during their turn. Each time they throw they can knock down up to a maximum of 10 pins.
+This project is more about js than html. It needs a WORKING frontend but don't spend too much time making it beautiful. Here is how it will work:
 
-PLEASE DO NOT IMPLEMENT A FANCY GUI. we dont care to see the bowling pins or the ball, we dont care about physics.
+1. As the game starts the user will be allowed to enter the names of the players eg "Uncle Bob Martin" and "Ada Lovelace"
+2. The user then clicks a start button to begin the game
+3. The user should be able to see the scores of all the players at all times. This includes scores for individual throws and frames, and their total scores
+4. The user should be able to see whose turn it is
+5. The user should be able to submit the number of pins hit on each throw. One by one. Eg, it's Uncle Bob's turn, so he throws and misses everything. The user submits a 0. The user interface shows that Bob's score is unchanged and it's still his turn. Bob throws again and hits 2 pins, the user submits a 2 and Bob's score is updated and it's still his turn. He throws again and misses. The user enters a 0. We now see that it is Ada's turn. She throws and hits all the pins because she is awesome. The user enters a 10. Ada's score is updated. Now it's Bob's turn again. Get it?
 
-The only input that will matter here is the number of pins knocked over.
+### More Outputs
 
-### Outputs
-
-We should be able to access at any point in time:
+We should be able to see at any point in time:
 
 - the total score of any player
 - the "leaderboard" of the current game (who is in first place, second, third etc)
@@ -43,3 +41,36 @@ We should be able to access at any point in time:
 - how many turns are left
 - who's turn is it now?
 - whose turn is it next?
+
+### Please don't
+
+PLEASE DO NOT IMPLEMENT A FANCY GUI. We don't care to see the bowling pins or the ball, we don't care about physics.
+
+## Resources and things to know
+
+This is not a simple project. To build something awesome you should be aware of a few architectural concepts.
+
+### Separate display logic from data logic
+
+If your data and your gui get all mixed up then things get very hard to test. Here's an approach you might consider:
+
+1. Think what your data should look like. What is the shape of it? Maybe you have a class called Game. And Game contains some Player objects... These things shouldn't know about HTML. For example, if you were writing a bowling server (with no front-end at all) then these data structures should be valid. Of course you would be setting up these structures in a TDD manner. Eg you could test that a Game object initializes correctly, then make that happen
+2. Figure out how your data will change. The only input here is the number of pins hit on each throw. This is a simple integer. Note: we still haven't thought about HTML at this point
+3. Now for some display code. Here's a pretty good example adapted from one of your predecessors:
+
+```
+function drawPlayerDetails(player) {
+    document.getElementById("showDetails").innerHTML =
+        "<strong>Player Name: </strong>" + player.name +
+        "<br><strong>Points: </strong>" + player.totalScore +
+        "<br><strong>Position: </strong>" + player.pos +
+        "<br><strong>scores: </strong> [" + player.score + "]";
+}
+```
+This function does one thing, and it does that thing well and intuitively.
+
+### Some oop resources
+
+- https://stackoverflow.com/questions/226977/what-is-loose-coupling-please-provide-examples
+- https://medium.com/clarityhub/low-coupling-high-cohesion-3610e35ac4a6
+- SOLID: https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
