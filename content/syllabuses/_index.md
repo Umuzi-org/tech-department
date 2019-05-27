@@ -14,7 +14,7 @@ Umuzi is a registered training provider with NCIT SETA. Our National Certificate
 
 This is a living document and there are a few things that need to be fleshed out:
 
-- as far as possible each bullet point that describes a piece of our syllabus should be marked as a WORKSHOP, TOPIC or PROJECT. Or excercise??
+- as far as possible each bullet point that describes a piece of our syllabus should be marked as a WORKSHOP, TOPIC or PROJECT. Or exercise??
 
   - WORKSHOP == instructor led event.
   - TOPIC == self study material
@@ -97,7 +97,7 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "topics/regular-expressions" %}}
 
 - DATA_SCI:
-  - {{% contentlink "topics/google-forms-like-a-boss" %}}
+  - {{% contentlink "topics/data-sci-specific/google-forms-like-a-boss" %}}
   - {{% contentlink "topics/how-to-ask-the-right-questions" %}}
 
 ## Week 5: Some specific skills
@@ -116,13 +116,13 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/python-specific/file_io_kata" %}}
 
 - WEB_DEV:
-  - {{% contentlink "topics/intro-to-web-design/" %}}
+  - {{% contentlink "topics/web-frontend/intro-to-web-design/" %}}
 
 ## Week 6: The Internet and Ethics in tech
 
-ALL:
-- {{% contentlink "topics/how-the-internet-works" %}}
-- {{% contentlink "topics/data-ethics-and-privacy" %}}
+- ALL:
+    - {{% contentlink "topics/how-the-internet-works" %}}
+    - {{% contentlink "topics/data-ethics-and-privacy" %}}
 
 - NCIT 07: History of the Internet
 - NCIT 08: Web design for business
@@ -130,10 +130,10 @@ ALL:
 
 ## Week 7: Tech in Business and Honing L33t skillz
 
-ALL:
-- Coding katas in language of choice. Or catch up for those who have fallen behind on anything.
-- {{% contentlink "topics/tech-terminology" %}}
-- {{% contentlink "workshops/general-coding-best-practices" %}}
+- ALL:
+    - Coding katas in language of choice. Or catch up for those who have fallen behind on anything.
+    - {{% contentlink "topics/tech-terminology" %}}
+    - {{% contentlink "workshops/general-coding-best-practices" %}}
 
 - NCIT 01: Business and technology
 - NCIT 02: Ethics and Professionalism in IT
@@ -157,6 +157,7 @@ ALL:
 - WEB_DEV:
 
   - {{% contentlink "projects/tdd/simple-calculator" %}}
+  - {{% contentlink "projects/tdd/simple-calculator-part2" %}}
   - {{% contentlink "projects/tdd/password-checker" %}}
   - {{% contentlink "projects/tdd/string-calculator" %}}
   - {{% contentlink "topics/functional-programming-intro" %}}
@@ -203,7 +204,7 @@ ALL:
 
 ALL:
 
-- {{% contentlink "topics/os-environmental-variables/" %}}
+- {{% contentlink "topics/linux/os-environmental-variables/" %}}
 - {{% contentlink "topics/intro-to-docker/" %}}
 
 ALL_DATA:
@@ -269,14 +270,14 @@ ALL:
 - WEB_DEV:
   - {{% contentlink "topics/js-and-node-specific/mongodb/" %}}
 - ALL:
-  - {{% contentlink "topics/database-comparison/" %}}
+  - {{% contentlink "topics/data-infrastructure/database-comparison/" %}}
 
 ## Week 23
 
 - DATA_SCI:
   - {{% contentlink "topics/data-sci-specific/multivariate-linear-regression" %}}
 - DATA_ENG:
-  - {{% contentlink "topics/dags-with-airflow" %}}
+  - {{% contentlink "topics/data-infrastructure/dags-with-airflow" %}}
 - WEB_DEV:
   select one of the following:
   - {{% contentlink "topics/web-frontend/intro-to-angular/" %}}
@@ -311,7 +312,7 @@ ALL:
   - {{% contentlink "topics/data-sci-specific/k-means-clustering" %}}
 
 - DATA_ENG:
-  - {{% contentlink "topics/choosing-a-task-queue" %}}
+  - {{% contentlink "topics/data-infrastructure/choosing-a-task-queue" %}}
   - {{% contentlink "projects/distributed-workloads-with-zeromq" %}}
 
 * ALL:

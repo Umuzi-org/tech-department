@@ -1,11 +1,12 @@
 ---
 title: simple-calculator
 pre: "<b>EASY: </b>"
+ready: true
 ---
 
-We'll build a calculator to do some basic arithmetic. Please follow the instructions below. Please take all the naming conventions in this doument with a gran of salt. There are lots and lots of test frameworks in existance, each with its own conventions. Please follow whatever conventions are set out by the test tool that you are using.
+We'll build a calculator to do some basic arithmetic. Please follow the instructions below. Please take all the naming conventions in this document with a gran of salt. There are lots and lots of test frameworks in existence, each with its own conventions. Please follow whatever conventions are set out by the test tool that you are using.
 
-Also, please dont build a frontend.
+Also, please don't build a frontend.
 
 We'll follow a TDD approach. The basic approach is
 

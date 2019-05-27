@@ -10,7 +10,3 @@ You don't need to know absolutely everything about Git in order to start using i
 The first three chapters will serve you well initially:
 
 https://git-scm.com/book/en/v2
-
-# Pro Git
-
-https://github.com/progit/progit2

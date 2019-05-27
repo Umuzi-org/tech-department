@@ -1,6 +1,7 @@
 ---
 title: password-checker
 pre: "<b>MEDIUM: </b>"
+ready: true
 ---
 
 Implement the following function by following a TDD methodology:

@@ -1,11 +1,12 @@
 ---
 title: simple-calculator part 2
 pre: "<b>MEDIUM: </b>"
+ready: true
 ---
 
 This a continuation of the `simple-calculator` tdd excercise. If you haven't done that yet then please do. At this point you should have a well tested `add` and `multiply` function.
 
-This excercise will require a little OOP knowledge. Brace yourself.
+This exercise will require a little OOP knowledge. Brace yourself.
 
 ## introducing the Calculator class
 
@@ -42,16 +43,16 @@ Example usage:
 ```
 calculator_instance.add(1,2)
 calculator_instance.set_slot(1)
-calculator_instance.get_slot(1) # shouild return 3
+calculator_instance.get_slot(1) # should return 3
 calculator_instance.add(10,20)
 
 calculator_instance.set_slot(2)
-calculator_instance.get_slot(2) # shouild return 30
+calculator_instance.get_slot(2) # should return 30
 
 calculator_instance.add(100,200)
-calculator_instance.get_slot(1) # shouild return 3
-calculator_instance.get_slot(2) # shouild return 30
-calculator_instance.last(2) # shouild return 300
+calculator_instance.get_slot(1) # should return 3
+calculator_instance.get_slot(2) # should return 30
+calculator_instance.last(2) # should return 300
 ```
 
 ## Allow the use of memory slots as arguments
@@ -62,9 +63,9 @@ Example usage:
 Following from the previous example:
 
 ```
-calculator_instance.get_slot(1) # shouild return 3
-calculator_instance.get_slot(2) # shouild return 30
-calculator_instance.last(2) # shouild return 300
+calculator_instance.get_slot(1) # should return 3
+calculator_instance.get_slot(2) # should return 30
+calculator_instance.last(2) # should return 300
 
 calculator_instance.add("SLOT_1",5) # should return 8
 calculator_instance.multiply("SLOT_2",2) # should return 60
