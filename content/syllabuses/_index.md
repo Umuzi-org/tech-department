@@ -169,7 +169,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 - WEB_DEV:
 
   - {{% contentlink "topics/dom-manipulation-with-vanilla-js" %}}
-  - {{% contentlink "projects/memory-game/intro" %}} INTRO
+  - {{% contentlink "projects/memory-game-vanilla/intro" %}} INTRO
 
 - DATA_SCI:
 
