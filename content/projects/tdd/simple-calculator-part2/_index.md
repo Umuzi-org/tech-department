@@ -4,7 +4,7 @@ pre: "<b>MEDIUM: </b>"
 ready: true
 ---
 
-This a continuation of the `simple-calculator` tdd excercise. If you haven't done that yet then please do. At this point you should have a well tested `add` and `multiply` function.
+This a continuation of {{% contentlink "projects/tdd/simple-calculator-part1" %}}. If you haven't done that yet then please do. At this point you should have a well tested `add` and `multiply` function.
 
 This exercise will require a little OOP knowledge. Brace yourself.
 
@@ -14,9 +14,24 @@ Update your tests so that they expect the `add` and `multiply` functions to be p
 
 For now on this document will just describe the features we need the Calculator to have. You need to figure out the tests and implementation yourself.
 
+## Note
+
+This is an extension of {{% contentlink "projects/tdd/simple-calculator-part1" %}}. In other words, previously implemented functionality should still work.
+
+```
+# this should still work
+calculator_instance.add(3,5) # should return 8
+calculator_instance.multiply(30,2) # should return 60
+
+# and multiple arguments should work too
+calculator_instance.add(3,5,2) # should return 10
+```
+
+The `multiply` functionality should also still work.
+
 ## Remember the last result
 
-The calulater should have a function called `last` that returns the last result. Example usage:
+The calculator should have a function called `last` that returns the last result. Example usage:
 
 ```
 calculator_instance.add(1,2)
@@ -49,10 +64,10 @@ calculator_instance.add(10,20)
 calculator_instance.set_slot(2)
 calculator_instance.get_slot(2) # should return 30
 
-calculator_instance.add(100,200)
+calculator_instance.add(100,200) # returns 300. The "last" value is updated
 calculator_instance.get_slot(1) # should return 3
 calculator_instance.get_slot(2) # should return 30
-calculator_instance.last(2) # should return 300
+calculator_instance.last() # should return 300
 ```
 
 ## Allow the use of memory slots as arguments
