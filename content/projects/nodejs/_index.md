@@ -1,5 +1,12 @@
 ---
 title: Nodejs Challenges
+todo: [
+    "https://localhost??",
+    "task 1 seems redundant",
+    "task 2: submit form redirect to json is unrealistic. Nobody does that in real life. Show people that json is useful by doing useful things with it",
+    "generally,there are some things that are unclear. Needs to be edited by first language english speaker",
+    "add more introductory node exercises. consider: https://zellwk.com/blog/crud-express-mongodb/ and then expose crud json api"
+]
 ---
 
 ## Task 1 : Http server (http, get, serve static files)
@@ -23,6 +30,7 @@ NB: The list of provided resources is not exhaustive feel free to check around (
 - The form is to be served on https://localhost:8000/form
 - Upon submission the form should collect all data and submit them to a screen within a JSON format
 
+
 ### Resources
 
 - [Basic routing](https://expressjs.com/en/starter/basic-routing.html)
@@ -45,6 +53,7 @@ NB: The list of provided resources is not exhaustive feel free to check around (
 - [Fetch](https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data)
 
 ## Task 4: A registration restful API ( API end-point, routing, MongoDB, database schema)
+
 
 - Setup a server within a fourth folder - name it as you wish.
 - You are required to create a back-end service that will help capture basic information about prospective student who come to inquire here at Umuzi.
