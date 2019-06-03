@@ -5,4 +5,8 @@ title: "How to be a professional"
 
 This is a run down of what it means to be a professional and how we expect you to behave within the tech department.
 
-https://docs.google.com/presentation/d/1g_3BDfqmcRSaPxOHAAXg_-FeBXM3gAuo5D10OlMjeHQ
+{{< html >}}
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSFvkQlKPgIb9joszHcE7rBX7FKdNxCe4NgQUFHxW_8EbnA5fa55skW8rhfUwAOgQ4EXKZSvS6Pszia/embed?start=false&loop=false&delayms=60000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+{{< /html >}}
