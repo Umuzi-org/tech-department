@@ -60,10 +60,10 @@ We start off by introducing the applicants to the development environment and re
     - {{% contentlink "workshops/ice-breaker" %}}
     - {{% contentlink "workshops/how-to-be-a-professional" %}}
     - {{% contentlink "workshops/intro-to-ncit" %}}
-    - {{% contentlink "topics/linux/intro-to-linux" %}}
-    - {{% contentlink "topics/linux/intro-to-bash" %}}
     - {{% contentlink "workshops/intro-to-linux" %}}
+    - {{% contentlink "topics/linux/intro-to-linux" %}}
     - {{% contentlink "projects/linux" %}} INTRO
+    - {{% contentlink "topics/linux/intro-to-bash" %}}
 
 ## Week 2: Git and personal portfolio
 
@@ -73,6 +73,7 @@ Recruits learn a bit about how to build an online presence
     - {{% contentlink "topics/git/git-book" %}}
     - {{% contentlink "topics/git/git-basics" %}}
     - {{% contentlink "workshops/git-basics" %}}
+    - {{% contentlink "projects/git-exercises" %}}
     - {{% contentlink "workshops/intro-to-css-architecture" %}}
     - {{% contentlink "topics/what-to-put-in-your-cv" %}}
     - {{% contentlink "projects/portfolio-website" %}} - Introduction
@@ -176,6 +177,7 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "topics/data-sci-specific/statistical-thinking/" %}} INTRO
 
 - DATA_ENG:
+
   - {{% contentlink "topics/python-specific/intro-to-apis/" %}}
   - {{% contentlink "projects/python-specific/expose-rest-api-simple/" %}}
 

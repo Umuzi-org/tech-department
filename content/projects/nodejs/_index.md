@@ -30,7 +30,6 @@ NB: The list of provided resources is not exhaustive feel free to check around (
 - The form is to be served on https://localhost:8000/form
 - Upon submission the form should collect all data and submit them to a screen within a JSON format
 
-
 ### Resources
 
 - [Basic routing](https://expressjs.com/en/starter/basic-routing.html)

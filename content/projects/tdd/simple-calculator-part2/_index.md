@@ -8,7 +8,7 @@ This a continuation of {{% contentlink "projects/tdd/simple-calculator-part1" %}
 
 This exercise will require a little OOP knowledge. Brace yourself.
 
-## introducing the Calculator class
+## Introducing the calculator class
 
 Update your tests so that they expect the `add` and `multiply` functions to be part of a class. Now make those tests pass.
 

@@ -1,10 +1,11 @@
 ---
-title: Git Basic Excercises
+title: Git Basic Exercises
+ready: true
 ---
 
 ## Introduction
 
-This little excercise will take you through the basic git mechanisms you need to know about in order to be productive. By the end of this excercise you'll be able to create and manage your own git repos
+This little exercise will take you through the basic git mechanisms you need to know about in order to be productive. By the end of this exercise you'll be able to create and manage your own git repos
 
 ## Creating and managing your own repo
 
@@ -12,17 +13,17 @@ Note: you can do all of this stuff from the command line! You should be using li
 
 ### Your initial commit
 
-1. Create a directory named `git-basic-excercises`
+1. Create a directory named `git-basic-exercises`
 2. cd into your new directory
 3. look at what's inside using `ls -a`. It should be empty
-4. initialise your git repo using `git init`. Then check `ls -a` again. Can you spot the difference?
+4. initialize your git repo using `git init`. Then check `ls -a` again. Can you spot the difference?
 5. check the status of your repo by typing `git status`
 6. type in `touch README.md`. This creates a new blank file. Then check `ls -a` and `git status` again.
 7. type in `git log`. The output should make sense to you
 8. Now add your readme file to your git staging area. Hint: use the `git add` command
 9. Then check your `git status` again. Can you see the difference?
 10. Try to unstage your file and check your `git status` again
-11. Ok, now for your firstcommit: Make sure your readme file is staged then type in `git commit -m "initial commit"`
+11. Ok, now for your first commit: Make sure your readme file is staged then type in `git commit -m "initial commit"`
 Your output should be something like this:
 ```
  [master (root-commit) 2103b64] initial commit
@@ -78,10 +79,10 @@ When you checkout a branch, you checkout the latest commit on that branch.
 
 ### branching
 
-The real power of git is in branching. Branching is what alows big teams of developers to work on the same code base. Let's explore branching a little bit.
+The real power of git is in branching. Branching is what allows big teams of developers to work on the same code base. Let's explore branching a little bit.
 
 1. `git branch` This lists all your branches. Git makes a branch named `master` by default
-2. Now create a new branch called `milkshake-flavours`. git is not too restricive when it comes to naming our branches. It's generally best to choose a name that has something to do with what the branch is for. Our branch is about milkshakes
+2. Now create a new branch called `milkshake-flavours`. git is not too restrictive when it comes to naming our branches. It's generally best to choose a name that has something to do with what the branch is for. Our branch is about milkshakes
 3. type in `git branch`. Notice the little `*`.
 4. check out your new branch. type in `git branch` again and look at the `*`. Can you see what it means? Try switching between the different branches and see how hings change.
 5. Make sure you are on the `milkshake-flavours` branch then type in `nano milkshakes.md` and write fill in a few flavours. Mmmm. save and exit
@@ -95,7 +96,7 @@ The real power of git is in branching. Branching is what alows big teams of deve
 13. now checkout your milkshake branch and look at the `git log`. it should have your three master commits and your one milkshake commit
 14. make some arbitrary changes to the readme file and make a new commit with the message `"random readme changes"`
 15. checkout `history` again and `cat README.md`
-16. now on your history branchfo the following:
+16. now on your history branch do the following:
 ```
 rm README.md
 echo "booya" > README.md
@@ -266,9 +267,9 @@ This adds a commit to branch Y and doesn't change branch X
 
 ### GitHub
 
-1. Go to Github.com (using your browser of choice) and create a new public repository using the user interface. Name it `git-basic-excercises`
+1. Go to Github.com (using your browser of choice) and create a new public repository using the user interface. Name it `git-basic-exercises`
 
-2. You will see a bunch of weird looking things. There is a section entitled "…or push an existing repository from the command line". We have an existing reporitory and a command line. So this seems appropriate. Copy the commands from there and paste them into your terminal. this will push your changes to github.
+2. You will see a bunch of weird looking things. There is a section entitled "…or push an existing repository from the command line". We have an existing repository and a command line. So this seems appropriate. Copy the commands from there and paste them into your terminal. this will push your changes to github.
 
 3. Refresh your browser. Cool eh?
 
@@ -278,7 +279,7 @@ Now you should see a little dropdown box on github that says "Branch: master". C
 
 ### Pulling and remotes
 
-1. You should still be inside the `git-basic-excercises` directory. Let's get out of there. `cd ../`
+1. You should still be inside the `git-basic-exercises` directory. Let's get out of there. `cd ../`
 2. Now let's clone a repo. point your browser here: https://github.com/Umuzi-org/tech-department
 3. Now there is a friendly green button that says "Clone or download". Click on it.
 4. You will see a url come up. Copy it. You will need to paste it into the terminal in a moment
@@ -286,11 +287,11 @@ Now you should see a little dropdown box on github that says "Branch: master". C
 6. `cd` into the tech-department directory that was just created
 7. explore a little using `git branch` and `git log`
 8. type in `git branch -a`. This shows the remote branches
-9. try to checkout the branch called `project/git-basic-excercises` on your local computer. You can do it, you'll need to figure out how
+9. try to checkout the branch called `project/git-basic-exercises` on your local computer. You can do it, you'll need to figure out how
 10. type in `git remote -v`
 
 
-## Going foward
+## Going forward
 
 We just covered the basics here. Please make sure you understand this stuff. It's super important. Git might seem like a weird theoretical thing to a lot of you. It might seem completely unrelated to the actual job of writing code. But it's not. Git makes teamwork on dev teams possible. Without it we'd spend more time shouting at each other than writing useful code. So learn it. Be comfortable with it. When we start working in teams later on all will be made clear.
 

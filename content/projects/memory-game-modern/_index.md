@@ -28,33 +28,34 @@ Create an MVP memory game using Angular or React. Follow a TDD procedure.
 - the timer should turn orange after one minute has passed
 - the timer should turn red when there are 30 seconds left on the clock
 - when the timer runs out:
-    - flip all the cards over to reveal what is underneath
-    - display a message saying "Sorry! You lost the game". There should be a button labelled "Play Again" that the player can use to restart the game
+  - flip all the cards over to reveal what is underneath
+  - display a message saying "Sorry! You lost the game". There should be a button labelled "Play Again" that the player can use to restart the game
 
-
-### Part 4: Winning stats
+### Part 3: Winning stats
 
 When the user wins the game then the congratulations message should include:
 
 - the number of turns taken (1 turn == 2 clicks)
 - the amount of time taken
 
-### Part 3: ExpressJs
+### Part 4: ExpressJs
 
 - Serve your game using ExpressJS (as static content)
 - Connect a MongoDB database
 - expose the following json api endpoints:
-    - POST update_score: This should accept a json object like this `{name:"a string", time: number of seconds, turns: number of turns taken}`. This endpoint must update the database
-    - GET leaderboard/time: This should return the top 10 fastest people to win the game
-    - GET leaderboard/turns: This should return the top 10 people to win the game using the fewest clicks
+  - POST update_score: This should accept a json object like this `{name:"a string", time: number of seconds, turns: number of turns taken}`. This endpoint must update the database
+  - GET leaderboard/time: This should return the top 10 fastest people to win the game
+  - GET leaderboard/turns: This should return the top 10 people to win the game using the fewest clicks
 
 ### Part 4: Ajax
+
 - When the game starts then the user will need to enter their name
 
 - Whenever a user sucessfully wins the game then:
-    - their score should be stored in MongoDB updated through use of the update_score endpoint
-    - the two leaderboards should be fetched and displayed on the page
-    - If the current user is on a leaderboard then they should be highlighted
+
+  - their score should be stored in MongoDB updated through use of the update_score endpoint
+  - the two leaderboards should be fetched and displayed on the page
+  - If the current user is on a leaderboard then they should be highlighted
 
 - Whenever a player loses the game
-    - display the two leaderboards
+  - display the two leaderboards

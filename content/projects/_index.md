@@ -31,6 +31,6 @@ Once the staff members have reviewed code projects then a code review session wi
 - If there is a common misconception or mistake then highlight that
 - highlight any subtle lessons that should have been learned
 - get feedback from the recruits, Q&A
-- get a few of the recruitts to explain parts of their code and approaches to the group
+- get a few of the recruits to explain parts of their code and approaches to the group
 
 If anyone submitted nonesense - either they were sloppy or they just didn't get it, then don't make them the center of attention. Pull them aside after the code review and have a private discussion. This should happen after the group code review session because that way they will see the standard of the group as a whole and possibly be motivated to conform.
