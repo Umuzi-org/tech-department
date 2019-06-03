@@ -22,7 +22,9 @@ Also this is a team project. Do this in groups of two following a TDD ping-pong 
 
 Write a software system for keeping track of bowling scores. You can read about traditional 10 pin bowling scoring [here](https://en.wikipedia.org/wiki/Ten-pin_bowling#Scoring).
 
-Please put your tests in a directory named "tests" (unless the testing framework you are using follows some other convention(which is unlikely)).
+Please put your tests in a directory named "tests" unless the testing framework you are using follows some other convention.
+
+## Project Description
 
 ### Gameplay
 
@@ -78,6 +80,7 @@ function drawPlayerDetails(player) {
         "<br><strong>scores: </strong> [" + player.score + "]";
 }
 ```
+
 This function does one thing, and it does that thing well and intuitively.
 
 ### Some oop resources

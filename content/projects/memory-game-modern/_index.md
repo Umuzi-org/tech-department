@@ -47,11 +47,11 @@ When the user wins the game then the congratulations message should include:
   - GET leaderboard/time: This should return the top 10 fastest people to win the game
   - GET leaderboard/turns: This should return the top 10 people to win the game using the fewest clicks
 
-### Part 4: Ajax
+### Part 5: Ajax
 
 - When the game starts then the user will need to enter their name
 
-- Whenever a user sucessfully wins the game then:
+- Whenever a user successfully wins the game then:
 
   - their score should be stored in MongoDB updated through use of the update_score endpoint
   - the two leaderboards should be fetched and displayed on the page
