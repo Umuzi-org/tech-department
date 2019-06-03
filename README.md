@@ -1,6 +1,8 @@
 # Tech department content
 
-This repo aims to contain all the info needed to run [Umuzi's technical courses](https://master.d3hv5c7o5j7vym.amplifyapp.com). It's not quite there yet
+This is a Hugo based web site. You can see the site [HERE](https://master.d3hv5c7o5j7vym.amplifyapp.com)
+
+This repo aims to contain all the info needed to run Umuzi's technical courses. This is very much a work in progress.
 
 ## To clone this repo
 
@@ -12,10 +14,11 @@ git clone --recursive git@github.com:Umuzi-org/tech-department.git
 
 ## running locally
 
-This is a hugo based application. To get yourself set up on a debian machine:
+This is a Hugo based application. To get yourself set up on a Debian machine:
 
 ```
-sudo apt install golang hugo
+sudo apt install golang
+./install_hugo.sh
 ```
 
 To run the development server:
@@ -27,3 +30,44 @@ hugo server
 ## syllabus docs:
 
 look inside /content. The documentation is composed of a bunch of markdown files with a lil metadata.
+
+## Contributing
+
+You can contribute in a few different ways:
+
+### you can add or edit course materials
+
+All our course materials live inside the `content` directory.
+
+Please DO NOT put large binary files into this repo. For example PDFs and Presentations and work documents aren't cool.
+
+#### Adding new materials
+
+Let's say you want to add a self-study introduction to Python Flask. You would do something like this:
+
+1. make a directory. This path would make sense: `content/topics/intro-to-flask`
+2. make a markdown file inside your new directory called `_index.md`
+3. start your markdown file with the following:
+
+```
+---
+topic: Introduction to Flask
+---
+```
+
+### you can upgrade the look and feel of this site
+
+For the most part the best place to do this is in the layouts directory.
+
+DO NOT EVER make changes directly in the public directory. If you do this your changes will be destroyed. Everything in public gets generated auto-magically so your stuff will just get over-written.
+
+### Lint
+
+Run `python3.7 lint.py` to make sure all your markdown frontmatter is ok.
+
+To set up your environment:
+
+```
+mkvirtualenv -p $(which python3.7) umuzi-tech-dept
+pip install -r requirements.txt
+```

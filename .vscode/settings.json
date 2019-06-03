@@ -1,0 +1,11 @@
+{
+    "cSpell.words": [
+        "DATACAMP",
+        "ghcontributors",
+        "mkdir",
+        "netlify",
+        "shortcode",
+        "wercker"
+    ],
+    "python.formatting.provider": "black"
+}

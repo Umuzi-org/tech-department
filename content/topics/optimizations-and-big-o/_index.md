@@ -1,0 +1,3 @@
+---
+title: optimizations and bigO
+---
