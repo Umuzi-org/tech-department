@@ -101,6 +101,6 @@ Note: foreach instruction write a script and save it under this task
 # Advanced
 
 
-## Task 11 User environment
+## Task 11 User environment(coming soon)
 
-## Task 12 Bash and basic scripting
+## Task 12 Bash and basic scripting (coming soon)
