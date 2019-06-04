@@ -1,7 +1,8 @@
 ---
 title: Linux challenges
 ---
-
+# Beginner
+---
 ## Task 1 : Basic Task
 
 - Use the linux terminal to do the following :
@@ -25,6 +26,9 @@ Create an empty file named exercise.txt and move this file to the /tmp direc
 
 1. [Paths in linux](http://www.linfo.org/path.html)
 2. [Absolute and Relative Paths (video)](https://www.youtube.com/watch?v=ephId3mYu9o)
+
+# Intermediate
+---
 
 ## Task 3 : Cat commands
 
@@ -85,6 +89,17 @@ Note: foreach instruction write a script and save it under this task
 1. [Presentation](https://docs.google.com/presentation/d/1BFpEqqVQtQqVh0yzELQxwZVbmpGKaZnCv_xorJitDiY/edit?usp=sharing)
 
 ## Task 10 Text editor
+
+1. Using nano text editor create a file named my_bio.txt
+2. Save the file and close the editor
+3. create a folder named my_files and move my_bio.txt within.
+
+### Resources
+
+1. https://www.lifewire.com/beginners-guide-to-nano-editor-3859002
+
+# Advanced
+---
 
 ## Task 11 User environment
 
