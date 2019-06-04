@@ -82,6 +82,8 @@ Note: foreach instruction write a script and save it under this task
 
 ## Task 9 File operation
 
+1. [Presentation](https://docs.google.com/presentation/d/1BFpEqqVQtQqVh0yzELQxwZVbmpGKaZnCv_xorJitDiY/edit?usp=sharing)
+
 ## Task 10 Text editor
 
 ## Task 11 User environment
