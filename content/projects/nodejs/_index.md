@@ -1,18 +1,25 @@
 ---
 title: Nodejs Challenges
 todo: [
-    "https://localhost??",
-    "task 1 seems redundant",
-    "task 2: submit form redirect to json is unrealistic. Nobody does that in real life. Show people that json is useful by doing useful things with it",
-    "generally,there are some things that are unclear. Needs to be edited by first language english speaker",
+
     "add more introductory node exercises. consider: https://zellwk.com/blog/crud-express-mongodb/ and then expose crud json api"
 ]
 ---
 
+## Note
+
+These are NodeJS challenges. Your main focus here is to make sure your Node code is good. You will not be evaluated on the prettiness of your frontend. Your frontend just needs to work.
+
 ## Task 1 : Http server (http, get, serve static files)
 
-- Make a copy of your game and rename the copy to nodeApp.
-- Setup a node server with express within nodeApp folder to serve your game on port 8080 to https://localhost:8080 or localhost:8080
+Create an HTML form with the following fields:
+
+- email address
+- comments. This is a text box
+
+Create a basic express js application and serve your form as a static file. The url should be `http://localhost:[YOUR_PORT]/comment`
+
+The default port when running an express app is 8080. So your url will probably look like this: [http://localhost:8080/comment](http://localhost:8080/comment)
 
 ### Resources
 
@@ -25,10 +32,10 @@ NB: The list of provided resources is not exhaustive feel free to check around (
 
 ## Task 2: Request handling (basic routing, post, form, middleware)
 
-- Set-up a node server within a second folder (with a name of your choice)
-- Create a form with a public folder, similar to this [one](https://ibm.co/2DecgXY) (do not mind the style).
-- The form is to be served on https://localhost:8000/form
-- Upon submission the form should collect all data and submit them to a screen within a JSON format
+Add a submit button to your form. When the user clicks that button then do the following:
+
+- collect the form data and write it to the log (`console.log`) on the backend. Meaning you should be calling the `console.log` within your express code
+- redirect the user to a new page at `http://localhost:[YOUR_PORT]/thanks` that just says "Thanks for the comment"
 
 ### Resources
 
@@ -39,10 +46,13 @@ NB: The list of provided resources is not exhaustive feel free to check around (
 
 ## Task 3: HTML template engine (Javascript templates, fetch, api)
 
-- Setup a sever within a third folder
-- Create a single page website which provide weather to visitors.
-- The site should be similar to this [one](https://cdn-images-1.medium.com/max/1400/0*e-_dbhFTqw7WMHwg.png) , however you are required to used PUG as template and ES6
-- The site url to be served by entering the following url: localhost:8880/weather
+Create a new express js project called weather station
+
+- create a new page on your site at the url `http://localhost:[YOUR_PORT]/weather`
+- use the PUG template engine and ES6 to render a web page. The site should be similar to this [one](https://cdn-images-1.medium.com/max/1400/0*e-_dbhFTqw7WMHwg.png)
+- Your web page should display real data. Do do so you will make use of the following JSON api:
+
+Note that when you submit this task, it should be in a new git repository.
 
 ### Resources
 
@@ -53,21 +63,29 @@ NB: The list of provided resources is not exhaustive feel free to check around (
 
 ## Task 4: A registration restful API ( API end-point, routing, MongoDB, database schema)
 
+You are required to create a back-end service that will help capture basic information about Visitorive students who come to inquire here at Umuzi.
 
-- Setup a server within a fourth folder - name it as you wish.
-- You are required to create a back-end service that will help capture basic information about prospective student who come to inquire here at Umuzi.
-- Captured information should include the following: Visitor’s **Name and surname**, **age**, **date** and **time**, **subject of inquiry**and **the name of the person who assisted the visitor**.
-- The back-end service to provide the following end points:
-  1. **/addNewProspect**(add a new prospect)
-  2. **/deleteProspect:id** (delete a single prospect)
-  3. **/deleteAllProspects** (delete all prospects)
-  4. **/viewProspects** (view all prospects)
-  5. **/viewProspect:id** (view a single prospect)
-  6. **/updateProspect:id**(Update a single prospect)
-- The service to use Mongodb database and Mongoose schema.
+Start off by defining your MongoDB schema. Make use of Mongoose. Create an ?? called Visitor that allows you to store the following info:
+
+- id
+- visitor name
+- name of the person who assisted the visitor
+- visitor's age
+- date of visit
+- time of visit
+- comments
+
+Next up create some JSON endpoints:
+
+- `/addNewVisitor`: create a new Visitor in the database
+- `/deleteVisitor:id`: delete a single Visitor from the database
+- `/deleteAllVisitors`: delete all Visitors
+- `/viewVisitors`: view all Visitors
+- `/viewVisitor:id`: view a single Visitor
+- `/updateVisitor:id`: Update a single Visitor
 
 ### Resources
 
 - [About restful API](https://searchmicroservices.techtarget.com/definition/RESTful-API)
 - [Build a restful API with node](https://medium.com/@purposenigeria/build-a-restful-api-with-node-js-and-express-js-d7e59c7a3dfb)
-- [Test your API-ends](https://www.getpostman.com/)
+- [Test your API-end points ](https://www.getpostman.com/)
