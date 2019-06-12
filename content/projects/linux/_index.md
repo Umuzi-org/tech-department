@@ -1,5 +1,7 @@
 ---
 title: Linux challenges
+
+ready: true
 ---
 # Beginner
 ---
@@ -62,7 +64,7 @@ Create an empty file named exercise.txt and move this file to the /tmp direc
 5. change the working directory to the previous one (cd -)
 6. locate pad_copy.txt
 
-Note: foreach instruction write a script and save it under this task
+Note: for each instruction write a script and save it under this task
 
 ## Task 6 Find commands
 1. Write a script to find all files ending with 'pdf' on your computer
@@ -75,20 +77,8 @@ Note: foreach instruction write a script and save it under this task
 2. https://unix.stackexchange.com/questions/70455/how-to-run-find-exec-script
 
 
-## Task 7 Installing softwares
 
-
-1. [Presentation](https://docs.google.com/presentation/d/1nDQW1tgDa8CiV2PDQy8pIVh_UliFqMJjOuPbFHFa8Uc/edit?usp=sharing) 
-
-## Task 8 Linux Processes
-
-1. [Presentation](https://docs.google.com/presentation/d/1vAz1DSB-cqv1fcS9VLKb-4-i32oQYFmT80hOlwBk6hs/edit?usp=sharing)
-
-## Task 9 File operation
-
-1. [Presentation](https://docs.google.com/presentation/d/1BFpEqqVQtQqVh0yzELQxwZVbmpGKaZnCv_xorJitDiY/edit?usp=sharing)
-
-## Task 10 Text editor
+## Task 7 Text editor
 
 1. Using nano text editor create a file named my_bio.txt
 2. Save the file and close the editor
@@ -99,8 +89,8 @@ Note: foreach instruction write a script and save it under this task
 1. https://www.lifewire.com/beginners-guide-to-nano-editor-3859002
 
 # Advanced
----
 
-## Task 11 User environment
 
-## Task 12 Bash and basic scripting
+## Task 8 User environment
+
+## Task 9 Bash and basic scripting
