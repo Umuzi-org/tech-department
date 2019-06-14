@@ -1,5 +1,5 @@
 ---
-title: simple-calculator
+title: simple-calculator part 1
 pre: "<b>EASY: </b>"
 ready: true
 ---

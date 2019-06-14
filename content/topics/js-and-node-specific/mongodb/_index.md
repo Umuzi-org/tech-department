@@ -1,3 +1,7 @@
 ---
 title: MongoDB and JavaScript
 ---
+
+- https://goalkicker.com/MongoDBBook/
+- https://www.w3schools.com/nodejs/nodejs_mongodb.asp
+- https://zellwk.com/blog/crud-express-mongodb/
