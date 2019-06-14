@@ -1,6 +1,6 @@
 ---
 title: "How to be a professional"
-# ready: true
+ready: true
 ---
 
 This is a run down of what it means to be a professional and how we expect you to behave within the tech department.
