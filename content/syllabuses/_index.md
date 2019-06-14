@@ -57,26 +57,27 @@ We start off by introducing the applicants to the development environment and re
 ## Week 1: Linux
 
 - ALL:
-    - {{% contentlink "workshops/ice-breaker" %}}
-    - {{% contentlink "workshops/how-to-be-a-professional" %}}
-    - {{% contentlink "workshops/intro-to-ncit" %}}
-    - {{% contentlink "workshops/intro-to-linux" %}}
-    - {{% contentlink "topics/linux/intro-to-linux" %}}
-    - {{% contentlink "projects/linux" %}} INTRO
-    - {{% contentlink "topics/linux/intro-to-bash" %}}
+  - Icebreaker: The new recruits are welcomed into the department
+  - {{% contentlink "workshops/how-to-be-a-professional" %}}
+  - {{% contentlink "workshops/intro-to-ncit" %}}
+  - {{% contentlink "workshops/intro-to-linux" %}}
+  - {{% contentlink "topics/linux/intro-to-linux" %}}
+  - {{% contentlink "projects/linux" %}} INTRO
+  - {{% contentlink "topics/linux/intro-to-bash" %}}
 
 ## Week 2: Git and personal portfolio
 
 Recruits learn a bit about how to build an online presence
 
 - ALL:
-    - {{% contentlink "topics/git/git-book" %}}
-    - {{% contentlink "topics/git/git-basics" %}}
-    - {{% contentlink "workshops/git-basics" %}}
-    - {{% contentlink "projects/git-exercises" %}}
-    - {{% contentlink "workshops/intro-to-css-architecture" %}}
-    - {{% contentlink "topics/what-to-put-in-your-cv" %}}
-    - {{% contentlink "projects/portfolio-website" %}} - Introduction
+
+  - {{% contentlink "topics/git/git-book" %}}
+  - {{% contentlink "topics/git/git-basics" %}}
+  - {{% contentlink "workshops/git-basics" %}}
+  - {{% contentlink "projects/git-exercises" %}}
+  - {{% contentlink "workshops/intro-to-css-architecture" %}}
+  - {{% contentlink "topics/what-to-put-in-your-cv" %}}
+  - {{% contentlink "projects/portfolio-website" %}} - Introduction
 
 - NCIT 13: Version control (GIT) for teamwork
 
@@ -122,8 +123,9 @@ The recruits finish off their portfolios. From this point forward they are expec
 ## Week 6: The Internet and Ethics in tech
 
 - ALL:
-    - {{% contentlink "topics/how-the-internet-works" %}}
-    - {{% contentlink "topics/data-ethics-and-privacy" %}}
+
+  - {{% contentlink "topics/how-the-internet-works" %}}
+  - {{% contentlink "topics/data-ethics-and-privacy" %}}
 
 - NCIT 07: History of the Internet
 - NCIT 08: Web design for business
@@ -132,9 +134,10 @@ The recruits finish off their portfolios. From this point forward they are expec
 ## Week 7: Tech in Business and Honing L33t skillz
 
 - ALL:
-    - Coding katas in language of choice. Or catch up for those who have fallen behind on anything.
-    - {{% contentlink "topics/tech-terminology" %}}
-    - {{% contentlink "workshops/general-coding-best-practices" %}}
+
+  - Coding katas in language of choice. Or catch up for those who have fallen behind on anything.
+  - {{% contentlink "topics/tech-terminology" %}}
+  - {{% contentlink "workshops/general-coding-best-practices" %}}
 
 - NCIT 01: Business and technology
 - NCIT 02: Ethics and Professionalism in IT
@@ -232,10 +235,12 @@ All recruits will do this
 - NCIT 18: Input & Output
 
 - DATA_SCI:
+
   - {{% contentlink "topics/python-specific/web-scraping/" %}}
   - {{% contentlink "topics/data-sci-specific/dashboards/" %}}
 
 - DATA_ENG:
+
   - {{% contentlink "topics/data-sci-specific/cross-validation-and-simple-linear-regression/" %}}
   - {{% contentlink "projects/build-rest-api-with-db/" %}}
 
@@ -246,9 +251,10 @@ All recruits will do this
 ## Week 20: NCIT bits and pieces
 
 - ALL:
-    - {{% contentlink "workshops/intro-to-agile/" %}}
-    - {{% contentlink "workshops/agile-scrum/" %}}
-    - {{% contentlink "topics/optimizations-and-big-o/" %}}
+
+  - {{% contentlink "workshops/intro-to-agile/" %}}
+  - {{% contentlink "workshops/agile-scrum/" %}}
+  - {{% contentlink "topics/optimizations-and-big-o/" %}}
 
 - NCIT 19: Search and sort techniques
 - NCIT 10: Agile project management

@@ -4,8 +4,6 @@ title: Data Science
 weight: 1
 ---
 
-
-
 Data Science Programme Summary
 Prerequisites
 English literacy
@@ -30,48 +28,49 @@ Umuzi’s tech programmes are focussed on the most in-demand skills and technolo
 
 Umuzi develops all-round professionals, with a focus on soft skills, Human Centred Design and Agile Scrum methodology.
 
-Data Science (Junior) Job Specification 
+Data Science (Junior) Job Specification
 This is the target level of skill for an alumnus leaving the programme.
 
-Abilities 
-● Object-oriented coding using Python 
-● Data importing from a variety of sources (relational databases, JSON, REST APIs) 
-● Cleaning, manipulating and merging data using Python 
-● Visualising categorical and continuous data in Python and Tableau / Redash 
-● Summarising data 
-● Interpreting graphs and models 
-● Hypothesis testing 
-● Survey design 
-● Modelling data: basic regression, classification and clustering techniques 
-● Performing cross-validation and model diagnostics 
-● Creating and querying relational databases using Python and SQL 
-● Using version-control software, individually and as part of a team 
-Python 
-● Ability to create and debug functions 
-● Object-oriented programming 
-● Comfortable with scientific libraries such as numpy, pandas, statsmodels, scikit-learn, matplotlib, seaborn 
-● Familiar with Jupyter Notebooks 
-SQL 
-● Database, table and key creation 
-● Querying data 
-● Joining tables 
-Linux (Ubuntu) 
-● File and directory navigation and manipulation 
-● Basic bash scripting 
-● Setting user permissions and file ownership 
-● Standard input/out, stream redirection, piping and filters 
-● Installing, updating and upgrading packages 
-HTML5 
-● Ability to create a basic HTML page 
-● Ability to link pages in a website 
-● Create a responsive site that will suit all devices and keep content fixed 
-● Create an html page that is user friendly 
-Methodologies and Professional Skills 
-● Scrum and Agile 
-● Ability to break down tasks and use productivity tools such as Trello 
-● Presentation skills 
-Tech Stack 
-● Linux, Python, MySQL, Tableau / Redash, HTML5, CSS, Git 
+Abilities
+● Object-oriented coding using Python
+● Data importing from a variety of sources (relational databases, JSON, REST APIs)
+● Cleaning, manipulating and merging data using Python
+● Visualising categorical and continuous data in Python and Tableau / Redash
+● Summarising data
+● Interpreting graphs and models
+● Hypothesis testing
+● Survey design
+● Modelling data: basic regression, classification and clustering techniques
+● Performing cross-validation and model diagnostics
+● Creating and querying relational databases using Python and SQL
+● Using version-control software, individually and as part of a team
+Python
+● Ability to create and debug functions
+● Object-oriented programming
+● Comfortable with scientific libraries such as numpy, pandas, statsmodels, scikit-learn, matplotlib, seaborn
+● Familiar with Jupyter Notebooks
+SQL
+● Database, table and key creation
+● Querying data
+● Joining tables
+Linux (Ubuntu)
+● File and directory navigation and manipulation
+● Basic bash scripting
+● Setting user permissions and file ownership
+● Standard input/out, stream redirection, piping and filters
+● Installing, updating and upgrading packages
+HTML5
+● Ability to create a basic HTML page
+● Ability to link pages in a website
+● Create a responsive site that will suit all devices and keep content fixed
+● Create an html page that is user friendly
+Methodologies and Professional Skills
+● Scrum and Agile
+● Ability to break down tasks and use productivity tools such as Trello
+● Presentation skills
+Tech Stack
+● Linux, Python, MySQL, Tableau / Redash, HTML5, CSS, Git
+
 # Data Science Curriculum
 
 Data Science Track
@@ -107,15 +106,10 @@ Importing, cleaning and manipulation of data
 Database management and quality control
 Data visualisation
 Data exploration, summarisation and reporting
-Statistical learning techniques, incl. regression, classification and clustering 
+Statistical learning techniques, incl. regression, classification and clustering
 Survey design
 Interacting with APIs
 
 PROFESSIONAL
 Human Centred Design Thinking
 Agile
-
-
-
-
-The full [data science curriculum](https://github.com/Umuzi-org/master-reference/tree/master/curriculum) and [frame of reference](https://github.com/Umuzi-org/master-reference/blob/master/CurriculumOutline_DataScience.md) can be found here: https://github.com/Umuzi-org/master-reference 
