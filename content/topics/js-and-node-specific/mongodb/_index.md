@@ -1,5 +1,6 @@
 ---
 title: MongoDB and JavaScript
+ready: True
 ---
 
 - https://goalkicker.com/MongoDBBook/
