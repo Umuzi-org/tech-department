@@ -61,11 +61,7 @@ We get a few NCIT assessments out of the way during MUB.
 In this week, everyone gets to know their way around linux.
 
 - ALL:
-<<<<<<< HEAD
-  - {{% contentlink "workshops/ice-breaker" %}}
-=======
-  - Icebreaker: The new recruits are welcomed into the department
->>>>>>> master
+  - Department ice-breaker
   - {{% contentlink "workshops/how-to-be-a-professional" %}}
   - {{% contentlink "workshops/intro-to-ncit" %}}
   - {{% contentlink "workshops/intro-to-linux" %}}
@@ -212,6 +208,7 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "workshops/node/" %}}
   - {{% contentlink "projects/nodejs/" %}}
   - {{% contentlink "topics/js-and-node-specific/introduction-to-node/" %}}
+  - {{% contentlink "projects/nodejs/mongo" %}} INTRO
 
 ## Week 15:
 
@@ -227,6 +224,7 @@ ALL_DATA:
 WEB_DEV:
 
 - {{% contentlink "topics/js-and-node-specific/dotenv/" %}}
+- {{% contentlink "projects/nodejs/express-forms" %}}
 
 ## Week 16 & 17: Introduction to SQL
 
@@ -253,10 +251,13 @@ All recruits will do this
   - {{% contentlink "projects/build-rest-api-with-db/" %}}
 
 - WEB_DEV:
-  - {{% contentlink "workshops/intro-to-express/" %}}
-  - {{% contentlink "projects/build-rest-api-with-db/" %}}
+  - {{% contentlink "projects/nodejs/api" %}}
 
 ## Week 20: NCIT bits and pieces
+
+- WEB_DEV:
+
+  - {{% contentlink "projects/nodejs/ajax" %}}
 
 - ALL:
 
