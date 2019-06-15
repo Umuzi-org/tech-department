@@ -21,21 +21,10 @@ This is a living document and there are a few things that need to be fleshed out
   - PROJECT == you know
   - EXERCISE == like a project but no deliverable. Something the recruits should do to practice on their own
 
-- every topic, workshop and challenge needs to be linked to in this document
 - we need to make sure all the NCIT requirements have been dealt with before hitting the summative assessment
-- this doesn't account for MUB so well. MUB should happen sometime...
 - the syllabus is really long. There is a lot to cover so that has effects on Product teams. There are decisions to be made there.
 
-## Potential MUB assessments
-
-We might be able to get some of out NCIT assessments out of the way during MUB.
-
-- NCIT 03: Conducting research and user interviews
-- NCIT 04: reporting
-- NCIT 05: Research presentation
-- NCIT 14: Pseudocode and documentation (might be pushing it a bit here)
-
-## Week 0: Bootcamp
+## Week -1: Bootcamp
 
 This is the final step of our interview process. If applicants get through the bootcamp then they are accepted as Umuzi recruits and go on with the rest of the program.
 
@@ -54,10 +43,29 @@ We start off by introducing the applicants to the development environment and re
     - https://www.learnpython.org/
   - Python coding challenges given
 
-## Week 1: Linux
+## Week 0: Make Umuzi Better
+
+A recruit’s journey starts with a one week programme called #MakeUmuziBetter. Recruits from all departments form small cross-functional teams to tackle issues at Umuzi--anything from mental health to kitchen norms to the physical layout of our space. To accomplish this, they learn about and execute Human-Centered Design, a technique used throughout their time at Umuzi. Each team maps out user journeys, conducts interviews and surveys, designs a prototype of their solution, and presents it to the staff and external guests.
+
+### NCIT assessments
+
+We get a few NCIT assessments out of the way during MUB.
+
+- NCIT 03: Conducting research and user interviews
+- NCIT 04: reporting
+- NCIT 05: Research presentation
+- NCIT 14: Pseudocode and documentation
+
+## Week 1: Linux and soft skills
+
+In this week, everyone gets to know their way around linux.
 
 - ALL:
+<<<<<<< HEAD
   - {{% contentlink "workshops/ice-breaker" %}}
+=======
+  - Icebreaker: The new recruits are welcomed into the department
+>>>>>>> master
   - {{% contentlink "workshops/how-to-be-a-professional" %}}
   - {{% contentlink "workshops/intro-to-ncit" %}}
   - {{% contentlink "workshops/intro-to-linux" %}}
@@ -67,7 +75,7 @@ We start off by introducing the applicants to the development environment and re
 
 ## Week 2: Git and personal portfolio
 
-Recruits learn a bit about how to build an online presence
+Recruits learn a bit about how to build an online presence. Recruits submit their work using Git from the very beginning of their course.
 
 - ALL:
 
@@ -131,7 +139,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 - NCIT 08: Web design for business
 - NCIT 09: Building an online business
 
-## Week 7: Tech in Business and Honing L33t skillz
+## Week 7: Tech in Business and Honing fundamental skills
 
 - ALL:
 

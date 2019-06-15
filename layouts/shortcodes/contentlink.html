@@ -6,11 +6,13 @@
 <a href="/{{ $trimmed }}">
   {{ $first | upper }}:
   {{ with .Site.GetPage $trimmed }}
-    {{ if not .Params.Ready }}
-        <span class="contentlink-todo"  data="{{ $path }}">[TODO]</span>
-    {{ end }}
-    {{ .Params.Title }}
+  {{ if not .Params.Ready }}
+  <span class="contentlink-todo" data="{{ $path }}">[TODO]</span>
+  {{ end }}
+  {{ .Params.Title }}
   {{else}}
-    <span class="contentlink-missing" data="{{ $path }}">[MISSING title or page]</span>
+  <span class="contentlink-missing" data="{{ $path }}"
+    >[MISSING title or page]</span
+  >
   {{ end }}
 </a>
