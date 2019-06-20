@@ -75,7 +75,12 @@ This spreadsheet is the source of truth, make sure to check it regularly. The te
 
 - Gnomio - http://umuzi.gnomio.com/
 
+### Important Calendars
+These calendars contain all  tech department project deadlines and events(Workshops, talks and meetups). It is important that you check them everyday.
 
+- Deadline Calendar - https://calendar.google.com/calendar/b/3?cid=dW11emkub3JnXzdtN3ZwOXQ1M2VubGk3YTVuODNtOWdpOWNvQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20. 
+
+- Tech Events Calendar - https://calendar.google.com/calendar/b/3?cid=dW11emkub3JnXzF1dGs1OWJuc2RqMDNpZDI3ZzlzZGJmb2EwQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20
 
 If you have any queries, these are the people to contact:
 ### Junior Tech Facilitators 
