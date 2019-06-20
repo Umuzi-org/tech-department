@@ -2,41 +2,60 @@
 title: code review process
 ---
 
-If a recruit submits a code assignment then we kick off a multi-phase review process.
+## Goals
 
-## Phase 1: junior review
+We have a few goals for code review:
 
-If code is submitted by a recruit then that code should be reviewed by a junior reviewer by the end of the next working day. If the workload is too big for junior staff then they need to seek out assistance as early as possible so that we can hit this target.
+1. We need to keep track of who has submitted code and who hasn't. deadlines should be taken seriously by recruits which means that WE need to take them seriously
+2. We need to know what the recruits need. If they need help then we need to help them quickly. If disciplinery action is needed then we should act fast
+3. Code review aids in knowledge sharing within our team
+4. Code review is a useful skill that should be taught to recruits
 
-Assistance can come in the form of senior help, or help from specific trusted recruits.
+## Process and Roles
 
-- junior facilitators will fill in this form as they review code: https://docs.google.com/forms/d/e/1FAIpQLSe1_aouHSds1Vx-FkWcq5gKyTxwzRylJMa_7ZDkA99M2aVbZg/viewform?usp=sf_link
-- If the code under review is not up to our standards but the junior reviewer believes they can help the recruit improve then:
-  - this should be marked on the form (in the "Next Steps" section)
-  - the facilitator should spend time with the recruit to help them to understand what needs to be fixed. This should be done by the end of the next day
-  - the facilitator should review the code AGAIN. and fill in the form AGAIN to show what has been resolved
+When deadlines are set up then a few different staff members are assigned different roles. This will be done by populating columns in the (mighty) [Coding and Data program outline spreadsheet](https://docs.google.com/spreadsheets/u/2/d/14SsiRw8sit3-IvzpntINicIWd4MG1CDOxbv14Ypsmpw/edit#gid=1404224753).
 
-Junior reviewers should slack the senior reviewers when this is all complete
+The roles are as follows:
 
-### Phase 2: senior review process
+### deadline-tracker:
 
-Senior review WORKSHOP must happen within 3 working days of the junior review being complete.
+- checks that people have submitted in time
+- keeps track of excuses for late submissions and acts with good judgment
+- can adjust deadlines if needed. MUST tell the project owner about any adjustments
+- issues verbal warnings for late submissions (fills out the [verbal warning form](https://forms.gle/n41VC1PDyuGPakG79) as needed)
+- keeps track of who needs to be reviewed and makes sure the tech department actually hits code review targets and timelines. This means:
+- making sure any
 
-Once the junior review process has been completed then the senior review process begins
+### junior reviewers:
 
-- if any recruit has been marked as a RED FLAG during the junior review process then this should be dealt with on a case by case basis. This might mean giving extra help and support to the recruit in question, or it might mean taking disciplinary action
-- the senior reviewer will go through all the code that the junior reviewer is happy with and take notes on:
-  - what is awesome
-  - what can be done better
-  - just look for teachable things
+- performs first and possibly second review using[ the code review form](https://docs.google.com/forms/d/e/1FAIpQLSe1_aouHSds1Vx-FkWcq5gKyTxwzRylJMa_7ZDkA99M2aVbZg/viewform?usp=sf_link)
+- explicitly alerts senior reviewer about any RED FLAGs immediately (send a message on slack)
+- if the reviewer is unhappy with the code but thinks that they can assist then they need to:
+- send the recruit a summary of the problems that need to be fixed and an expected time frame (eg: fix by the end of tomorrow)
+- inform the deadline-tracker
+- review the re-submitted code or find another junior reviewer to do so
 
-The senior reviewer will schedule a group review workshop. This workshop MUST BE attended by junior reviewers. It should not be open to other cohorts because we don't want to tear anyone's code to pieces in front of a large audience. If any bad code needs to be highlighted then don't mention any names, keep it gentle, don't point fingers at anyone unless it is to highlight something good.
+### senior reviewer:
 
-## Phase 0: peer review
+- make sure that the junior reviewers understand the project submission requirements ahead of time
+- deal with any RED FLAGs on a case by case basis
+- re-review a few random code bases that various junior reviewers are happy with
+- get a summary of common problems that came up in the review and update documentation as needed and/or create a workshop as needed
+- ideally start reviewing as soon as possible in order to catch any problems that come up in the junior review process
+- use the same code review form that the junior reviewers use
+- send any problems found to all other reviewers involved and the recruit
 
-Recruits should review each other's code as well. When a recruit is new to our program then they wont know what good code looks like. But once they have had their code reviewed a few times then they can be useful in reducing our code review work load. This process still needs to be flashed out.
+## MUSTs, SHOULDs and whatnots
 
-Options here are:
+- every piece of code submitted by any recruit MUST be reviewed by a staff member OR by a recruit that has proven themselves at least once
+- when a recruit submits code then they MUST receive their initial review comments by the end of the following day. If the cohort is large then the day after that is acceptable
+- deadline-tracker SHOULD be a junior facilitator
 
-- get senior recruits to help junior recruits. Eg: C12s can review C13s. The benefit to this is: we will stimulate knowledge sharing between cohorts, and we can potentially implement this from day 1
-- get recruits to review their peers (C12s review other C12s)
+## Using our recruits to help with code review
+
+TODO. I think they should use the same code review form?
+
+- Let a recruit review a few code submissions and let a junior or senior staff member check their work
+- keep track of what recruits are good at code review and then dont require staff members to double check their work so much
+- senior reviewers are in charge of making sure that juniors understand instructions
+- junior reviewers are in charge of making sure that recruits understand instructions
