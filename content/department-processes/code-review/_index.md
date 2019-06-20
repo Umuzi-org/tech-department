@@ -23,8 +23,6 @@ The roles are as follows:
 - keeps track of excuses for late submissions and acts with good judgment
 - can adjust deadlines if needed. MUST tell the project owner about any adjustments
 - issues verbal warnings for late submissions (fills out the [verbal warning form](https://forms.gle/n41VC1PDyuGPakG79) as needed)
-- keeps track of who needs to be reviewed and makes sure the tech department actually hits code review targets and timelines. This means:
-- making sure any
 
 ### junior reviewers:
 
