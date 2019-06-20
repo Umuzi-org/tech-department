@@ -54,7 +54,6 @@ We get a few NCIT assessments out of the way during MUB.
 - NCIT 03: Conducting research and user interviews
 - NCIT 04: reporting
 - NCIT 05: Research presentation
-- NCIT 14: Pseudocode and documentation
 
 ## Week 1: Linux and soft skills
 
@@ -134,6 +133,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 - NCIT 07: History of the Internet
 - NCIT 08: Web design for business
 - NCIT 09: Building an online business
+- NCIT 14: Pseudocode and documentation
 
 ## Week 7: Tech in Business and Honing fundamental skills
 
