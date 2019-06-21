@@ -1,22 +1,22 @@
 ---
 title: Introduction to Jupyter Notebooks
-
+ready: True
 ---
 
-# Setting Up Your Environment
+## Setting Up Your Environment
 Download and install miniconda on your machine. This will install python
 and the conda package manager for python. NB Make sure that you set the
 python path! Setting the path will allow you to simply type `python`
 into the terminal to open python.
 
 You also want to install the following packages:  
-- jupyter-notebook
-- numpy
-- pandas
-- matplotlib
-- seaborn
-- scipy
-- scikit-learn
+-  jupyter-notebook  
+-  numpy  
+-  pandas  
+-  matplotlib  
+-  seaborn  
+-  scipy  
+-  scikit-learn  
 
 You can install packages by typing `conda install name-of-package`, e.g.
 `conda install numpy`.
@@ -33,10 +33,10 @@ Complete the Nobel Prize Winner assignment and upload it to Github.
 (You will need to create a Github account if you do not already have one.)
 The assignment will be given to you separately.
 
-You may want to go through Datacamp's [Python Programming](https://www.datacamp.com/tracks/python-programming) track to get the
+You may want to go through DataCamp's [Python Programming](https://www.datacamp.com/tracks/python-programming) track to get the
 basic skills you will need to complete the assignment.
 
 ## Supporting Material
-[Python For Data Science Cheat Sheets](http://www.utc.fr/~jlaforet/Suppl/python-cheatsheets.pdf)
-[Jupyter Notebook Keyboard Shortcuts](https://www.cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/pdf_bw/)
-[Basic Python 3 Programming for Scientists](http://www.sixthresearcher.com/didactic-materials/)
+[Python For Data Science Cheat Sheets](http://www.utc.fr/~jlaforet/Suppl/python-cheatsheets.pdf)  
+[Jupyter Notebook Keyboard Shortcuts](https://www.cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/pdf_bw/)  
+[Basic Python 3 Programming for Scientists](http://www.sixthresearcher.com/didactic-materials/)  

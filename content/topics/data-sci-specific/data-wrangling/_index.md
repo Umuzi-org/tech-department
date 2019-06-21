@@ -1,20 +1,21 @@
 ---
 title: Data Wrangling
+ready: True
 ---
 
-# Key concepts
+## Key concepts
 - merging data frames
 - filtering data frames
 - manipulating rows and columns
 
-# Tutorials
+## Tutorials
 - Intro to pandas and data manipulation [here](https://www.kaggle.com/learn/pandas)
 - If you'd like more, complete the DataCamp skills track [Data Manipulation with Python](https://www.datacamp.com/tracks/data-manipulation-with-python)
 
 
-# Assignment
+## Assignment
 
-## Prerequisites
+### Prerequisites
 You should be familiar with data wrangling, unit testing, and functional programming techniques to complete this assignment. As far as possible, use functional programming techniques (map, reduce, apply) instead of loops when writing the functions below.
 
 For example, to get modify every column in a data frame (to get a percentage in this case),  instead of writing:
@@ -30,6 +31,8 @@ def get_percentage(score):
 
 df.apply(get_percentage, axis = 1)
 ```
+
+### Instructions
 
 This data contains [personality scores](personality_scores.csv) for recruits, plus the [department](departments.csv) they applied for.
 
