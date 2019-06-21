@@ -7,7 +7,13 @@ ready: True
 
 This is a guide to the Tech Department and how it works. It contains contact details, important links to documents we use and software that are useful. 
 
-  
+##Ground Rules
+In order to be efficient and productive we have some ground that everyone is expected to adhere to:
+
+- You are expected to be at your desk most of the time.
+- Don't be late for workshops.
+- Don't be late for standup.
+- Don't be disruptive and noisy in the work area, this is a place for focus.
 
 ## Daily Tech Events.
 
@@ -43,7 +49,6 @@ To encourage productivity, recruits are allocated points on a specific Criteria 
  
 
 
-
 ## Communication
 
 Communication is a crucial part of the department and also encourages productivity.
@@ -75,12 +80,15 @@ This spreadsheet is the source of truth, make sure to check it regularly. The te
 
 - Gnomio - http://umuzi.gnomio.com/
 
+- Meetups Form - https://docs.google.com/forms/d/e/1FAIpQLSdcIE6NU44zfybMsd_HhAU8eFM7LgIUQ5WXcJfe3KaPQgru4Q/viewform
+
 ### Important Calendars
 These calendars contain all  tech department project deadlines and events(Workshops, talks and meetups). It is important that you check them everyday.
 
 - Deadline Calendar - https://calendar.google.com/calendar/b/3?cid=dW11emkub3JnXzdtN3ZwOXQ1M2VubGk3YTVuODNtOWdpOWNvQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20. 
 
 - Tech Events Calendar - https://calendar.google.com/calendar/b/3?cid=dW11emkub3JnXzF1dGs1OWJuc2RqMDNpZDI3ZzlzZGJmb2EwQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20
+
 
 If you have any queries, these are the people to contact:
 ### Junior Tech Facilitators 
@@ -94,13 +102,11 @@ Singita Ngobeni - singita.ngobeni@umuzi.org
 
 ### Senior Managers
 **Web Development:** 
-Sheena O’connell - sheena.oconnell@umuzi.org
+Sheena O’Connell - sheena.oconnell@umuzi.org
 Dibwe Kalangu - dibwe.kalangu@umuzi.org
 
 **Data:**
 Michelle Hoogenhout - michelle.hoogenhout@umuzi.org
-
-
 
 
 ## Softwares to use 
