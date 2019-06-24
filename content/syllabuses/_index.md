@@ -74,7 +74,6 @@ Recruits learn a bit about how to build an online presence. Recruits submit thei
 
 - ALL:
 
-  - {{% contentlink "topics/git/git-book" %}}
   - {{% contentlink "topics/git/git-basics" %}}
   - {{% contentlink "workshops/git-basics" %}}
   - {{% contentlink "projects/git-exercises" %}}
