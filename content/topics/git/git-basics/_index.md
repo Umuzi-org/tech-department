@@ -31,3 +31,15 @@ As you progress through this course you will have to write a lot of code. All yo
 ## Github
 
 We use Github for keeping our code safe. [Here](https://guides.github.com/introduction/git-handbook/) is a little intro.
+
+## Fun fact about our syllabus
+
+This site that you are looking at is a repo stored on git. This is cool because it means that you can [fork](https://guides.github.com/activities/forking/) it and make changes to our content. For example:
+
+- if you find a video that was really useful in understanding a topic, then you can add a link to that video to our course material
+- if you see a typo you can fix it
+- If you think one of our projects can be explained better then you can add more explanation
+
+[Here](https://github.com/Umuzi-org/tech-department) is the repo, and [this guide](/how-to-contribute) tells you a bit about what we ae looking for.
+
+Contributing to our syllabus is not compulsory, but it would be appreciated :)
