@@ -32,6 +32,10 @@ As you progress through this course you will have to write a lot of code. All yo
 
 We use Github for keeping our code safe. [Here](https://guides.github.com/introduction/git-handbook/) is a little intro.
 
+## For our data recruits
+
+https://www.datacamp.com/courses/introduction-to-git-for-data-science
+
 ## Fun fact about our syllabus
 
 This site that you are looking at is a repo stored on git. This is cool because it means that you can [fork](https://guides.github.com/activities/forking/) it and make changes to our content. For example:
