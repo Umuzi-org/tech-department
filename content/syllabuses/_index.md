@@ -62,7 +62,7 @@ In this week, everyone gets to know their way around linux.
 - ALL:
   - Department ice-breaker
   - {{% contentlink "workshops/how-to-be-a-professional" %}}
-  - {{% contentlink "workshops/intro-to-ncit" %}}
+  - Introduction to NCIT curriculum
   - {{% contentlink "workshops/intro-to-linux" %}}
   - {{% contentlink "topics/linux/intro-to-linux" %}}
   - {{% contentlink "projects/linux" %}} INTRO
@@ -75,10 +75,10 @@ Recruits learn a bit about how to build an online presence. Recruits submit thei
 - ALL:
 
   - {{% contentlink "topics/git/git-basics" %}}
-  - {{% contentlink "workshops/git-basics" %}}
+  - Q&A Git basics
   - {{% contentlink "projects/git-exercises" %}}
   - {{% contentlink "workshops/intro-to-css-architecture" %}}
-  - {{% contentlink "topics/what-to-put-in-your-cv" %}}
+  - {{% contentlink "workshops/what-to-put-in-your-cv" %}}
   - {{% contentlink "projects/portfolio-website" %}} - Introduction
 
 - NCIT 13: Version control (GIT) for teamwork
