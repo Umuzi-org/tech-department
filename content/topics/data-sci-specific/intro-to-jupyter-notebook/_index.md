@@ -31,9 +31,7 @@ When you are done, click 'Close and Halt Kernel' or press `Ctrl+C` twice to shut
 
 ## Assignment
 
-Complete the Nobel Prize Winner assignment and upload it to Github.
-(You will need to create a Github account if you do not already have one.)
-The assignment will be given to you separately.
+Complete the (Nobel Prize Winner assignment)[http://somewhere.nice] and upload it to Github. You will need to create a Github account if you do not already have one.
 
 You may want to go through DataCamp's [Python Programming](https://www.datacamp.com/tracks/python-programming) track to get the
 basic skills you will need to complete the assignment.
