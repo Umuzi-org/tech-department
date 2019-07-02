@@ -180,7 +180,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - DATA_SCI:
 
-  - {{% contentlink "topics/data-sci-specific/statistical-thinking/" %}} INTRO
+  - {{% contentlink "topics/data-sci-specific/statistical-thinking/" %}}
 
 - DATA_ENG:
 
@@ -200,7 +200,6 @@ The recruits finish off their portfolios. From this point forward they are expec
 
   - {{% contentlink "topics/python-specific/oop-for-python/" %}}
   - {{% contentlink "projects/oop-in-python/" %}}
-  - {{% contentlink "projects/tdd/bowling/" %}} INTRO
 
 - WEB_DEV
   - {{% contentlink "projects/oop-in-js/" %}}
