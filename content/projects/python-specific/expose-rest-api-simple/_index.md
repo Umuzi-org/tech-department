@@ -52,14 +52,24 @@ bob.save() # should update visitor_2.json
 
 ### Part 2: Expose JSON api
 
-Use Flask to expose the following JSON endpoints:
+Use Flask to expose the following functionality:
 
-- `/addNewVisitor`: create a new Visitor in the database
-- `/deleteVisitor:id`: delete a single Visitor from the database
-- `/deleteAllVisitors`: delete all Visitors
-- `/viewVisitors`: view all Visitors
-- `/viewVisitor:id`: view a single Visitor
-- `/updateVisitor:id`: Update a single Visitor
+- create a new Visitor in the database
+- delete a single Visitor from the database
+- delete all Visitors
+- view all Visitors
+- view a single Visitor
+- update a single Visitor
+
+#### Something to think about
+
+Imagine that your api is hosted somewhere on the internet and is very popular. Lots of people are using it.
+
+- What might happen if many people access the "create visitor" functionality at the same time?
+- what might happen if many people ty to update the same visitor at the same time?
+- what might happen if someone deletes all the visitors while someone else is trying to create a new one?
+
+A lot of really weird bugs can creep in. This class of error is generally referred to as a race condition. There are tools and techniques that exist to help deal with this kind of thing. In general it's good to keep race conditions in mind whenever dealing with processes that access data in parallel.
 
 ## Resources
 
