@@ -12,7 +12,7 @@ Using computer science and applied statistics, data scientists find valuable pat
 - English literacy
 - Matric maths (not maths literacy)
 - No specific technical prerequisites, except a strong aptitude for coding and statistics, as well as a strong motivation to challenge oneself and learn new things, assessed through Umuzi’s rigorous application process
-Ability to work in an agile, human-centred way
+Ability to work in an agile, human-centred way.
 
 ## Duration
 - 160 hours of training in HCD and Agile through the Umuzi workshops and crash course

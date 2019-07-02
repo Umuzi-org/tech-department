@@ -3,88 +3,104 @@
  A measure of the big five personality traits; namely, extraversion, neuroticism,
  agreeableness, conscientiousness and openness to experience.
  This test uses the Big-Five Factor Markers from the International Personality Item Pool,
- developed by Goldberg (1992).
+ developed by Goldberg (1992). It takes most people 3-8 minutes to complete.
 
+## Questionnaire scoring
 The test consists of fifty items rated agree, neutral or disagree. To keep scoring consistent with the
 original five point scale, items are scored 1=Disagree, 3=Neutral and 5=Agree.
 
-It takes most people 3-8 minutes to complete.
+Scores are saved as tuples. The first values of the tuple indicates the subscale to which the item belongs:
+(1) Extraversion, (2) Agreeableness, (3) Conscientiousness, (4) Emotional Stability/Neuroticism, or (5) Intellect/Imagination / openness to experiences).
+The second value in the tuple indicates the individual's scored responses (i.e., 1=Disagree, 3=Neutral and 5=Agree).
+
+Sum all of the individual's responses within a subscale (e.g. extraversion) to obtain a total subscale score.
+In other words, the second number in the tuple should be scored for all columns with the same number in the second position (1 indicates extraversion, for example).
+
 
 ## Items
-1. I am the life of the party (1+)
-2. I feel little concern for others (2-)
-3. I am always prepared (3+)
-4. I get stressed out easily (4-)
-5. I have a rich vocabulary (5+)
-6. I don't talk a lot (1-)
-7. I am interested in people (2+)
-8. I leave my belongings lying around (3-)
-9. I am relaxed most of the time (4+)
-10. I have difficulty understanding abstract ideas (5-)
-11. I feel comfortable around people (1+)
-12. I insult people (2-)
-13. I pay attention to details (3+)
-14. I worry about things (4-)
-15. I have a vivid imagination (5+)
-16. I keep in the background 	(1-)
-17. I sympathize with others' feelings (2+)
-18. I make a mess of things (3-)
-19. I seldom feel blue (down) (4+)
-20. I am not interested in abstract ideas (5-)
-21. I start conversations (1+)
-22. I am not interested in other people's problems (2-)
-23. I get chores done right away (3+)
-24. I am easily disturbed (4-)
-25. I have excellent ideas (5+)
-26. I have little to say (1-)
-27. I have a soft (kind) heart 	(2+)
-28. I often forget to put things back in their proper place (3-)
-29. I get upset easily (4-)
-30. I do not have a good imagination (5-)
-31. I talk to a lot of different people at parties (1+)
-32. I am not really interested in others (2-)
-33. I like order (3+)
-34. I change my mood a lot (4-)
-35. I am quick to understand things (5+)
-36. I don't like to draw attention to myself (1-)
-37. I take time out for others (2+)
-38. I neglect my duties (3-)
-39. I have frequent mood swings (4-)
-40. I use difficult words (5+)
-41. I don't mind being the center of attention 	(1+)
-42. I feel others' emotions (2+)
-43. I follow a schedule (3+)
-44. I get irritated easily (4-)
-45. I spend time reflecting on things (5+)
-46. I am quiet around strangers (1-)
-47. I make people feel at ease (2+)
-48. I am exacting in my work (3+)
-49. I often feel blue (down) (4-)
-50. I am full of ideas. (5+)
+1. I am the life of the party
+2. I feel little concern for others
+3. I am always prepared
+4. I get stressed out easily
+5. I have a rich vocabulary
+6. I don't talk a lot
+7. I am interested in people
+8. I leave my belongings lying around
+9. I am relaxed most of the time
+10. I have difficulty understanding abstract ideas
+11. I feel comfortable around people
+12. I insult people
+13. I pay attention to details
+14. I worry about things
+15. I have a vivid imagination
+16. I keep in the background
+17. I sympathize with others' feelings
+18. I make a mess of things
+19. I seldom feel blue (down)
+20. I am not interested in abstract ideas
+21. I start conversations
+22. I am not interested in other people's problems
+23. I get chores done right away
+24. I am easily disturbed
+25. I have excellent ideas
+26. I have little to say
+27. I have a soft (kind) heart
+28. I often forget to put things back in their proper place
+29. I get upset easily
+30. I do not have a good imagination
+31. I talk to a lot of different people at parties
+32. I am not really interested in others
+33. I like order
+34. I change my mood a lot
+35. I am quick to understand things
+36. I don't like to draw attention to myself
+37. I take time out for others
+38. I neglect my duties
+39. I have frequent mood swings
+40. I use difficult words
+41. I don't mind being the center of attention
+42. I feel others' emotions
+43. I follow a schedule
+44. I get irritated easily
+45. I spend time reflecting on things
+46. I am quiet around strangers
+47. I make people feel at ease
+48. I am exacting in my work
+49. I often feel blue (down)
+50. I am full of ideas.
 
-## Questionnaire scoring
-Scores are saved as tuples. The first values of the tuple indicates the subscale to which the item belongs: (1) Extraversion, (2) Agreeableness, (3) Conscientiousness, (4) Emotional Stability/Neuroticism, or (5) Intellect/Imagination / openness to experiences). The second value indicates the individual's answers.
 
-Once numbers are assigned for all of the items in the scale,  sum all the values within a subscale (e.g. extraversion) to obtain a total subscale score.
 
 ## IPIP Big-Five Factor Markers Cut-Offs
 https://ipip.ori.org/InterpretingIndividualIPIPScaleScores.htm
 
+Cut-off values for each of the subscales are calculated using the mean and standard deviation of all the responses on that subscale.
+The formulas for getting the high, medium and low categories are as follows:
+
 Emotional stability:
-  high: mean + std_deviation/2
-  low: mean - std_deviation/2
+- high: => mean + std_deviation/2
+- medium: between mean - std_deviation/2 and mean + std_deviation/2
+- low: <= mean - std_deviation/2
+
 extraversion:
-  high: mean + std_deviation/2
-  low: mean - std_deviation/2
+- high: => mean + std_deviation/2
+- medium: between mean - std_deviation/2 and mean + std_deviation/2  
+- low: <= mean - std_deviation/2
+
 Agreeableness:
-  high: mean + std_deviation/2
-  low: mean - std_deviation/2
+- high: => mean + std_deviation/2
+- medium: between mean - std_deviation/2 and mean + std_deviation/2
+- low: <= mean - std_deviation/2
+
 Conscientiousness:
-  high: mean + std_deviation/2
-  low: mean - std_deviation/2
+- high: => mean + std_deviation/2
+- medium: between mean - std_deviation/2 and mean + std_deviation/2
+- low: <= mean - std_deviation/2
+
 Intellect:
-  high: mean + std_deviation/2
-  low: mean - std_deviation/2
+- high: => mean + std_deviation/2
+- medium: between mean - std_deviation/2 and mean + std_deviation/2
+- low: <= mean - std_deviation/2
 
 ## Source
 
