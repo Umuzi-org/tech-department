@@ -1,6 +1,7 @@
 ---
 title: Survey design
 weight: 15
+ready: True
 ---
 
-[Slides](https://drive.google.com/drive/u/1/folders/1X56thLS6AjUrWVH_Y2Y9oXjjog6vOLtW)
+[Slides](https://drive.google.com/file/d/1xOjz7QKWrvRRL3_wV-Yd7imaAIExqLzm/view?usp=sharing)
