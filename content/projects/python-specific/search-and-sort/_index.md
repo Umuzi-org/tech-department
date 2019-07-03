@@ -4,12 +4,12 @@ title: "Assignment: Search and sort techniques"
 
 Searching refers to looking for a specific data point (e.g., a number) in a data structure. Sorting refers to arranging data in a particular format. Sorting algorithm specifies the way to arrange data in a particular order, such as numerical (1234…) or alphabetical (abcd…) order. Search and sort algorithms differ in efficiency, so it is important to know how they work.
 
-## Readings:
+## Readings
 
 - [Sorting and Searching Algorithms](https://python-textbok.readthedocs.io/en/1.0/Sorting_and_Searching_Algorithms.html)
 - [Interactive Python: Sort and Search](http://interactivepython.org/courselib/static/pythonds/SortSearch/toctree.html)
 
-## Videos:
+## Videos
 
 - [Binary Search](https://youtu.be/IcK2Qyk3cUs)
 - [Insertion Sort](https://youtu.be/Nkw6Jg_Gi4w)
