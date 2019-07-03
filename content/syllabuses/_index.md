@@ -8,7 +8,7 @@ We support a few different technical learning paths. Data Science, Data Engineer
 
 ## A note on Umuzi’s formal qualification and accreditation
 
-Umuzi is a registered training provider with NCIT SETA. Our National Certificate IT (Systems Development) (NCIT) qualification is a learnership requirement (i.e. Umuzi’s employer partners can therefore recognize their training and stipend spend as part of their skills development budgets). We work hard to both meet the National Certificate requirements and deliver a practical and relevant learning experience (which are not always well aligned) however, we firmly believe the most important part is the practical application of learning rather than merely meeting the unit standard requirements. Below we refer to the formal NCIT requirements e.g. NCIT01: Business and technology.
+Umuzi is a registered training provider with [MICT SETA](https://www.mict.org.za/). Our National Certificate IT (Systems Development) (NCIT) qualification is a learnership requirement (i.e. Umuzi’s employer partners can therefore recognize their training and stipend spend as part of their skills development budgets). We work hard to both meet the National Certificate requirements and deliver a practical and relevant learning experience (which are not always well aligned) however, we firmly believe the most important part is the practical application of learning rather than merely meeting the unit standard requirements. Below we refer to the formal NCIT requirements e.g. NCIT01: Business and technology.
 
 ## Terminology
 
