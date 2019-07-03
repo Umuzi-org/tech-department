@@ -4,19 +4,6 @@ title: OOP in Python
 weight: 15
 ---
 
-## Youtube videos:
-
-- [Python OOP 1 - Classes and Instances](https://youtu.be/ZDa-Z5JzLYM)
-- [Python OOP 2 - Class Variables](https://youtu.be/BJ-VvGyQxho)
-- [Python OOP 3 - Classmethods and Staticmethods](https://youtu.be/rq8cL2XMM5M)
-- [Python OOP 4 - Inheritance](https://youtu.be/RSl87lqOXDE)
-- [Python OOP 5 - Special (Magic/Dunder) Methods](https://youtu.be/3ohzBxoFHAY)
-- [Python OOP 6 - Property Decorators](https://youtu.be/jCzT9XFZ5bw)
-
-## Reading:
-
-Guttag. Introduction to Computation and Programming using Python. Chapter 8, Classes and Object Oriented Programming, p.90 - 110.
-
 ## Tutorial:
 
 Feeling unsure about how to approach the assignment? [Here](https://www.learnpython.org/en/Classes_and_Objects) is a quick online tutorial to get you introduced to classes.

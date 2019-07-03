@@ -1,5 +1,6 @@
 ---
 title: Unit Testing
+ready: True
 ---
 
 ## Readings:
