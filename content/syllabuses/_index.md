@@ -34,11 +34,11 @@ We start off by introducing the applicants to the development environment and re
   - Use [FreeCodeCamp](https://learn.freecodecamp.org/). Start off with JavaScript Algorithms And Data Structures Certification (300 hours)
   - JS challenges are given
 - DATA_SCI:
-  - Introduction to Jupiter notebooks
+  - Introduction to Jupyter notebooks
   - [DataCamp intro to Python](https://www.datacamp.com/courses/intro-to-python-for-data-science)
-  - visualization challenges
+  - Visualization challenges
 - DATA_ENG:
-  - introduction to Python (resource to be selected)
+  - Introduction to Python (resource to be selected)
     - https://www.datacamp.com/courses/intro-to-python-for-data-science/?utm_source=learnpython_com&utm_campaign=learnpython_tutorials#
     - https://www.learnpython.org/
   - Python coding challenges given
@@ -102,14 +102,15 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "topics/regular-expressions" %}}
 
 - DATA_SCI:
-  - {{% contentlink "topics/data-sci-specific/google-forms-like-a-boss" %}}
+  - {{% contentlink "workshops/survey-design" %}}
+  - {{% contentlink "workshops/google-forms-like-a-boss" %}}
   - {{% contentlink "topics/how-to-ask-the-right-questions" %}}
 
 ## Week 5: Some specific skills
 
 - DATA_SCI:
 
-  - {{% contentlink "topics/data-sci-specific/data-visualisation" %}}
+  - {{% contentlink "topics/data-science-specific/data-visualisation" %}}
 
 - DATA_ENG:
   Get as far as possible with the following exercises. We'll continue later
@@ -129,6 +130,9 @@ The recruits finish off their portfolios. From this point forward they are expec
 
   - {{% contentlink "topics/how-the-internet-works" %}}
   - {{% contentlink "topics/data-ethics-and-privacy" %}}
+
+- DATA_SCI:
+    - {{% contentlink "workshops/intro-to-data-ethics" %}}
 
 - NCIT 07: History of the Internet
 - NCIT 08: Web design for business
@@ -150,7 +154,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - DATA_SCI:
 
-  - {{% contentlink "topics/data-sci-specific/data-wrangling" %}}
+  - {{% contentlink "topics/data-science-specific/data-wrangling" %}}
   - {{% contentlink "topics/python-specific/unit-testing/automated-testing-with-pytest" %}}
   - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
   - {{% contentlink "projects/tdd/password-checker" %}}
@@ -180,7 +184,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - DATA_SCI:
 
-  - {{% contentlink "topics/data-sci-specific/statistical-thinking/" %}}
+  - {{% contentlink "topics/data-science-specific/statistical-thinking/" %}}
 
 - DATA_ENG:
 
@@ -230,9 +234,10 @@ All recruits will do this
 
 - {{% contentlink "workshops/node-and-sql/" %}}
 - {{% contentlink "topics/python-specific/sql-and-python/" %}}
-- {{% contentlink "topics/sql-and-data-quality-control/" %}}
+- {{% contentlink "topics/data-validation-and-quality-control/" %}}
 
 - NCIT 17: Assignment: Create MySQL database with employee and product tables
+  - DATA_SCI: {{% contentlink "projects/SQL/" %}}
 
 ## Week 18 & 19
 
@@ -241,11 +246,11 @@ All recruits will do this
 - DATA_SCI:
 
   - {{% contentlink "topics/python-specific/web-scraping/" %}}
-  - {{% contentlink "topics/data-sci-specific/dashboards/" %}}
+  - {{% contentlink "topics/data-science-specific/dashboards/" %}}
 
 - DATA_ENG:
 
-  - {{% contentlink "topics/data-sci-specific/cross-validation-and-simple-linear-regression/" %}}
+  - {{% contentlink "topics/data-science-specific/cross-validation-and-simple-linear-regression/" %}}
   - {{% contentlink "projects/build-rest-api-with-db/" %}}
 
 - WEB_DEV:
@@ -264,6 +269,7 @@ All recruits will do this
   - {{% contentlink "topics/optimizations-and-big-o/" %}}
 
 - NCIT 19: Search and sort techniques
+  - DATA_SCI: {{% contentlink "projects/projects/python-specific/search-and-sort" %}}
 - NCIT 10: Agile project management
 - NCIT 11: Agile meetings
 - NCIT 12: Boolean algebra, logic
@@ -279,7 +285,7 @@ ALL:
 ## Week 22:
 
 - DATA_SCI:
-  - {{% contentlink "topics/data-sci-specific/cross-validation-and-simple-linear-regression/" %}}
+  - {{% contentlink "topics/data-science-specific/cross-validation-and-simple-linear-regression/" %}}
 - DATA_ENG:
   - {{% contentlink "topics/python-specific/mongodb/" %}}
 - WEB_DEV:
@@ -290,7 +296,7 @@ ALL:
 ## Week 23
 
 - DATA_SCI:
-  - {{% contentlink "topics/data-sci-specific/multivariate-linear-regression" %}}
+  - {{% contentlink "topics/data-science-specific/multivariate-linear-regression" %}}
 - DATA_ENG:
   - {{% contentlink "topics/data-infrastructure/dags-with-airflow" %}}
 - WEB_DEV:
@@ -302,7 +308,7 @@ ALL:
 ## Week 24
 
 - DATA_SCI:
-  - {{% contentlink "topics/data-sci-specific/decision-trees" %}}
+  - {{% contentlink "topics/data-science-specific/decision-trees" %}}
 - WEB_DEV:
   - continue with frontend web framework
 - DATA_ENG:
@@ -312,7 +318,7 @@ ALL:
 ## Week 25
 
 - DATA_SCI:
-  - {{% contentlink "topics/data-sci-specific/logistic-regression" %}}
+  - {{% contentlink "topics/data-science-specific/logistic-regression" %}}
 - DATA_ENG:
   - {{% contentlink "topics/python-specific/sqlalchemy-and-alembic" %}}
 - WEB_DEV:
@@ -324,7 +330,7 @@ ALL:
 
 - DATA_SCI:
 
-  - {{% contentlink "topics/data-sci-specific/k-means-clustering" %}}
+  - {{% contentlink "topics/data-science-specific/k-means-clustering" %}}
 
 - DATA_ENG:
   - {{% contentlink "topics/data-infrastructure/choosing-a-task-queue" %}}
