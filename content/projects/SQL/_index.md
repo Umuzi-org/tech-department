@@ -26,8 +26,7 @@ sudo apt install mysql-server
 
 ## Part 1: Creating a database
 
-- Save all of your instructions in a script file - you will submit this file on Gnomio and github.
-- save it as 'MySQL Assessment 114048 & 114049 Part 1'
+Save all of your instructions in a script file - you will submit this file on Gnomio and github.  
 
 1. Create a database called "Umuzi".
 
@@ -56,6 +55,7 @@ sudo apt install mysql-server
 | 4 | Charl | Muller | Mal | 290A Dorset Ecke | +44856872553 | Charl.muller@yahoo.com | Berlin | Germany |
 | 5 | Julia | Stein | Female | 2 Wernerring | +448672445058 | Js234@yahoo.com | Frankfurt | Germany |
 
+
 ### Employees Table
 
 | EmployeeID (int) | FirstName (varchar50) | LastName (varchar50) |  Email (varchar100) |  JobTitle (varchar20) |
@@ -65,34 +65,39 @@ sudo apt install mysql-server
 | 3 | Gideon | Maduku | m@gmail.com | Accountant |
 
 
+
 ### Orders Table
 
-| OrderId (int) | ProductID (int) | PaymentID (int) | FulfilledByEmployeeID  (int) | DateRequired (datetime) | DateShipped (datetime) | Status (varchar20) |  
-| --- | --- | --- | --- |--- | --- |  --- |  
+| OrderId (int) | ProductID (int) | PaymentID (int) | FulfilledByEmployeeID  (int) | DateRequired (datetime) | DateShipped (datetime) | Status (varchar20) |
+| --- | --- | --- | --- |--- | --- |  --- |
 | 1  | 1  | 1  | 2  | 05-09-2018 | | Not shipped |
-| 2  | 1  | 2  | 2  | 04-09-2018 | 03-09-2018 | Shipped |  
-| 3  | 3  | 3  | 3  | 06-09-2018 |  | Not shipped |  
+| 2  | 1  | 2  | 2  | 04-09-2018 | 03-09-2018 | Shipped |
+| 3  | 3  | 3  | 3  | 06-09-2018 |  | Not shipped |
+
 
 ### Payments Table
 
-| CustomerId (int) | PaymentID (int) | PaymentDate (datetime) | Amount (decimal) |    
-| --- | --- | --- | --- |   
-| 1 | 1 | 01-09-2018 | R150.75 |  
-| 5 | 2 | 03-09-2018 | R150.75 |  
+
+| CustomerId (int) | PaymentID (int) | PaymentDate (datetime) | Amount (decimal) |
+| --- | --- | --- | --- |
+| 1 | 1 | 01-09-2018 | R150.75 |
+| 5 | 2 | 03-09-2018 | R150.75 |
 | 4 | 3 | 03-09-2018 | R700.60 |
+
 
 ### Products Table
 
-| ProductId (int) | ProductName (varchar100) | Description (varchar300) | BuyPrice (decimal) |  
-| --- | --- | --- | --- |  
+
+| ProductId (int) | ProductName (varchar100) | Description (varchar300) | BuyPrice (decimal) |
+| --- | --- | --- | --- |
 | 1 | Harley Davidson Chopper | This replica features working kickstand, front suspension, gear-shift lever | R150.75 |
-| 2 | Classic Car | Turnable front wheels, steering function | R550.75 |  
+| 2 | Classic Car | Turnable front wheels, steering function | R550.75 |
 | 3 | Sports car | Turnable front wheels, steering function | R700.60 |
+
 
 ## Part 2: Querying a database
 
-- Save all of your instructions in a script file - you will submit this file on Gnomio and github.
-- save it as `MySQL Assessment 114048 & 114049 Part 2`
+Save all of your instructions in a script file - you will submit this file on Gnomio and github.  
 
 7. SELECT ALL records from table Customers.
 
