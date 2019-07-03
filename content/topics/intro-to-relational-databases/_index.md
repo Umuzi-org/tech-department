@@ -1,10 +1,15 @@
 ---
-title: SQL and Data Quality Control
+title: SQL
+ready: True
 ---
 
-Read the document on data quality assurance and quality control.
+## Tutorial
 
-Complete the Datacamp Intro and Intermediate SQl courses:
+Complete the DataCamp Intro and Intermediate SQL courses:
 
 - [Intro to SQL for data science](https://www.datacamp.com/courses/intro-to-sql-for-data-science)
 - [Intermediate SQL](https://www.datacamp.com/courses/intermediate-sql)
+
+## Assignment
+
+See the SQL assignment in Projects: {{% contentlink "projects/SQL" %}}

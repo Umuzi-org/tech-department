@@ -1,12 +1,13 @@
 ---
 title: Data validation and quality control
+ready: True
 ---
 
 ## Prevention first!
 
 - Design surveys and tools in such a way that minimises user error and measurement error
 
-## Data should always be tested for completeness, measurement accuracy, calculation accuracy and integrity
+## Inspect the data
 
 - Completeness:
 
@@ -48,5 +49,5 @@ the process problems may have crept in.
 
 ## References
 
-[Data quality assurance in data warehousing](https://www.blue-granite.com/blog/overview-of-data-quality-assurance-in-data-warehousing)
-[The Challenges of Data Quality and Data Quality Assessment in the Big Data Era](https://datascience.codata.org/articles/10.5334/dsj-2015-002/)
+[Data quality assurance in data warehousing](https://www.blue-granite.com/blog/overview-of-data-quality-assurance-in-data-warehousing)  
+[The Challenges of Data Quality and Data Quality Assessment in the Big Data Era](https://datascience.codata.org/articles/10.5334/dsj-2015-002/)  
