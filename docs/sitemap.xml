@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/syllabuses/data-engineering/</loc>
+    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/syllabuses/data-science/</loc>
+    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/syllabuses/product-teams/</loc>
+    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/syllabuses/web-dev-long/</loc>
+    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/syllabuses/home-study-web-dev-prep/</loc>
+    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/syllabuses/web-dev-short-course/</loc>
+    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/topics/python-specific/unit-testing/automated-testing-with-pytest/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/memory-game-vanilla/intro/</loc>
+  </url>
+  
+  <url>
+    <loc>/syllabuses/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/memory-game-vanilla/code-review-deadline/</loc>
+    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/memory-game-vanilla/code-review-workshop/</loc>
+    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/topics/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workshops/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/memory-game-vanilla/configurable-grid-size-deadline/</loc>
+    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/ncit/</loc>
+  </url>
+  
+  <url>
+    <loc>/department-processes/</loc>
+  </url>
+  
+  <url>
+    <loc>/workshops/agile-scrum/</loc>
+    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workshops/git-for-teamwork/</loc>
+    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/how-to-submit-your-project/</loc>
+    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workshops/interviewing-sucessfully/</loc>
+    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workshops/intro-to-agile/</loc>
+    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workshops/intro-to-node-and-friends/</loc>
+    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workshops/intro-to-development-tools-and-environment-for-web/</loc>
+    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workshops/intro-to-unit-tests-with-mocha/</loc>
+    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workshops/nodejs-async-vs-sync/</loc>
+    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/oop-in-js/</loc>
+    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/oop-in-python/</loc>
+    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/topics/data-infrastructure/choosing-a-task-queue/intro-to-stackoverflow/</loc>
+    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/topics/git/version-control-and-scrum/</loc>
+    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workshops/survey-design/</loc>
+  </url>
+  
+  <url>
+    <loc>/syllabuses/online-learning-and-bootbamp/</loc>
+    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/topics/data-science-specific/intro-to-jupyter-notebook/guidelines_for_notebooks/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/apis/basics/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/js-and-node-specific/apis-with-node/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/nodejs/ajax/</loc>
+  </url>
+  
+  <url>
+    <loc>/workshops/agile-recap/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/apis/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/projects/python-specific/search-and-sort/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/python-specific/unit-testing/automated-testing-pandas-and-numpy/</loc>
+  </url>
+  
+  <url>
+    <loc>/workshops/redux_intro/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/first-personal-website/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/workshops/clean-code/</loc>
+  </url>
+  
+  <url>
+    <loc>/workshops/general-coding-best-practices/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/data-science-specific/clean-code/</loc>
+  </url>
+  
+  <url>
+    <loc>/workshops/clean-code-for-web/</loc>
+  </url>
+  
+  <url>
+    <loc>/code-review/</loc>
+  </url>
+  
+  <url>
+    <loc>/department-processes/cohort_standups/</loc>
+  </url>
+  
+  <url>
+    <loc>/contact-us/</loc>
+  </url>
+  
+  <url>
+    <loc>/credits/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/data-science-specific/cross-validation-and-simple-linear-regression/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/data-infrastructure/dags-with-airflow/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/js-and-node-specific/dom-manipulation-with-vanilla-js/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/data-science-specific/dashboards/</loc>
+  </url>
+  
+  <url>
+    <loc>/workshops/intro-to-data-ethics/data-ethics/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/data-ethics-and-privacy/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/data-science-specific/data-visualisation/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/data-science-specific/data-wrangling/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/data-validation-and-quality-control/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/data-infrastructure/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/topics/data-science-specific/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/topics/data-infrastructure/database-comparison/</loc>
+  </url>
+  
+  <url>
+    <loc>/department-processes/deadlines/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/data-science-specific/decision-trees/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/portfolio-website/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/distributed-workloads-with-zeromq/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/linux/os-environmental-variables/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/nodejs/api/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/expose-a-simple-rest-api-for-game/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/nodejs/express-forms/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/js-and-node-specific/expressjs/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/python-specific/file_io_kata/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/git-exercises/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/git/git-basics/</loc>
+  </url>
+  
+  <url>
+    <loc>/workshops/git-basics/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/git/</loc>
+  </url>
+  
+  <url>
+    <loc>/workshops/google-forms-like-a-boss/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/how-the-internet-works/</loc>
+  </url>
+  
+  <url>
+    <loc>/how-to-contribute/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/how-to-ask-the-right-questions/</loc>
+  </url>
+  
+  <url>
+    <loc>/workshops/how-to-be-a-professional/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/python-specific/oop-for-python/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/web-frontend/intro-to-angular/</loc>
+  </url>
+  
+  <url>
+    <loc>/workshops/intro-to-css-architecture/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/intro-to-docker/</loc>
+  </url>
+  
+  <url>
+    <loc>/workshops/intro-to-presentation/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/web-frontend/intro-to-react/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/web-frontend/intro-to-vue/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/functional-programming-intro/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/basic-architecture-concepts/</loc>
+  </url>
+  
+  <url>
+    <loc>/workshops/intro-to-ncit/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/python-specific/intro-to-apis/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/intro-to-ajax/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/linux/intro-to-bash/</loc>
+  </url>
+  
+  <url>
+    <loc>/workshops/intro-to-css/</loc>
+  </url>
+  
+  <url>
+    <loc>/workshops/intro-to-express/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/apis/graphql/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/data-science-specific/intro-to-jupyter-notebook/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/linux/intro-to-linux/</loc>
+  </url>
+  
+  <url>
+    <loc>/workshops/intro-to-linux/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/js-and-node-specific/introduction-to-node/</loc>
+  </url>
+  
+  <url>
+    <loc>/workshops/node-and-sql/</loc>
+  </url>
+  
+  <url>
+    <loc>/workshops/intro-to-pair-programming/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/web-frontend/intro-to-web-design/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/js-and-node-specific/</loc>
+  </url>
+  
+  <url>
+    <loc>/code-review/may-review-c13-c14f/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/js-and-node-specific/template-engines/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/data-science-specific/k-means-clustering/</loc>
+  </url>
+  
+  <url>
+    <loc>/department-processes/linkz/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/linux/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/data-science-specific/logistic-regression/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/memory-game-vanilla/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/memory-game-modern/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/js-and-node-specific/mongodb/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/python-specific/mongodb/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/data-science-specific/multivariate-linear-regression/</loc>
+  </url>
+  
+  <url>
+    <loc>/workshops/node/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/nodejs/mongo/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/nodejs/</loc>
+  </url>
+  
+  <url>
+    <loc>/workshops/nodejs-intro-to-socketio/</loc>
+  </url>
+  
+  <url>
+    <loc>/makeumuzibetter/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/python-specific/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/regular-expressions/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/sql/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/intro-to-relational-databases/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/python-specific/sql-and-python/</loc>
+  </url>
+  
+  <url>
+    <loc>/department-processes/workshops_and_events/</loc>
+  </url>
+  
+  <url>
+    <loc>/syllabuses/web-dev-short-course/self-study/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/python-specific/sqlalchemy-and-alembic/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/data-science-specific/statistical-thinking/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/projects/tdd/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/js-and-node-specific/dotenv/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/tech-terminology/</loc>
+  </url>
+  
+  <url>
+    <loc>/workshops/time-managment/</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/python-specific/unit-testing/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/unit-testing/</loc>
+  </url>
+  
+  <url>
+    <loc>/workshops/intro-to-unit-testing-with-jasmine/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/js-and-node-specific/fetch/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/validating-user-input-for-web/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/python-specific/virtual-envs/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/web-frontend/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/python-specific/web-scraping/</loc>
+  </url>
+  
+  <url>
+    <loc>/department-processes/what-recruits-need-to-know/</loc>
+  </url>
+  
+  <url>
+    <loc>/workshops/what-to-put-on-a-cv/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/what-to-put-in-your-cv/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/data-infrastructure/choosing-a-task-queue/</loc>
+  </url>
+  
+  <url>
+    <loc>/department-processes/code-review/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/python-consuming-an-api-with-requests/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/build-rest-api-with-db/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/data-validation-with-python-and-regex/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/python-specific/expose-rest-api-simple/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/linux/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/tdd/collection/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/optimizations-and-big-o/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/tdd/password-checker/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/python-specific/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/tdd/recursive_search/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/tdd/simple-calculator-part1/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/tdd/simple-calculator-part2/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/tdd/string-calculator/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/tdd/bowling/</loc>
+  </url>
+  
+</urlset>
