@@ -132,7 +132,8 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "topics/data-ethics-and-privacy" %}}
 
 - DATA_SCI:
-    - {{% contentlink "workshops/intro-to-data-ethics" %}}
+
+  - {{% contentlink "workshops/intro-to-data-ethics" %}}
 
 - NCIT 07: History of the Internet
 - NCIT 08: Web design for business
