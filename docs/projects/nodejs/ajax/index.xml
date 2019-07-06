@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Add a little Ajax on Documentation for Umuzi Tech Department</title>
-    <link>/tech-department/projects/nodejs/ajax/</link>
+    <link>tech-department/projects/nodejs/ajax/</link>
     <description>Recent content in Add a little Ajax on Documentation for Umuzi Tech Department</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     
-	<atom:link href="/tech-department/projects/nodejs/ajax/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="tech-department/projects/nodejs/ajax/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
