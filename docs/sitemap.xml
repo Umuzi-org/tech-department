@@ -3,690 +3,690 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>tech-department/syllabuses/data-engineering/</loc>
+    <loc>/tech-department/syllabuses/data-engineering/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tech-department/syllabuses/data-science/</loc>
+    <loc>/tech-department/syllabuses/data-science/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tech-department/syllabuses/product-teams/</loc>
+    <loc>/tech-department/syllabuses/product-teams/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tech-department/syllabuses/web-dev-long/</loc>
+    <loc>/tech-department/syllabuses/web-dev-long/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tech-department/syllabuses/home-study-web-dev-prep/</loc>
+    <loc>/tech-department/syllabuses/home-study-web-dev-prep/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tech-department/syllabuses/web-dev-short-course/</loc>
+    <loc>/tech-department/syllabuses/web-dev-short-course/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tech-department/topics/python-specific/unit-testing/automated-testing-with-pytest/</loc>
+    <loc>/tech-department/topics/python-specific/unit-testing/automated-testing-with-pytest/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/memory-game-vanilla/intro/</loc>
+    <loc>/tech-department/projects/memory-game-vanilla/intro/</loc>
   </url>
   
   <url>
-    <loc>tech-department/syllabuses/</loc>
+    <loc>/tech-department/syllabuses/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/memory-game-vanilla/code-review-deadline/</loc>
+    <loc>/tech-department/projects/memory-game-vanilla/code-review-deadline/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tech-department/projects/memory-game-vanilla/code-review-workshop/</loc>
+    <loc>/tech-department/projects/memory-game-vanilla/code-review-workshop/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tech-department/topics/</loc>
+    <loc>/tech-department/topics/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tech-department/workshops/</loc>
+    <loc>/tech-department/workshops/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tech-department/projects/memory-game-vanilla/configurable-grid-size-deadline/</loc>
+    <loc>/tech-department/projects/memory-game-vanilla/configurable-grid-size-deadline/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tech-department/projects/</loc>
+    <loc>/tech-department/projects/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tech-department/ncit/</loc>
+    <loc>/tech-department/ncit/</loc>
   </url>
   
   <url>
-    <loc>tech-department/department-processes/</loc>
+    <loc>/tech-department/department-processes/</loc>
   </url>
   
   <url>
-    <loc>tech-department/workshops/agile-scrum/</loc>
+    <loc>/tech-department/workshops/agile-scrum/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tech-department/workshops/git-for-teamwork/</loc>
+    <loc>/tech-department/workshops/git-for-teamwork/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tech-department/projects/how-to-submit-your-project/</loc>
+    <loc>/tech-department/projects/how-to-submit-your-project/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tech-department/workshops/interviewing-sucessfully/</loc>
+    <loc>/tech-department/workshops/interviewing-sucessfully/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tech-department/workshops/intro-to-agile/</loc>
+    <loc>/tech-department/workshops/intro-to-agile/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tech-department/workshops/intro-to-node-and-friends/</loc>
+    <loc>/tech-department/workshops/intro-to-node-and-friends/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tech-department/workshops/intro-to-development-tools-and-environment-for-web/</loc>
+    <loc>/tech-department/workshops/intro-to-development-tools-and-environment-for-web/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tech-department/workshops/intro-to-unit-tests-with-mocha/</loc>
+    <loc>/tech-department/workshops/intro-to-unit-tests-with-mocha/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tech-department/workshops/nodejs-async-vs-sync/</loc>
+    <loc>/tech-department/workshops/nodejs-async-vs-sync/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tech-department/projects/oop-in-js/</loc>
+    <loc>/tech-department/projects/oop-in-js/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tech-department/projects/oop-in-python/</loc>
+    <loc>/tech-department/projects/oop-in-python/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tech-department/topics/data-infrastructure/choosing-a-task-queue/intro-to-stackoverflow/</loc>
+    <loc>/tech-department/topics/data-infrastructure/choosing-a-task-queue/intro-to-stackoverflow/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tech-department/topics/git/version-control-and-scrum/</loc>
+    <loc>/tech-department/topics/git/version-control-and-scrum/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tech-department/workshops/survey-design/</loc>
+    <loc>/tech-department/workshops/survey-design/</loc>
   </url>
   
   <url>
-    <loc>tech-department/syllabuses/online-learning-and-bootbamp/</loc>
+    <loc>/tech-department/syllabuses/online-learning-and-bootbamp/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tech-department/topics/data-science-specific/intro-to-jupyter-notebook/guidelines_for_notebooks/</loc>
+    <loc>/tech-department/topics/data-science-specific/intro-to-jupyter-notebook/guidelines_for_notebooks/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/apis/basics/</loc>
+    <loc>/tech-department/topics/apis/basics/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/js-and-node-specific/apis-with-node/</loc>
+    <loc>/tech-department/topics/js-and-node-specific/apis-with-node/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/nodejs/ajax/</loc>
+    <loc>/tech-department/projects/nodejs/ajax/</loc>
   </url>
   
   <url>
-    <loc>tech-department/workshops/agile-recap/</loc>
+    <loc>/tech-department/workshops/agile-recap/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/apis/</loc>
+    <loc>/tech-department/topics/apis/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>tech-department/projects/python-specific/search-and-sort/</loc>
+    <loc>/tech-department/projects/python-specific/search-and-sort/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/python-specific/unit-testing/automated-testing-pandas-and-numpy/</loc>
+    <loc>/tech-department/topics/python-specific/unit-testing/automated-testing-pandas-and-numpy/</loc>
   </url>
   
   <url>
-    <loc>tech-department/workshops/redux_intro/</loc>
+    <loc>/tech-department/workshops/redux_intro/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/first-personal-website/</loc>
+    <loc>/tech-department/projects/first-personal-website/</loc>
   </url>
   
   <url>
-    <loc>tech-department/categories/</loc>
+    <loc>/tech-department/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>tech-department/workshops/clean-code/</loc>
+    <loc>/tech-department/workshops/clean-code/</loc>
   </url>
   
   <url>
-    <loc>tech-department/workshops/general-coding-best-practices/</loc>
+    <loc>/tech-department/workshops/general-coding-best-practices/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/data-science-specific/clean-code/</loc>
+    <loc>/tech-department/topics/data-science-specific/clean-code/</loc>
   </url>
   
   <url>
-    <loc>tech-department/workshops/clean-code-for-web/</loc>
+    <loc>/tech-department/workshops/clean-code-for-web/</loc>
   </url>
   
   <url>
-    <loc>tech-department/code-review/</loc>
+    <loc>/tech-department/code-review/</loc>
   </url>
   
   <url>
-    <loc>tech-department/department-processes/cohort_standups/</loc>
+    <loc>/tech-department/department-processes/cohort_standups/</loc>
   </url>
   
   <url>
-    <loc>tech-department/contact-us/</loc>
+    <loc>/tech-department/contact-us/</loc>
   </url>
   
   <url>
-    <loc>tech-department/credits/</loc>
+    <loc>/tech-department/credits/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/data-science-specific/cross-validation-and-simple-linear-regression/</loc>
+    <loc>/tech-department/topics/data-science-specific/cross-validation-and-simple-linear-regression/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/data-infrastructure/dags-with-airflow/</loc>
+    <loc>/tech-department/topics/data-infrastructure/dags-with-airflow/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/js-and-node-specific/dom-manipulation-with-vanilla-js/</loc>
+    <loc>/tech-department/topics/js-and-node-specific/dom-manipulation-with-vanilla-js/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/data-science-specific/dashboards/</loc>
+    <loc>/tech-department/topics/data-science-specific/dashboards/</loc>
   </url>
   
   <url>
-    <loc>tech-department/workshops/intro-to-data-ethics/data-ethics/</loc>
+    <loc>/tech-department/workshops/intro-to-data-ethics/data-ethics/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/data-ethics-and-privacy/</loc>
+    <loc>/tech-department/topics/data-ethics-and-privacy/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/data-science-specific/data-visualisation/</loc>
+    <loc>/tech-department/topics/data-science-specific/data-visualisation/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/data-science-specific/data-wrangling/</loc>
+    <loc>/tech-department/topics/data-science-specific/data-wrangling/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/data-validation-and-quality-control/</loc>
+    <loc>/tech-department/topics/data-validation-and-quality-control/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/data-infrastructure/</loc>
+    <loc>/tech-department/topics/data-infrastructure/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>tech-department/topics/data-science-specific/</loc>
+    <loc>/tech-department/topics/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>tech-department/topics/data-infrastructure/database-comparison/</loc>
+    <loc>/tech-department/topics/data-infrastructure/database-comparison/</loc>
   </url>
   
   <url>
-    <loc>tech-department/department-processes/deadlines/</loc>
+    <loc>/tech-department/department-processes/deadlines/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/data-science-specific/decision-trees/</loc>
+    <loc>/tech-department/topics/data-science-specific/decision-trees/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/portfolio-website/</loc>
+    <loc>/tech-department/projects/portfolio-website/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/distributed-workloads-with-zeromq/</loc>
+    <loc>/tech-department/projects/distributed-workloads-with-zeromq/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/linux/os-environmental-variables/</loc>
+    <loc>/tech-department/topics/linux/os-environmental-variables/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/nodejs/api/</loc>
+    <loc>/tech-department/projects/nodejs/api/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/expose-a-simple-rest-api-for-game/</loc>
+    <loc>/tech-department/projects/expose-a-simple-rest-api-for-game/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/nodejs/express-forms/</loc>
+    <loc>/tech-department/projects/nodejs/express-forms/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/js-and-node-specific/expressjs/</loc>
+    <loc>/tech-department/topics/js-and-node-specific/expressjs/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/python-specific/file_io_kata/</loc>
+    <loc>/tech-department/projects/python-specific/file_io_kata/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/git-exercises/</loc>
+    <loc>/tech-department/projects/git-exercises/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/git/git-basics/</loc>
+    <loc>/tech-department/topics/git/git-basics/</loc>
   </url>
   
   <url>
-    <loc>tech-department/workshops/git-basics/</loc>
+    <loc>/tech-department/workshops/git-basics/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/git/</loc>
+    <loc>/tech-department/topics/git/</loc>
   </url>
   
   <url>
-    <loc>tech-department/workshops/google-forms-like-a-boss/</loc>
+    <loc>/tech-department/workshops/google-forms-like-a-boss/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/how-the-internet-works/</loc>
+    <loc>/tech-department/topics/how-the-internet-works/</loc>
   </url>
   
   <url>
-    <loc>tech-department/how-to-contribute/</loc>
+    <loc>/tech-department/how-to-contribute/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/how-to-ask-the-right-questions/</loc>
+    <loc>/tech-department/topics/how-to-ask-the-right-questions/</loc>
   </url>
   
   <url>
-    <loc>tech-department/workshops/how-to-be-a-professional/</loc>
+    <loc>/tech-department/workshops/how-to-be-a-professional/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/python-specific/oop-for-python/</loc>
+    <loc>/tech-department/topics/python-specific/oop-for-python/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/web-frontend/intro-to-angular/</loc>
+    <loc>/tech-department/topics/web-frontend/intro-to-angular/</loc>
   </url>
   
   <url>
-    <loc>tech-department/workshops/intro-to-css-architecture/</loc>
+    <loc>/tech-department/workshops/intro-to-css-architecture/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/intro-to-docker/</loc>
+    <loc>/tech-department/topics/intro-to-docker/</loc>
   </url>
   
   <url>
-    <loc>tech-department/workshops/intro-to-presentation/</loc>
+    <loc>/tech-department/workshops/intro-to-presentation/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/web-frontend/intro-to-react/</loc>
+    <loc>/tech-department/topics/web-frontend/intro-to-react/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/web-frontend/intro-to-vue/</loc>
+    <loc>/tech-department/topics/web-frontend/intro-to-vue/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/functional-programming-intro/</loc>
+    <loc>/tech-department/topics/functional-programming-intro/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/basic-architecture-concepts/</loc>
+    <loc>/tech-department/topics/basic-architecture-concepts/</loc>
   </url>
   
   <url>
-    <loc>tech-department/workshops/intro-to-ncit/</loc>
+    <loc>/tech-department/workshops/intro-to-ncit/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/python-specific/intro-to-apis/</loc>
+    <loc>/tech-department/topics/python-specific/intro-to-apis/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/intro-to-ajax/</loc>
+    <loc>/tech-department/topics/intro-to-ajax/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/linux/intro-to-bash/</loc>
+    <loc>/tech-department/topics/linux/intro-to-bash/</loc>
   </url>
   
   <url>
-    <loc>tech-department/workshops/intro-to-css/</loc>
+    <loc>/tech-department/workshops/intro-to-css/</loc>
   </url>
   
   <url>
-    <loc>tech-department/workshops/intro-to-express/</loc>
+    <loc>/tech-department/workshops/intro-to-express/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/apis/graphql/</loc>
+    <loc>/tech-department/topics/apis/graphql/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/data-science-specific/intro-to-jupyter-notebook/</loc>
+    <loc>/tech-department/topics/data-science-specific/intro-to-jupyter-notebook/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/linux/intro-to-linux/</loc>
+    <loc>/tech-department/topics/linux/intro-to-linux/</loc>
   </url>
   
   <url>
-    <loc>tech-department/workshops/intro-to-linux/</loc>
+    <loc>/tech-department/workshops/intro-to-linux/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/js-and-node-specific/introduction-to-node/</loc>
+    <loc>/tech-department/topics/js-and-node-specific/introduction-to-node/</loc>
   </url>
   
   <url>
-    <loc>tech-department/workshops/node-and-sql/</loc>
+    <loc>/tech-department/workshops/node-and-sql/</loc>
   </url>
   
   <url>
-    <loc>tech-department/workshops/intro-to-pair-programming/</loc>
+    <loc>/tech-department/workshops/intro-to-pair-programming/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/web-frontend/intro-to-web-design/</loc>
+    <loc>/tech-department/topics/web-frontend/intro-to-web-design/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/js-and-node-specific/</loc>
+    <loc>/tech-department/topics/js-and-node-specific/</loc>
   </url>
   
   <url>
-    <loc>tech-department/code-review/may-review-c13-c14f/</loc>
+    <loc>/tech-department/code-review/may-review-c13-c14f/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/js-and-node-specific/template-engines/</loc>
+    <loc>/tech-department/topics/js-and-node-specific/template-engines/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/data-science-specific/k-means-clustering/</loc>
+    <loc>/tech-department/topics/data-science-specific/k-means-clustering/</loc>
   </url>
   
   <url>
-    <loc>tech-department/department-processes/linkz/</loc>
+    <loc>/tech-department/department-processes/linkz/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/linux/</loc>
+    <loc>/tech-department/projects/linux/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/data-science-specific/logistic-regression/</loc>
+    <loc>/tech-department/topics/data-science-specific/logistic-regression/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/memory-game-vanilla/</loc>
+    <loc>/tech-department/projects/memory-game-vanilla/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/memory-game-modern/</loc>
+    <loc>/tech-department/projects/memory-game-modern/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/js-and-node-specific/mongodb/</loc>
+    <loc>/tech-department/topics/js-and-node-specific/mongodb/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/python-specific/mongodb/</loc>
+    <loc>/tech-department/topics/python-specific/mongodb/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/data-science-specific/multivariate-linear-regression/</loc>
+    <loc>/tech-department/topics/data-science-specific/multivariate-linear-regression/</loc>
   </url>
   
   <url>
-    <loc>tech-department/workshops/node/</loc>
+    <loc>/tech-department/workshops/node/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/nodejs/mongo/</loc>
+    <loc>/tech-department/projects/nodejs/mongo/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/nodejs/</loc>
+    <loc>/tech-department/projects/nodejs/</loc>
   </url>
   
   <url>
-    <loc>tech-department/workshops/nodejs-intro-to-socketio/</loc>
+    <loc>/tech-department/workshops/nodejs-intro-to-socketio/</loc>
   </url>
   
   <url>
-    <loc>tech-department/makeumuzibetter/</loc>
+    <loc>/tech-department/makeumuzibetter/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/python-specific/</loc>
+    <loc>/tech-department/projects/python-specific/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/regular-expressions/</loc>
+    <loc>/tech-department/topics/regular-expressions/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/sql/</loc>
+    <loc>/tech-department/projects/sql/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/intro-to-relational-databases/</loc>
+    <loc>/tech-department/topics/intro-to-relational-databases/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/python-specific/sql-and-python/</loc>
+    <loc>/tech-department/topics/python-specific/sql-and-python/</loc>
   </url>
   
   <url>
-    <loc>tech-department/department-processes/workshops_and_events/</loc>
+    <loc>/tech-department/department-processes/workshops_and_events/</loc>
   </url>
   
   <url>
-    <loc>tech-department/syllabuses/web-dev-short-course/self-study/</loc>
+    <loc>/tech-department/syllabuses/web-dev-short-course/self-study/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/python-specific/sqlalchemy-and-alembic/</loc>
+    <loc>/tech-department/topics/python-specific/sqlalchemy-and-alembic/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/data-science-specific/statistical-thinking/</loc>
+    <loc>/tech-department/topics/data-science-specific/statistical-thinking/</loc>
   </url>
   
   <url>
-    <loc>tech-department/tags/</loc>
+    <loc>/tech-department/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>tech-department/projects/tdd/</loc>
+    <loc>/tech-department/projects/tdd/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/js-and-node-specific/dotenv/</loc>
+    <loc>/tech-department/topics/js-and-node-specific/dotenv/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/tech-terminology/</loc>
+    <loc>/tech-department/topics/tech-terminology/</loc>
   </url>
   
   <url>
-    <loc>tech-department/workshops/time-managment/</loc>
+    <loc>/tech-department/workshops/time-managment/</loc>
   </url>
   
   <url>
-    <loc>tech-department/</loc>
+    <loc>/tech-department/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/python-specific/unit-testing/</loc>
+    <loc>/tech-department/topics/python-specific/unit-testing/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/unit-testing/</loc>
+    <loc>/tech-department/topics/unit-testing/</loc>
   </url>
   
   <url>
-    <loc>tech-department/workshops/intro-to-unit-testing-with-jasmine/</loc>
+    <loc>/tech-department/workshops/intro-to-unit-testing-with-jasmine/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/js-and-node-specific/fetch/</loc>
+    <loc>/tech-department/topics/js-and-node-specific/fetch/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/validating-user-input-for-web/</loc>
+    <loc>/tech-department/projects/validating-user-input-for-web/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/python-specific/virtual-envs/</loc>
+    <loc>/tech-department/topics/python-specific/virtual-envs/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/web-frontend/</loc>
+    <loc>/tech-department/topics/web-frontend/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/python-specific/web-scraping/</loc>
+    <loc>/tech-department/topics/python-specific/web-scraping/</loc>
   </url>
   
   <url>
-    <loc>tech-department/department-processes/what-recruits-need-to-know/</loc>
+    <loc>/tech-department/department-processes/what-recruits-need-to-know/</loc>
   </url>
   
   <url>
-    <loc>tech-department/workshops/what-to-put-on-a-cv/</loc>
+    <loc>/tech-department/workshops/what-to-put-on-a-cv/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/what-to-put-in-your-cv/</loc>
+    <loc>/tech-department/topics/what-to-put-in-your-cv/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/data-infrastructure/choosing-a-task-queue/</loc>
+    <loc>/tech-department/topics/data-infrastructure/choosing-a-task-queue/</loc>
   </url>
   
   <url>
-    <loc>tech-department/department-processes/code-review/</loc>
+    <loc>/tech-department/department-processes/code-review/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/python-consuming-an-api-with-requests/</loc>
+    <loc>/tech-department/projects/python-consuming-an-api-with-requests/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/build-rest-api-with-db/</loc>
+    <loc>/tech-department/projects/build-rest-api-with-db/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/data-validation-with-python-and-regex/</loc>
+    <loc>/tech-department/projects/data-validation-with-python-and-regex/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/python-specific/expose-rest-api-simple/</loc>
+    <loc>/tech-department/projects/python-specific/expose-rest-api-simple/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/linux/</loc>
+    <loc>/tech-department/topics/linux/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/tdd/collection/</loc>
+    <loc>/tech-department/projects/tdd/collection/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/optimizations-and-big-o/</loc>
+    <loc>/tech-department/topics/optimizations-and-big-o/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/tdd/password-checker/</loc>
+    <loc>/tech-department/projects/tdd/password-checker/</loc>
   </url>
   
   <url>
-    <loc>tech-department/topics/python-specific/</loc>
+    <loc>/tech-department/topics/python-specific/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/tdd/recursive_search/</loc>
+    <loc>/tech-department/projects/tdd/recursive_search/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/tdd/simple-calculator-part1/</loc>
+    <loc>/tech-department/projects/tdd/simple-calculator-part1/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/tdd/simple-calculator-part2/</loc>
+    <loc>/tech-department/projects/tdd/simple-calculator-part2/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/tdd/string-calculator/</loc>
+    <loc>/tech-department/projects/tdd/string-calculator/</loc>
   </url>
   
   <url>
-    <loc>tech-department/projects/tdd/bowling/</loc>
+    <loc>/tech-department/projects/tdd/bowling/</loc>
   </url>
   
 </urlset>
