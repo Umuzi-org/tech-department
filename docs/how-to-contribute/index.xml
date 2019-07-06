@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>How to Contribute on Documentation for Umuzi Tech Department</title>
-    <link>/how-to-contribute/</link>
+    <link>/tech-department/how-to-contribute/</link>
     <description>Recent content in How to Contribute on Documentation for Umuzi Tech Department</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     
-	<atom:link href="/how-to-contribute/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tech-department/how-to-contribute/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
