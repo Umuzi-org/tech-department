@@ -34,9 +34,8 @@ We start off by introducing the applicants to the development environment and re
   - Use [FreeCodeCamp](https://learn.freecodecamp.org/). Start off with JavaScript Algorithms And Data Structures Certification (300 hours)
   - JS challenges are given
 - DATA_SCI:
-  - Introduction to Jupyter notebooks
+  - {{% contentlink "topics/data-science-specific/intro-to-Jupyter-notebook" %}}
   - [DataCamp intro to Python](https://www.datacamp.com/courses/intro-to-python-for-data-science)
-  - Visualization challenges
 - DATA_ENG:
   - Introduction to Python (resource to be selected)
     - https://www.datacamp.com/courses/intro-to-python-for-data-science/?utm_source=learnpython_com&utm_campaign=learnpython_tutorials#
@@ -270,7 +269,7 @@ All recruits will do this
   - {{% contentlink "topics/optimizations-and-big-o/" %}}
 
 - NCIT 19: Search and sort techniques
-  - DATA_SCI: {{% contentlink "projects/projects/python-specific/search-and-sort" %}}
+  - DATA_SCI: {{% contentlink "projects/python-specific/search-and-sort" %}}
 - NCIT 10: Agile project management
 - NCIT 11: Agile meetings
 - NCIT 12: Boolean algebra, logic
