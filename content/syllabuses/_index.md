@@ -97,7 +97,6 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - WEB_DEV:
 
-  - {{% contentlink "projects/validating-user-input-for-web" %}}
   - {{% contentlink "topics/regular-expressions" %}}
 
 - DATA_SCI:
@@ -114,7 +113,8 @@ The recruits finish off their portfolios. From this point forward they are expec
 - DATA_ENG:
   Get as far as possible with the following exercises. We'll continue later
 
-  - {{% contentlink "topics/python-specific/unit-testing/automated-testing-with-pytest" %}}
+  - {{% contentlink "topics/unit-testing" %}}
+  - {{% contentlink "topics/python-specific/automated-testing-with-pytest" %}}
   - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
   - {{% contentlink "projects/tdd/password-checker" %}}
   - {{% contentlink "projects/tdd/string-calculator" %}}
@@ -154,8 +154,10 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - DATA_SCI:
 
+  - {{% contentlink "topics/unit-testing" %}}
+  - {{% contentlink "topics/python-specific/automated-testing-with-pytest" %}}
+  - {{% contentlink "topics/python-specific/unit-testing/automated-testing-pandas-and-numpy" %}}
   - {{% contentlink "topics/data-science-specific/data-wrangling" %}}
-  - {{% contentlink "topics/python-specific/unit-testing/automated-testing-with-pytest" %}}
   - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
   - {{% contentlink "projects/tdd/password-checker" %}}
   - {{% contentlink "projects/tdd/string-calculator" %}}
@@ -163,10 +165,12 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - DATA_ENG:
 
-  - {{% contentlink "topics/functional-programming-intro" %}}
+- {{% contentlink "topics/functional-programming-intro" %}}
 
 - WEB_DEV:
 
+  - {{% contentlink "topics/unit-testing" %}}
+  - {{% contentlink "workshops/intro-to-unit-testing-with-jasmine" %}}
   - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
   - {{% contentlink "projects/tdd/simple-calculator-part2" %}}
   - {{% contentlink "projects/tdd/password-checker" %}}
