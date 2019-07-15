@@ -78,7 +78,7 @@ Recruits learn a bit about how to build an online presence. Recruits submit thei
   - {{% contentlink "projects/git-exercises" %}}
   - {{% contentlink "workshops/intro-to-css-architecture" %}}
   - {{% contentlink "workshops/what-to-put-on-a-cv" %}}
-  - {{% contentlink "projects/portfolio-website" %}} - Introduction
+  - {{% contentlink "projects/first-personal-website" %}} - Introduction
 
 - NCIT 13: Version control (GIT) for teamwork
 
