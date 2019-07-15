@@ -109,21 +109,20 @@ If you have any queries, these are the people to contact:
 
 - @Kii - Mhlanganisi Kii Gxobole - mhlanganisi.gxobole@umuzi.org
 - @Tshepo - Tshepo Modise - tshepo.modise@umuzi.org
+- @Johan - Johan Khanye - johan.khanye@umuzi.org
 
 **Data:**
 
 - @Singi - Singita Ngobeni - singita.ngobeni@umuzi.org
 - @Makakole - Makakole Mafane - owen.mafane@umuzi.org
+- @Webster Gova - Webster Gova - webster.gova@umuzi.org
+- @Johan - Johan Khanye - johan.khanye@umuzi.org
 
 ### Senior Staff
 
 **Web Development:**
 
 - @dibwe - Dibwe Kalangu - dibwe.kalangu@umuzi.org
-
-**Data:**
-
-- @Webster Gova - Webster Gova - webster.gova@umuzi.org
 
 ### Department Heads
 
