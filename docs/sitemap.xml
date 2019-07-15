@@ -33,10 +33,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/python-specific/unit-testing/automated-testing-with-pytest/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/projects/memory-game-vanilla/intro/</loc>
   </url>
   
@@ -118,11 +114,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/workshops/intro-to-unit-tests-with-mocha/</loc>
-    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tech-department/workshops/nodejs-async-vs-sync/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
@@ -152,10 +143,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/intro-to-jupyter-notebook/guidelines_for_notebooks/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/apis/basics/</loc>
   </url>
   
@@ -178,6 +165,10 @@
   
   <url>
     <loc>/tech-department/projects/python-specific/search-and-sort/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/automated-testing-with-pytest/</loc>
   </url>
   
   <url>
@@ -444,6 +435,14 @@
   </url>
   
   <url>
+    <loc>/tech-department/workshops/intro-to-unit-testing-with-jasmine/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/intro-to-unit-tests-with-mocha/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/web-frontend/intro-to-web-design/</loc>
   </url>
   
@@ -457,6 +456,10 @@
   
   <url>
     <loc>/tech-department/topics/js-and-node-specific/template-engines/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/jupyter-notebooks-best-practices/</loc>
   </url>
   
   <url>
@@ -577,15 +580,16 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/python-specific/unit-testing/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/unit-testing/</loc>
   </url>
   
   <url>
-    <loc>/tech-department/workshops/intro-to-unit-testing-with-jasmine/</loc>
+    <loc>/tech-department/workshops/js-unit-tewsting/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/unit-testing/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -621,6 +625,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/workshops/what-to-put-in-your-cv/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/data-infrastructure/choosing-a-task-queue/</loc>
   </url>
   
@@ -642,6 +650,10 @@
   
   <url>
     <loc>/tech-department/projects/python-specific/expose-rest-api-simple/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/tdd/factorials/</loc>
   </url>
   
   <url>
