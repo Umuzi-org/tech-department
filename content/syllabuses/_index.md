@@ -34,7 +34,7 @@ We start off by introducing the applicants to the development environment and re
   - Use [FreeCodeCamp](https://learn.freecodecamp.org/). Start off with JavaScript Algorithms And Data Structures Certification (300 hours)
   - JS challenges are given
 - DATA_SCI:
-  - {{% contentlink "topics/data-science-specific/intro-to-Jupyter-notebook" %}}
+  - {{% contentlink "topics/data-science-specific/intro-to-jupyter-notebook" %}}
   - [DataCamp intro to Python](https://www.datacamp.com/courses/intro-to-python-for-data-science)
 - DATA_ENG:
   - Introduction to Python (resource to be selected)
