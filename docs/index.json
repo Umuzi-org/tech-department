@@ -403,7 +403,7 @@
 	"title": "Data Ethics and Privacy",
 	"tags": [],
 	"description": "",
-	"content": " Required reading  Ethical checklist for data science Five Principles of Ethical Data Science Data Science Association Code of Conduct  Podcast (Optional) Of ethics, checklists and data\n"
+	"content": " Software development and data science can be really powerful. And with great power come great responsibility, Uncle Ben was right.\nHere are some basic rules worth following:\n don\u0026rsquo;t ship bad code. Bugs can be pricey. Test test test read this  Law There are a few laws in place around the storage of sensitive information. Notably:\n PCI DSS if you are storing credit card information POPI if you are storing personal information  There is no need to memorize these laws. Just know what they exist. In general, if information in your care can be used by bad characters then:\n keep it safe check if there is a law or standard that applies to your situation don\u0026rsquo;t be evil. Don\u0026rsquo;t use the \u0026ldquo;I\u0026rsquo;m just doing my job\u0026rdquo; excuse if your employer insists that you do dodgy things.  Required reading  Ethical checklist for data science Five Principles of Ethical Data Science Data Science Association Code of Conduct  Podcast (Optional) Of ethics, checklists and data\n"
 },
 {
 	"uri": "/tech-department/topics/data-science-specific/data-visualisation/",
