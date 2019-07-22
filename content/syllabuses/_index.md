@@ -87,7 +87,7 @@ Recruits learn a bit about how to build an online presence. Recruits submit thei
 The recruits finish off their portfolios. From this point forward they are expected to keep their portfolios up to date on their own time.
 
 - {{% contentlink "workshops/general-coding-best-practices" %}}
-- {{% contentlink "projects/portfolio-website" %}} - Deadline
+- {{% contentlink "projects/first-personal-website" %}} - Deadline
 
 ## Week 4: Research and Survey Design
 
