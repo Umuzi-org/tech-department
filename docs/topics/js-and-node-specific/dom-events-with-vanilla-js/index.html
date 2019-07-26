@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/tech-department/images/favicon.png" type="image/png">
 
-    <title>Deadlines :: Documentation for Umuzi Tech Department</title>
+    <title>DOM events with vanilla JavaScript :: Documentation for Umuzi Tech Department</title>
 
     
     <link href="/tech-department/css/nucleus.css?1564134066" rel="stylesheet">
@@ -34,7 +34,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/tech-department/department-processes/deadlines/">
+  <body class="" data-url="/tech-department/topics/js-and-node-specific/dom-events-with-vanilla-js/">
     <nav id="sidebar" class="">
 
 
@@ -315,7 +315,7 @@
   
     
     <li data-nav-id="/tech-department/topics/" title="Topics" class="dd-item 
-        
+        parent
         
         
         ">
@@ -1134,7 +1134,7 @@
   
     
     <li data-nav-id="/tech-department/topics/js-and-node-specific/" title="JS and Node" class="dd-item 
-        
+        parent
         
         
         ">
@@ -1185,8 +1185,8 @@
   
     
     <li data-nav-id="/tech-department/topics/js-and-node-specific/dom-events-with-vanilla-js/" title="DOM events with vanilla JavaScript" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="/tech-department/topics/js-and-node-specific/dom-events-with-vanilla-js/">
@@ -3955,7 +3955,7 @@
   
     
     <li data-nav-id="/tech-department/department-processes/" title="Department Processes" class="dd-item 
-        parent
+        
         
         
         ">
@@ -4006,8 +4006,8 @@
   
     
     <li data-nav-id="/tech-department/department-processes/deadlines/" title="Deadlines" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/tech-department/department-processes/deadlines/">
@@ -4347,7 +4347,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://github.com/Umuzi-org/tech-departmentdepartment-processes/deadlines/_index.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://github.com/Umuzi-org/tech-departmenttopics/js-and-node-specific/dom-events-with-vanilla-js/_index.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -4378,7 +4378,13 @@
             
           
           
-            <a href='/tech-department/'>Umuzi Tech Department</a> > <a href='/tech-department/department-processes/'>Department Processes</a> > Deadlines
+            
+            
+          
+          
+            <a href='/tech-department/'>Umuzi Tech Department</a> > <a href='/tech-department/topics/'>Topics</a> > <a href='/tech-department/topics/js-and-node-specific/'>JS and Node</a> > DOM events with vanilla JavaScript
+          
+        
           
         
           
@@ -4391,15 +4397,7 @@
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#late-submissions">Late submissions</a></li>
-<li><a href="#repeat-offenders">repeat offenders</a></li>
-</ul></li>
-</ul>
-</nav>
+
     </div>
 </div>
 
@@ -4411,54 +4409,21 @@
         
         <div id="body-inner">
           
-            <h1>Deadlines</h1>
+            <h1>DOM events with vanilla JavaScript</h1>
           
 
         
 
 
-
-
-<p>If there is a deadline for any cohort then that deadline should be shared in the &ldquo;tech deadlines&rdquo; calender. To do this:</p>
+<p>To see a basic demo of various event handlers take a look <a href="https://github.com/Umuzi-org/demo-vanilla-dom-evens">here</a>. This demo has three different <code>index.html</code> pages. Each of them attach event handlers to the different DOM elements in different ways.</p>
 
 <ul>
-<li>create an event in your own calendar.</li>
-<li>name it in an informative way (name the assignment, name the part of the assignment, who is the deadline for? eg: C13 web)</li>
-<li>in the description of the event add any links, descriptions or requirements that might be useful</li>
-<li>invite the deadline calender to the event</li>
+<li><a href="https://gomakethings.com/listening-for-click-events-with-vanilla-javascript/">https://gomakethings.com/listening-for-click-events-with-vanilla-javascript/</a></li>
+<li><a href="https://gomakethings.com/why-event-delegation-is-a-better-way-to-listen-for-events-in-vanilla-js/">https://gomakethings.com/why-event-delegation-is-a-better-way-to-listen-for-events-in-vanilla-js/</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Creating_and_triggering_events">https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Creating_and_triggering_events</a></li>
+<li><a href="https://www.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-events/v/making-webpages-interactive-with-events">https://www.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-events/v/making-webpages-interactive-with-events</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/Events#Standard_events">https://developer.mozilla.org/en-US/docs/Web/Events#Standard_events</a></li>
 </ul>
-
-<p>Note: For the event to be accepted by the deadlines calender it has to have a duration. If your event is eg from 8:00 to 8:00 then it will be automatically rejected.</p>
-
-<p>Clear instructions on how to submit the event should be included on the event. For example if it is a gnomio assignment then that should be stated. If the assignment makes use of the code submission form then a link to the form should be included.</p>
-
-<h2 id="late-submissions">Late submissions</h2>
-
-<p>The person who sets a deadline will check who submitted and who is outstanding.</p>
-
-<p>If a recruit is then:</p>
-
-<ul>
-<li>send a slack message to each recruit who is late</li>
-<li>share a list of all late people with the rest of the tech team on slack? Or email? (should we have a specific channel?)</li>
-</ul>
-
-<p>In the next cohort standup meeting:</p>
-
-<ul>
-<li>the recruits who submitted late will be verbally warned. They will need to submit their work by the next morning</li>
-</ul>
-
-<p>If the recruit does not submit their work after being verbally warned then a senior tech manager will personally:</p>
-
-<ul>
-<li>email all the recruits who have missed their deadline (other managers should be CC&rsquo;d). This counts as a WRITTEN WARNING</li>
-<li>have a meeting with the offending recruits. This can be a short meeting, and it can be a group meeting.</li>
-</ul>
-
-<h2 id="repeat-offenders">repeat offenders</h2>
-
-<p>If a recruit gets 3 written warnings or 9 verbal warnings (or a combination, eg 1 written warning and 6 verbal warnings) then there will be a formal disciplinary hearing held by an HR representative. A senior tech manager will provide HR with all evidence.</p>
 
 
 <footer class=" footline" >
@@ -4647,6 +4612,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -4661,6 +4627,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -5165,6 +5134,7 @@
             
             
                 
+                    
                     
                 
                 
@@ -5181,6 +5151,9 @@
             
                 
                     
+                        
+                        
+                    
                 
                 
 
@@ -5197,6 +5170,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -5212,6 +5186,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -6983,7 +6960,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -6998,9 +6974,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -7017,7 +6990,6 @@
             
             
                 
-                    
                     
                 
                 
@@ -7034,9 +7006,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
