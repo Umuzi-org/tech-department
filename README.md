@@ -1,6 +1,6 @@
 # Tech department content
 
-This is a Hugo based web site. You can see the site [HERE](https://master.d3hv5c7o5j7vym.amplifyapp.com)
+This is a Hugo based web site. You can see the site [HERE](https://umuzi-org.github.io/tech-department/)
 
 This repo aims to contain all the info needed to run Umuzi's technical courses. This is very much a work in progress.
 
