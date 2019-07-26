@@ -1,6 +1,6 @@
 # Tech department content
 
-This is a Hugo based web site. You can see the site [HERE](https://umuzi-org.github.io/tech-department/)
+This is a Hugo based web site. You can see the site [HERE](https://umuzi-org.github.io/tech-department/syllabus)
 
 This repo aims to contain all the info needed to run Umuzi's technical courses. This is very much a work in progress.
 
