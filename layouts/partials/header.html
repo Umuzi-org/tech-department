@@ -103,6 +103,11 @@
 
 
         {{ if hasPrefix .Page.Dir "projects"}}
+
+        {{ if not .Page.Params.noform }}
+          
+        
+
         
         
         {{ $path := .Page.Dir }}
@@ -120,5 +125,7 @@
 
         If you follow a different link or do your own thing you will have to resubmit. 
         <hr/>
+
+        {{ end }}
 
         {{ end }}
