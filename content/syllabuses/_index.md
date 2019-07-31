@@ -150,6 +150,12 @@ The recruits finish off their portfolios. From this point forward they are expec
 - NCIT 02: Ethics and Professionalism in IT
 - NCIT 06: Workshop: Giving and receiving constructive feedback
 
+- WEB_DEV
+
+  - {{% contentlink "topics/unit-testing" %}}
+  - {{% contentlink "workshops/intro-to-unit-testing-with-jasmine" %}}
+  - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
+
 ## Week 8 & 9 & 10:
 
 - DATA_SCI:
@@ -169,13 +175,10 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - WEB_DEV:
 
-  - {{% contentlink "topics/unit-testing" %}}
-  - {{% contentlink "workshops/intro-to-unit-testing-with-jasmine" %}}
-  - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
-  - {{% contentlink "projects/tdd/simple-calculator-part2" %}}
   - {{% contentlink "projects/tdd/password-checker" %}}
   - {{% contentlink "projects/tdd/string-calculator" %}}
   - {{% contentlink "topics/functional-programming-intro" %}}
+  - {{% contentlink "projects/tdd/simple-calculator-part2" %}}
 
 - NCIT 16: Test-driven development
 
