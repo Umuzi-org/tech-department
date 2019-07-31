@@ -1,5 +1,6 @@
 ---
 title: Automated Testing pandas and numpy
+ready: true
 ---
 
 Testing and data can get a little tricky. Check these out:

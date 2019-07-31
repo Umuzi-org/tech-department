@@ -1,6 +1,8 @@
 ---
 title: Expose a JSON API
 ready: true
+weight: 4
+pre: "<b>4: </b>"
 ---
 
 There is no need to create a new git repo for this code submission. This is a continuation of your previous work.
