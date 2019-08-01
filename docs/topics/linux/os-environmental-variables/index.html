@@ -12,19 +12,19 @@
     <title>Environmental Variables :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1564572804" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1564572804" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1564572804" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1564572804" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1564572804" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1564572804" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1564572804" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1564572804" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1564630919" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1564630919" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1564630919" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1564630919" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1564630919" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1564630919" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1564630919" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1564630919" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1564572804" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1564630919" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1564572804"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1564630919"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -53,14 +53,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1564572804"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1564572804"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1564630919"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1564630919"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1564572804"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1564630919"></script>
 
     
   </div>
@@ -2965,30 +2965,6 @@
  
   
     
-    <li data-nav-id="/tech-department/projects/oop-in-python/" title="OOP in Python" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/tech-department/projects/oop-in-python/">
-          OOP in Python
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
- 
-  
-    
     <li data-nav-id="/tech-department/projects/first-personal-website/" title="Build your first personal website" class="dd-item 
         
         
@@ -3431,6 +3407,30 @@
           
         
         </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/tech-department/projects/oop-in-python/" title="OOP in Python" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/tech-department/projects/oop-in-python/">
+          OOP in Python
+          
+      </a>
+      
               
     </li>
   
@@ -4397,7 +4397,16 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#shell-variables">Shell variables</a></li>
+<li><a href="#environmental-variables">Environmental variables</a></li>
+<li><a href="#bashrc">.bashrc</a></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -4419,7 +4428,75 @@
 
         
 
-<p>environmental variables, source and export, bashrc</p>
+
+
+<p>This tutorial assumes that you are using some kind of bash derived shell. Open up your linux command prompt :)</p>
+
+<h2 id="shell-variables">Shell variables</h2>
+
+<p>You have dealt with variables in your programming language of choice many times. Bash also has variables. You can declare them like this:</p>
+
+<pre><code>FOO=BAR
+</code></pre>
+
+<p>To access your variable you can do this kind of thing:</p>
+
+<pre><code>echo $FOO
+</code></pre>
+
+<p>You can also use bash variables within other bash operations. Eg:</p>
+
+<pre><code>ROOT_DIR=/path/to/some/important/directory
+mkdir $ROOT_DIR
+nano $ROOT_DIR/something.yaml
+</code></pre>
+
+<p>Bash has a problem with whitespace. These wont work:</p>
+
+<pre><code>FOO = BAR
+BAZ=The quick brown fox
+</code></pre>
+
+<p>But these work:</p>
+
+<pre><code>FOO=BAR
+BAZ=&quot;The quick brown fox&quot;
+MEH='The quick brown fox'
+</code></pre>
+
+<h2 id="environmental-variables">Environmental variables</h2>
+
+<p>Environmental variables are shell variables that have a larger scope. Consider the following python code:</p>
+
+<pre><code>a = 1
+# at this point in the code: only `a` is available
+
+def foo():
+    b = 2
+        # at this point in the code: `a` and `b` are available, but not `c`
+    def bar():
+        c = 3
+        # at this point in the code: `a`,`b` and `c` are all available
+
+# at this point in the code: only `a` is available
+</code></pre>
+
+<p>Or similarly, this is the JavaScript version:</p>
+
+<pre><code>a = 1
+# at this point in the code: only `a` is available
+
+function foo():
+    b = 2
+        # at this point in the code: `a` and `b` are available, but not `c`
+    function bar():
+        c = 3
+        # at this point in the code: `a`,`b` and `c` are all available
+
+# at this point in the code: only `a` is available
+</code></pre>
+
+<h2 id="bashrc">.bashrc</h2>
 
 
 <footer class=" footline" >
@@ -6419,22 +6496,6 @@
 
                     
                     
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
                         
                     
                     
@@ -6617,6 +6678,22 @@
                     
             
         
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
                     
             
         
@@ -7175,20 +7252,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1564572804"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1564572804"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1564572804"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1564572804"></script>
-    <script src="/tech-department/js/featherlight.min.js?1564572804"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1564572804"></script>
-    <script src="/tech-department/js/highlight.pack.js?1564572804"></script>
+    <script src="/tech-department/js/clipboard.min.js?1564630919"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1564630919"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1564630919"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1564630919"></script>
+    <script src="/tech-department/js/featherlight.min.js?1564630919"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1564630919"></script>
+    <script src="/tech-department/js/highlight.pack.js?1564630919"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1564572804"></script>
-    <script src="/tech-department/js/learn.js?1564572804"></script>
-    <script src="/tech-department/js/hugo-learn.js?1564572804"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1564630919"></script>
+    <script src="/tech-department/js/learn.js?1564630919"></script>
+    <script src="/tech-department/js/hugo-learn.js?1564630919"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1564572804" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1564572804"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1564630919" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1564630919"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

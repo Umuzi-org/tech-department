@@ -144,11 +144,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/oop-in-python/</loc>
-    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/git/version-control-and-scrum/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
@@ -520,6 +515,10 @@
   
   <url>
     <loc>/tech-department/workshops/nodejs-intro-to-socketio/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/oop-in-python/</loc>
   </url>
   
   <url>

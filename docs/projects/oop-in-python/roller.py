@@ -5,20 +5,22 @@ from random import randrange
 from graphics import GraphWin, Point
 
 from button import Button
-from dieview import Dieview
+from die_view import Dieview
 
 def main():
 
 	# create the application window
-	win = GraphWin("Dice Roller")
-	win.setCoords(0,0,10,10)
-	win.setBackground("green2")
+	window = GraphWin("Dice Roller")
+	window.setCoords(0,0,10,10)
+	window.setBackground("green2")
 
 	# draw the interface widgets
 
 	# event loop
 
 	# close the window
-	win.close()
+	window.close()
 
-main()
+if __name__ == '__main__': # This kind of thing is considered "good practice". 
+	                       # Can you figure out why?
+	main()

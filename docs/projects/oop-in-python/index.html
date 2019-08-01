@@ -12,19 +12,19 @@
     <title>OOP in Python :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1564572803" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1564572803" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1564572803" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1564572803" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1564572803" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1564572803" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1564572803" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1564572803" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1564630919" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1564630919" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1564630919" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1564630919" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1564630919" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1564630919" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1564630919" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1564630919" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1564572803" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1564630919" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1564572803"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1564630919"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -53,14 +53,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1564572803"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1564572803"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1564630919"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1564630919"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1564572803"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1564630919"></script>
 
     
   </div>
@@ -2965,30 +2965,6 @@
  
   
     
-    <li data-nav-id="/tech-department/projects/oop-in-python/" title="OOP in Python" class="dd-item 
-        parent
-        active
-        
-        ">
-      <a href="/tech-department/projects/oop-in-python/">
-          OOP in Python
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
- 
-  
-    
     <li data-nav-id="/tech-department/projects/first-personal-website/" title="Build your first personal website" class="dd-item 
         
         
@@ -3431,6 +3407,30 @@
           
         
         </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/tech-department/projects/oop-in-python/" title="OOP in Python" class="dd-item 
+        parent
+        active
+        
+        ">
+      <a href="/tech-department/projects/oop-in-python/">
+          OOP in Python
+          
+      </a>
+      
               
     </li>
   
@@ -4395,7 +4395,6 @@
 <ul>
 <li>
 <ul>
-<li><a href="#tutorial">Tutorial:</a></li>
 <li><a href="#assignment-1-rolling-multi-sided-dice">Assignment 1. Rolling multi-sided dice</a>
 <ul>
 <li><a href="#description-of-the-task">Description of the task</a></li>
@@ -4407,10 +4406,12 @@
 <li><a href="#building-dice">Building Dice</a></li>
 <li><a href="#the-main-program">The Main Program</a></li>
 </ul></li>
-<li><a href="#assignment-3-dice-poker">Assignment 3: Dice Poker</a></li>
+<li><a href="#assignment-3-dice-poker">Assignment 3: Dice Poker</a>
+<ul>
 <li><a href="#rules-of-the-game">RULES OF THE GAME</a></li>
 <li><a href="#explanation-of-the-scoring">Explanation of the scoring</a></li>
 <li><a href="#instructions">Instructions</a></li>
+</ul></li>
 </ul></li>
 </ul>
 </nav>
@@ -4463,29 +4464,52 @@
 
 
 
-<h2 id="tutorial">Tutorial:</h2>
-
 <p>Feeling unsure about how to approach the assignment? <a href="https://www.learnpython.org/en/Classes_and_Objects">Here</a> is a quick online tutorial to get you introduced to classes.</p>
 
 <h2 id="assignment-1-rolling-multi-sided-dice">Assignment 1. Rolling multi-sided dice</h2>
 
 <h3 id="description-of-the-task">Description of the task</h3>
 
-<p>A normal die (the singular of dice) is a cube, and each face shows a number from one to six. Some games employ nonstandard dice that may have fewer (e.g. four) or more (e.g. thirteen) sides. Let’s design a general class MSDie to model multi-sided dice. We could use such an object in any number of simulation or game programs.
-Each MSDie object will know two things:</p>
+<p>A normal die (the singular of dice) is a cube, and each face shows a number from one to six. Some games employ nonstandard dice that may have fewer (e.g. four) or more (e.g. thirteen) sides. Let’s design a general class MultiSidedDie to model multi-sided dice. We could use such an object in any number of simulation or game programs.
+Each MultiSidedDie object will know two things:</p>
 
 <ol>
 <li>How many sides it has</li>
 <li>Its current value</li>
 </ol>
 
-<p>When a new MSDie is created, specify how many sides it will have (e.g n). The die can be operated on through three provided methods: roll, to set the die to a random value between 1 an n, exclusively; setValue, to set the die to a specific value (i.e cheat); and getValue to see what current value is.</p>
+<p>When a new <code>MultiSidedDie</code> is created, specify how many sides it will have (e.g <code>number_of_sides</code>). The die can be operated on through three provided methods: roll, to set the die to a random value between 1 an <code>number_of_sides</code>, exclusively; <code>set_value</code>, to set the die to a specific value (i.e cheat); and <code>get_value</code> to see what current value is.</p>
 
 <h3 id="steps">Steps</h3>
 
 <ol>
-<li>Use the skeleton script msdie.py.</li>
-<li>Create class MSDie with attributes number of sides and value.</li>
+<li>Copy the following code into a script called <code>multi_sided_die.py</code>:</li>
+</ol>
+
+
+
+
+
+<pre><code>
+#class definition for an n-sided die
+
+#import packages
+
+class MultiSidedDie:
+
+  #constructor here
+
+  #define method &#39;roll&#39; to roll the MultiSidedDie
+
+  #define method &#39;get_value&#39; to return the current value of the MultiSidedDie
+
+  #define method &#39;set_value&#39; to set the die to a particular value
+
+</code></pre>
+
+
+<ol>
+<li>Create class <code>MultiSidedDie</code> with attributes number of sides and value.</li>
 <li>Create class methods for rolling the die, getting the value of the die and setting the value of the die.</li>
 </ol>
 
@@ -4496,39 +4520,82 @@ Break the application down into the following programs:</p>
 
 <h3 id="building-the-button">Building the Button</h3>
 
-<p>The buttons you will be using are not the modern ones that have a 3D look and feel. So the best that can be done, is to find out where the mouse clicked after the click has already been done. The buttons will be rectangular regions in a graphic window where user clicks can influence the behaviour of the running application. Create a class, Button in the script button.py, containing the following:</p>
+<p>The buttons you will be using are not the modern ones that have a 3D look and feel. So the best that can be done, is to find out where the mouse clicked after the click has already been done. The buttons will be rectangular regions in a graphic window where user clicks can influence the behaviour of the running application. Create a class called <code>Button</code> in the script <code>button.py</code>, containing the following:</p>
 
 <ol>
-<li>Constructor - This initialises all the instance variables. Create a button in a window. Specify the window in which the button will be displayed, the location/size of the button, and the label that will be on the button.</li>
-<li>Activate - Set the state of the button to active.</li>
-<li>Deactivate - Set the state of the button to inactive.</li>
-<li>Clicked - Indicate when the button is clicked. If the button is active, this method will determine if the point clicked is inside the button region. The point will have to be sent as a parameter to the method.</li>
-<li>getLabel - Return the label string of the button. This is provided so that we can identify a particular button.</li>
+<li>constructor - This initialises all the instance variables. Create a button in a window. Specify the window in which the button will be displayed, the location/size of the button, and the label that will be on the button.</li>
+<li><code>activate</code> - Set the state of the button to active.</li>
+<li><code>deactivate</code> - Set the state of the button to inactive.</li>
+<li><code>clicked</code> - Indicate when the button is clicked. If the button is active, this method will determine if the point clicked is inside the button region. The point&rsquo;s x and y coordinates will have to be sent as a parameter to the method.</li>
+<li><code>get_label</code> - Return the label string of the button. This is provided so that we can identify a particular button.</li>
 </ol>
 
 <h3 id="building-dice">Building Dice</h3>
 
-<p>The purpose of this class is to display the value of a die in a graphical fashion. The face of the die will be a square (via Rectangular) and the pips (i.e. the dots on the die) will be circles. Create a class, DieView, in the script dieview.py containing the following:</p>
+<p>The purpose of this class is to display the value of a die in a graphical fashion. The face of the die will be a square (via <code>Rectangular</code>) and the pips (i.e. the dots on the die) will be circles. Create a class called <code>DieView</code>, in the script <code>die_view.py</code> containing the following:</p>
+
+
+
+
+
+<pre><code>
+import graphics
+
+class DieView:
+	&#34;&#34;&#34;DieView is a widget that displays a graphical representation of a 
+	standard six-sided die.&#34;&#34;&#34;
+
+	def __init__(self, window, center, size):
+		&#34;&#34;&#34; create a view of a die e.g: d1 = DieView (myWin, graphics.Point(40,50), 20).
+		This creates a die centered at (40,50) with length 20. &#34;&#34;&#34;
+
+		# define standard values for drawing the die
+		self.window = window 		# for drawing the pips
+		self.background = &#34;white&#34;	# colour of die face
+		self.foreground = &#34;black&#34;	# colour of pips
+		self.pip_size = 0.1 * size 	# radius of each pip
+		hsize = size/2				# half the size of the die
+		offset = 0.6 * hsize		# distance from centre to outer pips
+
+		# create a square for the face
+
+		# create 7 circles for standard pip locations
+
+		# Draw an initial value
+
+	def _make_pip(self, x, y):
+		&#34;&#34;&#34; Internal helper method to draw a pip at (x,y)&#34;&#34;&#34;
+		#CODE
+
+	def set_value(self, value):
+		&#34;&#34;&#34;Set this die to display value. &#34;&#34;&#34;
+
+		# turn all pips off
+
+		# turn correct pips on
+
+</code></pre>
+
 
 <ol>
 <li>Constructor - Create a die in a window. Specify the window, the center point of the die, and the size of the die as parameters.</li>
-<li>setValue - Change the view to show a given value. The value to display will be passed as a parameter.
+<li><code>set_value</code> - Change the view to show a given value. The value to display will be passed as a parameter.
 <strong>HINT</strong>: The main thing in DieView is turning various pips “on” and “off” to indicate current value of the die.</li>
 </ol>
 
 <h3 id="the-main-program">The Main Program</h3>
 
-<p>This script, roller.py, imports the Button and DieView classes from their respective modules. It creates the application window, draws the interface widgets, defines an event and can close the window. The program should get mouse clicks and process them until the user clicks Quit.</p>
+<p>This script, <code>roller.py</code>, imports the Button and DieView classes from their respective modules. It creates the application window, draws the interface widgets, defines an event and can close the window. The program should get mouse clicks and process them until the user clicks Quit.</p>
 
 <h2 id="assignment-3-dice-poker">Assignment 3: Dice Poker</h2>
 
-<h2 id="rules-of-the-game">RULES OF THE GAME</h2>
+<h3 id="rules-of-the-game">RULES OF THE GAME</h3>
 
 <ul>
 <li>The player starts with \$100.</li>
 <li>Each round costs \$10 to play. This amount is subtracted from the player’s money at the start of the round.</li>
-<li>The player initially rolls a completely random hand (i.e., all the five dice are rolled).</li>
-<li>The player gets two chances to enhance the hand by rerolling some or all of the dice.</li>
+<li>The player initially rolls a completely random hand (i.e. all the five dice are rolled).</li>
+<li>The player gets two chances to enhance the hand by re-rolling some or all of the dice.</li>
 <li>At the end of the hand, the player’s money is updated according to the following payout schedule:</li>
 </ul>
 
@@ -4573,7 +4640,7 @@ Break the application down into the following programs:</p>
 </tbody>
 </table>
 
-<h2 id="explanation-of-the-scoring">Explanation of the scoring</h2>
+<h3 id="explanation-of-the-scoring">Explanation of the scoring</h3>
 
 <p>Two pairs is two sets of pairs, for example two threes and two eights in the same hand.
 A Full House is a pair and a Three of a Kind in the same hand.
@@ -4581,7 +4648,7 @@ Four of a kind is four of the same card, such as four eights.
 A straight is five numbers in order. So this can be 12345 or 23456.
 Five of a kind are five of the same number (all sixes for example).</p>
 
-<h2 id="instructions">Instructions</h2>
+<h3 id="instructions">Instructions</h3>
 
 <p>Build a Dice Poker game according to the game rules above. Ultimately, we want this program to present a nice graphical interface. Our interaction will be through mouse clicks. The interface should have the following characteristics:</p>
 
@@ -4595,10 +4662,10 @@ Five of a kind are five of the same number (all sixes for example).</p>
 <p>This class has to implement these operations:</p>
 
 <ol>
-<li>Constructor - Create the initial collection.</li>
-<li>Roll - Assign a random value to some subset of the dice while maintaining the current value of others.</li>
-<li>Value - return the current values of the five dice.</li>
-<li>Score - return the score for the dice.</li>
+<li>Constructor (<code>__init__</code>) - Create the initial collection.</li>
+<li><code>roll</code> - Assign a random value to some subset of the dice while maintaining the current value of others.</li>
+<li><code>value</code> - return the current values of the five dice.</li>
+<li><code>score</code> - return the score for the dice.</li>
 </ol>
 
 
@@ -6493,26 +6560,6 @@ Five of a kind are five of the same number (all sixes for example).</p>
             
                 
                     
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
                 
                 
 
@@ -6804,6 +6851,26 @@ Five of a kind are five of the same number (all sixes for example).</p>
             
             
                 
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
                     
                 
                 
@@ -7354,20 +7421,20 @@ Five of a kind are five of the same number (all sixes for example).</p>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1564572803"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1564572803"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1564572803"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1564572803"></script>
-    <script src="/tech-department/js/featherlight.min.js?1564572803"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1564572803"></script>
-    <script src="/tech-department/js/highlight.pack.js?1564572803"></script>
+    <script src="/tech-department/js/clipboard.min.js?1564630919"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1564630919"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1564630919"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1564630919"></script>
+    <script src="/tech-department/js/featherlight.min.js?1564630919"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1564630919"></script>
+    <script src="/tech-department/js/highlight.pack.js?1564630919"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1564572803"></script>
-    <script src="/tech-department/js/learn.js?1564572803"></script>
-    <script src="/tech-department/js/hugo-learn.js?1564572803"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1564630919"></script>
+    <script src="/tech-department/js/learn.js?1564630919"></script>
+    <script src="/tech-department/js/hugo-learn.js?1564630919"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1564572803" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1564572803"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1564630919" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1564630919"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
