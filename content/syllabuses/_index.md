@@ -116,11 +116,8 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "topics/unit-testing" %}}
   - {{% contentlink "topics/python-specific/automated-testing-with-pytest" %}}
   - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
-  - {{% contentlink "projects/tdd/password-checker" %}}
-  - {{% contentlink "projects/tdd/string-calculator" %}}
-  - {{% contentlink "projects/python-specific/file_io_kata" %}}
 
-- WEB_DEV:
+* WEB_DEV:
   - {{% contentlink "topics/web-frontend/intro-to-web-design/" %}}
 
 ## Week 6: The Internet and Ethics in tech
@@ -134,6 +131,9 @@ The recruits finish off their portfolios. From this point forward they are expec
 
   - {{% contentlink "workshops/intro-to-data-ethics" %}}
 
+* DATA_ENG:
+  - {{% contentlink "projects/tdd/password-checker" %}}
+
 - NCIT 07: History of the Internet
 - NCIT 08: Web design for business
 - NCIT 09: Building an online business
@@ -142,52 +142,74 @@ The recruits finish off their portfolios. From this point forward they are expec
 ## Week 7: Tech in Business and Honing fundamental skills
 
 - ALL:
+  - NCIT 02: Ethics and Professionalism in IT
+  - NCIT 06: Workshop: Giving and receiving constructive feedback
+  - NCIT 16: Test-driven development
 
-  - Coding katas in language of choice. Or catch up for those who have fallen behind on anything.
-  - {{% contentlink "topics/tech-terminology" %}}
+* DATA_ENG:
+  - {{% contentlink "projects/tdd/string-calculator" %}}
 
-- NCIT 01: Business and technology
-- NCIT 02: Ethics and Professionalism in IT
-- NCIT 06: Workshop: Giving and receiving constructive feedback
+- DATA_SCI:
+  - {{% contentlink "topics/unit-testing" %}}
+  - {{% contentlink "topics/python-specific/automated-testing-with-pytest" %}}
+  - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
 
-- WEB_DEV
-
+* WEB_DEV
   - {{% contentlink "topics/unit-testing" %}}
   - {{% contentlink "workshops/intro-to-unit-testing-with-jasmine" %}}
   - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
 
-## Week 8 & 9 & 10:
+## Week 8:
 
 - DATA_SCI:
 
-  - {{% contentlink "topics/unit-testing" %}}
-  - {{% contentlink "topics/python-specific/automated-testing-with-pytest" %}}
-  - {{% contentlink "topics/python-specific/unit-testing/automated-testing-pandas-and-numpy" %}}
-  - {{% contentlink "topics/data-science-specific/data-wrangling" %}}
-  - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
   - {{% contentlink "projects/tdd/password-checker" %}}
-  - {{% contentlink "projects/tdd/string-calculator" %}}
-  - {{% contentlink "topics/functional-programming-intro" %}}
+  - {{% contentlink "topics/python-specific/unit-testing/automated-testing-pandas-and-numpy" %}}
 
 - DATA_ENG:
+  - {{% contentlink "projects/python-specific/file_io_kata" %}} part 1
 
-- {{% contentlink "topics/functional-programming-intro" %}}
-
-- WEB_DEV:
+* WEB_DEV:
 
   - {{% contentlink "projects/tdd/password-checker" %}}
-  - {{% contentlink "projects/tdd/string-calculator" %}}
-  - {{% contentlink "topics/functional-programming-intro" %}}
-  - {{% contentlink "projects/tdd/simple-calculator-part2" %}}
 
-- NCIT 16: Test-driven development
+## Week 9:
+
+- DATA_SCI
+  - {{% contentlink "projects/tdd/string-calculator" %}}
+
+* DATA_ENG
+  - {{% contentlink "projects/python-specific/file_io_kata" %}} part 2
+
+- WEB_DEV:
+  - {{% contentlink "projects/tdd/string-calculator" %}}
+
+## Week 10:
+
+- ALL
+
+  - {{% contentlink "topics/tech-terminology" %}}
+  - NCIT 01: Business and technology
+
+- DATA_SCI:
+
+  - {{% contentlink "topics/data-science-specific/data-wrangling" %}}
+  - {{% contentlink "topics/functional-programming-intro" %}}
+
+* DATA_ENG:
+
+  - {{% contentlink "topics/functional-programming-intro" %}}
+
+* WEB_DEV:
+
+  - {{% contentlink "projects/tdd/simple-calculator-part2" %}}
 
 ## Week 11 & 12
 
 - WEB_DEV:
 
   - {{% contentlink "topics/js-and-node-specific/dom-manipulation-with-vanilla-js" %}}
-  - {{% contentlink "projects/memory-game-vanilla/intro" %}} INTRO
+  - {{% contentlink "projects/memory-game-vanilla/intro" %}}
 
 - DATA_SCI:
 
@@ -223,15 +245,19 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 ALL:
 
-- {{% contentlink "topics/linux/os-environmental-variables/" %}}
 - {{% contentlink "topics/intro-to-docker/" %}}
 
 ALL_DATA:
 
 - {{% contentlink "topics/python-specific/virtual-envs/" %}}
 
+DATE_ENG:
+
+- {{% contentlink "topics/linux/os-environmental-variables/" %}}
+
 WEB_DEV:
 
+- {{% contentlink "topics/linux/os-environmental-variables/" %}}
 - {{% contentlink "topics/js-and-node-specific/dotenv/" %}}
 - {{% contentlink "projects/nodejs/express-forms" %}}
 
