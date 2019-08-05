@@ -12,19 +12,19 @@
     <title>Environmental Variables :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1564630919" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1564630919" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1564630919" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1564630919" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1564630919" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1564630919" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1564630919" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1564630919" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1564978381" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1564978381" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1564978381" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1564978381" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1564978381" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1564978381" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1564978381" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1564978381" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1564630919" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1564978381" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1564630919"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1564978381"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -53,14 +53,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1564630919"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1564630919"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1564978381"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1564978381"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1564630919"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1564978381"></script>
 
     
   </div>
@@ -4401,9 +4401,17 @@
 <ul>
 <li>
 <ul>
-<li><a href="#shell-variables">Shell variables</a></li>
-<li><a href="#environmental-variables">Environmental variables</a></li>
-<li><a href="#bashrc">.bashrc</a></li>
+<li><a href="#shell-variables">Shell variables</a>
+<ul>
+<li><a href="#try-this-out">try this out</a></li>
+</ul></li>
+<li><a href="#scope">Scope</a></li>
+<li><a href="#environmental-variables">Environmental variables</a>
+<ul>
+<li><a href="#takeaway">Takeaway</a></li>
+<li><a href="#storing-your-environmental-variables-somewhere-nice">storing your environmental variables somewhere nice</a></li>
+</ul></li>
+<li><a href="#bashrc"><code>.bashrc</code></a></li>
 </ul></li>
 </ul>
 </nav>
@@ -4439,7 +4447,7 @@
 <pre><code>FOO=BAR
 </code></pre>
 
-<p>To access your variable you can do this kind of thing:</p>
+<p>To print your variable you can do this kind of thing:</p>
 
 <pre><code>echo $FOO
 </code></pre>
@@ -4464,9 +4472,28 @@ BAZ=&quot;The quick brown fox&quot;
 MEH='The quick brown fox'
 </code></pre>
 
-<h2 id="environmental-variables">Environmental variables</h2>
+<h3 id="try-this-out">try this out</h3>
 
-<p>Environmental variables are shell variables that have a larger scope. Consider the following python code:</p>
+<p>Open one two terminals.</p>
+
+<p>In terminal 1:</p>
+
+<pre><code>echo $HELLO   # when HELLO is not defined, this doesn't print anything
+
+HELLO=BAR # we define the variable and give it a value
+
+echo $HELLO # prints BAR
+
+</code></pre>
+
+<p>In termainal 2:</p>
+
+<pre><code>echo $HELLO # what does this do?
+</code></pre>
+
+<h2 id="scope">Scope</h2>
+
+<p>Consider the following Python code:</p>
 
 <pre><code>a = 1
 # at this point in the code: only `a` is available
@@ -4484,19 +4511,150 @@ def foo():
 <p>Or similarly, this is the JavaScript version:</p>
 
 <pre><code>a = 1
-# at this point in the code: only `a` is available
+// at this point in the code: only `a` is available
 
 function foo():
     b = 2
-        # at this point in the code: `a` and `b` are available, but not `c`
+        // at this point in the code: `a` and `b` are available, but not `c`
     function bar():
         c = 3
-        # at this point in the code: `a`,`b` and `c` are all available
+        // at this point in the code: `a`,`b` and `c` are all available
 
-# at this point in the code: only `a` is available
+// at this point in the code: only `a` is available
 </code></pre>
 
-<h2 id="bashrc">.bashrc</h2>
+<p>Look at where the different variables are allowed to be used. If a variable can be used then it is <em>in scope</em>. Otherwise it is <em>out of scope</em>.</p>
+
+<h2 id="environmental-variables">Environmental variables</h2>
+
+<p>Environmental variables are shell variables that have a larger scope.</p>
+
+<p>Do this out in yout terminal:</p>
+
+<pre><code># first we are going to make a new shell script:
+
+echo &quot;#\!/bin/sh\n&quot; &gt;&gt; my_script.sh
+echo &quot;echo '--- start of my script ---'&quot; &gt;&gt; my_script.sh
+echo &quot;echo FOO=\$FOO&quot; &gt;&gt; my_script.sh
+echo &quot;echo BAR=\$BAR&quot; &gt;&gt; my_script.sh
+echo &quot;echo '--- end of my script ---'&quot; &gt;&gt; my_script.sh
+
+# you can look at the new file you just created.
+ls -l | grep my_script  # take note of the output. That -rw-rw-r-- part tells the operating system what actions are allowed. This file can be read and written
+cat my_script.sh
+
+# make the script executable
+
+chmod +x my_script.sh
+ls -l | grep my_script # the output is a little bit different now. x means executable
+</code></pre>
+
+<p>Great, now you can run the script like this:</p>
+
+<pre><code>./my_script.sh
+</code></pre>
+
+<p>Expected output:</p>
+
+<pre><code>--- start of my script ---
+FOO=
+BAR=
+--- end of my script ---
+</code></pre>
+
+<p>Ok, now paste these lines into your terminal one by one. Make sure you understand the output of my_script.sh at each point:</p>
+
+<pre><code>FOO=1
+./my_script.sh  # FOO is out of scope!
+
+export FOO
+./my_script.sh  # FOO is IN scope!
+
+export BAR=winning
+./my_script.sh
+
+FOO=hello
+./my_script.sh
+</code></pre>
+
+<h3 id="takeaway">Takeaway</h3>
+
+<p>You can define variables in your shell (command prompt) and make those variables accessable from within programs that you run from that shell. Those programs could be bash scripts (like my_script.sh), or those programs can be written in Node or Python.</p>
+
+<h3 id="storing-your-environmental-variables-somewhere-nice">storing your environmental variables somewhere nice</h3>
+
+<p>Open up a new shell. Make a new script called <code>my_config.sh</code>. Give it the following content:</p>
+
+<pre><code>#!/bin/sh
+
+echo '--- setting up configurtion ---'
+export FOO=&quot;/path/to/local/database/file.sqlite&quot;
+BAR=&quot;some other important configuration&quot;
+echo '--- finished setting up configurtion ---'
+</code></pre>
+
+<p>Make it executable and try this out:</p>
+
+<pre><code>export FOO=xxxxxxxxx
+./my_config.sh
+./my_script.sh
+echo $FOO
+</code></pre>
+
+<p>Aaaand&hellip; my_config.sh seems to have had no effect on <code>FOO</code>.</p>
+
+<p>Now try it this way:</p>
+
+<pre><code>export FOO=xxxxxxxxx
+source my_config.sh   ###
+./my_script.sh
+echo $FOO
+</code></pre>
+
+<p>When we use the <code>source</code> command then any variables <code>export</code>ed by <code>my_config.sh</code> become environmental variables.</p>
+
+<h2 id="bashrc"><code>.bashrc</code></h2>
+
+<p>The default linux shell is called bash. Every time you open up a new bash shell the bash automatically sources a file in your home directory called <code>.bashrc</code>.</p>
+
+<p>Do the following in a terminal:</p>
+
+<pre><code>ls ~ -a | grep bashrc
+cp ~/.bashrc ~/.bashrc.backup
+ls ~ -a | grep bashrc
+</code></pre>
+
+<p>Now open .bashrc for editing however you want. You can just use nano if you dont want to leave the terminal.</p>
+
+<pre><code>nano ~/.bashrc
+</code></pre>
+
+<p>Now paste the following at the top of the file:</p>
+
+<pre><code>echo &quot;--- start of custom bashrc content ---&quot;
+export FOO=&quot;/path/to/local/database/file.sqlite&quot;
+BAR=&quot;some other important configuration&quot;
+echo &quot;--- end of custom bashrc content ---&quot;
+</code></pre>
+
+<p>Save and exit. If you are using nano thenpress <code>Ctrl + X</code>, then <code>y</code> then enter</p>
+
+<p>Now open a new terminal. And make sure you unserstand the output of each of these lines:</p>
+
+<pre><code>echo FOO=$FOO
+echo BAR=$BAR
+./my_script.sh
+</code></pre>
+
+<p>You can even put <code>source</code> commands within your <code>.bashrc</code>. Eg:</p>
+
+<pre><code>source /path/to/some/system/wide/configuration
+</code></pre>
+
+<p>Some of the more advanced python people might recognise this line:</p>
+
+<pre><code>source /usr/local/bin/virtualenvwrapper.sh
+</code></pre>
 
 
 <footer class=" footline" >
@@ -7252,20 +7410,20 @@ function foo():
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1564630919"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1564630919"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1564630919"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1564630919"></script>
-    <script src="/tech-department/js/featherlight.min.js?1564630919"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1564630919"></script>
-    <script src="/tech-department/js/highlight.pack.js?1564630919"></script>
+    <script src="/tech-department/js/clipboard.min.js?1564978381"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1564978381"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1564978381"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1564978381"></script>
+    <script src="/tech-department/js/featherlight.min.js?1564978381"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1564978381"></script>
+    <script src="/tech-department/js/highlight.pack.js?1564978381"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1564630919"></script>
-    <script src="/tech-department/js/learn.js?1564630919"></script>
-    <script src="/tech-department/js/hugo-learn.js?1564630919"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1564978381"></script>
+    <script src="/tech-department/js/learn.js?1564978381"></script>
+    <script src="/tech-department/js/hugo-learn.js?1564978381"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1564630919" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1564630919"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1564978381" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1564978381"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
