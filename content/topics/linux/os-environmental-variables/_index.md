@@ -1,5 +1,6 @@
 ---
 title: Environmental Variables
+ready: True
 ---
 
 This tutorial assumes that you are using some kind of bash derived shell. Open up your linux command prompt :)
