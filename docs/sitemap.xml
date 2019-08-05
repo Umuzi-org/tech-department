@@ -442,10 +442,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/workshops/intro-to-unit-testing-with-jasmine/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/intro-to-unit-tests-with-mocha/</loc>
   </url>
   
@@ -592,6 +588,10 @@
   
   <url>
     <loc>/tech-department/topics/unit-testing/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/intro-to-unit-testing-with-jasmine/</loc>
   </url>
   
   <url>
