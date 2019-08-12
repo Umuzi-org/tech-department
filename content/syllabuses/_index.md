@@ -34,7 +34,7 @@ We start off by introducing the applicants to the development environment and re
   - Use [FreeCodeCamp](https://learn.freecodecamp.org/). Start off with JavaScript Algorithms And Data Structures Certification (300 hours)
   - JS challenges are given
 - DATA_SCI:
-  - {{% contentlink "topics/data-science-specific/intro-to-jupyter-notebook" %}}
+  - {{% contentlink "projects/data-science-specific/intro-to-jupyter-notebook" %}}
   - [DataCamp intro to Python](https://www.datacamp.com/courses/intro-to-python-for-data-science)
 - DATA_ENG:
   - Introduction to Python (resource to be selected)
@@ -66,6 +66,9 @@ In this week, everyone gets to know their way around linux.
   - {{% contentlink "topics/linux/intro-to-linux" %}}
   - {{% contentlink "projects/linux" %}} INTRO
   - {{% contentlink "topics/linux/intro-to-bash" %}}
+  - {{% contentlink "topics/clean-code" %}}
+
+
 
 ## Week 2: Git and personal portfolio
 
@@ -108,7 +111,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - DATA_SCI:
 
-  - {{% contentlink "topics/data-science-specific/data-visualisation" %}}
+  - {{% contentlink "projects/data-science-specific/data-visualisation" %}}
 
 - DATA_ENG:
   Get as far as possible with the following exercises. We'll continue later
@@ -193,7 +196,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - DATA_SCI:
 
-  - {{% contentlink "topics/data-science-specific/data-wrangling" %}}
+  - {{% contentlink "projects/data-science-specific/data-wrangling" %}}
   - {{% contentlink "topics/functional-programming-intro" %}}
 
 * DATA_ENG:
@@ -213,7 +216,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - DATA_SCI:
 
-  - {{% contentlink "topics/data-science-specific/statistical-thinking/" %}}
+  - {{% contentlink "projects/data-science-specific/statistical-thinking/" %}}
 
 - DATA_ENG:
 
@@ -270,7 +273,7 @@ All recruits will do this
 - {{% contentlink "topics/data-validation-and-quality-control/" %}}
 
 - NCIT 17: Assignment: Create MySQL database with employee and product tables
-  - DATA_SCI: {{% contentlink "projects/SQL/" %}}
+  - DATA_SCI: {{% contentlink "projects/sql/" %}}
 
 ## Week 18 & 19
 
@@ -279,11 +282,11 @@ All recruits will do this
 - DATA_SCI:
 
   - {{% contentlink "topics/python-specific/web-scraping/" %}}
-  - {{% contentlink "topics/data-science-specific/dashboards/" %}}
+  - {{% contentlink "projects/data-science-specific/dashboards/" %}}
 
 - DATA_ENG:
 
-  - {{% contentlink "topics/data-science-specific/cross-validation-and-simple-linear-regression/" %}}
+  - {{% contentlink "projects/data-science-specific/cross-validation-and-simple-linear-regression/" %}}
   - {{% contentlink "projects/build-rest-api-with-db/" %}}
 
 - WEB_DEV:
@@ -318,7 +321,7 @@ ALL:
 ## Week 22:
 
 - DATA_SCI:
-  - {{% contentlink "topics/data-science-specific/cross-validation-and-simple-linear-regression/" %}}
+  - {{% contentlink "projects/data-science-specific/cross-validation-and-simple-linear-regression/" %}}
 - DATA_ENG:
   - {{% contentlink "topics/python-specific/mongodb/" %}}
 - WEB_DEV:
@@ -329,7 +332,7 @@ ALL:
 ## Week 23
 
 - DATA_SCI:
-  - {{% contentlink "topics/data-science-specific/multivariate-linear-regression" %}}
+  - {{% contentlink "projects/data-science-specific/multivariate-linear-regression" %}}
 - DATA_ENG:
   - {{% contentlink "topics/data-infrastructure/dags-with-airflow" %}}
 - WEB_DEV:
@@ -341,7 +344,7 @@ ALL:
 ## Week 24
 
 - DATA_SCI:
-  - {{% contentlink "topics/data-science-specific/decision-trees" %}}
+  - {{% contentlink "projects/data-science-specific/decision-trees" %}}
 - WEB_DEV:
   - continue with frontend web framework
 - DATA_ENG:
@@ -351,7 +354,7 @@ ALL:
 ## Week 25
 
 - DATA_SCI:
-  - {{% contentlink "topics/data-science-specific/logistic-regression" %}}
+  - {{% contentlink "projects/data-science-specific/logistic-regression" %}}
 - DATA_ENG:
   - {{% contentlink "topics/python-specific/sqlalchemy-and-alembic" %}}
 - WEB_DEV:
@@ -363,7 +366,7 @@ ALL:
 
 - DATA_SCI:
 
-  - {{% contentlink "topics/data-science-specific/k-means-clustering" %}}
+  - {{% contentlink "projects/data-science-specific/k-means-clustering" %}}
 
 - DATA_ENG:
   - {{% contentlink "topics/data-infrastructure/choosing-a-task-queue" %}}
