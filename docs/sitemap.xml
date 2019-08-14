@@ -208,7 +208,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/clean-code/</loc>
+    <loc>/tech-department/topics/clean-code/</loc>
   </url>
   
   <url>
@@ -232,7 +232,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/cross-validation-and-simple-linear-regression/</loc>
+    <loc>/tech-department/projects/data-science-specific/cross-validation-and-simple-linear-regression/</loc>
   </url>
   
   <url>
@@ -248,7 +248,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/dashboards/</loc>
+    <loc>/tech-department/projects/data-science-specific/dashboards/</loc>
   </url>
   
   <url>
@@ -260,11 +260,11 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/data-visualisation/</loc>
+    <loc>/tech-department/projects/data-science-specific/data-visualisation/</loc>
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/data-wrangling/</loc>
+    <loc>/tech-department/projects/data-science-specific/data-wrangling/</loc>
   </url>
   
   <url>
@@ -277,7 +277,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/</loc>
+    <loc>/tech-department/projects/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
@@ -290,7 +290,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/decision-trees/</loc>
+    <loc>/tech-department/projects/data-science-specific/decision-trees/</loc>
   </url>
   
   <url>
@@ -418,7 +418,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/intro-to-jupyter-notebook/</loc>
+    <loc>/tech-department/projects/data-science-specific/intro-to-jupyter-notebook/</loc>
   </url>
   
   <url>
@@ -470,7 +470,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/k-means-clustering/</loc>
+    <loc>/tech-department/projects/data-science-specific/k-means-clustering/</loc>
   </url>
   
   <url>
@@ -482,7 +482,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/logistic-regression/</loc>
+    <loc>/tech-department/projects/data-science-specific/logistic-regression/</loc>
   </url>
   
   <url>
@@ -502,7 +502,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/multivariate-linear-regression/</loc>
+    <loc>/tech-department/projects/data-science-specific/multivariate-linear-regression/</loc>
   </url>
   
   <url>
@@ -562,7 +562,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/statistical-thinking/</loc>
+    <loc>/tech-department/projects/data-science-specific/statistical-thinking/</loc>
   </url>
   
   <url>
