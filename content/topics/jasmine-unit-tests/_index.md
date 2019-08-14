@@ -11,7 +11,11 @@ Jasmine is a unit testing framework we like a lot. Techically it's a Behavior Dr
 
 There are a few different ways to get started with Jasmine. Let's go with the technically simplest one first:
 
-... TODO
+Download the latest Jasmine release from here: https://github.com/jasmine/jasmine/releases. Unzip the stuff. Now replace the src with your own code and replace the specs with your own tests.
+
+Edit `index.html` so that it refers to your code.
+
+To run the tests just open `index.html` in your browser.
 
 ### Getting set up (like a boss)
 
