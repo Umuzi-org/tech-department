@@ -273,7 +273,7 @@ All recruits will do this
 - {{% contentlink "topics/data-validation-and-quality-control/" %}}
 
 - NCIT 17: Assignment: Create MySQL database with employee and product tables
-  - DATA_SCI: {{% contentlink "projects/SQL/" %}}
+  - DATA_SCI: {{% contentlink "projects/sql/" %}}
 
 ## Week 18 & 19
 
