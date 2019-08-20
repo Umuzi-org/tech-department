@@ -1,11 +1,24 @@
 <div id="disqus_thread"></div>
+
 <script>
   /**
    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
   var disqus_config = function() {
     this.page.url = "https://umuzi-org.github.io"; // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = "{{ .Page.Dir }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    // this.page.identifier = ; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+
+    if (document.URL.includes("http://localhost")) {
+      this.page.identifier = document.URL.slice(
+        "http://localhost:xxxx".length + 1
+      );
+    } else if (document.URL.includes(this.page.url)) {
+      this.page.identifier = document.URL.slice(
+        `${this.page.url}`.length
+      ).slice("/tech-department/".length);
+    }
+
+    window.DISQUS_PAGE_IDENTIFIER = this.page.identifier;
   };
   (function() {
     // DON'T EDIT BELOW THIS LINE
