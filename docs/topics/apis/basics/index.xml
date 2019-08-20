@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>API basics on Documentation for Umuzi Tech Department</title>
-    <link>/topics/apis/basics/</link>
+    <link>/tech-department/topics/apis/basics/</link>
     <description>Recent content in API basics on Documentation for Umuzi Tech Department</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     
-	<atom:link href="/topics/apis/basics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tech-department/topics/apis/basics/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
