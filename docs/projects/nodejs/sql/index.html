@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/tech-department/images/favicon.png" type="image/png">
 
-    <title>Online Learning and bootcamp :: Documentation for Umuzi Tech Department</title>
+    <title>Node &amp; SQL assignment :: Documentation for Umuzi Tech Department</title>
 
     
     <link href="/tech-department/css/nucleus.css?1566362225" rel="stylesheet">
@@ -34,7 +34,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/tech-department/syllabuses/online-learning-and-bootbamp/">
+  <body class="" data-url="/tech-department/projects/nodejs/sql/">
     <nav id="sidebar" class="">
 
 
@@ -77,7 +77,7 @@
   
     
     <li data-nav-id="/tech-department/syllabuses/" title="Syllabus" class="dd-item 
-        parent
+        
         
         
         ">
@@ -284,8 +284,8 @@
   
     
     <li data-nav-id="/tech-department/syllabuses/online-learning-and-bootbamp/" title="Online Learning and bootcamp" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/tech-department/syllabuses/online-learning-and-bootbamp/">
@@ -2639,7 +2639,7 @@
   
     
     <li data-nav-id="/tech-department/projects/" title="Projects" class="dd-item 
-        
+        parent
         
         
         ">
@@ -3290,7 +3290,7 @@
   
     
     <li data-nav-id="/tech-department/projects/nodejs/" title="Nodejs Challenges" class="dd-item 
-        
+        parent
         
         
         ">
@@ -3341,8 +3341,8 @@
   
     
     <li data-nav-id="/tech-department/projects/nodejs/sql/" title="Node &amp; SQL assignment" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="/tech-department/projects/nodejs/sql/">
@@ -4395,7 +4395,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://github.com/Umuzi-org/tech-departmentsyllabuses/online-learning-and-bootbamp/_index.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://github.com/Umuzi-org/tech-departmentprojects/nodejs/sql/_index.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -4426,7 +4426,13 @@
             
           
           
-            <a href='/tech-department/'>Umuzi Tech Department</a> > <a href='/tech-department/syllabuses/'>Syllabus</a> > Online Learning and bootcamp
+            
+            
+          
+          
+            <a href='/tech-department/'>Umuzi Tech Department</a> > <a href='/tech-department/projects/'>Projects</a> > <a href='/tech-department/projects/nodejs/'>Nodejs Challenges</a> > Node & SQL assignment
+          
+        
           
         
           
@@ -4443,7 +4449,10 @@
 <ul>
 <li>
 <ul>
-<li><a href="#month-1-online-learning-and-bootcamp">Month -1: Online Learning and Bootcamp</a></li>
+<li><a href="#database-setup">database setup</a></li>
+<li><a href="#functionality">functionality</a></li>
+<li><a href="#note">NOTE</a></li>
+<li><a href="#resources">Resources</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -4458,7 +4467,7 @@
         
         <div id="body-inner">
           
-            <h1>Online Learning and bootcamp</h1>
+            <h1>Node &amp; SQL assignment</h1>
           
 
         
@@ -4468,13 +4477,88 @@
 
         
 
+        
+          
+        
+
+        
+        
+        
+        
+        
+        <hr/>
+
+        To submit this project follow the link below: <br/>
+
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfzgQRyS-duv3CSOtaTRv77U1ryLYb9l4uPkECktDe2nybpYQ/viewform?usp=pp_url&entry.152431284=projects%2fnodejs%2fsql%2f">
+            PROJECT SUBMISSION FORM
+        </a>
+        
+        <br/>
+
+        If you follow a different link or do your own thing you will have to resubmit. 
+        <hr/>
+
+        
+
+        
 
 
-<h2 id="month-1-online-learning-and-bootcamp">Month -1: Online Learning and Bootcamp</h2>
 
-<p>During the application process, we ask prospective recruits to learn basic python with an introduction to data management and visualisation with pandas, numpy and matplotlib. In the screening process, they also complete aptitude (literacy, numeracy, logical thinking, problem solving, statistical understanding, and sequencing) and personality tests (grit, resilience, empathising and systemising, agreeableness, openness to new experience, emotional stability, conscientiousness and intellect/imagination). Those who perform well on the aptitude tests, are a good personality fit for work professionalism, and are able to learn new skills on their own, are invited for an interview, and a selection of interviewees are invited bootcamp.</p>
+<p>You are required to create a back-end service that will help capture basic information about prospective students who come to inquire here at Umuzi.</p>
 
-<p>During bootcamp, the final stage of of Umuzi’s selection process, the applicants continue with online learning, presenting the results of their work at the end of the bootcamp. In addition to these technical challenges, we also have a series of teamwork challenges to learn how they communicate within a team and work under pressure; as well as individual tasks to assess ability to follow instructions, control impulsive reactions and plan actions. If the applicant performs well during bootcamp, they are invited to join Umuzi as a recruit.</p>
+<h2 id="database-setup">database setup</h2>
+
+<ol>
+<li>Set up a mysql database on your computer. Please use Docker to do this. You can find more information here: 
+
+
+
+
+<a href="/tech-department/topics/intro-to-docker"
+  >TOPICS: 
+  
+  Intro to Docker and Docker-compose </a
+>
+</li>
+<li>Create a table inside the database and name it Visiters.</li>
+<li>The table must contain the following fields :</li>
+</ol>
+
+<ul>
+<li>id: This should be automatically generated by SQL</li>
+<li>visitor name</li>
+<li>visitor&rsquo;s age</li>
+<li>date of visit</li>
+<li>time of visit</li>
+<li>name of the person who assisted the visitor</li>
+<li>comments</li>
+</ul>
+
+<h2 id="functionality">functionality</h2>
+
+<p>Create a single index script with the following functions:</p>
+
+<ul>
+<li><code>addNewVisitor</code>. This should save the Visitor into the database</li>
+<li>list all visitors. This should return an array of all the visitor names and ids</li>
+<li>delete a visitor</li>
+<li>update a visitor</li>
+<li>view one visitor: given a visitor&rsquo;s id, return all information about that visitor</li>
+<li>delete all visitors</li>
+</ul>
+
+<h2 id="note">NOTE</h2>
+
+<p>You will be expected to properly test your code. You can use whatever testing framework you want. If you use something that isn&rsquo;t taught at Umuzi please justify your choice (if you found something cool we might incorporate it into the syllabus)</p>
+
+<h2 id="resources">Resources</h2>
+
+<ul>
+<li><a href="https://www.guru99.com/introduction-to-database-sql.html">https://www.guru99.com/introduction-to-database-sql.html</a></li>
+<li><a href="https://www.w3schools.com/sql/sql_intro.asp">https://www.w3schools.com/sql/sql_intro.asp</a></li>
+<li><a href="https://www.w3schools.com/nodejs/nodejs_mysql.asp">https://www.w3schools.com/nodejs/nodejs_mysql.asp</a></li>
+</ul>
 
 
 <footer class=" footline" >
@@ -4551,6 +4635,8 @@
             
                 
                     
+                        
+                        
                     
                 
                 
@@ -4566,9 +4652,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -4684,7 +4767,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -4703,9 +4785,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -6198,6 +6277,7 @@
             
             
                 
+                    
                     
                 
                 
@@ -6214,6 +6294,9 @@
             
                 
                     
+                        
+                        
+                    
                 
                 
 
@@ -6618,6 +6701,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -6632,6 +6716,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -6648,6 +6735,7 @@
             
             
                 
+                    
                     
                 
                 
@@ -6664,6 +6752,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
