@@ -37,17 +37,25 @@ https://docs.docker.com/compose/install/
 
 Make a file called `docker-compose.yaml`. This is where you specify what containers you want to run and how you want them "constructed". Paste the following into the file:
 
-{{% code_snippet "docker-compose-mysql.yaml" %}}
+{{% code_snippet "docker-compose-pg.yaml" %}}
 
 Now open up a terminal and `cd` into the directory containing the docker compose file then say `docker-compose up`
 
-This launches two containers. One for mysql, and one for adminer. Adminer is a simple web based gui that you can use to interact with different databases. You'll be able to see this UI at [http://localhost:8080](http://localhost:8080)
+This launches two containers. One for postgresql, and one for adminer. Adminer is a simple web based gui that you can use to interact with different databases. You'll be able to see this UI at [http://localhost:8080](http://localhost:8080)
+
+## Alternatively: Mysql composition
+
+You can run a mysql composition like this one
+
+{{% code_snippet "docker-compose-mysql.yaml" %}}
+
+What's the difference? Postgresql is more of an industry standard than Mysql. But they are both great tools.
 
 ## Advanced topics
 
 If you want to use Docker containers in production then there are a bunch of extra things you need to know about. Some of these concepts are pretty deep but you don't need to be an expert in order to use them.
 
-### volumes
+### Volumes
 
 If you are running a container that needs to store data (like a database) and you want to make sure that you don't lose that data if the container dies (or gets explicitly killed) then you need to use volumnes. Basically a volume is like a linux "link" or windows "shortcut". It maps a totally normal directory/folder on your computer (your computer is the host) to a directory within the container. When the container tries to store something in the directory then that data appears in the host directory.
 

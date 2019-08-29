@@ -19,7 +19,6 @@ This is a living document and there are a few things that need to be fleshed out
   - WORKSHOP == instructor led event.
   - TOPIC == self study material
   - PROJECT == you know
-  - EXERCISE == like a project but no deliverable. Something the recruits should do to practice on their own
 
 - we need to make sure all the NCIT requirements have been dealt with before hitting the summative assessment
 - the syllabus is really long. There is a lot to cover so that has effects on Product teams. There are decisions to be made there.
@@ -67,8 +66,6 @@ In this week, everyone gets to know their way around linux.
   - {{% contentlink "projects/linux" %}} INTRO
   - {{% contentlink "topics/linux/intro-to-bash" %}}
   - {{% contentlink "topics/clean-code" %}}
-
-
 
 ## Week 2: Git and personal portfolio
 
