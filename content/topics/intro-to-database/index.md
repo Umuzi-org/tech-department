@@ -25,7 +25,7 @@ Please follow the link bellow and read only the these points :
 	2. Example database tables
 	3. Database concepts (Entity, fields, record and data value,Primary key,Database design,Cardinality)
 
-Link: https://www.elephantsql.com/blog/2017-02-24-databases-for-beginners-what-is-a-database-what-is-postgresql.html
+https://www.elephantsql.com/blog/2017-02-24-databases-for-beginners-what-is-a-database-what-is-postgresql.html
 
 Note: Please read only topic specified above then return to  this page.
 
@@ -43,16 +43,11 @@ https://www.infoworld.com/article/2887754/how-to-choose-a-database-for-your-mobi
 
 ### Database design process
 
-- Database modeling
-https://www.guru99.com/database-design.html#1
+- Database modeling: https://www.guru99.com/database-design.html#1
 
-- ERD Modeling
+- ERD Modeling: https://www.guru99.com/er-modeling.html
 
-https://www.guru99.com/er-modeling.html
-
-- Normalization
-
-https://www.guru99.com/database-normalization.html
+- Normalization: https://www.guru99.com/database-normalization.html
 
 
 ### Introduction to SQL
