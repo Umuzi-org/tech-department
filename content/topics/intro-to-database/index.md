@@ -21,7 +21,7 @@ ready: True
 
 Please follow the link bellow and read only the these points :
 
-	1.  Intro
+	1. Intro
 	2. Example database tables
 	3. Database concepts (Entity, fields, record and data value,Primary key,Database design,Cardinality)
 
@@ -44,7 +44,7 @@ https://www.infoworld.com/article/2887754/how-to-choose-a-database-for-your-mobi
 ### Database design process
 
 - Database modeling
- https://www.guru99.com/database-design.html#1
+https://www.guru99.com/database-design.html#1
 
 - ERD Modeling
 
