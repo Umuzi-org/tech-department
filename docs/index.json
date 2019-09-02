@@ -81,7 +81,7 @@
 	"title": "Make a simple GUI",
 	"tags": [],
 	"description": "",
-	"content": ""
+	"content": " Create a basic web site that a user can use to interact with the JamBuddy class.\n Make a page named index.html. To run the application the user will just need to open that page in their browser Make a button with the text \u0026ldquo;Get random notes\u0026rdquo;. If the user clicks on this button then the selectNotes function should be called and the notes should be displayed on the screen. make an input box where the user can enter their answer. create a button with the text \u0026ldquo;Submit answer\u0026rdquo;. If the user clicks this button then the checkAnswer function should be called.  if the answer is correct then display the message \u0026ldquo;You got it right .Well Done!\u0026rdquo; if the answer is incorrect then display the message \u0026ldquo;Wrong answer! Try again\u0026rdquo;   Acceptance criteria TDD is a must. Yes, you need to even unit test your DOM manipulations\n"
 },
 {
 	"uri": "/tech-department/projects/nodejs/sql/",
@@ -123,7 +123,7 @@
 	"title": "Advanced algorithm",
 	"tags": [],
 	"description": "",
-	"content": ""
+	"content": " Adjust your JamBuddy class so that it can handle flats and sharps.\nThat\u0026rsquo;s it.\nHave fun :)\nAcceptance criteria The usual. TDD is a must\n"
 },
 {
 	"uri": "/tech-department/projects/nodejs/express-forms/",
@@ -151,7 +151,7 @@
 	"title": "A gui that is more...awesome",
 	"tags": [],
 	"description": "",
-	"content": ""
+	"content": "Extend your simple gui with the following behavior:\n When the user loads the page for the first time then there should be two notes already displayed on the screen. Add a button with the text \u0026ldquo;Reveal answer\u0026rdquo;. If the user clicks on this button then ALL the notes (A, A#, B,\u0026hellip;) should be displayed in a div with the id \u0026ldquo;explanation\u0026rdquo;. The currently s4elected notes should be highlighted and the final answer should be displayed on the screen. If the user clicks on the \u0026ldquo;Get random notes\u0026rdquo; button then the \u0026ldquo;explanation\u0026rdquo; div should be emptied. If the user submits the correct answer then the \u0026ldquo;explanation\u0026rdquo; div should be populated as above. The user should be congratulated just like before Keep track of how many correct answers the user gets in a row and display this answer on the screen. This is referred to as a streak. Have some pseudocode:  user accesses gui for first time gui displays: \u0026quot;Streak: 0\u0026quot; user gets correct answer gui displays: \u0026quot;Streak: 1\u0026quot; user gets correct answer gui displays: \u0026quot;Streak: 2\u0026quot; user gets correct answer gui displays: \u0026quot;Streak: 3\u0026quot; user gets wrong answer gui displays: \u0026quot;Streak: 0\u0026quot; \u0026lt;\u0026lt;\u0026lt; the streak is reset to zero because the user got the answer wrong  "
 },
 {
 	"uri": "/tech-department/projects/nodejs/api/",
@@ -977,7 +977,7 @@
 	"title": "Semitone Challenge",
 	"tags": [],
 	"description": "",
-	"content": "This is a multi-step project designed to level up many different skills.\nOk\u0026hellip;so WTF is a semitone? I\u0026rsquo;m glad you asked. Take a look at these links:\n https://www.justinguitar.com/guitar-lessons/the-note-circle-bc-152 https://www.justinguitar.com/guitar-lessons/note-circle-with-a-jam-buddy-mt-106  What we want to do is build a simple application that a musician can use to test their music theory skillz.\nIn the second video, Justin talks about a game that you can play with a jam buddy. Your buddy picks two notes from the note circle and tells them to you, then you tell your buddy how many semi-tones seperate those notes. That is basically what we are building here.\nThe final goal is to have a program that outputs two notes from the note circle and then allows the user to enter a number. The program needs to be ablt to tell the user if they chose the correct number or not.\nFor those of you studying web dev, you will be expected to build a simple user interface for this thing using vanilla js. For those of you studying Python you can make a command-line utility that does this.\n  PROJECTS: semitone difference - basic algorithm   PROJECTS: [TODO] Make a simple GUI   PROJECTS: [TODO] Advanced algorithm   PROJECTS: [TODO] A gui that is more...awesome   "
+	"content": "This is a multi-step project designed to level up many different skills.\nOk\u0026hellip;so WTF is a semitone? I\u0026rsquo;m glad you asked. Take a look at these links:\n https://www.justinguitar.com/guitar-lessons/the-note-circle-bc-152 https://www.justinguitar.com/guitar-lessons/note-circle-with-a-jam-buddy-mt-106  What we want to do is build a simple application that a musician can use to test their music theory skillz.\nIn the second video, Justin talks about a game that you can play with a jam buddy. Your buddy picks two notes from the note circle and tells them to you, then you tell your buddy how many semi-tones seperate those notes. That is basically what we are building here.\nThe final goal is to have a program that outputs two notes from the note circle and then allows the user to enter a number. The program needs to be ablt to tell the user if they chose the correct number or not.\nFor those of you studying web dev, you will be expected to build a simple user interface for this thing using vanilla js. For those of you studying Python you can make a command-line utility that does this.\n  PROJECTS: semitone difference - basic algorithm   PROJECTS: Make a simple GUI   PROJECTS: Advanced algorithm   PROJECTS: [TODO] A gui that is more...awesome   "
 },
 {
 	"uri": "/tech-department/topics/python-specific/sqlalchemy-and-alembic/",
