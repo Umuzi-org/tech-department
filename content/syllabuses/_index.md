@@ -49,9 +49,9 @@ A recruit’s journey starts with a one week programme called #MakeUmuziBetter. 
 
 We get a few NCIT assessments out of the way during MUB.
 
-- NCIT 03: Conducting research and user interviews
-- NCIT 04: reporting
-- NCIT 05: Research presentation
+- NCIT 01: Conducting research and user interviews
+- NCIT 02: reporting
+- NCIT 03: Research presentation
 
 ## Week 1: Linux and soft skills
 
@@ -80,7 +80,7 @@ Recruits learn a bit about how to build an online presence. Recruits submit thei
   - {{% contentlink "workshops/what-to-put-on-a-cv" %}}
   - {{% contentlink "projects/first-personal-website" %}} - Introduction
 
-- NCIT 13: Version control (GIT) for teamwork
+- NCIT 4: Version control (GIT) for teamwork
 
 ## Week 3: Finish portfolio project
 
@@ -134,17 +134,17 @@ The recruits finish off their portfolios. From this point forward they are expec
 * DATA_ENG:
   - {{% contentlink "projects/tdd/password-checker" %}}
 
-- NCIT 07: History of the Internet
-- NCIT 08: Web design for business
-- NCIT 09: Building an online business
-- NCIT 14: Pseudocode and documentation
+- NCIT 05: History of the Internet
+- NCIT 06: Web design for business
+- NCIT 07: Building an online business
+- NCIT 08: Pseudocode and documentation
 
 ## Week 7: Tech in Business and Honing fundamental skills
 
 - ALL:
-  - NCIT 02: Ethics and Professionalism in IT
-  - NCIT 06: Workshop: Giving and receiving constructive feedback
-  - NCIT 16: Test-driven development
+  - NCIT 09: Ethics and Professionalism in IT
+  - NCIT 10: Workshop: Giving and receiving constructive feedback
+  - NCIT 11: Test-driven development
 
 * DATA_ENG:
   - {{% contentlink "projects/tdd/string-calculator" %}}
@@ -189,7 +189,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 - ALL
 
   - {{% contentlink "topics/tech-terminology" %}}
-  - NCIT 01: Business and technology
+  - NCIT 12: Business and technology
 
 - DATA_SCI:
 
@@ -209,7 +209,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 - WEB_DEV:
 
   - {{% contentlink "topics/js-and-node-specific/dom-manipulation-with-vanilla-js" %}}
-  - {{% contentlink "projects/memory-game-vanilla/intro" %}}
+  - {{% contentlink "projects/memory-game-vanilla" %}}
 
 - DATA_SCI:
 
@@ -222,7 +222,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 ## Week 13 & 14: OOP
 
-- NCIT 15: Object-oriented programming
+- NCIT 13: Object-oriented programming
 
 - DATA_SCI
 
@@ -269,12 +269,12 @@ All recruits will do this
 - {{% contentlink "topics/python-specific/sql-and-python/" %}}
 - {{% contentlink "topics/data-validation-and-quality-control/" %}}
 
-- NCIT 17: Assignment: Create MySQL database with employee and product tables
+- NCIT 14: Database Development
   - DATA_SCI: {{% contentlink "projects/sql/" %}}
 
 ## Week 18 & 19
 
-- NCIT 18: Input & Output
+- NCIT 15: Analytics, Surveys, and Reports / Input & Output
 
 - DATA_SCI:
 
@@ -301,11 +301,13 @@ All recruits will do this
   - {{% contentlink "workshops/agile-scrum/" %}}
   - {{% contentlink "topics/optimizations-and-big-o/" %}}
 
-- NCIT 19: Search and sort techniques
+- NCIT 16: Thinking like a machine (Boolean algebra, logic)
+- NCIT 17: Search and sort techniques
   - DATA_SCI: {{% contentlink "projects/python-specific/search-and-sort" %}}
-- NCIT 10: Agile project management
-- NCIT 11: Agile meetings
-- NCIT 12: Boolean algebra, logic
+- NCIT 18: Agile project management
+- NCIT 19: Agile meetings
+- NCIT 20: Managing the Software Development Process
+
 
 ## Week 21: NCIT bits and pieces
 
@@ -313,7 +315,7 @@ MUB must happen before this point.
 
 ALL:
 
-- NCIT Summative assessment
+- NCIT Summative assessments
 
 ## Week 22:
 
