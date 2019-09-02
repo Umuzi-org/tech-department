@@ -1,7 +1,6 @@
 ---
 title: Memory game
 weight: 1
-pre: "1. "
 ---
 
 Here is an example of a memory game: http://dkmgames.com/memory/pairsrun.php
