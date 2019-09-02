@@ -1,5 +1,7 @@
 ---
 title: semitone difference - basic algorithm
+pre: "<b>1. </b>"
+weight: 1
 ready: True
 ---
 
