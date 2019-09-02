@@ -66,6 +66,11 @@ In this week, everyone gets to know their way around linux.
   - {{% contentlink "projects/linux" %}} INTRO
   - {{% contentlink "topics/linux/intro-to-bash" %}}
   - {{% contentlink "topics/clean-code" %}}
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> d08b2af4312eb11a52de5559611669c106e3ee17
 
 ## Week 2: Git and personal portfolio
 
@@ -269,7 +274,11 @@ All recruits will do this
 - {{% contentlink "topics/python-specific/sql-and-python/" %}}
 - {{% contentlink "topics/data-validation-and-quality-control/" %}}
 
+<<<<<<< HEAD
 - NCIT 14: Database Development
+=======
+- NCIT 17: Assignment: Create MySQL database with employee and product tables
+>>>>>>> d08b2af4312eb11a52de5559611669c106e3ee17
   - DATA_SCI: {{% contentlink "projects/sql/" %}}
 
 ## Week 18 & 19
