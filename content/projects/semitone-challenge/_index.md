@@ -18,7 +18,7 @@ The final goal is to have a program that outputs two notes from the note circle 
 
 For those of you studying web dev, you will be expected to build a simple user interface for this thing using vanilla js. For those of you studying Python you can make a command-line utility that does this.
 
-1. {{% contentlink "topics/semitone-challenge/basic-algorithm" %}}
-2. {{% contentlink "topics/semitone-challenge/gui-part-1" %}}
-3. {{% contentlink "topics/semitone-challenge/advanced-algorithm" %}}
-4. {{% contentlink "topics/semitone-challenge/gui-part-2" %}}
+1. {{% contentlink "projects/semitone-challenge/basic-algorithm" %}}
+2. {{% contentlink "projects/semitone-challenge/gui-part-1" %}}
+3. {{% contentlink "projects/semitone-challenge/advanced-algorithm" %}}
+4. {{% contentlink "projects/semitone-challenge/gui-part-2" %}}

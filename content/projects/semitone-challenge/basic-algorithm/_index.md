@@ -7,12 +7,24 @@ ready: True
 
 Make a class called JamBuddy. JamBuddy should work like this:
 
+JS:
+
 ```
 let buddy = new JamBuddy()
-let notes = buddy.select_notes()
+let notes = buddy.selectNotes()
 console.log(notes) # this will print an array of two notes
 correct = buddy.checkAnswer(1)
 console.log(correct) # this will print True if the `1` was the correct answer
+```
+
+Python:
+
+```
+buddy = JamBuddy()
+notes = buddy.select_notes()
+print(notes) # this will print an array of two notes
+correct = buddy.check_answer(1)
+print(correct) # this will print True if the `1` was the correct answer
 ```
 
 ## Some finer points
@@ -20,14 +32,16 @@ console.log(correct) # this will print True if the `1` was the correct answer
 For now don't worry about "flat" notes. The notes we care about are:
 
 ```
-A A# B C D D# E F F# G G#
+A A# B C C# D D# E F F# G G#
 ```
 
 Here is an example usage:
 
+JS:
+
 ```
 let buddy = new JamBuddy()
-let notes = buddy.select_notes()
+let notes = buddy.selectNotes()
 console.log(notes) # let's pretend that this outputs ['A', 'B']
 
 let correct = buddy.checkAnswer(1)
