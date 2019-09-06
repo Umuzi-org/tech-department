@@ -283,7 +283,6 @@ All recruits will do this
 
 - DATA_ENG:
 
-  - {{% contentlink "projects/data-science-specific/cross-validation-and-simple-linear-regression/" %}}
   - {{% contentlink "projects/build-rest-api-with-db/" %}}
 
 - WEB_DEV:
@@ -300,13 +299,13 @@ All recruits will do this
   - {{% contentlink "workshops/intro-to-agile/" %}}
   - {{% contentlink "workshops/agile-scrum/" %}}
   - {{% contentlink "topics/optimizations-and-big-o/" %}}
+
 - NCIT 16: Thinking like a machine / Boolean algebra, logic
 - NCIT 17: Search and sort techniques
   - DATA_SCI: {{% contentlink "projects/python-specific/search-and-sort" %}}
 - NCIT 18: Agile project management
 - NCIT 19: Agile meetings
 - NCIT 20: Managing the Software Development Process
-
 
 ## Week 21: NCIT bits and pieces
 
