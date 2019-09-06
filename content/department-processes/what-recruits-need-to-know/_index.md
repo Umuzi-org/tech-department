@@ -26,10 +26,10 @@ This is how we begin our day, announcements are shared and we discuss anything t
 
 - Every morning at 09:00
 
-##### Lunchtime presentation
+##### After Lunch Event
 
-_handled by Kii_
-This is where we exercise our presentation muscle, one recruit prepares a 5 minute presentation about something tech related - what you’ve learnt, something you’re working on or any resources that you think might be useful. There is a [Schedule][ https://docs.google.com/spreadsheets/d/1zovv2tfk14iwyapa-htabexrja3gymp9sm4wpglr0qs/edit?usp=sharing] that specifies who will present on which day.
+_handled by TBC_
+This is a daily compulsary after lunch event. There are a variety of events we will be doing with you in orer to improve your coding, interpersonal and presentation skills . There is a [Schedule] (https://docs.google.com/spreadsheets/d/1zovv2tfk14iwyapa-htabexrja3gymp9sm4wpglr0qs/edit?usp=sharing) that specifies who will present on which day.
 
 - Everyday after lunch at 13:30
 
@@ -39,8 +39,8 @@ _Handled by Singi_
 
 At least once a month (usually more) we attend a meetup. We get to learn on what's new in the tech world, learn more on the technology and languages we already know. Meetups are free, no cost to you.
 
-Here's a link to the [Meetup Form for RSVPing][https://docs.google.com/forms/d/e/1faipqlsdcie6nu44zfybmsd_hhau8efm7lgiuq5wxcjfe3kapqgru4q/viewform]
-Use the form to RSVP for transport (which we provide). **NB** link broken
+Here's a link to the [Meetup Form for RSVPing][https://docs.google.com/forms/d/e/1FAIpQLSdcIE6NU44zfybMsd_HhAU8eFM7LgIUQ5WXcJfe3KaPQgru4Q/viewform]
+Use the form to RSVP for transport (which we provide).
 
 ## Communication
 
