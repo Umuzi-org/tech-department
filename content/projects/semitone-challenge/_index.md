@@ -5,6 +5,18 @@ ready: True
 
 This is a multi-step project designed to level up many different skills.
 
+We want to see the following skills demonstrated in different parts of this project:
+
+- code structure
+- functions
+- loops
+- conditions
+- datatypes
+- operators
+- DOM maipulation
+
+This project should be completed in a TDD way. This includes writing unit tests around the DOM!
+
 Ok...so WTF is a semitone? I'm glad you asked. Take a look at these links:
 
 - https://www.justinguitar.com/guitar-lessons/the-note-circle-bc-152
@@ -22,3 +34,7 @@ For those of you studying web dev, you will be expected to build a simple user i
 2. {{% contentlink "projects/semitone-challenge/gui-part-1" %}}
 3. {{% contentlink "projects/semitone-challenge/advanced-algorithm" %}}
 4. {{% contentlink "projects/semitone-challenge/gui-part-2" %}}
+
+# Useful content
+
+- {{% contentlink "topics/jasmine-unit-tests" %}}
