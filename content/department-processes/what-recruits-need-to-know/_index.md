@@ -26,10 +26,10 @@ This is how we begin our day, announcements are shared and we discuss anything t
 
 - Every morning at 09:00
 
-##### After Lunch Event
+##### Lunchtime presentation
 
-_handled by TBC_
-This is a daily compulsary after lunch event. There are a variety of events we will be doing with you in orer to improve your coding, interpersonal and presentation skills . There is a [Schedule] (https://docs.google.com/spreadsheets/d/1zovv2tfk14iwyapa-htabexrja3gymp9sm4wpglr0qs/edit?usp=sharing) that specifies who will present on which day.
+_handled by Kii_
+This is where we exercise our presentation muscle, one recruit prepares a 5 minute presentation about something tech related - what you’ve learnt, something you’re working on or any resources that you think might be useful. There is a [Schedule][ https://docs.google.com/spreadsheets/d/1zovv2tfk14iwyapa-htabexrja3gymp9sm4wpglr0qs/edit?usp=sharing] that specifies who will present on which day.
 
 - Everyday after lunch at 13:30
 
