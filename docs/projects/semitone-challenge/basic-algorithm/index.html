@@ -12,19 +12,19 @@
     <title>semitone difference - basic algorithm :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1567406565" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1567406565" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1567406565" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1567406565" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1567406565" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1567406565" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1567406565" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1567406565" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1567764516" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1567764516" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1567764516" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1567764516" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1567764516" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1567764516" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1567764516" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1567764516" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1567406565" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1567764516" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1567406565"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1567764516"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -53,14 +53,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1567406565"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1567406565"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1567764516"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1567764516"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1567406565"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1567764516"></script>
 
     
   </div>
@@ -4695,24 +4695,37 @@
 
 <p>Make a class called JamBuddy. JamBuddy should work like this:</p>
 
+<p>JS:</p>
+
 <pre><code>let buddy = new JamBuddy()
-let notes = buddy.select_notes()
+let notes = buddy.selectNotes()
 console.log(notes) # this will print an array of two notes
 correct = buddy.checkAnswer(1)
 console.log(correct) # this will print True if the `1` was the correct answer
+</code></pre>
+
+<p>Python:</p>
+
+<pre><code>buddy = JamBuddy()
+notes = buddy.select_notes()
+print(notes) # this will print an array of two notes
+correct = buddy.check_answer(1)
+print(correct) # this will print True if the `1` was the correct answer
 </code></pre>
 
 <h2 id="some-finer-points">Some finer points</h2>
 
 <p>For now don&rsquo;t worry about &ldquo;flat&rdquo; notes. The notes we care about are:</p>
 
-<pre><code>A A# B C D D# E F F# G G#
+<pre><code>A A# B C C# D D# E F F# G G#
 </code></pre>
 
 <p>Here is an example usage:</p>
 
+<p>JS:</p>
+
 <pre><code>let buddy = new JamBuddy()
-let notes = buddy.select_notes()
+let notes = buddy.selectNotes()
 console.log(notes) # let's pretend that this outputs ['A', 'B']
 
 let correct = buddy.checkAnswer(1)
@@ -7669,20 +7682,20 @@ console.log(correct) # true
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1567406565"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1567406565"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1567406565"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1567406565"></script>
-    <script src="/tech-department/js/featherlight.min.js?1567406565"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1567406565"></script>
-    <script src="/tech-department/js/highlight.pack.js?1567406565"></script>
+    <script src="/tech-department/js/clipboard.min.js?1567764516"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1567764516"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1567764516"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1567764516"></script>
+    <script src="/tech-department/js/featherlight.min.js?1567764516"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1567764516"></script>
+    <script src="/tech-department/js/highlight.pack.js?1567764516"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1567406565"></script>
-    <script src="/tech-department/js/learn.js?1567406565"></script>
-    <script src="/tech-department/js/hugo-learn.js?1567406565"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1567764516"></script>
+    <script src="/tech-department/js/learn.js?1567764516"></script>
+    <script src="/tech-department/js/hugo-learn.js?1567764516"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1567406565" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1567406565"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1567764516" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1567764516"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
