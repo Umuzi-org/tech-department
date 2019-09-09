@@ -30,8 +30,11 @@ This is how we begin our day, announcements are shared and we discuss anything t
 
 _handled by Tech Facilitators_
 
+<<<<<<< HEAD
 This is a daily compulsary after lunch event. There are a variety of events we will be doing with you in orer to improve your coding, interpersonal and presentation skills . There is a [Schedule] (https://docs.google.com/spreadsheets/d/1Ue5vfIjtCpqgIEp_Va9kurBm9khQ4oVE4Nf4DgSFpq4/edit#gid=0) that specifies who will present on which day.
 
+=======
+>>>>>>> f87e79990168b2d4536cf42f59fa4b9aeda0e050
 - Everyday after lunch at 13:30
 
 ##### Tech Meetups
@@ -40,8 +43,13 @@ _Handled by Singi_
 
 At least once a month (usually more) we attend a meetup. We get to learn on what's new in the tech world, learn more on the technology and languages we already know. Meetups are free, no cost to you.
 
+<<<<<<< HEAD
 Here's a link to the [Meetup Form for RSVPing][https://docs.google.com/forms/d/e/1FAIpQLSdcIE6NU44zfybMsd_HhAU8eFM7LgIUQ5WXcJfe3KaPQgru4Q/viewform]
 Use the form to RSVP for transport (which we provide).
+=======
+Here's a link to the [Meetup Form for RSVPing][https://docs.google.com/forms/d/e/1faipqlsdcie6nu44zfybmsd_hhau8efm7lgiuq5wxcjfe3kapqgru4q/viewform]
+Use the form to RSVP for transport (which we provide). **NB** link broken
+>>>>>>> f87e79990168b2d4536cf42f59fa4b9aeda0e050
 
 ## Communication
 
@@ -88,19 +96,26 @@ The material and assessments are found on [Gnomio](http://umuzi.gnomio.com/). Th
 - [Tech Events Calendar](umuzi.org_1utk59bnsdj03id27g9sdbfoa0@group.calendar.google.com)
   That all tech events are scheduled on. This is where yu will find dates for Workshops, Talks and Meetups. Check this everyday.
 
+<<<<<<< HEAD
 - [Leave Request Form](https://drive.google.com/open?id=140EiGPq3GgGkQPkQG9FPMdPz_dCoK_TRpjCZzs1uqzQ) This is to be completed for any leave requested or taken.
 
 - [Leave Policy](link to be inserted) [TODO]
 
 - [Disaplinary Policy](link to be inserted) [TODO]
 
+=======
+>>>>>>> f87e79990168b2d4536cf42f59fa4b9aeda0e050
 If you have any queries, these are the people to contact:
 
 ##### Tech/Curriculum Questions:
  - Kii, Singi, Tshepo, Makakole
 
 ##### NCIT
+<<<<<<< HEAD
  - Ryan
+=======
+ - Ryan, Kii
+>>>>>>> f87e79990168b2d4536cf42f59fa4b9aeda0e050
 
 ##### Password Management
  - Tshepo
