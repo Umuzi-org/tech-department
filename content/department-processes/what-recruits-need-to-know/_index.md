@@ -28,8 +28,9 @@ This is how we begin our day, announcements are shared and we discuss anything t
 
 ##### After Lunch Event
 
-_handled by TBC_
-This is a daily compulsary after lunch event. There are a variety of events we will be doing with you in orer to improve your coding, interpersonal and presentation skills . There is a [Schedule] (https://docs.google.com/spreadsheets/d/1zovv2tfk14iwyapa-htabexrja3gymp9sm4wpglr0qs/edit?usp=sharing) that specifies who will present on which day.
+_handled by Tech Facilitators_
+
+This is a daily compulsary after lunch event. There are a variety of events we will be doing with you in orer to improve your coding, interpersonal and presentation skills . There is a [Schedule] (https://docs.google.com/spreadsheets/d/1Ue5vfIjtCpqgIEp_Va9kurBm9khQ4oVE4Nf4DgSFpq4/edit#gid=0) that specifies who will present on which day.
 
 - Everyday after lunch at 13:30
 
@@ -87,13 +88,19 @@ The material and assessments are found on [Gnomio](http://umuzi.gnomio.com/). Th
 - [Tech Events Calendar](umuzi.org_1utk59bnsdj03id27g9sdbfoa0@group.calendar.google.com)
   That all tech events are scheduled on. This is where yu will find dates for Workshops, Talks and Meetups. Check this everyday.
 
+- [Leave Request Form](https://drive.google.com/open?id=140EiGPq3GgGkQPkQG9FPMdPz_dCoK_TRpjCZzs1uqzQ) This is to be completed for any leave requested or taken.
+
+- [Leave Policy](link to be inserted) [TODO]
+
+- [Disaplinary Policy](link to be inserted) [TODO]
+
 If you have any queries, these are the people to contact:
 
 ##### Tech/Curriculum Questions:
  - Kii, Singi, Tshepo, Makakole
 
 ##### NCIT
- - Ryan, Kii
+ - Ryan
 
 ##### Password Management
  - Tshepo
@@ -108,6 +115,10 @@ If you have any queries, these are the people to contact:
  - Sheena
 
 ### Junior Tech Facilitators
+
+**Admin & Scrum Master**
+
+ - @Ryan - Ryan O'Connell - ryan.oconnell@umuzi.org
 
 **Web Development:**
 
@@ -129,7 +140,7 @@ If you have any queries, these are the people to contact:
 
 **Data:**
 
-- @Webster Gova - Webster Gova - webster.gova@umuzi.org
+- @Webster - Webster Gova - webster.gova@umuzi.org
 
 ### Department Heads
 
