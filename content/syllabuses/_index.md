@@ -268,9 +268,9 @@ All recruits will do this
 - {{% contentlink "workshops/node-and-sql/" %}}
 - {{% contentlink "topics/python-specific/sql-and-python/" %}}
 - {{% contentlink "topics/data-validation-and-quality-control/" %}}
+- {{% contentlink "projects/sql/" %}}
+- NCIT 14: Database Development 
 
-- NCIT 14: Database Development
-  - DATA_SCI: {{% contentlink "projects/sql/" %}}
 
 ## Week 18 & 19
 
