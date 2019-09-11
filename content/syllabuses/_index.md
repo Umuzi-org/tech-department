@@ -296,7 +296,7 @@ All recruits will do this
 
 - ALL:
 
-  - {{% contentlink "workshops/intro-to-agile/" %}}
+  - {{% contentlink "topics/agile-scrum" %}}
   - {{% contentlink "workshops/agile-scrum/" %}}
   - {{% contentlink "topics/optimizations-and-big-o/" %}}
 

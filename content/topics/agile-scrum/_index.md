@@ -1,7 +1,7 @@
 ---
 date: 2019-03-19T16:50:16+02:00
 title: Agile & Scrum
-weight: 15
+ready: true
 ---
 
 ## NCIT Units 114059 & 114051

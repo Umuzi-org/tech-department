@@ -117,7 +117,8 @@ If you have any queries, these are the people to contact:
 ### Junior Tech Facilitators
 
 **Scrum Masters**
-- @Kii - Mhlanganisi Kii Gxobole - mhlanganisi.gxobole@umuzi.org
+
+- @Kii - Mhlanganisi Kii Gxobole - mhlanganisi.gxobole@umuzi.org 
 - @Tshepo - Tshepo Modise - tshepo.modise@umuzi.org
 
 **Web Development:**
