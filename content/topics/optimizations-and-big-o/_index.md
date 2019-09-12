@@ -1,6 +1,6 @@
 ---
 title: optimizations and big-O
-ready: True
+ready: true
 ---
  Here are a few good resources on Big O and optimization. Learn enough to understand what Big O is, when and why do we implement it and please give us feedback (or pull requests) on this page if you think any improvements can be made.
 
