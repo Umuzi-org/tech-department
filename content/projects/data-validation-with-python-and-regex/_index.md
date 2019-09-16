@@ -15,7 +15,7 @@ ready: true
   - data is complete, such as making sure all required form fields have data
 
 We check the data to make sure that the user did not make a mistake, accidentally or intentionally, which can prevent our program from functioning correctly or corrupt the data as this has security and data integrity implications.
-
+<!-- TODO Discuss with Sheena, for project ideas -->
 Do this: https://osherove.com/tdd-kata-1/
 
 * Do all the steps (1 - 9).
