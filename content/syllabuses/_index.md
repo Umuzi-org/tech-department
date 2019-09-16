@@ -269,8 +269,7 @@ All recruits will do this
 - {{% contentlink "topics/python-specific/sql-and-python/" %}}
 - {{% contentlink "topics/data-validation-and-quality-control/" %}}
 - {{% contentlink "projects/sql/" %}}
-- NCIT 14: Database Development 
-
+- NCIT 14: Database Development
 
 ## Week 18 & 19
 
@@ -353,7 +352,7 @@ ALL:
 - DATA_SCI:
   - {{% contentlink "projects/data-science-specific/logistic-regression" %}}
 - DATA_ENG:
-  - {{% contentlink "topics/python-specific/sqlalchemy-and-alembic" %}}
+  - {{% contentlink "projects/python-specific/django-migrations" %}}
 - WEB_DEV:
   - {{% contentlink "workshops/nodejs-intro-to-socketio/" %}}
   - {{% contentlink "workshops/nodejs-async-vs-sync" %}}
