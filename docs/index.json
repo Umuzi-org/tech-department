@@ -511,13 +511,6 @@
 	"content": ""
 },
 {
-	"uri": "/tech-department/projects/portfolio-website/",
-	"title": "Development of a Portfolio website",
-	"tags": [],
-	"description": "",
-	"content": "with HTML5, CSS and bootstrap\nTODO\n"
-},
-{
 	"uri": "/tech-department/projects/distributed-workloads-with-zeromq/",
 	"title": "Distributed workloads with ZeroMQ",
 	"tags": [],
