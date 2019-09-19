@@ -70,7 +70,7 @@ calculator_instance.get_slot(2) # should return 30
 calculator_instance.last() # should return 300
 ```
 
-## Allow the use of memory slots as arguments
+## Allow the use of memory slots and LAST as arguments
 
 The `add` and `multiply` functions should allow memory slots as parameters. If we were using memory slot 5 as an argument then we would represent it like this `"SLOT_5"`.
 
@@ -78,10 +78,14 @@ Example usage:
 Following from the previous example:
 
 ```
+calculator_instance.add(100,200) # returns 300. The "last" value is updated
 calculator_instance.get_slot(1) # should return 3
 calculator_instance.get_slot(2) # should return 30
-calculator_instance.last(2) # should return 300
+calculator_instance.last() # should return 300 (just like before)
 
-calculator_instance.add("SLOT_1",5) # should return 8
-calculator_instance.multiply("SLOT_2",2) # should return 60
+# THE FOLLOWING FUNCTIONALITY SHOULD WORK
+
+calculator_instance.add("LAST",10) # should return 310 (= 300 + 10)
+calculator_instance.add("SLOT_1",5) # should return 8 (= 3 + 5)
+calculator_instance.multiply("SLOT_2",2) # should return 60 (= 30 * 2)
 ```

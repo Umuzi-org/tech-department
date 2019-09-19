@@ -153,7 +153,7 @@ Here are a few major kinds of content:
 
 Let's say you want to make a new TOPIC entitled "Intro to BeautifulSoup". What you will need to do is this:
 
-Create a new file here: `content/topics/intro-to-beautifulsoup.md`. Then add come content and make sure to include a title in your frontmatter/metadata:
+Create a new file here: `content/topics/python-specific/intro-to-beautifulsoup.md`. Then add come content and make sure to include a title in your frontmatter/metadata:
 
 ```
 ---
@@ -171,7 +171,7 @@ Once you have saved your file then you should be able to see it in the it in the
 
 And you can make a content link to your new file like this:
 
-Use content-link will look like this: {{% contentlink "topics/intro-to-beautifulsoup" %}}
+Use content-link will look like this: {{% contentlink "topics/python-specific/intro-to-beautifulsoup" %}}
 
 ## Advanced frontmatter
 

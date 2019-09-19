@@ -20,7 +20,7 @@ The person who sets a deadline will check who submitted and who is outstanding.
 If a recruit is then:
 
 - send a slack message to each recruit who is late
-- share a list of all late people with the ret of the tech team on slack? Or email? (should we have a specific channel?)
+- share a list of all late people with the rest of the tech team on slack? Or email? (should we have a specific channel?)
 
 In the next cohort standup meeting:
 
