@@ -191,6 +191,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/linux/advanced/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/agile-recap/</loc>
   </url>
   
@@ -213,6 +217,10 @@
   
   <url>
     <loc>/tech-department/workshops/redux_intro/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/linux/beginner/</loc>
   </url>
   
   <url>
