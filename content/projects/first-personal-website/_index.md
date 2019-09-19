@@ -37,3 +37,5 @@ Requirements:
 - How to make a GitHub Page : https://pages.github.com/
 - CSS Grid: https://scrimba.com/g/gR8PTE (Screencast tutorials)
 - https://css-tricks.com/snippets/css/complete-guide-grid/ (more info)
+- Building a Data Science Portfolio (https://www.dataquest.io/blog/build-a-data-science-portfolio/)
+- Web Developer Portfolios to inspire you (https://medium.freecodecamp.org/15-web-developer-portfolios-to-inspire-you-137fb1743cae)
