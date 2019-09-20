@@ -159,11 +159,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/oop-in-js/</loc>
-    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/git/version-control-and-scrum/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
@@ -213,6 +208,10 @@
   
   <url>
     <loc>/tech-department/topics/python-specific/unit-testing/automated-testing-pandas-and-numpy/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/oop/bank_accounts/</loc>
   </url>
   
   <url>
@@ -333,6 +332,10 @@
   
   <url>
     <loc>/tech-department/projects/portfolio-website/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/oop/dice/</loc>
   </url>
   
   <url>
@@ -565,11 +568,19 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/oop/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/oop-in-python/</loc>
   </url>
   
   <url>
     <loc>/tech-department/makeumuzibetter/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/oop/person/</loc>
   </url>
   
   <url>
