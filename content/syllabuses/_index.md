@@ -235,7 +235,7 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/oop-in-python/" %}}
 
 - WEB_DEV
-  - {{% contentlink "projects/oop-in-js/" %}}
+  - {{% contentlink "projects/oop/" %}}
   - {{% contentlink "workshops/node/" %}}
   - {{% contentlink "projects/nodejs/" %}}
   - {{% contentlink "topics/js-and-node-specific/introduction-to-node/" %}}
