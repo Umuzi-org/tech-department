@@ -273,7 +273,7 @@ This adds a commit to branch Y and doesn't change branch X
 
 3. Refresh your browser. Cool eh?
 
-Now you should see a little dropdown box on github that says "Branch: master". Click there. your other branches aren't available.
+ow you should see a little dropdown box on github that says "Branch: master". Click there. your other branches aren't available.
 
 4. Push your other branches to github. We want all branches to be listed
 
@@ -290,6 +290,36 @@ Now you should see a little dropdown box on github that says "Branch: master". C
 9. try to checkout the branch called `project/git-basic-exercises` on your local computer. You can do it, you'll need to figure out how
 10. type in `git remote -v`
 
+### Multiple Repos
+
+1. While still in your newly created branch `project/git-basic-exercises` use `git log` to see the history.
+2. From your new branch called `project/git-basic-exercises`navigate back to your `git-basic-exercises` repo, use `git log` again to see the differance.
+3. Let's go back to our home directory `cd` and make a new folder `mkdir this-will-be-another-repo`
+4. cd into this folder now use `git init` to initalise a new git repo here, you should get a message in terminal that says 'Initialized empty Git repository in /home/$specific-path/this-will-be-another-repo/.git/'
+5. Type in `touch README.md`. This creates a new blank file. Stage then commit.
+6. Go back to your  `git-basic-exercises` repo and use `git log` to check that you are in the right place and repo.
+
+### 
+
+1. Create a new file `touch ignore-me.db`
+2. Now use `git status` to see what is going on in your repo, you will see ignore-me.bd as an unstaged file.
+3. Now lets create a .gitignore file type `nano .gitignore`
+4. In this file type `ignore-me.db` save and exit your .gitignore file
+5. Now use `git status` you will notice that `ignore-me.db` is no longer an unstaged file and is no longer being tracked by github and .gitignore is being tracked.
+6. Create a new directory `mkdir large-directory-that-should-be-local-only`
+7. `cd` into this directory and create a readme.md file with some random text in
+8. Use `cd ..` to go back to your main directory and `git status` to see what is going on, you should now see your new folder as an unstaged change.
+9. Lets add this folder to .gitignore `nano .gitignore` and add `/large-directory-that-should-be-local-only` on a new line, save and close .gitignore
+10. Check  `git status` again, .gitignore is going to be super useful later when you are submitting projects and need to keep your repos small and free from junk and nonrelevant files.
+
+### Repo Best Practices
+
+Your repo names should be all of the following:
+1. Files and folders in your repo should be named appropriatly.
+2. Use names that make sense and relate to your projects i.e. simple-calculator
+3. Each project should be in its own repo
+4. There should be no junk/unnecessary file in your repos
+5. Your repos should be small (remember the use of .gitignore)
 
 ## Going forward
 
