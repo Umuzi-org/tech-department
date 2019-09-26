@@ -7,11 +7,25 @@ This is a guide to the Tech Department and how it works. It contains contact det
 
 ### General
 
+#### What recruits need to know
+Firstly, read through {{% contentlink "/department-processes/what-recruits-need-to-know/_index.md" %}}
+
 #### Syllabus
 Find the tech repo with all (or at least most) curriculum documents, assignments, processes and deadlines here: https://umuzi-org.github.io/tech-department/
 
 #### Slack 
-All management discussion for the tech department is on tech-team, other channels are for communication with recruits. In particular, you want to be on tech-assist (helping with tech problems), meetups-and-events (info about meetups etc that are happening), umuzi_coders (all coders) and umuzi_data (all data scientists), plus relevant cohort channels (e.g. c14-data, c13_data). Please check your slack messages regularly throughout the day (at least 3 times per day).
+Please check your slack messages regularly throughout the day (at least 3 times per day).
+
+Channels to join:
+
+ - tech-team - contains communication all management discussions for tech team
+ - deadlines - communications on deadline setting and changes
+ - surprise_and_invisible_work - reporting on and trying to track work that takes up time but is not widely known
+ - tech-assist - helping with tech problems
+ - umuzi_coders - all coders
+ - umuzi_data - all data scientists
+ - meetups-and-events - info about meetups etc that are happening
+ - plus relevant cohort channels (e.g. c14-data, c13_data)
 
 ### Personnel: 
 #### Pay, Leave, Medical Aid, Computers
@@ -24,27 +38,6 @@ Sarah Lawson
 
 sarah.lawson@umuzi.org
 
-#### Web Development
-Sheena O'Connell
-
-sheena.oconnell@umuzi.org
-
-@Sheena
-
-Dibwe Kalangu
-
-dibwe.kalangu@umuzi.org
-
-@dibwe
-
-#### Data Science
-Webster Gova
-
-webster.gova@umuzi.org
-
-@Webster
-
-Documentation for Umuzi Tech Department
 
 #### Regular meetings: 
 Daily stand ups with recruits at 9am. 
@@ -53,14 +46,11 @@ Daily tech meeting / check-in with tech facilitators and managers at 3:30pm on M
 
 #### Processes for Umuzi tech managers when new staff join:
 
- - Get Umuzi email. Add to Slack and WhatsApp
-
+ - Get Umuzi email. 
+ - Add to Slack and WhatsApp
  - Add to Github staff team: https://github.com/orgs/Umuzi-org/teams/ and required repos
-
  - Add to Trello boards
-
  - Add to Datacamp (Data hires)
-
  - Go through recruit project submission, code review, contributing to the tech department repo and specific product contributions (as relevant)
 
 #### Code review: 
