@@ -89,3 +89,10 @@ Of course this is just the tip of the ice berg. But it gives a a basic intro. Sp
 Use this. The official docs are nice.
 
 https://github.com/tschaub/mock-fs
+
+### Clieck events
+
+Sometimes you'll want to make sure that click events are fired as and when they shoud be. The following resources should help with that:
+
+- https://stackoverflow.com/questions/48872864/testing-for-click-event-with-jasmine/50375478
+- https://www.htmlgoodies.com/beyond/javascript/js-ref/testing-dom-events-using-jquery-and-jasmine-2.0.html
