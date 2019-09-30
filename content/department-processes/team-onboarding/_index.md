@@ -7,6 +7,12 @@ This is a guide to the Tech Department and how it works. It contains contact det
 
 ### General
 
+#### Ground Rules
+- Arrive before 9:00 and ensure you are up to date on recruit activities and any announcements you may have for stand-up
+- Don't be late for workshops - if you commit to doing a workshop ensure it happens and start on time.
+- Deep work days - Staff that need to are allowed to take work from home 1 day per week - The team needs to be notified in advance via slack with at least one day prior notice.
+- Your responsibilities are yours to handle - should you be unable to deal with one of them arrange someone to cover for you and ensure that it gets done.
+
 #### What recruits need to know
 Firstly, read through {{% contentlink "/department-processes/what-recruits-need-to-know/_index.md" %}}
 
@@ -14,18 +20,18 @@ Firstly, read through {{% contentlink "/department-processes/what-recruits-need-
 Find the tech repo with all (or at least most) curriculum documents, assignments, processes and deadlines here: https://umuzi-org.github.io/tech-department/
 
 #### Slack 
-Please check your slack messages regularly throughout the day (at least 3 times per day).
+Please check your slack messages first thing in the morning (before stand-up) and regularly throughout the day (at least 3 times per day).
 
 Channels to join:
 
- - tech-team - contains communication all management discussions for tech team
- - deadlines - communications on deadline setting and changes
- - surprise_and_invisible_work - reporting on and trying to track work that takes up time but is not widely known
- - tech-assist - helping with tech problems
- - umuzi_coders - all coders
- - umuzi_data - all data scientists
- - meetups-and-events - info about meetups etc that are happening
- - plus relevant cohort channels (e.g. c14-data, c13_data)
+ - #tech-team - contains communication all management discussions for tech team
+ - #deadlines - communications on deadline setting and changes
+ - #surprise_and_invisible_work - reporting on and trying to track work that takes up time but is not widely known
+ - #tech-assist - helping with tech problems
+ - #umuzi_coders - all coders
+ - #umuzi_data - all data scientists
+ - #meetups-and-events - info about meetups etc that are happening
+ - relevant cohort channels (e.g. c14-data, c13_data)
 
 ### Personnel: 
 #### Pay, Leave, Medical Aid, Computers
@@ -37,6 +43,11 @@ hloni.letuka@umuzi.org
 Sarah Lawson
 
 sarah.lawson@umuzi.org
+
+#### Leave Request Approval
+Sheena OConnell
+
+sheena.oconnell@umuzi.org
 
 
 #### Regular meetings: 
