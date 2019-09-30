@@ -299,7 +299,7 @@ Now you should see a little dropdown box on github that says "Branch: master". C
 5. Type in `touch README.md`. This creates a new blank file. Stage then commit.
 6. Go back to your  `git-basic-exercises` repo and use `git log` to check that you are in the right place and repo.
 
-### 
+### gitignore
 
 1. Create a new file `touch ignore-me.db`
 2. Now use `git status` to see what is going on in your repo, you will see ignore-me.bd as an unstaged file.
@@ -311,6 +311,16 @@ Now you should see a little dropdown box on github that says "Branch: master". C
 8. Use `cd ..` to go back to your main directory and `git status` to see what is going on, you should now see your new folder as an unstaged change.
 9. Lets add this folder to .gitignore `nano .gitignore` and add `/large-directory-that-should-be-local-only` on a new line, save and close .gitignore
 10. Check  `git status` again, .gitignore is going to be super useful later when you are submitting projects and need to keep your repos small and free from junk and irrelevant files.
+
+#### gitignore best practices
+
+You should always gitignore the items in the below list:
+
+ - secrets like passwords and keys
+ - databases
+ - pycache/
+ - node_modules/
+ - temporary files and editor settings files eg .vscode/
 
 ### Repo Best Practices
 
