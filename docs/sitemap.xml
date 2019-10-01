@@ -159,17 +159,17 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/oop-in-js/</loc>
-    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/git/version-control-and-scrum/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
     <loc>/tech-department/workshops/survey-design/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/agile-scrum/</loc>
+    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
@@ -186,6 +186,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/linux/advanced/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/agile-recap/</loc>
   </url>
   
@@ -195,7 +199,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/python-specific/search-and-sort/</loc>
+    <loc>/tech-department/depricated/search-and-sort/</loc>
   </url>
   
   <url>
@@ -207,7 +211,15 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/oop/bank_accounts/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/redux_intro/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/linux/beginner/</loc>
   </url>
   
   <url>
@@ -319,11 +331,15 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/portfolio-website/</loc>
+    <loc>/tech-department/projects/oop/dice/</loc>
   </url>
   
   <url>
     <loc>/tech-department/projects/distributed-workloads-with-zeromq/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/python-specific/django-migrations/</loc>
   </url>
   
   <url>
@@ -548,11 +564,27 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/oop-in-python/</loc>
+    <loc>/tech-department/projects/oop/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/oop-for-data-science/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/depricated/oop-in-python/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/department-processes/team-onboarding/</loc>
   </url>
   
   <url>
     <loc>/tech-department/makeumuzibetter/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/oop/person/</loc>
   </url>
   
   <url>

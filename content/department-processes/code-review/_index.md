@@ -26,7 +26,7 @@ The roles are as follows:
 
 ### junior reviewers:
 
-- performs first and possibly second review using[ the code review form](https://docs.google.com/forms/d/e/1FAIpQLSe1_aouHSds1Vx-FkWcq5gKyTxwzRylJMa_7ZDkA99M2aVbZg/viewform?usp=sf_link)
+- performs first and possibly second review using [the code review form](https://docs.google.com/forms/d/e/1FAIpQLScuQeCskMC7xTP1mU1CAbK0BOUqyMyLcNzX1ohRyJ_0_q019w/viewform?usp=sf_link)
 - explicitly alerts senior reviewer about any RED FLAGs immediately (send a message on slack)
 - if the reviewer is unhappy with the code but thinks that they can assist then they need to:
 - send the recruit a summary of the problems that need to be fixed and an expected time frame (eg: fix by the end of tomorrow)
