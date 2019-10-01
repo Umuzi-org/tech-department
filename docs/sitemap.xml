@@ -199,7 +199,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/python-specific/search-and-sort/</loc>
+    <loc>/tech-department/depricated/search-and-sort/</loc>
   </url>
   
   <url>
@@ -328,10 +328,6 @@
   <url>
     <loc>/tech-department/depricated/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tech-department/projects/portfolio-website/</loc>
   </url>
   
   <url>
@@ -572,7 +568,15 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/oop-in-python/</loc>
+    <loc>/tech-department/projects/oop-for-data-science/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/depricated/oop-in-python/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/department-processes/team-onboarding/</loc>
   </url>
   
   <url>
