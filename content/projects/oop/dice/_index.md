@@ -18,6 +18,8 @@ Create a class called `Die`. It should have an attribute named `sides`. `sides` 
 eg:
 
 ```
+// JavaScript
+
 let die6 = new Die(6)
 die6.roll()
 
@@ -26,6 +28,19 @@ die20.roll()
 
 console.log(die6.value) // this would print a number between 1 and 6 inclusive
 console.log(die20.value) // this would print a number between 1 and 20 inclusive
+```
+
+```
+# Python
+
+die6 = Die(6)
+die6.roll()
+
+die20 = new Die(20)
+die20.roll()
+
+print(die6.value) // this would print a number between 1 and 6 inclusive
+print(die20.value) // this would print a number between 1 and 20 inclusive
 ```
 
 ## Weighted Dice
@@ -50,6 +65,8 @@ If we roll this die 700 times then cances are we'll get 200 6s, and 100 of each 
 Extend the constructor of your class so that it has an optional parameter called `probabilities`. This would be an array of integers. The length of the array should be equal to the number of sides. If `probabilities` is left blank then the constructed `Die` instance should be fair.
 
 ```
+// JavaScript
+
 // looking at the data from the table above. this is how we would costruct the weighted die
 
 let dieDodgy6 = new Die(6,[1,1,1,1,1,2])
@@ -61,6 +78,22 @@ let die6 = new Die(6,[1,1,1,1,1,1])
 // this is equivalent to
 
 let die6 = new Die(6)
+```
+
+```
+# Python
+
+# looking at the data from the table above. this is how we would costruct the weighted die
+
+dieDodgy6 = Die(6,[1,1,1,1,1,2])
+
+# we can create a perfectly fair die like this
+
+die6 = Die(6,[1,1,1,1,1,1])
+
+# this is equivalent to
+
+die6 = Die(6)
 ```
 
 - If there are any negative numbers in the probabilities array then raise the error `negative probabilities not allowed`.
@@ -75,14 +108,24 @@ Add a function to your Die class called `setProbabilities`. This function should
 
 Dice are made in a factory. A factory can only make one kind of die. Eg there could be a factory that only makes 6 sided dice, and another factory that only makes 20 sided dice.
 
-Create a `DiceFactory` class. It should have a method called `makeDie` that outputs a single fair die instance
+Create a `DiceFactory` class. It should have a method called `makeDie`(js) or `make_die`(python) that outputs a single fair die instance
 
 eg:
 
 ```
-let factory20 = DiceFactory(20)
-let die20 = factory20.makeDie()
-let anotherDie20 = factory20.makeDie()
+// JavaScript
+
+let factory20 = new DiceFactory(20)
+let die20 = new factory20.makeDie()
+let anotherDie20 = new factory20.makeDie()
+```
+
+```
+# Python
+
+factory20 = DiceFactory(20)
+die20 = factory20.make_ie()
+anotherDie20 = factory20.make_die()
 ```
 
 This is a very somplified verion of the **factory design pattern**. Design patterns are cool you guys. Basically the idea behind this one is that some classes are hard to construct:

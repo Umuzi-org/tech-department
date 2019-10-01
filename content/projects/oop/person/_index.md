@@ -3,6 +3,8 @@ title: Person
 ready: true
 ---
 
+Please follow TDD when implementing this code.
+
 Create a `class` called `Person` which defines the generic data and functionality of a human.
 
 A class is a collection of attributes and functions. Different languages use different terminology for these things, but the bacic concepts are the same.
@@ -19,9 +21,19 @@ Give your `Person` class a `hello` function:
 Example usage:
 
 ```
+// JavaScript:
+
 let person = new Person('Ryan',30,'male',['being a hardarse','agile', 'ssd hard drives'] )
 let greeting = person.hello()
 console.log(greeting)
+```
+
+```
+# Python
+
+person = Person('Ryan',30,'male',['being a hardarse','agile', 'ssd hard drives'] )
+greeting = person.hello()
+print(greeting)
 ```
 
 This should output:

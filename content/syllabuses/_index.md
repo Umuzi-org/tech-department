@@ -227,12 +227,13 @@ The recruits finish off their portfolios. From this point forward they are expec
 - DATA_SCI
 
   - {{% contentlink "topics/python-specific/oop-for-python/" %}}
-  - {{% contentlink "projects/oop-in-python/" %}}
+  - {{% contentlink "projects/oop/" %}}
+  - {{% contentlink "projects/oop-for-data-science/" %}}
 
 - DATA_ENG
 
   - {{% contentlink "topics/python-specific/oop-for-python/" %}}
-  - {{% contentlink "projects/oop-in-python/" %}}
+  - {{% contentlink "projects/oop/" %}}
 
 - WEB_DEV
   - {{% contentlink "projects/oop/" %}}
