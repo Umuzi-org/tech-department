@@ -302,7 +302,6 @@ All recruits will do this
 
 - NCIT 16: Thinking like a machine / Boolean algebra, logic
 - NCIT 17: Search and sort techniques
-  - DATA_SCI: {{% contentlink "projects/python-specific/search-and-sort" %}}
 - NCIT 18: Agile project management
 - NCIT 19: Agile meetings
 - NCIT 20: Managing the Software Development Process
