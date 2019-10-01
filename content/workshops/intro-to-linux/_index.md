@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Linux: Live demo"
-ready: false
+ready: true
 todo:
   - "these all seem bad in different ways: Some aren't in depth, some go into too much detail on irrelevent things. Signal to noise ratio matters"
   - https://docs.google.com/presentation/d/1dhj1-p9Ufl4ilSy_Nu8sw-kuNVWkSvhp0dn5KGo9TyY
@@ -19,3 +19,9 @@ Linux Ubuntu or Mint will be demonstrated to the recruits. Demonstrate:
 - creating a file in the command line and visually seeing it come up in the gui
 - how to set up keyboard shortcuts
 - launching Python and Node from the command line
+
+## Prerequisites for speaker
+
+Whoever is doing ths workshop should be familiar with th excercises given to recruits. Questions will come up, you should be able to answer them.
+
+- {{% contentlink "projects/linux" %}}

@@ -90,7 +90,7 @@ Use this. The official docs are nice.
 
 https://github.com/tschaub/mock-fs
 
-### Clieck events
+### Click events
 
 Sometimes you'll want to make sure that click events are fired as and when they shoud be. The following resources should help with that:
 
