@@ -7,6 +7,12 @@ ready: true
 Implement the following function by following a TDD methodology:
 
 ```
+Javascript:
+passwordIsValid(password)
+```
+
+```
+Python:
 password_is_valid(password)
 ```
 
@@ -18,7 +24,19 @@ password_is_valid will check if the password meets a few different conditions. I
 4. password should have at least one uppercase letter
 5. password should at least have one digit
 
-Next, implement a function called `password_is_ok(password)`. If the given password meets at least three of the conditions listed above then this function should return true, otherwise it should return false.
+Next, implement a function called password is ok:
+
+```
+Javascript:
+passwordIsOk(password)
+```
+
+```
+Python:
+password_is_ok(password)
+```
+
+If the given password meets at least three of the conditions listed above then this function should return true, otherwise it should return false.
 
 Add a feature: the password is never OK if conditions 1 and 2 are not met.
 
