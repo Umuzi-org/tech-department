@@ -227,15 +227,16 @@ The recruits finish off their portfolios. From this point forward they are expec
 - DATA_SCI
 
   - {{% contentlink "topics/python-specific/oop-for-python/" %}}
-  - {{% contentlink "projects/oop-in-python/" %}}
+  - {{% contentlink "projects/oop/" %}}
+  - {{% contentlink "projects/oop-for-data-science/" %}}
 
 - DATA_ENG
 
   - {{% contentlink "topics/python-specific/oop-for-python/" %}}
-  - {{% contentlink "projects/oop-in-python/" %}}
+  - {{% contentlink "projects/oop/" %}}
 
 - WEB_DEV
-  - {{% contentlink "projects/oop-in-js/" %}}
+  - {{% contentlink "projects/oop/" %}}
   - {{% contentlink "workshops/node/" %}}
   - {{% contentlink "projects/nodejs/" %}}
   - {{% contentlink "topics/js-and-node-specific/introduction-to-node/" %}}
@@ -268,9 +269,8 @@ All recruits will do this
 - {{% contentlink "workshops/node-and-sql/" %}}
 - {{% contentlink "topics/python-specific/sql-and-python/" %}}
 - {{% contentlink "topics/data-validation-and-quality-control/" %}}
-
+- {{% contentlink "projects/sql/" %}}
 - NCIT 14: Database Development
-  - DATA_SCI: {{% contentlink "projects/sql/" %}}
 
 ## Week 18 & 19
 
@@ -296,13 +296,12 @@ All recruits will do this
 
 - ALL:
 
-  - {{% contentlink "workshops/intro-to-agile/" %}}
+  - {{% contentlink "topics/agile-scrum" %}}
   - {{% contentlink "workshops/agile-scrum/" %}}
   - {{% contentlink "topics/optimizations-and-big-o/" %}}
 
 - NCIT 16: Thinking like a machine / Boolean algebra, logic
 - NCIT 17: Search and sort techniques
-  - DATA_SCI: {{% contentlink "projects/python-specific/search-and-sort" %}}
 - NCIT 18: Agile project management
 - NCIT 19: Agile meetings
 - NCIT 20: Managing the Software Development Process
@@ -353,7 +352,7 @@ ALL:
 - DATA_SCI:
   - {{% contentlink "projects/data-science-specific/logistic-regression" %}}
 - DATA_ENG:
-  - {{% contentlink "topics/python-specific/sqlalchemy-and-alembic" %}}
+  - {{% contentlink "projects/python-specific/django-migrations" %}}
 - WEB_DEV:
   - {{% contentlink "workshops/nodejs-intro-to-socketio/" %}}
   - {{% contentlink "workshops/nodejs-async-vs-sync" %}}
