@@ -2,9 +2,7 @@
 title: Introduction to CSS
 ---
 
-# Readings
+## Readings
 
-1. [State of the art in CSS: a closer look at CSS architecture systems](https://medium.com/openmindonline/state-of-the-art-in-css-a-closer-look-at-css-architecture-systems-544339a6c625)
-2. [CSS Architecture and the Three Pillars of Maintainable CSS](https://www.sitepoint.com/css-architecture-and-the-three-pillars-of-maintainable-css/)
-
-3. [How to Organize Your CSS with a Modular Architecture (OOCSS, BEM, SMACSS)](https://snipcart.com/blog/organize-css-modular-architecture)
+1. [A developer's guide to web design for non-designers](https://www.freecodecamp.org/news/a-developers-guide-to-web-design-for-non-designers-1f64ce28c38d/)
+1. [7 principles of design for coders](https://learntocodewith.me/posts/7-principles-of-design/)
