@@ -1,5 +1,5 @@
 ---
-title: Node 
+title: Node
 ---
 
 ## Introduction (slides)
@@ -8,4 +8,6 @@ title: Node
 
 - [Asynchronous vs Synchronous](https://docs.google.com/presentation/d/19ppsjmkKAvJcasK_BnjptTUfF4KQwaInDKVkhK1b6vA/edit?usp=sharing)
 
-## Challenges 
+## Pre-workshop readings
+
+1. [Understanding the basics of Node.js](https://medium.com/prod-io/understanding-the-basics-of-node-js-99e01c5d844f)
