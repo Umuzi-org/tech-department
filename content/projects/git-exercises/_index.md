@@ -324,7 +324,8 @@ You should always gitignore the items in the below list:
 
 ### Repo Best Practices
 
-Your repo names should be all of the following:
+Your repo should be all of the following:
+
 1. Files and folders in your repo should be named appropriately.
 2. Use names that make sense and relate to your projects i.e. simple-calculator
 3. Each project should be in its own repo
