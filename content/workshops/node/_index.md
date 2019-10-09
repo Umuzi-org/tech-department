@@ -1,13 +1,18 @@
 ---
 title: Node
+ready: true
 ---
 
-## Introduction (slides)
+## Introduction
 
-- [Introduction to Node](https://docs.google.com/presentation/d/1dtrsWOWjoA9A9nTmznCkdYz0oRK6O76jXRINp0tzjrQ/edit?usp=sharing)
+The followings are to be discussed, demonstrated and addressed during the workshop
 
-- [Asynchronous vs Synchronous](https://docs.google.com/presentation/d/19ppsjmkKAvJcasK_BnjptTUfF4KQwaInDKVkhK1b6vA/edit?usp=sharing)
+1. What is Node.js
+2. Why Node js
+3. Node installation process
+4. NPM vs NPM
+5. Asynchronous vs Synchronous
 
-## Pre-workshop readings
+## Resources
 
 1. [Understanding the basics of Node.js](https://medium.com/prod-io/understanding-the-basics-of-node-js-99e01c5d844f)

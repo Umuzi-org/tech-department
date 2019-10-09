@@ -9,7 +9,7 @@ ready: true
 >
 > - the day they are born and the day they discover why.
 
-The follow are to be demonstrate/addressed during the workshop
+The follow are to be demonstrated and addressed during the workshop
 
 ### Principles of design
 
