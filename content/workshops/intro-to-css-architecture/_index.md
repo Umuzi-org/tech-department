@@ -1,5 +1,6 @@
 ---
 title: Intro to CSS architecture
+ready: true
 ---
 
 ## Pre-workshop readings
