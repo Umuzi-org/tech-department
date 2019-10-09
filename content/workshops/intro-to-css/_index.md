@@ -30,7 +30,7 @@ The follow are to be demonstrate/addressed during the workshop
 
 ## CSS foundation
 
-The follow are to be demonstrate/addressed during the workshop
+The followings are to be demonstrate/addressed during the workshop
 
 1. Inline CSS
 2. Internal CSS
