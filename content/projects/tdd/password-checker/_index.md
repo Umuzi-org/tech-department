@@ -20,7 +20,7 @@ password_is_valid will check if the password meets a few different conditions. I
 
 1. password should exist
 2. password should be longer than than 8 characters
-3. password should have at least have one lowercase letter
+3. password should have at least one lowercase letter
 4. password should have at least one uppercase letter
 5. password should at least have one digit
 
