@@ -119,11 +119,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/workshops/agile-scrum/</loc>
-    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tech-department/workshops/git-for-teamwork/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
@@ -191,6 +186,10 @@
   
   <url>
     <loc>/tech-department/workshops/agile-recap/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/agile-scrum/</loc>
   </url>
   
   <url>
@@ -348,6 +347,14 @@
   
   <url>
     <loc>/tech-department/projects/expose-a-simple-rest-api-for-game/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/express-js/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/express-js/</loc>
   </url>
   
   <url>
