@@ -5,7 +5,7 @@ ready: true
 
 # Common TDD pitfalls.
 
-- Write tests. Recruits in the past have done the mistake of not writing tests for TDD assignments, make sure you avoid this weird mistake. always write tests for your TDD projects.
+- **Write tests**. Recruits in the past have done the mistake of not writing tests for TDD assignments, make sure you avoid this weird mistake. always write tests for your TDD projects.
 - Write your tests before you write your code (Red, Green, refactor).
 - Please make sure you understand .gitignore, please don't add your node_modules to git
 - name your files according to what is inside them. E.g. if you have a file called add.js that only contains a multiply function then something is wrong. Do this:
@@ -26,9 +26,6 @@ function add(***){
 }
 ```
 - Good code makes it's intentions clear. Good code is never misleading or surprising.
-- make sure you've tested every possible outcome(including exceptions) of the program, this ensures your program doesn't break because of the user's input, that is purpose of testing after all.
-  - **Python**: test exceptions with [pytest](http://doc.pytest.org/en/latest/assert.html#assertions-about-expected-exceptions)
-  - **Javascript**: test exceptions in [Jasmine](https://ajsblackbelt.wordpress.com/2014/05/18/jasmine-tests-expect-tothrow/)
 
 - You can't define test case(function) inside a function.
 
@@ -79,7 +76,7 @@ Do not do this:
 ```
 Do this instead:
 ```py
-
+# test add function.
 class TestAdd():
   """docstring for TestAdd"""
 
@@ -90,6 +87,7 @@ class TestAdd():
     assert add("1,2,3,4,5,6") == 21
     assert add("2,3,4,5") == 14
 
+# test multiply function.
 class TestMultiply():
   """docstring for TestMultiply"""
 
@@ -101,9 +99,6 @@ class TestMultiply():
     assert multiply("1,2,4") == 8
     assert multiply("3,5,2") == 30
 ```
-
-
-
 
 **Javascript example:**
 
@@ -139,6 +134,9 @@ Do this:
   })
 ```
 ---
+- Javascript: Test strings are there to be descriptive:
+  - eg: `it("should be able to multiply negative numbers")`
+
 
 ### Some useful Readings
   1. [Common mistakes in TDD](https://cmatskas.com/common-mistakes-in-tdd/)

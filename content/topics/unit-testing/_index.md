@@ -24,3 +24,16 @@ This is a list of most common TDD pitfalls to be aware of:
   - Naming conventions: in general, be careful with your naming conventions. make sure your naming convention consistent, names should be more descriptive.
   - Keep good directory structure and delete all junk files.
   - Avoid messy indentation (install prettier).
+  - your tests need to use:
+
+      Javascript:
+      ```js
+      expect(...).toThrow()
+      ```
+
+      Python:
+      ```py
+      with pytest.raises(ErrorType)...
+      ```
+
+  -  
