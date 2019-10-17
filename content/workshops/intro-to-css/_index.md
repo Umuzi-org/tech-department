@@ -11,23 +11,6 @@ ready: true
 
 The follow are to be demonstrated and addressed during the workshop
 
-### Principles of design
-
-1.  Contrasts
-2.  Balance
-3.  Typography
-4.  Hierarchy
-5.  Repetition
-6.  Harmony
-7.  Color theory
-
-### Resources
-
-1.  [design-101-for-developers](https://academy.realm.io/posts/christopher-downer-design-101-for-developers/)
-2.  [Design Basics for Developers](https://medium.com/hackers-guild/design-basics-for-developers-c3cf20445031)
-3.  [A developer's guide to web design for non-designers](https://www.freecodecamp.org/news/a-developers-guide-to-web-design-for-non-designers-1f64ce28c38d/)
-4.  [7 principles of design for coders](https://learntocodewith.me/posts/7-principles-of-design/)
-
 ## CSS foundation
 
 The followings are to be demonstrate/addressed during the workshop

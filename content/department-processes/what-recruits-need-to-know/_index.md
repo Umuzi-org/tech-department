@@ -30,7 +30,7 @@ This is how we begin our day, announcements are shared and we discuss anything t
 
 _handled by Tech Facilitators_
 
-This is a daily compulsary after lunch event. There are a variety of events we will be doing with you in orer to improve your coding, interpersonal and presentation skills . There is a [Schedule] (https://docs.google.com/spreadsheets/d/1Ue5vfIjtCpqgIEp_Va9kurBm9khQ4oVE4Nf4DgSFpq4/edit#gid=0) that specifies who will present on which day.
+This is a daily compulsary after lunch event. There are a variety of events we will be doing with you in orer to improve your coding, interpersonal and presentation skills . There is a [Schedule](https://docs.google.com/spreadsheets/d/1Ue5vfIjtCpqgIEp_Va9kurBm9khQ4oVE4Nf4DgSFpq4/edit#gid=0) that specifies who will present on which day.
 
 - Everyday after lunch at 13:30
 
@@ -82,43 +82,49 @@ The material and assessments are found on [Gnomio](http://umuzi.gnomio.com/). Th
 - [Coding & Data Programme Outline](https://docs.google.com/spreadsheets/d/14SsiRw8sit3-IvzpntINicIWd4MG1CDOxbv14Ypsmpw)
   This spreadsheet is the source of truth, make sure to check it regularly. The tech staff updates the spreadsheet once per week, usually on Monday afternoon.
 
-- [Deadline Calendar](umuzi.org_7m7vp9t53enli7a5n83m9gi9co@group.calendar.google.com)
+- [Deadline Calendar](https://calendar.google.com/calendar/b/3?cid=dW11emkub3JnXzdtN3ZwOXQ1M2VubGk3YTVuODNtOWdpOWNvQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
   This is where every date for submission is posted. It corresponds with the dates that are in the Program Outline.
 
-- [Tech Events Calendar](umuzi.org_1utk59bnsdj03id27g9sdbfoa0@group.calendar.google.com)
+- [Tech Events Calendar](https://calendar.google.com/calendar/b/3?cid=dW11emkub3JnXzF1dGs1OWJuc2RqMDNpZDI3ZzlzZGJmb2EwQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
   That all tech events are scheduled on. This is where yu will find dates for Workshops, Talks and Meetups. Check this everyday.
 
 - [Leave Request Form](https://docs.google.com/forms/d/e/1FAIpQLSdRy444hA3WR4Vul4nTXOuC0x9ZuA3TFBaB8aA-PPMDCeQN8g/viewform?usp=sf_link) This is to be completed for any leave requested or taken.
 
-- [Disciplinary Policy](https://umuzi.gnomio.com/pluginfile.php/2134/mod_resource/content/1/Umuzi_Disciplinary%20Procedure.pdf) | [Code Of Conduct] (https://umuzi.gnomio.com/pluginfile.php/2176/mod_resource/content/1/Umuzi%20Code%20of%20Conduct_December%202018.pdf) | [Sexual Harassment Policy] (https://umuzi.gnomio.com/pluginfile.php/2304/mod_resource/content/1/Sexual%20Harassment%20Policy.pdf) These are  the Umuzi  policies please read through them and familiarise yourseld with them.
+- [Disciplinary Policy](https://umuzi.gnomio.com/pluginfile.php/2134/mod_resource/content/1/Umuzi_Disciplinary%20Procedure.pdf) | [Code Of Conduct](https://umuzi.gnomio.com/pluginfile.php/2176/mod_resource/content/1/Umuzi%20Code%20of%20Conduct_December%202018.pdf) | [Sexual Harassment Policy](https://umuzi.gnomio.com/pluginfile.php/2304/mod_resource/content/1/Sexual%20Harassment%20Policy.pdf) These are the Umuzi policies please read through them and familiarise yourseld with them.
 
 - [Leave Policy](link to be inserted) [TODO]
 
 If you have any queries, these are the people to contact:
 
 ##### Tech/Curriculum Questions
- - Kii, Singi, Tshepo, Makakole, Johan
+
+- Kii, Singi, Tshepo, Makakole, Johan
 
 ##### NCIT
- - Ryan
+
+- Ryan
 
 ##### Password Management
- - Tshepo
 
-##### Databases, Surveys, Recruit(ment) Data 
- - Sheena
+- Tshepo
+
+##### Databases, Surveys, Recruit(ment) Data
+
+- Sheena
 
 ##### CV Builder
- - Dibwe
+
+- Dibwe
 
 ##### Recruitment Portal
- - Sheena
+
+- Sheena
 
 ### Junior Tech Facilitators
 
 **Scrum Masters**
 
-- @Kii - Mhlanganisi Kii Gxobole - mhlanganisi.gxobole@umuzi.org 
+- @Kii - Mhlanganisi Kii Gxobole - mhlanganisi.gxobole@umuzi.org
 - @Tshepo - Tshepo Modise - tshepo.modise@umuzi.org
 
 **Web Development:**
