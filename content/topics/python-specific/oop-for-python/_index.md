@@ -1,5 +1,6 @@
 ---
 title: Intro OOP(Object-oriented Programming) for Python
+ready: True
 ---
 
 This is a reading presentation of Object-oriented Programming (OOP) for Python.

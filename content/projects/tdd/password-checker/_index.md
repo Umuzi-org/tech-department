@@ -7,12 +7,12 @@ ready: true
 Implement the following function by following a TDD methodology:
 
 ```
-Javascript:
+// Javascript:
 passwordIsValid(password)
 ```
 
 ```
-Python:
+# Python:
 password_is_valid(password)
 ```
 
@@ -23,6 +23,9 @@ password_is_valid will check if the password meets a few different conditions. I
 3. password should have at least one lowercase letter
 4. password should have at least one uppercase letter
 5. password should at least have one digit
+6. password should have at least one special character
+
+In the case of (6) above, a special character is a character that is on the keyboard but is not a number or letter. Eg `{ % & * " '` etc
 
 Next, implement a function called password is ok:
 

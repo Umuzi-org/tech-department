@@ -14,7 +14,7 @@ This is a guide to the Tech Department and how it works. It contains contact det
 - Your responsibilities are yours to handle - should you be unable to deal with one of them arrange someone to cover for you and ensure that it gets done.
 
 #### What recruits need to know
-Firstly, read through {{% contentlink "/department-processes/what-recruits-need-to-know/_index.md" %}}
+Firstly, read through {{% contentlink "/department-processes/what-recruits-need-to-know/" %}}
 
 #### Syllabus
 Find the tech repo with all (or at least most) curriculum documents, assignments, processes and deadlines here: https://umuzi-org.github.io/tech-department/
