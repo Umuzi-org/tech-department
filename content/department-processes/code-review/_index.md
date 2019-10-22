@@ -2,6 +2,29 @@
 title: code review process
 ---
 
+## General Process
+
+1. Recruits get given some project instructions. Like this: {{% contentlink "projects/tdd/simple-calculator-part1" %}}
+2. You'll notice there is a link at the top of the project instructions. Peeps follow that link to submit their work
+3. The code submissions show up in a [https://docs.google.com/spreadsheets/d/1jIWBgfh4PbZU0KpBQi_hTjSFK74CRkTQtoEcvJ1V0uA/edit#gid=2104739812&fvid=1123262740](Google sheet). This is stored on the Tech Dept Drive, send a message on the tech-team channel if you don't have access
+4. You'll notice if you scroll to the left there is a column entitled "INITIAL REVIEWER", if you are intending to review someone's code then you need to put your name in this column
+5. To review the code you need to make sure you understand the project instructions, clone the code, make sure it works, make sure the tests cover everything they should cover, and comment on things like good coding practices. We are currently working on some automations around this stuff but for now that's what needs to happen
+6. If you are unsure about what kind of code quality we are looking for, take a look here for some ideal answers: https://github.com/Umuzi-org/automark-project-config Look at the PRs as well, there's a lot of good stuff there. If you need assistance you can ask for help on the tech-team channel and someone will jump in.
+7. Now fill this in with comments about the code review: [Code review google form] (https://docs.google.com/forms/d/e/1FAIpQLScuQeCskMC7xTP1mU1CAbK0BOUqyMyLcNzX1ohRyJ_0_q019w/viewform)
+8. Communicate with effected parties. Tell the recruit your feedback. If there is a RED FLAG and you need some help dealing with this recruit then let us know on the tech-team channel.
+
+The projects that are worth reviewing first are these (in order).
+
+- {{% contentlink "projects/tdd/simple-calculator-part1" %}}
+- {{% contentlink "projects/tdd/password-checker" %}}
+- {{% contentlink "projects/tdd/string-calculator" %}}
+- {{% contentlink "projects/tdd/simple-calculator-part2" %}}
+- {{% contentlink "projects/oop/person" %}}
+- {{% contentlink "projects/oop/dice" %}}
+- {{% contentlink "projects/oop/bank_accounts" %}}
+
+Also, be a perfectionist. We want our recruits to write beautiful code
+
 ## Goals
 
 We have a few goals for code review:
@@ -26,7 +49,7 @@ The roles are as follows:
 
 ### junior reviewers:
 
-- performs first and possibly second review using [the code review form](https://docs.google.com/forms/d/e/1FAIpQLScuQeCskMC7xTP1mU1CAbK0BOUqyMyLcNzX1ohRyJ_0_q019w/viewform?usp=sf_link)
+- performs first and possibly second review completing the code review form listed above under general process.
 - explicitly alerts senior reviewer about any RED FLAGs immediately (send a message on slack)
 - if the reviewer is unhappy with the code but thinks that they can assist then they need to:
 - send the recruit a summary of the problems that need to be fixed and an expected time frame (eg: fix by the end of tomorrow)
