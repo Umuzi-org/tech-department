@@ -9,4 +9,4 @@ Automate your data analysis testing (Stephen Childs) https://www.youtube.com/wat
 
 https://penandpants.com/2014/10/07/testing-with-numpy-and-pandas/
 
-For examples on how to use Unit tests in Python for Data Science https://www.datacamp.com/courses/unit-testing-for-data-science-in-python
+Datacamp course covering the use of Unit tests in Python for Data Science https://www.datacamp.com/courses/unit-testing-for-data-science-in-python
