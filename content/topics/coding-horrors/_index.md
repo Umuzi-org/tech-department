@@ -4,12 +4,13 @@ ready: true
 ---
 
 # Common TDD pitfalls.
+These are all the most common TDD problems recruits tend to come across, read and make sure you didn't make any of these or any mistakes at all.
 
 - **Write tests**. Recruits in the past have done the mistake of not writing tests for TDD assignments, make sure you avoid this weird mistake. always write tests for your TDD projects.
-- Write your tests before you write your code (Red, Green, refactor).
-- Please make sure you understand .gitignore, please don't add your node_modules to git
-- name your files according to what is inside them. E.g. if you have a file called add.js that only contains a multiply function then something is wrong. Do this:
+- No code in your TDD file, This is a repetition of the first point, but it's worth it. write tests people.
+- Files naming convention, name your files properly and according to what's inside them. E.g. if you have a file called add.js that only contains a multiply function then something is wrong. Do this:
 <!-- examples -->
+
 **Python**:
 
 `add.py`
@@ -25,9 +26,8 @@ function add(***){
   // operations
 }
 ```
-- Good code makes it's intentions clear. Good code is never misleading or surprising.
 
-- You can't define test case(function) inside a function.
+- Defining a test case(testing function) inside a function. That will pass, even when it's supposed to fail.
 
 ---
 **Python example:**
@@ -135,7 +135,66 @@ Do this:
 ```
 ---
 - Javascript: Test strings are there to be descriptive:
-  - eg: `it("should be able to multiply negative numbers")`
+  - eg:
+      Do: `it("should be able to multiply negative numbers")`
+      Don't: `it("multiply")`
+- Incomplete projects:
+  - This is not a very good look for you, to both us, your assessors, and your report. Imagine how an incomplete project looks to an employer. BAD! is the word. If you do not  have tests, for your TDD project, then your project is incomplete.
+
+- TDD tests fail:
+  - Failing tests aren't bad during development, but make sure your **all** tests pass when you submit your project.
+
+- Errors/Exceptions:
+  - You should always make sure you test for possible errors/exceptions in your code.
+
+- Documentation on how to setup and test the code:
+  - Make use of md files, collaborators shouldn't guess/remember how to setup all the dependencies for your project, document all the necessary processes please.
+
+- Clean code base. Need I say more?
+
+  1. Dirty.
+
+    Javascript:
+
+    ```js
+      // Testing if the Error Checks throw
+      //var sixSided = new Dice(6,[1,"gdfdf"]);
+      var sixSided = new Dice(6,[1,6,5,-16]);
+      //console.log(sixSided.rollDice());
+    ```
+
+    Python:
+
+    ```py
+      # I was thinnking about This
+      # Then I did this but it didn't work. so I left
+      # And then, it came to me, eureka!
+      die6 = Dice(6)
+      # Since it works, there's no need to clean it.
+    ```
+
+
+  2. Clean.
+
+      Javascript:
+
+      ```js
+        var sixSided = new Dice(6,[1,6,5,-16]);
+      ```
+
+      Python:
+
+      ```py
+        die6 = Dice(6)
+      ```
+
+  Remove useless stuff, it serves no purpose. so get rid of it.
+
+- One test: writing one test to test everything is a bad idea, you need to separate it into multiple tests that test one and thing only.
+
+- 
+
+
 
 
 ### Some useful Readings

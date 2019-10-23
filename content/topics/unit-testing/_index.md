@@ -14,7 +14,10 @@ If you are actually doing JS then it's worth watching the rest of this series of
 
 This is a list of most common TDD pitfalls to be aware of:
 
-  - Avoid writing tests after writing your code.
+  - Write your tests before you write your code (Red, Green, refactor).
+  - Please make sure you understand .gitignore, please don't add your node_modules to git.
+  - Name your files according to what is inside them
+  - Good code makes it's intentions clear. Good code is never misleading or surprising.
   - Avoid making tests depend on each other, either explicitly or implicitly. Dependencies among tests are a path to pain, expense, fragility, and complication.
   - Make each test express its intent very clearly.
   - Pay attention to failure messages. Make each failure message as helpful for diagnosis as you can.
@@ -24,7 +27,7 @@ This is a list of most common TDD pitfalls to be aware of:
   - Naming conventions: in general, be careful with your naming conventions. make sure your naming convention consistent, names should be more descriptive.
   - Keep good directory structure and delete all junk files.
   - Avoid messy indentation (install prettier).
-  - your tests need to use:
+  - Test for errors/exception, to do that your tests need to use:
 
       Javascript:
       ```js
