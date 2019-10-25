@@ -1,18 +1,3 @@
----
-title: Java Dev environment setup
-ready: true
----
-
-In this little tutorial we'll walk through the process of getting your dev environment ready for Java. We use a number of different tools, you'll need to get them all set up.
-
-## VSCode
-
-This might be the world's most popular code editor. It's very good at a lot of different things.
-
-Install VSCode from [here](https://code.visualstudio.com/download).
-
-VSCode has a mighty ecosystem of useful plugins. Install the Java Extension Pack. You can find more information [here](https://code.visualstudio.com/docs/languages/java).
-
 ## Gradle
 
 Next up we'll be using Gradle as a build tool. If that sentence doesn't make too much sense right now, don't worry too much. All will become clear.

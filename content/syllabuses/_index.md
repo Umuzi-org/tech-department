@@ -83,8 +83,8 @@ Recruits learn a bit about how to build an online presence. Recruits submit thei
 
 - JAVA:
 
-  - {{% contentlink "topics/java-dev-environment-setup"%}}
-  - {{% contentlink "topics/java-self-learning" %}}
+  - {{% contentlink "topics/java-specific/java-dev-environment-setup"%}}
+  - {{% contentlink "topics/java-specific/java-self-learning" %}}
 
 - WEB_DEV:
   - {{% contentlink "topics/web-dev-self-learning" %}}
