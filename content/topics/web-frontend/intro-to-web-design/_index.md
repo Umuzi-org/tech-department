@@ -35,11 +35,10 @@ These links will teach you the basics
 
 ## Accessibility
 
-- https://www.w3.org/WAI/fundamentals/accessibility-intro/
-
 - [A developer's guide to web design for non-designers](https://www.freecodecamp.org/news/a-developers-guide-to-web-design-for-non-designers-1f64ce28c38d/)
-- [7 principles of design for coders](https://learntocodewith.me/posts/7-principles-of-design/)
 
-### Principles of design
+## Principles of design
 
 - [design-101-for-developers](https://academy.realm.io/posts/christopher-downer-design-101-for-developers/)
+- [7 principles of design for coders](https://learntocodewith.me/posts/7-principles-of-design/)
+- https://www.w3.org/WAI/fundamentals/accessibility-intro/

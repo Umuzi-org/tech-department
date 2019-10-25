@@ -3,7 +3,7 @@ title: Introduction to CSS
 ready: true
 ---
 
-## Design basics
+## Intro to CSS
 
 > There are two great days in a person's life
 >
