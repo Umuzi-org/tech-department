@@ -8,7 +8,7 @@ Expose a simple TODO list api using Django. Take a look at this first:
 - https://simpleisbetterthancomplex.com/series/beginners-guide/1.11/
 - https://realpython.com/django-migrations-a-primer/
 
-This is about apis. Please dont make a pretty frontend. Or even an ugly frontend. Just expose an api.
+This is about apis. Please don't make a pretty frontend. Or even an ugly frontend. Just expose an api.
 
 Here is what you need to do:
 
