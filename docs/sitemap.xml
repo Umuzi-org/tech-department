@@ -173,6 +173,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/java-specific/gradle-setup/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/apis/basics/</loc>
   </url>
   
@@ -510,6 +514,18 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/java-specific/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/java-dev-environment-setup/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/java-self-learning/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/js-and-node-specific/template-engines/</loc>
   </url>
   
@@ -596,6 +612,10 @@
   
   <url>
     <loc>/tech-department/projects/python-specific/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-self-learning/</loc>
   </url>
   
   <url>
@@ -690,6 +710,10 @@
   
   <url>
     <loc>/tech-department/topics/python-specific/virtual-envs/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/web-dev-self-learning/</loc>
   </url>
   
   <url>
