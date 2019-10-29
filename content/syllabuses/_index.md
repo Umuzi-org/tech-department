@@ -63,9 +63,8 @@ In this week, everyone gets to know their way around linux.
   - Introduction to NCIT curriculum
   - {{% contentlink "workshops/intro-to-linux" %}}
   - {{% contentlink "topics/linux/intro-to-linux" %}}
-  - {{% contentlink "projects/linux" %}} INTRO
+  - {{% contentlink "projects/linux/beginner" %}}
   - {{% contentlink "topics/linux/intro-to-bash" %}}
-  - {{% contentlink "topics/clean-code" %}}
 
 ## Week 2: Git and personal portfolio
 
@@ -79,6 +78,7 @@ Recruits learn a bit about how to build an online presence. Recruits submit thei
   - {{% contentlink "workshops/intro-to-css-architecture" %}}
   - {{% contentlink "workshops/what-to-put-on-a-cv" %}}
   - {{% contentlink "projects/first-personal-website" %}} - Introduction
+  - {{% contentlink "topics/clean-code" %}}
   - NCIT 04: Version control (GIT) for teamwork
 
 - JAVA:
