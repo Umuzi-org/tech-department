@@ -49,7 +49,7 @@ ARRAY=[1,2,3,4,5,6]
 
 #### &nbsp; Usage
 
-- Create a .js file and start using the module
+- You can access your configuration from your code like this.
 ```
 //index.js
 
