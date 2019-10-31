@@ -1,5 +1,5 @@
 ---
-title: Coding Horrors
+title: TDD Horrors
 ready: true
 ---
 
@@ -42,7 +42,7 @@ def testOne():
     assert add("1,23,5") == 29
 
 ```
-instead you should put your tests into classes as methods, like so:
+instead you could put your tests into classes as methods, like so:
 
 ```py
 class TestOne():
@@ -55,6 +55,18 @@ class TestOne():
 
 ```
 notice **def** keyword in the first cell is replaced with the **class** keyword in the second cell, this difference makes a major difference. The first case would **pass** as a single test, even though it contains two test cases and one of them must fail, in contrary the second case would run both tests, the first one would fail and the second one would pass.
+*Note:*
+Although it's not necessary to put stuff inside classes. One nice thing about the `pytest` module is that it removes the need for boilerplate code. so the following code would also work:
+```py
+  from module import add
+
+  # tests start here.
+  def test_add_two_values():
+    assert add(1,2) == 3
+
+  def test_add_multiple_values():
+    assert add(1,2,3,4) == 10
+```
 
 ---
 
@@ -192,7 +204,6 @@ Do this:
 
 - One test: writing one test to test everything is a bad idea, you need to separate it into multiple tests that test one and thing only.
 
-- 
 
 
 

@@ -39,4 +39,4 @@ This is a list of most common TDD pitfalls to be aware of:
       with pytest.raises(ErrorType)...
       ```
 
-  -  
+  
