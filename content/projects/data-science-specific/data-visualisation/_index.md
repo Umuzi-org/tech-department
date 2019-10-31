@@ -5,23 +5,20 @@ ready: True
 
 ## Tutorials
 
-__Compulsory__: Go through the DataCamp course [Introduction to Data Visualisation with
+**Compulsory**: Go through the DataCamp course [Introduction to Data Visualisation with
 Python](https://www.datacamp.com/courses/introduction-to-data-visualization-with-python).
 
-__Optional__: Complete Kaggle's [Data Visualisation: From Non-Coder to Coder](https://www.kaggle.com/learn/data-visualization-from-non-coder-to-coder)
+**Optional**: Complete Kaggle's [Data Visualisation: From Non-Coder to Coder](https://www.kaggle.com/learn/data-visualization-from-non-coder-to-coder)
 
 
 ## Assignment 1
 Once you have completed the course, complete the DataCamp project
 [Exploring the Evolution of Linux](https://www.datacamp.com/projects/111).  
 
-## Assignment 2
-Complete the data visualisation assignment on [Financial Services Use in Tanzania](https://github.com/midnight22/Mobile-money)
+## Assignment 2: 
+Complete the data visualisation assignment on Financial Services Use in Tanzania
 
-# Zindi Mobile Money and Financial Inclusion in Tanzania challenge
-
-
-The train dataset contains demographic information and what financial services are used by approximately 10,000 individuals across Tanzania. This data was extracted from the FSDT Finscope 2017 survey and prepared specifically for this challenge. More about the Finscope survey here.
+The [training](training.csv) dataset contains demographic information and what financial services are used by approximately 10,000 individuals across Tanzania. This data was extracted from the FSDT Finscope 2017 survey and prepared specifically for this challenge. A more detailed description of variables from the Finscope survey are explained in the [Variable Codebook](Variable_Codebook.docx).
 
 Each individual is classified into four mutually exclusive categories:
 
@@ -29,7 +26,6 @@ Each individual is classified into four mutually exclusive categories:
 - Other_only: Individuals who do not use mobile money, but do use at least one of the other financial services (savings, credit, insurance)
 - Mm_only: Individuals who use mobile money only
 - Mm_plus: Individuals who use mobile money and also use at least one of the other financial services (savings, credit, insurance)
-Financial Access Map
 
 This dataset is the geospatial mapping of all cash outlets in Tanzania in 2012. Cash outlets in this case included commercial banks, community banks, ATMs, microfinance institutions, mobile money agents, bus stations and post offices. This data was collected by FSDT. 
 
@@ -44,13 +40,11 @@ This dataset is the geospatial mapping of all cash outlets in Tanzania in 2012. 
 
 4. Create appropriate graphs to visually represent the relationship between how often mobile services are used and age, gender, marital status, land ownership and type of income.
 
-5. Create a map to visually explore geographic distribution of mobile services coverage with respect to type of income in comparison to gender and  marital status.
+5. Create a map to visually explore geographic distribution of mobile services coverage with respect to type of income.
 
-6. What can you conclude about use of financial services in Tanzania? Which demographic factors are associated with mobile money use?
+6. What can you conclude about use of financial services in Tanzania? Which demographic and geographic factors are associated with mobile money use?
 
 **Advanced**: [Here](https://kyso.io/KyleOS/cufflinks-intro?utm_campaign=News&utm_medium=Community&utm_source=DataCamp.com%20add%20to%20curriculum%20visualisation) is a great walk-through of different types of plots in [Plotly](https://plot.ly/python/) with [Cufflinks](https://plot.ly/ipython-notebooks/cufflinks/).
 
 ### Submission
 Create a repo on Github to complete this assignment. Start a new notebook and commit your notebook changes to Github. Once you are done, create an html report from the notebook.
-
-## References
