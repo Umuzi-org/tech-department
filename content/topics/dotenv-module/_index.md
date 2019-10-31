@@ -6,7 +6,9 @@ ready: true
 
 ## What is an environment variable?
 
-An [environment variable](https://en.wikipedia.org/wiki/Environment_variable) is a variable whose value is set outside the program, typically through functionality built into the operating system or microservice. An environment variable is made up of a name/value pair, and any number may be created and available for reference at a point in time.
+An [environment variable](https://en.wikipedia.org/wiki/Environment_variable) is a variable whose value is set outside the program, typically through functionality built into the operating system or [container](https://www.docker.com/resources/what-container). An environment variable is made up of a name/value pair, and any number may be created and available for reference at a point in time.
+
+For a more in-depth description of environmental variables, take a look at this: {{% contentlink "topics/linux/os-environmental-variables/" %}}
 
 ```
 //example 
@@ -16,28 +18,8 @@ NAME_OF_PLACE=Umuzi
 
 ## How does dotenv help you?
 
-Using environment variables is one technique to make your app easier to configure by separating infrequently changing data from your code. [Dotenv](https://www.npmjs.com/package/dotenv) module loads environment variables from a .env file that you create and adds them to the [process.env](https://nodejs.org/docs/latest/api/process.html#process_process_env) object that is made available to the application
+Using environment variables is one technique to make your app easier to configure by separating infrequently changing data from your code. A strict separation of config from code means we can change config (which there's a small amount of, and it doesn't need to take much time) without needing to change any code and recompile (which can be big and slow). This makes for a portable app as you can have different configurations for multiple scenarios i.e configs for ```Development mode``` and ```Production mode``` without changing a single line in your code. [Dotenv](https://www.npmjs.com/package/dotenv) module loads environment variables from a .env file that you create and adds them to the [process.env](https://nodejs.org/docs/latest/api/process.html#process_process_env) object that is made available to the application
 
-```
-//.env
-MODE=development
-DB_HOST=localhost
-DB_PORT=27017
-DB_USER=root
-DB_PASS=235b599a53bd46c3fb89999b1389ba83
-
-```
-
-
-```
-//server.js
-console.log(process.env.MODE); //development
-console.log(process.env.DB_HOST); //localhost
-console.log(process.env.DB_PORT); //27017
-console.log(process.env.DB_USER); //root
-console.log(process.env.DB_PASS); //235b599a53bd46c3fb89999b1389ba83
-
-```
 
 ## How do I use dotenv?
 
@@ -48,7 +30,7 @@ npm init -y
 npm install --save dotenv
 
 ``` 
-- Create a .env file and add your settings.
+- Create a .env file and add your configurations.
 
 ```
 //.env
@@ -61,8 +43,6 @@ OBJ={key1:"value1", key2:"value2",key3:"value3",key4:"value4"}
 BOOL=true
 NUM=123456
 STRING= Dumela Lefatshe
-NULL=null
-UNDEFINED=undefined
 ARRAY=[1,2,3,4,5,6]
 
 ```
@@ -83,7 +63,7 @@ const obj = process.env.OBJ;
 const boolean = process.env.BOOL;
 const number = process.env.NUM;
 const string = process.env.STRING;
-const null1 = process.env.NULL;
+const null1 = process.env.NULL; //be careful with reserved words
 const undefined1 = process.env.UNDEFINED;
 const array = process.env.ARRAY;
 
@@ -145,38 +125,10 @@ console.log(configs.obj);
 - you can rename variables to more readable properties
 - you can add other configuration properties from non-environment variables
 
+
 ## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OR
 
-```
-//config.js
-
-const dotenv = require('dotenv');
-const result = dotenv.config();
-
-if (result.error) {
-  throw result.error;
-}
-
-const { parsed: envs } = result; 
-
-module.exports = envs;
-
-```
-
-```
-//index.js, doSomething.js, anotherJsFile.js, etc
-
-const { url, apiKey, port, user, obj } = require('/path/to/js/config/file');
-
-console.log(url);
-console.log(apiKey);
-console.log(user);
-console.log(obj);
-
-```
-## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OR
-
-Dotenv has the option of preloading the environment variables outside your code. Preload your variables and eliminate the code that reads the .env file from your code. Less code is fewer lines that could break or be maintained.
+Dotenv has the option of preloading the environment variables outside your code. Preload your variables and eliminate the code that reads the .env file from your code  base. Less code is fewer lines that could break or be maintained.
 ![alt text](https://imgflip.com/s/meme/Roll-Safe-Think-About-It.jpg)
 
 This technique removes any need for code that uses require on dotenv. This includes the ``` dotenv.config()``` or  ``` require('dotenv').config() ``` code mentioned previously in this article. You can run your node app using the — require ( -r ) command line option to preload dotenv. The following command will preload all environment variables from the file .env using dotenv and make them available in your app.
@@ -199,6 +151,27 @@ Now you can access all environment variables in the .env without requiring doten
 
 ```
 
+#### Sharing your .env file
+
+The best practice on this matter is add a ```.env-example``` file in your repo to give a general outline of configuration available to developers but using dummy data as values to your variables.
+
+
+```
+//.env-example
+
+BASE_URL=https://dummy.url.com
+API_KEY=dummyApiKeyHere
+SERVER_PORT=dummyPort
+USER=dummyAdminName
+OBJ={dummyKey1:"dummyvalue1", dummyKey2:"dummyValue2",dummyKey3:"dummyValue3",dummyKey4:"dummyValue4"}
+BOOL=true
+NUM=123456
+STRING=DummyString
+ARRAY=["dummy","dummy","dummy","dummy","dummy"]
+
+```
+**Do not include this file in ```.gitignore```**
+
 ## Resources 
 
 https://www.npmjs.com/package/dotenv
@@ -206,3 +179,5 @@ https://www.npmjs.com/package/dotenv
 https://medium.com/chingu/an-introduction-to-environment-variables-and-how-to-use-them-f602f66d15fa
 
 https://medium.com/chingu/protect-application-assets-how-to-secure-your-secrets-a4165550c5fb
+
+https://projectricochet.com/blog/importance-code-separation-and-why-we-use-git-workflow-managing-different-environments
