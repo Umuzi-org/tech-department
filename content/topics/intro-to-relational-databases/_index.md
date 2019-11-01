@@ -3,38 +3,67 @@ title: Introduction to relational database
 ready: true
 ---
 
-# INTRODUCTION TO RELATIONAL DATABASE 
+
+# INTRODUCTION TO RELATIONAL DATABASE (SQL)
 
 **LESSONS**
 
+- INTRODUCTIION TO SQL RELATIONAL DATABASE PROGRAMMING
+    >[check it out](https://www.mikedane.com/databases/sql/)
+- BASIC SQL QUERIES
+
+    > [Basic sql queries](https://www.mikedane.com/databases/sql/basic-queries/)
+   
+    >[More Basic sql queries](https://www.mikedane.com/databases/sql/more-basic-queries/)
+   
+    > [SQL Functions](https://www.mikedane.com/databases/sql/functions/)
+   
+    >[Wildcards](https://www.mikedane.com/databases/sql/wildcards/)
+    >[Union](https://www.mikedane.com/databases/sql/union/)
+    >[Joins](https://www.mikedane.com/databases/sql/joins/)
+
 - Lesson 1: 
-  > Data and Tables:
-    * learn the principles behind relational data organization:tables,queries,aggregations,
-    keys and joins.
+  > Keys / Data and Tables:
+    > [check it out](https://www.mikedane.com/databases/sql/tables-keys/)
+
 - Lesson2:
-    > Elements of **SQL**
-    * start learning  by using **select** & **insert** statements/commands to read and write
-     data to database tables
+    > BASICS/ELEMENTS OF SQL
+      > [check it out](https://www.mikedane.com/databases/sql/sql-basics/)
+
 - Lesson3: 
-  > Nodejs SQL-API: 
-    * learn SQL-APIs and  apply your knowledge to fix common bugs that arise from database-backend-web service
-  > Python SQL-API: 
-    * learn SQL-APIs and  apply your knowledge to fix common bugs that arise from database-backend-web service
+  > SQL-INSTALLATION: 
+    [windows](https://www.mikedane.com/databases/sql/mysql-windows-installation/)
+    [MAC / Linux/ Ubuntu](https://www.mikedane.com/databases/sql/mysql-mac-installation/)
 
 - Lesson4:
-  > Deeper Into SQL 
-## What a Relational Database Is:
-A relational database is a type of database that stores and provides access to data points that
-are related to one another. Relational databases are based on the relational model, an intuitive,
-straightforward way of representing data in tables. In a relational database, each row in the table
-is a record with a unique ID called the key. The columns of the table hold attributes of the data,
-and each record usually has a value for each attribute, making it easy to establish the relationships
-among data points.
+  > CREATING TABLES
+    [Click here](https://www.mikedane.com/databases/sql/creating-tables/)
+
+- Lesson5:
+  > INSERTING DATA
+    [check it out](https://www.mikedane.com/databases/sql/inserting-data/)
+  
+- Lesson6:
+  >CONSTRAINTS
+    [check it out](https://www.mikedane.com/databases/sql/constraints/)  
+
+- Lesson7:
+  >UPDAT & DELETE DATA
+    [check it out](https://www.mikedane.com/databases/sql/update-delete/)
+
+- Lesson8:
+  >UPDATE & DELETE DATA
+[check it out](https://www.mikedane.com/databases/sql/basic-queries/)
+
+  > Nodejs API with SQL:
+    [check it out](https://www.youtube.com/watch?v=EN6Dx22cPRI&t=20s) or [also check this out](https://www.youtube.com/watch?v=hqkyIKIeFe0)
+
+  > REST API using Python and Flask | Flask-RESTful: 
+   [check it out & start coding](https://www.youtube.com/watch?v=s_ht4AKnWZg)
 
 ## Understanding difference between Realtion & Non relational database:
 **Structure vs Non structured query language**: 
->Read more about SQL & NoSql
-* [click here --> SQL & NoSql](https://www.youtube.com/watch?v=ZS_kXvOeQ5Y)
+>Learn more about SQL & NoSql: [Click here!](https://www.youtube.com/watch?v=ZS_kXvOeQ5Y)
 
 
 >e.g. 
@@ -43,27 +72,34 @@ among data points.
 
 
 ## Best practices  
-  *(N.B)* Always do not forget to include your .gitignore file,which will have contain you files want to exclude git pushing into remote repository and commit that change before you add your Otherwise, you run the risk of committing an early version of your .env to source control.
- ```
-//.gitignore examples
-FOR PYTHON
-    &
-FOR Byte-compiled / optimized / DLL files
+```
+*(N.B)* 
+If your using VIM or VI as your code Editor...
+
+Always do not forget to include your .gitignore file
+which will have contain you files you want to exclude 
+when git pushing into remote repository and commit the 
+changes, before you add your the changed files Otherwise,
+you run the risk of committing and pushing swap files 
+which are not required in Git.
+```
+
+```
+//.gitignore examples:
+FOR PYTHON & FOR Byte-compiled / optimized / DLL files:
 __pycache__/
 *.py[cod]
 *$py.class
 
-FOR VIM
+FOR VIM:
 *.swp
 *.swo
- ````
-
-**Resouces**
-- [Intro to RDBMS in Javascript](https://www.youtube.com/watch?v=QExydkuuE30)
-- [Intro to SQL for data science](https://www.datacamp.com/courses/intro-to-sql-for-data-science)
-- [Intermediate SQL](https://www.datacamp.com/courses/intermediate-sql)
-- [Java / SQL ](https://www.youtube.com/watch?v=hXxzn27D9s4)
-
-**Assignment**
-
-See Intro-to-relational-database **Assignment**  in Projects: 
+````
+**Resouces in collection**
+> Introduction to relational database programming: [Click here!](https://www.mikedane.com/databases/sql/)
+> Basic SQL Queries: [Basic sql queries](https://www.mikedane.com/databases/sql/basic-queries/)
+> More SQL Queries: [More sql queries](https://www.mikedane.com/databases/sql/more-basic-queries/)
+> Sql functions: [Click here!](https://www.mikedane.com/databases/sql/functions/)
+> Wildcards: [Wildcards](https://www.mikedane.com/databases/sql/wildcards/)
+> Unions: [Union](https://www.mikedane.com/databases/sql/union/)
+> Joins: [Joins](https://www.mikedane.com/databases/sql/joins/)
