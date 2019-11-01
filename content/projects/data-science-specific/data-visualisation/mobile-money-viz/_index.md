@@ -8,8 +8,8 @@ The table below gives the variable names in the mobile money data file, with a d
 
 Variable ID	| Question	| Values
 ---|---|---
-ID	| Unique respondent ID	| <String>
-Q1	| Age	| <Number>
+ID	| Unique respondent ID	| String
+Q1	| Age	| Number
 Q2	| gender	| 1 Male
   | | 2 Female
 Q3	| Marital status	| 1 Married
@@ -139,7 +139,6 @@ Borrowing	| Do you borrow?	| 1 Yes
   | | 0 No
 Insurance	| Do you have insurance?	| 1 Yes
   | | 0 No
-Mobile_money_classification		| 0 no mobile money and no other financial service (saving, borrowing, insurance)
-  | | 1 no mobile money, but at least one other financial service
+Mobile_money_classification		| 0 no mobile money and no other financial service (saving, borrowing, insurance) | 1 no mobile money, but at least one other financial service
   | | 2 mobile money only
   | | 3 mobile money and at least one other financial service
