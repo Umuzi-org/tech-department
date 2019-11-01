@@ -1,4 +1,10 @@
-# Variable Codebook for Tanzania Mobile Money Assignment
+---
+title: Variable Codebook for Mobile Money Visualisation
+ready: True
+---
+
+The table below gives the variable names in the mobile money data file, with a description of the questions and a key to the answer values.
+
 
 Variable ID	| Question	| Values
 ---|---|---

@@ -1,4 +1,3 @@
-
 ---
 title: Data Visualisation
 ready: True
