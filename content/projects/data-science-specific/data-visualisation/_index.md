@@ -1,24 +1,22 @@
 ---
-title: Data Visualisation
+title: Data Visualisation Projects
 ready: True
 ---
 
-## Tutorials
+## Background
 
-**Compulsory**: Go through the DataCamp course [Introduction to Data Visualisation with
-Python](https://www.datacamp.com/courses/introduction-to-data-visualization-with-python).
-
-**Optional**: Complete Kaggle's [Data Visualisation: From Non-Coder to Coder](https://www.kaggle.com/learn/data-visualization-from-non-coder-to-coder)
+Make sure you have gone through at least one of the tutorial listed in
+{{% contentlink "topics/data-science-specific/data-visualisation" %}}
 
 
 ## Assignment 1
 Once you have completed the course, complete the DataCamp project
 [Exploring the Evolution of Linux](https://www.datacamp.com/projects/111).  
 
-## Assignment 2: 
+## Assignment 2:
 Complete the data visualisation assignment on Financial Services Use in Tanzania
 
-The [training](training.csv) dataset contains demographic information and what financial services are used by approximately 10,000 individuals across Tanzania. This data was extracted from the FSDT Finscope 2017 survey and prepared specifically for this challenge. A more detailed description of variables from the Finscope survey are explained in the [Variable Codebook](Variable_Codebook.docx).
+The [training](training.csv) dataset contains demographic information and what financial services are used by approximately 10,000 individuals across Tanzania. This data was extracted from the FSDT Finscope 2017 survey and prepared specifically for this challenge. A more detailed description of variables from the Finscope survey are explained in {{% contentlink "projects/data-science-specific-data-visualisation/mobile-money-viz" %}}.
 
 Each individual is classified into four mutually exclusive categories:
 
@@ -27,7 +25,7 @@ Each individual is classified into four mutually exclusive categories:
 - Mm_only: Individuals who use mobile money only
 - Mm_plus: Individuals who use mobile money and also use at least one of the other financial services (savings, credit, insurance)
 
-This dataset is the geospatial mapping of all cash outlets in Tanzania in 2012. Cash outlets in this case included commercial banks, community banks, ATMs, microfinance institutions, mobile money agents, bus stations and post offices. This data was collected by FSDT. 
+This dataset is the geospatial mapping of all cash outlets in Tanzania in 2012. Cash outlets in this case included commercial banks, community banks, ATMs, microfinance institutions, mobile money agents, bus stations and post offices. This data was collected by FSDT.
 
 
 ## Instructions:
