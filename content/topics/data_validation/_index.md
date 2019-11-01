@@ -1,10 +1,17 @@
 ---
 title: Data Validation
-ready: false
+ready: true
 ---
 
-### Data Validation
+### Data validation
 Data validation means exactly what it sounds like, your program checks the data to make sure it meets some rules or restrictions. Validation and verification are two ways to check that the data entered into a computer is correct, because data entered incorrectly is of little use. There are many different data validation checks that can be done.
+
+### Why is data validation sooo important?
+Data validation is a vital part of any application, as it guarantees that a system works on clean, perfect and helpful data. for instance, you might need to ensure that passwords are no less than eight characters in length, or guarantee that usernames are unique. Characterizing acceptance rules makes structure taking care of much, much less demanding. Take Umuzi for instance, when people apply to Umuzi they sometimes provide invalid data. i.e, invalid ID numbers and cellphone numbers. Often we just need to make sure that whatever information is provided is in the right shape.
+
+Validation is important for a lot of reasons. One big reason is that a lot of data comes from people. People make mistakes, and not everyone is data literate or even computer literate enough to consistently create good data. Data capturers make mistakes, people mess up when filling in forms, people do strange things when interacting with websites and apps.
+
+Sometimes computers make invalid data. This could be due to software errors or even hardware faults.
 
 ### Types of validation
 There are a number of validation types that can be used to check the data that is being entered.
@@ -22,11 +29,12 @@ There are a number of validation types that can be used to check the data that i
 
 We check the data to make sure that the user did not make a mistake, accidentally or intentionally, which can prevent our program from functioning correctly or corrupt the data as this has security and data integrity implications.
 
-### Data Validation
-Verification is performed to ensure that the data entered exactly matches the original source.
+### Data verification
+Verification is performed to ensure that the data entered exactly matches the original source. The process checks for data accuracy and inconsistencies after the process of selecting, preparing, extracting, and transforming data.
 
 ### Methods of verification
 There are two main methods of verification:
 
 - **Double entry** - entering the data twice and comparing the two copies. This effectively doubles the workload, and as most people are paid by the hour, it costs more too.
+
 - **Proofreading data** - this method involves someone checking the data entered against the original document. This is also time-consuming and costly.
