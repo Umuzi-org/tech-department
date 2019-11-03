@@ -10,17 +10,9 @@ You should be familiar with:
 
 ## Instructions
 
-Download MySQL and install on Ubuntu:
-
-```
-sudo apt update
-sudo apt upgrade
-wget http://repo.mysql.com/mysql-apt-config_0.8.10-1_all.deb
-sudo dpkg -i mysql-apt-config_0.8.10-1_all.deb
-sudo apt update
-sudo apt install mysql-server
-
-```
+Installation:
+* Get your Docker container running, you can use [INTRO TO DOCKER AND DOCKER-COMPOSE](https://umuzi-org.github.io/tech-department/topics/intro-to-docker/) for steps to run Postgres in the container.
+* The link above has a cool way on how to set up and install Docker.
 
  Run MySQL as root to complete the steps below: `mysql -u root `. You can run [mysql-workbench](https://www.mysql.com/products/workbench/) to [export your code in a script](https://dev.mysql.com/doc/workbench/en/wb-admin-export-import-management.html).
 
