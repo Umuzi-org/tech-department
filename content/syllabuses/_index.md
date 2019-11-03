@@ -100,7 +100,7 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "workshops/general-coding-best-practices" %}}
   - {{% contentlink "projects/first-personal-website" %}} - Deadline
 
-## Week 4: Research and Survey Design
+## Week 4:
 
 - ALL_DATA:
 
@@ -111,9 +111,15 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "topics/regular-expressions" %}}
 
 - DATA_SCI:
+
   - {{% contentlink "workshops/survey-design" %}}
   - {{% contentlink "workshops/google-forms-like-a-boss" %}}
   - {{% contentlink "topics/how-to-ask-the-right-questions" %}}
+
+- JAVA:
+
+  - {{% contentlink "workshops/java/basic-intro-to-oop" %}}
+  - {{% contentlink "projects/oop/person" %}}
 
 ## Week 5: Some specific skills
 

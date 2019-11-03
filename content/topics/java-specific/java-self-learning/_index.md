@@ -9,6 +9,10 @@ You are expected to spend your free time learning and practicing your Java devel
 
 Please note, this document is alive. It is likely to change over time as we learn more about how best to learn Java. If you have any suggestions about how to make this page (or any page) better then please let us know! And if you have any opinons on the materials listed below please let us know as well!
 
+### TutorialsPoint
+
+https://www.tutorialspoint.com/java
+
 ### [Learn Java the Hard Way](https://learnjavathehardway.org/)
 
 This book looks like it will be very useful. We are keen to get your opinion on how good it is before buying a million copies.
