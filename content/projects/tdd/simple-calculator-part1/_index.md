@@ -4,7 +4,7 @@ pre: "<b>EASY: </b>"
 ready: true
 ---
 
-The objective of this project is to build a calulator that can perform mulitiplication and addition equations on multiple integers. Do not build a Front-end(UI). Complete this project by using a TDD approach. 
+The objective of this project is to build a calulator that can perform multiplication and addition equations on multiple integers. Do not build a Front-end(UI). Complete this project by using a TDD approach. 
 
 The basic TDD approach is as follows:
 
@@ -21,18 +21,12 @@ Remember to make sure your tests still pass after refactoring it.
 Use Jasmine to test your code. *Please do not use the SpecRunner* to test your code. Run Jasmine on the terminal.
 - [Running Jasmine on the Terminal](../../../topics/jasmine-unit-tests/_index.md). Look under the heading: *Getting set up (like a boss)* for instructions to set up.
 
-After setting up Jasmine on the terminal your directory structure should look like this:
+After setting up Jasmine on the terminal, please ensure that your directory has the following:
 
-```
->simple-calculator-part1
-    >node_modules
-    >spec   
-        > support
-            -jasmine.json
-    -package-lock.json
-    -package.json
-```
-You need to add the following:
+- A `src` folder with your source file : `simpleCalculator.js` .
+- A `spec` folder with your test file: `simple-Calc-part1_spec.js`.
+
+Your directory structure should look like this:
 
 ```
 >simple-calculator-part1
@@ -43,7 +37,6 @@ You need to add the following:
         - simple-Calc-part1_spec.js
     >src
         -simpleCalculator.js
-    -package-lock.json
     -package.json
 ```
 
@@ -95,3 +88,4 @@ The `multiply` function should now behave like this:
 mutilply(1,2,3,4,5)
 // should return 120
 ```
+
