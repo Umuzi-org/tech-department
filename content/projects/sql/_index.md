@@ -8,13 +8,14 @@ ready: True
 You should be familiar with:  
  {{% contentlink "topics/intro-to-relational-databases" %}}
 
+
+
+## Installation:
+* We are using Postgres
+* Instead of installing Postgres on your computer, you can launch it with a docker composition follow the [INTRO TO DOCKER AND DOCKER-COMPOSE](https://umuzi-org.github.io/tech-department/topics/intro-to-docker/) for steps to run Postgres in the container.
+* MySQL is nice and lot's of people use it in industry, but it doesn't actually implement standard SQL, it sort of does it's own thing a bit. Postgres is a much more standard DB, and industry loooooves it
+
 ## Instructions
-
-Installation:
-* Get your Docker container running, you can use [INTRO TO DOCKER AND DOCKER-COMPOSE](https://umuzi-org.github.io/tech-department/topics/intro-to-docker/) for steps to run Postgres in the container.
-* The link above has a cool way on how to set up and install Docker.
-
- Run MySQL as root to complete the steps below: `mysql -u root `. You can run [mysql-workbench](https://www.mysql.com/products/workbench/) to [export your code in a script](https://dev.mysql.com/doc/workbench/en/wb-admin-export-import-management.html).
 
 ## Part 1: Creating a database
 
