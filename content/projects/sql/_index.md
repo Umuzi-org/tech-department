@@ -10,19 +10,10 @@ You should be familiar with:
 
 ## Instructions
 
-Download MySQL and install on Ubuntu:
+Download and Install Docker and Composer:
 
-```
-sudo apt update
-sudo apt upgrade
-wget http://repo.mysql.com/mysql-apt-config_0.8.10-1_all.deb
-sudo dpkg -i mysql-apt-config_0.8.10-1_all.deb
-sudo apt update
-sudo apt install mysql-server
-
-```
-
- Run MySQL as root to complete the steps below: `mysql -u root `. You can run [mysql-workbench](https://www.mysql.com/products/workbench/) to [export your code in a script](https://dev.mysql.com/doc/workbench/en/wb-admin-export-import-management.html).
+Create a Docker-Compose File
+-Inside the root folder of your project, create a file named docker-compose.yml and add this example to it
 
 ## Part 1: Creating a database
 
