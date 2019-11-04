@@ -21,6 +21,32 @@ Remember to make sure your tests still pass after refactoring it.
 Use Jasmine to test your code. *Please do not use the SpecRunner* to test your code. Run Jasmine on the terminal.
 - [Running Jasmine on the Terminal](../../../topics/jasmine-unit-tests/_index.md). Look under the heading: *Getting set up (like a boss)* for instructions to set up.
 
+After setting up Jasmine on the terminal your directory structure should look like this:
+
+```
+>simple-calculator-part1
+    >node_modules
+    >spec   
+        > support
+            -jasmine.json
+    -package-lock.json
+    -package.json
+```
+You need to add the following:
+
+```
+>simple-calculator-part1
+    >node_modules
+    >spec   
+        > support
+            -jasmine.json
+        - simple-Calc-part1_spec.js
+    >src
+        -simpleCalculator.js
+    -package-lock.json
+    -package.json
+```
+
 ## 1. Create an add function that can add two integers
 
 Implement the following function:
