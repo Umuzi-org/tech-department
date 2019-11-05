@@ -30,11 +30,13 @@ There are a number of validation types that can be used to check the data that i
 We check the data to make sure that the user did not make a mistake, accidentally or intentionally, which can prevent our program from functioning correctly or corrupt the data as this has security and data integrity implications.
 
 ### Data verification
-Verification is performed to ensure that the data entered exactly matches the original source. The process checks for data accuracy and inconsistencies after the process of selecting, preparing, extracting, and transforming data.
+Data Verification is a process that is performed to check data for accuracy and inconsistencies after the process of selecting, preparing, extracting, and transforming data either from a direct user or another process.
 
 ### Methods of verification
-There are two main methods of verification:
+There might be more methods of data verification in the world, these are the two most common methods of data verification:
 
 - **Double entry** - entering the data twice and comparing the two copies. This effectively doubles the workload, and as most people are paid by the hour, it costs more too.
 
 - **Proofreading data** - this method involves someone checking the data entered against the original document. This is also time-consuming and costly.
+
+If you are familiar with any other methods of data verification, Feel free to contribute.
