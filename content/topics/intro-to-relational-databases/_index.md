@@ -96,4 +96,4 @@ FOR VIM:
 *.swo
 ```
 **Extra Resouces**
-- To learn more with SQL using different tutorials, Visit: https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql
+- To learn more about SQL using different tutorials, Visit: https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql
