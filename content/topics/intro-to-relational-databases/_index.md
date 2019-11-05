@@ -1,78 +1,76 @@
-```
+
 ---
 title: Introduction to relational database
-ready: false
+ready: true
 ---
-```
 
-## INTRODUCTION TO RELATIONAL DATABASE (SQL)
 
-**What is Relational DataBase?**
+### INTRODUCTION TO RELATIONAL DATABASE (SQL)
+
+
+#### What is Relational DataBase? 
 
 Learn more here:[What is RDBMS](https://www.youtube.com/watch?v=h8IWmmxIyS0)
 
 - Introduction to SQL relational database [visit](https://www.mikedane.com/databases/sql/)
 
-- BASIC SQL QUERIES: [See these](https://www.mikedane.com/databases/sql/basic-queries/)
+- Basic SQL queries: [See these](https://www.mikedane.com/databases/sql/basic-queries/)
 
-**LESSONS**
 
-Lesson1:
+#### LESSONS
+
+##### Lesson1:
 
 - Keys / Data and Tables:
 > [check these out](https://www.mikedane.com/databases/sql/tables-keys/)
 
-Lesson2:
+##### Lesson2:
 
 - Basics/Elements of SQL 
 > [check these out](https://www.mikedane.com/databases/sql/sql-basics/)
 
-Lesson3: 
+##### Lesson3:
   
-- SQL-INSTALLATION:
+- SQL-Installation:
    
     > [windows](https://www.mikedane.com/databases/sql/mysql-windows-installation/)
 
     > [MAC / Linux/ Ubuntu](https://www.mikedane.com/databases/sql/mysql-mac-installation/)
 
-Lesson4:
+##### Lesson4:
   
-- CREATING TABLES
+- Creating Tables
 > [Click here](https://www.mikedane.com/databases/sql/creating-tables/)
 
-
-
-Lesson5:
+##### Lesson5:
   
-- INSERTING DATA
+- Inserting Data
 > [check it out](https://www.mikedane.com/databases/sql/inserting-data/)
   
-Lesson6:
+**Lesson6:**
   
-- CONSTRAINTS
+- Constraints
 > [check it out](https://www.mikedane.com/databases/sql/constraints/)  
 
-Lesson7:
+##### Lesson7:
 
-- UPDATE & DELETE DATA
+- Update & Delete Data
 > [check it out](https://www.mikedane.com/databases/sql/basic-queries/)
 
-
-Building APIs:
+##### Building APIs:
 
 - Nodejs API with SQL:
 > [check it out](https://www.youtube.com/watch?v=EN6Dx22cPRI&t=20s) or [also check this out](https://www.youtube.com/watch?v=hqkyIKIeFe0)
 
-> REST API using Python and Flask | Flask-RESTful: 
+> REST API using Python and Flask | Flask-Restful: 
 > [check it out & start coding](https://www.youtube.com/watch?v=s_ht4AKnWZg)
 
-* **Understanding difference between Realtion & Non relational database:** 
+#### Understanding difference between Realtion & Non relational database:
 
-  * **Structure vs Non structured query language**: 
-
-    >Learn more about SQL & NoSql: [Click here!](https://www.youtube.com/watch?v=ZS_kXvOeQ5Y)
-    >e.g. 
-            ![alt text](https://miro.medium.com/max/1512/1*LEksJP5OtS8GEBdd2Jy4WQ.png)
+##### Structure vs Non structured query language: 
+> Learn more about SQL & NoSql: [Click here!](https://www.youtube.com/watch?v=ZS_kXvOeQ5Y)
+> e.g. 
+                ![alt text](https://miro.medium.com/max/1512/1*LEksJP5OtS8GEBdd2Jy4WQ.png)
 
 **Best practices**  
 ```
