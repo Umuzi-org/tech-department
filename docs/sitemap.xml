@@ -149,10 +149,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/java-specific/gradle-setup/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/apis/basics/</loc>
   </url>
   
@@ -190,6 +186,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/workshops/java-specific/basic-intro-to-oop/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/redux_intro/</loc>
   </url>
   
@@ -199,6 +199,10 @@
   
   <url>
     <loc>/tech-department/projects/first-personal-website/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/oop/cars/</loc>
   </url>
   
   <url>
@@ -389,6 +393,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/intro-to-css-architecture/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/intro-to-css-architecture/</loc>
   </url>
   
@@ -433,11 +441,19 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/intro-to-css/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/intro-to-css/</loc>
   </url>
   
   <url>
     <loc>/tech-department/workshops/intro-to-express/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/intro-to-gradle-with-intellij/</loc>
   </url>
   
   <url>
@@ -497,6 +513,14 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/java-specific/oop-basics/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/java-specific/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/java-specific/java-self-learning/</loc>
   </url>
   
@@ -513,11 +537,19 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/basic-flow-control-katas/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/department-processes/linkz/</loc>
   </url>
   
   <url>
     <loc>/tech-department/projects/linux/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/java-specific/live-code-java-intro/</loc>
   </url>
   
   <url>
@@ -542,6 +574,10 @@
   
   <url>
     <loc>/tech-department/projects/data-science-specific/multivariate-linear-regression/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/node/</loc>
   </url>
   
   <url>
