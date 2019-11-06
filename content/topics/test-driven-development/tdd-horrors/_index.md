@@ -3,11 +3,28 @@ title: TDD Horrors
 ready: true
 ---
 
-# Common TDD pitfalls.
 These are all the most common TDD problems recruits tend to come across, read and make sure you didn't make any of these or any mistakes at all.
 
 - **Write tests**. Recruits in the past have done the mistake of not writing tests for TDD assignments, make sure you avoid this weird mistake. always write tests for your TDD projects.
-- No code in your TDD file, This is a repetition of the first point, but it's worth it. write tests people.
+- Please make sure you understand .gitignore, please don't add your node_modules to git.
+- Name your files according to what is inside them
+- Avoid making tests depend on each other, either explicitly or implicitly. Dependencies among tests are a path to pain, expense, fragility, and complication.
+- Pay attention to failure messages. Make each failure message as helpful for diagnosis as you can.
+- Do not skimp on the refactoring. It is the refactoring that will keep your code (including the tests) easy to understand and change
+- Naming conventions: in general, be careful with your naming conventions. make sure your naming convention consistent, names should be more descriptive.
+- Keep good directory structure and delete all junk files.
+- Avoid messy indentation (install prettier).
+- Test for errors/exception, to do that your tests need to use:
+
+    Javascript:
+    ```js
+    expect(...).toThrow()
+    ```
+
+    Python:
+    ```py
+    with pytest.raises(ErrorType)...
+      ```
 - Files naming convention, name your files properly and according to what's inside them. E.g. if you have a file called add.js that only contains a multiply function then something is wrong. Do this:
 <!-- examples -->
 
@@ -27,36 +44,21 @@ function add(***){
 }
 ```
 
-- Defining a test case(testing function) inside a function. That will pass, even when it's supposed to fail.
+- *Python peeps* DO NOT Define a test case(testing function) inside a function.
 
----
-**Python example:**
 
 ```py
-def testOne():
+def test_something():
 
-  def testSomething():
-    assert add("1,23,5") == 25
+  def totally_valid_test():
+    assert add(1,20,5) == 26
 
-  def testSomething():
-    assert add("1,23,5") == 29
-
-```
-instead you could put your tests into classes as methods, like so:
-
-```py
-class TestOne():
-
-  def testSomething():
-    assert add("1,23,5") == 25
-
-  def testSomething():
-    assert add("1,23,5") == 29
+  def another_test():
+    assert add(1,23,5) == 29
 
 ```
-notice **def** keyword in the first cell is replaced with the **class** keyword in the second cell, this difference makes a major difference. The first case would **pass** as a single test, even though it contains two test cases and one of them must fail, in contrary the second case would run both tests, the first one would fail and the second one would pass.
 *Note:*
-Although it's not necessary to put stuff inside classes. One nice thing about the `pytest` module is that it removes the need for boilerplate code. so the following code would also work:
+Nice thing about the `pytest` module is that it removes the need for boilerplate code. so the following code would work:
 ```py
   from module import add
 
@@ -67,31 +69,21 @@ Although it's not necessary to put stuff inside classes. One nice thing about th
   def test_add_multiple_values():
     assert add(1,2,3,4) == 10
 ```
-
 ---
 
-- Test classes/describe function should focus on one functionality and one functionality only.
+- Test cases should focus on one functionality and one functionality only.
 
----
 **Python example:**
 
 Do not do this:
 ```py
-  class TestFunctions():
-
-    def test_addition(self):
+    def test(self):
       assert add("1,2,3,4") == 10
-
-    def test_multiply(self):
-      assert multiply("1,2,3") == 9
-
+      assert multiply("1,2,3") == 6
 ```
 Do this instead:
 ```py
 # test add function.
-class TestAdd():
-  """docstring for TestAdd"""
-
   def test_add_two_values(self):
     assert add("1,2") == 3
 
@@ -99,17 +91,11 @@ class TestAdd():
     assert add("1,2,3,4,5,6") == 21
     assert add("2,3,4,5") == 14
 
-# test multiply function.
-class TestMultiply():
-  """docstring for TestMultiply"""
-
   def test_multiply_two_values(self):
     assert multiply("1,2") == 2
-    assert multiply("3,3") == 9
 
   def test_multiply_multiple_values(self):
     assert multiply("1,2,4") == 8
-    assert multiply("3,5,2") == 30
 ```
 
 **Javascript example:**
@@ -133,13 +119,13 @@ Each Function should have it's own describe object_
 Do this:
 ```js
   describe('add()', () => {
-    it('Should add', () => {
+    it('Should add [what exactly?]', () => {
       let sum = add('1, 23, 5');
       expect(sum).toBe(29);
     })
   })
   describe('multiply()', () => {
-    it('Should multiply', () => {
+    it('Should multiply [what exactly?]', () => {
       let prod = multiply('1, 23');
       expect(prod).toBe(23);
     })
@@ -148,16 +134,15 @@ Do this:
 ---
 - Javascript: Test strings are there to be descriptive:
   - eg:
-      Do: `it("should be able to multiply negative numbers")`
+
+      Do: `it("multiply [what exactly?]")`
+
       Don't: `it("multiply")`
 - Incomplete projects:
-  - This is not a very good look for you, to both us, your assessors, and your report. Imagine how an incomplete project looks to an employer. BAD! is the word. If you do not  have tests, for your TDD project, then your project is incomplete.
+  - Always make sure that your projects are complete. Incomplete projects looks to an employer. BAD! is the word. If you do not  have tests, for your TDD project, then your project is incomplete.
 
 - TDD tests fail:
   - Failing tests aren't bad during development, but make sure your **all** tests pass when you submit your project.
-
-- Errors/Exceptions:
-  - You should always make sure you test for possible errors/exceptions in your code.
 
 - Documentation on how to setup and test the code:
   - Make use of md files, collaborators shouldn't guess/remember how to setup all the dependencies for your project, document all the necessary processes please.
