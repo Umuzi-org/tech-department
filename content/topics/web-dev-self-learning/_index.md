@@ -7,7 +7,7 @@ You are expected to spend your free time learning and practicing your web develo
 
 You should know HTML, CSS and JavaScript (including ES6 syntax).
 
-- [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
-- [FreeCodeCamp](https://www.freecodecamp.org/)
-- [W3Schools](https://www.w3schools.com/)
-- [CodeWars](https://www.codewars.com/)
+- [FreeCodeCamp](https://www.freecodecamp.org/): This one is great if you've never coded before. It holds your hand through the whole process
+- [W3Schools](https://www.w3schools.com/): This is also very friendly for beginners but teaches things in a more exploratory way
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide): MDN might be the soul of the internet
+- [CodeWars](https://www.codewars.com/): Practice makes perfect
