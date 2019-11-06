@@ -100,6 +100,13 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "workshops/general-coding-best-practices" %}}
   - {{% contentlink "projects/first-personal-website" %}} - Deadline
 
+* Java:
+  - NCIT 10: Workshop: Giving and receiving constructive feedback
+  - NCIT 06: Web design for business
+  - NCIT 07: Building an online business
+  - NCIT 12: Business and technology
+  - NCIT 09: Ethics and Professionalism in IT
+
 ## Week 4:
 
 - ALL_DATA:
@@ -117,9 +124,11 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "topics/how-to-ask-the-right-questions" %}}
 
 - JAVA:
-
-  - {{% contentlink "workshops/java/basic-intro-to-oop" %}}
-  - {{% contentlink "projects/oop/person" %}}
+  - carry over any NCIT tasks from previous week
+  - {{% contentlink "topics/java-specific/intro-to-gradle-with-intellij" %}}
+  - {{% contentlink "workshops/java-specific/live-code-java-intro" %}}
+  - Recruits should be familiar with basic flow control, if, else, loops. It may be necessary to have another workshop on this
+  - {{% contentlink "projects/basic-flow-control-katas" %}} do this in pairs
 
 ## Week 5: Some specific skills
 
@@ -135,7 +144,17 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
 
 - WEB_DEV:
+
   - {{% contentlink "topics/web-frontend/intro-to-web-design/" %}}
+
+- JAVA:
+  - {{% contentlink "workshops/java/basic-intro-to-oop" %}}
+  - {{% contentlink "topics/java-specific/oop-basics"%}}
+  - {{% contentlink "projects/oop/person" %}} do this in pairs
+  - {{% contentlink "projects/oop/cars" %}} individual. Due towards the end of the week
+  - NCIT 08: Pseudocode and documentation
+  - NCIT 13: Object-oriented programming
+  - workshop: oop Q&A might be needed
 
 ## Week 6: The Internet and Ethics in tech
 
