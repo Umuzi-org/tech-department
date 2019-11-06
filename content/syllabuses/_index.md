@@ -63,9 +63,8 @@ In this week, everyone gets to know their way around linux.
   - Introduction to NCIT curriculum
   - {{% contentlink "workshops/intro-to-linux" %}}
   - {{% contentlink "topics/linux/intro-to-linux" %}}
-  - {{% contentlink "projects/linux" %}} INTRO
+  - {{% contentlink "projects/linux/beginner" %}}
   - {{% contentlink "topics/linux/intro-to-bash" %}}
-  - {{% contentlink "topics/clean-code" %}}
 
 ## Week 2: Git and personal portfolio
 
@@ -79,15 +78,27 @@ Recruits learn a bit about how to build an online presence. Recruits submit thei
   - {{% contentlink "workshops/intro-to-css-architecture" %}}
   - {{% contentlink "workshops/what-to-put-on-a-cv" %}}
   - {{% contentlink "projects/first-personal-website" %}} - Introduction
+  - {{% contentlink "topics/clean-code" %}}
+  - NCIT 04: Version control (GIT) for teamwork
 
-- NCIT 04: Version control (GIT) for teamwork
+- JAVA:
+
+  - {{% contentlink "topics/java-specific/java-dev-environment-setup"%}}
+  - {{% contentlink "topics/java-specific/java-self-learning" %}}
+
+- WEB_DEV:
+  - {{% contentlink "topics/web-dev-self-learning" %}}
+
+* DATA_ENG:
+  - {{% contentlink "topics/python-self-learning" %}}
 
 ## Week 3: Finish portfolio project
 
 The recruits finish off their portfolios. From this point forward they are expected to keep their portfolios up to date on their own time.
 
-- {{% contentlink "workshops/general-coding-best-practices" %}}
-- {{% contentlink "projects/first-personal-website" %}} - Deadline
+- ALL:
+  - {{% contentlink "workshops/general-coding-best-practices" %}}
+  - {{% contentlink "projects/first-personal-website" %}} - Deadline
 
 ## Week 4: Research and Survey Design
 
@@ -117,7 +128,7 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "topics/python-specific/automated-testing-with-pytest" %}}
   - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
 
-* WEB_DEV:
+- WEB_DEV:
   - {{% contentlink "topics/web-frontend/intro-to-web-design/" %}}
 
 ## Week 6: The Internet and Ethics in tech
@@ -131,7 +142,8 @@ The recruits finish off their portfolios. From this point forward they are expec
 
   - {{% contentlink "workshops/intro-to-data-ethics" %}}
 
-* DATA_ENG:
+- DATA_ENG:
+
   - {{% contentlink "projects/tdd/password-checker" %}}
 
 - NCIT 05: History of the Internet
@@ -150,11 +162,12 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/tdd/string-calculator" %}}
 
 - DATA_SCI:
+
   - {{% contentlink "topics/unit-testing" %}}
   - {{% contentlink "topics/python-specific/automated-testing-with-pytest" %}}
   - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
 
-* WEB_DEV
+- WEB_DEV
   - {{% contentlink "topics/unit-testing" %}}
   - {{% contentlink "workshops/intro-to-unit-testing-with-jasmine" %}}
   - {{% contentlink "projects/tdd/simple-calculator-part1" %}}

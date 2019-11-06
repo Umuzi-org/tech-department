@@ -1,10 +1,6 @@
 ---
-date: 2019-03-19T16:50:16+02:00
 title: Git for Teamwork
-weight: 15
+ready: true
 ---
 
-## PREREQUISITES: 
-- workshop/git-basics
-
-TODO
+<iframe src="https://drive.google.com/file/d/1oJOHmpm5f6UPE40qhQUdYtnkgB_c2cgG/preview" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="display:block; margin: 0 auto;"></iframe>

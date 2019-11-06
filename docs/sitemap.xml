@@ -33,10 +33,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/depricated/memory-game/intro/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/projects/nodejs/file-io/</loc>
   </url>
   
@@ -49,11 +45,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/depricated/memory-game/code-review-deadline/</loc>
-    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tech-department/projects/semitone-challenge/gui-part-1/</loc>
   </url>
   
@@ -63,11 +54,6 @@
   
   <url>
     <loc>/tech-department/projects/nodejs/mongo/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/depricated/memory-game/code-review-workshop/</loc>
-    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
@@ -89,11 +75,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/depricated/memory-game/configurable-grid-size-deadline/</loc>
-    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tech-department/projects/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
   </url>
@@ -111,21 +92,11 @@
   </url>
   
   <url>
-    <loc>/tech-department/ncit/</loc>
+    <loc>/tech-department/katas/</loc>
   </url>
   
   <url>
     <loc>/tech-department/department-processes/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/workshops/agile-scrum/</loc>
-    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tech-department/workshops/git-for-teamwork/</loc>
-    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
@@ -178,6 +149,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/java-specific/gradle-setup/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/apis/basics/</loc>
   </url>
   
@@ -194,12 +169,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/apis/</loc>
-    <priority>0</priority>
+    <loc>/tech-department/workshops/agile-scrum/</loc>
   </url>
   
   <url>
-    <loc>/tech-department/depricated/search-and-sort/</loc>
+    <loc>/tech-department/topics/apis/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -232,6 +207,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/clean-code/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/clean-code/</loc>
   </url>
   
@@ -240,7 +219,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/clean-code/</loc>
+    <loc>/tech-department/topics/clean-code/data-science/</loc>
   </url>
   
   <url>
@@ -326,11 +305,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/depricated/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tech-department/projects/oop/dice/</loc>
   </url>
   
@@ -351,6 +325,14 @@
   </url>
   
   <url>
+    <loc>/tech-department/workshops/express-js/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/express-js/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/js-and-node-specific/expressjs/</loc>
   </url>
   
@@ -368,6 +350,10 @@
   
   <url>
     <loc>/tech-department/workshops/git-basics/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/git-for-teamwork/</loc>
   </url>
   
   <url>
@@ -503,6 +489,18 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/java-specific/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/java-dev-environment-setup/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/java-self-learning/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/js-and-node-specific/template-engines/</loc>
   </url>
   
@@ -532,11 +530,6 @@
   
   <url>
     <loc>/tech-department/projects/memory-game-vanilla/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/depricated/memory-game/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -572,10 +565,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/depricated/oop-in-python/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/department-processes/team-onboarding/</loc>
   </url>
   
@@ -589,6 +578,10 @@
   
   <url>
     <loc>/tech-department/projects/python-specific/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-self-learning/</loc>
   </url>
   
   <url>
@@ -683,6 +676,10 @@
   
   <url>
     <loc>/tech-department/topics/python-specific/virtual-envs/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/web-dev-self-learning/</loc>
   </url>
   
   <url>
