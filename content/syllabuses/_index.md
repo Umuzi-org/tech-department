@@ -148,7 +148,7 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "topics/web-frontend/intro-to-web-design/" %}}
 
 - JAVA:
-  - {{% contentlink "workshops/java/basic-intro-to-oop" %}}
+  - {{% contentlink "workshops/java-specific/basic-intro-to-oop" %}}
   - {{% contentlink "topics/java-specific/oop-basics"%}}
   - {{% contentlink "projects/oop/person" %}} do this in pairs
   - {{% contentlink "projects/oop/cars" %}} individual. Due towards the end of the week
