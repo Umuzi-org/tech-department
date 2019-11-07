@@ -4,7 +4,7 @@ pre: "<b>MEDIUM: </b>"
 ready: true
 ---
 
-Before you commence, first read through {{% contentlink "/topics/data_validation/" %}}. Upon completion, read through {{% contentlink "/topics/regular-expressions/" %}}.
+Before you commence, first read through {{% contentlink "/topics/data_validation_and_verification/" %}}. Upon completion, read through {{% contentlink "/topics/regular-expressions/" %}}.
 
 #### Project
 Do this: https://osherove.com/tdd-kata-1/
