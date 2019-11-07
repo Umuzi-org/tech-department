@@ -183,6 +183,7 @@ expected output: remember to use "*"
 #####
 ```
 
+**5**
 Write a function that takes in number as argument and prints a hollow square in the center
 ```
 // JavaScript
