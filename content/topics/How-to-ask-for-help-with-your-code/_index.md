@@ -1,5 +1,5 @@
 ---
-title: how to ask for help with your code
+title: How to ask for help with your code
 ready: true
 ---
 
@@ -9,16 +9,24 @@ Practice asking good questions. It's like a superpower. If you are easy to help 
 
 ### These also include:
 
-#### how to ask good questions on slack:
+#### Where to ask good questions
 
-* all Slack questions should be addressed on the slack **Tech Assist** channel.
- - This helps you get to a broad audience from the tech department (.e.g Recruits, Managers and Alumni).
- - Please don't send screenshots what you can do is use backtick (` `) characters to represent a code form.
- - Write full error messages. (Summarise if you can and make sure you understand the error before sending it)
+ - Slack
+ - [Stackoverflow](https://stackoverflow.com/help/how-to-ask) == TRUELY **AMAZING**
+ - [Google](https://www.google.com)
+
+#### Characteristics of a good question:
+
+ - All Slack questions should be addressed on the slack **Tech Assist** channel.
+ - Asking on the channel helps you get to a much bigger audience from the Tech department (.e.g Recruits, Managers and Alumni).
+ - Be clear and not ambiguous. Your "helpers" should be able to understand the problem while reading an error message.
+ - Please <span style="color:red">don't send screenshots</span>, what you can do is use [backtick](https://slack.com/intl/en-za/help/articles/202288908-format-your-messages) symbols to represent in code form.
+ - Write full error messages.
+ - Be short and meaningful. Error message should contain necessary information. Most of the time user is not willing to read a long story.
  - If your issues are not addressed on the "Tech Assist" Channel, then run your issue with your specific department channel, then if it doesn't help then run to your **cohort mentors**.
  **NB. IT IS YOUR RESPONSIBILITY TO HELP OTHERS WHEN AND IF YOU HAVE THE ANSWERS** (Basically help and be helped)  
 
 #### Things to note
 
-- Stack Overflow is a wonderful resource. Take a look at [Stackoverflow](https://stackoverflow.com/help/how-to-ask) and sign up for it and try to use it.
+
 - A similar good way to use [Google](https://www.google.com) is when searching for something specific, try using quotes to minimize the guesswork for Google search. When you put your search parameters in quotes, it tells the search engine to search for the whole phrase.
