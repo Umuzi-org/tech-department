@@ -53,16 +53,13 @@ The new data frame will look something like this:
 | (3, 5)	| (4, 1)	| (3, 1)	| ... | 6  | 1 |
 | (3, 5)	| (4, 3)	| (3, 3)	| ... | 8  | 3 |
 
-3. It's hard to know what a score of 5 on Conscientiousness means, so we want to add columns for interpreting each of the personality scales. Create a function/functions that takes in a subscale total (e.g. conscientiousness) and creates a new column called "{subscale_name}_interpretation" (e.g., conscientiousness_interpretation). For each row in the subscale total column, assign the label "low", "medium", or "high" to the new {subscale_name}_interpretation column, according to the person's score on that subscale. Cut-off scores corresponding to the low, medium and high groups can be found in [scoring](scoring.txt). At the end of this you should have 5 interpretation columns - one for each of the subscales.
+3. Import the data in [departments.csv](departments.csv). Merge this data frame with the personality score data frame, keeping all applicants within the department data frame. Use an assert statement to check that the newly created merged data frame has the same amount of rows as the department data frame, and the expected number of columns.
 
-4. Import the data in [departments.csv](departments.csv). Merge this data frame with the personality score data frame, keeping all applicants within the department data frame. Use an assert statement to check that the newly created merged data frame has the same amount of rows as the department data frame, and the expected number of columns.
+4. Filter the merged data frame so that you get only the applicants who scored less than 30 on emotional stability, conscientiousness AND agreeableness. Print the ID numbers and departments of these applicants to the screen, and also assign these applicants the tag "high_risk" in a new column. All other applicants get the tag "low_risk"
 
-5. Filter the merged data frame so that you get only the ID numbers of applicants who score "low" on emotional stability, conscientiousness or agreeableness. Print the ID numbers and departments of these applicants to the screen, and also assign these applicants the tag "high_risk" in a new column.
+5. Create a new data frame with a count of the number of low and high risk applicants within each department. Let each department be a separate column. In other words, the data frame should look something like this:
 
-6. Create a new data frame with a count of the number of applicants in the low risk group within each personality subscale and department. Let each department be a separate column, and each personality subscale be a separate row. In other words, the data frame should look something like this:
-
-|Subscale | Multimedia | Coding | Data |
+| Risk | Multimedia | Coding | Data |
 | --- | --- |  --- |  --- |
-| Extraversion | 50 | 23 | 39 |
-| Agreeableness | 40 | 85 | 91 |
-| Conscientiousness	| 49 | 100 | 72 |
+| Low risk | 150 | 123 | 239 |
+| High risk | 40 | 15 | 22 |

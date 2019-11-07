@@ -70,38 +70,6 @@ In other words, the second number in the tuple should be scored for all columns 
 50. I am full of ideas.
 
 
-
-## IPIP Big-Five Factor Markers Cut-Offs
-https://ipip.ori.org/InterpretingIndividualIPIPScaleScores.htm
-
-Cut-off values for each of the subscales are calculated using the mean and standard deviation of all the responses on that subscale.
-The formulas for getting the high, medium and low categories are as follows:
-
-Emotional stability:
-- high: => mean + std_deviation/2
-- medium: between mean - std_deviation/2 and mean + std_deviation/2
-- low: <= mean - std_deviation/2
-
-extraversion:
-- high: => mean + std_deviation/2
-- medium: between mean - std_deviation/2 and mean + std_deviation/2  
-- low: <= mean - std_deviation/2
-
-Agreeableness:
-- high: => mean + std_deviation/2
-- medium: between mean - std_deviation/2 and mean + std_deviation/2
-- low: <= mean - std_deviation/2
-
-Conscientiousness:
-- high: => mean + std_deviation/2
-- medium: between mean - std_deviation/2 and mean + std_deviation/2
-- low: <= mean - std_deviation/2
-
-Intellect:
-- high: => mean + std_deviation/2
-- medium: between mean - std_deviation/2 and mean + std_deviation/2
-- low: <= mean - std_deviation/2
-
 ## Source
 
   "Possible Questionnaire Format for Administering the 50-Item Set of IPIP Big-Five
