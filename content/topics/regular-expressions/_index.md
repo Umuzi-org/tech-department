@@ -21,7 +21,8 @@ It's not worth memorizing this stuff, but you should understand it.
 
 ## Python Regular expressions
 
-- https://www.w3schools.com/python/python_regex.asp
+- https://www.w3schools.com/python/python_regex.asp - Introduction to Regular Expression.
+- https://docs.python.org/3/library/re.html - Python has a built-in package called re, which can be used to work with Regular Expressions.
 
 ## Javascript Regular Expressions
 
