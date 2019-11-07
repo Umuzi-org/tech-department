@@ -58,6 +58,7 @@ We get a few NCIT assessments out of the way during MUB.
 In this week, everyone gets to know their way around linux.
 
 - ALL:
+  - {{% contentlink "department-processes/what-recruits-need-to-know" %}}
   - Department ice-breaker
   - {{% contentlink "workshops/how-to-be-a-professional" %}}
   - Introduction to NCIT curriculum
