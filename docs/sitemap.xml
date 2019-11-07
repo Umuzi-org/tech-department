@@ -223,7 +223,15 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/clean-code/java-script/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/clean-code/data-science/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/clean-code/java/</loc>
   </url>
   
   <url>
@@ -275,6 +283,14 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/data_validation_and_verification/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/data-science-specific/data-visualisation/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/data-science-specific/data-visualisation/</loc>
   </url>
   
@@ -293,6 +309,11 @@
   
   <url>
     <loc>/tech-department/projects/data-science-specific/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
@@ -338,6 +359,10 @@
   
   <url>
     <loc>/tech-department/topics/js-and-node-specific/expressjs/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/data-science-specific/data-visualisation/mobile-money-viz/</loc>
   </url>
   
   <url>
@@ -756,10 +781,6 @@
   
   <url>
     <loc>/tech-department/projects/build-rest-api-with-db/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/projects/data-validation-with-python-and-regex/</loc>
   </url>
   
   <url>
