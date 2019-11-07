@@ -12,7 +12,7 @@ You should be familiar with:
 
 ## Installation:
 * We are using Postgres
-* Instead of installing Postgres on your computer, you can launch it with a docker composition follow the [INTRO TO DOCKER AND DOCKER-COMPOSE](https://umuzi-org.github.io/tech-department/topics/intro-to-docker/) for steps to run Postgres in the container.
+* Instead of installing Postgres on your computer, you can launch it with a docker composition follow {{% contentlink "/topics/intro-to-docker/" %}} for steps to run Postgres in the container.
 * MySQL is nice and lot's of people use it in industry, but it doesn't actually implement standard SQL, it sort of does it's own thing a bit. Postgres is a much more standard DB, and industry loooooves it
 
 ## Instructions
