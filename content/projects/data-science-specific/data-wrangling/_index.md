@@ -57,12 +57,11 @@ The new data frame will look something like this:
 
 4. Import the data in [departments.csv](departments.csv). Merge this data frame with the personality score data frame, keeping all applicants within the department data frame. Use an assert statement to check that the newly created merged data frame has the same amount of rows as the department data frame, and the expected number of columns.
 
-5. Filter the merged data frame so that you get only the ID numbers of applicants who score "low" on emotional stability, conscientiousness or agreeableness. Print the ID numbers and departments of these applicants to the screen, and also assign these applicants the tag "high_risk" in a new column.
+5. Filter the merged data frame so that you get only the ID numbers of applicants who score "low" on emotional stability, conscientiousness or agreeableness. Print the ID numbers and departments of these applicants to the screen, and also assign these applicants the tag "high_risk" in a new column. All other applicants should be marked as "low_risk".
 
-6. Create a new data frame with a count of the number of applicants in the low risk group within each personality subscale and department. Let each department be a separate column, and each personality subscale be a separate row. In other words, the data frame should look something like this:
+6. Create a new data frame with a count of the number of applicants in the low and high risk groups within each department. Let each department be a separate column. In other words, the data frame should look something like this:
 
-|Subscale | Multimedia | Coding | Data |
+| Risk | Multimedia | Coding | Data |
 | --- | --- |  --- |  --- |
-| Extraversion | 50 | 23 | 39 |
-| Agreeableness | 40 | 85 | 91 |
-| Conscientiousness	| 49 | 100 | 72 |
+| Low risk | 250 | 323 | 39 |
+| High risk | 40 | 85 | 1 |
