@@ -1,5 +1,4 @@
 config.toml
 gitignore/
 node_modules/
-public/
 .vscode/
