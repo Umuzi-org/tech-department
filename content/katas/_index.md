@@ -101,74 +101,7 @@ rotate("hello",-3) => llohe
 ## Print (triangles & squares) using loops
 
 **1.**
- Write a function that takes in number as argument and draws a right angled triangle  using the " * " characters. If the input is 4, then the output is a traingle with height 4
 
- 
-```
-// JavaScript
-let triangle(4) => 
-expected output: RIGHT ANGLE TRIANGLE
- 
- *
- **         
- ***              
- ****
-```
-
-**2.**
-Write a function that takes in number as argument and draws a reflection/mirror of right angled triangle above using the " * " characters . If the input is 4, then the output is a traingle with height 4
-```
-// JavaScript
-let triangle(5) => 
-expected output: MIRROR OF RIGHT ANGLE TRIANGLE
-
-   *
-  **              
- ***
-****
-```
-**3**
-Write a function that takes in number as argument and draws a Hollow right angled triangle above using the " * " characters . If the input is 4, then the output is a traingle with height 4
-
-```
-// JavaScript
-let triangle(5) => 
-expected output: HOLLOW RIGHT ANGLE TRIANGLE AND FOR ITS MIRROR.      
-
-*
-* *
-*  *
-*   *
-******
-```
-**4** 
-Write a function that takes in number as argument and draws a pyramid triangle above using the " * " characters . If the input is 4, then the output is a traingle with height 4
-```
-// JavaScript
-let triangle(5) => 
-expected output: HOLLOW RIGHT ANGLE TRIANGLE AND FOR ITS MIRROR.      
-    
-    *
-   ***
-  *****
- *******  
-*********
-```
-
-Write a function that takes in number as argument and draws the C pattern/shape
-```
-// JavaScript
-let cPattern(5) => Expected output:
-
-*****        *****
-*             *
-*      OR     * 
-*             *
-*****        *****
-
-
-``` 
-**5**
 Write a function that takes in number as argument and prints a square
 ```
 // JavaScript
@@ -182,8 +115,47 @@ expected output: remember to use "*"
 #####
 #####
 ```
+**2.**
+ Write a function that takes in number as argument and draws a right angled triangle  using the " * " characters. If the input is 4, then the output is a traingle with height 4
+ 
+```
+// JavaScript
+let triangle(4) => 
+expected output: RIGHT ANGLE TRIANGLE
+ 
+ *
+ **         
+ ***              
+ ****
+```
 
-**5**
+**3.**
+Write a function that takes in number as argument and draws a reflection/mirror of right angled triangle above using the " * " characters . If the input is 4, then the output is a traingle with height 4
+```
+// JavaScript
+let triangle(5) => 
+expected output: MIRROR OF RIGHT ANGLE TRIANGLE
+
+   *
+  **              
+ ***
+****
+```
+**4.**
+Write a function that takes in number as argument and draws a Hollow right angled triangle above using the " * " characters . If the input is 4, then the output is a traingle with height 4
+
+```
+// JavaScript
+let triangle(5) => 
+expected output: HOLLOW RIGHT ANGLE TRIANGLE AND FOR ITS MIRROR.      
+
+*
+* *
+*  *
+*   *
+******
+```
+**5.**
 Write a function that takes in number as argument and prints a hollow square in the center
 ```
 // JavaScript
@@ -195,10 +167,79 @@ expected output: remember to use "*"
 #   #
 #####
 ```
+**6.** 
+Write a function that takes in number as argument and draws a pyramid triangle above using the " * " characters . If the input is 4, then the output is a traingle shaped as pyramid with height 4
+```
+// JavaScript
+let triangle(5) => 
+expected output: PYRAMID TRIANGLE.      
+    
+    *
+   ***
+  *****
+ *******  
+*********
+```
+
+**7.**
+Write a function that takes in number as argument and draws a Hollow pyramid triangle above using the " * " characters . If the input is 4, then the output is a traingle shaped as pyramid with height 4
+```
+// JavaScript
+let triangle(5) => 
+expected output: HOLLOW RIGHT ANGLE TRIANGLE AND FOR ITS MIRROR.      
+    
+    *
+   * *
+  *   *
+ *     *  
+*********
+```
+
+**8.**
+Write a function that takes in number as argument and draws the C pattern/shape
+```
+// JavaScript
+let cPattern(5) => Expected output:
+
+*****
+*
+*
+*
+*****
+``` 
 ## Ceaser cipher
 
-TODO
+ **What is ceasar cipher?**
+
+> Caesar Cipher: Is an earlier encryption technique which is/was used to substitute/shift the current alphabets with alphabet after a number of count.
+
+
+
+write a function that takes in a string argument and number argument [nth] and shifts each and every alphabet of the given string to [nth] position
+```
+//Javascript
+
+function ceasarCipher("fmjkbi",3) =>
+
+Expected output:
+
+ipmnel
+```
              
-## fibonacci
+## fibonacci sequence
+ **What is fibonacci sequence?**
 
+> Fibonacci Sequence: is the series of numbers where the next number is found by adding up the n numbers before it.
+> e.g. in this case n =2:
+> sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
 
+write a function that takes in a number argument [n] and returns fibonacci sequence of the given number [n], "series of values" 
+```
+//Javascript
+
+function fibonacci(144)
+
+Expected output:
+
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144
+```
