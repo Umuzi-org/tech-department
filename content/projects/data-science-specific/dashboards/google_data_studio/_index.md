@@ -1,5 +1,6 @@
 ---
 title: Google Data Studio Assignment
+pre: "<b> EASY: </b>"
 ready: True
 ---
 

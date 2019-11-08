@@ -5,6 +5,12 @@ ready: True
 
 ## Assignments
 
-1. Complete the Google Data Studio assignment first. You will need the tutorial in {% contentlink "topics/data-science-specific/google-data-studio" %}}.
+There are several assignments on this page for you to try. The first two create static dashboards in Google Data Studio and Plotly. The second two assignments feature live data that update on a regular basis. The last assignment also requires webscraping.
 
-2. Optional: Complete the Plotly dashboarding exercise.
+1. EASY: Using Google Data Studio {% contentlink "projects/data-science-specific/dashboards/google_data_studio" %}}. You will need the tutorial in {% contentlink "topics/data-science-specific/google-data-studio" %}}.
+
+2. EASY: Using Plotly {% contentlink "projects/data-science-specific/dashboards/plotly_dashboards" %}}.
+
+3. HARD: Visualising live data with Plotly {% contentlink "projects/data-science-specific/dashboards/live_dashboards" %}}
+
+4. HARD: Webscraping and dashboarding {% contentlink "projects/data-science-specific/dashboards/webscraping_plus_dashboards" %}}
