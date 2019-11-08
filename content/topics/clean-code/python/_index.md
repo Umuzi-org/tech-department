@@ -3,45 +3,15 @@ title: Clean Code for Python
 ready: True
 ---
 
-# Clean Code for Python
-
 ## Tabs or Spaces
 
 `4 spaces == 1 tab`
 
 Spaces are the preferred indentation method.
-Tabs should be used solely to remain consistent with code that is already indented with tabs.
-Python 3 **DISALLOWS** mixing the use of tabs and spaces for indentation.
-Python 2 code indented with a mixture of tabs and spaces should be converted to using spaces exclusively.
+There are not many serious open source project uses tabs in Python code, so it is recommended that use spaces.
+Python 3 **DISALLOWS** mixing the use of tabs and spaces for indentation. Using a code formatter will make your life way easier.
+We recommend using [Black](https://github.com/psf/black).
 
-Yes:
-
-    # Aligned with opening delimiter.
-    foo = long_function_name(var_one, var_two,
-                            var_three, var_four)
-
-    # Add 4 spaces (an extra level of indentation) to distinguish arguments from the rest.
-    def long_function_name(
-            var_one, var_two, var_three,
-            var_four):
-        print(var_one)
-
-    # Hanging indents should add a level.
-    foo = long_function_name(
-        var_one, var_two,
-    var_three, var_four)
-
-No:
-
-    # Arguments on first line forbidden when not using vertical alignment.
-    foo = long_function_name(var_one, var_two,
-        var_three, var_four)
-
-    # Further indentation required as indentation is not distinguishable.
-    def long_function_name(
-        var_one, var_two, var_three,
-        var_four):
-        print(var_one)
 
 ## Imports
 
@@ -59,14 +29,6 @@ It's okay to say this though:
 ```
 from subprocess import Popen, PIPE
 ```
-
-- Imports are always put at the top of the file, just after any module comments and docstrings, and before module globals and constants. Imports should be grouped in the following order:
-
-  1. Standard library imports.
-  2. Related third party imports.
-  3. Local application/library specific imports.
-
-You should put a blank line between each group of imports.
 
 - Absolute imports are recommended, as they are usually more readable and tend to be better behaved (or at least give better error messages) if the import system is incorrectly configured (such as when a directory inside a package ends up on sys.path):
 
@@ -99,13 +61,17 @@ When republishing names this way, the guidelines below regarding public and inte
 
 ## Strings
 
-In Python, single-quoted strings and double-quoted strings are the same. This PEP does not make a recommendation for this. Pick a rule and stick to it. When a string contains single or double quote characters, however, use the other one to avoid backslashes in the string. It improves readability. For triple-quoted strings, always use double quote characters to be consistent with the docstring convention in [PEP 257](https://www.python.org/dev/peps/pep-0257).
+In Python, single-quoted strings and double-quoted strings are the same. This PEP does not make a recommendation for this. The recommended way of writing strings is by using f strings. They allow you to add variables into a string without using `+` to concatenate. That improves readability.
 
-    No:
-    print("This is a string" + ' and also this')
+Normal Strings:
 
-    Yes:
-    print("This is a string" + " and also this")
+    "Hi my name is " + name + " " + surname + " and I am part of " + company
+
+F strings:
+
+    f"Hi my name is {name} {surname} and I am part of {company}"
+
+ PEP 257 describes good docstring conventions. Note that most importantly, the """ that ends a multiline docstring should be on a line by itself:
 
 ## Naming Conventions
 
@@ -159,16 +125,21 @@ But sometimes, this is useful:
 
 ### Documentation Strings
 
-Conventions for writing good documentation strings (a.k.a. "docstrings") are immortalized in PEP 257.
+Conventions for writing good documentation strings (a.k.a. "docstrings") are immortalized in [PEP 257](https://www.python.org/dev/peps/pep-0257).
 
 - Write docstrings for all public modules, functions, classes, and methods. Docstrings are not necessary for non-public methods, but you should have a comment that describes what the method does. This comment should appear after the def line.
 - PEP 257 describes good docstring conventions. Note that most importantly, the """ that ends a multiline docstring should be on a line by itself:
 
 ```
-    """Return a foobang
+    """ this is the docstring for the module"""
+    module.py
 
-    Optional plotz says to frobnicate the bizbaz first.
-    """
+    """ this is not a docstring, this is a mistake"""
+    class Whatever:
+        """ classes can have docstrings too"""
+    def stuff( ...):
+            """fnctions can have docstrings"""
+
+    def moar_Stuff():
+    """module level functions too"""
 ```
-
-- For one liner docstrings, please keep the closing """ on the same line.
