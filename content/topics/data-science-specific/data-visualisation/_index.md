@@ -16,3 +16,7 @@ To get you introduced to data visualisation, complete the following tutorial(s):
 Python](https://www.datacamp.com/courses/introduction-to-data-visualization-with-python).
 
 **Optional**: Complete Kaggle's [Data Visualisation: From Non-Coder to Coder](https://www.kaggle.com/learn/data-visualization-from-non-coder-to-coder)
+
+**Advanced: Making interactive graphs with Plotly**
+
+[Here](https://kyso.io/KyleOS/cufflinks-intro?utm_campaign=News&utm_medium=Community&utm_source=DataCamp.com%20add%20to%20curriculum%20visualisation) is a great walk-through of different types of plots in [Plotly](https://plot.ly/python/) with [Cufflinks](https://plot.ly/ipython-notebooks/cufflinks/).
