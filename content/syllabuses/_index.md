@@ -112,7 +112,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - ALL_DATA:
 
-  - {{% contentlink "projects/data-validation-with-python-and-regex" %}}
+  - {{% contentlink "/projects/tdd/string-calculator/" %}}
 
 - WEB_DEV:
 
