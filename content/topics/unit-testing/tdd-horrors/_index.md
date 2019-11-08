@@ -195,5 +195,5 @@ Do this:
 
 ### Some useful Readings
   1. [Common mistakes in TDD](https://cmatskas.com/common-mistakes-in-tdd/)
-  2. {{% contentlink "/topics/unit-testing/_index.md" %}}
-  3. {{% contentlink "/topics/clean-code/_index.md" %}}
+  2. {{% contentlink "/topics/unit-testing/" %}}
+  3. {{% contentlink "/topics/clean-code/" %}}
