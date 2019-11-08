@@ -3,17 +3,13 @@ title: Google Data Studio Assignment
 ready: True
 ---
 
-## Part 1
-- Import the [top 500 IMDB movies data](imdb_top500_movies_list.csv) into Google Data Studio
-- Select the data in the IMDB spreadsheet that you would like to use to tell a story. For example, you may want to see whether revenue is associated with movie ratings
-- Create a single page that has at least 2 graphs, a table and a filter
-- Include a heading for the page
-- No styling necessary for Part 1
-- You will present this to the team for feedback, so you must be able to interpret your graphs
 
-## Part 2
-- Create a 2-page dashboard conveying different information on each page
+## South African Open Cities
+The South African Cities Open Data Almanac has great data, but it is mostly sitting within pdfs and spreadsheets. We can visualise it!
+
+- Choose at least 4 datasets to download from the [State of Cities Report page](http://scoda.opendata.durban/dataset/state-of-cities-report-data-2016). You can choose what information you would like to focus on (employment, energy, etc.).
+- Import the data to Google Data Studio and create a 2-page dashboard showing the state of our cities. [Open Data for Africa](http://dataportal.opendataforafrica.org/ymbqap/south-africa-at-a-glance) has a nice example of what such a dashboard could look like
+- Remember to use graphs, tables and filters
+- Include a heading on each page describing what is shown
 - Styling and theme is important - keep it consistent
-- You must have filters on each page and KPIs on at least 1 page
-- You must have a heading for each page describing what is shown
-- Be able to present each dashboard to the group
+- Present your dashboard to the team. You will have to interpret the data - what trends do you see? Any areas for concern or optimism?
