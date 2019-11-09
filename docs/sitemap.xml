@@ -235,6 +235,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/clean-code/python/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/clean-code-for-web/</loc>
   </url>
   
@@ -308,12 +312,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/data-science-specific/</loc>
+    <loc>/tech-department/topics/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/</loc>
+    <loc>/tech-department/projects/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
@@ -391,6 +395,10 @@
   
   <url>
     <loc>/tech-department/workshops/google-forms-like-a-boss/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/how-to-be-a-great-mentor/</loc>
   </url>
   
   <url>
@@ -578,10 +586,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/data-science-specific/logistic-regression/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/projects/memory-game-modern/</loc>
   </url>
   
@@ -635,6 +639,18 @@
   
   <url>
     <loc>/tech-department/projects/oop/person/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/data-science-specific/logistic-regression/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/data-science-specific/logistic-regression/credit-card-approvals/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/data-science-specific/logistic-regression/titanic/</loc>
   </url>
   
   <url>
