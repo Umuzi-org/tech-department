@@ -198,6 +198,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/workshops/big-picture-web-dev/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/first-personal-website/</loc>
   </url>
   
@@ -312,12 +316,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/</loc>
+    <loc>/tech-department/projects/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/projects/data-science-specific/</loc>
+    <loc>/tech-department/topics/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
@@ -562,6 +566,11 @@
   </url>
   
   <url>
+    <loc>/tech-department/workshops/javascript-specific/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/jupyter-notebooks-best-practices/</loc>
   </url>
   
@@ -579,6 +588,14 @@
   
   <url>
     <loc>/tech-department/projects/linux/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/python-specific/live-code-python-intro/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/javascript-specific/live-code-javascript-intro/</loc>
   </url>
   
   <url>
@@ -659,6 +676,11 @@
   
   <url>
     <loc>/tech-department/topics/python-self-learning/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/python-specific/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
