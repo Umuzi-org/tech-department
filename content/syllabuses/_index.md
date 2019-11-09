@@ -58,8 +58,8 @@ We get a few NCIT assessments out of the way during MUB.
 In this week, everyone gets to know their way around linux.
 
 - ALL:
-  - {{% contentlink "department-processes/what-recruits-need-to-know" %}}
   - Department ice-breaker
+  - {{% contentlink "department-processes/what-recruits-need-to-know" %}}
   - {{% contentlink "workshops/how-to-be-a-professional" %}}
   - Introduction to NCIT curriculum
   - {{% contentlink "workshops/intro-to-linux" %}}
@@ -98,8 +98,12 @@ Recruits learn a bit about how to build an online presence. Recruits submit thei
 The recruits finish off their portfolios. From this point forward they are expected to keep their portfolios up to date on their own time.
 
 - ALL:
+
   - {{% contentlink "workshops/general-coding-best-practices" %}}
   - {{% contentlink "projects/first-personal-website" %}} - Deadline
+
+- WEB_DEV:
+  - {{% contentlink "topics/web-frontend/intro-to-web-design/" %}}
 
 * Java:
   - NCIT 10: Workshop: Giving and receiving constructive feedback
@@ -110,19 +114,23 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 ## Week 4:
 
-- ALL_DATA:
-
-  - {{% contentlink "/projects/tdd/string-calculator/" %}}
+- {{% contentlink "topics/how-to-ask-the-right-questions" %}}
 
 - WEB_DEV:
 
-  - {{% contentlink "topics/regular-expressions" %}}
+  - {{% contentlink "workshops/javascript-specific/live-code-javascript-intro" %}}
+  - {{% contentlink "projects/basic-flow-control-katas" %}} do this in pairs
+
+- DATA_ENG:
+
+  - {{% contentlink "projects/basic-flow-control-katas" %}} do this in pairs
+  - {{% contentlink "workshops/python-specific/live-code-python-intro" %}}
 
 - DATA_SCI:
 
   - {{% contentlink "workshops/survey-design" %}}
   - {{% contentlink "workshops/google-forms-like-a-boss" %}}
-  - {{% contentlink "topics/how-to-ask-the-right-questions" %}}
+  - {{% contentlink "projects/basic-flow-control-katas" %}} do this in pairs
 
 - JAVA:
   - carry over any NCIT tasks from previous week
@@ -132,6 +140,10 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/basic-flow-control-katas" %}} do this in pairs
 
 ## Week 5: Some specific skills
+
+- ALL:
+
+  - {{% contentlink "workshops/big-picture-web-dev" %}}
 
 - DATA_SCI:
 
@@ -144,9 +156,10 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "topics/python-specific/automated-testing-with-pytest" %}}
   - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
 
-- WEB_DEV:
-
-  - {{% contentlink "topics/web-frontend/intro-to-web-design/" %}}
+* WEB_DEV:
+  - {{% contentlink "topics/unit-testing" %}}
+  - {{% contentlink "workshops/intro-to-unit-testing-with-jasmine" %}}
+  - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
 
 - JAVA:
   - {{% contentlink "workshops/java-specific/basic-intro-to-oop" %}}
@@ -167,9 +180,15 @@ The recruits finish off their portfolios. From this point forward they are expec
 - DATA_SCI:
 
   - {{% contentlink "workshops/intro-to-data-ethics" %}}
+  - {{% contentlink "topics/unit-testing" %}}
+  - {{% contentlink "topics/python-specific/automated-testing-with-pytest" %}}
+  - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
 
 - DATA_ENG:
 
+  - {{% contentlink "projects/tdd/password-checker" %}}
+
+* WEB_DEV:
   - {{% contentlink "projects/tdd/password-checker" %}}
 
 - NCIT 05: History of the Internet
@@ -188,29 +207,24 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/tdd/string-calculator" %}}
 
 - DATA_SCI:
+  - {{% contentlink "projects/tdd/password-checker" %}}
 
-  - {{% contentlink "topics/unit-testing" %}}
-  - {{% contentlink "topics/python-specific/automated-testing-with-pytest" %}}
-  - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
-
-- WEB_DEV
-  - {{% contentlink "topics/unit-testing" %}}
-  - {{% contentlink "workshops/intro-to-unit-testing-with-jasmine" %}}
-  - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
+* WEB_DEV
+  - {{% contentlink "projects/tdd/string-calculator" %}}
 
 ## Week 8:
 
 - DATA_SCI:
 
-  - {{% contentlink "projects/tdd/password-checker" %}}
+  - {{% contentlink "projects/tdd/string-calculator" %}}
   - {{% contentlink "topics/python-specific/unit-testing/automated-testing-pandas-and-numpy" %}}
 
 - DATA_ENG:
-  - {{% contentlink "projects/python-specific/file_io_kata" %}} part 1
+  - {{% contentlink "topics/python-specific/oop-for-python/" %}}
+  - {{% contentlink "projects/oop/person" %}}
 
 * WEB_DEV:
-
-  - {{% contentlink "projects/tdd/password-checker" %}}
+  - {{% contentlink "projects/oop/person" %}}
 
 ## Week 9:
 
@@ -218,10 +232,10 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/tdd/string-calculator" %}}
 
 * DATA_ENG
-  - {{% contentlink "projects/python-specific/file_io_kata" %}} part 2
+  - {{% contentlink "projects/tdd/simple-calculator-part2" %}}
 
 - WEB_DEV:
-  - {{% contentlink "projects/tdd/string-calculator" %}}
+  - {{% contentlink "projects/tdd/simple-calculator-part2" %}}
 
 ## Week 10:
 
@@ -236,28 +250,37 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "topics/functional-programming-intro" %}}
 
 * DATA_ENG:
-
-  - {{% contentlink "topics/functional-programming-intro" %}}
-
-* WEB_DEV:
-
-  - {{% contentlink "projects/tdd/simple-calculator-part2" %}}
-
-## Week 11 & 12
+  - {{% contentlink "topics/python-specific/intro-to-apis/" %}}
+  - {{% contentlink "projects/python-specific/expose-rest-api-simple/" %}} INTRODUCED
 
 - WEB_DEV:
-
   - {{% contentlink "topics/js-and-node-specific/dom-manipulation-with-vanilla-js" %}}
-  - {{% contentlink "projects/memory-game-vanilla" %}}
+  - {{% contentlink "projects/memory-game-vanilla" %}} INTRODUCED
+
+## Week 11
+
+- WEB_DEV:
+  - {{% contentlink "projects/memory-game-vanilla" %}} DUE
+
+* DATA_SCI:
+
+  - {{% contentlink "projects/data-science-specific/statistical-thinking/" %}} INTRODUCED
+
+* DATA_ENG:
+  - {{% contentlink "projects/python-specific/expose-rest-api-simple/" %}} DUE
+
+## WEEK 12:
 
 - DATA_SCI:
 
-  - {{% contentlink "projects/data-science-specific/statistical-thinking/" %}}
+  - {{% contentlink "projects/data-science-specific/statistical-thinking/" %}} DUE
 
-- DATA_ENG:
+- DATA_ENG
 
-  - {{% contentlink "topics/python-specific/intro-to-apis/" %}}
-  - {{% contentlink "projects/python-specific/expose-rest-api-simple/" %}}
+  - {{% contentlink "projects/oop/cars" %}}
+
+- WEB_DEV
+  - {{% contentlink "projects/oop/cars" %}}
 
 ## Week 13 & 14: OOP
 
@@ -266,16 +289,13 @@ The recruits finish off their portfolios. From this point forward they are expec
 - DATA_SCI
 
   - {{% contentlink "topics/python-specific/oop-for-python/" %}}
-  - {{% contentlink "projects/oop/" %}}
+  - {{% contentlink "projects/oop/person" %}}
+  - {{% contentlink "projects/oop/cars" %}}
   - {{% contentlink "projects/oop-for-data-science/" %}}
 
 - DATA_ENG
 
-  - {{% contentlink "topics/python-specific/oop-for-python/" %}}
-  - {{% contentlink "projects/oop/" %}}
-
-- WEB_DEV
-  - {{% contentlink "projects/oop/" %}}
+* WEB_DEV
   - {{% contentlink "workshops/node/" %}}
   - {{% contentlink "projects/nodejs/" %}}
   - {{% contentlink "topics/js-and-node-specific/introduction-to-node/" %}}
