@@ -60,6 +60,14 @@ ready: true
 
 The `ready:true` part tells hugo that this is not a draft, it is ready for human consumption.
 
+If you add anything inside the `content/projects` directory then it will automatically get rendered with a link to a submission form at the top of the page. If you want to suppress this behavior then use the frontmatter:
+
+```
+noform: true
+```
+
+Take a look at http://localhost:1313/projects/nodejs/ to see this in action
+
 ### you can upgrade the look and feel of this site
 
 For the most part the best place to do this is in the layouts directory.
