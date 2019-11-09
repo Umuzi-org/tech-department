@@ -24,7 +24,7 @@ sudo apt install golang
 To run the development server:
 
 ```
-hugo server
+hugo serve -b "http://localhost:1313/"
 ```
 
 ## syllabus docs:
