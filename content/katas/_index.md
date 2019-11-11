@@ -209,37 +209,6 @@ let cPattern(5) => Expected output:
 ``` 
 ## Ceaser cipher
 
- **What is ceasar cipher?**
-
-> Caesar Cipher: Is an earlier encryption technique which is/was used to substitute/shift the current alphabets with alphabet after a number of count.
-
-
-
-write a function that takes in a string argument and number argument [nth] and shifts each and every alphabet of the given string to [nth] position
-```
-//Javascript
-
-function ceasarCipher("fmjkbi",3) =>
-
-Expected output:
-
-ipmnel
-```
              
 ## fibonacci sequence
- **What is fibonacci sequence?**
 
-> Fibonacci Sequence: is the series of numbers where the next number is found by adding up the n numbers before it.
-> e.g. in this case n =2:
-> sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
-
-write a function that takes in a number argument [n] and returns fibonacci sequence of the given number [n], "series of values" 
-```
-//Javascript
-
-function fibonacci(144)
-
-Expected output:
-
-0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144
-```
