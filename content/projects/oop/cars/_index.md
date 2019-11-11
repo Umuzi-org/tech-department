@@ -6,7 +6,7 @@ This Challenge should 3 topics fromm you OOP knowledge
 2. Enheritance
 3. Polymophism
 
-**Need to add a screenshort here **
+![Screenshot 2019-11-11 at 10 21 38](https://user-images.githubusercontent.com/47598382/68578218-40542900-047a-11ea-9da8-02ed02d0c798.png)
 
 In this challenge you will create 3 classes
 1. Super Class called Animal
