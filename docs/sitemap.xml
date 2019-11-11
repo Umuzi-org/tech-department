@@ -33,10 +33,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/depricated/memory-game/intro/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/projects/nodejs/file-io/</loc>
   </url>
   
@@ -49,11 +45,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/depricated/memory-game/code-review-deadline/</loc>
-    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tech-department/projects/semitone-challenge/gui-part-1/</loc>
   </url>
   
@@ -63,11 +54,6 @@
   
   <url>
     <loc>/tech-department/projects/nodejs/mongo/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/depricated/memory-game/code-review-workshop/</loc>
-    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
@@ -89,11 +75,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/depricated/memory-game/configurable-grid-size-deadline/</loc>
-    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tech-department/projects/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
   </url>
@@ -111,16 +92,11 @@
   </url>
   
   <url>
-    <loc>/tech-department/ncit/</loc>
+    <loc>/tech-department/katas/</loc>
   </url>
   
   <url>
     <loc>/tech-department/department-processes/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/workshops/git-for-teamwork/</loc>
-    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
@@ -173,10 +149,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/java-specific/gradle-setup/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/apis/basics/</loc>
   </url>
   
@@ -202,10 +174,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/depricated/search-and-sort/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/python-specific/automated-testing-with-pytest/</loc>
   </url>
   
@@ -218,6 +186,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/workshops/java-specific/basic-intro-to-oop/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/redux_intro/</loc>
   </url>
   
@@ -226,12 +198,24 @@
   </url>
   
   <url>
+    <loc>/tech-department/workshops/big-picture-web-dev/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/first-personal-website/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/oop/cars/</loc>
   </url>
   
   <url>
     <loc>/tech-department/categories/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/clean-code/</loc>
   </url>
   
   <url>
@@ -243,7 +227,19 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/clean-code/</loc>
+    <loc>/tech-department/topics/clean-code/java-script/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/clean-code/data-science/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/clean-code/java/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/clean-code/python/</loc>
   </url>
   
   <url>
@@ -295,6 +291,14 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/data_validation_and_verification/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/data-science-specific/data-visualisation/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/data-science-specific/data-visualisation/</loc>
   </url>
   
@@ -317,6 +321,11 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/data-science-specific/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/data-infrastructure/database-comparison/</loc>
   </url>
   
@@ -326,11 +335,6 @@
   
   <url>
     <loc>/tech-department/projects/data-science-specific/decision-trees/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/depricated/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -366,6 +370,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/data-science-specific/data-visualisation/mobile-money-viz/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/python-specific/file_io_kata/</loc>
   </url>
   
@@ -382,11 +390,19 @@
   </url>
   
   <url>
+    <loc>/tech-department/workshops/git-for-teamwork/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/git/</loc>
   </url>
   
   <url>
     <loc>/tech-department/workshops/google-forms-like-a-boss/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/how-to-be-a-great-mentor/</loc>
   </url>
   
   <url>
@@ -411,6 +427,10 @@
   
   <url>
     <loc>/tech-department/topics/web-frontend/intro-to-angular/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/intro-to-css-architecture/</loc>
   </url>
   
   <url>
@@ -458,11 +478,19 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/intro-to-css/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/intro-to-css/</loc>
   </url>
   
   <url>
     <loc>/tech-department/workshops/intro-to-express/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/intro-to-gradle-with-intellij/</loc>
   </url>
   
   <url>
@@ -522,11 +550,24 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/java-specific/oop-basics/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/java-specific/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/java-specific/java-self-learning/</loc>
   </url>
   
   <url>
     <loc>/tech-department/topics/js-and-node-specific/template-engines/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/javascript-specific/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -538,6 +579,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/basic-flow-control-katas/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/department-processes/linkz/</loc>
   </url>
   
@@ -546,7 +591,15 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/data-science-specific/logistic-regression/</loc>
+    <loc>/tech-department/workshops/python-specific/live-code-python-intro/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/javascript-specific/live-code-javascript-intro/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/java-specific/live-code-java-intro/</loc>
   </url>
   
   <url>
@@ -555,11 +608,6 @@
   
   <url>
     <loc>/tech-department/projects/memory-game-vanilla/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/depricated/memory-game/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -572,6 +620,10 @@
   
   <url>
     <loc>/tech-department/projects/data-science-specific/multivariate-linear-regression/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/node/</loc>
   </url>
   
   <url>
@@ -595,10 +647,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/depricated/oop-in-python/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/department-processes/team-onboarding/</loc>
   </url>
   
@@ -611,11 +659,28 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/data-science-specific/logistic-regression/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/data-science-specific/logistic-regression/credit-card-approvals/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/data-science-specific/logistic-regression/titanic/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/python-specific/</loc>
   </url>
   
   <url>
     <loc>/tech-department/topics/python-self-learning/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/python-specific/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -754,10 +819,6 @@
   
   <url>
     <loc>/tech-department/projects/build-rest-api-with-db/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/projects/data-validation-with-python-and-regex/</loc>
   </url>
   
   <url>

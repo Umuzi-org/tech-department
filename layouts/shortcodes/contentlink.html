@@ -3,7 +3,7 @@
 {{ $elements := split $path "/" }}
 {{ $first := index ($elements) 0 }}
 
-<a href="/tech-department/{{ $trimmed }}"
+<a href="{{.Site.BaseURL}}{{ $trimmed }}"
   >{{ $first | upper }}: {{ with .Site.GetPage $trimmed }}
   {{ if not .Params.Ready }}
   <span class="contentlink-todo" data="{{ $path }}">[TODO]</span> {{ end }}
