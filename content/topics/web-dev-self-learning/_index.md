@@ -7,6 +7,7 @@ You are expected to spend your free time learning and practicing your web develo
 
 You should know HTML, CSS and JavaScript (including ES6 syntax).
 
+<<<<<<< HEAD
 - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 - [JS re-introduction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript) - Compact introduction covering types, variables, operators, control structures, functions and closures.
 - [FreeCodeCamp](https://www.freecodecamp.org/) - Learn to code html, css, javascript and libraries for free. 
@@ -27,3 +28,9 @@ You should know HTML, CSS and JavaScript (including ES6 syntax).
 - [ES6 Katas](http://es6katas.org) - Learn ES6 by solving unit test online.
 - [Practical ES6](https://github.com/mjavascript/practical-es6) - eBook with practical examples and advices.
 - [30 seconds of code](https://github.com/Chalarangelo/30-seconds-of-code) - Useful ES6 snippets that you can understand in 30 seconds or less.
+=======
+- [FreeCodeCamp](https://www.freecodecamp.org/): This one is great if you've never coded before. It holds your hand through the whole process
+- [W3Schools](https://www.w3schools.com/): This is also very friendly for beginners but teaches things in a more exploratory way
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide): MDN might be the soul of the internet
+- [CodeWars](https://www.codewars.com/): Practice makes perfect
+>>>>>>> master
