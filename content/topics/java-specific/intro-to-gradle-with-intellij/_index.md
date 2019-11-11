@@ -1,5 +1,6 @@
 ---
 title: Introduction to Gradle
+ready: true 
 ---
 
 ## What is gradle
