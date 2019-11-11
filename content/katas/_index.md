@@ -100,7 +100,22 @@ rotate("hello",-3) => llohe
 
 ## Ceaser cipher
 
-TODO
+ **What is ceasar cipher?**
+
+> Caesar Cipher: Is an earlier encryption technique which is/was used to substitute/shift the current alphabets with alphabet after a number of count.
+
+
+
+write a function that takes in a string argument and number argument [nth] and shifts each and every alphabet of the given string to [nth] position
+```
+//Javascript
+
+function ceasarCipher("fmjkbi",3) =>
+
+Expected output:
+
+ipmnel
+```
 
 ## fibonacci
 
