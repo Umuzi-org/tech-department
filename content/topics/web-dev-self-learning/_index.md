@@ -7,20 +7,23 @@ You are expected to spend your free time learning and practicing your web develo
 
 You should know HTML, CSS and JavaScript (including ES6 syntax).
 
-<<<<<<< HEAD
+## Basics
+
+- [FreeCodeCamp](https://www.freecodecamp.org/): This one is great if you've never coded before. It holds your hand through the whole process
+- [W3Schools](https://www.w3schools.com/): This is also very friendly for beginners but teaches things in a more exploratory way
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide): MDN might be the soul of the internet
+- [CodeWars](https://www.codewars.com/): Practice makes perfect
 - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 - [JS re-introduction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript) - Compact introduction covering types, variables, operators, control structures, functions and closures.
 - [FreeCodeCamp](https://www.freecodecamp.org/) - Learn to code html, css, javascript and libraries for free. 
 - [W3Schools](https://www.w3schools.com/) - Good JS reference with practical examples.
 - [CodeWars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
-- [Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) - ``` Javascript Classes ``` description and use cases.
-- [Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) - ``` Arrow functions ``` description and use cases.
-- [let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let) - ``` let ``` description and use cases.
-- [const](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const) - ``` const ``` description and use cases.
-- [Simplified JavaScript Jargon](http://jargon.js.org) - Glossary which explains all the buzzwords from the JavaScript eco system.
-- [Modern JavaScript Cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet) - Helps developers with basic knowledge to get familiar with modern codebases.
 - [Hacker Rank](https://www.hackerrank.com/) - Practice coding, prepare for interviews, and get hired.
-- [ECMAScript Language Specification](http://ecma-international.org/publications/standards/Ecma-262.htm) - The standard JavaScript is based on. Only for very advanced learners.
+- [Simplified JavaScript Jargon](http://jargon.js.org) - Glossary which explains all the buzzwords from the JavaScript eco system.
+
+
+> Once you have the basics down then you need to start learning ES6, this is a more modern version of JavaScript and has a few new concepts.
+ 
 - [Exploring ES6](http://exploringjs.com/es6.html) - Good introduction with in-depth chapters.
 - [Exploring ES2016 and ES2017](http://exploringjs.com/es2016-es2017.html) - Follow up of »Exploring ES6«.
 - [Setting up ES6](http://exploringjs.com/setting-up-es6.html) - Explains how to set up ES6 projects that are transpiled to ES5.
@@ -28,9 +31,15 @@ You should know HTML, CSS and JavaScript (including ES6 syntax).
 - [ES6 Katas](http://es6katas.org) - Learn ES6 by solving unit test online.
 - [Practical ES6](https://github.com/mjavascript/practical-es6) - eBook with practical examples and advices.
 - [30 seconds of code](https://github.com/Chalarangelo/30-seconds-of-code) - Useful ES6 snippets that you can understand in 30 seconds or less.
-=======
-- [FreeCodeCamp](https://www.freecodecamp.org/): This one is great if you've never coded before. It holds your hand through the whole process
-- [W3Schools](https://www.w3schools.com/): This is also very friendly for beginners but teaches things in a more exploratory way
-- [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide): MDN might be the soul of the internet
-- [CodeWars](https://www.codewars.com/): Practice makes perfect
->>>>>>> master
+
+
+> We find the following bits and pieces really useful. Make sure you really understand this stuff:
+
+- [Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) - ``` Javascript Classes ``` description and use cases.
+- [Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) - ``` Arrow functions ``` description and use cases.
+- [let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let) - ``` let ``` description and use cases.
+- [const](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const) - ``` const ``` description and use cases.
+- [Modern JavaScript Cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet) - Helps developers with basic knowledge to get familiar with modern codebases.
+- [ECMAScript Language Specification](http://ecma-international.org/publications/standards/Ecma-262.htm) - The standard JavaScript is based on. Only for very advanced learners.
+- [Spread Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) - ``` ... ```  Spread Operator description and use cases. 
+- [Ternary Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) -  ```?```  Ternary Operator description and use cases. 
