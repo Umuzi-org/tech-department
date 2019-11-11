@@ -11,10 +11,10 @@ These are all the most common TDD problems recruits tend to come across, read an
 - Avoid making tests depend on each other, either explicitly or implicitly. Dependencies among tests are a path to pain, expense, fragility, and complication.
 - Pay attention to failure messages. Make each failure message as helpful for diagnosis as you can.
 - Do not skimp on the refactoring. It is the refactoring that will keep your code (including the tests) easy to understand and change
-- Naming conventions: in general, be careful with your naming conventions. make sure your naming convention consistent, names should be more descriptive.
+- Naming conventions: in general, be careful with your naming conventions. make sure your naming convention consistent, names should be more descriptive. Name your files properly and according to what's inside them.
 - Keep good directory structure and delete all junk files.
 - Avoid messy indentation (install prettier).
-- Test for errors/exception, to do that your tests need to use:
+- Test for errors/exception, sometimes code is supposed to throw an error or raise an exception. In these cases your tests should make sure that the error happens as it should, to do that your tests need to use:
 
     Javascript:
     ```js
@@ -23,29 +23,10 @@ These are all the most common TDD problems recruits tend to come across, read an
 
     Python:
     ```py
-    with pytest.raises(ErrorType)...
-      ```
-- Files naming convention, name your files properly and according to what's inside them. E.g. if you have a file called add.js that only contains a multiply function then something is wrong. Do this:
-<!-- examples -->
-
-**Python**:
-
-`add.py`
-```py
-def add(***):
-  # some operations
-```
-**Javascript**
-
-`add.js`
-```js
-function add(***){
-  // operations
-}
-```
+    with pytest.raises([ErrorType])...
+    ```
 
 - *Python peeps* DO NOT Define a test case(testing function) inside a function.
-
 
 ```py
 def test_something():
@@ -78,24 +59,24 @@ Nice thing about the `pytest` module is that it removes the need for boilerplate
 Do not do this:
 ```py
     def test(self):
-      assert add("1,2,3,4") == 10
-      assert multiply("1,2,3") == 6
+      assert add(1,2,3,4) == 10
+      assert multiply(1,2,3) == 6
 ```
 Do this instead:
 ```py
 # test add function.
   def test_add_two_values(self):
-    assert add("1,2") == 3
+    assert add(1,2) == 3
 
   def test_add_multiple_values(self):
-    assert add("1,2,3,4,5,6") == 21
-    assert add("2,3,4,5") == 14
+    assert add(1,2,3,4,5,6) == 21
+    assert add(2,3,4,5) == 14
 
   def test_multiply_two_values(self):
-    assert multiply("1,2") == 2
+    assert multiply(1,2) == 2
 
   def test_multiply_multiple_values(self):
-    assert multiply("1,2,4") == 8
+    assert multiply(1,2,4) == 8
 ```
 
 **Javascript example:**
@@ -104,11 +85,11 @@ Don't do this:
 ```js
   describe('Test one', () => {
     it('Should add', () => {
-      let sum = add('1, 23, 5');
+      let sum = add(1, 23, 5);
       expect(sum).toBe(29);
     })
     it('Should multiply', () => {
-      let prod = multiply('1, 23');
+      let prod = multiply(1, 23);
       expect(prod).toBe(23);
     })
   })
@@ -120,13 +101,13 @@ Do this:
 ```js
   describe('add()', () => {
     it('Should add [what exactly?]', () => {
-      let sum = add('1, 23, 5');
+      let sum = add(1, 23, 5);
       expect(sum).toBe(29);
     })
   })
   describe('multiply()', () => {
     it('Should multiply [what exactly?]', () => {
-      let prod = multiply('1, 23');
+      let prod = multiply(1, 23);
       expect(prod).toBe(23);
     })
   })
