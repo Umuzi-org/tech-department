@@ -1,7 +1,7 @@
 ---
 title: Animals!
 ---
-This Challenge should 3 topics fromm you OOP knowledge 
+This Challenge should test 3 topics from your OOP knowledge 
 1. Encapsulation
 2. Enheritance
 3. Polymophism
