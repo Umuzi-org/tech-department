@@ -198,6 +198,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/workshops/big-picture-web-dev/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/first-personal-website/</loc>
   </url>
   
@@ -232,6 +236,10 @@
   
   <url>
     <loc>/tech-department/topics/clean-code/java/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/clean-code/python/</loc>
   </url>
   
   <url>
@@ -391,6 +399,10 @@
   
   <url>
     <loc>/tech-department/workshops/google-forms-like-a-boss/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/how-to-be-a-great-mentor/</loc>
   </url>
   
   <url>
@@ -554,6 +566,11 @@
   </url>
   
   <url>
+    <loc>/tech-department/workshops/javascript-specific/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/jupyter-notebooks-best-practices/</loc>
   </url>
   
@@ -574,11 +591,15 @@
   </url>
   
   <url>
-    <loc>/tech-department/workshops/java-specific/live-code-java-intro/</loc>
+    <loc>/tech-department/workshops/python-specific/live-code-python-intro/</loc>
   </url>
   
   <url>
-    <loc>/tech-department/projects/data-science-specific/logistic-regression/</loc>
+    <loc>/tech-department/workshops/javascript-specific/live-code-javascript-intro/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/java-specific/live-code-java-intro/</loc>
   </url>
   
   <url>
@@ -638,11 +659,28 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/data-science-specific/logistic-regression/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/data-science-specific/logistic-regression/credit-card-approvals/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/data-science-specific/logistic-regression/titanic/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/python-specific/</loc>
   </url>
   
   <url>
     <loc>/tech-department/topics/python-self-learning/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/python-specific/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
