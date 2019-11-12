@@ -1,24 +1,14 @@
 ---
-title: Introduction to Dotenv module 
+title: Introduction to Dotenv module
 ready: true
 
 ---
 
-## What is an environment variable?
+## Description
 
-An [environment variable](https://en.wikipedia.org/wiki/Environment_variable) is a variable whose value is set outside the program, typically through functionality built into the operating system or [container](https://www.docker.com/resources/what-container). An environment variable is made up of a name/value pair, and any number may be created and available for reference at a point in time.
+> [Dotenv](https://www.npmjs.com/package/dotenv) is a zero-dependency module that loads environment variables from a .env file into [process.env](https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7).
 
-For a more in-depth description of environmental variables, take a look at this: {{% contentlink "topics/linux/os-environmental-variables/" %}}
-
-```
-//example 
-NAME_OF_PLACE=Umuzi
-
-```
-
-## How does dotenv help you?
-
-Using environment variables is one technique to make your app easier to configure by separating infrequently changing data from your code. A strict separation of config from code means we can change config (which there's a small amount of, and it doesn't need to take much time) without needing to change any code and recompile (which can be big and slow). This makes for a portable app as you can have different configurations for multiple scenarios i.e configs for ```Development mode``` and ```Production mode``` without changing a single line in your code. [Dotenv](https://www.npmjs.com/package/dotenv) module loads environment variables from a .env file that you create and adds them to the [process.env](https://nodejs.org/docs/latest/api/process.html#process_process_env) object that is made available to the application
+We can either set the environment through application level logic, or we can use a tool to provision an environment for us. A common application level tool is dotenv which allows us to load environment variables from a file named ```.env```. Configs should have a separate file of their own and not hosted within the code repository. Having a separate config file makes it easy to update the config values without touching the actual code base. This eliminates the need for re-deployment of your applications when you change certain values in your config files. In other words, configs belong in the environment as variables, not in the application, you should be able to move it to another environment without having to touch the source code. Some developers achieve this goal by creating configuration files of some sort, specifying details such as directories, hostnames, and database credentials.
 
 
 ## How do I use dotenv?
@@ -27,7 +17,7 @@ Using environment variables is one technique to make your app easier to configur
 - cd into the directory you created and run
 ```
 npm init -y
-npm install --save dotenv
+npm install dotenv
 
 ``` 
 - Create a .env file and add your configurations.
@@ -142,7 +132,8 @@ Now you can access all environment variables in the .env without requiring doten
 
 ## Best practices
 
-> Be careful to add .env to your .gitignore file and commit that change before you add your .env. Otherwise, you run the risk of committing an early version of your .env to source control.
+> Be careful to add .env to your .gitignore file and commit that change before you add your .env. Otherwise, you run the risk of committing an early version of your .env to source control. Your .env file contains very sensitive information (your app key at the very least). You do not want this in version control where everybody can see this information and possibly use it to attack your site.
+Think about database information which might be stored in there or email keys or passwords. Furthermore it is likely that the information which you use in your .env file also needs to change between environments so you will need to change values anyways. 
 
 ```
 //.gitignore
