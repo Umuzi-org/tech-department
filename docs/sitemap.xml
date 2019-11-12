@@ -169,6 +169,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/oop/cars/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/apis/</loc>
     <priority>0</priority>
   </url>
@@ -203,10 +207,6 @@
   
   <url>
     <loc>/tech-department/projects/first-personal-website/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/projects/oop/cars/</loc>
   </url>
   
   <url>
