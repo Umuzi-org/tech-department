@@ -28,7 +28,7 @@ After setting up Jasmine on the terminal, please ensure that your directory has 
     - simple-calculator.js  <---- this is where you will implement all your functionality.
 
 - A spec folder that has a file called:
-    - simple-calculator.js  <---- this is where you will put your tests.
+    - simple-calculator-spec.js  <---- this is where you will put your tests.
 
 Your directory structure should look like this:
 
@@ -38,7 +38,7 @@ Your directory structure should look like this:
     >spec   
         > support
             -jasmine.json
-        - simple-calculator.js.
+        - simple-calculator-spec.js.
     >src
         -simple-calculator.js
     -package.json
@@ -71,7 +71,7 @@ Please note that your function should *NOT* expect an array or list of numbers, 
 ```
 add([1,2,3,4])   
 ```
-This is NOT what we are looking for. If you have square bracke[Running Jasmine on the Terminal](ts inside your round brackets, you are doing it wrong. The same will apply for the multiply function you will build in the next section. 
+This is NOT what we are looking for. If you have square brackets inside your round brackets, you are doing it wrong. The same will apply for the multiply function you will build in the next section. 
 
 ## 3. Create a multiply function that can multiply two integers
 
