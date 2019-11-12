@@ -33,6 +33,12 @@ Channels to join:
  - #meetups-and-events - info about meetups etc that are happening
  - relevant cohort channels (e.g. c14-data, c13_data)
 
+#### Mentorship 
+Here's what you have to know about the role of a Mentor,what is expected from both you and your Mentees.
+Here is the presentation : https://umuzi-org.github.io/tech-department/workshops/how-to-be-a-great-mentor/
+
+
+
 ### Personnel: 
 #### Pay, Leave, Medical Aid, Computers
 Hloni Letuka 
