@@ -113,7 +113,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 - DATA_SCI:
   - {{% contentlink "workshops/survey-design" %}}
   - {{% contentlink "workshops/google-forms-like-a-boss" %}}
-  - {{% contentlink "topics/how-to-ask-the-right-questions" %}}
+  - {{% contentlink "topics/how-to-ask-for-help-with-your-code" %}}
 
 ## Week 5: Some specific skills
 
