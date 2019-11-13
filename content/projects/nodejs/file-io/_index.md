@@ -20,24 +20,32 @@ Create the following functionality in a TDD way.
 - comments
 - name of the person who assisted the visitor
 
-2. Create a function called `save` that saves the visitor's data to a JSON file. The file name should be named like this `visitor_{some_number}.json`. The number part of the file name should be automatically generated as you save the visitor. eg:
+2. Create a function called `save` that saves the visitor's data to a JSON file. The file name should be named like this `visitor_{their_full_name}.json`.
 
 ```
-alice.save()   # results in visitor_1.json
-bob.save()     # results in visitor_2.json
-charlie.save() # results in visitor_3.json
+alice.save()   # results in visitor_alice_cooper.json
+bob.save()     # results in visitor_bob_marley.json
+charlie.save() # results in visitor_charley_sheen.json
 ```
 
-3. Create a function called `load` that takes in a number and returns a Visitor object that was saved to file.
+Notice that the full name used in the file is all lower-case and spaces are replaced by underscores.
+
+3. Create a function called `load` that takes in a name and then grabs a Visitor object from file. It should simply `console.log` the visitor.
 
 eg:
 
 ```
-alice = load(1)
-bob   = load(2)
+load("Alice Cooper")
+// prints out all of Alice's goodies
+
+
+load("Bob Marley")
+// Same deal for good ol Bob
 ```
 
 ## Resources
 
 - [Accessing the file system](https://www.w3schools.com/nodejs/nodejs_filesystem.asp)
 - [JSON](https://www.w3schools.com/js/js_json_intro.asp): Make sure you understand everything up to the end of "JSON Arrays"
+
+## Up for a challenge?
