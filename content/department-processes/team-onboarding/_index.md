@@ -63,6 +63,9 @@ Daily tech meeting / check-in with tech facilitators and managers at 3:30pm on M
  - Add to Trello boards
  - Add to Datacamp (Data hires)
  - Go through recruit project submission, code review, contributing to the tech department repo and specific product contributions (as relevant)
+  
+#### Cohort Leaders:
+ - A cohort leader is the junior staff member that is put in charge of a specific cohort, you can find the allocations and responsibilities: [here] (https://docs.google.com/spreadsheets/d/1ZMnFbbqEca1NWbpxLZnYoY9S-usG5tjtM0mAzkArfEQ/edit#gid=0)
 
 #### Code review: 
 [General process here] (https://umuzi-org.github.io/tech-department/department-processes/code-review/)

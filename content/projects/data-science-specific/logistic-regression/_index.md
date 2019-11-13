@@ -1,5 +1,5 @@
 ---
-title: Predict credit card approvals
+title: Logistic regression
 ready: True
 ---
 
