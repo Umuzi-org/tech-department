@@ -12,19 +12,19 @@
     <title>Node &amp; File IO :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1573634494" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1573634494" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1573634494" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1573634494" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1573634494" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1573634494" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1573634494" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1573634494" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1573641387" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1573641387" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1573641387" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1573641387" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1573641387" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1573641387" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1573641387" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1573641387" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1573634494" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1573641387" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1573634494"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1573641387"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1573634494"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1573634494"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1573641387"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1573641387"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1573634494"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1573641387"></script>
 
     
   </div>
@@ -4309,12 +4309,12 @@
  
   
     
-    <li data-nav-id="/tech-department/projects/oop/cars/" title="Animals!" class="dd-item 
+    <li data-nav-id="/tech-department/projects/oop/animals/" title="Animals!" class="dd-item 
         
         
         
         ">
-      <a href="/tech-department/projects/oop/cars/">
+      <a href="/tech-department/projects/oop/animals/">
           Animals!
           
       </a>
@@ -5528,6 +5528,7 @@
 <ul>
 <li><a href="#instructions">Instructions</a></li>
 <li><a href="#resources">Resources</a></li>
+<li><a href="#up-for-a-challenge">Up for a challenge?</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -5600,22 +5601,28 @@
 </ul>
 
 <ol>
-<li>Create a function called <code>save</code> that saves the visitor&rsquo;s data to a JSON file. The file name should be named like this <code>visitor_{some_number}.json</code>. The number part of the file name should be automatically generated as you save the visitor. eg:</li>
+<li>Create a function called <code>save</code> that saves the visitor&rsquo;s data to a JSON file. The file name should be named like this <code>visitor_{their_full_name}.json</code>.</li>
 </ol>
 
-<pre><code>alice.save()   # results in visitor_1.json
-bob.save()     # results in visitor_2.json
-charlie.save() # results in visitor_3.json
+<pre><code>alice.save()   # results in visitor_alice_cooper.json
+bob.save()     # results in visitor_bob_marley.json
+charlie.save() # results in visitor_charley_sheen.json
 </code></pre>
 
+<p>Notice that the full name used in the file is all lower-case and spaces are replaced by underscores.</p>
+
 <ol>
-<li>Create a function called <code>load</code> that takes in a number and returns a Visitor object that was saved to file.</li>
+<li>Create a function called <code>load</code> that takes in a name and then grabs a Visitor object from file. It should simply <code>console.log</code> the visitor.</li>
 </ol>
 
 <p>eg:</p>
 
-<pre><code>alice = load(1)
-bob   = load(2)
+<pre><code>load(&quot;Alice Cooper&quot;)
+// prints out all of Alice's goodies
+
+
+load(&quot;Bob Marley&quot;)
+// Same deal for good ol Bob
 </code></pre>
 
 <h2 id="resources">Resources</h2>
@@ -5624,6 +5631,8 @@ bob   = load(2)
 <li><a href="https://www.w3schools.com/nodejs/nodejs_filesystem.asp">Accessing the file system</a></li>
 <li><a href="https://www.w3schools.com/js/js_json_intro.asp">JSON</a>: Make sure you understand everything up to the end of &ldquo;JSON Arrays&rdquo;</li>
 </ul>
+
+<h2 id="up-for-a-challenge">Up for a challenge?</h2>
 
 
 <footer class=" footline" >
@@ -9073,20 +9082,20 @@ bob   = load(2)
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1573634494"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1573634494"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1573634494"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1573634494"></script>
-    <script src="/tech-department/js/featherlight.min.js?1573634494"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1573634494"></script>
-    <script src="/tech-department/js/highlight.pack.js?1573634494"></script>
+    <script src="/tech-department/js/clipboard.min.js?1573641387"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1573641387"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1573641387"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1573641387"></script>
+    <script src="/tech-department/js/featherlight.min.js?1573641387"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1573641387"></script>
+    <script src="/tech-department/js/highlight.pack.js?1573641387"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1573634494"></script>
-    <script src="/tech-department/js/learn.js?1573634494"></script>
-    <script src="/tech-department/js/hugo-learn.js?1573634494"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1573641387"></script>
+    <script src="/tech-department/js/learn.js?1573641387"></script>
+    <script src="/tech-department/js/hugo-learn.js?1573641387"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1573634494" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1573634494"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1573641387" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1573641387"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
