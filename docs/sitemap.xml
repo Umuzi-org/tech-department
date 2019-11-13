@@ -354,6 +354,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/data-science-specific/data-visualisation/linux-evolution/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/expose-a-simple-rest-api-for-game/</loc>
   </url>
   
@@ -603,6 +607,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/data-science-specific/logistic-regression/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/memory-game-modern/</loc>
   </url>
   
@@ -656,10 +664,6 @@
   
   <url>
     <loc>/tech-department/projects/oop/person/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/projects/data-science-specific/logistic-regression/</loc>
   </url>
   
   <url>

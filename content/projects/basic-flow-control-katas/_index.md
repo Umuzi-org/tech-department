@@ -3,7 +3,7 @@ title: Level 1 programming katas
 ready: true
 ---
 
-These Exercises are here to help you test out and demonstrate your knowledge of tthe basic flow control mechanisms and syntax for your language. These Exercises are relevent whether you are doing Java, JavaScrupt, Python, Kotlin or any other modern language.
+These Exercises are here to help you test out and demonstrate your knowledge of the basic flow control mechanisms and syntax for your language. These Exercises are relevent whether you are doing Java, JavaScrupt, Python, Kotlin or any other modern language.
 
 Please follow best practices when doing this work!
 
@@ -153,6 +153,6 @@ Remember that you are here to become a professional! Professionals take ownershi
 Here are some resources you can use to continue this journey:
 
 - https://adriann.github.io/programming_problems.html : this has lots of cool little excercises. They're mostly pretty small, you could do a few every day if you wanted to. Even one per day would be a winner
-- https://www.codewars.com: you should know about this already, it't legit!
+- https://www.codewars.com: you should know about this already, it's legit!
 
 Have fun :)
