@@ -3,6 +3,10 @@ title: Beginner Linux challenges
 ready: true
 ---
 
+### Submission guide lines:
+
+For this specific project we require you to complete the required scripts in terminal, verify that your commands work then copy them into a .md file. Make sure your tasks are labeled clearly. You will be pushing this file to GitHub and submitting the github link for assessment after you complete your GitHub exercises.
+
 ### Task 1 : Basic Task
 
 Open a linux terminal. Now do the following from the command line.
