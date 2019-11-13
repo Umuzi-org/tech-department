@@ -117,6 +117,3 @@ Expected output:
 ipmnel
 ```
 
-## fibonacci
-
-TODO
