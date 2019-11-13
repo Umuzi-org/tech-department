@@ -169,6 +169,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/oop/animals/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/apis/</loc>
     <priority>0</priority>
   </url>
@@ -203,10 +207,6 @@
   
   <url>
     <loc>/tech-department/projects/first-personal-website/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/projects/oop/cars/</loc>
   </url>
   
   <url>
@@ -351,6 +351,10 @@
   
   <url>
     <loc>/tech-department/topics/linux/os-environmental-variables/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/data-science-specific/data-visualisation/linux-evolution/</loc>
   </url>
   
   <url>
@@ -603,6 +607,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/data-science-specific/logistic-regression/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/memory-game-modern/</loc>
   </url>
   
@@ -656,10 +664,6 @@
   
   <url>
     <loc>/tech-department/projects/oop/person/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/projects/data-science-specific/logistic-regression/</loc>
   </url>
   
   <url>
