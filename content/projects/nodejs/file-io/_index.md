@@ -49,3 +49,28 @@ load("Bob Marley")
 - [JSON](https://www.w3schools.com/js/js_json_intro.asp): Make sure you understand everything up to the end of "JSON Arrays"
 
 ## Up for a challenge?
+
+Here are some upgrades you can add to your project if you are up for it.
+
+4. Update your `load` function so that it returns an instance of `Visitor` instead of just `console.log`ging it. You'll need to learn a little bit about Syncronous versus Asyncronous code to get this one right :)
+
+5. Make use of integer ids when saving things to files.
+
+Update your save function so it works like this:
+
+```
+alice.save()   # results in visitor_1.json
+bob.save()     # results in visitor_2.json
+charlie.save() # results in visitor_3.json
+
+alice.comments = "Kinda weird, I don't think he'll fit in"
+alice.save()   # results in an UPDATE to visitor_1.json
+```
+
+Your load function should also get a bit of an update.
+
+```
+charlie = load(3)
+charlie.comments = "Winning!"
+charlie.save() # results in an UPDATE to visitor_3.json
+```
