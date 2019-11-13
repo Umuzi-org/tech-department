@@ -9,12 +9,12 @@
 The test consists of fifty items rated agree, neutral or disagree. To keep scoring consistent with the
 original five point scale, items are scored 1=Disagree, 3=Neutral and 5=Agree.
 
-Scores are saved as tuples. The first values of the tuple indicates the subscale to which the item belongs:
-(1) Extraversion, (2) Agreeableness, (3) Conscientiousness, (4) Emotional Stability/Neuroticism, or (5) Intellect/Imagination / openness to experiences).
-The second value in the tuple indicates the individual's scored responses (i.e., 1=Disagree, 3=Neutral and 5=Agree).
+Scores are saved as tuples. The first value of the tuple always indicates the subscale to which the item belongs:
+1 = Extraversion, 2 = Agreeableness, 3 = Conscientiousness, 4 = Emotional Stability/Neuroticism, and 5 = Intellect/Imagination / openness to experiences).
+The second value in the tuple indicates the individual's scored response to that question (i.e., 1=Disagree, 3=Neutral and 5=Agree).
 
 Sum all of the individual's responses within a subscale (e.g. extraversion) to obtain a total subscale score.
-In other words, the second number in the tuple should be scored for all columns with the same number in the second position (1 indicates extraversion, for example).
+In other words, the second number in the tuple should be scored for all columns with the same number in the first position (1 indicates extraversion, for example).
 
 
 ## Items
@@ -69,38 +69,6 @@ In other words, the second number in the tuple should be scored for all columns 
 49. I often feel blue (down)
 50. I am full of ideas.
 
-
-
-## IPIP Big-Five Factor Markers Cut-Offs
-https://ipip.ori.org/InterpretingIndividualIPIPScaleScores.htm
-
-Cut-off values for each of the subscales are calculated using the mean and standard deviation of all the responses on that subscale.
-The formulas for getting the high, medium and low categories are as follows:
-
-Emotional stability:
-- high: => mean + std_deviation/2
-- medium: between mean - std_deviation/2 and mean + std_deviation/2
-- low: <= mean - std_deviation/2
-
-extraversion:
-- high: => mean + std_deviation/2
-- medium: between mean - std_deviation/2 and mean + std_deviation/2  
-- low: <= mean - std_deviation/2
-
-Agreeableness:
-- high: => mean + std_deviation/2
-- medium: between mean - std_deviation/2 and mean + std_deviation/2
-- low: <= mean - std_deviation/2
-
-Conscientiousness:
-- high: => mean + std_deviation/2
-- medium: between mean - std_deviation/2 and mean + std_deviation/2
-- low: <= mean - std_deviation/2
-
-Intellect:
-- high: => mean + std_deviation/2
-- medium: between mean - std_deviation/2 and mean + std_deviation/2
-- low: <= mean - std_deviation/2
 
 ## Source
 
