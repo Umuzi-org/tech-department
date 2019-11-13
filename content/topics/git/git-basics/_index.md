@@ -30,7 +30,8 @@ As you progress through this course you will have to write a lot of code. All yo
 
 ## Github
 
-We use Github for keeping our code safe. [Here](https://guides.github.com/introduction/git-handbook/) is a little intro.
+We use Github for keeping our code safe. [Here](https://guides.github.com/introduction/git-handbook/) is a little intro and 
+[here](https://drive.google.com/open?id=1g5oD59DFQbrhPHvW7a8mW8NKI1UNV-dZ) is the official cheat sheet.
 
 ## For our data recruits
 

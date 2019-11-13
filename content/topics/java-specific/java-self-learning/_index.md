@@ -31,6 +31,12 @@ This is a nice tool that lets you practice your coding skills. We have found it 
 
 [This course](https://www.udemy.com/course/introduction-to-programming-with-java) will take you through all the basics of java
 
+### TutorialsPoint
+
+This one has a lot of great info but expects you to have some coding experience already.
+
+https://www.tutorialspoint.com/java
+
 ## other resources under consideration
 
 - [Java Overview](http://horstmann.com/corejava/java-an-overview/7Gosling.pdf)

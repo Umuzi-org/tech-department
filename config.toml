@@ -1,4 +1,5 @@
-baseURL = "/tech-department/"
+baseURL =  "/tech-department/"
+
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
