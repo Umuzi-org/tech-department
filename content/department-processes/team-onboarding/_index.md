@@ -34,8 +34,8 @@ Channels to join:
  - relevant cohort channels (e.g. c14-data, c13_data)
 
 #### Mentorship 
-Here's what you have to know about the role of a Mentor,what is expected from both you and your Mentees.
-Here is the presentation : https://umuzi-org.github.io/tech-department/workshops/how-to-be-a-great-mentor/
+Here's what you have to know about the role of a Mentor, what is expected from both you and your Mentees.
+ [Here] (https://umuzi-org.github.io/tech-department/workshops/how-to-be-a-great-mentor/)  is the presentation
 
 
 
