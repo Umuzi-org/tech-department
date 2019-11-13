@@ -1,13 +1,11 @@
 ---
-title: Node
-ready: false
+title: Node setup
+ready: true
 ---
 
 This is a guide to help lab assistants setup a local JavaScript environment.
 
-# Node setup
-
-## Step 1 – Add Node.js PPA
+### Step 1 – Add Node.js PPA
 
 ````
 sudo apt-get install curl
@@ -20,13 +18,13 @@ Or
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 ````
 
-## Step 2 – Install Node.js on Ubuntu
+### Step 2 – Install Node.js on Ubuntu
 
 ```
 sudo apt-get install nodejs
 ```
 
-## Step 3 – Check Node.js and NPM Version
+### Step 3 – Check Node.js and NPM Version
 
 After installing node.js verify and check the installed version.
 
@@ -34,7 +32,7 @@ After installing node.js verify and check the installed version.
 node -v
 ```
 
-v13.0.1
+v13.0.1 or the latest version
 
 Also, check the npm version
 
@@ -42,4 +40,4 @@ Also, check the npm version
 npm -v
 ```
 
-6.12.0
+6.12.0 the latest version
