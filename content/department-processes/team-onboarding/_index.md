@@ -35,7 +35,7 @@ Channels to join:
 
 #### Mentorship 
 Here's what you have to know about the role of a Mentor, what is expected from both you and your Mentees.
- Here is the workshop: {{% contentlink "/workshops/how-to-be-a-great-mentor/" %}} 
+Here is the workshop: {{% contentlink "/workshops/how-to-be-a-great-mentor/" %}} 
 
 
 
