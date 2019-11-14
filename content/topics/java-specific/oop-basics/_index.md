@@ -3,14 +3,12 @@ title: Java OOP basics resources and readings
 ready: true
 ---
 
-## OOP Principles in Java
-Object-Oriented Programming refers to languages that use objects in programming. Object-oriented programming aims to implement real-world entities like inheritance, hiding, polymorphism in programming.
-The main aim of OOP is to bind together the data and the functions that operate on them so that no other part of the code can access this data except that function.
+## OOP  in Java
+The main aim of OOP is to bind together the data and the functions that operate on them.This is done so that no other part of the code can access this data except that function.
 
-The four OOP priciples in java are:
+There are four OOP priciples in java:
 
 ### Abstraction
-An abstraction is an idea or iated conscept which is not associated with one specific object.
 In Object-oriented programming, abstraction is a process of hiding the implementation details from the user, only the functionality will be provided to the user. In other words, the user will have the information on what the object does instead of how it does it.
 
 In Java, abstraction is achieved using Abstract classes and interfaces.[Read more](https://www.geeksforgeeks.org/abstraction-in-java-2/)
@@ -43,9 +41,10 @@ class Dog extends Animal{
 
 
 ### Encapsulation
-Ecapsulation is known as data hiding.
+Encapsulation is known as data-hiding.
 It is an OOP principle which states that all the attributes and behaviours (methods and functions) of an object should be grouped together in one datatype or class.
-This means that objects may be able to communicate with one another but are not allowed to know how other obpublic int
+This means that objects may be able to communicate with one another but are restricted to access some of the object's components directly.
+Publicly accessible methods are generally provided in the class so-called [accessors and mutators.](https://www.cs.colostate.edu/~cs161/Fall12/labs/lab2/bookgetset.html)) 
 
 The following Java code shows how Encapsulation can be implemented:
 
@@ -58,10 +57,10 @@ public class Employee{
     //getter method for name  
     public String getName(){
         return name;
-    }
-    //setter method for name  
-    public void setName(String name){
-        this.name=name;
+    }Encapsulation is known as data-hiding.
+It is an OOP principle which states that all the attributes and behaviours (methods and functions) of an object should be grouped together in one datatype or class.
+This means that objects may be able to communicate with one another but are restricted to access some of the object's components directly.
+Publicly accessible methods are generally provided in the class (so-called [accessors and mutators.]
     }
 
     public static void main(String args[]) { 
@@ -76,6 +75,7 @@ public class Employee{
 }  
 ```
 [Abstraction vs Encapsulation](https://1.bp.blogspot.com/-ECYNAUTGGMk/WPQeY4EpFtI/AAAAAAAAIX8/j-Ji8N_mDz8-d72SasgNPnQD-nIlw-kiACLcB/s1600/Abstraction%2Bvs%2BEncapsulation%2B2.jpg)
+
 ### Inheritance
 This OOP principle allows one class to inherit all the attributes and behaviors of another class.
 Inheritance has a hierarchy  relationship between superclasses (base classes )and subclasses
@@ -113,7 +113,7 @@ public class Car extends  Vehicle {
 ### Polymorphism
 Polymorphism in Java is a concept by which we can perform a single action in different ways. Polymorphism is derived from 2 Greek words: poly and morphs. The word "poly" means many and "morphs" means forms. So polymorphism means many forms.
 
-There are two types of polymorphism in Java: compile-time polymorphism and runtime polymorphism. We can perform polymorphism in java by method overloading and method overriding.
+There are two types of polymorphism in Java: compile-time polymorphism and run-time polymorphism. We can perform polymorphism in java by method overloading and method overriding.
 #### Method overriding
 
 Overriding a method is when a method in the subclass has the same name and method signature as a method in the superclass. When overriding a method you are not allowed to make the method more private. 
@@ -176,4 +176,4 @@ public class Calculate{
 }
 ```
 
-Read more to gain futher undestanding on [OOP concepts](https://beginnersbook.com/2013/04/oops-concepts/)
+Read more to gain further understanding on [OOP concepts](https://beginnersbook.com/2013/04/oops-concepts/)
