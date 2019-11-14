@@ -35,7 +35,7 @@ Channels to join:
 
 #### Mentorship 
 Here's what you have to know about the role of a Mentor, what is expected from both you and your Mentees.
- [Here] (https://umuzi-org.github.io/tech-department/workshops/how-to-be-a-great-mentor/)  is the presentation
+ Here is the workshop: {{% contentlink "/workshops/how-to-be-a-great-mentor/" %}} 
 
 
 
