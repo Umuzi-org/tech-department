@@ -1,5 +1,6 @@
 ---
 title: Introduction to Node
+ready: true
 ---
 
 - https://codeburst.io/getting-started-with-node-js-a-beginners-guide-b03e25bca71b

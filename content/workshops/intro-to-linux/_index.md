@@ -1,14 +1,27 @@
 ---
-title: Introduction to Linux
+title: "Introduction to Linux: Live demo"
 ready: true
+todo:
+  - "these all seem bad in different ways: Some aren't in depth, some go into too much detail on irrelevent things. Signal to noise ratio matters"
+  - https://docs.google.com/presentation/d/1dhj1-p9Ufl4ilSy_Nu8sw-kuNVWkSvhp0dn5KGo9TyY
+  - https://docs.google.com/presentation/d/1VKLYGckrf6GVlZ4CkK9t1O6rA_OkAkt9XQ5TmHynKXg/  edit#slide=id.gc6f889893_0_0
+  - https://docs.google.com/presentation/d/1VKLYGckrf6GVlZ4CkK9t1O6rA_OkAkt9XQ5TmHynKXg/  edit#slide=id.gc6f889893_0_0
+  - https://docs.google.com/presentation/d/1JDHBfcISYGLKdcCF6MrRXs9fzIdkyb8YngE8EZjhI48/edit#slide=id.p
+  - https://docs.google.com/presentation/d/1E5ef9FtcQExlMVeKIhXHsG59w78GMIz_Q3zdWBWUdac/edit#slide=id.p
 ---
 
- 1. [Introduction](https://docs.google.com/presentation/d/1dhj1-p9Ufl4ilSy_Nu8sw-kuNVWkSvhp0dn5KGo9TyY)
- 2. [post install guide 1](https://gitlab.com/prelude-open-source/mint-post-install-guide)
- 3. [post install guide 2](https://fossbytes.com/things-to-do-after-installing-linux-mint/)
- 4. [Software Intallation](https://docs.google.com/presentation/d/1VKLYGckrf6GVlZ4CkK9t1O6rA_OkAkt9XQ5TmHynKXg/edit#slide=id.gc6f889893_0_0)
- 5. [Processeses](https://docs.google.com/presentation/d/1JDHBfcISYGLKdcCF6MrRXs9fzIdkyb8YngE8EZjhI48/edit#slide=id.p)
- 6. [File operation](https://docs.google.com/presentation/d/1E5ef9FtcQExlMVeKIhXHsG59w78GMIz_Q3zdWBWUdac/edit#slide=id.p)
+Linux Ubuntu or Mint will be demonstrated to the recruits. Demonstrate:
 
+- Command line navigation versus gui based navigation
+- basic command-line commands, man and --help
+- how to install software, and why it's cool
+- use of sudo (and why o be careful about that)
+- creating a file in the command line and visually seeing it come up in the gui
+- how to set up keyboard shortcuts
+- launching Python and Node from the command line
 
+## Prerequisites for speaker
 
+Whoever is doing ths workshop should be familiar with th excercises given to recruits. Questions will come up, you should be able to answer them.
+
+- {{% contentlink "projects/linux" %}}

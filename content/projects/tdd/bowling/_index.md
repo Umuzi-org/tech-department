@@ -63,28 +63,4 @@ PLEASE DO NOT IMPLEMENT A FANCY GUI. We don't care to see the bowling pins or th
 
 This is not a simple project. To build something awesome you should be aware of a few architectural concepts.
 
-### Separate display logic from data logic
-
-If your data and your gui get all mixed up then things get very hard to test. Here's an approach you might consider:
-
-1. Think what your data should look like. What is the shape of it? Maybe you have a class called Game. And Game contains some Player objects... These things shouldn't know about HTML. For example, if you were writing a bowling server (with no front-end at all) then these data structures should be valid. Of course you would be setting up these structures in a TDD manner. Eg you could test that a Game object initializes correctly, then make that happen
-2. Figure out how your data will change. The only input here is the number of pins hit on each throw. This is a simple integer. Note: we still haven't thought about HTML at this point
-3. Now for some display code. Here's a pretty good example adapted from one of your predecessors:
-
-```
-function drawPlayerDetails(player) {
-    document.getElementById("showDetails").innerHTML =
-        "<strong>Player Name: </strong>" + player.name +
-        "<br><strong>Points: </strong>" + player.totalScore +
-        "<br><strong>Position: </strong>" + player.pos +
-        "<br><strong>scores: </strong> [" + player.score + "]";
-}
-```
-
-This function does one thing, and it does that thing well and intuitively.
-
-### Some oop resources
-
-- https://stackoverflow.com/questions/226977/what-is-loose-coupling-please-provide-examples
-- https://medium.com/clarityhub/low-coupling-high-cohesion-3610e35ac4a6
-- SOLID: https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
+- {{% contentlink "topics/basic-architecture-concepts" %}}

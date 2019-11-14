@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Engineering on Documentation for Umuzi Tech Department</title>
+    <link>/tech-department/syllabuses/data-engineering/</link>
+    <description>Recent content in Data Engineering on Documentation for Umuzi Tech Department</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 19 Mar 2019 16:50:16 +0200</lastBuildDate>
+    
+	<atom:link href="/tech-department/syllabuses/data-engineering/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
