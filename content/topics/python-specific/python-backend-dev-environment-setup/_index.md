@@ -21,18 +21,28 @@ An IDE normally consists of at least a source code editor, build automation tool
 The terminal is an interface in which you can type and execute text based commands. It can be much faster to complete some tasks using a Terminal than with graphical applications and menus. Another benefit is allowing access to many more commands and scripts. A common terminal task of installing an application can be achieved within a single command, compared to navigating through the Software Centre or Synaptic Manager. Press *Ctrl + Alt + T* to open the terminal when using Ubuntu/Linux-mint
 
 ##### Running Python
-- Say you've created a `hello.py` script with a bunch of return statements.
-- Create a folder on your computer to use for your Python programs, such as `~/pythonpractice`, and save your `hello.py` program in that folder.
-- Open up the terminal program. In KDE, open the main menu and select "Run Command..." to open Konsole. In GNOME, open the main menu, open the Applications folder, open the Accessories folder, and select Terminal.
-- Type `cd ~/pythonpractice` to change directory to your `pythonpractice` folder, and hit Enter.
-- Don't forget to make the script executable by chmod +x.
-- Type `python ./hello.py` to run your program!
-**Note**: If you have both Python version 2.6.1 and Python 3.7.* installed (Very possible if you are using Ubuntu, and ran `sudo apt-get install python3` to have python3 installed), you should run python3 hello.py
+
+There are 2 ways of running python that you should care about right now. The first way is pretty easy. Just open up a terminal end enter the command `python3`. This will open up a thing called a [REPL](https://codewith.mu/en/tutorials/1.0/repl). Basically it lets you just type in python commands and then it executes things. This is really useful if you just want to quickly calculate something or try out a piece of code.
+
+
+Of course if you've written some awesome code you would want to save it somewhere so you can run it whenever you want. For now let's assume you don't know your way around linux (if you do, that's cool. But for now we'll keep it simple). Try this out:
+
+- Open up a text editer and make a file that looks like this: `print("Welcome to Umuzi!")`
+- Save the file as `hellp.py` in your home directory (directory means folder). Now open up a terminal and type in `python3.7 hello.py`
+
 
 ##### Running programs
 
-**Side Note**: update and upgrade your computer every chance you get, I do it every week. On your terminal run `sudo apt update` to update your machine, and if you need to upgrade the machine along with the apps, please run `sudo apt upgrade`
+**Side Note**: update and upgrade your computer every chance you get, I do it every week. On your terminal run `sudo apt update` to update your machine, and if you need to upgrade the machine along with the apps, please run `sudo apt upgrade`. As a side note, the terminal is super powerful. You'll get quite familiar with it as time goes on. Another useful trick you might want right now is this one:
 
 - After installing from the terminal some programs can allow you to open them from the terminal. So instead of navigating everywhere in your computer you can just type the alias of that program. e.g. Since we installed VScode on our machines, a simple way to open it is to go into the terminal and type in `code`. code is an alias created by the terminal as a short cut for the program.
+- You can also open up a terminal and type in `code hello.py`. This opens your file in VScode.
 
-There are are many other examples of alias that the terminal uses for programs and commands. Also check this topic on how you can use an [alias](https://shapeshed.com/unix-alias/)
+ You can also open up a whole directory in vscode (this is really useful when you start working on real stuff). Try this out in a terminal:
+
+- `mkdir python_practice`    # this command makes a new directory
+- `mv hello.py python_practice/hello.py` # this moves the file you made before
+
+You could achieve the stuff above ^^ by using the graphical user interface (the file browser) but where's the fun in that?
+
+Now execute this: `code python_practice`
