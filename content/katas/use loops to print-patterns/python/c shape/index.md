@@ -1,6 +1,6 @@
 ---
-title: Katas
-pre: "<b>5. </b>"
+title: C shape
+pre: "<b>1. </b>"
 weight: 5
 ---
 
@@ -16,14 +16,19 @@ Make sure you can do this stuff without relying heavily on the built in function
 
 **NOTE** all the string excercises listed should be adapted to work with arrays as well
 
-## String rotate forward/backwards
+## C SHAPE
 
+**1.**
+Write a function that takes in number as argument and draws the C pattern/shape
 ```
-rotate("hello",1) => elloh
-rotate("hello",2) => llohe
-rotate("hello",3) => lohel
+// Python
+cPattern(5): 
 
-rotate("hello",-1) => ohell
-rotate("hello",-2) => lohel
-rotate("hello",-3) => llohe
-```
+=> Expected output:
+
+*****
+*
+*
+*
+*****
+``` 

@@ -1,6 +1,6 @@
 ---
-title: Katas
-pre: "<b>5. </b>"
+title: Squares
+pre: "<b>3. </b>"
 weight: 5
 ---
 
@@ -16,16 +16,32 @@ Make sure you can do this stuff without relying heavily on the built in function
 
 **NOTE** all the string excercises listed should be adapted to work with arrays as well
 
-Write a function that takes in number as argument and draws the C pattern/shape
+## Print (triangles & squares) using loops
+
+**1.**
+Write a function that takes in number as argument and prints a square
 ```
-// Python
-cPattern(5): 
+// JavaScript
 
-=> Expected output:
+let square(n) => 
+expected output: remember to use "*" 
 
-*****
-*
-*
-*
-*****
-``` 
+#####
+#####
+#####
+#####
+#####
+```
+
+**2**
+Write a function that takes in number as argument and prints a hollow square in the center
+```
+// JavaScript
+let square(n) => 
+expected output: remember to use "*" 
+#####
+#   #
+#   #
+#   #
+#####
+```

@@ -1,6 +1,6 @@
 ---
-title: Katas
-pre: "<b>5. </b>"
+title: Triangles
+pre: "<b>4. </b>"
 weight: 5
 ---
 
@@ -19,7 +19,6 @@ Make sure you can do this stuff without relying heavily on the built in function
 ## Print (triangles & squares) using loops
 
 **1.**
-
 Write a function that takes in number as argument and draws a right angled triangle  using the " * " characters. If the input is 4, then the output is a traingle with height 4
  
 ```
@@ -45,7 +44,6 @@ expected output: MIRROR OF RIGHT ANGLE TRIANGLE
 ****
 ```
 **3.**
-
 Write a function that takes in number as argument and draws a Hollow right angled triangle above using the " * " characters . If the input is 4, then the output is a traingle with height 4
 
 ```

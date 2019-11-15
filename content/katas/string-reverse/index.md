@@ -1,6 +1,6 @@
 ---
-title: Katas
-pre: "<b>5. </b>"
+title: String reverse
+pre: "<b>3. </b>"
 weight: 5
 ---
 
@@ -16,14 +16,10 @@ Make sure you can do this stuff without relying heavily on the built in function
 
 **NOTE** all the string excercises listed should be adapted to work with arrays as well
 
-## String rotate forward/backwards
+## String reverse
+
+Make a function that can reverse a string
 
 ```
-rotate("hello",1) => elloh
-rotate("hello",2) => llohe
-rotate("hello",3) => lohel
-
-rotate("hello",-1) => ohell
-rotate("hello",-2) => lohel
-rotate("hello",-3) => llohe
+reverse("hello")  => olleh
 ```

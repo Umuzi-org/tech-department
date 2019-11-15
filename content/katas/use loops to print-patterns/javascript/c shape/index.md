@@ -1,6 +1,6 @@
 ---
-title: Katas
-pre: "<b>5. </b>"
+title: C shape
+pre: "<b>1. </b>"
 weight: 5
 ---
 
@@ -16,14 +16,15 @@ Make sure you can do this stuff without relying heavily on the built in function
 
 **NOTE** all the string excercises listed should be adapted to work with arrays as well
 
-## Palindromes
-
-Write a function that detects if an inputted string is a palindrome or not. It should return a boolean result.
-
+## C SHAPE
+Write a function that takes in number as argument and draws the C pattern/shape
 ```
 // JavaScript
-isPalindrome("mom") # returns true
-isPalindrome("Mom") # returns false
-isPalindrome("rats live on no evil star") # returns true
-isPalindrome("rats live on no evil star.") # returns false
-```
+let cPattern(5) => Expected output:
+
+*****
+*
+*
+*
+*****
+``` 

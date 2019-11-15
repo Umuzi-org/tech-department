@@ -1,6 +1,6 @@
 ---
-title: Katas
-pre: "<b>5. </b>"
+title: Squares
+pre: "<b>3. </b>"
 weight: 5
 ---
 
@@ -19,7 +19,6 @@ Make sure you can do this stuff without relying heavily on the built in function
 ## Print (triangles & squares) using loops
 
 **1.**
-
 Write a function that takes in number as argument and prints a square
 ```
 // JavaScript

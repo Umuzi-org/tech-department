@@ -1,6 +1,6 @@
 ---
-title: Katas
-pre: "<b>5. </b>"
+title: Palindrome
+pre: "<b>2. </b>"
 weight: 5
 ---
 
@@ -16,33 +16,22 @@ Make sure you can do this stuff without relying heavily on the built in function
 
 **NOTE** all the string excercises listed should be adapted to work with arrays as well
 
-## Print (triangles & squares) using loops
+## Palindromes
 
-**1.**
+Write a function that detects if an inputted string is a palindrome or not. It should return a boolean result.
 
-Write a function that takes in number as argument and prints a square
 ```
 // JavaScript
-
-let square(n) => 
-expected output: remember to use "*" 
-
-#####
-#####
-#####
-#####
-#####
+isPalindrome("mom") # returns true
+isPalindrome("Mom") # returns false
+isPalindrome("rats live on no evil star") # returns true
+isPalindrome("rats live on no evil star.") # returns false
 ```
 
-**2**
-Write a function that takes in number as argument and prints a hollow square in the center
 ```
-// JavaScript
-let square(n) => 
-expected output: remember to use "*" 
-#####
-#   #
-#   #
-#   #
-#####
+# Python
+is_palindrome("mom") # returns True
+is_palindrome("Mom") # returns False
+is_palindrome("rats live on no evil star") # returns True
+is_palindrome("rats live on no evil star.") # returns False
 ```

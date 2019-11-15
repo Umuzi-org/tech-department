@@ -1,6 +1,6 @@
 ---
-title: Katas
-pre: "<b>5. </b>"
+title: Pyramids
+pre: "<b>2. </b>"
 weight: 5
 ---
 
@@ -19,12 +19,12 @@ Make sure you can do this stuff without relying heavily on the built in function
 ## Pyramids
 
 **1.**
-
 Write a function that takes in number as argument and draws a pyramid triangle above using the " * " characters . If the input is 4, then the output is a traingle shaped as pyramid with height 4
 ```
-// JavaScript
-let triangle(5) => 
-expected output: PYRAMID TRIANGLE.      
+// Python
+triangle(5): 
+
+=> expected output: PYRAMID TRIANGLE.      
     
     *
    ***
@@ -34,12 +34,12 @@ expected output: PYRAMID TRIANGLE.
 ```
 
 **2.**
-
 Write a function that takes in number as argument and draws a Hollow pyramid triangle above using the " * " characters . If the input is 4, then the output is a traingle shaped as pyramid with height 4
 ```
-// JavaScript
-let triangle(5) => 
-expected output: HOLLOW RIGHT ANGLE TRIANGLE AND FOR ITS MIRROR.      
+// Python
+triangle(5):
+ 
+ => expected output: HOLLOW RIGHT ANGLE TRIANGLE AND FOR ITS MIRROR.      
     
     *
    * *
@@ -49,12 +49,12 @@ expected output: HOLLOW RIGHT ANGLE TRIANGLE AND FOR ITS MIRROR.
 ```
 
 **3.**
-
 Write a function that takes in number as argument and draws a pyramid triangle above using the " * " characters . If the input is 4, then the output is a traingle shaped as pyramid with height 4
 ```
-// JavaScript
-let triangle(5) => 
-expected output: PYRAMID PATTERN     
+// Python
+triangle(5):
+
+=> expected output: PYRAMID PATTERN     
 
         *
         **
@@ -72,12 +72,12 @@ expected output: PYRAMID PATTERN
 ```
 
 **4.**
-
 Write a function that takes in number as argument and draws a pyramid triangle above using the " * " characters . If the input is 4, then the output is a traingle shaped as pyramid with height 4
 ```
-// JavaScript
-let triangle(5) => 
-expected output: PYRAMID PATTERN
+// Python
+triangle(5):
+
+=> expected output: PYRAMID PATTERN
    
         *************
          ***********
@@ -91,9 +91,10 @@ expected output: PYRAMID PATTERN
 **5.**
 Write a function that takes in number as argument and draws a pyramid triangle above using the " * " characters . If the input is 4, then the output is a traingle shaped as pyramid with height 4
 ```
-// JavaScript
-let triangle(5) => 
-expected output: PYRAMID PATTERN   
+// Python
+triangle(5):
+
+=> expected output: PYRAMID PATTERN   
                 *
                **
               ***

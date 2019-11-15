@@ -1,6 +1,6 @@
 ---
-title: Katas
-pre: "<b>5. </b>"
+title: String rotate
+pre: "<b>4. </b>"
 weight: 5
 ---
 
@@ -16,14 +16,17 @@ Make sure you can do this stuff without relying heavily on the built in function
 
 **NOTE** all the string excercises listed should be adapted to work with arrays as well
 
-## Palindromes
 
-Write a function that detects if an inputted string is a palindrome or not. It should return a boolean result.
+## String rotate forward/backwards
+
+Write a function that takes in string argument and n (number) argument and the rotate the given string to nth position
 
 ```
-# Python
-is_palindrome("mom") # returns True
-is_palindrome("Mom") # returns False
-is_palindrome("rats live on no evil star") # returns True
-is_palindrome("rats live on no evil star.") # returns False
+rotate("hello",1) => elloh
+rotate("hello",2) => llohe
+rotate("hello",3) => lohel
+
+rotate("hello",-1) => ohell
+rotate("hello",-2) => lohel
+rotate("hello",-3) => llohe
 ```
