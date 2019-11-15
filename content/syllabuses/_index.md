@@ -114,7 +114,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 ## Week 4:
 
-- {{% contentlink "topics/how-to-ask-the-right-questions" %}}
+- {{% contentlink "topics/how-to-ask-for-help-with-your-code" %}}
 
 - WEB_DEV:
 
