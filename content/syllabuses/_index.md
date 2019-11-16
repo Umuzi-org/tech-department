@@ -45,42 +45,42 @@ We start off by introducing the applicants to the development environment and re
 
 A recruit’s journey starts with a one week programme called #MakeUmuziBetter. Recruits from all departments form small cross-functional teams to tackle issues at Umuzi--anything from mental health to kitchen norms to the physical layout of our space. To accomplish this, they learn about and execute Human-Centered Design, a technique used throughout their time at Umuzi. Each team maps out user journeys, conducts interviews and surveys, designs a prototype of their solution, and presents it to the staff and external guests.
 
-### NCIT assessments
-
-We get a few NCIT assessments out of the way during MUB.
-
-- NCIT 01: Conducting research and user interviews
-- NCIT 02: Reporting
-- NCIT 03: Research presentation
-
 ## Week 1: Linux and soft skills
 
 In this week, everyone gets to know their way around linux.
 
 - ALL:
-  - Department ice-breaker
+
+  - Department ice-breaker:
+    Mub is a great introduction to Umuzi, but the tech space is a little bit special. We like to kick things off by getting to know each other
+    - two truths and a lie (keep it PC please)
+    - the sun shines on...
+  - Introduction to NCIT curriculum and gnomio
   - {{% contentlink "department-processes/what-recruits-need-to-know" %}}
   - {{% contentlink "workshops/how-to-be-a-professional" %}}
-  - Introduction to NCIT curriculum
   - {{% contentlink "workshops/intro-to-linux" %}}
   - {{% contentlink "topics/linux/intro-to-linux" %}}
   - {{% contentlink "projects/linux/beginner" %}}
   - {{% contentlink "topics/linux/intro-to-bash" %}}
 
+* NCIT 01: Conducting research and user interviews
+* NCIT 02: Reporting
+* NCIT 03: Research presentation
+
 ## Week 2: Git and personal portfolio
 
 Recruits learn a bit about how to build an online presence. Recruits submit their work using Git from the very beginning of their course.
 
+- NCIT 10: Workshop: Giving and receiving constructive feedback
+
 - ALL:
 
   - {{% contentlink "topics/git/git-basics" %}}
-  - Q&A Git basics
   - {{% contentlink "projects/git-exercises" %}}
-  - {{% contentlink "workshops/intro-to-css-architecture" %}}
+  - Workshop: Q&A Git and Linux basics
   - {{% contentlink "workshops/what-to-put-on-a-cv" %}}
   - {{% contentlink "projects/first-personal-website" %}} - Introduction
-  - {{% contentlink "topics/clean-code" %}}
-  - NCIT 04: Version control (GIT) for teamwork
+  - {{% contentlink "workshops/intro-to-css-architecture" %}}
 
 - JAVA:
 
@@ -88,6 +88,7 @@ Recruits learn a bit about how to build an online presence. Recruits submit thei
   - {{% contentlink "topics/java-specific/java-self-learning" %}}
 
 - WEB_DEV:
+  - {{% contentlink "topics/web-frontend/intro-to-web-design/" %}} - the web devs should make use of this knowledge when greating their portfolios
   - {{% contentlink "topics/web-dev-self-learning" %}}
 
 * DATA_ENG:
@@ -100,17 +101,11 @@ The recruits finish off their portfolios. From this point forward they are expec
 - ALL:
 
   - {{% contentlink "workshops/general-coding-best-practices" %}}
-  - {{% contentlink "projects/first-personal-website" %}} - Deadline
-
-- WEB_DEV:
-  - {{% contentlink "topics/web-frontend/intro-to-web-design/" %}}
-
-* Java:
-  - NCIT 10: Workshop: Giving and receiving constructive feedback
-  - NCIT 06: Web design for business
-  - NCIT 07: Building an online business
-  - NCIT 12: Business and technology
+  - {{% contentlink "projects/first-personal-website" %}} - Deadline and presentation
+  - {{% contentlink "topics/clean-code" %}}
+  - NCIT 04: Version control (GIT) for teamwork
   - NCIT 09: Ethics and Professionalism in IT
+  - {{% contentlink "workshops/big-picture-web-dev" %}}
 
 ## Week 4:
 
@@ -118,32 +113,33 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - WEB_DEV:
 
-  - {{% contentlink "workshops/javascript-specific/live-code-javascript-intro" %}}
+  - {{% contentlink "topics/super-basic-intro-to-node" %}}
+  - {{% contentlink "workshops/super-basic-intro-to-node" %}}
   - {{% contentlink "projects/basic-flow-control-katas" %}} do this in pairs
 
 - DATA_ENG:
 
+  - {{% contentlink "workshops/python-specific/live-code-python-intro" %}} if needed
   - {{% contentlink "projects/basic-flow-control-katas" %}} do this in pairs
-  - {{% contentlink "workshops/python-specific/live-code-python-intro" %}}
 
 - DATA_SCI:
 
+  - {{% contentlink "workshops/python-specific/live-code-python-intro" %}} if needed. This is actually more likely to be needed by data sci than data eng because less focus is put on Python in initial learning materials
   - {{% contentlink "workshops/survey-design" %}}
   - {{% contentlink "workshops/google-forms-like-a-boss" %}}
   - {{% contentlink "projects/basic-flow-control-katas" %}} do this in pairs
 
 - JAVA:
-  - carry over any NCIT tasks from previous week
+  - {{% contentlink "workshops/java-specific/live-code-java-intro" %}} As early as possible in the week
   - {{% contentlink "topics/java-specific/intro-to-gradle-with-intellij" %}}
-  - {{% contentlink "workshops/java-specific/live-code-java-intro" %}} Monday or Tuesday
   - Recruits should be familiar with basic flow control, if, else, loops. It may be necessary to have another workshop on this
   - {{% contentlink "projects/basic-flow-control-katas" %}} do this in pairs, they should use Gradle
 
+* NCIT 06: Web design for business
+* NCIT 07: Building an online business
+* NCIT 12: Business and technology
+
 ## Week 5: Some specific skills
-
-- ALL:
-
-  - {{% contentlink "workshops/big-picture-web-dev" %}}
 
 - DATA_SCI:
 
@@ -152,23 +148,31 @@ The recruits finish off their portfolios. From this point forward they are expec
 - DATA_ENG:
   Get as far as possible with the following exercises. We'll continue later
 
+  - {{% contentlink "topics/assertive_programming" %}}
+  - {{% contentlink "projects/assertive_programming" %}}
   - {{% contentlink "topics/unit-testing" %}}
   - {{% contentlink "topics/python-specific/automated-testing-with-pytest" %}}
+  - {{% contentlink "topics/tdd" %}}
   - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
 
-* WEB_DEV:
+- WEB_DEV:
+
+  - {{% contentlink "topics/assertive_programming" %}}
+  - {{% contentlink "projects/assertive_programming" %}}
   - {{% contentlink "topics/unit-testing" %}}
   - {{% contentlink "workshops/intro-to-unit-testing-with-jasmine" %}}
+  - {{% contentlink "topics/tdd" %}}
   - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
 
 - JAVA:
+
   - {{% contentlink "workshops/java-specific/basic-intro-to-oop" %}}
   - {{% contentlink "topics/java-specific/oop-basics"%}}
   - {{% contentlink "projects/oop/person" %}} do this in pairs
   - {{% contentlink "projects/oop/animals" %}} individual. Due towards the end of the week
-  - NCIT 08: Pseudocode and documentation
-  - NCIT 13: Object-oriented programming
   - workshop: oop Q&A might be needed
+
+- NCIT 08: Pseudocode and documentation
 
 ## Week 6: The Internet and Ethics in tech
 
@@ -176,41 +180,73 @@ The recruits finish off their portfolios. From this point forward they are expec
 
   - {{% contentlink "topics/how-the-internet-works" %}}
   - {{% contentlink "topics/data-ethics-and-privacy" %}}
+  - NCIT 16: Thinking like a machine / Boolean algebra, logic
 
 - DATA_SCI:
 
   - {{% contentlink "workshops/intro-to-data-ethics" %}}
+  - {{% contentlink "topics/assertive_programming" %}}
+  - {{% contentlink "topics/assertive_programming_with_pandas" %}}
+  - {{% contentlink "projects/assertive_programming_with_pandas" %}}
   - {{% contentlink "topics/unit-testing" %}}
   - {{% contentlink "topics/python-specific/automated-testing-with-pytest" %}}
   - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
 
 - DATA_ENG:
-
+  - todo regular expression resources
+  - todo: how exceptions work
   - {{% contentlink "projects/tdd/password-checker" %}}
+  - NCIT 13: Object-oriented programming
 
 * WEB_DEV:
+  - todo regular expression resources
+  - todo: js errors
   - {{% contentlink "projects/tdd/password-checker" %}}
+  - NCIT 13: Object-oriented programming
+
+- Java:
+
+  - {{% contentlink "topics/assertive_programming" %}}
+  - {{% contentlink "projects/assertive_programming" %}}
+  - {{% contentlink "topics/intro-to-junit" %}}
+  - workshop: live-codeing. Unit testing and assertions in IntelliJ Q&A
+  - {{% contentlink "projects/oop/animals/part2" %}} - unit tests are added to the animals
+  - {{% contentlink "topics/tdd" %}}
+  - workshop: live coding tdd introduction
+  - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
+    Then we give out some content for the following week. Ideally recruits can start familiarising themselves with the following:
+  - {{% contentlink "topics/java-error-handling" %}}
 
 - NCIT 05: History of the Internet
 - NCIT 06: Web design for business
 - NCIT 07: Building an online business
-- NCIT 08: Pseudocode and documentation
 
-## Week 7: Tech in Business and Honing fundamental skills
+## Week 7:
 
 - ALL:
-  - NCIT 09: Ethics and Professionalism in IT
-  - NCIT 10: Workshop: Giving and receiving constructive feedback
+
   - NCIT 11: Test-driven development
 
-* DATA_ENG:
+- DATA_ENG:
+
   - {{% contentlink "projects/tdd/string-calculator" %}}
 
 - DATA_SCI:
+
+  - todo regular expression resources
+  - todo: how exceptions work
   - {{% contentlink "projects/tdd/password-checker" %}}
 
-* WEB_DEV
+- WEB_DEV:
+
   - {{% contentlink "projects/tdd/string-calculator" %}}
+
+- JAVA:
+  - workshop: error handling intro and Q&A
+  - {{% contentlink "projects/tdd/password-checker" %}}
+  - readings given for following week
+  - {{% contentlink "topics/java-file-io" %}}
+  - {{% contentlink "topics/java-logging" %}}
 
 ## Week 8:
 
@@ -222,9 +258,11 @@ The recruits finish off their portfolios. From this point forward they are expec
 - DATA_ENG:
   - {{% contentlink "topics/python-specific/oop-for-python/" %}}
   - {{% contentlink "projects/oop/person" %}}
+  - {{% contentlink "projects/oop/animals" %}}
 
 * WEB_DEV:
   - {{% contentlink "projects/oop/person" %}}
+  - {{% contentlink "projects/oop/animals" %}}
 
 ## Week 9:
 
@@ -251,10 +289,12 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 * DATA_ENG:
   - {{% contentlink "topics/python-specific/intro-to-apis/" %}}
-  - {{% contentlink "projects/python-specific/expose-rest-api-simple/" %}} INTRODUCED
+  - todo: topic test spies and mocks
+  - {{% contentlink "projects/python-specific/consume-rest-api-simple/" %}} INTRODUCED
 
 - WEB_DEV:
   - {{% contentlink "topics/js-and-node-specific/dom-manipulation-with-vanilla-js" %}}
+  - todo: topic test spies and mocks
   - {{% contentlink "projects/memory-game-vanilla" %}} INTRODUCED
 
 ## Week 11
@@ -267,7 +307,8 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/data-science-specific/statistical-thinking/" %}} INTRODUCED
 
 * DATA_ENG:
-  - {{% contentlink "projects/python-specific/expose-rest-api-simple/" %}} DUE
+  - {{% contentlink "projects/python-specific/consume-rest-api-simple/" %}} DUE
+  - {{% contentlink "projects/python-specific/expose-rest-api-simple/" %}} INTRODUCED
 
 ## WEEK 12:
 
@@ -277,10 +318,9 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - DATA_ENG
 
-  - {{% contentlink "projects/oop/cars" %}}
+  - {{% contentlink "projects/python-specific/expose-rest-api-simple/" %}} DUE
 
 - WEB_DEV
-  - {{% contentlink "projects/oop/cars" %}}
 
 ## Week 13 & 14: OOP
 
@@ -290,7 +330,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 
   - {{% contentlink "topics/python-specific/oop-for-python/" %}}
   - {{% contentlink "projects/oop/person" %}}
-  - {{% contentlink "projects/oop/cars" %}}
+  - {{% contentlink "projects/oop/animals" %}}
   - {{% contentlink "projects/oop-for-data-science/" %}}
 
 - DATA_ENG
