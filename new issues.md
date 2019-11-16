@@ -1,3 +1,5 @@
+# New issues
+
 projects/first-personal-website
 make it clear that these will be peer-reviewed. And presentations will need to be made
 
@@ -55,4 +57,19 @@ maybe there should be a seperate one for DS. It can do things like make sure dfs
 
 ---
 
-## Turn the syllabus into a sensible data structure instead of a markdown file. Yaml?
+Turn the syllabus into a sensible data structure instead of a markdown file. Yaml?
+
+---
+
+review memory game instructions:
+
+- dont focus too hard on dom testing. mocks and spies more nb
+
+* link: ...
+  ncit: ...
+  extra_text: ...
+  tracks:
+  - name: DATA_SCIENCE
+    week: 1
+  - name: DATA_ENG
+    week: 3

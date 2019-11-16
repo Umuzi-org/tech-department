@@ -4,7 +4,7 @@ pre: "<b>1. </b>"
 weight: 1
 ---
 
-We support a few different technical learning paths. Data Science, Data Engineering and Web Dev. What follows below is a week-by-week breakdown of these courses. This is all on one page because our various courses have enough in common that it makes sense to keep then synchronized.
+We support a few different technical learning paths. Data Science, Data Engineering, Web Dev and Java Sys Dev. What follows below is a week-by-week breakdown of these courses. This is all on one page because our various courses have enough in common that it makes sense to keep then synchronized.
 
 ## A note on Umuzi’s formal qualification and accreditation
 
@@ -12,34 +12,9 @@ Umuzi is a registered training provider with [MICT SETA](https://www.mict.org.za
 
 ## Terminology
 
-This is a living document and there are a few things that need to be fleshed out:
-
-- as far as possible each bullet point that describes a piece of our syllabus should be marked as a WORKSHOP, TOPIC or PROJECT. Or exercise??
-
-  - WORKSHOP == instructor led event.
-  - TOPIC == self study material
-  - PROJECT == you know
-
-- we need to make sure all the NCIT requirements have been dealt with before hitting the summative assessment
-- the syllabus is really long. There is a lot to cover so that has effects on Product teams. There are decisions to be made there.
-
-## Week -1: Bootcamp
-
-This is the final step of our interview process. If applicants get through the bootcamp then they are accepted as Umuzi recruits and go on with the rest of the program.
-
-We start off by introducing the applicants to the development environment and resources that they'll be using. Then they get to work.
-
-- WEB_DEV:
-  - Use [FreeCodeCamp](https://learn.freecodecamp.org/). Start off with JavaScript Algorithms And Data Structures Certification (300 hours)
-  - JS challenges are given
-- DATA_SCI:
-  - {{% contentlink "projects/data-science-specific/intro-to-jupyter-notebook" %}}
-  - [DataCamp intro to Python](https://www.datacamp.com/courses/intro-to-python-for-data-science)
-- DATA_ENG:
-  - Introduction to Python (resource to be selected)
-    - https://www.datacamp.com/courses/intro-to-python-for-data-science/?utm_source=learnpython_com&utm_campaign=learnpython_tutorials#
-    - https://www.learnpython.org/
-  - Python coding challenges given
+- WORKSHOP == instructor led event.
+- TOPIC == self study material
+- PROJECT == hand these in
 
 ## Week 0: Make Umuzi Better
 
@@ -121,6 +96,8 @@ The recruits finish off their portfolios. From this point forward they are expec
 
   - {{% contentlink "workshops/python-specific/live-code-python-intro" %}} if needed
   - {{% contentlink "projects/basic-flow-control-katas" %}} do this in pairs
+  - {{% contentlink "topics/assertive_programming" %}}
+  - {{% contentlink "projects/assertive_programming" %}}
 
 - DATA_SCI:
 
@@ -146,10 +123,7 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/data-science-specific/data-visualisation" %}}
 
 - DATA_ENG:
-  Get as far as possible with the following exercises. We'll continue later
 
-  - {{% contentlink "topics/assertive_programming" %}}
-  - {{% contentlink "projects/assertive_programming" %}}
   - {{% contentlink "topics/unit-testing" %}}
   - {{% contentlink "topics/python-specific/automated-testing-with-pytest" %}}
   - {{% contentlink "topics/tdd" %}}
@@ -196,13 +170,11 @@ The recruits finish off their portfolios. From this point forward they are expec
   - todo regular expression resources
   - todo: how exceptions work
   - {{% contentlink "projects/tdd/password-checker" %}}
-  - NCIT 13: Object-oriented programming
 
 * WEB_DEV:
   - todo regular expression resources
   - todo: js errors
   - {{% contentlink "projects/tdd/password-checker" %}}
-  - NCIT 13: Object-oriented programming
 
 - Java:
 
@@ -230,18 +202,19 @@ The recruits finish off their portfolios. From this point forward they are expec
 - DATA_ENG:
 
   - {{% contentlink "projects/tdd/string-calculator" %}}
+  - {{% contentlink "topics/python-specific/oop-for-python/" %}}
 
-- DATA_SCI:
+* DATA_SCI:
 
   - todo regular expression resources
   - todo: how exceptions work
   - {{% contentlink "projects/tdd/password-checker" %}}
 
-- WEB_DEV:
+* WEB_DEV:
 
   - {{% contentlink "projects/tdd/string-calculator" %}}
 
-- JAVA:
+* JAVA:
   - workshop: error handling intro and Q&A
   - {{% contentlink "projects/tdd/password-checker" %}}
   - readings given for following week
@@ -256,13 +229,16 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "topics/python-specific/unit-testing/automated-testing-pandas-and-numpy" %}}
 
 - DATA_ENG:
-  - {{% contentlink "topics/python-specific/oop-for-python/" %}}
   - {{% contentlink "projects/oop/person" %}}
   - {{% contentlink "projects/oop/animals" %}}
+  - {{% contentlink "projects/tdd/simple-calculator-part2" %}}
 
 * WEB_DEV:
+  - topic oop for js
+  - workshop oop for js
   - {{% contentlink "projects/oop/person" %}}
   - {{% contentlink "projects/oop/animals" %}}
+  - {{% contentlink "projects/tdd/simple-calculator-part2" %}} Introduced
 
 ## Week 9:
 
@@ -270,10 +246,12 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/tdd/string-calculator" %}}
 
 * DATA_ENG
-  - {{% contentlink "projects/tdd/simple-calculator-part2" %}}
+  - {{% contentlink "topics/python-specific/intro-to-apis/" %}}
+  - todo: topic test spies and mocks
+  - {{% contentlink "projects/python-specific/consume-rest-api-simple/" %}} INTRODUCED
 
 - WEB_DEV:
-  - {{% contentlink "projects/tdd/simple-calculator-part2" %}}
+  - {{% contentlink "projects/tdd/simple-calculator-part2" %}} due
 
 ## Week 10:
 
@@ -288,14 +266,14 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "topics/functional-programming-intro" %}}
 
 * DATA_ENG:
-  - {{% contentlink "topics/python-specific/intro-to-apis/" %}}
-  - todo: topic test spies and mocks
-  - {{% contentlink "projects/python-specific/consume-rest-api-simple/" %}} INTRODUCED
+  - {{% contentlink "projects/python-specific/consume-rest-api-simple/" %}} DUE
+  - {{% contentlink "projects/python-specific/expose-rest-api-simple/" %}} INTRODUCED
 
 - WEB_DEV:
   - {{% contentlink "topics/js-and-node-specific/dom-manipulation-with-vanilla-js" %}}
   - todo: topic test spies and mocks
   - {{% contentlink "projects/memory-game-vanilla" %}} INTRODUCED
+  - NCIT 13: Object-oriented programming
 
 ## Week 11
 
@@ -307,8 +285,7 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/data-science-specific/statistical-thinking/" %}} INTRODUCED
 
 * DATA_ENG:
-  - {{% contentlink "projects/python-specific/consume-rest-api-simple/" %}} DUE
-  - {{% contentlink "projects/python-specific/expose-rest-api-simple/" %}} INTRODUCED
+  - {{% contentlink "projects/python-specific/expose-rest-api-simple/" %}} DUE
 
 ## WEEK 12:
 
@@ -318,11 +295,16 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - DATA_ENG
 
-  - {{% contentlink "projects/python-specific/expose-rest-api-simple/" %}} DUE
+  - {{% contentlink "topics/intro-to-docker/" %}} get postgres up and running with docker
+  - {{% contentlink "projects/sql/" %}}
+  - {{% contentlink "topics/python-specific/sql-and-python/" %}}
 
 - WEB_DEV
+  - {{% contentlink "topics/js-and-node-specific/introduction-to-node/" %}} this one is more thorough. introduce sync versus async, etc
+  - {{% contentlink "workshops/node/" %}}
+  - {{% contentlink "projects/nodejs/file-io" %}}
 
-## Week 13 & 14: OOP
+## Week 13 & 14:
 
 - NCIT 13: Object-oriented programming
 
@@ -334,12 +316,15 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/oop-for-data-science/" %}}
 
 - DATA_ENG
+  - {{% contentlink "topics/python-specific/virtual-envs/" %}}
+  - {{% contentlink "topics/linux/os-environmental-variables/" %}}
 
 * WEB_DEV
-  - {{% contentlink "workshops/node/" %}}
-  - {{% contentlink "projects/nodejs/" %}}
-  - {{% contentlink "topics/js-and-node-specific/introduction-to-node/" %}}
-  - {{% contentlink "projects/nodejs/mongo" %}} INTRO
+
+  - {{% contentlink "topics/intro-to-docker/" %}} get postgres up and running with docker
+  - {{% contentlink "projects/sql/" %}}
+  - {{% contentlink "workshops/node-and-sql/" %}}
+  - {{% contentlink "projects/nodejs/sql" %}}
 
 ## Week 15:
 
@@ -347,13 +332,11 @@ ALL:
 
 - {{% contentlink "topics/intro-to-docker/" %}}
 
-ALL_DATA:
+DATA_SCI:
 
 - {{% contentlink "topics/python-specific/virtual-envs/" %}}
 
 DATE_ENG:
-
-- {{% contentlink "topics/linux/os-environmental-variables/" %}}
 
 WEB_DEV:
 
@@ -361,15 +344,22 @@ WEB_DEV:
 - {{% contentlink "topics/js-and-node-specific/dotenv/" %}}
 - {{% contentlink "projects/nodejs/express-forms" %}}
 
-## Week 16 & 17: Introduction to SQL
+## Week 16 & 17:
 
-All recruits will do this
+- WEB_DEV:
 
-- {{% contentlink "workshops/node-and-sql/" %}}
+  - {{% contentlink "projects/nodejs/api" %}}
+  - {{% contentlink "projects/nodejs/ajax" %}}
+
+- DATA_SCI, JAVA
+
+  - {{% contentlink "projects/sql/" %}}
+  - {{% contentlink "topics/data-validation-and-quality-control/" %}}
+  - NCIT 14: Database Development
+
 - {{% contentlink "topics/python-specific/sql-and-python/" %}}
-- {{% contentlink "topics/data-validation-and-quality-control/" %}}
-- {{% contentlink "projects/sql/" %}}
-- NCIT 14: Database Development
+
+- DATA_ENG:
 
 ## Week 18 & 19
 
@@ -385,25 +375,22 @@ All recruits will do this
   - {{% contentlink "projects/build-rest-api-with-db/" %}}
 
 - WEB_DEV:
-  - {{% contentlink "projects/nodejs/api" %}}
 
 ## Week 20: NCIT bits and pieces
 
 - WEB_DEV:
 
-  - {{% contentlink "projects/nodejs/ajax" %}}
-
-- ALL:
+* ALL:
 
   - {{% contentlink "topics/agile-scrum" %}}
   - {{% contentlink "workshops/agile-scrum/" %}}
   - {{% contentlink "topics/optimizations-and-big-o/" %}}
 
-- NCIT 16: Thinking like a machine / Boolean algebra, logic
-- NCIT 17: Search and sort techniques
-- NCIT 18: Agile project management
-- NCIT 19: Agile meetings
-- NCIT 20: Managing the Software Development Process
+* NCIT 16: Thinking like a machine / Boolean algebra, logic
+* NCIT 17: Search and sort techniques
+* NCIT 18: Agile project management
+* NCIT 19: Agile meetings
+* NCIT 20: Managing the Software Development Process
 
 ## Week 21: NCIT bits and pieces
 
