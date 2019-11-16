@@ -33,8 +33,6 @@ Of course if you've written some awesome code you would want to save it somewher
 
 ##### Running programs
 
-**Side Note**: update and upgrade your computer every chance you get, I do it every week. On your terminal run `sudo apt update` to update your machine, and if you need to upgrade the machine along with the apps, please run `sudo apt upgrade`. As a side note, the terminal is super powerful. You'll get quite familiar with it as time goes on. Another useful trick you might want right now is this one:
-
 - After installing from the terminal some programs can allow you to open them from the terminal. So instead of navigating everywhere in your computer you can just type the alias of that program. e.g. Since we installed VScode on our machines, a simple way to open it is to go into the terminal and type in `code`. code is an alias created by the terminal as a short cut for the program.
 - You can also open up a terminal and type in `code hello.py`. This opens your file in VScode.
 
