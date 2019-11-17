@@ -9,7 +9,7 @@ This page is here to help you get set up on your local machine. These are very i
 
 #### Installations
 
-Setting up your environment needs you to to install a bunch of stuff. A good programmer knows his stuff, knows what he's installing and doesn't just jump into code. You will need the following:
+Setting up your environment needs you to to install a bunch of stuff. A good programmer knows their stuff, knows what they are installing and doesn't just jump into code. You will need the following:
 
 - [VScode](https://code.visualstudio.com/docs/setup/linux): Visual Studio Code is an IDE developed by Microsoft for Windows, Linux and macOS. An integrated development environment is a software application that provides comprehensive facilities to computer programmers for software development.</br>
 An IDE normally consists of at least a source code editor, build automation tools, and a debugger. What makes an IDE so useful is the I: integrated. You could use just about anything for a development environment and many people use a variety of basic, individual programs in place of an IDE but an integrated environment gives you the ability to do everything in a single editor.  
