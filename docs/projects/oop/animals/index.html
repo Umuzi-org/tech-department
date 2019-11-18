@@ -12,19 +12,19 @@
     <title>Animals! :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1574044768" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1574044768" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1574044768" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1574044768" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1574044768" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1574044768" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1574044768" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1574044768" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1574051202" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1574051202" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1574051202" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1574051202" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1574051202" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1574051202" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1574051202" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1574051202" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1574044768" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1574051202" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1574044768"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1574051202"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1574044768"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1574044768"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1574051202"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1574051202"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1574044768"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1574051202"></script>
 
     
   </div>
@@ -5565,7 +5565,17 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#up-for-a-challenge">Up for a Challenge?</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -5613,12 +5623,15 @@
 
         
 
+
+
 <p>This Challenge should test 3 topics from your OOP knowledge</p>
 
 <ol>
 <li>Encapsulation</li>
-<li>Enheritance</li>
+<li>Inheritance</li>
 <li>Polymophism</li>
+<li>Composition</li>
 </ol>
 
 <p><img src="https://user-images.githubusercontent.com/47598382/68578218-40542900-047a-11ea-9da8-02ed02d0c798.png" alt="Screenshot 2019-11-11 at 10 21 38" /></p>
@@ -5626,20 +5639,64 @@
 <p>In this challenge you will create 3 classes</p>
 
 <ol>
-<li>Super Class called Animal</li>
-<li>Dog and Cat class which both <strong>extends</strong> Animal class</li>
-<li>Dog and Cat class should only have 1 function, which is their own implementation of the sound() function</li>
+<li>Super class called <code>Animal</code></li>
+<li><code>Dog</code> and <code>Cat</code> class which both <strong>extends</strong> <code>Animal</code> class (a dog is an animal and a cat is an animal)</li>
+<li><code>Dog</code> and <code>Cat</code> class should only have 1 function, which is their own implementation of the <code>sound()</code> function. This is polymorphism</li>
+<li>a <code>Home</code> class. But we&rsquo;ll talk about that later&hellip;</li>
 </ol>
 
-<pre><code>dog = new Dog()
-...
-dog.eat() -&gt; 'Rax eats'
-dog.sounds() -&gt; 'Dog barks'
+<pre><code>// Java
 
-cat = new Cat()
-...
-cat.eat() -&gt; 'Stormy eats'
-cat.sounds() -&gt; 'Cat meows'
+Dog dog = new Dog()
+
+dog.eat()    // -&gt; 'Rax eats'
+dog.sounds() // -&gt; 'Dog barks'
+
+Cat cat = new Cat()
+
+cat.eat()    // -&gt; 'Stormy eats'
+cat.sounds() // -&gt; 'Cat meows'
+</code></pre>
+
+<p>Now let&rsquo;s add composition. Make a new class called <code>Home</code>. Lots of people have dogs and cats in their homes. <code>Home</code> should have a function called <code>adoptPet</code> that takes any <code>Animal</code> as an input. The new pet should be stored in the <code>Home</code> object in an array/list. The <code>Home</code> object should also have a function called <code>makeAllSounds</code>. It should work like this:</p>
+
+<pre><code>// Java
+
+Home home = new Home()
+Dog dog1 = new Dog()
+Dog dog2 = new Dog()
+Cat cat = new Cat()
+
+home.makeAllSounds() // this doesn't do anything
+home.adoptPet(dog1)
+home.makeAllSounds()
+// this prints:
+// Dog barks
+
+home.adoptPet(cat)
+home.makeAllSounds()
+// this prints:
+// Dog barks
+// Cat meows
+
+home.adoptPet(dog2)
+home.makeAllSounds()
+// this prints:
+// Dog barks
+// Cat meows
+// Dog barks
+</code></pre>
+
+<h3 id="up-for-a-challenge">Up for a Challenge?</h3>
+
+<p>This section is not compulsory. If you do this we&rsquo;ll think you&rsquo;re cool.</p>
+
+<p>Add some functionality to <code>adoptPet</code> so that an error/exception gets raised if you try to adoptThe same pet twice</p>
+
+<p>eg:</p>
+
+<pre><code>home.adoptPet(dog1) // totally ok
+home.adoptPet(dog1) // not ok at all
 </code></pre>
 
 
@@ -9122,20 +9179,20 @@ cat.sounds() -&gt; 'Cat meows'
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1574044768"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1574044768"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1574044768"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1574044768"></script>
-    <script src="/tech-department/js/featherlight.min.js?1574044768"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1574044768"></script>
-    <script src="/tech-department/js/highlight.pack.js?1574044768"></script>
+    <script src="/tech-department/js/clipboard.min.js?1574051202"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1574051202"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1574051202"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1574051202"></script>
+    <script src="/tech-department/js/featherlight.min.js?1574051202"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1574051202"></script>
+    <script src="/tech-department/js/highlight.pack.js?1574051202"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1574044768"></script>
-    <script src="/tech-department/js/learn.js?1574044768"></script>
-    <script src="/tech-department/js/hugo-learn.js?1574044768"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1574051202"></script>
+    <script src="/tech-department/js/learn.js?1574051202"></script>
+    <script src="/tech-department/js/hugo-learn.js?1574051202"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1574044768" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1574044768"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1574051202" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1574051202"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
