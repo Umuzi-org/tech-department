@@ -418,7 +418,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/how-to-ask-the-right-questions/</loc>
+    <loc>/tech-department/topics/how-to-ask-for-help-with-your-code/</loc>
   </url>
   
   <url>
@@ -639,6 +639,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/js-and-node-specific/javascript-dev-environment-setup/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/nodejs/</loc>
   </url>
   
@@ -672,6 +676,10 @@
   
   <url>
     <loc>/tech-department/projects/data-science-specific/logistic-regression/titanic/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/python-backend-dev-environment-setup/</loc>
   </url>
   
   <url>
