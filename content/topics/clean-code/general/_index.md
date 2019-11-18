@@ -73,3 +73,8 @@ Functions are:\
 * Easier to test than the inner-most loop of a 5 loop stack of spaghetti-code.\
 * Easier to reuse.\
 * Easier to document.\
+
+## Code Defensively
+Defensive programming means anticipating things that could probably go wrong and coding to handle such situations instead of just throwing error or exception mesages. The goal is to write code that can handle real life situations: e.g. invalid input from the user.
+
+If you don't code defensively your code might for example fail to complete its work but acts as if there is no problem leading to issues that are difficult to find and fix after you've launched your app. These bad scenarios are also called "edge cases". So think about the edge cases, assume that your user is really, really dumb and isn't following the instructions or using your program as they should. Then write your code to anticipate handle such abuse or misuse.
