@@ -65,11 +65,17 @@ review memory game instructions:
 
 - dont focus too hard on dom testing. mocks and spies more nb
 
-* link: ...
-  ncit: ...
-  extra_text: ...
-  tracks:
-  - name: DATA_SCIENCE
-    week: 1
-  - name: DATA_ENG
-    week: 3
+link: ...
+ncit: ...
+extra_text: ...
+tracks:
+
+- name: DATA_SCIENCE
+  week: 1
+- name: DATA_ENG
+  week: 3
+
+TODO:
+
+1. oop basics before testing for js and data eng
+2. sqlalchemy project for d eng

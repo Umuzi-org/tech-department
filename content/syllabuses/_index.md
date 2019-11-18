@@ -351,7 +351,7 @@ WEB_DEV:
   - {{% contentlink "projects/nodejs/api" %}}
   - {{% contentlink "projects/nodejs/ajax" %}}
 
-- DATA_SCI, JAVA
+- DATA_SCI
 
   - {{% contentlink "projects/sql/" %}}
   - {{% contentlink "topics/data-validation-and-quality-control/" %}}
