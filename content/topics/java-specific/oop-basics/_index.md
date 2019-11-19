@@ -5,7 +5,9 @@ ready: true
 
 [What is Object Oriented Programming?](https://medium.com/learn-how-to-program/chapter-3-what-is-object-oriented-programming-d0a6ec0a7615)
 
-## Four main OOP priciples in java:
+## Four main OOP priciples in java
+
+OOP is really powerful. There's a lot worth knowing. Make sure that you understand these foundational concepts and everything else will come pretty easily.
 
 ### Abstraction == focusing on the necessary details
 
@@ -111,6 +113,8 @@ class Main{
 
 ```
 
+To learn how `@Override` actually works, check (this)[https://www.baeldung.com/java-override] out
+
 ### Polymorphism
 
 Polymorphism in Java is a concept by which we can perform a single action in different ways. Polymorphism is derived from 2 Greek words: poly and morphs. The word "poly" means many and "morphs" means forms. So polymorphism means many forms.
@@ -118,6 +122,8 @@ Polymorphism in Java is a concept by which we can perform a single action in dif
 There are two types of polymorphism in Java: compile-time polymorphism and run-time polymorphism. We can perform polymorphism in java by method overloading and method overriding. [Read more.](https://stackify.com/oop-concept-polymorphism/)
 
 #### Method overriding
+
+Refer back to the `inheritance` stuff above. We used overriding there.
 
 Overriding a method is when a method in the subclass has the same name and method signature as a method in the superclass. When overriding a method you are not allowed to make the method more private.
 
@@ -188,8 +194,37 @@ class Main {
 }
 ```
 
+#### The danger of accidental overloading
+
+```
+public class Machine {
+    public boolean equals(Machine obj){
+        return true;
+    }
+}
+
+public class MainProgram {
+    public static void main(String[] args){
+
+        Object first = new Machine();
+        Object second = new Machine();
+        Machine third = new Machine();
+        Machine fourth = new Machine();
+
+        System.out.println(first.equals(second)); // returns false
+        System.out.println(third.equals(fourth)); // returns true
+    }
+}
+```
+
+This is because every class in Java inherits from a base Object class. And so a `Machine` is an `Object`. And `Object.equals` means something very specific.
+
 ## Important links
 
 - Read more to gain further understanding on [OOP concepts](https://beginnersbook.com/2013/04/oops-concepts/).
 - [Here](https://stackify.com/oops-concepts-in-java/) is another useful link.
 - [Java oops concepts](https://www.javatpoint.com/java-oops-concepts) by Java T Point.
+
+## Super cool advanced stuff
+
+The true power of OOP comes from the interaction between objects. There are some pretty common patterns to how OOP gets used in industry. These patterns are called "Design Patterns". Take a look at [this](https://www.javatpoint.com/design-patterns-in-java).
