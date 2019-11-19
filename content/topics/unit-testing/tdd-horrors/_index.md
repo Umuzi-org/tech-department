@@ -5,16 +5,16 @@ ready: true
 
 These are all the most common TDD problems recruits tend to come across, read and make sure you didn't make any of these or any mistakes at all.
 
-- **Write tests**. Recruits in the past have done the mistake of not writing tests for TDD assignments, make sure you avoid this weird mistake. always write tests for your TDD projects.
+- **Write tests**. Recruits in the past have done the mistake of not writing tests for TDD assignments, make sure you avoid this weird mistake. Always write tests for your TDD projects.
 - Please make sure you understand .gitignore, please don't add your node_modules to git.
 - Name your files according to what is inside them
-- Avoid making tests depend on each other, either explicitly or implicitly. Dependencies among tests are a path to pain, expense, fragility, and complication.
+- Avoid making tests depend on each other. Making test dependent on each other is the perfect path to pain, expense, fragility, and complication.
 - Pay attention to failure messages. Make each failure message as helpful for diagnosis as you can.
 - Do not skimp on the refactoring. It is the refactoring that will keep your code (including the tests) easy to understand and change
 - Naming conventions: in general, be careful with your naming conventions. make sure your naming convention consistent, names should be more descriptive. Name your files properly and according to what's inside them.
 - Keep good directory structure and delete all junk files.
 - Avoid messy indentation (install prettier).
-- Test for errors/exception, sometimes code is supposed to throw an error or raise an exception. In these cases your tests should make sure that the error happens as it should, to do that your tests need to use:
+- Test for errors/exception, sometimes code is supposed to throw an error or raise an exception. In these cases your tests should make sure that the error happens as it should, your tests need to use the following syntax:
 
     Javascript:
     ```js
@@ -119,14 +119,15 @@ Do this:
       Do: `it("multiply [what exactly?]")`
 
       Don't: `it("multiply")`
+
 - Incomplete projects:
-  - Always make sure that your projects are complete. Incomplete projects looks to an employer. BAD! is the word. If you do not  have tests, for your TDD project, then your project is incomplete.
+  - Always make sure that your projects are complete. Submitting Incomplete projects looks, BAD! to both an employer and Code reviewers, so don't submit incomplete projects, it's bad for your reputation. If you do not have tests, for your TDD project, then your project is incomplete.
 
 - TDD tests fail:
   - Failing tests aren't bad during development, but make sure your **all** tests pass when you submit your project.
 
 - Documentation on how to setup and test the code:
-  - Make use of md files, collaborators shouldn't guess/remember how to setup all the dependencies for your project, document all the necessary processes please.
+  - Make use of README.md, requirements.txt files, collaborators shouldn't guess/remember how to setup all the dependencies for your project, document all the necessary processes please.
 
 - Clean code base. Need I say more?
 
