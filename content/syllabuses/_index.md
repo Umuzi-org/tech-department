@@ -114,7 +114,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 ## Week 4:
 
-- {{% contentlink "topics/how-to-ask-the-right-questions" %}}
+- {{% contentlink "topics/how-to-ask-for-help-with-your-code" %}}
 
 - WEB_DEV:
 
@@ -135,9 +135,9 @@ The recruits finish off their portfolios. From this point forward they are expec
 - JAVA:
   - carry over any NCIT tasks from previous week
   - {{% contentlink "topics/java-specific/intro-to-gradle-with-intellij" %}}
-  - {{% contentlink "workshops/java-specific/live-code-java-intro" %}}
+  - {{% contentlink "workshops/java-specific/live-code-java-intro" %}} Monday or Tuesday
   - Recruits should be familiar with basic flow control, if, else, loops. It may be necessary to have another workshop on this
-  - {{% contentlink "projects/basic-flow-control-katas" %}} do this in pairs
+  - {{% contentlink "projects/basic-flow-control-katas" %}} do this in pairs, they should use Gradle
 
 ## Week 5: Some specific skills
 
@@ -165,7 +165,7 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "workshops/java-specific/basic-intro-to-oop" %}}
   - {{% contentlink "topics/java-specific/oop-basics"%}}
   - {{% contentlink "projects/oop/person" %}} do this in pairs
-  - {{% contentlink "projects/oop/cars" %}} individual. Due towards the end of the week
+  - {{% contentlink "projects/oop/animals" %}} individual. Due towards the end of the week
   - NCIT 08: Pseudocode and documentation
   - NCIT 13: Object-oriented programming
   - workshop: oop Q&A might be needed
