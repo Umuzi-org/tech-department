@@ -5,7 +5,11 @@ ready: true
 
 ### Submission guide lines:
 
+<<<<<<< HEAD
 For this specific project we require you to complete the required scripts in terminal, verify that your commands work and store them in a .sh file. Make sure your tasks are labeled clearly. You will be pushing this file to GitHub and submitting the github link for assessment after you complete your GitHub exercises.
+=======
+For this specific project we require you to complete the required scripts in terminal, verify that your commands work then copy them into a .md file. Make sure your tasks are labeled clearly. You will be pushing this file to GitHub and submitting the github link for assessment after you complete your GitHub exercises.
+>>>>>>> 15e985980a704cc978d94e30204f484e6e00f896
 
 ### Task 1 : Basic Task
 
