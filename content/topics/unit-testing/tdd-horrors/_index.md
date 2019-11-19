@@ -116,7 +116,7 @@ Do this:
 - Javascript: Test strings are there to be descriptive:
   - eg:
 
-      Do: `it("multiply [what exactly?]")`
+      Do: `it("can/should multiply [what exactly?]")`
 
       Don't: `it("multiply")`
 
