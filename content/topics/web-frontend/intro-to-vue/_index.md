@@ -3,7 +3,7 @@ title: Intro to Vue
 ready: True
 ---
 
-##### what is ####
+#### What is? ####
 
 [Vue.js](https://vuejs.org/v2/guide/index.html) is an [Model View viewmodel](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel) [javascript framework](https://en.wikipedia.org/wiki/JavaScript_framework) that has different optional tools for building user interfaces and [single page applications](https://en.wikipedia.org/wiki/Single-page_application). Vue.js allow you to extend basic HTML with html attributes called [directives](https://012.vuejs.org/guide/directives.html) which adds extra functionality to the html. This directives are provided by Vue.js by default or can be defined by user.
 
@@ -37,7 +37,7 @@ This can also be written using double braces as placeholders for output data lik
 In the first example looking at [ v-text='heading_1' ], the prefix 'v' is default similar to [AngularJS](https://www.w3schools.com/angular/angular_directives.asp) 'ng' its purpose is to tell Vue.js library that the [HTML attribute](https://en.wikipedia.org/wiki/HTML_attribute) is Vue.js attribute. The 'text' part of the ['v-text'](https://012.vuejs.org/api/directives.html) is the directive and its meant to tell Vue.js that it should change textContent of the HTML element, with what 'heading_1' expression presents/contains.
 The same goes for the second example except for example 2 'heading_1' is directly defined whithin HTML heading attribute textContent area. Some of the directives are [v-if, v-el, v-pre, v-on, v-ref, v-transition, etc](https://012.vuejs.org/api/directives.html).
 
-##### comparison ####
+#### Comparison ####
 Simple examples to show usage of Vue.js and normal html alternative.
 
 _1) Add text to heading 1 :_
@@ -223,7 +223,7 @@ The 'v-for' directive loops through array of items.
 
 
 
-##### Resorce links ####
+#### Resorce links ####
 
 [Vue.js Guide](https://vuejs.org/v2/guide/).
 
