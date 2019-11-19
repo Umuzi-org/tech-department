@@ -1,13 +1,12 @@
 ---
-title: Webscraping and Live Dashboard Assignment
-pre: "<b> HARD: </b>"
+title: Webscraping Assignment
 ready: True
 ---
 
-Use [beautifulsoup](https://pypi.org/project/beautifulsoup4/) and regular expressions (regex) to scrape the data of provincial dam levels from the [Department of Water and Sanitation](http://www.dwa.gov.za/Hydrology/Weekly/SumProvince.aspx).
+1. Use the packages [requests](https://2.python-requests.org/en/master/) and [beautifulsoup](https://pypi.org/project/beautifulsoup4/) to get the text from the Wikipedia page on [Energy in South Africa](https://en.wikipedia.org/wiki/Energy_in_South_Africa).
 
-Create a dashboard with graphs showing the current and previous week's dam levels by province, and compare it to the water levels from the previous year. Your dashboard should update weekly (in other words, you can't just copy and paste this week's data to your notebook).
+2. Get only the information from the Overview table 'Energy in South Africa'. Loop through the rows and columns of the table to get the data into a list. Turn the list into a pandas data frame with the table headings (as given in Wikipedia) as the column names.
 
-### Think about
-- What type of graph will show this information best?
-- Do all graphs have clearly understandable headings, axis labels and (if applicable) legends?
+3. Plot energy production and export between 2004 and 2012 in a line graph. Remember to label your axes clearly and to provide a legend and title.
+
+4. Plot C02 emissions between 2004 and 2012. Remember to label your axes clearly and to provide a legend and title.
