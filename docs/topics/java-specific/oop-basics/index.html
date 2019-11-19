@@ -12,19 +12,19 @@
     <title>Java OOP basics resources and readings :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1574139572" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1574139572" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1574139572" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1574139572" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1574139572" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1574139572" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1574139572" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1574139572" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1574144194" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1574144194" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1574144194" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1574144194" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1574144194" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1574144194" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1574144194" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1574144194" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1574139572" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1574144194" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1574139572"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1574144194"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1574139572"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1574139572"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1574144194"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1574144194"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1574139572"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1574144194"></script>
 
     
   </div>
@@ -5569,7 +5569,7 @@
 <ul>
 <li>
 <ul>
-<li><a href="#four-main-oop-priciples-in-java">Four main OOP priciples in java:</a>
+<li><a href="#four-main-oop-priciples-in-java">Four main OOP priciples in java</a>
 <ul>
 <li><a href="#abstraction-focusing-on-the-necessary-details">Abstraction == focusing on the necessary details</a></li>
 <li><a href="#encapsulation-hiding-details">Encapsulation == hiding details</a></li>
@@ -5578,9 +5578,11 @@
 <ul>
 <li><a href="#method-overriding">Method overriding</a></li>
 <li><a href="#method-overloading">Method overloading</a></li>
+<li><a href="#the-danger-of-accidental-overloading">The danger of accidental overloading</a></li>
 </ul></li>
 </ul></li>
 <li><a href="#important-links">Important links</a></li>
+<li><a href="#super-cool-advanced-stuff">Super cool advanced stuff</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -5609,7 +5611,9 @@
 
 <p><a href="https://medium.com/learn-how-to-program/chapter-3-what-is-object-oriented-programming-d0a6ec0a7615">What is Object Oriented Programming?</a></p>
 
-<h2 id="four-main-oop-priciples-in-java">Four main OOP priciples in java:</h2>
+<h2 id="four-main-oop-priciples-in-java">Four main OOP priciples in java</h2>
+
+<p>OOP is really powerful. There&rsquo;s a lot worth knowing. Make sure that you understand these foundational concepts and everything else will come pretty easily.</p>
 
 <h3 id="abstraction-focusing-on-the-necessary-details">Abstraction == focusing on the necessary details</h3>
 
@@ -5715,6 +5719,8 @@ class Main{
 
 </code></pre>
 
+<p>To learn how <code>@Override</code> actually works, check (this)[<a href="https://www.baeldung.com/java-override">https://www.baeldung.com/java-override</a>] out</p>
+
 <h3 id="polymorphism">Polymorphism</h3>
 
 <p>Polymorphism in Java is a concept by which we can perform a single action in different ways. Polymorphism is derived from 2 Greek words: poly and morphs. The word &ldquo;poly&rdquo; means many and &ldquo;morphs&rdquo; means forms. So polymorphism means many forms.</p>
@@ -5722,6 +5728,8 @@ class Main{
 <p>There are two types of polymorphism in Java: compile-time polymorphism and run-time polymorphism. We can perform polymorphism in java by method overloading and method overriding. <a href="https://stackify.com/oop-concept-polymorphism/">Read more.</a></p>
 
 <h4 id="method-overriding">Method overriding</h4>
+
+<p>Refer back to the <code>inheritance</code> stuff above. We used overriding there.</p>
 
 <p>Overriding a method is when a method in the subclass has the same name and method signature as a method in the superclass. When overriding a method you are not allowed to make the method more private.</p>
 
@@ -5790,6 +5798,30 @@ class Main {
 }
 </code></pre>
 
+<h4 id="the-danger-of-accidental-overloading">The danger of accidental overloading</h4>
+
+<pre><code>public class Machine {
+    public boolean equals(Machine obj){
+        return true;
+    }
+}
+
+public class MainProgram {
+    public static void main(String[] args){
+
+        Object first = new Machine();
+        Object second = new Machine();
+        Machine third = new Machine();
+        Machine fourth = new Machine();
+
+        System.out.println(first.equals(second)); // returns false
+        System.out.println(third.equals(fourth)); // returns true
+    }
+}
+</code></pre>
+
+<p>This is because every class in Java inherits from a base Object class. And so a <code>Machine</code> is an <code>Object</code>. And <code>Object.equals</code> means something very specific.</p>
+
 <h2 id="important-links">Important links</h2>
 
 <ul>
@@ -5797,6 +5829,10 @@ class Main {
 <li><a href="https://stackify.com/oops-concepts-in-java/">Here</a> is another useful link.</li>
 <li><a href="https://www.javatpoint.com/java-oops-concepts">Java oops concepts</a> by Java T Point.</li>
 </ul>
+
+<h2 id="super-cool-advanced-stuff">Super cool advanced stuff</h2>
+
+<p>The true power of OOP comes from the interaction between objects. There are some pretty common patterns to how OOP gets used in industry. These patterns are called &ldquo;Design Patterns&rdquo;. Take a look at <a href="https://www.javatpoint.com/design-patterns-in-java">this</a>.</p>
 
 
 <footer class=" footline" >
@@ -9281,20 +9317,20 @@ class Main {
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1574139572"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1574139572"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1574139572"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1574139572"></script>
-    <script src="/tech-department/js/featherlight.min.js?1574139572"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1574139572"></script>
-    <script src="/tech-department/js/highlight.pack.js?1574139572"></script>
+    <script src="/tech-department/js/clipboard.min.js?1574144194"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1574144194"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1574144194"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1574144194"></script>
+    <script src="/tech-department/js/featherlight.min.js?1574144194"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1574144194"></script>
+    <script src="/tech-department/js/highlight.pack.js?1574144194"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1574139572"></script>
-    <script src="/tech-department/js/learn.js?1574139572"></script>
-    <script src="/tech-department/js/hugo-learn.js?1574139572"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1574144194"></script>
+    <script src="/tech-department/js/learn.js?1574144194"></script>
+    <script src="/tech-department/js/hugo-learn.js?1574144194"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1574139572" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1574139572"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1574144194" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1574144194"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
