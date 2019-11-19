@@ -56,11 +56,11 @@ def check_one_file_frontmatter(file_path):
     post = frontmatter.load(file_path)
 
     required = ["title"]
-    allowed = ["pre", "weight", "ready", "date", "disableToc", "todo", "attn"]
+    allowed = ["pre", "weight", "ready", "date", "disableToc", "todo", "attn","noform","ncit_unit_standard","ncit_specific_outcomes"]
 
     for key in post.keys():
         if key not in required + allowed:
-            logger.warn(f"{file_path} has unrecognized frontmatter: {key}")
+            logger.warning(f"{file_path} has unrecognized frontmatter: {key}")
             continue
     for key in required:
         if key not in post.keys():
@@ -77,4 +77,5 @@ def check_contentlinks_ok():
 
 if __name__ == "__main__":
     check_all_frontmatter("content")
+
 
