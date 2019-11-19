@@ -36,6 +36,16 @@ greeting = person.hello()
 print(greeting)
 ```
 
+```
+// Java
+
+Person person = new Person(
+    "Ryan",30,"male",
+    new String[] {"being a hardarse", "agile", "ssd hard drives"})
+String greeting = person.hello()
+System.out.println(greeting)
+```
+
 This should output:
 
 ```

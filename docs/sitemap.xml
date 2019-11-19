@@ -169,6 +169,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/oop/animals/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/apis/</loc>
     <priority>0</priority>
   </url>
@@ -203,10 +207,6 @@
   
   <url>
     <loc>/tech-department/projects/first-personal-website/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/projects/oop/cars/</loc>
   </url>
   
   <url>
@@ -316,12 +316,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/data-science-specific/</loc>
+    <loc>/tech-department/topics/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/</loc>
+    <loc>/tech-department/projects/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
@@ -351,6 +351,10 @@
   
   <url>
     <loc>/tech-department/topics/linux/os-environmental-variables/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/data-science-specific/data-visualisation/linux-evolution/</loc>
   </url>
   
   <url>
@@ -414,7 +418,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/how-to-ask-the-right-questions/</loc>
+    <loc>/tech-department/topics/how-to-ask-for-help-with-your-code/</loc>
   </url>
   
   <url>
@@ -603,6 +607,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/data-science-specific/logistic-regression/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/memory-game-modern/</loc>
   </url>
   
@@ -628,6 +636,10 @@
   
   <url>
     <loc>/tech-department/workshops/node/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/js-and-node-specific/javascript-dev-environment-setup/</loc>
   </url>
   
   <url>
@@ -659,15 +671,15 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/data-science-specific/logistic-regression/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/projects/data-science-specific/logistic-regression/credit-card-approvals/</loc>
   </url>
   
   <url>
     <loc>/tech-department/projects/data-science-specific/logistic-regression/titanic/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/python-backend-dev-environment-setup/</loc>
   </url>
   
   <url>
