@@ -1,5 +1,6 @@
 ---
 title: Intro to React
+ready: true
 
 ---
 
