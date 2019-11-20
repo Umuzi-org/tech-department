@@ -11,11 +11,11 @@ Make a function that can reverse a string
 ```
 //javascript
 
-reverse("hello")  => olleh
+reverse("hello")  => // Expected output olleh
 ```
 
 ```
 //py
 
-def reverse("hello"):  => olleh
+def reverse("hello"):  # Expected output =>  olleh
 ```
