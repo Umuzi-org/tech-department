@@ -11,13 +11,9 @@ You should know HTML, CSS and JavaScript (including ES6 syntax).
 
 - [FreeCodeCamp](https://www.freecodecamp.org/): This one is great if you've never coded before. It holds your hand through the whole process
 - [W3Schools](https://www.w3schools.com/): This is also very friendly for beginners but teaches things in a more exploratory way
-- [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide): MDN might be the soul of the internet
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide) - Most comprehensive javascript reference guide on the internet. 
 - [CodeWars](https://www.codewars.com/): Practice makes perfect
-- [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 - [JS re-introduction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript) - Compact introduction covering types, variables, operators, control structures, functions and closures.
-- [FreeCodeCamp](https://www.freecodecamp.org/) - Learn to code html, css, javascript and libraries for free. 
-- [W3Schools](https://www.w3schools.com/) - Good JS reference with practical examples.
-- [CodeWars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
 - [Hacker Rank](https://www.hackerrank.com/) - Practice coding, prepare for interviews, and get hired.
 - [Simplified JavaScript Jargon](http://jargon.js.org) - Glossary which explains all the buzzwords from the JavaScript eco system.
 
