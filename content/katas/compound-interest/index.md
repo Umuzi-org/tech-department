@@ -4,18 +4,6 @@ pre: "<b>1. </b>"
 weight: 5
 ---
 
-This section just has a bunch of little excersises. For the most part they are language agnostic puzzles that can be used in a bunch of different ways:
-
-- recruits can use them to practice on their own
-- whiteboarding excercises
-- pair programming excercises
-- practicing tdd
-
-**Guidelines**
-Make sure you can do this stuff without relying heavily on the built in functions. Eg if the goal is to find the maximum number in the list, using the `max` function wont teach you a thing. This is about algorithmic thinking. The mental capabilities you will build by doing these excercises are much more important than memorising built in functions. You should end up with skills you can apply to problems in other languages.
-
-**NOTE** all the string excercises listed should be adapted to work with arrays as well
-
 ## compound Interest
 
 **1.**
@@ -40,17 +28,16 @@ finalAmount(100,0.01,100)  // 270.481...
 ```
 
 ```
-// Python
+//py
 
 finalAmount(startAmount,interest,iterations):
     // clever things
 
 => expected output:
-finalAmount(100,0.01,1)    // 101.0
-finalAmount(100,0.01,2)    // 102.01
-finalAmount(100,0.01,3)    // 103.031
-finalAmount(100,0.01,100)  // 270.481...
-
+def finalAmount(100,10,1):    // 101.0
+def finalAmount(100,10,2):    // 102.01
+def finalAmount(100,10,3):    // 103.031
+def finalAmount(100,10,100):  // 270.481...
 ```
 
 ### ADVANCED COMPOUND INTEREST
