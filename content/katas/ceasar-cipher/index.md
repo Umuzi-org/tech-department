@@ -20,28 +20,24 @@ write a function that takes in a string and number arguments and shifts each and
 
 function ceasarCipher(string,n) =>
 
-e.g example 
-
-function ceasarCipher("fmjkbi",3)
-
 Expected output =ipmnel
 
+example 
+calling function ceasarCipher("fmjkbi",3) must return output like Below
+The Expected output =ipmnel
 Note Be: notice that every character from given String is shifted to three positions/ steps ahead
 ```
 
 ```
-//Python
+//py
 
-function ceasarCipher(string,n):
-
-e.g example 
-
-function ceasarCipher("fmjkbi",3):
+def ceasarCipher(string,n):
 
 Expected output = ipmnel
 
+example 
+calling method ceasarCipher("fmjkbi",3): must return output like Below
+The Expected output = ipmnel
 Note Be: notice that every character from given String is shifted to three positions/ steps ahead
 
 ```
-
-
