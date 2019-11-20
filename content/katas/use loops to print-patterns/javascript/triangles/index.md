@@ -10,10 +10,18 @@ weight: 5
 
 **1.**
 Write a function that takes in number as argument and draws a right angled triangle  using the " * " characters. If the input is 4, then the output is a traingle with height 4
- 
-```
-// JavaScript
+
+**Input**
+
+```js
 let triangle(4) => 
+```
+```py
+def triangle(n):
+```
+
+**Output**
+```
 expected output: RIGHT ANGLE TRIANGLE
  
  *
@@ -23,11 +31,19 @@ expected output: RIGHT ANGLE TRIANGLE
 ```
 **2.**
 Write a function that takes in number as argument and draws a reflection/mirror of right angled triangle above using the " * " characters . If the input is 4, then the output is a traingle with height 4
-```
-// javascript
-let triangle(5) => 
-expected output: MIRROR OF RIGHT ANGLE TRIANGLE
 
+**Input**
+
+```js
+let triangle(5) => 
+```
+```py
+def triangle(n):
+```
+**Output**
+
+```
+expected output: MIRROR OF RIGHT ANGLE TRIANGLE
    *
   **              
  ***

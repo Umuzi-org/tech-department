@@ -8,11 +8,17 @@ weight: 5
 
 **1.**
 Write a function that takes in number as argument and prints a square
-```
-//JavaScript
 
+**Input**
+```js
 let square(n) => 
+```
+```py
+def square(n):
+```
 
+**Output**
+```
 expected output: remember to use "*" 
 #####
 #####
@@ -24,11 +30,18 @@ expected output: remember to use "*"
 
 **2**
 Write a function that takes in number as argument and prints a hollow square in the center
-```
-//JavaScript
+
+**Input**
+
+```js
 
 let square(n) => 
-
+```
+```py
+def square(n):
+```
+**Output**
+```
 expected output: remember to use "*" 
 #####
 #   #
