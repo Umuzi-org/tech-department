@@ -8,8 +8,11 @@ ready: true
 
 > [Dotenv](https://www.npmjs.com/package/dotenv) is a zero-dependency module that loads environment variables from a .env file into [process.env](https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7).
 
-We can either set the environment through application level logic, or we can use a tool to provision an environment for us. A common application level tool is dotenv which allows us to load environment variables from a file named ```.env```. Configs should have a separate file of their own and not hosted within the code repository. Having a separate config file makes it easy to update the config values without touching the actual code base. This eliminates the need for re-deployment of your applications when you change certain values in your config files. In other words, configs belong in the environment as variables, not in the application, you should be able to move it to another environment without having to touch the source code. Some developers achieve this goal by creating configuration files of some sort, specifying details such as directories, hostnames, and database credentials.
-
+- We can either set the environment through application code, or we can use a tool to set an environment for us.
+- A common application level tool is dotenv which allows us to load environment variables from a file named ```.env```.
+- Configs should have a separate file of their own and not hosted within the code repository. Having a separate config file makes it easy to update the config values without touching the actual code base.
+- Having separate file eliminates the need for re-deployment of your applications when you change certain values in your config files.
+- In other words, configs belong in the environment as variables, not in the application, you should be able to move it to another environment without having to touch the source code.
 
 ## How do I use dotenv?
 
