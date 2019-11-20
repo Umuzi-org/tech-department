@@ -4,33 +4,99 @@ pre: "<b>EASY: </b>"
 ready: true
 ---
 
-We'll build a calculator to do some basic arithmetic. Please follow the instructions below. Please take all the naming conventions in this document with a gran of salt. There are lots and lots of test frameworks in existence, each with its own conventions. Please follow whatever conventions are set out by the test tool that you are using.
+The objective of this project is to build a calulator that can perform multiplication and addition on multiple integers. Do not build a front-end (UI). Complete this project by using a TDD approach.
 
-Also, please don't build a frontend.
+The basic TDD approach is as follows:
 
-We'll follow a TDD approach. The basic approach is
+1. RED: Write tests. It should fail initially because there isn't any code that it is testing.
+2. GREEN: Write code to make the tests pass.
+3. REFACTOR: Make sure code is understandable and clean.
 
-1. RED: we will write ONE failing test
-2. GREEN: we will make sure our test (and all tests written so far) pass
-3. REFACTOR: if our code is untidy we will clean it up
-4. repeat all the steps until all the functionality we need has been built and tested
+Remember to make sure your tests still pass after refactoring it.
 
-## 1. Make a function that adds two numbers
+## Set up environment
 
-First write a test function. it can be called `test_function` or something similar. It needs to make sure that the `add` function works. (of course we haven't written `add` yet. We'll write our tests first).
+### JavaScript:
 
-- write a test to demonstrate that `add(0,0)` will return 0. Run the test. It should fail. Now make the test pass by creating an `add` function.
-- write a test to demonstrate that `add(-1,-1)` should return -2 then edit `add` to make your test pass
-- write a test to demonstrate that `add(4,5)` should return 9 then edit `add` to make the test pass
+Use Jasmine to test your code. _Please do not use the SpecRunner_ to test your code. Run Jasmine on the terminal.
 
-## 2. Make sure you can add as many numbers as you want
+- {{% contentlink "topics/jasmine-unit-tests" %}} . Look under the heading: _Getting set up (like a boss)_ for instructions to set up.
 
-Now write a test to make sure you can add a bunch of numbers. Eg `add(1,2,3,4)` should return 10. Think of the tests yourself
+After setting up Jasmine on the terminal, please ensure that your directory has the following:
 
-## 3. Create a multiply function that can multiply 2 numbers
+- A src folder that has a file called:
 
-`multiply(1,2)` and other similar combinations should work. Run with it
+  - simple-calculator.js <---- this is where you will implement all your functionality.
 
-## 4. Make sure multiply can handle multiple numbers
+- A spec folder that has a file called:
+  - simple-calculator-spec.js <---- this is where you will put your tests.
 
-`multiply(1,2,3,4)` should work
+Your directory structure should look like this:
+
+```
+>simple-calculator-part1
+    >node_modules    <---- make sure this is in your .gitignore
+    >spec
+        > support
+            -jasmine.json
+        - simple-calculator-spec.js.
+    >src
+        -simple-calculator.js
+    -package.json
+```
+
+## 1. Create an add function that can add two integers
+
+Create a function called `add` that works like this:
+
+```
+add(1,2)
+// should return 3
+add(-1,-1)
+// should return -2
+```
+
+## 2. Modify the add function so that it can add multiple integers.
+
+The `add` function should now behave like this:
+
+```
+add(1,2,3,4,5)
+// should return 15
+add(1,2)
+// should still return 3
+add(-1,-1)
+// should still return -2
+```
+
+Please note that your function should _NOT_ expect an array or list of numbers, for example:
+
+```
+add([1,2,3,4])
+```
+
+This is NOT what we are looking for. If you have square brackets inside your round brackets, you are doing it wrong. The same will apply for the multiply function you will build in the next section.
+
+## 3. Create a multiply function that can multiply two integers
+
+Create a function called `multiply` that works like this:
+
+```
+multiply(1,3)
+// should return 3
+multiply(-1,3)
+// should return -3
+```
+
+## 4. Modify the multiply function so that it can multiply multiple integers.
+
+The `multiply` function should now behave like this:
+
+```
+mutilply(1,2,3,4,5)
+// should return 120
+multiply(1,3)
+// should still return 3
+multiply(-1,3)
+// should still return -3
+```
