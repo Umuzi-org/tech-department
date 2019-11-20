@@ -4,7 +4,7 @@ pre: "<b>EASY: </b>"
 ready: true
 ---
 
-The objective of this project is to build a calulator that can perform multiplication and addition equations on multiple integers. Do not build a Front-end(UI). Complete this project by using a TDD approach. 
+The objective of this project is to build a calulator that can perform multiplication and addition on multiple integers. Do not build a front-end (UI). Complete this project by using a TDD approach.
 
 The basic TDD approach is as follows:
 
@@ -18,24 +18,25 @@ Remember to make sure your tests still pass after refactoring it.
 
 ### JavaScript:
 
-Use Jasmine to test your code. *Please do not use the SpecRunner* to test your code. Run Jasmine on the terminal.
-- {{% contentlink "topics/jasmine-unit-tests" %}} . Look under the heading: *Getting set up (like a boss)* for instructions to set up.
+Use Jasmine to test your code. _Please do not use the SpecRunner_ to test your code. Run Jasmine on the terminal.
+
+- {{% contentlink "topics/jasmine-unit-tests" %}} . Look under the heading: _Getting set up (like a boss)_ for instructions to set up.
 
 After setting up Jasmine on the terminal, please ensure that your directory has the following:
 
--  A src folder that has a file called: 
+- A src folder that has a file called:
 
-    - simple-calculator.js  <---- this is where you will implement all your functionality.
+  - simple-calculator.js <---- this is where you will implement all your functionality.
 
 - A spec folder that has a file called:
-    - simple-calculator-spec.js  <---- this is where you will put your tests.
+  - simple-calculator-spec.js <---- this is where you will put your tests.
 
 Your directory structure should look like this:
 
 ```
 >simple-calculator-part1
-    >node_modules
-    >spec   
+    >node_modules    <---- make sure this is in your .gitignore
+    >spec
         > support
             -jasmine.json
         - simple-calculator-spec.js.
@@ -67,11 +68,14 @@ add(1,2)
 add(-1,-1)
 // should still return -2
 ```
-Please note that your function should *NOT* expect an array or list of numbers, for example:
+
+Please note that your function should _NOT_ expect an array or list of numbers, for example:
+
 ```
-add([1,2,3,4])   
+add([1,2,3,4])
 ```
-This is NOT what we are looking for. If you have square brackets inside your round brackets, you are doing it wrong. The same will apply for the multiply function you will build in the next section. 
+
+This is NOT what we are looking for. If you have square brackets inside your round brackets, you are doing it wrong. The same will apply for the multiply function you will build in the next section.
 
 ## 3. Create a multiply function that can multiply two integers
 
