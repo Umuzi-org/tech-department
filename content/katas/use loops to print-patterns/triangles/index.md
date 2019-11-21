@@ -52,11 +52,15 @@ expected output: MIRROR OF RIGHT ANGLE TRIANGLE
 **3.**
 Write a function that takes in number as argument and draws a Hollow right angled triangle above using the " * " characters . If the input is 4, then the output is a traingle with height 4
 
-```
+```js
 //javascript
-
 function triangle(5) 
+```
 
+```py
+def trianlge(n):
+```
+```
 expected output => HOLLOW RIGHT ANGLE TRIANGLE AND FOR ITS MIRROR.      
 
 *
