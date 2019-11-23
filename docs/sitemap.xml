@@ -92,7 +92,43 @@
   </url>
   
   <url>
+    <loc>/tech-department/katas/use-loops-to-print-patterns/c-shape/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/katas/compound-interest/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/katas/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/katas/palindrome/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/katas/use-loops-to-print-patterns/pyramids/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/katas/use-loops-to-print-patterns/squares/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/katas/string-reverse/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/katas/string-rotate/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/katas/use-loops-to-print-patterns/triangles/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/katas/use-loops-to-print-patterns/</loc>
   </url>
   
   <url>
@@ -175,6 +211,14 @@
   <url>
     <loc>/tech-department/topics/apis/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/asserive-programming-tricks-for-pandas/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/basic-flow-control-katas-assertive/</loc>
   </url>
   
   <url>
@@ -316,12 +360,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/</loc>
+    <loc>/tech-department/projects/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/projects/data-science-specific/</loc>
+    <loc>/tech-department/topics/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
@@ -355,6 +399,10 @@
   
   <url>
     <loc>/tech-department/projects/data-science-specific/data-visualisation/linux-evolution/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/exception-handling/</loc>
   </url>
   
   <url>
@@ -519,6 +567,10 @@
   
   <url>
     <loc>/tech-department/workshops/node-and-sql/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/intro-to-asserive-programming/</loc>
   </url>
   
   <url>
@@ -733,6 +785,10 @@
   
   <url>
     <loc>/tech-department/projects/data-science-specific/statistical-thinking/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/unit-testing/tdd-horrors/</loc>
   </url>
   
   <url>
