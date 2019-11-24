@@ -7,7 +7,7 @@ When working with Java there are multiple ways to keep track the state of a syst
 
 In production applications it helps more to keep track of these errors in files that can be viewed even when the system is off. This is known as Logging.
 
-## Exceptions in Java
+## Logging in Java
 - [What is Logging?](https://www.baeldung.com/java-logging-intro)
 
 - [Console logging examples](https://examples.javacodegeeks.com/java-system-out-println-example/).
