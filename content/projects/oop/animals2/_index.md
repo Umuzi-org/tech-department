@@ -13,7 +13,6 @@ In this challenge you will update your current Animals project and add unit test
 2. Update `Animal` super class `eats()` function to return a String, "Food".
 3. Update `Dog` class `sounds()` function to return a a `String`, "Bark".
 4. Update `Cat` class `sounds()` function to return a a `String`, "Meow".
-5. in `AnimalTests` create a `DogSoundTest()` Method
 
 ```
 // Java
