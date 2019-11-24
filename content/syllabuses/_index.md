@@ -148,20 +148,23 @@ The recruits finish off their portfolios. From this point forward they are expec
 - DATA_SCI:
 
   - {{% contentlink "projects/data-science-specific/data-visualisation" %}}
+  - {{% contentlink "topics/intro-to-asserive-programming" %}}
+  - {{% contentlink "projects/basic-flow-control-katas-assertive" %}} do this in pairs
+  - {{% contentlink "topics/asserive-programming-tricks-for-pandas" %}}
 
-- DATA_ENG:
+* DATA_ENG:
   Get as far as possible with the following exercises. We'll continue later
 
   - {{% contentlink "topics/unit-testing" %}}
   - {{% contentlink "topics/python-specific/automated-testing-with-pytest" %}}
   - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
 
-* WEB_DEV:
+- WEB_DEV:
   - {{% contentlink "topics/unit-testing" %}}
   - {{% contentlink "workshops/intro-to-unit-testing-with-jasmine" %}}
   - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
 
-- JAVA:
+* JAVA:
   - {{% contentlink "workshops/java-specific/basic-intro-to-oop" %}}
   - {{% contentlink "topics/java-specific/oop-basics"%}}
   - {{% contentlink "projects/oop/person" %}} do this in pairs

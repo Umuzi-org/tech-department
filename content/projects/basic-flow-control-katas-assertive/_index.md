@@ -1,0 +1,3 @@
+---
+title: Assertive programming katas
+---
