@@ -53,7 +53,7 @@
 	"title": "Syllabus",
 	"tags": [],
 	"description": "",
-	"content": " We support a few different technical learning paths. Data Science, Data Engineering and Web Dev. What follows below is a week-by-week breakdown of these courses. This is all on one page because our various courses have enough in common that it makes sense to keep then synchronized.\nA note on Umuzi’s formal qualification and accreditation Umuzi is a registered training provider with MICT SETA. Our National Certificate IT (Systems Development) (NCIT) qualification is a learnership requirement (i.e. Umuzi’s employer partners can therefore recognize their training and stipend spend as part of their skills development budgets). We work hard to both meet the National Certificate requirements and deliver a practical and relevant learning experience (which are not always well aligned) however, we firmly believe the most important part is the practical application of learning rather than merely meeting the unit standard requirements. Below we refer to the formal NCIT requirements e.g. NCIT01: Business and technology.\nTerminology This is a living document and there are a few things that need to be fleshed out:\n as far as possible each bullet point that describes a piece of our syllabus should be marked as a WORKSHOP, TOPIC or PROJECT. Or exercise??\n WORKSHOP == instructor led event. TOPIC == self study material PROJECT == you know  we need to make sure all the NCIT requirements have been dealt with before hitting the summative assessment\n the syllabus is really long. There is a lot to cover so that has effects on Product teams. There are decisions to be made there.\n  Week -1: Bootcamp This is the final step of our interview process. If applicants get through the bootcamp then they are accepted as Umuzi recruits and go on with the rest of the program.\nWe start off by introducing the applicants to the development environment and resources that they\u0026rsquo;ll be using. Then they get to work.\n WEB_DEV:  Use FreeCodeCamp. Start off with JavaScript Algorithms And Data Structures Certification (300 hours) JS challenges are given  DATA_SCI:   PROJECTS: Introduction to Jupyter Notebooks  DataCamp intro to Python  DATA_ENG:  Introduction to Python (resource to be selected) https://www.datacamp.com/courses/intro-to-python-for-data-science/?utm_source=learnpython_com\u0026amp;utm_campaign=learnpython_tutorials# https://www.learnpython.org/ Python coding challenges given   Week 0: Make Umuzi Better A recruit’s journey starts with a one week programme called #MakeUmuziBetter. Recruits from all departments form small cross-functional teams to tackle issues at Umuzi\u0026ndash;anything from mental health to kitchen norms to the physical layout of our space. To accomplish this, they learn about and execute Human-Centered Design, a technique used throughout their time at Umuzi. Each team maps out user journeys, conducts interviews and surveys, designs a prototype of their solution, and presents it to the staff and external guests.\nNCIT assessments We get a few NCIT assessments out of the way during MUB.\n NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  Week 1: Linux and soft skills In this week, everyone gets to know their way around linux.\n ALL:  Department ice-breaker  DEPARTMENT-PROCESSES: What You Need To Know (as a recruit)   WORKSHOPS: How to be a professional  Introduction to NCIT curriculum  WORKSHOPS: Introduction to Linux: Live demo   TOPICS: Introduction to Linux   PROJECTS: Beginner Linux challenges   TOPICS: Introduction to Bash and the terminal    Week 2: Git and personal portfolio Recruits learn a bit about how to build an online presence. Recruits submit their work using Git from the very beginning of their course.\n ALL:\n  TOPICS: Git Basics  Q\u0026amp;A Git basics  PROJECTS: Git Basic Exercises   WORKSHOPS: Intro to CSS architecture   WORKSHOPS: What to Put On A CV   PROJECTS: Build your first personal website - Introduction  TOPICS: [TODO] Clean Code  NCIT 04: Version control (GIT) for teamwork  JAVA:\n  TOPICS: Java Dev environment setup   TOPICS: Java learning materials   WEB_DEV:\n  TOPICS: Web Dev learning materials   DATA_ENG:\n  TOPICS: Python self-learning    Week 3: Finish portfolio project The recruits finish off their portfolios. From this point forward they are expected to keep their portfolios up to date on their own time.\n ALL:\n  WORKSHOPS: Clean Code (language agnostic)   PROJECTS: Build your first personal website - Deadline  WEB_DEV:\n  TOPICS: Introduction to web design   Java:\n NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT   Week 4:   TOPICS: How to ask for help with your code  WEB_DEV:\n  WORKSHOPS: [TODO] Live code: introduction to JS   PROJECTS: Level 1 programming katas do this in pairs  DATA_ENG:\n  PROJECTS: Level 1 programming katas do this in pairs  WORKSHOPS: [TODO] Live code python intro   DATA_SCI:\n  WORKSHOPS: Survey design   WORKSHOPS: Google forms like a boss   PROJECTS: Level 1 programming katas do this in pairs  JAVA:\n carry over any NCIT tasks from previous week  TOPICS: Introduction to Gradle   WORKSHOPS: Live coding: Introduction to Java Monday or Tuesday Recruits should be familiar with basic flow control, if, else, loops. It may be necessary to have another workshop on this  PROJECTS: Level 1 programming katas do this in pairs, they should use Gradle   Week 5: Some specific skills  ALL:\n  WORKSHOPS: [TODO] Big Picture of Web Dev   DATA_SCI:\n  PROJECTS: Data Visualisation Projects   TOPICS: [TODO] Introduction to assertive programming   PROJECTS: [TODO] Assertive programming katas do this in pairs  TOPICS: [TODO] Assertive programming and Pandas   DATA_ENG: Get as far as possible with the following exercises. We\u0026rsquo;ll continue later\n  TOPICS: Unit testing (language agnostic concepts)   TOPICS: Automated Testing in Python   PROJECTS: simple-calculator part 1   WEB_DEV:\n  TOPICS: Unit testing (language agnostic concepts)   WORKSHOPS: Unit testing Introduction   PROJECTS: simple-calculator part 1   JAVA:\n  WORKSHOPS: [TODO] Basic intro to oop with IntelliJ   TOPICS: Java OOP basics resources and readings   PROJECTS: Person do this in pairs  PROJECTS: Animals! individual. Due towards the end of the week NCIT 08: Pseudocode and documentation NCIT 13: Object-oriented programming workshop: oop Q\u0026amp;A might be needed   Week 6: The Internet and Ethics in tech  ALL:\n  TOPICS: How the internet works   TOPICS: Data Ethics and Privacy   DATA_SCI:\n  WORKSHOPS: Data Ethics   TOPICS: Unit testing (language agnostic concepts)   TOPICS: Automated Testing in Python   PROJECTS: simple-calculator part 1   DATA_ENG:\n  PROJECTS: password-checker   WEB_DEV:\n  PROJECTS: password-checker   NCIT 05: History of the Internet\n NCIT 06: Web design for business\n NCIT 07: Building an online business\n NCIT 08: Pseudocode and documentation\n  Week 7: Tech in Business and Honing fundamental skills  ALL:\n NCIT 09: Ethics and Professionalism in IT NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 11: Test-driven development  DATA_ENG:\n  PROJECTS: string-calculator   DATA_SCI:\n  PROJECTS: password-checker   WEB_DEV\n  PROJECTS: string-calculator    Week 8:  DATA_SCI:\n  PROJECTS: string-calculator   TOPICS: Automated Testing pandas and numpy   DATA_ENG:\n  TOPICS: Intro OOP(Object-oriented Programming) for Python   PROJECTS: Person   WEB_DEV:\n  PROJECTS: Person    Week 9:  DATA_SCI\n  PROJECTS: string-calculator   DATA_ENG\n  PROJECTS: simple-calculator part 2   WEB_DEV:\n  PROJECTS: simple-calculator part 2    Week 10:  ALL\n  TOPICS: [TODO] The terminology of the tech landscape  NCIT 12: Business and technology  DATA_SCI:\n  PROJECTS: Data Wrangling   TOPICS: Intro to functional programming   DATA_ENG:\n  TOPICS: [TODO] Introduction to APIs   PROJECTS: expose a simple JSON rest api INTRODUCED  WEB_DEV:\n  TOPICS: DOM manipulation with vanilla JavaScript   PROJECTS: Memory game in vanilla js INTRODUCED   Week 11  WEB_DEV:\n  PROJECTS: Memory game in vanilla js DUE  DATA_SCI:\n  PROJECTS: Statistical Thinking INTRODUCED  DATA_ENG:\n  PROJECTS: expose a simple JSON rest api DUE   WEEK 12:  DATA_SCI:\n  PROJECTS: Statistical Thinking DUE  DATA_ENG\n  PROJECTS: [MISSING title or page]  WEB_DEV\n  PROJECTS: [MISSING title or page]   Week 13 \u0026amp; 14: OOP  NCIT 13: Object-oriented programming\n DATA_SCI\n  TOPICS: Intro OOP(Object-oriented Programming) for Python   PROJECTS: Person   PROJECTS: [MISSING title or page]  PROJECTS: [TODO] OOP for data science   DATA_ENG\n WEB_DEV\n  WORKSHOPS: Node   PROJECTS: Nodejs Challenges   TOPICS: Introduction to Node   PROJECTS: Node \u0026amp; mongoDB assignment INTRO   Week 15: ALL:\n  TOPICS: Intro to Docker and Docker-compose   ALL_DATA:\n  TOPICS: [TODO] Virtual Environments   DATE_ENG:\n  TOPICS: Environmental Variables   WEB_DEV:\n  TOPICS: Environmental Variables   TOPICS: [TODO] The dotenv module   PROJECTS: Express, forms and templates   Week 16 \u0026amp; 17: Introduction to SQL All recruits will do this\n  WORKSHOPS: [TODO] Introduction to Node and SQL   TOPICS: SQL and Python   TOPICS: Data validation and quality control   PROJECTS: SQL  NCIT 14: Database Development  Week 18 \u0026amp; 19  NCIT 15: Analytics, Surveys, and Reports / Input \u0026amp; Output\n DATA_SCI:\n  TOPICS: Web scraping with Python   PROJECTS: Dashboard Assignment   DATA_ENG:\n  PROJECTS: [TODO] create a REST api to interact with actual database   WEB_DEV:\n  PROJECTS: Expose a JSON API    Week 20: NCIT bits and pieces  WEB_DEV:\n  PROJECTS: Add a little Ajax   ALL:\n  TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum   TOPICS: optimizations and big-O   NCIT 16: Thinking like a machine / Boolean algebra, logic\n NCIT 17: Search and sort techniques\n NCIT 18: Agile project management\n NCIT 19: Agile meetings\n NCIT 20: Managing the Software Development Process\n  Week 21: NCIT bits and pieces MUB must happen before this point.\nALL:\n NCIT Summative assessment  Week 22:  DATA_SCI:   PROJECTS: Cross-validation \u0026amp; Simple Linear Regression   DATA_ENG:   TOPICS: MongoDB and Python   WEB_DEV:   TOPICS: MongoDB and JavaScript   ALL:   TOPICS: [TODO] Database Comparison    Week 23  DATA_SCI:   PROJECTS: Multivariate Linear Regression   DATA_ENG:   TOPICS: [TODO] DAGs with Airflow   WEB_DEV: select one of the following:   TOPICS: Intro to Angular   TOPICS: Intro to React   TOPICS: [TODO] Intro to Vue    Week 24  DATA_SCI:   PROJECTS: Decision Trees   WEB_DEV:  continue with frontend web framework  DATA_ENG:   PROJECTS: [TODO] consuming APIs with the requests module   TOPICS: [TODO] Introduction to GraphQL    Week 25  DATA_SCI:   PROJECTS: Logistic regression   DATA_ENG:   PROJECTS: Django - exposing a REST api with a real database   WEB_DEV:   WORKSHOPS: [TODO] Nodejs intro to socketIO   WORKSHOPS: [TODO] Node Sync/Async   WORKSHOPS: [TODO] Basic introduction to Redux    Week 26  DATA_SCI:\n  PROJECTS: K-Means Clustering   DATA_ENG:\n  TOPICS: [TODO] ZeroMQ versus RabbitMQ versus Kafka   PROJECTS: [TODO] Distributed workloads with ZeroMQ   ALL:\n  WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap    "
+	"content": " We support a few different technical learning paths. Data Science, Data Engineering, Web Dev, and Java sys dev. What follows below is a week-by-week breakdown of these courses. This is all on one page because our various courses have enough in common that it makes sense to keep them synchronized.\nA note on Umuzi’s formal qualification and accreditation Umuzi is a registered training provider with MICT SETA. Our National Certificate IT (Systems Development) (NCIT) qualification is a learnership requirement (i.e. Umuzi’s employer partners can therefore recognize their training and stipend spend as part of their skills development budgets). We work hard to both meet the National Certificate requirements and deliver a practical and relevant learning experience (which are not always well aligned) however, we firmly believe the most important part is the practical application of learning rather than merely meeting the unit standard requirements. Below we refer to the formal NCIT requirements e.g. NCIT01: Business and technology.\nTerminology This is a living document and there are a few things that need to be fleshed out:\n as far as possible each bullet point that describes a piece of our syllabus should be marked as a WORKSHOP, TOPIC or PROJECT. Or exercise??\n WORKSHOP == instructor led event. TOPIC == self study material PROJECT == you know  we need to make sure all the NCIT requirements have been dealt with before hitting the summative assessment\n the syllabus is really long. There is a lot to cover so that has effects on Product teams. There are decisions to be made there.\n  Week -1: Bootcamp This is the final step of our selection process. If applicants get through the bootcamp then they are accepted as Umuzi recruits and go on with the rest of the program.\nWe start off by introducing the applicants to the development environment and resources that they\u0026rsquo;ll be using. They are given various group an individual challenges throughout the week.\nWeek 0: Make Umuzi Better A recruit’s journey starts with a one week programme called #MakeUmuziBetter. Recruits from all departments form small cross-functional teams to tackle issues at Umuzi - anything from mental health to kitchen norms to the physical layout of our space. To accomplish this, they learn about and execute Human-Centered Design, a technique used throughout their time at Umuzi. Each team maps out user journeys, conducts interviews and surveys, designs a prototype of their solution, and presents it to the staff and external guests.\nNCIT assessments We get a few NCIT assessments out of the way during MUB.\n NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  Week 1: Linux and soft skills In this week, everyone gets to know their way around linux.\n ALL:\n Department ice-breaker  DEPARTMENT-PROCESSES: What You Need To Know (as a recruit)   WORKSHOPS: How to be a professional  Introduction to NCIT curriculum  WORKSHOPS: Introduction to Linux: Live demo   TOPICS: Introduction to Linux   PROJECTS: Beginner Linux challenges   TOPICS: Introduction to Bash and the terminal    Everyone is also given links to resources so that they can start reading ahead.\n JAVA:\n  TOPICS: Java Dev environment setup   TOPICS: Java learning materials   WEB_DEV:\n  TOPICS: Web Dev learning materials   DATA_ENG:\n  TOPICS: Python self-learning   DATA_SCI: please take note, you don\u0026rsquo;t need to go as deep into coding as others. But it is good to know your way around\n  TOPICS: Python self-learning    Week 2: Git and personal portfolio Recruits learn a bit about how to build an online presence. Recruits submit their work using Git from the very beginning of their course.\n ALL:\n  TOPICS: Git Basics  Q\u0026amp;A Git basics  PROJECTS: Git Basic Exercises   WORKSHOPS: What to Put On A CV   PROJECTS: Build your first personal website - Introduction  TOPICS: Clean Code  NCIT 04: Version control (GIT) for teamwork  WEB_DEV:\n  WORKSHOPS: Intro to CSS architecture   TOPICS: Introduction to web design    Week 3: Finish portfolio project The recruits finish off their portfolios. From this point forward they are expected to keep their portfolios up to date on their own time.\n ALL:\n  WORKSHOPS: [TODO] Big Picture of Web Dev   PROJECTS: Build your first personal website - Deadline NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)    Week 4:   TOPICS: How to ask for help with your code  WEB_DEV:\n  TOPICS: [TODO] Super basic intro to Node  WORKSHOP: Live code. Super basic intro to node  PROJECTS: Level 1 programming katas do this in pairs  DATA_ENG:\n  PROJECTS: Level 1 programming katas do this in pairs  WORKSHOPS: [TODO] Basic Intro to OOP   TOPICS: [TODO] Python OOP basics   PROJECTS: Person do this in pairs  PROJECTS: Animals Part 1. OOP basics individual. Due towards the end of the week  DATA_SCI:\n  WORKSHOPS: Survey design   WORKSHOPS: Google forms like a boss   PROJECTS: Level 1 programming katas do this in pairs  JAVA:\n carry over any NCIT tasks from previous week  TOPICS: Introduction to Gradle   WORKSHOPS: Live coding: Introduction to Java Monday or Tuesday Recruits should be familiar with basic flow control, if, else, loops. It may be necessary to have another workshop on this  PROJECTS: Level 1 programming katas do this in pairs, they should use Gradle   Week 5: Some specific skills  DATA_SCI:\n  PROJECTS: Data Visualisation Projects   TOPICS: [TODO] Introduction to assertive programming   PROJECTS: [TODO] Assertive programming katas do this in pairs  TOPICS: [TODO] Assertive programming and Pandas   DATA_ENG:\n  TOPICS: [TODO] Introduction to assertive programming   PROJECTS: [TODO] Assertive programming katas   TOPICS: Unit testing (language agnostic concepts)   PROJECTS: [TODO] Animals Part 2. Adding Tests : add some tests to existing code  TOPICS: [TODO] Test Driven Development   TOPICS: Automated Testing in Python   PROJECTS: simple-calculator part 1   WEB_DEV:\n  WORKSHOPS: [TODO] OOP in JS   TOPICS: [TODO] OOP in JS and Node   PROJECTS: Person do this in pairs  PROJECTS: Animals Part 1. OOP basics individual. Due towards the end of the week  JAVA:\n  WORKSHOPS: [TODO] Basic intro to oop with IntelliJ   TOPICS: Java OOP basics resources and readings   TOPICS: [TODO] Java access modifiers   PROJECTS: Person do this in pairs  PROJECTS: Animals Part 1. OOP basics individual. Due towards the end of the week NCIT 08: Pseudocode and documentation NCIT 13: Object-oriented programming workshop: oop Q\u0026amp;A might be needed   Week 6  ALL:\n  TOPICS: How the internet works   TOPICS: Data Ethics and Privacy   DATA_SCI:\n  WORKSHOPS: Data Ethics   TOPICS: Unit testing (language agnostic concepts)   TOPICS: Automated Testing in Python   PROJECTS: simple-calculator part 1   DATA_ENG:\n  PROJECTS: password-checker  logging with python add logging to password checker  WEB_DEV:\n  TOPICS: [TODO] Introduction to assertive programming   PROJECTS: [TODO] Assertive programming katas   TOPICS: Unit testing (language agnostic concepts)   PROJECTS: [TODO] Animals Part 2. Adding Tests : add some tests to existing code  TOPICS: [TODO] Test Driven Development   WORKSHOPS: Unit testing Introduction   PROJECTS: simple-calculator part 1   JAVA:\n  TOPICS: [TODO] Introduction to assertive programming   PROJECTS: [TODO] Assertive programming katas   TOPICS: Unit testing (language agnostic concepts)   TOPICS: [TODO] Intro to JUnit  LIVE CODE WORKSHOP: demonstrate unit tests with intelliJ and JUnit.  PROJECTS: [TODO] Animals Part 2. Adding Tests : add some tests to existing code  TOPICS: [TODO] Test Driven Development   PROJECTS: simple-calculator part 1   TOPICS: Exception Handling   NCIT 05: History of the Internet\n NCIT 06: Web design for business\n NCIT 07: Building an online business\n NCIT 08: Pseudocode and documentation\n  Week 7  ALL:\n NCIT 09: Ethics and Professionalism in IT NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 11: Test-driven development  DATA_SCI:\n  PROJECTS: password-checker   DATA_ENG:\n  PROJECTS: string-calculator   WEB_DEV:\n  PROJECTS: password-checker   TOPICS: [TODO] Logging in Node and JS  add logging to password checker  JAVA:\n LIVE CODE WORKSHOP: Error Handling  PROJECTS: password-checker   TOPICS: [TODO] Java Logging with Log4j   PROJECTS: [TODO] Add logging to password checker   TOPICS: [TODO] Java File IO    Week 8:  DATA_SCI:\n  PROJECTS: string-calculator   TOPICS: Automated Testing pandas and numpy   Java:\n  PROJECTS: [TODO] File IO \u0026#43; Logging \u0026#43; Errors   TOPICS: [TODO] Strings and numbers in Java   DATA_ENG:\n  TOPICS: [TODO] Unit testing with mocks and spies   PROJECTS: [TODO] Unit test mocks and spies kata   TOPICS: API basics   PROJECTS: [TODO] Consume Github API - INTRODUCED  WEB_DEV\n  PROJECTS: string-calculator    Week 9:  DATA_SCI\n  PROJECTS: string-calculator   DATA_ENG\n  PROJECTS: [TODO] Consume Github API - DUE  TOPICS: Environmental Variables   TOPICS: [TODO] Virtual Environments   WEB_DEV:\n  TOPICS: [TODO] Unit testing with mocks and spies   PROJECTS: [TODO] Unit test mocks and spies kata   TOPICS: API basics   PROJECTS: [TODO] Consume Github API - INTRODUCED  JAVA\n  PROJECTS: string-calculator    Week 10:  ALL\n  TOPICS: [TODO] The terminology of the tech landscape  NCIT 12: Business and technology  DATA_SCI:\n  PROJECTS: Data Wrangling   TOPICS: Intro to functional programming   DATA_ENG:\n  TOPICS: Intro to Docker and Docker-compose   PROJECTS: SQL   WEB_DEV:\n  PROJECTS: [TODO] Consume Github API - DUE  TOPICS: DOM manipulation with vanilla JavaScript   PROJECTS: Memory game in vanilla js INTRODUCED   Week 11  DATA_ENG\n  TOPICS: [TODO] Sqlalchemy   PROJECTS: [TODO] create a REST api to interact with actual database   DATA_SCI:\n  PROJECTS: Statistical Thinking INTRODUCED  WEB_DEV:\n  PROJECTS: Memory game in vanilla js DUE   WEEK 12:  DATA_SCI:\n  PROJECTS: Statistical Thinking DUE  WEB_DEV\n  WORKSHOPS: Node advanced  TOPICS: Introduction to Node   PROJECTS: Node \u0026amp; File IO   DATA_ENG:\n  TOPICS: [TODO] Sqlalchemy migrations with Alembic   PROJECTS: [TODO] Database migrations with SQLAlchemy - INTRODUCTION   Week 13  NCIT 13: Object-oriented programming\n DATA_SCI\n  TOPICS: Intro OOP(Object-oriented Programming) for Python   PROJECTS: Person   PROJECTS: Animals Part 1. OOP basics   PROJECTS: [TODO] OOP for data science   DATA_ENG\n  TOPICS: [TODO] Database Comparison   TOPICS: MongoDB and Python   TOPICS: optimizations and big-O   PROJECTS: [TODO] Python and MongoDB - DUE  WEB_DEV:\n  TOPICS: Intro to Docker and Docker-compose   PROJECTS: SQL - INTRODUCTION  WORKSHOPS: [TODO] Introduction to Node and SQL    Week 14  DATA_ENG\n  TOPICS: [TODO] Sqlalchemy migrations with Alembic   PROJECTS: [TODO] Database migrations with SQLAlchemy - DUE  TOPICS: [TODO] Database Comparison   TOPICS: MongoDB and Python   PROJECTS: [TODO] Python and MongoDB - INTRODUCTION  WEB_DEV:\n  PROJECTS: SQL - DUE  WORKSHOPS: [TODO] Introduction to Node and SQL    Week 15  DATA_ENG:\n  TOPICS: [TODO] DAGs with Airflow   PROJECTS: [TODO] DAGs with Airflow - INTRODUCED  DATA_SCI:\n  TOPICS: Intro to Docker and Docker-compose   TOPICS: [TODO] Virtual Environments   WEB_DEV:\n  TOPICS: Environmental Variables   TOPICS: [TODO] The dotenv module   PROJECTS: Node \u0026amp; SQL assignment    Week 16  DATA_ENG:\n  PROJECTS: [TODO] DAGs with Airflow - DUE  DATA_SCI:\n  TOPICS: SQL and Python   WEB_DEV:\n  PROJECTS: Express, forms and templates    ALL:\n  TOPICS: Data validation and quality control  NCIT 14: Database Development  Week 17  WEB_DEV:\n  PROJECTS: Expose a JSON API   DATA_ENG:\n  TOPICS: [TODO] Python and Kafka   PROJECTS: [TODO] Python and Kafka - INTRODUCTION\nWeek 18  NCIT 15: Analytics, Surveys, and Reports / Input \u0026amp; Output\n DATA_SCI:\n  TOPICS: Web scraping with Python   PROJECTS: Dashboard Assignment   WEB_DEV:\n  PROJECTS: Add a little Ajax   DATA_ENG:\n  PROJECTS: [TODO] Python and Kafka - DUE  TOPICS: [TODO] ZeroMQ versus RabbitMQ versus Kafka    Week 19  WEB_DEV:\n  TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum   TOPICS: optimizations and big-O   DATA_ENG:\n  PROJECTS: [TODO] Python and Spark - INTRODUCED  TOPICS: [TODO] Python and Spark    Week 20  ALL:\n  TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum   TOPICS: optimizations and big-O   NCIT 16: Thinking like a machine / Boolean algebra, logic\n NCIT 17: Search and sort techniques\n NCIT 18: Agile project management\n NCIT 19: Agile meetings\n NCIT 20: Managing the Software Development Process\n  Week 21: NCIT bits and pieces MUB must happen before this point.\n DATA_ENG:   PROJECTS: [TODO] Python and Spark - DUE   ALL:\n NCIT Summative assessment  Week 22:  DATA_SCI:\n  PROJECTS: Cross-validation \u0026amp; Simple Linear Regression   ALL:\n  TOPICS: [TODO] Database Comparison    Week 23  DATA_SCI:   PROJECTS: Multivariate Linear Regression    Week 24  DATA_SCI:   PROJECTS: Decision Trees    Week 25  DATA_SCI:   PROJECTS: Logistic regression    Week 26  DATA_SCI:\n  PROJECTS: K-Means Clustering   ALL:\n  WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap    Optional Extras If recruits want/need to go a little further with their learning then here are a few useful resources.\n WEB_DEV:\n  TOPICS: Intro to Angular   TOPICS: Intro to React   TOPICS: [TODO] Intro to Vue   WORKSHOPS: [TODO] Nodejs intro to socketIO   WORKSHOPS: [TODO] Basic introduction to Redux   WORKSHOPS: [TODO] Node Sync/Async   TOPICS: MongoDB and JavaScript   DATA_ENG:\n postgres stored procedures sql index optimisations Entity Relationship Diagrams (ERD) Data warehousing with Hive Overview of the Hadoop ecosystem Linear regressions   Optional Projects The projects listed below are not necessary but could be used to re-enforce certain learnings\n  PROJECTS: Semitone Challenge   "
 },
 {
 	"uri": "/tech-department/projects/semitone-challenge/basic-algorithm/",
@@ -301,6 +301,13 @@
 	"content": " Build a restful API with node  "
 },
 {
+	"uri": "/tech-department/projects/tdd/password-checker/part2/",
+	"title": "Add logging to password checker",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "/tech-department/projects/linux/advanced/",
 	"title": "Advanced Linux challenges",
 	"tags": [],
@@ -323,10 +330,24 @@
 },
 {
 	"uri": "/tech-department/projects/oop/animals/",
-	"title": "Animals!",
+	"title": "Animals",
+	"tags": [],
+	"description": "",
+	"content": "  PROJECTS: Animals Part 1. OOP basics   PROJECTS: [TODO] Animals Part 2. Adding Tests   "
+},
+{
+	"uri": "/tech-department/projects/oop/animals/part1/",
+	"title": "Animals Part 1. OOP basics",
 	"tags": [],
 	"description": "",
 	"content": " This Challenge should test 3 topics from your OOP knowledge\n Encapsulation Inheritance Polymophism Composition  In this challenge you will create 3 classes\n Super class called Animal Dog and Cat class which both extends Animal class (a dog is an animal and a cat is an animal) Dog and Cat class should only have 1 function, which is their own implementation of the sound() function. This is polymorphism a Home class. But we\u0026rsquo;ll talk about that later\u0026hellip;  // Java Dog dog = new Dog() dog.eat() // -\u0026gt; 'Rax eats' dog.sounds() // -\u0026gt; 'Dog barks' Cat cat = new Cat() cat.eat() // -\u0026gt; 'Stormy eats' cat.sounds() // -\u0026gt; 'Cat meows'  Now let\u0026rsquo;s add composition. Make a new class called Home. Lots of people have dogs and cats in their homes. Home should have a function called adoptPet that takes any Animal as an input. The new pet should be stored in the Home object in an array/list. The Home object should also have a function called makeAllSounds. It should work like this:\n// Java Home home = new Home() Dog dog1 = new Dog() Dog dog2 = new Dog() Cat cat = new Cat() home.makeAllSounds() // this doesn't do anything home.adoptPet(dog1) home.makeAllSounds() // this prints: // Dog barks home.adoptPet(cat) home.makeAllSounds() // this prints: // Dog barks // Cat meows home.adoptPet(dog2) home.makeAllSounds() // this prints: // Dog barks // Cat meows // Dog barks  Up for a Challenge? This section is not compulsory. If you do this we\u0026rsquo;ll think you\u0026rsquo;re cool.\nAdd some functionality to adoptPet so that an error/exception gets raised if you try to adoptThe same pet twice\neg:\nhome.adoptPet(dog1) // totally ok home.adoptPet(dog1) // not ok at all  "
+},
+{
+	"uri": "/tech-department/projects/oop/animals/part2/",
+	"title": "Animals Part 2. Adding Tests",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "/tech-department/topics/apis/",
@@ -369,6 +390,13 @@
 	"tags": [],
 	"description": "",
 	"content": " As usual: TDD please\npart 1: Bank Account A Bank Account has a balance, an interest rate and a monthly fee.\nFor example if a person has an interest rate of 12% (which is totally unrealistic but make the numbers easier) and they have R1000 in their bank account then they will receive (R1000 x 12% / 12) after one month of saving. That means they earned R10 in interest. Now if their monthly fee on that account is R50 then their final balance after 1 month is R1000+R10-R50 = R960.\n Create a class called BankAccount. it should be constructed with the necessary parameters described above. add a function to your bank account class called finishMonth(js) or finish_month(python). This function should update the balance accordingly The balance of a bank account can also change if a deposit or withdrawal is made. Create a function called deposit and another one called withdraw  part 2: Bank Create a class called Bank. A Bank contains many bank accounts. A bank associates each bank account with a 10 digit number known as a bank account number. In OOP, this is called encapsulation.\nCreate the following functions on your Bank class:\nJavaScript:\n withdraw(bankAccountNumber,amount) deposit(bankAccountNumber,amount) transfer(fromBankAccountNumber,toBankAccountNumber, amount)  Python:\n withdraw(bank_account_number,amount) deposit(bank_account_number,amount) transfer(from_bank_account_number,to_bank_account_number, amount)  Part 3: Customers This part is a little bit advanced. Stop and think before you write any code. Have a plan. Maybe even draw a picture of your plan\nCreate a class called Customer. A customer can be associated with multiple bank accounts. Each customer also has a secret password. The customer should be able to update their password through use of a setPassword(js) or set_password(python) function.\nWhenever money is taken out of a bank account then the relevent customer\u0026rsquo;s secret password must be checked. You don\u0026rsquo;t need a special password when depositing money.\nUpdate your Bank functions to be like this:\nJavaScript:\n withdraw(bankAccountNumber,amount,secretPassword) deposit(bankAccountNumber,amount) transfer(fromBankAccountNumber,toBankAccountNumber,amount,secretPassword)  Python:\n withdraw(bank_account_number,amount,secret_password) deposit(bank_account_number,amount) transfer(from_bank_account_number,to_bank_account_number,amount,secret_password)  If a password is required and the wrong one is provided then raise an error that says wrong password.\nFor now just keep it simple. Just store Customer\u0026rsquo;s passwords in plain text in a variable on the appropriate object. Of course in real life, password managment and storage is kinda tricky. Here\u0026rsquo;s a nice article from Mozilla that will give you some background on how to do it the right way.\n"
+},
+{
+	"uri": "/tech-department/workshops/python-specific/basic-intro-to-oop/",
+	"title": "Basic Intro to OOP",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "/tech-department/workshops/java-specific/basic-intro-to-oop/",
@@ -417,7 +445,7 @@
 	"title": "Clean Code",
 	"tags": [],
 	"description": "",
-	"content": " TOPICS: Clean Code for Data Science TOPICS: Clean Code For JavaScript TOPICS: Clean Code for Java "
+	"content": "Watch this: Clean Code: Fundamentals, Episode 1. Clean Code by Uncle Bob (Robert C. Martin) . He literally wrote the book on clean code (and it\u0026rsquo;s a very good book). The guy is a legend.\n  TOPICS: Clean Code for Data Science   TOPICS: Clean Code For JavaScript   TOPICS: Clean Code for Java   "
 },
 {
 	"uri": "/tech-department/workshops/clean-code/",
@@ -483,6 +511,13 @@
 	"content": " Standups happen first thing in the morning. These will usually be run by junior facilitators\nBefore standup, the facilitator will  check the calenders and make sure they are familiar with upcoming events and deadlines check slack in case there are any important messages that should be conveyed to their groups. Eg: \u0026ldquo;only half the C23Zs have submitted their rocket-surgery assignments\u0026rdquo;  During standup, the facilitator will  attendance will be checked if anyone has missed a deadline then they will be verbally warned  "
 },
 {
+	"uri": "/tech-department/projects/github-api-consume/",
+	"title": "Consume Github API",
+	"tags": [],
+	"description": "",
+	"content": " In this project you\u0026rsquo;ll make use of Github\u0026rsquo;s awesome API. We chose Github for this project because\n you are already familiar with it it has a nice frontend so you can access te api and see the results. This means you can play and experiment the api is solidly built and a lot of people use it  Instructions First, get familar with consuming apis from the command line:\n TODO  Once that is done then follow the instructions in your language of choice:\n Java Node Python  Resources  An introduction to curl using GitHub\u0026rsquo;s API.\n Github API official docs\n  "
+},
+{
 	"uri": "/tech-department/contact-us/",
 	"title": "Contact",
 	"tags": [],
@@ -502,6 +537,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Key topics  Simple linear regression Residuals Overfitting and underfitting Cross-validation Root Mean Square Error  Background materials Regression  Introduction to Linear Regression Simple and Multiple Linear Regression in Python Crash Course Statistics: Regression Khan Academy Engageny Algebra Topic D, Lessons 14 – 18 (Modelling relationships with a line \u0026amp; Residuals)  Overfitting and underfitting  Coursera Video  Test/ training splits and cross-validation  Test/Train Splits and Crossvalidation in Python Tutorial Google ML Training and Test Sets Video  Assignment We will predict employee salaries from different employee characteristics (or features). We are going to use a simple supervised learning technique: linear regression. We want to build a simple model to determine how well Years Worked predicts an employee’s salary. Import the data salary.csv to a Jupyter Notebook. A description of the variables is given in Salary Metadata. You will need the packages matplotlib, pandas and statsmodels.\nSteps and questions  Split your data into a training and test set. Leave the test set for now. Examine the training data for missing and extreme values. Create histograms to show the distribution of the variables and a scatterplot showing the relationship between Years Worked and Salary. Are the data appropriate for linear regression? Is there anything that needs to be transformed or edited first?\n Using the statsmodels package and the training data, run a simple linear regression for Salary with one predictor variable: Years Worked.\n Does the model significantly predict the dependent variable? Report the amount of variance explained (R^2) and significance value (p) to support your answer. What percentage of the variance in employees’ salaries is accounted for by the number of years they have worked?  What does the unstandardized coefficient (B or \u0026lsquo;coef\u0026rsquo; in statsmodels) tell you about the relationship between Years Worked and Salary?\n What do the 95% confidence intervals [0.025, 0.975] mean?\n Calculate the expected salary for someone with 12 years’ work experience.\n Calculate the expected salary for someone with 80 years’ work experience. Are there any problems with this prediction? If so, what are they?\n We have only looked at the number of years an employee has worked. What other employee characteristics might influence their salary?\n  Now fit your model to your test set. DO NOT BUILD A NEW MODEL ON THE TEST SET! Simply use your existing, model, to predict salaries in the test set.\n How does your model compare when running it on the test set - what is the difference in the Root Mean Square Error (RMSE) between the training and test sets? Is there any evidence of overfitting?  References Data is made up and inspired by Cohen, Cohen, West \u0026amp; Aiken. Applied Multiple Regression/Correlation Analysis for the Behavioral Sciences, 3rd Edition.\n"
+},
+{
+	"uri": "/tech-department/projects/dags-with-airflow/",
+	"title": "DAGs with Airflow",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "/tech-department/topics/data-infrastructure/dags-with-airflow/",
@@ -609,6 +651,13 @@
 	"content": ""
 },
 {
+	"uri": "/tech-department/projects/python-specific/sqlalchemy-migrations/",
+	"title": "Database migrations with SQLAlchemy",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "/tech-department/department-processes/deadlines/",
 	"title": "Deadlines",
 	"tags": [],
@@ -691,6 +740,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Introductory materials  Basic node server Express documentation Node.js \u0026amp; Express From Scratch [Part 1] - Intro \u0026amp; Environment Express, node overview Basic routing Static files  Middleware  Express Middleware More about middleware About bodyParser  "
+},
+{
+	"uri": "/tech-department/projects/java-fileio-logging-errors/",
+	"title": "File IO + Logging + Errors",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "/tech-department/projects/data-science-specific/data-visualisation/mobile-money-viz/",
@@ -819,6 +875,13 @@
 	"content": " What is Docker\nSet up In this section we\u0026rsquo;ll get docker set up on your computer. Then we\u0026rsquo;ll use it to run a mysql server. This is cool because:\n you can use mysql without having to actually install mysql the same technique will work for running any other database (or many other applications) once docker is installed. This means you can play and experiement with different tools without much of a fuss  Install docker For Ubuntu:\n https://docs.docker.com/install/linux/docker-ce/ubuntu/ https://docs.docker.com/install/linux/linux-postinstall/  For Mint:\n follow these instructions https://docs.docker.com/install/linux/docker-ce/ubuntu/ then when it is time to call add-apt-repository rather do this: sudo add-apt-repository \u0026quot;deb [arch=amd64] https://download.docker.com/linux/ubuntu $(. /etc/os-release; echo \u0026quot;$UBUNTU_CODENAME\u0026quot;) stable\u0026quot; https://docs.docker.com/install/linux/linux-postinstall/  For Mac:\nhttps://docs.docker.com/docker-for-mac/install/\nNow install docker-compose https://docs.docker.com/compose/install/\nCreate a docker-composition file Make a file called docker-compose.yaml. This is where you specify what containers you want to run and how you want them \u0026ldquo;constructed\u0026rdquo;. Paste the following into the file:\n version: \u0026#34;3.3\u0026#34; services: postgres: image: postgres:9.6 environment: - POSTGRES_USER=user - POSTGRES_PASSWORD=pass - POSTGRES_DB=db volumes: - ./gitignore/postgresql:/var/lib/postgresql/data ports: - 5432:5432 adminer: image: adminer restart: always ports: - 8080:8080  Now open up a terminal and cd into the directory containing the docker compose file then say docker-compose up\nThis launches two containers. One for postgresql, and one for adminer. Adminer is a simple web based gui that you can use to interact with different databases. You\u0026rsquo;ll be able to see this UI at http://localhost:8080\nAlternatively: Mysql composition You can run a mysql composition like this one\n version: \u0026#34;3.1\u0026#34; services: db: image: mysql command: --default-authentication-plugin=mysql_native_password restart: always environment: MYSQL_ROOT_PASSWORD: rootpass MYSQL_USER: user MYSQL_PASSWORD: pass MYSQL_DATABASE: db adminer: image: adminer restart: always ports: - 8080:8080  What\u0026rsquo;s the difference? Postgresql is more of an industry standard than Mysql. But they are both great tools.\nAdvanced topics If you want to use Docker containers in production then there are a bunch of extra things you need to know about. Some of these concepts are pretty deep but you don\u0026rsquo;t need to be an expert in order to use them.\nVolumes If you are running a container that needs to store data (like a database) and you want to make sure that you don\u0026rsquo;t lose that data if the container dies (or gets explicitly killed) then you need to use volumnes. Basically a volume is like a linux \u0026ldquo;link\u0026rdquo; or windows \u0026ldquo;shortcut\u0026rdquo;. It maps a totally normal directory/folder on your computer (your computer is the host) to a directory within the container. When the container tries to store something in the directory then that data appears in the host directory.\nNow if the container completely disappears the data still exists.\nOne use case for this behavior is upgrading. Let\u0026rsquo;s say you are running mysql:8.0. Your compose file will initially contain something like this\n db: image: mysql:8.0 volumes: /my/own/datadir:/var/lib/mysql  To upgrade, you can simply do the following:\n kill the docker composition Edit the compose file to say something like this:   db: image: mysql:8.0.17 volumes: /my/own/datadir:/var/lib/mysql  Now just docker-compose up and you have upgraded your mysql version. Easy peasy. And the same thing can be done for many other applications.\nAnother use case of volumes is of course backing up your data or movving your database to a new computer. Can you figure out how?\nports I\u0026rsquo;m not going to get into the definition of a port here. We\u0026rsquo;ll just talk about how to configure them. Remember how we accessed the adminer gui on port 8080 a second ago? Adminer exposes port 8080 by default.\nTry editing your docker compose file to contain this:\n adminer: image: adminer restart: always ports: - 9090:8080 ###### see how this line changed?  Now restart your composition.\nTry out these links:\n http://localhost:8080 http://localhost:9090  creating your own docker images Prerequisites: It would be really useful if you were comfortable with Bash.\nhttps://docs.docker.com/get-started/part2/\n"
 },
 {
+	"uri": "/tech-department/topics/java-specific/intro-to-junit/",
+	"title": "Intro to JUnit",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "/tech-department/workshops/intro-to-presentation/",
 	"title": "Intro to Presentation",
 	"tags": [],
@@ -882,7 +945,7 @@
 	"content": "Try this out.\n http://conqueringthecommandline.com/book/basics (Command line bootcamp)[http://rik.smith-unna.com/command_line_bootcamp/] http://korflab.ucdavis.edu/bootcamp.html https://drive.google.com/drive/folders/1Y_MkM737c1GHIuu9oM0AxAAoskms9maP?usp=sharing  "
 },
 {
-	"uri": "/tech-department/topics/intro-to-css/",
+	"uri": "/tech-department/topics/web-frontend/intro-to-css/",
 	"title": "Introduction to CSS",
 	"tags": [],
 	"description": "",
@@ -893,7 +956,7 @@
 	"title": "Introduction to CSS",
 	"tags": [],
 	"description": "",
-	"content": " Intro to CSS  There are two great days in a person\u0026rsquo;s life\n the day they are born and the day they discover why.   Topics to be discussed in this workshop can be found here TOPICS: Introduction to CSS "
+	"content": " There are two great days in a person\u0026rsquo;s life\n the day they are born and the day they discover why.   Topics to be discussed in this workshop can be found here TOPICS: Introduction to CSS "
 },
 {
 	"uri": "/tech-department/workshops/intro-to-express/",
@@ -956,7 +1019,7 @@
 	"title": "Introduction to assertive programming",
 	"tags": [],
 	"description": "",
-	"content": "Things to mention:\n sanity checking around human error and input validation actual syntax in all languages informative and specific error messages assertions as documentation  "
+	"content": "Things to mention:\n sanity checking around human error and input validation actual syntax in all languages informative and specific error messages assertions as documentation  Maybe useful: https://stackoverflow.com/questions/3269802/javascript-anti-silent-techniques-to-indicate-failure https://www.geeksforgeeks.org/assertions-in-java/\n"
 },
 {
 	"uri": "/tech-department/workshops/intro-to-pair-programming/",
@@ -1015,6 +1078,20 @@
 	"content": " In this little tutorial we\u0026rsquo;ll walk through the process of getting your dev environment ready for Java. We use a number of different tools, you\u0026rsquo;ll need to get them all set up.\nJava SDK First install openJDK\nsudo apt install openjdk-11-jdk  Try it out Now let\u0026rsquo;s take it for a spin.\nMake a file called HelloWorld.java that looks like this:\npublic class HelloWorld { public static void main(String[] args) { String greeting = \u0026quot;Hello World!\u0026quot;; System.out.println(greeting); } }  Now open up a terminal and cd into the directory containing your new file. Now do this:\nls | grep HelloWorld javac HelloWorld.java ls | grep HelloWorld  You should notice a new file called Java.class. The javac command compiles the java source code into bytecode.\nNow run the following command in your terminal:\njava HelloWorld  It should print Hello World! to the terminal. You just ran the bytecode.\njshell This is another way of interacting with Java. It gets installed automatically when you install the JDK (JDK == Java Development Kit). Type the following at the command line:\njshell  Now you can type in Java statements and they\u0026rsquo;ll just get executed immediately.\n| Welcome to JShell -- Version 11.0.4 | For an introduction type: /help intro jshell\u0026gt; \u0026quot;Can I get a whoop whoop!\u0026quot;.length() $1 ==\u0026gt; 24 jshell\u0026gt; $1 * 2 $2 ==\u0026gt; 48 jshell\u0026gt; int foo=42 foo ==\u0026gt; 42   use the Tab key to access auto-completion. Eg: Type \u0026ldquo;Ti\u0026rdquo; then press Tab and see what happens You can press Ctrl+d to exit the shell.  IntelliJ This will be your Integrated Development Environment (IDE). Anything you can do with IntelliJ you can also do from the command line and a plain ol text editer. The reason we us an IDE is because most of industry uses one.\nIf you are running Ubuntu or Mint you can just install it like this:\nsudo snap install intellij-idea-community --classic  Otherwise take a look here for full installation instructions: https://www.jetbrains.com/help/idea/installation-guide.html. Please note, we will be using the \u0026ldquo;community\u0026rdquo; version.\nTry it out  Open IntelliJ select File -\u0026gt; New Project Select Java press Next a couple of times, give your project a sensible name (eg HelloWorld) click \u0026lsquo;Finish\u0026rsquo;  Now let\u0026rsquo;s make a class file:\n select File \u0026gt; New \u0026gt; Java Class name yuor class HelloWorld and select Class edit the new file so it looks like this (this should seem very familiar)  public class HelloWorld { public static void main(String[] args) { String greeting = \u0026quot;Hello World!\u0026quot;; System.out.println(greeting); } }   save your changes (Ctrl+s). On a side note, keyboard shortcuts are your friend. Learn them.  Now let\u0026rsquo;s run the code: select Run \u0026gt; Run \u0026gt; HelloWorld\nYou should see something like this appear on the bottom of the screen:\n/usr/lib/jvm/java-1.11.0-openjdk-amd64/bin/java -javaagent:/snap/intellij-idea-community/177/lib/idea_rt.jar=32781:/snap/intellij-idea-community/177/bin -Dfile.encoding=UTF-8 -classpath /home/sheena/IdeaProjects/HelloWorld/out/production/HelloWorld HelloWorld Hello World! Process finished with exit code 0  "
 },
 {
+	"uri": "/tech-department/topics/java-specific/file-io/",
+	"title": "Java File IO",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/topics/java-specific/logging/",
+	"title": "Java Logging with Log4j",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "/tech-department/topics/java-specific/oop-basics/",
 	"title": "Java OOP basics resources and readings",
 	"tags": [],
@@ -1024,6 +1101,13 @@
 {
 	"uri": "/tech-department/workshops/java-specific/",
 	"title": "Java Specific Workshops",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/topics/java-specific/oop-access-modifiers/",
+	"title": "Java access modifiers",
 	"tags": [],
 	"description": "",
 	"content": ""
@@ -1045,6 +1129,13 @@
 {
 	"uri": "/tech-department/workshops/javascript-specific/",
 	"title": "Javascript-specifics",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/workshops/js-and-node-specific/",
+	"title": "Js-and-node-specifics",
 	"tags": [],
 	"description": "",
 	"content": ""
@@ -1106,6 +1197,13 @@
 	"content": " "
 },
 {
+	"uri": "/tech-department/topics/js-and-node-specific/logging/",
+	"title": "Logging in Node and JS",
+	"tags": [],
+	"description": "",
+	"content": "https://www.twilio.com/blog/guide-node-js-logging https://stackify.com/node-js-logging/\n"
+},
+{
 	"uri": "/tech-department/projects/data-science-specific/logistic-regression/",
 	"title": "Logistic regression",
 	"tags": [],
@@ -1148,7 +1246,7 @@
 	"content": " This week is all about one-hot encoding and multiple regression.\nBackground materials  Robust One-Hot Encoding in Python Emulating R Regression Plots in Python Statsmodels Regression Plot Building and evaluating models. Test/Train Splits and Crossvalidation  Assignment We will predict employee salaries from different employee characteristics (or features). Import the data salary.csv to a Jupyter Notebook. A description of the variables is given in Salary metadata.csv. You will need the packages matplotlib / seaborn, pandas and statsmodels.\nSteps and questions  Split your data into a training and test set. Create scatterplots, histograms, and a descriptive statistics table of the variables of interest. Do any of the variables need to be transformed to be able to use them in a linear regression model? Which variables seem like good predictors of salary? One-hot encode the variable Field into three dummy variables, using HR as the reference category. You can use pandas\u0026rsquo; get_dummies() function for this. Produce a correlation matrix comparing the relationship of salary to the predictor variables. Is there any multicollinearity or other problems that may be a problem in the multiple regression? Use multiple linear regression to predict salary from all the variables in the training dataset. Interpret the standardised coefficients given in the statsmodels output. What are the most important features when predicting employee salary? Calculate the standardised residuals (resid()) and standardised predicted values (fittedvalues()). Plot the residuals versus the predicted values using seaborn\u0026rsquo;s residplot with fitted values as the x parameter, and the dependent variable as y, specify lowess=True.  Are there any problems with the regression?  Now run your model on the test set. How does your model compare when running it on the test set - what is the difference in the Root Mean Square Error (RMSE) between the training and test sets? Is there any indication that the model has been overfit or does it seem like a reasonably good model?  References Data is made up and inspired by Cohen, Cohen, West \u0026amp; Aiken. Applied Multiple Regression/Correlation Analysis for the Behavioral Sciences, 3rd Edition.\n"
 },
 {
-	"uri": "/tech-department/topics/node/",
+	"uri": "/tech-department/topics/js-and-node-specific/node/",
 	"title": "Node",
 	"tags": [],
 	"description": "",
@@ -1197,6 +1295,20 @@
 	"content": ""
 },
 {
+	"uri": "/tech-department/workshops/js-and-node-specific/basic-intro-to-oop/",
+	"title": "OOP in JS",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/topics/js-and-node-specific/oop-basics/",
+	"title": "OOP in JS and Node",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "/tech-department/department-processes/team-onboarding/",
 	"title": "Onboarding - What the team needs to know and access",
 	"tags": [],
@@ -1209,6 +1321,13 @@
 	"tags": [],
 	"description": "",
 	"content": "A recruit’s journey includes a three-week programme called #MakeUmuziBetter (MUB). Recruits from all departments form small cross-functional teams to tackle issues at Umuzi - anything from mental health to kitchen norms to the physical layout of our space. To accomplish this, they learn about and execute Human-Centered Design, a technique used throughout their time at Umuzi. Each team maps out user journeys, conducts interviews and surveys, designs a prototype of their solution, and presents it to the staff and external guests.\n"
+},
+{
+	"uri": "/tech-department/projects/tdd/password-checker/",
+	"title": "Password Checker",
+	"tags": [],
+	"description": "",
+	"content": "  PROJECTS: password-checker   PROJECTS: [TODO] Add logging to password checker   "
 },
 {
 	"uri": "/tech-department/projects/oop/person/",
@@ -1230,6 +1349,48 @@
 	"tags": [],
 	"description": "",
 	"content": " Instructions Use a logistic regression model to find the factors that were most important in predicting survival on the Titanic.\n Load the train and test datasets. Get basic descriptive statistics for the training data and check for missing and incorrect values. Replace missing values if this makes sense to do. What are the factors that predict survival? (i.e. which variables significantly predict survival, p \u0026lt; 0.05) Create a classification report and confusion matrix of predicted and observed values. What is the accuracy, sensitivity and specificity of the model on the (a) training and (b) test data? Plot a Receiver Operating Characteristic (ROC) curve on the test data. What is overdispersion?  "
+},
+{
+	"uri": "/tech-department/topics/python-specific/oop-basics/",
+	"title": "Python OOP basics",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/projects/python-specific/kafka/",
+	"title": "Python and Kafka",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/topics/python-specific/kafka/",
+	"title": "Python and Kafka",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/projects/python-specific/mongo/",
+	"title": "Python and MongoDB",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/projects/python-specific/spark/",
+	"title": "Python and Spark",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/topics/python-specific/spark/",
+	"title": "Python and Spark",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "/tech-department/topics/python-specific/python-backend-dev-environment-setup/",
@@ -1285,7 +1446,7 @@
 	"title": "SQL",
 	"tags": [],
 	"description": "",
-	"content": " Tutorial Complete the DataCamp Intro and Intermediate SQL courses:\n Intro to SQL for data science Intermediate SQL  Assignment See the SQL assignment in Projects: PROJECTS: [MISSING title or page]"
+	"content": "Complete the DataCamp Intro and Intermediate SQL courses:\n Intro to SQL for data science Intermediate SQL  "
 },
 {
 	"uri": "/tech-department/topics/python-specific/sql-and-python/",
@@ -1316,8 +1477,22 @@
 	"content": " This is a multi-step project designed to level up many different skills.\nWe want to see the following skills demonstrated in different parts of this project:\n code structure functions loops conditions datatypes operators DOM maipulation  This project should be completed in a TDD way. This includes writing unit tests around the DOM!\nOk\u0026hellip;so WTF is a semitone? I\u0026rsquo;m glad you asked. Take a look at these links:\n https://www.justinguitar.com/guitar-lessons/the-note-circle-bc-152 https://www.justinguitar.com/guitar-lessons/note-circle-with-a-jam-buddy-mt-106  What we want to do is build a simple application that a musician can use to test their music theory skillz.\nIn the second video, Justin talks about a game that you can play with a jam buddy. Your buddy picks two notes from the note circle and tells them to you, then you tell your buddy how many semi-tones seperate those notes. That is basically what we are building here.\nThe final goal is to have a program that outputs two notes from the note circle and then allows the user to enter a number. The program needs to be ablt to tell the user if they chose the correct number or not.\nFor those of you studying web dev, you will be expected to build a simple user interface for this thing using vanilla js. For those of you studying Python you can make a command-line utility that does this.\n  PROJECTS: semitone difference - basic algorithm   PROJECTS: Make a simple GUI   PROJECTS: Advanced algorithm   PROJECTS: A gui that is more...awesome   Useful content   TOPICS: Jasmine Unit testing   "
 },
 {
-	"uri": "/tech-department/topics/python-specific/sqlalchemy-and-alembic/",
-	"title": "Sqlalchemy and Alembic",
+	"uri": "/tech-department/topics/python-specific/sqlalchemy/",
+	"title": "Sqlalchemy",
+	"tags": [],
+	"description": "",
+	"content": "  TOPICS: [TODO] Sqlalchemy Basics   TOPICS: [TODO] Sqlalchemy migrations with Alembic   "
+},
+{
+	"uri": "/tech-department/topics/python-specific/sqlalchemy/basics/",
+	"title": "Sqlalchemy Basics",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/topics/python-specific/sqlalchemy/migrations/",
+	"title": "Sqlalchemy migrations with Alembic",
 	"tags": [],
 	"description": "",
 	"content": ""
@@ -1330,11 +1505,25 @@
 	"content": " Background material  Crash Course Statistics: Measures of Spread Crash Course Statistics: Plots, Outliers and Justin Timberlake Crash Course Statistics: Correlation Doesn’t Equal Causation  Tutorials Complete the DataCamp courses Statistical Thinking in Python Part 1 and Statistical Thinking in Python Part 2.\nAssignment Instructions In the next series of challenges, we will predict employee salaries from different employee characteristics (or features). We ask employees working in four different fields to state their salary and some background information.\nImport the data salary.csv to a Jupyter Notebook. You will need the packages matplotlib, seaborn, pandas and statsmodels. A description of the variables is given in Salary metadata.csv.\nQuestions  How many responders are there? Are there any missing values in any of the variables? What is the lowest salary and highest salary in the group? What is the mean salary for the sample? Include the standard error of the mean. What is the standard deviation for the years worked? What is the median salary for the sample? What is the interquartile range for salary in the sample? How many men are there in the sample? How many women are there in the sample? Present this information in a table. How many women are executives compared to men? Create a histogram for the variable Salary. Examine the histogram and describe the distribution for Salary. Create a bar graph to show the different average salaries of men and women. (Bonus: Add error bars to the bars showing the 95% confidence interval). What does the graph tell you about the difference between men and women’s salaries? Create a scatterplot with seaborn showing the relationship between Years Worked and Salary (don’t forget to insert a trend line).  What is the relationship between Years Worked and Salary? Describe any patterns in the scatterplot. Do you notice any unusual/extreme values that do not fit the general trend? If you see any unusual values, briefly describe them (Who are they? In what way are they different?)  Using the pearsonr function from the scipy.stats package, calculate the Pearson correlation coefficient (and its corresponding p value) to determine the nature of the relationship between Years Worked and Salary. See help(pearsonr) for help on this function.  Interpret the size and direction of the correlation statistic. Is the relationship statistically significant? Report the appropriate statistic(s) to support your answer.   "
 },
 {
+	"uri": "/tech-department/topics/java-specific/string-and-number-manipulation/",
+	"title": "Strings and numbers in Java",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/topics/js-and-node-specific/super-basic-intro-to-node/",
+	"title": "Super basic intro to Node",
+	"tags": [],
+	"description": "",
+	"content": " Most people are introduced to JavaScript in the context of a web browser. JS adds smarts to HTML and CSS.\nJS is a proper programming language so it can do a whole lot more than that. Basically it doesn\u0026rsquo;t need to interact with a website in order to work. You can use it on the \u0026ldquo;back-end\u0026rdquo;. It can be used to interact with filesystems and databases and all sorts of other things.\nWhen JS is running on the backend it\u0026rsquo;s usually referred to as Node. Node is really a \u0026ldquo;runtime environmnet\u0026rdquo; that can execute JS code.\nTry type this into a terminal:\nnode  Now type\nvar greeting = \u0026quot;hello world\u0026quot;; console.log(greeting);  So you see you can execute JavaScript code right there in your terminal and it just works (assuing you have node installed).\nNow save the helloworld code above to a file named hello.js. You can execute this whenever you want to by saying node hello.js in a terminal. Or rather node /path/to/hello.js if you are in a different location.\npackage managers Now one of the really super cool things about node is npm.\ntodo:\n talk about npm, show how to get started, install something and use it talk about .gitignore and node_modules  "
+},
+{
 	"uri": "/tech-department/topics/unit-testing/tdd-horrors/",
 	"title": "TDD Horrors",
 	"tags": [],
 	"description": "",
-	"content": " These are all the most common TDD problems recruits tend to come across, read and make sure you didn\u0026rsquo;t make any of these or any mistakes at all.\n Write tests. Recruits in the past have done the mistake of not writing tests for TDD assignments, make sure you avoid this weird mistake. Always write tests for your TDD projects. Please make sure you understand .gitignore, please don\u0026rsquo;t add your node_modules to git. Name your files according to what is inside them Avoid making tests depend on each other. Making test dependent on each other is the perfect path to pain, expense, fragility, and complication. Pay attention to failure messages. Make each failure message as helpful for diagnosis as you can. Do not skimp on the refactoring. It is the refactoring that will keep your code (including the tests) easy to understand and change Naming conventions: in general, be careful with your naming conventions. make sure your naming convention consistent, names should be more descriptive. Name your files properly and according to what\u0026rsquo;s inside them. Keep good directory structure and delete all junk files. Avoid messy indentation (install prettier). Test for errors/exception, sometimes code is supposed to throw an error or raise an exception. In these cases your tests should make sure that the error happens as it should, your tests need to use the following syntax:\nJavascript:\nexpect(...).toThrow()  Python:\nwith pytest.raises([ErrorType])...  Python peeps DO NOT Define a test case(testing function) inside a function.\n  def test_something(): def totally_valid_test(): assert add(1,20,5) == 26 def another_test(): assert add(1,23,5) == 29  Note: Nice thing about the pytest module is that it removes the need for boilerplate code. so the following code would work:\nfrom module import add # tests start here. def test_add_two_values(): assert add(1,2) == 3 def test_add_multiple_values(): assert add(1,2,3,4) == 10   Test cases should focus on one functionality and one functionality only.  Python example:\nDo not do this:\ndef test(self): assert add(1,2,3,4) == 10 assert multiply(1,2,3) == 6  Do this instead:\n# test add function. def test_add_two_values(self): assert add(1,2) == 3 def test_add_multiple_values(self): assert add(1,2,3,4,5,6) == 21 assert add(2,3,4,5) == 14 def test_multiply_two_values(self): assert multiply(1,2) == 2 def test_multiply_multiple_values(self): assert multiply(1,2,4) == 8  Javascript example:\nDon\u0026rsquo;t do this:\ndescribe('Test one', () =\u0026gt; { it('Should add', () =\u0026gt; { let sum = add(1, 23, 5); expect(sum).toBe(29); }) it('Should multiply', () =\u0026gt; { let prod = multiply(1, 23); expect(prod).toBe(23); }) })  Each Function should have it\u0026rsquo;s own describe object_\nDo this:\ndescribe('add()', () =\u0026gt; { it('Should add [what exactly?]', () =\u0026gt; { let sum = add(1, 23, 5); expect(sum).toBe(29); }) }) describe('multiply()', () =\u0026gt; { it('Should multiply [what exactly?]', () =\u0026gt; { let prod = multiply(1, 23); expect(prod).toBe(23); }) })   Javascript: Test strings are there to be descriptive:\n eg:  Do: it(\u0026quot;can/should multiply [what exactly?]\u0026quot;)\nDon\u0026rsquo;t: it(\u0026quot;multiply\u0026quot;)\n Incomplete projects:\n Always make sure that your projects are complete. Submitting Incomplete projects looks, BAD! to both an employer and Code reviewers, so don\u0026rsquo;t submit incomplete projects, it\u0026rsquo;s bad for your reputation. If you do not have tests, for your TDD project, then your project is incomplete.  TDD tests fail:\n Failing tests aren\u0026rsquo;t bad during development, but make sure your all tests pass when you submit your project.  Documentation on how to setup and test the code:\n Make use of README.md, requirements.txt files, collaborators shouldn\u0026rsquo;t guess/remember how to setup all the dependencies for your project, document all the necessary processes please.  Clean code base. Need I say more?\n Dirty.  Javascript:\n// Testing if the Error Checks throw //var sixSided = new Dice(6,[1,\u0026quot;gdfdf\u0026quot;]); var sixSided = new Dice(6,[1,6,5,-16]); //console.log(sixSided.rollDice());  Python:\n# I was thinnking about This # Then I did this but it didn't work. so I left # And then, it came to me, eureka! die6 = Dice(6) # Since it works, there's no need to clean it.   Clean.  Javascript:\nvar sixSided = new Dice(6,[1,6,5,-16]);  Python:\ndie6 = Dice(6)   Remove useless stuff, it serves no purpose. so get rid of it.\n One test: writing one test to test everything is a bad idea, you need to separate it into multiple tests that test one and thing only.  Some useful Readings  Common mistakes in TDD  : Unit testing (language agnostic concepts)   : [TODO] Clean Code   "
+	"content": " These are all the most common TDD problems recruits tend to come across, read and make sure you didn\u0026rsquo;t make any of these or any mistakes at all.\n Write tests. Recruits in the past have done the mistake of not writing tests for TDD assignments, make sure you avoid this weird mistake. Always write tests for your TDD projects. Please make sure you understand .gitignore, please don\u0026rsquo;t add your node_modules to git. Name your files according to what is inside them Avoid making tests depend on each other. Making test dependent on each other is the perfect path to pain, expense, fragility, and complication. Pay attention to failure messages. Make each failure message as helpful for diagnosis as you can. Do not skimp on the refactoring. It is the refactoring that will keep your code (including the tests) easy to understand and change Naming conventions: in general, be careful with your naming conventions. make sure your naming convention consistent, names should be more descriptive. Name your files properly and according to what\u0026rsquo;s inside them. Keep good directory structure and delete all junk files. Avoid messy indentation (install prettier). Test for errors/exception, sometimes code is supposed to throw an error or raise an exception. In these cases your tests should make sure that the error happens as it should, your tests need to use the following syntax:\nJavascript:\nexpect(...).toThrow()  Python:\nwith pytest.raises([ErrorType])...  Python peeps DO NOT Define a test case(testing function) inside a function.\n  def test_something(): def totally_valid_test(): assert add(1,20,5) == 26 def another_test(): assert add(1,23,5) == 29  Note: Nice thing about the pytest module is that it removes the need for boilerplate code. so the following code would work:\nfrom module import add # tests start here. def test_add_two_values(): assert add(1,2) == 3 def test_add_multiple_values(): assert add(1,2,3,4) == 10   Test cases should focus on one functionality and one functionality only.  Python example:\nDo not do this:\ndef test(self): assert add(1,2,3,4) == 10 assert multiply(1,2,3) == 6  Do this instead:\n# test add function. def test_add_two_values(self): assert add(1,2) == 3 def test_add_multiple_values(self): assert add(1,2,3,4,5,6) == 21 assert add(2,3,4,5) == 14 def test_multiply_two_values(self): assert multiply(1,2) == 2 def test_multiply_multiple_values(self): assert multiply(1,2,4) == 8  Javascript example:\nDon\u0026rsquo;t do this:\ndescribe('Test one', () =\u0026gt; { it('Should add', () =\u0026gt; { let sum = add(1, 23, 5); expect(sum).toBe(29); }) it('Should multiply', () =\u0026gt; { let prod = multiply(1, 23); expect(prod).toBe(23); }) })  Each Function should have it\u0026rsquo;s own describe object_\nDo this:\ndescribe('add()', () =\u0026gt; { it('Should add [what exactly?]', () =\u0026gt; { let sum = add(1, 23, 5); expect(sum).toBe(29); }) }) describe('multiply()', () =\u0026gt; { it('Should multiply [what exactly?]', () =\u0026gt; { let prod = multiply(1, 23); expect(prod).toBe(23); }) })   Javascript: Test strings are there to be descriptive:\n eg:  Do: it(\u0026quot;can/should multiply [what exactly?]\u0026quot;)\nDon\u0026rsquo;t: it(\u0026quot;multiply\u0026quot;)\n Incomplete projects:\n Always make sure that your projects are complete. Submitting Incomplete projects looks, BAD! to both an employer and Code reviewers, so don\u0026rsquo;t submit incomplete projects, it\u0026rsquo;s bad for your reputation. If you do not have tests, for your TDD project, then your project is incomplete.  TDD tests fail:\n Failing tests aren\u0026rsquo;t bad during development, but make sure your all tests pass when you submit your project.  Documentation on how to setup and test the code:\n Make use of README.md, requirements.txt files, collaborators shouldn\u0026rsquo;t guess/remember how to setup all the dependencies for your project, document all the necessary processes please.  Clean code base. Need I say more?\n Dirty.  Javascript:\n// Testing if the Error Checks throw //var sixSided = new Dice(6,[1,\u0026quot;gdfdf\u0026quot;]); var sixSided = new Dice(6,[1,6,5,-16]); //console.log(sixSided.rollDice());  Python:\n# I was thinnking about This # Then I did this but it didn't work. so I left # And then, it came to me, eureka! die6 = Dice(6) # Since it works, there's no need to clean it.   Clean.  Javascript:\nvar sixSided = new Dice(6,[1,6,5,-16]);  Python:\ndie6 = Dice(6)   Remove useless stuff, it serves no purpose. so get rid of it.\n One test: writing one test to test everything is a bad idea, you need to separate it into multiple tests that test one and thing only.  Some useful Readings  Common mistakes in TDD  : Unit testing (language agnostic concepts)   : Clean Code   "
 },
 {
 	"uri": "/tech-department/tags/",
@@ -1348,7 +1537,14 @@
 	"title": "Test Driven Development",
 	"tags": [],
 	"description": "",
-	"content": " The exercises in this section can be done in any language. The aim is to have working logic, not a beautiful user interface. You will be expected to demonstrate your working code and also to build on lessons you have already learned.\n if you know OOP please use it where it is appropriate write clean code (it will be reviewed by your peers and by senior staff) use Git from the command line. This is a suuuper important skill in industry have fun :) (but not too much)  There are a few exercises here. Try the ones marked as easy first.\nReads  Here is a quick read on the most common TDD pitfalls: TOPICS: [MISSING title or page]  "
+	"content": " The exercises in this section can be done in any language. The aim is to have working logic, not a beautiful user interface. You will be expected to demonstrate your working code and also to build on lessons you have already learned.\n if you know OOP please use it where it is appropriate write clean code (it will be reviewed by your peers and by senior staff) use Git from the command line. This is a suuuper important skill in industry have fun :) (but not too much)  There are a few exercises here. Try the ones marked as easy first.\nReads  Here is a quick read on the most common TDD pitfalls: TOPICS: TDD Horrors   "
+},
+{
+	"uri": "/tech-department/topics/test-driven-development/",
+	"title": "Test Driven Development",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "/tech-department/topics/js-and-node-specific/dotenv/",
@@ -1379,6 +1575,13 @@
 	"content": " Umuzi Tech Department This website/repo is the source of truth around what and how we teach here in Umuzi\u0026rsquo;s tech department. Let me show you around:\nIf you want to contribute to this repo Take a look at the contribution guide guide. This guide will tell you basically how this application works and will give you info on what a good pull request looks like.\nIf you are a recruit This here is basically how we work.\nIf you want to see the entire syllabus (as it currently exists) then take a look here. What you see in this section is constantly evolving based on feedback from you and from industry.\nIf you think anything we have in here can be improved upon we would love to know! You can even make a pull request. If we merge your stuff then you will show up on out credits page. Cool, eh?\nIf you are a staff member You are probably looking for our department processes documentation. Take a look here.\nIf you are interested in getting in touch with Umuzi Hi friend, we would love to meet you. Check out our contact page for more info\n"
 },
 {
+	"uri": "/tech-department/projects/basic-unit-test-mocks-kata/",
+	"title": "Unit test mocks and spies kata",
+	"tags": [],
+	"description": "",
+	"content": "This basic project should demonstrate mocks/spies.\n asssert that a function gets called assert that a function is called a specific number of times with specific arguments  "
+},
+{
 	"uri": "/tech-department/topics/unit-testing/",
 	"title": "Unit testing (language agnostic concepts)",
 	"tags": [],
@@ -1398,6 +1601,13 @@
 	"tags": [],
 	"description": "",
 	"content": "A brief introduction to unit testing\n"
+},
+{
+	"uri": "/tech-department/topics/unit-testing/mocks-and-spies/",
+	"title": "Unit testing with mocks and spies",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "/tech-department/topics/python-specific/unit-testing/",
@@ -1488,7 +1698,7 @@
 	"title": "code review process",
 	"tags": [],
 	"description": "",
-	"content": " General Process  Recruits get given some project instructions. Like this: PROJECTS: simple-calculator part 1  You\u0026rsquo;ll notice there is a link at the top of the project instructions. Peeps follow that link to submit their work The code submissions show up in a https://docs.google.com/spreadsheets/d/1jIWBgfh4PbZU0KpBQi_hTjSFK74CRkTQtoEcvJ1V0uA/edit#gid=2104739812\u0026amp;fvid=1123262740. This is stored on the Tech Dept Drive, send a message on the tech-team channel if you don\u0026rsquo;t have access You\u0026rsquo;ll notice if you scroll to the left there is a column entitled \u0026ldquo;INITIAL REVIEWER\u0026rdquo;, if you are intending to review someone\u0026rsquo;s code then you need to put your name in this column To review the code you need to make sure you understand the project instructions, clone the code, make sure it works, make sure the tests cover everything they should cover, and comment on things like good coding practices. We are currently working on some automations around this stuff but for now that\u0026rsquo;s what needs to happen If you are unsure about what kind of code quality we are looking for, take a look here for some ideal answers: https://github.com/Umuzi-org/automark-project-config Look at the PRs as well, there\u0026rsquo;s a lot of good stuff there. If you need assistance you can ask for help on the tech-team channel and someone will jump in. Now fill this in with comments about the code review: Code review google form Communicate with effected parties. Tell the recruit your feedback. If there is a RED FLAG and you need some help dealing with this recruit then let us know on the tech-team channel.  The projects that are worth reviewing first are these (in order).\n  PROJECTS: simple-calculator part 1   PROJECTS: password-checker   PROJECTS: string-calculator   PROJECTS: simple-calculator part 2   PROJECTS: Person   PROJECTS: Dice   PROJECTS: Bank Accounts   Also, be a perfectionist. We want our recruits to write beautiful code\nGoals We have a few goals for code review:\n We need to keep track of who has submitted code and who hasn\u0026rsquo;t. deadlines should be taken seriously by recruits which means that WE need to take them seriously We need to know what the recruits need. If they need help then we need to help them quickly. If disciplinery action is needed then we should act fast Code review aids in knowledge sharing within our team Code review is a useful skill that should be taught to recruits  Process and Roles When deadlines are set up then a few different staff members are assigned different roles. This will be done by populating columns in the (mighty) Coding and Data program outline spreadsheet.\nThe roles are as follows:\ndeadline-tracker:  checks that people have submitted in time keeps track of excuses for late submissions and acts with good judgment can adjust deadlines if needed. MUST tell the project owner about any adjustments issues verbal warnings for late submissions (fills out the verbal warning form as needed)  junior reviewers:  performs first and possibly second review completing the code review form listed above under general process. explicitly alerts senior reviewer about any RED FLAGs immediately (send a message on slack) if the reviewer is unhappy with the code but thinks that they can assist then they need to: send the recruit a summary of the problems that need to be fixed and an expected time frame (eg: fix by the end of tomorrow) inform the deadline-tracker review the re-submitted code or find another junior reviewer to do so  senior reviewer:  make sure that the junior reviewers understand the project submission requirements ahead of time deal with any RED FLAGs on a case by case basis re-review a few random code bases that various junior reviewers are happy with get a summary of common problems that came up in the review and update documentation as needed and/or create a workshop as needed ideally start reviewing as soon as possible in order to catch any problems that come up in the junior review process use the same code review form that the junior reviewers use send any problems found to all other reviewers involved and the recruit  MUSTs, SHOULDs and whatnots  every piece of code submitted by any recruit MUST be reviewed by a staff member OR by a recruit that has proven themselves at least once when a recruit submits code then they MUST receive their initial review comments by the end of the following day. If the cohort is large then the day after that is acceptable deadline-tracker SHOULD be a junior facilitator  Using our recruits to help with code review TODO. I think they should use the same code review form?\n Let a recruit review a few code submissions and let a junior or senior staff member check their work keep track of what recruits are good at code review and then dont require staff members to double check their work so much senior reviewers are in charge of making sure that juniors understand instructions junior reviewers are in charge of making sure that recruits understand instructions  "
+	"content": " General Process  Recruits get given some project instructions. Like this: PROJECTS: simple-calculator part 1  You\u0026rsquo;ll notice there is a link at the top of the project instructions. Peeps follow that link to submit their work The code submissions show up in a https://docs.google.com/spreadsheets/d/1jIWBgfh4PbZU0KpBQi_hTjSFK74CRkTQtoEcvJ1V0uA/edit#gid=2104739812\u0026amp;fvid=1123262740. This is stored on the Tech Dept Drive, send a message on the tech-team channel if you don\u0026rsquo;t have access You\u0026rsquo;ll notice if you scroll to the left there is a column entitled \u0026ldquo;INITIAL REVIEWER\u0026rdquo;, if you are intending to review someone\u0026rsquo;s code then you need to put your name in this column To review the code you need to make sure you understand the project instructions, clone the code, make sure it works, make sure the tests cover everything they should cover, and comment on things like good coding practices. We are currently working on some automations around this stuff but for now that\u0026rsquo;s what needs to happen If you are unsure about what kind of code quality we are looking for, take a look here for some ideal answers: https://github.com/Umuzi-org/automark-project-config Look at the PRs as well, there\u0026rsquo;s a lot of good stuff there. If you need assistance you can ask for help on the tech-team channel and someone will jump in. Now fill this in with comments about the code review: Code review google form Communicate with effected parties. Tell the recruit your feedback. If there is a RED FLAG and you need some help dealing with this recruit then let us know on the tech-team channel.  The projects that are worth reviewing first are these (in order).\n  PROJECTS: simple-calculator part 1   PROJECTS: Password Checker   PROJECTS: string-calculator   PROJECTS: simple-calculator part 2   PROJECTS: Person   PROJECTS: Dice   PROJECTS: Bank Accounts   Also, be a perfectionist. We want our recruits to write beautiful code\nGoals We have a few goals for code review:\n We need to keep track of who has submitted code and who hasn\u0026rsquo;t. deadlines should be taken seriously by recruits which means that WE need to take them seriously We need to know what the recruits need. If they need help then we need to help them quickly. If disciplinery action is needed then we should act fast Code review aids in knowledge sharing within our team Code review is a useful skill that should be taught to recruits  Process and Roles When deadlines are set up then a few different staff members are assigned different roles. This will be done by populating columns in the (mighty) Coding and Data program outline spreadsheet.\nThe roles are as follows:\ndeadline-tracker:  checks that people have submitted in time keeps track of excuses for late submissions and acts with good judgment can adjust deadlines if needed. MUST tell the project owner about any adjustments issues verbal warnings for late submissions (fills out the verbal warning form as needed)  junior reviewers:  performs first and possibly second review completing the code review form listed above under general process. explicitly alerts senior reviewer about any RED FLAGs immediately (send a message on slack) if the reviewer is unhappy with the code but thinks that they can assist then they need to: send the recruit a summary of the problems that need to be fixed and an expected time frame (eg: fix by the end of tomorrow) inform the deadline-tracker review the re-submitted code or find another junior reviewer to do so  senior reviewer:  make sure that the junior reviewers understand the project submission requirements ahead of time deal with any RED FLAGs on a case by case basis re-review a few random code bases that various junior reviewers are happy with get a summary of common problems that came up in the review and update documentation as needed and/or create a workshop as needed ideally start reviewing as soon as possible in order to catch any problems that come up in the junior review process use the same code review form that the junior reviewers use send any problems found to all other reviewers involved and the recruit  MUSTs, SHOULDs and whatnots  every piece of code submitted by any recruit MUST be reviewed by a staff member OR by a recruit that has proven themselves at least once when a recruit submits code then they MUST receive their initial review comments by the end of the following day. If the cohort is large then the day after that is acceptable deadline-tracker SHOULD be a junior facilitator  Using our recruits to help with code review TODO. I think they should use the same code review form?\n Let a recruit review a few code submissions and let a junior or senior staff member check their work keep track of what recruits are good at code review and then dont require staff members to double check their work so much senior reviewers are in charge of making sure that juniors understand instructions junior reviewers are in charge of making sure that recruits understand instructions  "
 },
 {
 	"uri": "/tech-department/projects/python-consuming-an-api-with-requests/",
@@ -1540,7 +1750,7 @@
 	"content": " Here are a few good resources on Big O and optimization. Learn enough to understand what Big O is, when and why do we implement it and please give us feedback (or pull requests) on this page if you think any improvements can be made.\nReadings  Big O Notation Article Some more material - Stack Overflow Big O Notation Cheatsheet  Make sure you checkout the Big O Cheat sheet, It\u0026rsquo;ll give you an understanding on the performance of different data structures(Arrays, Stacks, Queues\u0026hellip; etc) that you use on a daily.\nVideos  Big O in 5 minutes Big O in depth Big O and Time Complexity  "
 },
 {
-	"uri": "/tech-department/projects/tdd/password-checker/",
+	"uri": "/tech-department/projects/tdd/password-checker/part1/",
 	"title": "password-checker",
 	"tags": [],
 	"description": "",
@@ -1579,7 +1789,7 @@
 	"title": "string-calculator",
 	"tags": [],
 	"description": "",
-	"content": " Before you commence, first read through : Data Validation . Upon completion, read through : Regular Expression Resources .\nProject Do this: https://osherove.com/tdd-kata-1/\nDo all the steps (1 - 9).\nwhy is this important?  If you\u0026rsquo;re wondering to yourself, \u0026ldquo;Why is this sooo important!?\u0026rdquo; take a look at : [MISSING title or page]  "
+	"content": " Before you commence, first read through : Data Validation . Upon completion, read through : Regular Expression Resources .\nProject Do this: https://osherove.com/tdd-kata-1/\nDo all the steps (1 - 9).\nwhy is this important?  If you\u0026rsquo;re wondering to yourself, \u0026ldquo;Why is this sooo important!?\u0026rdquo; take a look at : Data Validation   "
 },
 {
 	"uri": "/tech-department/projects/tdd/bowling/",

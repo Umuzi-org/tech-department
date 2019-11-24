@@ -92,10 +92,10 @@ expected output: RIGHT ANGLE TRIANGLE * ** *** ****  2. Write a function that ta
     
     <item>
       <title>Node</title>
-      <link>/tech-department/topics/node/</link>
+      <link>/tech-department/topics/js-and-node-specific/node/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tech-department/topics/node/</guid>
+      <guid>/tech-department/topics/js-and-node-specific/node/</guid>
       <description>Wikipedia.org defines Node.js as an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user&amp;rsquo;s web browser.
 The article below unfold the following points
  What is Node.js Why Node js Node installation process Asynchronous vs Synchronous  Resources  Understanding the basics of Node.</description>
