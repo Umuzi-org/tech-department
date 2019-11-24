@@ -112,7 +112,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - WEB_DEV:
 
-  - {{% contentlink "topics/super-basic-intro-to-node" %}}
+  - {{% contentlink "topics/js-and-node-specific/super-basic-intro-to-node" %}}
   - WORKSHOP: Live code. Super basic intro to node
   - {{% contentlink "projects/basic-flow-control-katas" %}} do this in pairs
 
@@ -122,7 +122,7 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "workshops/python-specific/basic-intro-to-oop" %}}
   - {{% contentlink "topics/python-specific/oop-basics"%}}
   - {{% contentlink "projects/oop/person" %}} do this in pairs
-  - {{% contentlink "projects/oop/animals" %}} individual. Due towards the end of the week
+  - {{% contentlink "projects/oop/animals/part1" %}} individual. Due towards the end of the week
 
 - DATA_SCI:
 
@@ -148,27 +148,27 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - DATA_ENG:
 
-  - {{% contentlink "topics/assertive_programming" %}}
-  - {{% contentlink "projects/assertive_programming" %}}
+  - {{% contentlink "topics/intro-to-asserive-programming" %}}
+  - {{% contentlink "projects/basic-flow-control-katas-assertive" %}}
   - {{% contentlink "topics/unit-testing" %}}
-  - {{% contentlink "projects/animals/part2" %}}: add some tests to existing code
-  - {{% contentlink "topics/tdd" %}}
+  - {{% contentlink "projects/oop/animals/part2" %}}: add some tests to existing code
+  - {{% contentlink "topics/test-driven-development" %}}
   - {{% contentlink "topics/python-specific/automated-testing-with-pytest" %}}
   - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
 
 * WEB_DEV:
 
-  - {{% contentlink "workshops/js-specific/basic-intro-to-oop" %}}
-  - {{% contentlink "topics/js-specific/oop-basics"%}}
+  - {{% contentlink "workshops/js-and-node-specific/basic-intro-to-oop" %}}
+  - {{% contentlink "topics/js-and-node-specific/oop-basics"%}}
   - {{% contentlink "projects/oop/person" %}} do this in pairs
-  - {{% contentlink "projects/oop/animals" %}} individual. Due towards the end of the week
+  - {{% contentlink "projects/oop/animals/part1" %}} individual. Due towards the end of the week
 
 * JAVA:
   - {{% contentlink "workshops/java-specific/basic-intro-to-oop" %}}
   - {{% contentlink "topics/java-specific/oop-basics"%}}
   - {{% contentlink "topics/java-specific/oop-access-modifiers" %}}
   - {{% contentlink "projects/oop/person" %}} do this in pairs
-  - {{% contentlink "projects/oop/animals" %}} individual. Due towards the end of the week
+  - {{% contentlink "projects/oop/animals/part1" %}} individual. Due towards the end of the week
   - NCIT 08: Pseudocode and documentation
   - NCIT 13: Object-oriented programming
   - workshop: oop Q&A might be needed
@@ -188,32 +188,32 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
 
 * DATA_ENG:
-  - {{% contentlink "projects/tdd/password-checker" %}}
+  - {{% contentlink "projects/tdd/password-checker/part1" %}}
   - logging with python
   - add logging to password checker
 
 - WEB_DEV:
 
-  - {{% contentlink "topics/assertive_programming" %}}
-  - {{% contentlink "projects/assertive_programming" %}}
+  - {{% contentlink "topics/intro-to-asserive-programming" %}}
+  - {{% contentlink "projects/basic-flow-control-katas-assertive" %}}
   - {{% contentlink "topics/unit-testing" %}}
-  - {{% contentlink "projects/animals/part2" %}}: add some tests to existing code
-  - {{% contentlink "topics/tdd" %}}
+  - {{% contentlink "projects/oop/animals/part2" %}}: add some tests to existing code
+  - {{% contentlink "topics/test-driven-development" %}}
   - {{% contentlink "workshops/intro-to-unit-testing-with-jasmine" %}}
   - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
 
 * JAVA:
 
-  - {{% contentlink "topics/assertive_programming" %}}
-  - {{% contentlink "projects/assertive_programming" %}}
+  - {{% contentlink "topics/intro-to-asserive-programming" %}}
+  - {{% contentlink "projects/basic-flow-control-katas-assertive" %}}
   - {{% contentlink "topics/unit-testing" %}}
-  - {{% contentlink "topics/intro-to-junit" %}}
+  - {{% contentlink "topics/java-specific/intro-to-junit" %}}
   - LIVE CODE WORKSHOP: demonstrate unit tests with intelliJ and JUnit.
-  - {{% contentlink "projects/animals/part2" %}}: add some tests to existing code
+  - {{% contentlink "projects/oop/animals/part2" %}}: add some tests to existing code
   - {{% contentlink "topics/test-driven-development" %}}
   - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
 
-  - {{% contentlink "topics/java-specific/error-handling" %}}
+  - {{% contentlink "topics/java-specific/exception-handling/" %}}
 
 - NCIT 05: History of the Internet
 - NCIT 06: Web design for business
@@ -230,23 +230,21 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - DATA_SCI:
 
-  - {{% contentlink "projects/tdd/password-checker" %}}
+  - {{% contentlink "projects/tdd/password-checker/part1" %}}
 
 - DATA_ENG:
   - {{% contentlink "projects/tdd/string-calculator" %}}
 
 * WEB_DEV:
-  - {{% contentlink "projects/tdd/password-checker" %}}
-  - logging with node
-    https://www.twilio.com/blog/guide-node-js-logging
-    https://stackify.com/node-js-logging/
+  - {{% contentlink "projects/tdd/password-checker/part1" %}}
+  - {{% contentlink "topics/js-and-node-specific/logging" %}}
   - add logging to password checker
 
 - JAVA:
   - LIVE CODE WORKSHOP: Error Handling
-  - {{% contentlink "projects/tdd/password-checker" %}}
+  - {{% contentlink "projects/tdd/password-checker/part1" %}}
   - {{% contentlink "topics/java-specific/logging" %}}
-  - add logging to password checker
+  - {{% contentlink "projects/tdd/password-checker/part2" %}}
   - {{% contentlink "topics/java-specific/file-io" %}}
 
 ## Week 8:
@@ -257,19 +255,15 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "topics/python-specific/unit-testing/automated-testing-pandas-and-numpy" %}}
 
 - Java:
-  - file io + errors + logging project
-  - topics/java-specific/string-and-number-manipulation
+  - {{% contentlink "projects/java-fileio-logging-errors" %}}
+  - {{% contentlink "topics/java-specific/string-and-number-manipulation" %}}
 
 * DATA_ENG:
 
-  - topic unit testing mocks
-  - project unit testing mocks
-
-  - {{% contentlink "topics/python-specific/intro-to-apis/" %}}
-    https://gist.github.com/tazjel/8735770
-    https://developer.github.com/v3/guides/getting-started/#create-a-repository
-
-  - {{% contentlink "projects/python-consuming-an-api-with-requests/" %}} - INTRODUCED
+  - {{% contentlink "topics/unit-testing/mocks-and-spies" %}}
+  - {{% contentlink "projects/basic-unit-test-mocks-kata" %}}
+  - {{% contentlink "topics/apis/basics/" %}}
+  - {{% contentlink "projects/github-api-consume" %}} - INTRODUCED
 
 - WEB_DEV
   - {{% contentlink "projects/tdd/string-calculator" %}}
@@ -280,19 +274,17 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/tdd/string-calculator" %}}
 
 * DATA_ENG
-  - {{% contentlink "projects/python-consuming-an-api-with-requests/" %}} - DUE
-  - {{% contentlink "projects/python-specific/expose-rest-api-simple/" %}} - INTRODUCED
+  - {{% contentlink "projects/github-api-consume" %}} - DUE
+  - {{% contentlink "topics/linux/os-environmental-variables/" %}}
+  - {{% contentlink "topics/python-specific/virtual-envs/" %}}
+
 
 - WEB_DEV:
 
-  - topic unit testing spies
-  - project unit testing spies
-
-  - {{% contentlink "topics/js-specific/intro-to-apis/" %}}
-    https://gist.github.com/tazjel/8735770
-    https://developer.github.com/v3/guides/getting-started/#create-a-repository
-
-  - {{% contentlink "projects/js-consuming-an-api-with-fetch/" %}} - INTRODUCED
+  - {{% contentlink "topics/unit-testing/mocks-and-spies" %}}
+  - {{% contentlink "projects/basic-unit-test-mocks-kata" %}}
+  - {{% contentlink "topics/apis/basics/" %}}
+  - {{% contentlink "projects/github-api-consume" %}} - INTRODUCED
 
 * JAVA
   - {{% contentlink "projects/tdd/string-calculator" %}}
@@ -310,24 +302,21 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "topics/functional-programming-intro" %}}
 
 * DATA_ENG:
-  - {{% contentlink "topics/linux/os-environmental-variables/" %}}
-  - {{% contentlink "topics/python-specific/virtual-envs/" %}}
-  - {{% contentlink "projects/python-specific/expose-rest-api-simple/" %}} - DUE
+  - {{% contentlink "topics/intro-to-docker/" %}}
+  - {{% contentlink "projects/sql/" %}}
 
 - WEB_DEV:
-
-  - {{% contentlink "projects/js-consuming-an-api-with-fetch/" %}} - DUE
-
+  - {{% contentlink "projects/github-api-consume" %}} - DUE
   - {{% contentlink "topics/js-and-node-specific/dom-manipulation-with-vanilla-js" %}}
   - {{% contentlink "projects/memory-game-vanilla" %}} INTRODUCED
 
 ## Week 11
 
 - DATA_ENG
-  - {{% contentlink "topics/intro-to-docker/" %}}
-  - {{% contentlink "projects/sql/" %}}
+  - {{% contentlink "topics/python-specific/sqlalchemy" %}}
+  - {{% contentlink "projects/build-rest-api-with-db" %}}
 
-* DATA_SCI:
+- DATA_SCI:
 
   - {{% contentlink "projects/data-science-specific/statistical-thinking/" %}} INTRODUCED
 
@@ -348,9 +337,8 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/nodejs/file-io" %}}
 
 - DATA_ENG:
-  - {{% contentlink "topics/python-specific/sql-and-python/" %}}
-  - sqlalchemy
-  - {{% contentlink "projects/build-rest-api-with-db/" %}}
+    - {{% contentlink "topics/python-specific/sqlalchemy/migrations" %}}
+    - {{% contentlink "projects/python-specific/sqlalchemy-migrations" %}} - INTRODUCTION
 
 ## Week 13
 
@@ -360,27 +348,38 @@ The recruits finish off their portfolios. From this point forward they are expec
 
   - {{% contentlink "topics/python-specific/oop-for-python/" %}}
   - {{% contentlink "projects/oop/person" %}}
-  - {{% contentlink "projects/oop/animals" %}}
+  - {{% contentlink "projects/oop/animals/part1" %}}
   - {{% contentlink "projects/oop-for-data-science/" %}}
 
 - DATA_ENG
-  - database migrations
-  - small migrations project
+  - {{% contentlink "topics/data-infrastructure/database-comparison/" %}}
+  - {{% contentlink "topics/python-specific/mongodb/" %}}
+  - {{% contentlink "topics/optimizations-and-big-o/" %}}
+  - {{% contentlink "projects/python-specific/mongo" %}} - DUE
 
 * WEB_DEV:
   - {{% contentlink "topics/intro-to-docker/" %}}
-  - {{% contentlink "projects/sql/" %}}
+  - {{% contentlink "projects/sql/" %}} - INTRODUCTION
   - {{% contentlink "workshops/node-and-sql/" %}}
 
 ## Week 14
 
+- DATA_ENG
+    - {{% contentlink "topics/python-specific/sqlalchemy/migrations" %}}
+    - {{% contentlink "projects/python-specific/sqlalchemy-migrations" %}} - DUE
+    - {{% contentlink "topics/data-infrastructure/database-comparison/" %}}
+    - {{% contentlink "topics/python-specific/mongodb/" %}}
+    - {{% contentlink "projects/python-specific/mongo" %}} - INTRODUCTION
+
+* WEB_DEV:
+  - {{% contentlink "projects/sql/" %}} - DUE
+  - {{% contentlink "workshops/node-and-sql/" %}}
+
 ## Week 15
 
 - DATA_ENG:
-  - {{% contentlink "topics/data-infrastructure/database-comparison/" %}}
-  - {{% contentlink "topics/python-specific/mongodb/" %}}
-  - mongo project
-  - {{% contentlink "topics/optimizations-and-big-o/" %}}
+  - {{% contentlink "topics/data-infrastructure/dags-with-airflow" %}}
+  - {{% contentlink "projects/dags-with-airflow" %}} - INTRODUCED
 
 * DATA_SCI:
 
@@ -391,13 +390,13 @@ The recruits finish off their portfolios. From this point forward they are expec
 
   - {{% contentlink "topics/linux/os-environmental-variables/" %}}
   - {{% contentlink "topics/js-and-node-specific/dotenv/" %}}
-  - projects/nodejs/sql/
+  - {{% contentlink "projects/nodejs/sql" %}}
 
 ## Week 16
 
 - DATA_ENG:
-  - {{% contentlink "topics/data-infrastructure/dags-with-airflow" %}}
-  - project airflow introduced
+  - {{% contentlink "projects/dags-with-airflow" %}} - DUE
+
 
 * DATA_SCI:
 
@@ -407,7 +406,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 
   - {{% contentlink "projects/nodejs/express-forms" %}}
 
-All recruits will do this
+ALL:
 
 - {{% contentlink "topics/data-validation-and-quality-control/" %}}
 - NCIT 14: Database Development
@@ -419,8 +418,8 @@ All recruits will do this
   - {{% contentlink "projects/nodejs/api" %}}
 
 * DATA_ENG:
-  - project airflow due
-
+  - {{% contentlink "topics/python-specific/kafka" %}}
+  - {{% contentlink "projects/python-specific/kafka" %}} - INTRODUCTION
 ## Week 18
 
 - NCIT 15: Analytics, Surveys, and Reports / Input & Output
@@ -434,8 +433,10 @@ All recruits will do this
   - {{% contentlink "projects/nodejs/ajax" %}}
 
 - DATA_ENG:
-  topic kafka
-  project kafka introduced
+  - {{% contentlink "projects/python-specific/kafka" %}} - DUE
+  - {{% contentlink "topics/data-infrastructure/choosing-a-task-queue" %}}
+
+  
 
 ## Week 19
 
@@ -447,10 +448,11 @@ All recruits will do this
 
 - DATA_ENG:
 
-  - {{% contentlink "topics/data-infrastructure/choosing-a-task-queue" %}}
+  - {{% contentlink "projects/python-specific/spark" %}} - INTRODUCED
+  - {{% contentlink "topics/python-specific/spark" %}}
 
-  topic kafka
-  project kafka due
+
+
 
 ## Week 20
 
@@ -466,15 +468,13 @@ All recruits will do this
 - NCIT 19: Agile meetings
 - NCIT 20: Managing the Software Development Process
 
-* DATA_ENG:
 
 ## Week 21: NCIT bits and pieces
 
 MUB must happen before this point.
 
 - DATA_ENG:
-  - topic intro to spark
-  - project spark
+  - {{% contentlink "projects/python-specific/spark" %}} - DUE
 
 ALL:
 
@@ -484,7 +484,8 @@ ALL:
 
 - DATA_SCI:
   - {{% contentlink "projects/data-science-specific/cross-validation-and-simple-linear-regression/" %}}
-- DATA_ENG:
+
+
 - ALL:
   - {{% contentlink "topics/data-infrastructure/database-comparison/" %}}
 
@@ -515,17 +516,17 @@ ALL:
 
 ## Optional Extras
 
-If recruits want/need to go a little further with their learning then here are a few useful resources
+If recruits want/need to go a little further with their learning then here are a few useful resources.
 
 - WEB_DEV:
 
-  - {{% contentlink "topics/js-and-node-specific/mongodb/" %}}
   - {{% contentlink "topics/web-frontend/intro-to-angular/" %}}
   - {{% contentlink "topics/web-frontend/intro-to-react/" %}}
   - {{% contentlink "topics/web-frontend/intro-to-vue/" %}}
   - {{% contentlink "workshops/nodejs-intro-to-socketio/" %}}
   - {{% contentlink "workshops/redux_intro/" %}}
   - {{% contentlink "workshops/nodejs-async-vs-sync" %}}
+  - {{% contentlink "topics/js-and-node-specific/mongodb/" %}}
 
 - DATA_ENG:
   - postgres stored procedures
@@ -535,9 +536,10 @@ If recruits want/need to go a little further with their learning then here are a
   - Overview of the Hadoop ecosystem
   - Linear regressions
 
+
 ## Optional Projects
 
-The projects listed below are not necessary but could be used to reenforce certain learnings
+The projects listed below are not necessary but could be used to re-enforce certain learnings
 
-- semitone challenge
-- more sql
+- {{% contentlink "projects/semitone-challenge" %}}
+

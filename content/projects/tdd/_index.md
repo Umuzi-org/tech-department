@@ -12,4 +12,4 @@ The exercises in this section can be done in any language. The aim is to have wo
 There are a few exercises here. Try the ones marked as easy first.
 
 ## Reads
-  - Here is a quick read on the most common TDD pitfalls: {{% contentlink "topics/coding-horrors/_index.md" %}}
+  - Here is a quick read on the most common TDD pitfalls: {{% contentlink "topics/unit-testing/tdd-horrors" %}}
