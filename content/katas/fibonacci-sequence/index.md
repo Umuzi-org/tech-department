@@ -1,6 +1,6 @@
 ---
 title: Fibonacci sequence
-pre: "<b>1. </b>"
+
 weight: 5
 ---
 
