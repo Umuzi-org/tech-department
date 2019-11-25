@@ -14,8 +14,7 @@ weight: 5
 **1.** 
 Write a function, fibonacci(n) that takes in a number/int argument (n) and returns the fibonacci sequence from the 1st term of the sequence till the nth term of the sequence. 
 
-```
-
+```js
 function fibonacci(n)
 ```
 ```
