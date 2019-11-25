@@ -13,10 +13,6 @@ weight: 5
 **1.** 
 Write a function, `fibonacci(n)` that takes in a number/int argument (n) and returns the first nth terms of the sequence. 
 
-```js
-function fibonacci(n)
-```
-
 **Input**
 
 ```
