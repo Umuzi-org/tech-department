@@ -12,19 +12,19 @@
     <title>Introduction to assertive programming :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1574583482" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1574583482" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1574583482" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1574583482" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1574583482" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1574583482" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1574583482" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1574583482" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1574676832" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1574676832" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1574676832" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1574676832" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1574676832" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1574676832" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1574676832" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1574676832" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1574583482" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1574676832" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1574583482"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1574676832"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1574583482"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1574583482"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1574676832"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1574676832"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1574583482"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1574676832"></script>
 
     
   </div>
@@ -6664,7 +6664,15 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#resources">Resources</a></li>
+<li><a href="#java-resources">Java Resources</a></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -6686,17 +6694,48 @@
 
         
 
-<p>Things to mention:</p>
+
+
+<p>You&rsquo;ve all heard of &ldquo;defensive driving&rdquo;, right? When driving a car you do certain things if you want to stay alive. You maintain a safe following distance, you check your mirrors and blind spot, you watch your speed. And why do you do that?</p>
+
+<p>Because mistakes happen. Sometimes the road is bad, sometimes there&rsquo;s a cow in the road, sometimes the other drivers on the road are inatentive. Sometimes you are inattentive.</p>
+
+<p>Ok. Now let&rsquo;s talk about code. Code is written by humans for humans. Humans are prone to human error. Humans make mistakes all the time, there will be typos, off-by-one errors, assumptions and all sorts of weird nonesense.</p>
+
+<p>Assertive programming is one way to do defensive programming. It has loads of benefits.</p>
+
+<p>First consider the following code:</p>
+
+<pre><code>assert refund_amount &gt; 0, f&quot;refund amound needs to be positive, this is invalid {refund_amount}&quot;
+</code></pre>
+
+<p>This is written in Python, but other languages have their own way of doing the same kind of stuff. Basically what this does is raise/throw an Exception/Error when a certain condition is not met. The error message is nice and descriptive.</p>
+
+<p>This is good for a few different things:</p>
 
 <ul>
 <li>sanity checking around human error and input validation</li>
-<li>actual syntax in all languages</li>
-<li>informative and specific error messages</li>
-<li>assertions as documentation</li>
+<li>these assertions are useful as documentation</li>
 </ul>
 
-<p>Maybe useful: <a href="https://stackoverflow.com/questions/3269802/javascript-anti-silent-techniques-to-indicate-failure">https://stackoverflow.com/questions/3269802/javascript-anti-silent-techniques-to-indicate-failure</a>
-<a href="https://www.geeksforgeeks.org/assertions-in-java/">https://www.geeksforgeeks.org/assertions-in-java/</a></p>
+<p>Also, in general, the earlier you find a problem the cheaper it it to fix. This is a fact of life. Seriously.</p>
+
+<p>In terms of coding, let&rsquo;s talk a bit more about the <code>refund_amount</code> assertion. Imagine a piece of software that is all about shopping. Occasionaly users require refunds. What might happen if somehow a negative refund amount slips into the system? It might show up as something weird on a frontend and make the end users distrust the system, then the backend devs will blame the frontend devs, maybe the accounting system will be negatively effected (of course the frontend devs will be blamed for this too, at least for a little while), the refund wont be paid to the user on time, and lotd of other aweful nasty stuff.</p>
+
+<p>That one little line of code prefents all sorts of crazy stuff from happening in the code.</p>
+
+<p>Assertions save lives!</p>
+
+<h2 id="resources">Resources</h2>
+
+<p>This excellent article talks about the benefits of failing fast and loudly:
+<a href="https://www.martinfowler.com/ieeeSoftware/failFast.pdf">https://www.martinfowler.com/ieeeSoftware/failFast.pdf</a></p>
+
+<h2 id="java-resources">Java Resources</h2>
+
+<ul>
+<li><a href="https://www.geeksforgeeks.org/assertions-in-java/">https://www.geeksforgeeks.org/assertions-in-java/</a></li>
+</ul>
 
 
 <footer class=" footline" >
@@ -10895,20 +10934,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1574583482"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1574583482"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1574583482"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1574583482"></script>
-    <script src="/tech-department/js/featherlight.min.js?1574583482"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1574583482"></script>
-    <script src="/tech-department/js/highlight.pack.js?1574583482"></script>
+    <script src="/tech-department/js/clipboard.min.js?1574676832"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1574676832"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1574676832"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1574676832"></script>
+    <script src="/tech-department/js/featherlight.min.js?1574676832"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1574676832"></script>
+    <script src="/tech-department/js/highlight.pack.js?1574676832"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1574583482"></script>
-    <script src="/tech-department/js/learn.js?1574583482"></script>
-    <script src="/tech-department/js/hugo-learn.js?1574583482"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1574676832"></script>
+    <script src="/tech-department/js/learn.js?1574676832"></script>
+    <script src="/tech-department/js/hugo-learn.js?1574676832"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1574583482" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1574583482"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1574676832" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1574676832"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

@@ -12,19 +12,19 @@
     <title>Animals Part 2. Adding Tests :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1574583482" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1574583482" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1574583482" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1574583482" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1574583482" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1574583482" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1574583482" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1574583482" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1574676831" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1574676831" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1574676831" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1574676831" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1574676831" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1574676831" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1574676831" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1574676831" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1574583482" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1574676831" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1574583482"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1574676831"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1574583482"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1574583482"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1574676831"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1574676831"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1574583482"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1574676831"></script>
 
     
   </div>
@@ -6676,7 +6676,17 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#java-instructions">Java Instructions</a>
+<ul>
+<li><a href="#up-for-a-challenge">Up for a Challenge?</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -6724,6 +6734,63 @@
 
         
 
+
+
+<p>In this challenge you will update your current Animals project and add unit tests to the project</p>
+
+<h2 id="java-instructions">Java Instructions</h2>
+
+<p>You&rsquo;ll be using JUnit.</p>
+
+<ol>
+<li>Create a class called <code>AnimalTests</code></li>
+<li>Update <code>Animal</code> super class <code>eats()</code> function to return a String, &ldquo;Food&rdquo;.</li>
+<li>Update <code>Dog</code> class <code>sounds()</code> function to return a <code>String</code>, &ldquo;Bark&rdquo;.</li>
+<li>Update <code>Cat</code> class <code>sounds()</code> function to return a <code>String</code>, &ldquo;Meow&rdquo;.</li>
+</ol>
+
+<pre><code>// Java
+
+Dog dog = new Dog()
+
+dog.eats()    // -&gt; 'Food'
+dog.sounds() // -&gt; 'Barks'
+
+Cat cat = new Cat()
+
+cat.eat()    // -&gt; 'Food'
+cat.sounds() // -&gt; 'Meow'
+</code></pre>
+
+<p>Now let&rsquo;s add our first JUnit test to our <code>AnimalTests</code>. The class should have the following methods <code>TestDogSound()</code>, <code>TestDogEats()</code>, <code>TestCatSound()</code> and <code>TestCatEats()</code>.Each method should have the @Test tag placed above it. The tests should work as follows.</p>
+
+<pre><code>// Java
+
+//Dog Tests
+Test -&gt; Does dog eat Food should Pass
+Test -&gt; Does dog eat food should Fail
+
+//Cat Tests
+Cat cat = new Cat();
+Test -&gt; Does cat Barkark should Fail
+Test -&gt; Does cat Meow should Pass
+Test -&gt; Does cat eat meat should Fail
+Test -&gt; Does cat eat Food should Pass
+Test -&gt; Does cat eat food should Fail
+
+</code></pre>
+
+<h3 id="up-for-a-challenge">Up for a Challenge?</h3>
+
+<p>This section is not compulsory. If you do this we&rsquo;ll think you&rsquo;re cool.</p>
+
+<p>Add some functionality to <code>TestDog()</code> and <code>TestCat()</code> so that the tests aren&rsquo;t case sensitive</p>
+
+<p>eg:</p>
+
+<pre><code>Test -&gt; Does dog eat Food -&gt; Pass
+Test -&gt; Does dog eat food -&gt; Pass
+</code></pre>
 
 
 <footer class=" footline" >
@@ -10927,20 +10994,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1574583482"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1574583482"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1574583482"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1574583482"></script>
-    <script src="/tech-department/js/featherlight.min.js?1574583482"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1574583482"></script>
-    <script src="/tech-department/js/highlight.pack.js?1574583482"></script>
+    <script src="/tech-department/js/clipboard.min.js?1574676831"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1574676831"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1574676831"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1574676831"></script>
+    <script src="/tech-department/js/featherlight.min.js?1574676831"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1574676831"></script>
+    <script src="/tech-department/js/highlight.pack.js?1574676831"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1574583482"></script>
-    <script src="/tech-department/js/learn.js?1574583482"></script>
-    <script src="/tech-department/js/hugo-learn.js?1574583482"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1574676831"></script>
+    <script src="/tech-department/js/learn.js?1574676831"></script>
+    <script src="/tech-department/js/hugo-learn.js?1574676831"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1574583482" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1574583482"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1574676831" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1574676831"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
