@@ -37,6 +37,9 @@ Assertions save lives!
 This excellent article talks about the benefits of failing fast and loudly:
 https://www.martinfowler.com/ieeeSoftware/failFast.pdf
 
+This discussion on Stackoverflow is about where assertions are inappropriate. It makes use of heavy wordds like `public methods` and stuff like that. Basically a shortcut to doing this right is thinking about who is going to see your error message and how the error message will be useful to them.
+https://stackoverflow.com/questions/13832487/why-should-assertions-not-be-used-for-argument-checking-in-public-methods
+
 ## Java Resources
 
 - https://www.geeksforgeeks.org/assertions-in-java/

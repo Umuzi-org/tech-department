@@ -88,7 +88,7 @@ eg `isosceles(4)` should output
 #######
 ```
 
-## find the longest string
+## Exercise: find the longest string
 
 Write a function that takes in an arra/list of strings and then prints out the longest one
 
@@ -114,7 +114,7 @@ upon
 time
 ```
 
-## combine two lists/arrays
+## Exercise: combine two lists/arrays
 
 Write a function that combines two lists by alternatingly taking elements and prints the result
 
@@ -124,7 +124,7 @@ eg `combine([11,22,33], [1,2,3])` should output
  [11,1,22,2,33,3]
 ```
 
-## Frame some text
+## Exercise: Frame some text
 
 Write a function that takes a list of strings an prints them, one per line, in a rectangular frame.
 

@@ -20,10 +20,11 @@ There's a lot more to be said about it than that. And there are a lot of intrica
 
 ## Resources
 
+- https://www.guru99.com/test-driven-development.html This is really good. But it glosses over the REFACTOR phase of TDD. ALways refactor. Always.
 - https://www.youtube.com/watch?v=H4Hf3pji7Fw
 - https://www.youtube.com/watch?v=3vuW4lFdAxc
 
-This video is about BDD. Which is even cooler. https://www.youtube.com/watch?v=VS6EEUVZGLE
+This video is about BDD. Which is even cooler than tdd. https://www.youtube.com/watch?v=VS6EEUVZGLE
 
 # Example
 

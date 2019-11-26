@@ -16,3 +16,8 @@ Go forth and learn.
 ## Resources
 
 [This](https://www.tutorialspoint.com/junit/index.htm) is a great tutorial. It'll take you from zero to hero. Please make sure you understand all of JUnit. (Except the stuff about Ant and Eclipse)
+
+And here are some videos for you:
+
+- https://www.youtube.com/watch?v=D2SiQest2nE&list=PLK7KNOA7vbPN5Y3HcsdmB7GKfnpWQpv0L
+- https://www.youtube.com/watch?v=sQ4KgrxGQSc&list=PLqq-6Pq4lTTa4ad5JISViSb2FVG8Vwa4o&index=4
