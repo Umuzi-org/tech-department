@@ -7,9 +7,9 @@ ready: True
 
 Jasmine is made for unit testing. Unit tests are supposed to test only one component of your application. A component can be a function, an object, a module, basically everything self-contained that acts like a black box to the outside world. You usually want to avoid that your unit tests fail because another component failed. That’s why you want to test your components in isolation as much as possible.
 
-One of the primary aims of unit testing is to isolate a method or component that you want to test and see how it behaves under a variety of circumstances. These might include calls with various arguments - or even none at all, - or whether it calls other methods as it should. Unfortunately, many methods and/or objects have dependencies on other methods and/or objects, such as network connections, data sources, files, and even previously executed methods. This is where mocks come in. A mock is a fake object that poses as the real McCoy in order to satisfy the inherent dependency(ies) without having to go through the overhead of creating the real object.
+For example, you may not want to send data to another server in your unit tests or you don’t want to manipulate a page’s DOM. But you want to make sure that the components which are responsible for these tasks get called correctly. How do we do this?
 
-[Understanding spies](https://www.freecodecamp.org/news/jasmine-unit-testing-tutorial-4e757c2cbf42/)
+One of the primary aims of unit testing is to isolate a method or component that you want to test and see how it behaves under a variety of circumstances. These might include calls with various arguments - or even none at all, - or whether it calls other methods as it should. Unfortunately, many methods and/or objects have dependencies on other methods and/or objects, such as network connections, data sources, files, and even previously executed methods. This is where mocks come in. A mock is a fake object that poses as the real McCoy in order to satisfy the inherent dependency(ies) without having to go through the overhead of creating the real object.
 
 In Jasmine, mocks are referred to as spies. There are two ways to create a spy in Jasmine: *spyOn()* can only be used when the method already exists on the object, whereas *jasmine.createSpy()* will return a brand new function:
 
