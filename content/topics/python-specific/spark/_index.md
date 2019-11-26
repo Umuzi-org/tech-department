@@ -1,6 +1,6 @@
 ---
 title: Python and Spark
-ready:true
+ready: True
 ---
 
 As a Data Engineer, you will be required to process large data sets for various reasons. In this fast paced world, the rate at which you carry out the processing matters and as a result, there exits various tools which help Data Engineers process large datasets quickly. Apache Spark is an open-source general-purpose distributed processing system used for big data workloads.
