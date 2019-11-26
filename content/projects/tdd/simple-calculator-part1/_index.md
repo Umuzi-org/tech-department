@@ -45,6 +45,10 @@ Your directory structure should look like this:
     -package.json
 ```
 
+## Java
+
+You'll be using IntelliJ, Gradle and JUnit to pull this off.
+
 ## 1. Create an add function that can add two integers
 
 Create a function called `add` that works like this:
