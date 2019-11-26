@@ -9,22 +9,22 @@
 
     <link rel="icon" href="/tech-department/images/favicon.png" type="image/png">
 
-    <title>Assertive programming katas :: Documentation for Umuzi Tech Department</title>
+    <title>Assertive programming kata :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1574676831" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1574676831" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1574676831" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1574676831" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1574676831" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1574676831" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1574676831" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1574676831" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1574743334" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1574743334" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1574743334" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1574743334" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1574743334" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1574743334" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1574743334" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1574743334" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1574676831" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1574743334" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1574676831"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1574743334"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1574676831"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1574676831"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1574743334"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1574743334"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1574676831"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1574743334"></script>
 
     
   </div>
@@ -4037,13 +4037,13 @@
  
   
     
-    <li data-nav-id="/tech-department/projects/basic-flow-control-katas-assertive/" title="Assertive programming katas" class="dd-item 
+    <li data-nav-id="/tech-department/projects/basic-flow-control-katas-assertive/" title="Assertive programming kata" class="dd-item 
         parent
         active
         
         ">
       <a href="/tech-department/projects/basic-flow-control-katas-assertive/">
-          Assertive programming katas
+          Assertive programming kata
           
       </a>
       
@@ -6651,7 +6651,7 @@
             
           
           
-            <a href='/tech-department/'>Umuzi Tech Department</a> > <a href='/tech-department/projects/'>Projects</a> > Assertive programming katas
+            <a href='/tech-department/'>Umuzi Tech Department</a> > <a href='/tech-department/projects/'>Projects</a> > Assertive programming kata
           
         
           
@@ -6664,7 +6664,17 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#exercise-morse-code">Exercise: Morse code</a></li>
+<li><a href="#resources">Resources</a></li>
+<li><a href="#remarks">Remarks</a></li>
+<li><a href="#up-for-a-challenge">Up for a challenge?</a></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -6676,7 +6686,7 @@
         
         <div id="body-inner">
           
-            <h1>Assertive programming katas</h1>
+            <h1>Assertive programming kata</h1>
           
 
         
@@ -6712,6 +6722,50 @@
 
         
 
+
+
+<p>These katas are a bit harder than the last bunch. Make use of assertions to help make sure that your code is doing the right thing, and to add readability.</p>
+
+<h2 id="exercise-morse-code">Exercise: Morse code</h2>
+
+<p>Create two functions:</p>
+
+<pre><code>lettersToMorseCode
+morseCodeToLetters
+</code></pre>
+
+<p>eg:</p>
+
+<pre><code>lettersToMoreseCode(&quot;Hi there&quot;)
+// should return
+// &quot;.... .. / - .... . .-. .&quot;
+</code></pre>
+
+<p>Include the following assertions in your code:</p>
+
+<ul>
+<li>assert that the output and input both have the same number of characters represented</li>
+<li>assert that there are the right number of spaces represented in the output</li>
+</ul>
+
+<p>Make sure that when you do this, your code remains clean and DRY. DRY - it&rsquo;s a thing. Google it.</p>
+
+<h2 id="resources">Resources</h2>
+
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Morse_code">https://en.wikipedia.org/wiki/Morse_code</a></li>
+<li><a href="https://morsecode.scphillips.com/translator.html">https://morsecode.scphillips.com/translator.html</a></li>
+</ul>
+
+<h2 id="remarks">Remarks</h2>
+
+<p>Admittedly this kata is a little bit contrived. Assertions are great for adding runtime checks to values and adding documentation as code.</p>
+
+<p>For a problem like this one, unit tests are more appropriate.</p>
+
+<h2 id="up-for-a-challenge">Up for a challenge?</h2>
+
+<p>Add unit tests to your code. Leave the asserions in there just so that we can see that you know how to hit the requirements we laid out. But if you have some passing tests as well that would be sweet.</p>
 
 
 <footer class=" footline" >
@@ -10910,20 +10964,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1574676831"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1574676831"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1574676831"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1574676831"></script>
-    <script src="/tech-department/js/featherlight.min.js?1574676831"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1574676831"></script>
-    <script src="/tech-department/js/highlight.pack.js?1574676831"></script>
+    <script src="/tech-department/js/clipboard.min.js?1574743334"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1574743334"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1574743334"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1574743334"></script>
+    <script src="/tech-department/js/featherlight.min.js?1574743334"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1574743334"></script>
+    <script src="/tech-department/js/highlight.pack.js?1574743334"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1574676831"></script>
-    <script src="/tech-department/js/learn.js?1574676831"></script>
-    <script src="/tech-department/js/hugo-learn.js?1574676831"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1574743334"></script>
+    <script src="/tech-department/js/learn.js?1574743334"></script>
+    <script src="/tech-department/js/hugo-learn.js?1574743334"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1574676831" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1574676831"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1574743334" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1574743334"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
