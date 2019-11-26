@@ -166,7 +166,6 @@ The recruits finish off their portfolios. From this point forward they are expec
 * JAVA:
   - {{% contentlink "workshops/java-specific/basic-intro-to-oop" %}}
   - {{% contentlink "topics/java-specific/oop-basics"%}}
-  - {{% contentlink "topics/java-specific/oop-access-modifiers" %}}
   - {{% contentlink "projects/oop/person" %}} do this in pairs
   - {{% contentlink "projects/oop/animals/part1" %}} individual. Due towards the end of the week
   - NCIT 08: Pseudocode and documentation
@@ -278,7 +277,6 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "topics/linux/os-environmental-variables/" %}}
   - {{% contentlink "topics/python-specific/virtual-envs/" %}}
 
-
 - WEB_DEV:
 
   - {{% contentlink "topics/unit-testing/mocks-and-spies" %}}
@@ -313,6 +311,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 ## Week 11
 
 - DATA_ENG
+
   - {{% contentlink "topics/python-specific/sqlalchemy" %}}
   - {{% contentlink "projects/build-rest-api-with-db" %}}
 
@@ -337,8 +336,8 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/nodejs/file-io" %}}
 
 - DATA_ENG:
-    - {{% contentlink "topics/python-specific/sqlalchemy/migrations" %}}
-    - {{% contentlink "projects/python-specific/sqlalchemy-migrations" %}} - INTRODUCTION
+  - {{% contentlink "topics/python-specific/sqlalchemy/migrations" %}}
+  - {{% contentlink "projects/python-specific/sqlalchemy-migrations" %}} - INTRODUCTION
 
 ## Week 13
 
@@ -365,11 +364,11 @@ The recruits finish off their portfolios. From this point forward they are expec
 ## Week 14
 
 - DATA_ENG
-    - {{% contentlink "topics/python-specific/sqlalchemy/migrations" %}}
-    - {{% contentlink "projects/python-specific/sqlalchemy-migrations" %}} - DUE
-    - {{% contentlink "topics/data-infrastructure/database-comparison/" %}}
-    - {{% contentlink "topics/python-specific/mongodb/" %}}
-    - {{% contentlink "projects/python-specific/mongo" %}} - INTRODUCTION
+  - {{% contentlink "topics/python-specific/sqlalchemy/migrations" %}}
+  - {{% contentlink "projects/python-specific/sqlalchemy-migrations" %}} - DUE
+  - {{% contentlink "topics/data-infrastructure/database-comparison/" %}}
+  - {{% contentlink "topics/python-specific/mongodb/" %}}
+  - {{% contentlink "projects/python-specific/mongo" %}} - INTRODUCTION
 
 * WEB_DEV:
   - {{% contentlink "projects/sql/" %}} - DUE
@@ -397,7 +396,6 @@ The recruits finish off their portfolios. From this point forward they are expec
 - DATA_ENG:
   - {{% contentlink "projects/dags-with-airflow" %}} - DUE
 
-
 * DATA_SCI:
 
   - {{% contentlink "topics/python-specific/sql-and-python/" %}}
@@ -420,6 +418,7 @@ ALL:
 * DATA_ENG:
   - {{% contentlink "topics/python-specific/kafka" %}}
   - {{% contentlink "projects/python-specific/kafka" %}} - INTRODUCTION
+
 ## Week 18
 
 - NCIT 15: Analytics, Surveys, and Reports / Input & Output
@@ -433,10 +432,9 @@ ALL:
   - {{% contentlink "projects/nodejs/ajax" %}}
 
 - DATA_ENG:
+
   - {{% contentlink "projects/python-specific/kafka" %}} - DUE
   - {{% contentlink "topics/data-infrastructure/choosing-a-task-queue" %}}
-
-  
 
 ## Week 19
 
@@ -451,9 +449,6 @@ ALL:
   - {{% contentlink "projects/python-specific/spark" %}} - INTRODUCED
   - {{% contentlink "topics/python-specific/spark" %}}
 
-
-
-
 ## Week 20
 
 - ALL:
@@ -467,7 +462,6 @@ ALL:
 - NCIT 18: Agile project management
 - NCIT 19: Agile meetings
 - NCIT 20: Managing the Software Development Process
-
 
 ## Week 21: NCIT bits and pieces
 
@@ -485,8 +479,7 @@ ALL:
 - DATA_SCI:
   - {{% contentlink "projects/data-science-specific/cross-validation-and-simple-linear-regression/" %}}
 
-
-- ALL:
+* ALL:
   - {{% contentlink "topics/data-infrastructure/database-comparison/" %}}
 
 ## Week 23
@@ -536,10 +529,8 @@ If recruits want/need to go a little further with their learning then here are a
   - Overview of the Hadoop ecosystem
   - Linear regressions
 
-
 ## Optional Projects
 
 The projects listed below are not necessary but could be used to re-enforce certain learnings
 
 - {{% contentlink "projects/semitone-challenge" %}}
-

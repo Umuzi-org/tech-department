@@ -1,3 +1,0 @@
----
-title: Java access modifiers
----
