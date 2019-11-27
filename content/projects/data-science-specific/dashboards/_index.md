@@ -3,16 +3,14 @@ title: Dashboard Assignment
 ready: True
 ---
 
-## Tutorials
+## Assignments
 
-- [Create a Plotly Dashboard in under 10 minutes](https://moderndata.plot.ly/create-a-plotly-dashboards-in-under-10-minutes/) (Easy)
-- [Create a dashboard with Pusher and Flask](https://pusher.com/tutorials/live-dashboard-python) (Advanced)
+There are several assignments on this page for you to try. The first two create static dashboards in Google Data Studio and Plotly. The second two assignments feature live data that update on a regular basis. The last assignment also requires webscraping.
 
-## Assignment
+1. EASY: Using Google Data Studio {% contentlink "projects/data-science-specific/dashboards/google_data_studio" %}}. You will need the tutorial in {% contentlink "topics/data-science-specific/google-data-studio" %}}.
 
-Watch the sessions on [Dashboarding with Notebooks](https://www.kaggle.com/rtatman/dashboarding-with-notebooks-day-1/notebook). Use one of the updating data sources referred to in the Kaggle sessions to create a dashboard with Jupyter Notebooks and Plotly (or, if you are feeling up to the task, Flask).
+2. EASY: Using Plotly {% contentlink "projects/data-science-specific/dashboards/plotly_dashboards" %}}.
 
-Your dashboard should be both visually appealing and informative. 
+3. HARD: Visualising live data with Plotly {% contentlink "projects/data-science-specific/dashboards/live_dashboards" %}}
 
-**BONUS POINTS:** Use [beautifulsoup](https://pypi.org/project/beautifulsoup4/) to scrape live data off a website. Make a dashboard from this data.
-Example: [I was looking for a house, so I built a web scraper in Python!](https://towardsdatascience.com/looking-for-a-house-build-a-web-scraper-to-help-you-5ab25badc83e)
+4. HARD: Webscraping and dashboarding {% contentlink "projects/data-science-specific/dashboards/webscraping_plus_dashboards" %}}
