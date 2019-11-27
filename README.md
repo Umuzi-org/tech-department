@@ -33,7 +33,7 @@ export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
 Run these installs in your terminal using Homebrew
 ```
 brew install go
-brew install hugo
+brew install hugo -> look for version 0.51
 ``` 
 
 To run the development server:
