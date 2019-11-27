@@ -3,7 +3,7 @@ title: Animals Part 1. OOP basics
 ready: true
 ---
 
-This Challenge should test 3 topics from your OOP knowledge
+This Challenge should test  topics from your OOP knowledge
 
 1. Encapsulation
 2. Inheritance
@@ -22,12 +22,12 @@ In this challenge you will create 3 classes
 ```
 // Java
 
-Dog dog = new Dog()
+? dog = new Dog()
 
 dog.eat()    // -> 'Rax eats'
 dog.sounds() // -> 'Dog barks'
 
-Cat cat = new Cat()
+? cat = new Cat()
 
 cat.eat()    // -> 'Stormy eats'
 cat.sounds() // -> 'Cat meows'
