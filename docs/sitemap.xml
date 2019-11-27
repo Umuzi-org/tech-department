@@ -96,7 +96,15 @@
   </url>
   
   <url>
+    <loc>/tech-department/katas/ceasar-cipher/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/katas/compound-interest/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/katas/fibonacci-sequence/</loc>
   </url>
   
   <url>
@@ -267,6 +275,10 @@
   
   <url>
     <loc>/tech-department/projects/first-personal-website/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/business-intelligence-tools/</loc>
   </url>
   
   <url>
@@ -482,6 +494,14 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/data-science-specific/google-data-studio/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/data-science-specific/dashboards/google_data_studio/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/google-forms-like-a-boss/</loc>
   </url>
   
@@ -658,10 +678,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/java-specific/oop-access-modifiers/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/java-specific/java-self-learning/</loc>
   </url>
   
@@ -697,6 +713,10 @@
   
   <url>
     <loc>/tech-department/projects/linux/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/data-science-specific/dashboards/live_dashboards/</loc>
   </url>
   
   <url>
@@ -789,6 +809,10 @@
   
   <url>
     <loc>/tech-department/projects/oop/person/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/data-science-specific/dashboards/plotly_dashboards/</loc>
   </url>
   
   <url>
@@ -976,6 +1000,10 @@
   
   <url>
     <loc>/tech-department/topics/python-specific/web-scraping/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/data-science-specific/dashboards/webscraping_plus_dashboards/</loc>
   </url>
   
   <url>
