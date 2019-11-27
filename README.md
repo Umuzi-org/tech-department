@@ -20,6 +20,21 @@ This is a Hugo based application. To get yourself set up on a Debian machine:
 sudo apt install golang
 ./install_hugo.sh
 ```
+MAC
+
+Add this in your bash file e.g zshrc
+
+```
+# Go development
+export GOPATH="${HOME}/.go"
+export GOROOT="$(brew --prefix golang)/libexec"
+export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
+```
+Run these installs in your terminal using Homebrew
+```
+brew install go
+brew install hugo
+``` 
 
 To run the development server:
 
