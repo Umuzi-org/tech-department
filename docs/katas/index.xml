@@ -11,6 +11,19 @@
     
     
     <item>
+      <title>Ceasar cipher</title>
+      <link>/tech-department/katas/ceasar-cipher/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/katas/ceasar-cipher/</guid>
+      <description>What is ceasar cipher?
+ Caesar Cipher:
+Is a type of substitution cipher encryption in which each letter in the plaintext is &amp;lsquo;shifted&amp;rsquo; a certain number of places down the alphabet. For example, with a shift of 1, A would be replaced by B, B would become C, and so on. The method is named after Julius Caesar, who apparently used it to communicate with his generals.
+ Example
+ To pass an encrypted message from one person to another, it is first necessary that both parties have the &amp;lsquo;key&amp;rsquo; for the cipher, so that the sender may encrypt it and the receiver may decrypt it.</description>
+    </item>
+    
+    <item>
       <title>Compound interest</title>
       <link>/tech-department/katas/compound-interest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -20,6 +33,21 @@
 Eg if I have R100 in a bank account and I get 1% interest every month, I can see how much money I will have in my account at the end of each month like so:
 Try it with a loop. Try it with recursion.
 // JavaScript function finalAmount(startAmount,interest,iterations){ // clever things } finalAmount(100,0.01,1) // 101.</description>
+    </item>
+    
+    <item>
+      <title>Fibonacci sequence</title>
+      <link>/tech-department/katas/fibonacci-sequence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/katas/fibonacci-sequence/</guid>
+      <description>What is fibonacci sequence?
+ Fibonacci Sequence: is the series of numbers where the next number is found by adding up the 2 numbers before it.
+ TASK
+1. Write a function, fibonacci(n) that takes in a number/int argument (n) and returns the first nth terms of the sequence.
+Input
+fibonacci(12)  Output
+Expected output: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89 in this case n = 2:  </description>
     </item>
     
     <item>
