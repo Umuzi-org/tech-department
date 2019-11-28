@@ -63,7 +63,9 @@ Good File Sorting Function()
 As you can see, there is a lot going on in the Bad file sorting function, so it would be difficult to describe what it does in one sentence or to give it a name.
 
 ## DRY - Don't Repeat Yourself
-Ideally functionality should be represented in a code-base exactly once. If you find yourself repeating certain values such as strings or numbers that won't change, rather same those values to variables. This also means you won't have to change everywhere you're using those values, you'll only need to change them where you originally assigned them to a variable.
+Ideally functionality should be represented in a code-base exactly once. If you find yourself repeating certain values such as strings or numbers for example, rather save those values to variables. This also means that if the values change, you won't have to change them update them again on every line where you've used them. You'll only need to change them where you originally created and assigned them.
+
+The same goes applies to functions.
 
 ## Flat is Better Than Nested
 If you are ever tempted to put a loop inside a loop... etc. Don't.
@@ -74,7 +76,30 @@ Functions are:\
 * Easier to reuse.\
 * Easier to document.\
 
-## Code Defensively
-Defensive programming means anticipating things that could probably go wrong and coding to handle such situations instead of just throwing error or exception mesages. The goal is to write code that can handle real life situations: e.g. invalid input from the user.
+## Indentation, Alignment and Consistency
+Indent and align your code so that you can clearly see what code runs inside a particular loop or function. Indented code is easier to read and maitain.
 
-If you don't code defensively your code might for example fail to complete its work but acts as if there is no problem leading to issues that are difficult to find and fix after you've launched your app. These bad scenarios are also called "edge cases". So think about the edge cases, assume that your user is really, really dumb and isn't following the instructions or using your program as they should. Then write your code to anticipate handle such abuse or misuse.
+Example of Good Indentation
+
+```md
+Good File Sorting Function()
+    Sort Files(folder)
+    Print Files(sorted folder)
+```
+
+Example of Bad Indentation
+
+```md
+Good File Sorting Function()
+Sort Files(folder)
+Print Files(sorted folder)
+```
+
+In the above pseudo-code the "Sort Files" and "Print Files" function are actually called inside of the "Good File Sorting" function. They are a part of the "Good File Sorting" function. But without the indentation they all look like separate functions.
+
+Besides alignment your code needs to be consistent. If you use spaces for indentation use them on every line. Don't use tabs in one line and spaces in another line. Rather just use spaces. You can set your IDE to indent using spaces as the default. There also plenty of code formatting and linting tools such as ESLint, Prettier, Black etc... Do make use of them.
+
+## Code Defensively
+Defensive programming means anticipating things that could probably go wrong and coding to handle such situations or edge cases. The goal is to write code that can handle real life situations: e.g. invalid input from the user - the user inputs a number where your program requires a text string.
+
+If you don't code defensively your code might for example fail to complete its work still actsas if there is no problem. This leads to issues that are difficult to find and fix after you've pushed your code. You can make use of exception or error messages for example to prevent your code from running if the input was invalid. So think about the edge cases. Assume that your user is really isn't always going to following the instructions or use your program as they should. Then write your code to anticipate handle such abuse or misuse. 
