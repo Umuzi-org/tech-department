@@ -12,6 +12,11 @@ passwordIsValid(password)
 ```
 
 ```
+// Java:
+passwordIsValid(password)
+```
+
+```
 # Python:
 password_is_valid(password)
 ```
@@ -30,12 +35,19 @@ In the case of (6) above, a special character is a character that is on the keyb
 Next, implement a function called password is ok:
 
 ```
-Javascript:
+// Javascript:
 passwordIsOk(password)
 ```
 
+
 ```
-Python:
+// Java:
+passwordIsOk(password)  
+```
+
+
+```
+# Python:
 password_is_ok(password)
 ```
 
@@ -52,3 +64,8 @@ Add a feature: the password is never OK if conditions 1 and 2 are not met.
 
 - [Python Errors](https://www.codementor.io/sheena/how-to-write-python-custom-exceptions-du107ufv9?referral=sheena-kvo1e6ewh)
 - [Exceptions and Pytest](https://stackoverflow.com/questions/23337471/how-to-properly-assert-that-an-exception-gets-raised-in-pytest)
+
+
+## Java Resources
+
+- https://howtodoinjava.com/junit5/expected-exception-example/
