@@ -92,7 +92,51 @@
   </url>
   
   <url>
+    <loc>/tech-department/katas/use-loops-to-print-patterns/c-shape/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/katas/ceasar-cipher/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/katas/compound-interest/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/katas/fibonacci-sequence/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/katas/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/katas/palindrome/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/katas/use-loops-to-print-patterns/pyramids/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/katas/use-loops-to-print-patterns/squares/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/katas/string-reverse/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/katas/string-rotate/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/katas/use-loops-to-print-patterns/triangles/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/katas/use-loops-to-print-patterns/</loc>
   </url>
   
   <url>
@@ -157,6 +201,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/tdd/password-checker/part2/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/linux/advanced/</loc>
   </url>
   
@@ -173,8 +221,24 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/oop/animals/part1/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/oop/animals/part2/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/apis/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/asserive-programming-tricks-for-pandas/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/basic-flow-control-katas-assertive/</loc>
   </url>
   
   <url>
@@ -187,6 +251,10 @@
   
   <url>
     <loc>/tech-department/projects/oop/bank_accounts/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/python-specific/basic-intro-to-oop/</loc>
   </url>
   
   <url>
@@ -207,6 +275,10 @@
   
   <url>
     <loc>/tech-department/projects/first-personal-website/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/business-intelligence-tools/</loc>
   </url>
   
   <url>
@@ -255,6 +327,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/github-api-consume/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/contact-us/</loc>
   </url>
   
@@ -264,6 +340,10 @@
   
   <url>
     <loc>/tech-department/projects/data-science-specific/cross-validation-and-simple-linear-regression/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/dags-with-airflow/</loc>
   </url>
   
   <url>
@@ -330,6 +410,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/python-specific/sqlalchemy-migrations/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/department-processes/deadlines/</loc>
   </url>
   
@@ -358,6 +442,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/java-specific/exception-handling/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/expose-a-simple-rest-api-for-game/</loc>
   </url>
   
@@ -371,6 +459,10 @@
   
   <url>
     <loc>/tech-department/topics/js-and-node-specific/expressjs/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/java-fileio-logging-errors/</loc>
   </url>
   
   <url>
@@ -399,6 +491,14 @@
   
   <url>
     <loc>/tech-department/topics/git/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/data-science-specific/google-data-studio/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/data-science-specific/dashboards/google_data_studio/</loc>
   </url>
   
   <url>
@@ -446,6 +546,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/java-specific/intro-to-junit/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/intro-to-presentation/</loc>
   </url>
   
@@ -482,7 +586,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/intro-to-css/</loc>
+    <loc>/tech-department/topics/web-frontend/intro-to-css/</loc>
   </url>
   
   <url>
@@ -522,6 +626,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/intro-to-asserive-programming/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/intro-to-pair-programming/</loc>
   </url>
   
@@ -542,6 +650,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/jasmine-spies/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/jasmine-unit-tests/</loc>
   </url>
   
@@ -551,6 +663,14 @@
   
   <url>
     <loc>/tech-department/topics/java-specific/java-dev-environment-setup/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/file-io/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/logging/</loc>
   </url>
   
   <url>
@@ -575,6 +695,11 @@
   </url>
   
   <url>
+    <loc>/tech-department/workshops/js-and-node-specific/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/jupyter-notebooks-best-practices/</loc>
   </url>
   
@@ -595,6 +720,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/data-science-specific/dashboards/live_dashboards/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/python-specific/live-code-python-intro/</loc>
   </url>
   
@@ -604,6 +733,18 @@
   
   <url>
     <loc>/tech-department/workshops/java-specific/live-code-java-intro/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/logging/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/js-and-node-specific/logging/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/logging/</loc>
   </url>
   
   <url>
@@ -631,7 +772,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/node/</loc>
+    <loc>/tech-department/topics/js-and-node-specific/node/</loc>
   </url>
   
   <url>
@@ -659,6 +800,14 @@
   </url>
   
   <url>
+    <loc>/tech-department/workshops/js-and-node-specific/basic-intro-to-oop/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/js-and-node-specific/oop-basics/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/department-processes/team-onboarding/</loc>
   </url>
   
@@ -667,7 +816,15 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/tdd/password-checker/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/oop/person/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/data-science-specific/dashboards/plotly_dashboards/</loc>
   </url>
   
   <url>
@@ -676,6 +833,30 @@
   
   <url>
     <loc>/tech-department/projects/data-science-specific/logistic-regression/titanic/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/oop-basics/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/python-specific/kafka/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/kafka/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/python-specific/mongo/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/python-specific/spark/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/spark/</loc>
   </url>
   
   <url>
@@ -728,11 +909,31 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/python-specific/sqlalchemy-and-alembic/</loc>
+    <loc>/tech-department/topics/python-specific/sqlalchemy/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/sqlalchemy/basics/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/sqlalchemy/migrations/</loc>
   </url>
   
   <url>
     <loc>/tech-department/projects/data-science-specific/statistical-thinking/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/string-and-number-manipulation/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/js-and-node-specific/super-basic-intro-to-node/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/unit-testing/tdd-horrors/</loc>
   </url>
   
   <url>
@@ -742,6 +943,10 @@
   
   <url>
     <loc>/tech-department/projects/tdd/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/test-driven-development/</loc>
   </url>
   
   <url>
@@ -761,6 +966,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/basic-unit-test-mocks-kata/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/unit-testing/</loc>
   </url>
   
@@ -770,6 +979,10 @@
   
   <url>
     <loc>/tech-department/workshops/js-unit-tewsting/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/unit-testing/mocks-and-spies/</loc>
   </url>
   
   <url>
@@ -799,6 +1012,10 @@
   
   <url>
     <loc>/tech-department/topics/python-specific/web-scraping/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/data-science-specific/dashboards/webscraping_plus_dashboards/</loc>
   </url>
   
   <url>
@@ -854,7 +1071,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/tdd/password-checker/</loc>
+    <loc>/tech-department/projects/tdd/password-checker/part1/</loc>
   </url>
   
   <url>

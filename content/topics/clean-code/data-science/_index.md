@@ -18,6 +18,6 @@ and read this description of how to organise your projects using atom and Jupyte
 
 ## Advanced git for teams
 
-Here's a good conceptualisation of how git works in a development team. There are different ways for team to work, but this [Atlassian Git Workflow article](https://www.atlassian.com/git/tutorials/comparing-workflows) gives you a great introduction.
+Here's a good conceptualisation of how git works in a development team. There are different ways for team to work, but this {{% contentlink "topics/git/git-basics" %}} gives you a great introduction.
 
 You can thank me later ;)

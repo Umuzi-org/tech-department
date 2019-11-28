@@ -10,6 +10,7 @@ Please note that this project should be done in a TDD manner.
 
 #### 1. Create an add function that can handle up to two integers passed in as a string.
 
+
 Create a function called `add()` that takes in a string as a parameter and behaves in the following way: 
 
 
@@ -110,3 +111,6 @@ add(“//[*][%]\n1***2%%%3”)
 // should return 6
 
 ```
+=======
+### why is this important?
+- If you're wondering to yourself, "Why is this sooo important!?" take a look at {{% contentlink "/topics/data_validation_and_verification/" %}}

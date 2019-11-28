@@ -39,7 +39,9 @@ print(greeting)
 ```
 // Java
 
-Person person = new Person('Ryan',30,'male',['being a hardarse','agile', 'ssd hard drives'] )
+Person person = new Person(
+    "Ryan",30,"male",
+    new String[] {"being a hardarse", "agile", "ssd hard drives"})
 String greeting = person.hello()
 System.out.println(greeting)
 ```
