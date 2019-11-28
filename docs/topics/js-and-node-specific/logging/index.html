@@ -12,19 +12,19 @@
     <title>Logging in Node and JS :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1574833389" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1574833389" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1574833389" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1574833389" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1574833389" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1574833389" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1574833389" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1574833389" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1574946094" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1574946094" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1574946094" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1574946094" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1574946094" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1574946094" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1574946094" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1574946094" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1574833389" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1574946094" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1574833389"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1574946094"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1574833389"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1574833389"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1574946094"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1574946094"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1574833389"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1574946094"></script>
 
     
   </div>
@@ -1533,6 +1533,30 @@
  
   
     
+    <li data-nav-id="/tech-department/topics/jasmine-spies/" title="Jasmine Spies" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/tech-department/topics/jasmine-spies/">
+          Jasmine Spies
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
     <li data-nav-id="/tech-department/topics/jasmine-unit-tests/" title="Jasmine Unit testing" class="dd-item 
         
         
@@ -1816,6 +1840,30 @@
         ">
       <a href="/tech-department/topics/jupyter-notebooks-best-practices/">
           Jupyter notebooks best practices
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/tech-department/topics/logging/" title="Logging" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/tech-department/topics/logging/">
+          Logging
           
       </a>
       
@@ -2455,6 +2503,30 @@
         ">
       <a href="/tech-department/topics/python-specific/intro-to-apis/">
           Introduction to APIs
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/tech-department/topics/python-specific/logging/" title="Logging in Python" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/tech-department/topics/python-specific/logging/">
+          Logging in Python
           
       </a>
       
@@ -6862,7 +6934,62 @@
 
         
 
-<p><a href="https://www.twilio.com/blog/guide-node-js-logging">https://www.twilio.com/blog/guide-node-js-logging</a> <a href="https://stackify.com/node-js-logging/">https://stackify.com/node-js-logging/</a></p>
+<p>Please make sure you read and understand this before moving forward: 
+
+
+
+
+<a href="/tech-department/topics/logging"
+  >TOPICS: 
+  
+  Logging </a
+>
+</p>
+
+<p><strong>Why we would like to log</strong></p>
+
+<ul>
+<li>Quick debugging of unexpected behavior during development</li>
+<li>Browser-based logging for analytics or diagnostics</li>
+<li>Logs for your server application to log incoming requests, as well as any failures that might have happened</li>
+<li>Optional debug logs for your library to assist the user with issues</li>
+<li>Output of your CLI to print progress, confirmation messages or errors</li>
+</ul>
+
+<p>The most basic form of logging in javascript is console logging</p>
+
+<p>The console object provides access to the browser&rsquo;s debugging console and though it might differ from browser to browser they&rsquo;re a set of functions common to all
+see more features <a href="https://developer.mozilla.org/en-US/docs/Web/API/console">here</a></p>
+
+<pre><code>console.log('Logging in Node and JS');
+</code></pre>
+
+<p><strong>Log Levels</strong></p>
+
+<p>But, as you know, there are multiple ways and places one can log to, like output logs in a file or on a reporting tool or intecepting a request to the backend. For such activities you might need more than just console.logging.  Lucky for us Node provides a few options for this.</p>
+
+<ul>
+<li>Middleware
+
+<ul>
+<li>Expressjs</li>
+</ul></li>
+<li>Packages such as:
+
+<ul>
+<li>Winston</li>
+<li>Node-Loggly</li>
+<li>Morgan</li>
+<li>Retrace agent for server logs</li>
+</ul></li>
+</ul>
+
+<p><strong>Resources for reading</strong></p>
+
+<ul>
+<li><a href="https://www.twilio.com/blog/guide-node-js-logging">https://www.twilio.com/blog/guide-node-js-logging</a></li>
+<li><a href="https://stackify.com/node-js-logging/">https://stackify.com/node-js-logging/</a></li>
+</ul>
 
 
 <footer class=" footline" >
@@ -7865,6 +7992,22 @@
 
                     
                     
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
                         
                     
                     
@@ -8123,56 +8266,6 @@
 
                     
                     
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
                     
 
                     
@@ -8193,54 +8286,6 @@
                     
                     
 
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
                     
                         
             
@@ -8356,6 +8401,38 @@
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -8389,6 +8466,104 @@
                     
                     
 
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
                     
                         
             
@@ -11179,20 +11354,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1574833389"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1574833389"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1574833389"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1574833389"></script>
-    <script src="/tech-department/js/featherlight.min.js?1574833389"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1574833389"></script>
-    <script src="/tech-department/js/highlight.pack.js?1574833389"></script>
+    <script src="/tech-department/js/clipboard.min.js?1574946094"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1574946094"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1574946094"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1574946094"></script>
+    <script src="/tech-department/js/featherlight.min.js?1574946094"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1574946094"></script>
+    <script src="/tech-department/js/highlight.pack.js?1574946094"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1574833389"></script>
-    <script src="/tech-department/js/learn.js?1574833389"></script>
-    <script src="/tech-department/js/hugo-learn.js?1574833389"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1574946094"></script>
+    <script src="/tech-department/js/learn.js?1574946094"></script>
+    <script src="/tech-department/js/hugo-learn.js?1574946094"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1574833389" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1574833389"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1574946094" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1574946094"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

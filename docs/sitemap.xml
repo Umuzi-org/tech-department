@@ -650,6 +650,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/jasmine-spies/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/jasmine-unit-tests/</loc>
   </url>
   
@@ -732,7 +736,15 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/logging/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/js-and-node-specific/logging/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/logging/</loc>
   </url>
   
   <url>
