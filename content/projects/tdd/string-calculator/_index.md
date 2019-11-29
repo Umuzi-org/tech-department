@@ -47,7 +47,7 @@ As you keep adding more functionality to your code always make sure that the pre
 #### 3. Modify the add function so that it can handle new lines between integers.
 
 ```
-add(“1\n2,3” )
+add("1\n2,3" )
 //should return 6
 ```
 
@@ -55,10 +55,10 @@ add(“1\n2,3” )
 
 Delimiters will be specified in the following manner:
 
-- **“//[delimiter]\n[numbers…]”**, the default delimiter will be in the beginning of the string just before a new line character ("\n").For example: 
+- **"//[delimiter]\n[numbers…]"**, the default delimiter will be in the beginning of the string just before a new line character ("\n").For example: 
 
 ```
-add(“//;\n1;2”)
+add("//;\n1;2")
 //should return 3
 
 add("//4\n142")
@@ -79,8 +79,8 @@ For example:
 
 ```
 add("-1,-2,3,4")
-//should return something along these lines:
- 'ERROR: negatives not allowed -1,-2'
+// should return something along these lines:
+    'ERROR: negatives not allowed -1,-2'
 ```
 
 #### 6. Modify the add function so that it ignores integers greater than or equal to 1000.
@@ -92,25 +92,61 @@ add("//;\n1000,1;2")
 
 #### 7. Modify the add function so that it can support delimiters of any length
 
-As long as the string passed in satisfies this format, “//[delimiter]\n[numbers…]”, which was explained above. The add function should be able to handle it.
+As long as the string passed in satisfies this format, "//[delimiter]\n[integers...]", which was explained above. The add function should be able to handle it.
 For example:
 ```
-add("//[***]\n1***2***3")
+add("//***\n1***2***3")
 //should return 6
 ```
 #### 8. Modify the add function so that it is able to support different delimiters of any length
 
-As long as the string passed into the add function follows this format, “//[delim1][delim2]\n”, the add function should be able to handle it:
+As long as the string passed into the add function follows this format, "//[delim1][delim2]\n[integers...]", the add function should be able to handle it:
 
 For example:
 ```
-add(“//[*][%]\n1*2%3”)
+add("//[:D][%]\n1:D2%3")
+//should return 6
+
+add("//[***][%%%]\n1***2%%%3")
 // should return 6
 
-add(“//[*][%]\n1***2%%%3”)
+add("//[(-_-')][%]\n1(-_-')2%3")
 // should return 6
+
+add("//[abc][777][:(]\n1abc27773:(1") 
+//should return 7
 
 ```
-=======
+#### 9. Modify the add function so that it can handle invalid input.
+
+If the string passed in is invalid, your code should be able to detect this and throw an error.
+
+Hint: A valid string input follows these formats:
+
+- "[integer],[integer]" e.g "1,2" or "1,2,3,4"
+
+- "[integer]\n[integer],[integer] e.g "1\n2,3"
+
+- "//[delimiter]\n[integers...]" e.g "//;\n1;2"
+
+- "//[delim1][delim2]\n[integers...]" e.g "//[*][%]\n1*2%3" 
+
+If the string doesn't abide by any of these formats, it should be considered invalid.
+
+```
+add("//;\n1000,1;2;")
+// should return something along these lines:
+    'ERROR: invalid input'
+
+add("   //;\n1000,1;2")
+// should return something along these lines:
+    'ERROR: invalid input'
+
+add("1,2,3//;\n1000,1;2")
+// should return something along these lines:
+    'ERROR: invalid input'
+
+```
+
 ### why is this important?
 - If you're wondering to yourself, "Why is this sooo important!?" take a look at {{% contentlink "/topics/data_validation_and_verification/" %}}
