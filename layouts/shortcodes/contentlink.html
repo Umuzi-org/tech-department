@@ -1,6 +1,6 @@
 {{ $path := .Get 0 }}
 {{ $trimmed := trim $path "/"}}
-{{ $elements := split $path "/" }}
+{{ $elements := split $trimmed "/" }}
 {{ $first := index ($elements) 0 }}
 
 <a href="{{.Site.BaseURL}}{{ $trimmed }}"

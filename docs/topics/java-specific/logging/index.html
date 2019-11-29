@@ -12,19 +12,19 @@
     <title>Java Logging with Log4j :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1574833389" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1574833389" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1574833389" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1574833389" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1574833389" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1574833389" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1574833389" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1574833389" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1574946093" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1574946093" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1574946093" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1574946093" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1574946093" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1574946093" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1574946093" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1574946093" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1574833389" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1574946093" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1574833389"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1574946093"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1574833389"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1574833389"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1574946093"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1574946093"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1574833389"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1574946093"></script>
 
     
   </div>
@@ -1533,6 +1533,30 @@
  
   
     
+    <li data-nav-id="/tech-department/topics/jasmine-spies/" title="Jasmine Spies" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/tech-department/topics/jasmine-spies/">
+          Jasmine Spies
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
     <li data-nav-id="/tech-department/topics/jasmine-unit-tests/" title="Jasmine Unit testing" class="dd-item 
         
         
@@ -1816,6 +1840,30 @@
         ">
       <a href="/tech-department/topics/jupyter-notebooks-best-practices/">
           Jupyter notebooks best practices
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/tech-department/topics/logging/" title="Logging" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/tech-department/topics/logging/">
+          Logging
           
       </a>
       
@@ -2455,6 +2503,30 @@
         ">
       <a href="/tech-department/topics/python-specific/intro-to-apis/">
           Introduction to APIs
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/tech-department/topics/python-specific/logging/" title="Logging in Python" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/tech-department/topics/python-specific/logging/">
+          Logging in Python
           
       </a>
       
@@ -6840,7 +6912,16 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#installing-log4j">Installing Log4j</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
+<li><a href="#resources">Resources</a></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -6862,6 +6943,74 @@
 
         
 
+
+
+<p>Please make sure you read and understand this before moving forward: 
+
+
+
+
+<a href="/tech-department/topics/logging"
+  >TOPICS: 
+  
+  Logging </a
+>
+</p>
+
+<p>Ok, so now you know about what logging is and why we do it, we&rsquo;re going to dig a bit more into some specific details about how to do this stuff in Java.</p>
+
+<h2 id="installing-log4j">Installing Log4j</h2>
+
+<p>We are using IntelliJ and Gradle. This means we have a specific way of including Log4j in our projects.</p>
+
+<p>The first thing you need to do is make sure you have added Log4j as a dependency on your project. Take a look <a href="https://docs.gradle.org/current/userguide/declaring_dependencies.html">here</a> and <a href="https://logging.apache.org/log4j/2.x/maven-artifacts.html">here</a> to see how to add Log4j to your project.</p>
+
+<p>Now make a new project and log some stuff:</p>
+
+<pre><code>import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public class MainProgram {
+    private static final Logger logger = LogManager.getLogger(MainProgram.class.getName());
+
+    public static void main(String[] args){
+        logger.debug(&quot;Hello this is a debug message&quot;);
+        logger.info(&quot;Hello this is an info message&quot;);
+        logger.warn(&quot;Hello this is a warning message&quot;);
+        logger.error(&quot;Hello this is an error message&quot;);
+        logger.fatal(&quot;Hello this is a fatal message&quot;); // some languages call this level &quot;critical&quot;
+    }
+}
+</code></pre>
+
+<p>If you run this then you&rsquo;ll see some of the messages get logged to the standard output. But you&rsquo;ll also see an error message.</p>
+
+<p>IntlliJ will show you an error message that says &ldquo;ERROR StatusLogger No Log4j 2 configuration file found. Using default configuration (logging only errors to the console), &hellip;&rdquo;</p>
+
+<p>Now make a new file in the resources firectory and name it <code>log4j2-test.properties</code>. Here&rsquo;s what it should look like:</p>
+
+<pre><code>appender.console.name = STDOUT
+appender.console.type = Console
+appender.console.layout.type = PatternLayout
+appender.console.layout.pattern = %d | %c: %m%n
+
+rootLogger.level = debug
+rootLogger.appenderRef.stdout.ref = STDOUT
+</code></pre>
+
+<p>Save it and run your program again. Now all the logs should show up with some fancy formatting.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>We just scratched the surface here. Try use logging for now on instead of just <code>System.out.println</code>. In industry you&rsquo;ll have to get used to logging things in a thoughtful way.</p>
+
+<h2 id="resources">Resources</h2>
+
+<ul>
+<li><a href="https://logging.apache.org/log4j/2.x/manual/api.html">The official docs</a></li>
+<li><a href="https://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/PatternLayout.html">Info on log layout patterns</a></li>
+<li><a href="https://logging.apache.org/log4j/2.x/manual/configuration.html#Properties">Config properties syntax</a></li>
+</ul>
 
 
 <footer class=" footline" >
@@ -7851,6 +8000,22 @@
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
                     
                 
                 
@@ -8122,56 +8287,6 @@
 
                     
                     
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
                     
 
                     
@@ -8192,54 +8307,6 @@
                     
                     
 
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
                     
                         
             
@@ -8355,6 +8422,38 @@
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -8388,6 +8487,104 @@
                     
                     
 
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
                     
                         
             
@@ -11178,20 +11375,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1574833389"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1574833389"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1574833389"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1574833389"></script>
-    <script src="/tech-department/js/featherlight.min.js?1574833389"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1574833389"></script>
-    <script src="/tech-department/js/highlight.pack.js?1574833389"></script>
+    <script src="/tech-department/js/clipboard.min.js?1574946093"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1574946093"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1574946093"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1574946093"></script>
+    <script src="/tech-department/js/featherlight.min.js?1574946093"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1574946093"></script>
+    <script src="/tech-department/js/highlight.pack.js?1574946093"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1574833389"></script>
-    <script src="/tech-department/js/learn.js?1574833389"></script>
-    <script src="/tech-department/js/hugo-learn.js?1574833389"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1574946093"></script>
+    <script src="/tech-department/js/learn.js?1574946093"></script>
+    <script src="/tech-department/js/hugo-learn.js?1574946093"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1574833389" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1574833389"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1574946093" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1574946093"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

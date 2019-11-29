@@ -12,19 +12,19 @@
     <title>Intro to Vue :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1574833388" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1574833388" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1574833388" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1574833388" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1574833388" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1574833388" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1574833388" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1574833388" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1574946092" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1574946092" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1574946092" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1574946092" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1574946092" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1574946092" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1574946092" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1574946092" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1574833388" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1574946092" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1574833388"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1574946092"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1574833388"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1574833388"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1574946092"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1574946092"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1574833388"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1574946092"></script>
 
     
   </div>
@@ -1533,6 +1533,30 @@
  
   
     
+    <li data-nav-id="/tech-department/topics/jasmine-spies/" title="Jasmine Spies" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/tech-department/topics/jasmine-spies/">
+          Jasmine Spies
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
     <li data-nav-id="/tech-department/topics/jasmine-unit-tests/" title="Jasmine Unit testing" class="dd-item 
         
         
@@ -1816,6 +1840,30 @@
         ">
       <a href="/tech-department/topics/jupyter-notebooks-best-practices/">
           Jupyter notebooks best practices
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/tech-department/topics/logging/" title="Logging" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/tech-department/topics/logging/">
+          Logging
           
       </a>
       
@@ -2455,6 +2503,30 @@
         ">
       <a href="/tech-department/topics/python-specific/intro-to-apis/">
           Introduction to APIs
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/tech-department/topics/python-specific/logging/" title="Logging in Python" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/tech-department/topics/python-specific/logging/">
+          Logging in Python
           
       </a>
       
@@ -6840,7 +6912,22 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#what-is">What is?</a></li>
+<li><a href="#comparison">Comparison</a></li>
+<li><a href="#resorce-links">Resorce links</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -6862,6 +6949,426 @@
 
         
 
+
+
+<h4 id="what-is">What is?</h4>
+
+<p><a href="https://vuejs.org/v2/guide/index.html">Vue.js</a> is an <a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel">Model View viewmodel</a> <a href="https://en.wikipedia.org/wiki/JavaScript_framework">javascript framework</a> that has different optional tools for building user interfaces and <a href="https://en.wikipedia.org/wiki/Single-page_application">single page applications</a>. Vue.js allow you to extend basic HTML with html attributes called <a href="https://012.vuejs.org/guide/directives.html">directives</a> which adds extra functionality to the html. This directives are provided by Vue.js by default or can be defined by user.</p>
+
+<p><em>Vue.js Directives</em></p>
+
+<p>In Vue.js a directive is a type of token/indentifier that tells vue.js code to do something to the <a href="https://en.wikipedia.org/wiki/Document_Object_Model">DOM/Documet Object Model</a>.</p>
+
+<p>Directive simple syntax :</p>
+
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"> &lt;<span style="color:#a6e22e">html</span><span style="color:#f92672">-</span><span style="color:#a6e22e">element</span> <span style="color:#a6e22e">prefix</span><span style="color:#f92672">-</span><span style="color:#a6e22e">directive</span>=<span style="color:#e6db74">&#34;expression&#34;</span>&gt;&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">html</span><span style="color:#f92672">-</span><span style="color:#a6e22e">element</span>&gt;</code></pre></td></tr></table>
+</div>
+</div>
+
+<p><em>Usage example</em></p>
+
+<p><div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"> &lt;<span style="color:#a6e22e">h1</span> <span style="color:#a6e22e">id</span>=<span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">heading1</span><span style="color:#960050;background-color:#1e0010">&#39;</span> <span style="color:#a6e22e">v</span><span style="color:#f92672">-</span><span style="color:#a6e22e">text</span>=<span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">heading_1</span><span style="color:#960050;background-color:#1e0010">&#39;</span>&gt;&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">h1</span>&gt;</code></pre></td></tr></table>
+</div>
+</div>
+This can also be written using double braces as placeholders for output data like :
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"> &lt;<span style="color:#a6e22e">h1</span> <span style="color:#a6e22e">id</span>=<span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">heading1</span><span style="color:#960050;background-color:#1e0010">&#39;</span>&gt;
+    {{ <span style="color:#a6e22e">heading_1</span> }}
+ &lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">h1</span>&gt;</code></pre></td></tr></table>
+</div>
+</div>
+In the first example looking at [ v-text=&lsquo;heading_1&rsquo; ], the prefix &lsquo;v&rsquo; is default similar to <a href="https://www.w3schools.com/angular/angular_directives.asp">AngularJS</a> &lsquo;ng&rsquo; its purpose is to tell Vue.js library that the <a href="https://en.wikipedia.org/wiki/HTML_attribute">HTML attribute</a> is Vue.js attribute. The &lsquo;text&rsquo; part of the <a href="https://012.vuejs.org/api/directives.html">&lsquo;v-text&rsquo;</a> is the directive and its meant to tell Vue.js that it should change textContent of the HTML element, with what &lsquo;heading_1&rsquo; expression presents/contains.
+The same goes for the second example except for example 2 &lsquo;heading_1&rsquo; is directly defined whithin HTML heading attribute textContent area. Some of the directives are <a href="https://012.vuejs.org/api/directives.html">v-if, v-el, v-pre, v-on, v-ref, v-transition, etc</a>.</p>
+
+<h4 id="comparison">Comparison</h4>
+
+<p>Simple examples to show usage of Vue.js and normal html alternative.</p>
+
+<p><em>1) Add text to heading 1 :</em></p>
+
+<p><div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">20
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">&lt;!<span style="color:#f92672">--</span> <span style="color:#a6e22e">Vue</span>.<span style="color:#a6e22e">js</span> <span style="color:#f92672">--</span>&gt;
+
+&lt;<span style="color:#a6e22e">html</span>&gt;
+  &lt;<span style="color:#a6e22e">script</span> <span style="color:#a6e22e">src</span>=<span style="color:#e6db74">&#34;https://cdn.jsdelivr.net/npm/vue&#34;</span>&gt;&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">script</span>&gt;
+  &lt;<span style="color:#a6e22e">body</span>&gt;
+
+
+    &lt;<span style="color:#a6e22e">h1</span> <span style="color:#a6e22e">id</span>=<span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">heading1</span><span style="color:#960050;background-color:#1e0010">&#39;</span>&gt;{{ <span style="color:#a6e22e">heading_1</span> }}&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">h1</span>&gt;
+
+    &lt;<span style="color:#a6e22e">script</span>&gt;
+    
+      <span style="color:#a6e22e">new</span> <span style="color:#a6e22e">Vue</span>({
+        <span style="color:#a6e22e">el</span>: <span style="color:#960050;background-color:#1e0010">&#39;#</span><span style="color:#a6e22e">heading1</span><span style="color:#960050;background-color:#1e0010">&#39;</span>,
+        <span style="color:#a6e22e">data</span>: {<span style="color:#a6e22e">heading_1</span>: <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">Vue</span>.<span style="color:#a6e22e">js</span><span style="color:#960050;background-color:#1e0010">&#39;</span>}
+      })
+
+    &lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">script</span>&gt;
+
+  &lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">body</span>&gt;
+&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">html</span>&gt;</code></pre></td></tr></table>
+</div>
+</div>
+<a href="https://www.freecodecamp.org/news/a-complete-guide-to-creating-objects-in-javascript-b0e2450655e8/">new</a> Vue() creates an instance of a Vue.js object. &lsquo;el&rsquo; object key expects its value to be an &lsquo;id&rsquo; of an html element and the &lsquo;data&rsquo; key, value should be data that will be applied to the specified vue.js expression whithin the html code.
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">15
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"> &lt;!<span style="color:#f92672">--</span> <span style="color:#a6e22e">html</span> <span style="color:#a6e22e">and</span> <span style="color:#a6e22e">javascript</span> <span style="color:#f92672">--</span>&gt;
+
+&lt;<span style="color:#a6e22e">html</span>&gt;
+
+  &lt;<span style="color:#a6e22e">body</span>&gt;
+
+    &lt;<span style="color:#a6e22e">h1</span> <span style="color:#a6e22e">id</span>=<span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">heading1</span><span style="color:#960050;background-color:#1e0010">&#39;</span>&gt;&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">h1</span>&gt;
+
+    &lt;<span style="color:#a6e22e">script</span>&gt;
+    
+	<span style="color:#a6e22e">document</span>.<span style="color:#a6e22e">getElementById</span>(<span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">heading1</span><span style="color:#960050;background-color:#1e0010">&#39;</span>).<span style="color:#a6e22e">innerHTML</span>= <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">Vue</span>.<span style="color:#a6e22e">js</span><span style="color:#960050;background-color:#1e0010">&#39;</span>;
+    &lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">script</span>&gt;
+
+  &lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">body</span>&gt;
+&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">html</span>&gt;</code></pre></td></tr></table>
+</div>
+</div></p>
+
+<p><em>2) Write input box reply to the dom :</em></p>
+
+<p><div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">20
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">21
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">22
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">23
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">24
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">25
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">26
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">27
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">&lt;!<span style="color:#f92672">--</span> <span style="color:#a6e22e">Vue</span>.<span style="color:#a6e22e">js</span> <span style="color:#f92672">--</span>&gt;
+
+&lt;<span style="color:#a6e22e">html</span>&gt;
+&lt;<span style="color:#a6e22e">script</span> <span style="color:#a6e22e">src</span>=<span style="color:#e6db74">&#34;https://cdn.jsdelivr.net/npm/vue&#34;</span>&gt;&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">script</span>&gt;
+&lt;<span style="color:#a6e22e">body</span>&gt;
+
+  &lt;<span style="color:#a6e22e">h2</span>&gt;<span style="color:#a6e22e">Vue</span>.<span style="color:#a6e22e">js</span>&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">h2</span>&gt;
+
+  &lt;<span style="color:#a6e22e">div</span> <span style="color:#a6e22e">id</span>=<span style="color:#e6db74">&#34;my_name&#34;</span>&gt;
+
+    &lt;<span style="color:#a6e22e">p</span>&gt;<span style="color:#a6e22e">What</span> <span style="color:#a6e22e">is</span> <span style="color:#a6e22e">your</span> <span style="color:#a6e22e">name</span><span style="color:#960050;background-color:#1e0010">?</span> : {{ <span style="color:#a6e22e">reply</span> }}&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">p</span>&gt;
+
+    &lt;<span style="color:#a6e22e">input</span> <span style="color:#a6e22e">v</span><span style="color:#f92672">-</span><span style="color:#a6e22e">model</span>=<span style="color:#e6db74">&#34;reply&#34;</span>&gt;
+
+  &lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">div</span>&gt;
+
+  &lt;<span style="color:#a6e22e">script</span>&gt;
+
+    <span style="color:#a6e22e">new</span> <span style="color:#a6e22e">Vue</span>({
+      <span style="color:#a6e22e">el</span>: <span style="color:#960050;background-color:#1e0010">&#39;#</span><span style="color:#a6e22e">my_name</span><span style="color:#960050;background-color:#1e0010">&#39;</span>,
+      <span style="color:#a6e22e">data</span>: {<span style="color:#a6e22e">reply</span>: <span style="color:#960050;background-color:#1e0010">&#39;&#39;</span>}
+    })
+
+  &lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">script</span>&gt;
+
+  &lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">body</span>&gt;
+&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">html</span>&gt;</code></pre></td></tr></table>
+</div>
+</div>
+The <a href="https://vuejs.org/v2/guide/forms.html">&lsquo;v-model&rsquo;</a> directive binds the value of HTML elements to application data, and updates the dom when any changes occur.
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">20
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">21
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">22
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">23
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">24
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">25
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">26
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">27
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">28
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">29
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"> &lt;!<span style="color:#f92672">--</span> <span style="color:#a6e22e">html</span> <span style="color:#a6e22e">and</span> <span style="color:#a6e22e">javascript</span> <span style="color:#f92672">--</span>&gt;
+
+&lt;<span style="color:#a6e22e">html</span>&gt;
+
+&lt;<span style="color:#a6e22e">body</span>&gt;
+
+  &lt;<span style="color:#a6e22e">h2</span>&gt;<span style="color:#a6e22e">Vue</span>.<span style="color:#a6e22e">js</span>&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">h2</span>&gt;
+
+
+    &lt;<span style="color:#a6e22e">p</span>&gt;<span style="color:#a6e22e">What</span> <span style="color:#a6e22e">is</span> <span style="color:#a6e22e">your</span> <span style="color:#a6e22e">name</span><span style="color:#960050;background-color:#1e0010">?</span> : 
+    	&lt;<span style="color:#a6e22e">span</span> <span style="color:#a6e22e">id</span>=<span style="color:#e6db74">&#34;my_name&#34;</span>&gt;&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">span</span>&gt;
+     &lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">p</span>&gt;
+
+    &lt;<span style="color:#a6e22e">input</span> <span style="color:#66d9ef">type</span>=<span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">text</span><span style="color:#960050;background-color:#1e0010">&#39;</span> <span style="color:#a6e22e">id</span>=<span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">reply_box</span><span style="color:#960050;background-color:#1e0010">&#39;</span> <span style="color:#a6e22e">onkeyup</span>=<span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">show_reply</span>()<span style="color:#960050;background-color:#1e0010">&#39;</span>&gt;
+
+ 
+
+  &lt;<span style="color:#a6e22e">script</span>&gt;
+
+    <span style="color:#a6e22e">function</span> <span style="color:#a6e22e">show_reply</span>(){
+        
+        <span style="color:#a6e22e">document</span>.<span style="color:#a6e22e">getElementById</span>(<span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">my_name</span><span style="color:#960050;background-color:#1e0010">&#39;</span>).<span style="color:#a6e22e">innerHTML</span>=<span style="color:#a6e22e">document</span>.<span style="color:#a6e22e">getElementById</span>(<span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">reply_box</span><span style="color:#960050;background-color:#1e0010">&#39;</span>).<span style="color:#a6e22e">value</span>;
+
+    }
+
+  &lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">script</span>&gt;
+
+  &lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">body</span>&gt;
+&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">html</span>&gt;</code></pre></td></tr></table>
+</div>
+</div></p>
+
+<p><em>3) Show items list :</em></p>
+
+<p><div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">20
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">21
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">22
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">23
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">24
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">25
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">26
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">27
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">28
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">29
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">30
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">31
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">32
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">33
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">34
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">&lt;!<span style="color:#f92672">--</span> <span style="color:#a6e22e">Vue</span>.<span style="color:#a6e22e">js</span> <span style="color:#f92672">--</span>&gt;
+
+&lt;<span style="color:#a6e22e">html</span>&gt;
+&lt;<span style="color:#a6e22e">script</span> <span style="color:#a6e22e">src</span>=<span style="color:#e6db74">&#34;https://cdn.jsdelivr.net/npm/vue&#34;</span>&gt;&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">script</span>&gt;
+  &lt;<span style="color:#a6e22e">body</span>&gt;
+
+    &lt;<span style="color:#a6e22e">h2</span>&gt;<span style="color:#a6e22e">Vue</span>.<span style="color:#a6e22e">js</span>&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">h2</span>&gt;
+
+    &lt;<span style="color:#a6e22e">div</span> <span style="color:#a6e22e">id</span>=<span style="color:#e6db74">&#34;app&#34;</span>&gt;
+      &lt;<span style="color:#a6e22e">ul</span>&gt;
+
+        &lt;<span style="color:#a6e22e">li</span> <span style="color:#a6e22e">v</span><span style="color:#f92672">-</span><span style="color:#66d9ef">for</span>=<span style="color:#e6db74">&#34;ingredients in coffee_reciepe&#34;</span>&gt;
+        
+          {{ <span style="color:#a6e22e">ingredients</span> }}
+          
+        &lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">li</span>&gt;
+
+      &lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">ul</span>&gt;
+
+    &lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">div</span>&gt;
+
+    &lt;<span style="color:#a6e22e">script</span>&gt;
+
+      <span style="color:#a6e22e">new</span> <span style="color:#a6e22e">Vue</span>({
+        <span style="color:#a6e22e">el</span>: <span style="color:#960050;background-color:#1e0010">&#39;#</span><span style="color:#a6e22e">app</span><span style="color:#960050;background-color:#1e0010">&#39;</span>,
+        <span style="color:#a6e22e">data</span>: {
+          <span style="color:#a6e22e">coffee_reciepe</span>: [<span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">water</span><span style="color:#e6db74">&#39;,&#39;</span><span style="color:#a6e22e">sugar</span><span style="color:#e6db74">&#39;,&#39;</span><span style="color:#a6e22e">milk</span><span style="color:#960050;background-color:#1e0010">&#39;</span>]
+        }
+      })
+
+    &lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">script</span>&gt;
+
+  &lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">body</span>&gt;
+&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">html</span>&gt;</code></pre></td></tr></table>
+</div>
+</div>
+The &lsquo;v-for&rsquo; directive loops through array of items.
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">20
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">21
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">22
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">23
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">24
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">25
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">26
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">27
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">28
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">29
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"> &lt;!<span style="color:#f92672">--</span> <span style="color:#a6e22e">html</span> <span style="color:#a6e22e">and</span> <span style="color:#a6e22e">javascript</span> <span style="color:#f92672">--</span>&gt;
+
+&lt;<span style="color:#a6e22e">html</span>&gt;
+  &lt;<span style="color:#a6e22e">body</span>&gt;
+
+    &lt;<span style="color:#a6e22e">h2</span>&gt;<span style="color:#a6e22e">Vue</span>.<span style="color:#a6e22e">js</span>&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">h2</span>&gt;
+
+ 
+      &lt;<span style="color:#a6e22e">ul</span> <span style="color:#a6e22e">id</span>=<span style="color:#e6db74">&#34;app&#34;</span>&gt;&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">ul</span>&gt;
+
+  
+    &lt;<span style="color:#a6e22e">script</span>&gt;
+    
+		<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">coffee_reciepe</span> = [<span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">water</span><span style="color:#e6db74">&#39;,&#39;</span><span style="color:#a6e22e">sugar</span><span style="color:#e6db74">&#39;,&#39;</span><span style="color:#a6e22e">milk</span><span style="color:#960050;background-color:#1e0010">&#39;</span>];
+
+        <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">ingredient_item_list</span> = <span style="color:#960050;background-color:#1e0010">&#39;&#39;</span>;
+        
+        <span style="color:#a6e22e">coffee_reciepe</span>.<span style="color:#a6e22e">forEach</span>(<span style="color:#a6e22e">function</span>(<span style="color:#a6e22e">ingredient</span>){
+        	
+            <span style="color:#a6e22e">ingredient_item_list</span> = <span style="color:#a6e22e">ingredient_item_list</span> <span style="color:#f92672">+</span> <span style="color:#960050;background-color:#1e0010">&#39;</span>&lt;<span style="color:#a6e22e">li</span>&gt;<span style="color:#960050;background-color:#1e0010">&#39;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">ingredient</span> <span style="color:#f92672">+</span> <span style="color:#960050;background-color:#1e0010">&#39;</span>&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">li</span>&gt;<span style="color:#960050;background-color:#1e0010">&#39;</span>;
+
+        });
+        
+        <span style="color:#a6e22e">document</span>.<span style="color:#a6e22e">getElementById</span>(<span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">app</span><span style="color:#960050;background-color:#1e0010">&#39;</span>).<span style="color:#a6e22e">innerHTML</span> = <span style="color:#a6e22e">ingredient_item_list</span>;
+
+    &lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">script</span>&gt;
+
+  &lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">body</span>&gt;
+&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">html</span>&gt;</code></pre></td></tr></table>
+</div>
+</div></p>
+
+<h4 id="resorce-links">Resorce links</h4>
+
+<p><a href="https://vuejs.org/v2/guide/">Vue.js Guide</a>.</p>
+
+<p><a href="https://vuejs.org/v2/api/">Vue.js api</a>.</p>
+
+<p><a href="https://vuejs.org/guide/components.html"> Components basics </a>.</p>
+
+<p><a href="https://vuejs.org/v2/guide/syntax.html"> Template syntax </a>.</p>
+
+<p><a href="https://cli.vuejs.org/guide/"> Vue.js cli</a>.</p>
+
+<p><a href="https://vuejs.org/v2/examples/">Vue.js examples </a>.</p>
 
 
 <footer class=" footline" >
@@ -7856,6 +8363,22 @@
 
                     
                     
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
                         
                     
                     
@@ -8114,6 +8637,22 @@
 
                     
                     
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
                         
                     
                     
@@ -8388,6 +8927,22 @@
                     
                     
 
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
                     
                         
             
@@ -11178,20 +11733,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1574833388"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1574833388"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1574833388"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1574833388"></script>
-    <script src="/tech-department/js/featherlight.min.js?1574833388"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1574833388"></script>
-    <script src="/tech-department/js/highlight.pack.js?1574833388"></script>
+    <script src="/tech-department/js/clipboard.min.js?1574946093"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1574946093"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1574946093"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1574946093"></script>
+    <script src="/tech-department/js/featherlight.min.js?1574946093"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1574946093"></script>
+    <script src="/tech-department/js/highlight.pack.js?1574946093"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1574833388"></script>
-    <script src="/tech-department/js/learn.js?1574833388"></script>
-    <script src="/tech-department/js/hugo-learn.js?1574833388"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1574946093"></script>
+    <script src="/tech-department/js/learn.js?1574946093"></script>
+    <script src="/tech-department/js/hugo-learn.js?1574946093"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1574833388" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1574833388"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1574946093" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1574946093"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
