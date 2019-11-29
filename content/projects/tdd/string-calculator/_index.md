@@ -68,7 +68,7 @@ In the first case, the default delimiter is: ";".
 
 In the second case, the default delimiter is: "4".
 
-#### 5. Modify the add function so that it can support negative integers.
+#### 5. Modify the add function so that it can handle negative integers.
 
 If a negative number is passed into the add function it should throw this exception:
 `"negatives not allowed"`
@@ -79,7 +79,7 @@ For example:
 
 ```
 add("-1,-2,3,4")
-// should return something along these lines:
+// should return the following:
     'ERROR: negatives not allowed -1,-2'
 ```
 
@@ -122,28 +122,29 @@ add("//[abc][777][:(]\n1abc27773:(1")
 If the string passed in is invalid, your code should be able to detect this and throw an error.
 
 Hint: A valid string input follows these formats:
+```md
+- "integer,integer,integer" e.g "1,2" or "1,2,3,4"
 
-- "[integer],[integer]" e.g "1,2" or "1,2,3,4"
+- "integer \n integer,integer e.g "1\n2,3"
 
-- "[integer]\n[integer],[integer] e.g "1\n2,3"
+- "//delimiter \n integer delimiter integer" e.g "//;\n1;2"
 
-- "//[delimiter]\n[integers...]" e.g "//;\n1;2"
-
-- "//[delim1][delim2]\n[integers...]" e.g "//[*][%]\n1*2%3" 
+- "//[delimiter][delimiter]\n integer delimiter integer" e.g "//[*][%]\n1*2%3" 
+```
 
 If the string doesn't abide by any of these formats, it should be considered invalid.
 
 ```
-add("//;\n1000,1;2;")
-// should return something along these lines:
+add("//;\n1000;1;2;")
+// should throw the following:
     'ERROR: invalid input'
 
 add("   //;\n1000,1;2")
-// should return something along these lines:
+// should throw the following:
     'ERROR: invalid input'
 
 add("1,2,3//;\n1000,1;2")
-// should return something along these lines:
+// should throw the following:
     'ERROR: invalid input'
 
 ```
