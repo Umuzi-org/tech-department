@@ -16,13 +16,13 @@ Create a function called `add()` that takes in a string as a parameter and behav
 
 ```
 add("")
-//should return 0
+// should return 0
 
 add("1")
-//should return 1
+// should return 1
 
 add("1,1")
-//should return 2
+// should return 2
 
 ```
 *Note: The output that the function returns should be an integer and not a string.*
@@ -31,16 +31,16 @@ add("1,1")
 
 ```
 add("1,2,3,4")
-//should return 10
+// should return 10
 
 add("")
-//should still return 0
+// should still return 0
 
 add("1")
-//should still return 1
+// should still return 1
 
 add("1,1")
-//should still return 2
+// should still return 2
 ```
 As you keep adding more functionality to your code always make sure that the previous functionality you implemented still works flawlessly. Keep this in mind as you continue to modify your code. 
 
@@ -48,7 +48,7 @@ As you keep adding more functionality to your code always make sure that the pre
 
 ```
 add("1\n2,3" )
-//should return 6
+// should return 6
 ```
 
 #### 4. Modify the add function so that it can handle different delimeters.
@@ -59,10 +59,10 @@ Delimiters will be specified in the following manner:
 
 ```
 add("//;\n1;2")
-//should return 3
+// should return 3
 
 add("//4\n142")
-//should return 3
+// should return 3
 ```
 In the first case, the default delimiter is: ";".
 
@@ -87,7 +87,7 @@ add("-1,-2,3,4")
 
 ```
 add("//;\n1000,1;2")
-//should return 3
+// should return 3
 ```
 
 #### 7. Modify the add function so that it can support delimiters of any length
@@ -96,7 +96,7 @@ As long as the string passed in satisfies this format, "//[delimiter]\n[integers
 For example:
 ```
 add("//***\n1***2***3")
-//should return 6
+// should return 6
 ```
 #### 8. Modify the add function so that it is able to support different delimiters of any length
 
@@ -105,7 +105,7 @@ As long as the string passed into the add function follows this format, "//[deli
 For example:
 ```
 add("//[:D][%]\n1:D2%3")
-//should return 6
+// should return 6
 
 add("//[***][%%%]\n1***2%%%3")
 // should return 6
@@ -114,7 +114,7 @@ add("//[(-_-')][%]\n1(-_-')2%3")
 // should return 6
 
 add("//[abc][777][:(]\n1abc27773:(1") 
-//should return 7
+// should return 7
 
 ```
 #### 9. Modify the add function so that it can handle invalid input.
