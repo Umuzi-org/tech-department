@@ -79,7 +79,7 @@ For example:
 
 ```
 add("-1,-2,3,4")
-// should return the following:
+// should throw the following:
     'ERROR: negatives not allowed -1,-2'
 ```
 
