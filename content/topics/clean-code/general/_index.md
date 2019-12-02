@@ -65,7 +65,7 @@ As you can see, there is a lot going on in the Bad file sorting function, so it 
 ## DRY - Don't Repeat Yourself
 Ideally functionality should be represented in a code-base exactly once. If you find yourself repeating certain values such as strings or numbers for example, rather save those values to variables. This also means that if the values change, you won't have to change them update them again on every line where you've used them. You'll only need to change them where you originally created and assigned them.
 
-The same goes applies to functions.
+The same applies to functions.
 
 ## Flat is Better Than Nested
 If you are ever tempted to put a loop inside a loop... etc. Don't.
@@ -107,4 +107,4 @@ Loose coupling is making sure that if you change some code it doesn't have any w
 ## Defensive Programming
 Defensive programming means anticipating things that could probably go wrong and coding to handle such situations or edge cases. The goal is to write code that can handle real life situations: e.g. invalid input from the user - the user inputs a number where your program requires a text string.
 
-If you don't code defensively your code might for example fail to complete its work still actsas if there is no problem. This leads to issues that are difficult to find and fix after you've pushed your code. You can make use of exception or error messages for example to prevent your code from running if the input was invalid. So think about the edge cases. Assume that your user is really isn't always going to following the instructions or use your program as they should. Then write your code to anticipate handle such abuse or misuse. 
+If you don't code defensively your code might for example fail to complete its work but still run with no errors and act as if there is no problem. This leads to bugs that are difficult to find and fix after you've pushed your code. You can make use of exception or error messages for example to prevent your code from running if the input was invalid. So think about the edge cases. Assume that your user isn't always going to follow the instructions or use your program as they were supposed. Then write your code in a way that anticipates and handles such misuse. 
