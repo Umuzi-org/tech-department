@@ -102,7 +102,7 @@ Besides alignment your code needs to be consistent. If you use spaces for indent
 ## Cohesion and Loose Coupling
 Cohesion can be sort of summarized as: "Things that belong together should be together". Your code (files or modules) should be organised in such a way that they do one thing. They should have a single responsibility. If you want to understand a piece of code then you shouldn't have to travel to the far reaches of the code base, scrolling up and down forever in a single file to figure out how it works. So avoid writing code that contains a lot of random functions that don't have an obvious effect and don't be that person who writes files that have 200 lines of code.
 
-Loose coupling is making sure that if you change some code it doesn't have any weird side effects that break other things. It's about how much each component in your code base depends on other components.
+Coupling is about how much each component in your code base depends on other components. Loose coupling is making sure that if you change some code it doesn't have any weird side effects that break other parts of your code base.  Your code should be loosely coupled.
 
 ## Defensive Programming
 Defensive programming means anticipating things that could probably go wrong and coding to handle such situations or edge cases. The goal is to write code that can handle real life situations: e.g. invalid input from the user - the user inputs a number where your program requires a text string.
