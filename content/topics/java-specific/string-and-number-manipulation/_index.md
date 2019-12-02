@@ -10,9 +10,9 @@ the user would always have to search for the full title of a book and ensure tha
 Java has built in methods to assist with just these kinds of situations.
 
 ## Manipulating Strings
-- [Converting](https://www.geeksforgeeks.org/different-ways-for-integer-to-string-conversions-in-java/) variables to Strings.
-
 - [Concatenating Strings](https://www.javatpoint.com/string-concatenation-in-java).
+
+- [Appending](https://www.tutorialspoint.com/concatenate-string-to-an-int-value-in-java) Number values to Strings.
 
 - [Determine the total](https://www.javatpoint.com/java-string-length) number of characters in a String.
 
@@ -28,12 +28,12 @@ Java has built in methods to assist with just these kinds of situations.
 
 - [Remove empty spaces](https://www.journaldev.com/33291/java-string-trim-method-examples) from the start and end of Strings.
 
+- [Formatting](https://dzone.com/articles/java-string-format-examples) Strings to a desired output. Example: for currency, converting 23.21 into R23.21.
+
 
 On the other hand, being able to manipulate numbers is critical to most systems.
 
 ## Manipulating Numbers
-- [Converting String](https://www.tutorialspoint.com/Converting-Strings-to-Numbers-and-Vice-Versa-in-Java) values to numbers.
-
 - [Convert](https://www.tutorialspoint.com/java/lang/math_abs_int.htm) negative values to positive values.
 
 - [Rounding](https://www.javacodex.com/Math-Examples/Floor-and-Ceiling-Example) a number up or down.
