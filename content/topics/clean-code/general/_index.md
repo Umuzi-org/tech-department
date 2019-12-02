@@ -99,7 +99,12 @@ In the above pseudo-code the "Sort Files" and "Print Files" function are actuall
 
 Besides alignment your code needs to be consistent. If you use spaces for indentation use them on every line. Don't use tabs in one line and spaces in another line. Rather just use spaces. You can set your IDE to indent using spaces as the default. There also plenty of code formatting and linting tools such as ESLint, Prettier, Black etc... Do make use of them.
 
-## Code Defensively
+## Cohesion and Loose Coupling
+Cohesion can be sort of summarised as: "Things that belong together should be together". Your code (files or modules) should be organised in such a way that they do one thing. They should have a single responsibility. If you want to understand a piece of code then you shouldn't have to travel to the far reaches of the code base, scrolling up and down forever in a single file to figure out how it works. So avoid writing code that contains a lot of random functions that don't have an obvious effect and don't be that person who writes files that have 200 lines of code.
+
+Loose coupling is making sure that if you change some code it doesn't have any weird side effects that break other things. It's about how much each component in your code base depends on other components.
+
+## Defensive Programming
 Defensive programming means anticipating things that could probably go wrong and coding to handle such situations or edge cases. The goal is to write code that can handle real life situations: e.g. invalid input from the user - the user inputs a number where your program requires a text string.
 
 If you don't code defensively your code might for example fail to complete its work still actsas if there is no problem. This leads to issues that are difficult to find and fix after you've pushed your code. You can make use of exception or error messages for example to prevent your code from running if the input was invalid. So think about the edge cases. Assume that your user is really isn't always going to following the instructions or use your program as they should. Then write your code to anticipate handle such abuse or misuse. 
