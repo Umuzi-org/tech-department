@@ -66,8 +66,7 @@ weight: 15
 
 ## General issue board procedure
 
-Every time you move a ticket from one column to another, you are unassigning yourself. A ticket in the done column is reassigned to the person who did the development work on it.
-Comment on the tickets as a form of taking notes & passing on explanations from one person to another.
+Every time you move a ticket from one column to another, you make a PR and assign a team member for the first review on your code. If the code has no bugs or errors then the ticket moves to final code review so it can be merged.If there are any changes requested comments are made on the PR and then the ticket is moves to reveiw changes requested. Tickets that are merged move to the Done column.
 Attach all resources to the ticket whether they are points of reference, design documents, etc.
 Name the tickets so there is no confusion as to what is being accomplished.
 Add every requirement to the checklist, and be specific. Check off requirements as you finish work on them in development.
@@ -78,14 +77,14 @@ Items in the backlog represent the conceived work for the team over the next 2-3
 Before items are able to be moved into the "To Do" column, they need to be looked over by the team during the "Storytime" meeting to make sure that the objectives are clear.
 Various labeling/measuring can take place on these tickets, like adding the feature they're associated with, the estimated work hours to complete the feature, and more.
 
-### To Do
+### This Sprint
 
-Tickets in to-do are in the queue for the team's current sprint.
+Tickets in this sprint are in the queue for the team's current sprint.
 The team commits to completing a given amount of tickets in the coming sprint during the "Planning" meeting.
 
-### Developing
+### Today
 
-Tickets moved to developing are being actively worked on by the person assigned to them.
+Tickets moved to today are being actively worked on by the person assigned to them.
 
 #### Git Action
 
@@ -93,7 +92,7 @@ Before any coding occurs, pull down the latest version from "origin/master". The
 
 ### Code Review
 
-Tickets in code review are having their associated code (or design) reviewed. A team member will look at the pull request on Github and see that the code is well formed, doesn't have obvious bugs, and accomplishes what it set out to do. If necessary, changes are suggested, and the ticket is sent back to development.
+Tickets in 'First review needed' are having their associated code (or design) reviewed. A team member will look at the pull request on Github and see that the code is well formed, doesn't have obvious bugs and accomplishes what it set out to do, it is either moved to 'Final Review needed' or merged straight away. If necessary, changes are suggested, and the ticket is moved 'Review: changes requested'.
 
 #### Git Action
 
@@ -102,7 +101,9 @@ If the code passes review, the pull request is approved and the branch is merged
 ### Quality Assurance
 
 Tickets in quality assurance are being checked to make sure the user experiences what the ticket was set out to accomplish. If there's bugs or missing functionality, send it back to development.
-####Git Action
+
+#### Git Action
+
 Pull the merge commit from origin/master for testing.
 
 ### Done:
