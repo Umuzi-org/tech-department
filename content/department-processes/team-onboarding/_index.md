@@ -67,6 +67,9 @@ Daily tech meeting / check-in with tech facilitators and managers at 3:30pm on M
 #### Cohort Leaders:
  - A cohort leader is the junior staff member that is put in charge of a specific cohort, you can find the allocations and responsibilities: [here] (https://docs.google.com/spreadsheets/d/1ZMnFbbqEca1NWbpxLZnYoY9S-usG5tjtM0mAzkArfEQ/edit#gid=0)
 
+#### Mentorship 
+Here's what you have to know about the role of a Mentor, what is expected from both you and your Mentees:  {{% contentlink "workshops/how-to-be-a-great-mentor/" %}} 
+
 #### Code review: 
 [General process here] (https://umuzi-org.github.io/tech-department/department-processes/code-review/)
 
