@@ -478,7 +478,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/git/git-basics/</loc>
+    <loc>/tech-department/topics/git/</loc>
   </url>
   
   <url>
@@ -487,10 +487,6 @@
   
   <url>
     <loc>/tech-department/workshops/git-for-teamwork/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/topics/git/</loc>
   </url>
   
   <url>
@@ -591,6 +587,10 @@
   
   <url>
     <loc>/tech-department/workshops/intro-to-css/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/dotenv-module/</loc>
   </url>
   
   <url>
