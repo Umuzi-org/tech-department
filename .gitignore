@@ -3,4 +3,5 @@ gitignore/
 node_modules/
 public/
 .vscode/
+.vs/
 umuzi-tech-dept
