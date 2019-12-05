@@ -1,5 +1,6 @@
 ---
 title: Strings and numbers in Java
+ready: true
 ---
 
 In Java there are multiple ways to manipulate both strings and numbers to work in a manner that is required. These methods can play a vital role in the business logic of a system.
