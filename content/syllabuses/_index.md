@@ -79,7 +79,7 @@ Recruits learn a bit about how to build an online presence. Recruits submit thei
 
 - ALL:
 
-  - {{% contentlink "topics/git/git-basics" %}}
+  - {{% contentlink "topics/git" %}}
   - Q&A Git basics
   - {{% contentlink "projects/git-exercises" %}}
   - {{% contentlink "workshops/what-to-put-on-a-cv" %}}
@@ -254,8 +254,9 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "topics/python-specific/unit-testing/automated-testing-pandas-and-numpy" %}}
 
 - Java:
+
   - {{% contentlink "projects/java-fileio-logging-errors" %}}
-  - {{% contentlink "topics/java-specific/string-and-number-manipulation" %}}
+  - {{% contentlink "topics/regular-expressions" %}}
 
 * DATA_ENG:
 
@@ -286,6 +287,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 * JAVA
   - {{% contentlink "projects/tdd/string-calculator" %}}
+  - {{% contentlink "topics/java-specific/string-and-number-manipulation" %}}
 
 ## Week 10:
 
@@ -304,9 +306,14 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/sql/" %}}
 
 - WEB_DEV:
+
   - {{% contentlink "projects/github-api-consume" %}} - DUE
   - {{% contentlink "topics/js-and-node-specific/dom-manipulation-with-vanilla-js" %}}
   - {{% contentlink "projects/memory-game-vanilla" %}} INTRODUCED
+
+- JAVA:
+  - {{% contentlink "projects/java-specific/collections-and-datastructures" %}}
+  - {{% contentlink "topics/java-specific/collections-and-datastructures" %}}
 
 ## Week 11
 
@@ -323,6 +330,13 @@ The recruits finish off their portfolios. From this point forward they are expec
 
   - {{% contentlink "projects/memory-game-vanilla" %}} DUE
 
+- JAVA:
+
+  - {{% contentlink "projects/oop/dice" %}} INTRODUCED
+  - {{% contentlink "projects/java-specific/generics" %}}
+  - {{% contentlink "topics/java-specific/generics" %}}
+  - {{% contentlink "topics/design-patterns" %}}
+
 ## WEEK 12:
 
 - DATA_SCI:
@@ -336,8 +350,14 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/nodejs/file-io" %}}
 
 - DATA_ENG:
+
   - {{% contentlink "topics/python-specific/sqlalchemy/migrations" %}}
   - {{% contentlink "projects/python-specific/sqlalchemy-migrations" %}} - INTRODUCTION
+
+- JAVA:
+  - {{% contentlink "projects/oop/dice" %}} DUE
+  - {{% contentlink "topics/intro-to-docker/" %}}
+- {{% contentlink "projects/sql/" %}} INTRODUCED
 
 ## Week 13
 
@@ -360,6 +380,14 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "topics/intro-to-docker/" %}}
   - {{% contentlink "projects/sql/" %}} - INTRODUCTION
   - {{% contentlink "workshops/node-and-sql/" %}}
+
+- JAVA:
+
+  - {{% contentlink "projects/sql/" %}} DUE
+  - {{% contentlink "topics/linux/os-environmental-variables/" %}}
+  - {{% contentlink "topics/java-specific/jdbc-templates" %}}
+  - {{% contentlink "topics/java-specific/gradle-env-config" %}}
+  - {{% contentlink "projects/java-specific/hello-sql-and-java" %}}
 
 ## Week 14
 
