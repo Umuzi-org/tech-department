@@ -3,7 +3,9 @@ title: Introduction to Android
 ready: true 
 ---
 
-In order to create An
+For this course we are going to be using the Android Studio IDE created by Google and the programming language Kotlin.
+
+The links below describe how to set up your development environment.
 
 ## Getting started with the Android development environment
 - [Download Android Studio](https://developer.android.com/studio).
