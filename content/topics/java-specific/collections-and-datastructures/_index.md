@@ -8,6 +8,11 @@ Computers use this effecient storing of data to allow us to get information quic
 
 Take for example the difference between a binary tree and array traversal
 
+<img width="547" alt="Screenshot 2019-12-09 at 11 34 40" src="https://user-images.githubusercontent.com/47598382/70429381-1eea5b00-1a81-11ea-871b-1a3b17f6beb8.png">
+
+<img width="544" alt="Screenshot 2019-12-09 at 12 25 29" src="https://user-images.githubusercontent.com/47598382/70429378-1eea5b00-1a81-11ea-928a-6984a3e9322d.png">
+
+
 
 
 ## Resource
