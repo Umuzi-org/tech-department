@@ -8,6 +8,25 @@ This a continuation of {{% contentlink "projects/tdd/simple-calculator-part1" %}
 
 This exercise will require a little OOP knowledge. Brace yourself.
 
+## Set up your environment
+
+### Javascript
+
+Please test your code using jasmine.
+
+Your directory structure should look like this.
+
+```
+    >node_modules    <---- make sure this is in your .gitignore
+    >spec
+        > support
+            - jasmine.json
+        - string_calculator_spec.js
+    >src
+        - string_calculator.js
+    - package.json
+```
+
 ## Introducing the calculator class
 
 Update your tests so that they expect the `add` and `multiply` functions to be part of a class. Now make those tests pass.

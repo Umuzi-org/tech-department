@@ -17,9 +17,10 @@ Your directory structure should look like this.
     >spec
         > support
             -jasmine.json
-        - password-checker-spec.js
+        - password_is_valid_spec.js
+        - password_is_ok_spec.js
     >src
-        - password-checker.js
+        - password_checker.js
     - package.json
 ```
 
