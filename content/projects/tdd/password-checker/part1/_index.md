@@ -24,6 +24,24 @@ Your directory structure should look like this.
     - package.json
 ```
 
+### Python
+
+Your project is expected to be completed using pytest. You are expected to follow industry best practices in all things. This means that you need to have a directory structure that is in good shape. Please name your files and folders like this:
+
+```
+├── password_checker   the package under test
+│   └── password_checker.py
+├── README.md           hi there
+├── requirements.txt    installation requiremnts
+├── setup.py            installation script for the package under test
+└── tests               all package tests go in this directory
+    ├── test_password_is_valid.py
+    └── test_password_is_ok.py
+```
+
+Please take a look at this topic to see an explanation of the required directory structure.
+{{%contentlink "topics/python-specific/automated-testing-with-pytest" %}}
+
 ## Instructions
 
 Implement the following function by following a TDD methodology:
