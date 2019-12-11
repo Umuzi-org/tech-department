@@ -12,19 +12,19 @@
     <title>string-calculator :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1575790500" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1575790500" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1575790500" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1575790500" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1575790500" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1575790500" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1575790500" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1575790500" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1576042529" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1576042529" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1576042529" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1576042529" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1576042529" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1576042529" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1576042529" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1576042529" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1575790500" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1576042529" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1575790500"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1576042529"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1575790500"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1575790500"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1576042529"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1576042529"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1575790500"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1576042529"></script>
 
     
   </div>
@@ -7144,11 +7144,23 @@
 <ul>
 <li>
 <ul>
-<li>
+<li><a href="#set-up-your-environment">Set up your environment</a>
+<ul>
+<li><a href="#javascript">Javascript</a></li>
+</ul></li>
+<li><a href="#instructions">Instructions</a>
 <ul>
 <li>
 <ul>
-<li><a href="#project">Project</a></li>
+<li><a href="#1-create-an-add-function-that-can-handle-up-to-two-integers-passed-in-as-a-string">1. Create an add function that can handle up to two integers passed in as a string.</a></li>
+<li><a href="#2-modify-the-add-function-to-handle-multiple-integers">2. Modify the add function to handle multiple integers.</a></li>
+<li><a href="#3-modify-the-add-function-so-that-it-can-handle-new-lines-between-integers">3. Modify the add function so that it can handle new lines between integers.</a></li>
+<li><a href="#4-modify-the-add-function-so-that-it-can-handle-different-delimeters">4. Modify the add function so that it can handle different delimeters.</a></li>
+<li><a href="#5-modify-the-add-function-so-that-it-can-handle-negative-integers">5. Modify the add function so that it can handle negative integers.</a></li>
+<li><a href="#6-modify-the-add-function-so-that-it-ignores-integers-greater-than-or-equal-to-1000">6. Modify the add function so that it ignores integers greater than or equal to 1000.</a></li>
+<li><a href="#7-modify-the-add-function-so-that-it-can-support-delimiters-of-any-length">7. Modify the add function so that it can support delimiters of any length</a></li>
+<li><a href="#8-modify-the-add-function-so-that-it-is-able-to-support-different-delimiters-of-any-length">8. Modify the add function so that it is able to support different delimiters of any length</a></li>
+<li><a href="#9-modify-the-add-function-so-that-it-can-handle-invalid-input">9. Modify the add function so that it can handle invalid input.</a></li>
 </ul></li>
 <li><a href="#why-is-this-important">why is this important?</a></li>
 </ul></li>
@@ -7204,6 +7216,26 @@
 
 
 
+<h2 id="set-up-your-environment">Set up your environment</h2>
+
+<h3 id="javascript">Javascript</h3>
+
+<p>Please test your code using jasmine.</p>
+
+<p>Your directory structure should look like this.</p>
+
+<pre><code>    &gt;node_modules    &lt;---- make sure this is in your .gitignore
+    &gt;spec
+        &gt; support
+            - jasmine.json
+        - string_calculator_spec.js
+    &gt;src
+        - string_calculator.js
+    - package.json
+</code></pre>
+
+<h2 id="instructions">Instructions</h2>
+
 <p>Before you commence, first read through 
 
 
@@ -7226,11 +7258,146 @@
 >
 .</p>
 
-<h4 id="project">Project</h4>
+<p>Please note that this project should be done in a TDD manner.</p>
 
-<p>Do this: <a href="https://osherove.com/tdd-kata-1/">https://osherove.com/tdd-kata-1/</a></p>
+<h4 id="1-create-an-add-function-that-can-handle-up-to-two-integers-passed-in-as-a-string">1. Create an add function that can handle up to two integers passed in as a string.</h4>
 
-<p>Do all the steps (1 - 9).</p>
+<p>Create a function called <code>add()</code> that takes in a string as a parameter and behaves in the following way:</p>
+
+<pre><code>add(&quot;&quot;)
+// should return 0
+
+add(&quot;1&quot;)
+// should return 1
+
+add(&quot;1,1&quot;)
+// should return 2
+
+</code></pre>
+
+<p><em>Note: The output that the function returns should be an integer and not a string.</em></p>
+
+<h4 id="2-modify-the-add-function-to-handle-multiple-integers">2. Modify the add function to handle multiple integers.</h4>
+
+<pre><code>add(&quot;1,2,3,4&quot;)
+// should return 10
+
+add(&quot;&quot;)
+// should still return 0
+
+add(&quot;1&quot;)
+// should still return 1
+
+add(&quot;1,1&quot;)
+// should still return 2
+</code></pre>
+
+<p>As you keep adding more functionality to your code always make sure that the previous functionality you implemented still works flawlessly. Keep this in mind as you continue to modify your code.</p>
+
+<h4 id="3-modify-the-add-function-so-that-it-can-handle-new-lines-between-integers">3. Modify the add function so that it can handle new lines between integers.</h4>
+
+<pre><code>add(&quot;1\n2,3&quot; )
+// should return 6
+</code></pre>
+
+<h4 id="4-modify-the-add-function-so-that-it-can-handle-different-delimeters">4. Modify the add function so that it can handle different delimeters.</h4>
+
+<p>Delimiters will be specified in the following manner:</p>
+
+<ul>
+<li><strong>&rdquo;//[delimiter]\n[numbers…]&rdquo;</strong>, the default delimiter will be in the beginning of the string just before a new line character (&rdquo;\n&rdquo;).For example:</li>
+</ul>
+
+<pre><code>add(&quot;//;\n1;2&quot;)
+// should return 3
+
+add(&quot;//4\n142&quot;)
+// should return 3
+</code></pre>
+
+<p>In the first case, the default delimiter is: &ldquo;;&rdquo;.</p>
+
+<p>In the second case, the default delimiter is: &ldquo;4&rdquo;.</p>
+
+<h4 id="5-modify-the-add-function-so-that-it-can-handle-negative-integers">5. Modify the add function so that it can handle negative integers.</h4>
+
+<p>If a negative number is passed into the add function it should throw this exception:
+<code>&quot;negatives not allowed&quot;</code></p>
+
+<p>The exception should contain a list of all the negative integers that were passed into the add function.</p>
+
+<p>For example:</p>
+
+<pre><code>add(&quot;-1,-2,3,4&quot;)
+// should throw the following:
+    'ERROR: negatives not allowed -1,-2'
+</code></pre>
+
+<h4 id="6-modify-the-add-function-so-that-it-ignores-integers-greater-than-or-equal-to-1000">6. Modify the add function so that it ignores integers greater than or equal to 1000.</h4>
+
+<pre><code>add(&quot;//;\n1000,1;2&quot;)
+// should return 3
+</code></pre>
+
+<h4 id="7-modify-the-add-function-so-that-it-can-support-delimiters-of-any-length">7. Modify the add function so that it can support delimiters of any length</h4>
+
+<p>As long as the string passed in satisfies this format, &ldquo;//[delimiter]\n[integers&hellip;]&ldquo;, which was explained above. The add function should be able to handle it.
+For example:</p>
+
+<pre><code>add(&quot;//***\n1***2***3&quot;)
+// should return 6
+</code></pre>
+
+<h4 id="8-modify-the-add-function-so-that-it-is-able-to-support-different-delimiters-of-any-length">8. Modify the add function so that it is able to support different delimiters of any length</h4>
+
+<p>As long as the string passed into the add function follows this format, &ldquo;//[delim1][delim2]\n[integers&hellip;]&ldquo;, the add function should be able to handle it:</p>
+
+<p>For example:</p>
+
+<pre><code>add(&quot;//[:D][%]\n1:D2%3&quot;)
+// should return 6
+
+add(&quot;//[***][%%%]\n1***2%%%3&quot;)
+// should return 6
+
+add(&quot;//[(-_-')][%]\n1(-_-')2%3&quot;)
+// should return 6
+
+add(&quot;//[abc][777][:(]\n1abc27773:(1&quot;)
+// should return 7
+
+</code></pre>
+
+<h4 id="9-modify-the-add-function-so-that-it-can-handle-invalid-input">9. Modify the add function so that it can handle invalid input.</h4>
+
+<p>If the string passed in is invalid, your code should be able to detect this and throw an error.</p>
+
+<p>Hint: A valid string input follows these formats:</p>
+
+<pre><code class="language-md">- &quot;integer,integer,integer&quot; e.g &quot;1,2&quot; or &quot;1,2,3,4&quot;
+
+- &quot;integer \n integer,integer e.g &quot;1\n2,3&quot;
+
+- &quot;//delimiter \n integer delimiter integer&quot; e.g &quot;//;\n1;2&quot;
+
+- &quot;//[delimiter][delimiter]\n integer delimiter integer&quot; e.g &quot;//[\*][%]\n1\*2%3&quot;
+</code></pre>
+
+<p>If the string doesn&rsquo;t abide by any of these formats, it should be considered invalid.</p>
+
+<pre><code>add(&quot;//;\n1000;1;2;&quot;)
+// should throw the following:
+    'ERROR: invalid input'
+
+add(&quot;   //;\n1000,1;2&quot;)
+// should throw the following:
+    'ERROR: invalid input'
+
+add(&quot;1,2,3//;\n1000,1;2&quot;)
+// should throw the following:
+    'ERROR: invalid input'
+
+</code></pre>
 
 <h3 id="why-is-this-important">why is this important?</h3>
 
@@ -11757,20 +11924,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1575790500"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1575790500"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1575790500"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1575790500"></script>
-    <script src="/tech-department/js/featherlight.min.js?1575790500"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1575790500"></script>
-    <script src="/tech-department/js/highlight.pack.js?1575790500"></script>
+    <script src="/tech-department/js/clipboard.min.js?1576042529"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1576042529"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1576042529"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1576042529"></script>
+    <script src="/tech-department/js/featherlight.min.js?1576042529"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1576042529"></script>
+    <script src="/tech-department/js/highlight.pack.js?1576042529"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1575790500"></script>
-    <script src="/tech-department/js/learn.js?1575790500"></script>
-    <script src="/tech-department/js/hugo-learn.js?1575790500"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1576042529"></script>
+    <script src="/tech-department/js/learn.js?1576042529"></script>
+    <script src="/tech-department/js/hugo-learn.js?1576042529"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1575790500" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1575790500"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1576042529" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1576042529"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
