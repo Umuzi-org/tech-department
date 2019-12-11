@@ -18,7 +18,7 @@ Remember to make sure your tests still pass after refactoring it.
 
 ### JavaScript:
 
-Use Jasmine to test your code. _Please do not use the SpecRunner_ to test your code. Run Jasmine on the terminal.
+Use Jasmine to test your code. _Please do not use the SpecRunner html file_ to test your code. Run Jasmine on the terminal.
 
 - {{% contentlink "topics/jasmine-unit-tests" %}} . Look under the heading: _Getting set up (like a boss)_ for instructions to set up.
 

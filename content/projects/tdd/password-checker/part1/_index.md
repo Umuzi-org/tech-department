@@ -4,6 +4,27 @@ pre: "<b>MEDIUM: </b>"
 ready: true
 ---
 
+## Set up your environment
+
+### Javascript
+
+Please test your code using jasmine.
+
+Your directory structure should look like this.
+
+```
+    >node_modules    <---- make sure this is in your .gitignore
+    >spec
+        > support
+            -jasmine.json
+        - password-checker-spec.js
+    >src
+        - password-checker.js
+    - package.json
+```
+
+## Instructions
+
 Implement the following function by following a TDD methodology:
 
 ```
@@ -39,12 +60,10 @@ Next, implement a function called password is ok:
 passwordIsOk(password)
 ```
 
-
 ```
 // Java:
-passwordIsOk(password)  
+passwordIsOk(password)
 ```
-
 
 ```
 # Python:
@@ -64,7 +83,6 @@ Add a feature: the password is never OK if conditions 1 and 2 are not met.
 
 - [Python Errors](https://www.codementor.io/sheena/how-to-write-python-custom-exceptions-du107ufv9?referral=sheena-kvo1e6ewh)
 - [Exceptions and Pytest](https://stackoverflow.com/questions/23337471/how-to-properly-assert-that-an-exception-gets-raised-in-pytest)
-
 
 ## Java Resources
 
