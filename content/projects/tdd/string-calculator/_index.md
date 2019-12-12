@@ -30,7 +30,6 @@ Your project is expected to be completed using pytest. You are expected to follo
 ```
 ├── string_calculator   the package under test
 │   └── calculator.py
-├── README.md           hi there
 ├── requirements.txt    installation requiremnts
 ├── setup.py            installation script for the package under test
 └── tests               all package tests go in this directory

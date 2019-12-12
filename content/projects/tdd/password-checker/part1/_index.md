@@ -31,7 +31,6 @@ Your project is expected to be completed using pytest. You are expected to follo
 ```
 ├── password_checker   the package under test
 │   └── password_checker.py
-├── README.md           hi there
 ├── requirements.txt    installation requiremnts
 ├── setup.py            installation script for the package under test
 └── tests               all package tests go in this directory
