@@ -12,19 +12,19 @@
     <title>Animals Part 1. OOP basics :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1576139768" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1576139768" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1576139768" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1576139768" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1576139768" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1576139768" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1576139768" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1576139768" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1576141038" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1576141038" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1576141038" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1576141038" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1576141038" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1576141038" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1576141038" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1576141038" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1576139768" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1576141038" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1576139768"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1576141038"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1576139768"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1576139768"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1576141038"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1576141038"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1576139768"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1576141038"></script>
 
     
   </div>
@@ -7174,7 +7174,11 @@
 <ul>
 <li>
 <ul>
-<li>
+<li><a href="#project-structure">Project structure</a>
+<ul>
+<li><a href="#java">Java</a></li>
+</ul></li>
+<li><a href="#instructions">Instructions</a>
 <ul>
 <li><a href="#up-for-a-challenge">Up for a Challenge?</a></li>
 </ul></li>
@@ -7230,7 +7234,46 @@
 
 
 
-<p>This Challenge should test  topics from your OOP knowledge</p>
+<h2 id="project-structure">Project structure</h2>
+
+<h3 id="java">Java</h3>
+
+<p>The code you push to git should have the following structure:</p>
+
+<pre><code>├── build.gradle
+├── gradle
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradlew
+├── gradlew.bat
+├── settings.gradle
+└── src
+    ├── main
+        └── java
+            ├── Animal.java       &lt;-------- names are important
+            ├── Cat.java          &lt;-------- names are important
+            ├── Dog.java          &lt;-------- names are important
+            ├── Home.java         &lt;-------- names are important
+            └── MainProgram.java  &lt;-------- names are important
+
+</code></pre>
+
+<p>Please refer to the following to find out more: 
+
+
+
+
+<a href="/tech-department/topics/java-specific/gradle-and-intellij-project-structure"
+  >TOPICS: 
+  
+  Gradle and IntelliJ project submission structure </a
+>
+</p>
+
+<h2 id="instructions">Instructions</h2>
+
+<p>This Challenge should test topics from your OOP knowledge</p>
 
 <ol>
 <li>Encapsulation</li>
@@ -7282,9 +7325,9 @@ cat.sounds();// -&gt; 'Cat meows'
 <pre><code>// Java
 
 Home home = new Home()
-Dog dog1 = new Dog()
-Dog dog2 = new Dog()
-Cat cat = new Cat()
+? dog1 = new Dog()
+? dog2 = new Dog()
+? cat = new Cat()
 
 home.makeAllSounds() // this doesn't do anything
 home.adoptPet(dog1)
@@ -11871,20 +11914,20 @@ home.adoptPet(dog1) // not ok at all
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1576139768"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1576139768"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1576139768"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1576139768"></script>
-    <script src="/tech-department/js/featherlight.min.js?1576139768"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1576139768"></script>
-    <script src="/tech-department/js/highlight.pack.js?1576139768"></script>
+    <script src="/tech-department/js/clipboard.min.js?1576141038"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1576141038"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1576141038"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1576141038"></script>
+    <script src="/tech-department/js/featherlight.min.js?1576141038"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1576141038"></script>
+    <script src="/tech-department/js/highlight.pack.js?1576141038"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1576139768"></script>
-    <script src="/tech-department/js/learn.js?1576139768"></script>
-    <script src="/tech-department/js/hugo-learn.js?1576139768"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1576141038"></script>
+    <script src="/tech-department/js/learn.js?1576141038"></script>
+    <script src="/tech-department/js/hugo-learn.js?1576141038"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1576139768" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1576139768"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1576141038" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1576141038"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
