@@ -5,7 +5,39 @@ ready: true
 
 In this challenge you will update your current Animals project and add unit tests to the project
 
-## Java Instructions
+## Project structure
+
+### Java
+
+The code you push to git should have the following structure:
+
+```
+├── build.gradle
+├── gradle
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradlew
+├── gradlew.bat
+├── settings.gradle
+└── src
+    ├── main
+    |   └── java
+    |       ├── Animal.java       <-------- names are important
+    |       ├── Cat.java          <-------- names are important
+    |       ├── Dog.java          <-------- names are important
+    |       ├── Home.java         <-------- names are important
+    |       └── MainProgram.java  <-------- names are important
+    └── test
+        └── java
+            ├── CatTest.java   <-------- names are important
+            └── DogTest.java   <-------- names are important
+            ... other logical things
+```
+
+Please refer to the following to find out more: {{% contentlink "topics/java-specific/gradle-and-intellij-project-structure" %}}
+
+## Instructions
 
 You'll be using JUnit.
 

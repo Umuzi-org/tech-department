@@ -31,3 +31,9 @@ why and how you need to test your code) and unit testing with python's unittest.
 
 - [Fun Fun Function: Unit testing in Javascript](https://youtu.be/Eu35xM76kKY)
 - [unittest](https://www.youtube.com/watch?v=6tNS--WetLI)
+
+## Pytest directory structure
+
+We will expect your project to follow industry-recognised best practices when you submit them to us.
+
+Take a look at[this repo](https://github.com/Umuzi-org/python-pytest-reference-dir-structure). We'll require that you follow this structure when you submit your work.

@@ -18,7 +18,7 @@ Remember to make sure your tests still pass after refactoring it.
 
 ### JavaScript:
 
-Use Jasmine to test your code. _Please do not use the SpecRunner_ to test your code. Run Jasmine on the terminal.
+Use Jasmine to test your code. _Please do not use the SpecRunner html file_ to test your code. Run Jasmine on the terminal.
 
 - {{% contentlink "topics/jasmine-unit-tests" %}} . Look under the heading: _Getting set up (like a boss)_ for instructions to set up.
 
@@ -26,28 +26,71 @@ After setting up Jasmine on the terminal, please ensure that your directory has 
 
 - A src folder that has a file called:
 
-  - simple-calculator.js <---- this is where you will implement all your functionality.
+  - simple_calculator.js <---- this is where you will implement all your functionality.
 
 - A spec folder that has a file called:
-  - simple-calculator-spec.js <---- this is where you will put your tests.
+  - simple_calculator_spec.js <---- this is where you will put your tests.
 
 Your directory structure should look like this:
 
 ```
->simple-calculator-part1
     >node_modules    <---- make sure this is in your .gitignore
     >spec
         > support
-            -jasmine.json
-        - simple-calculator-spec.js.
+            - jasmine.json
+        - simple_calculator_spec.js
     >src
-        -simple-calculator.js
-    -package.json
+        - simple_calculator.js
+    - package.json
 ```
 
-## Java
+### Python
+
+Your project is expected to be completed using pytest. You are expected to follow industry best practices in all things. This means that you need to have a directory structure that is in good shape. Please name your files and folders like this:
+
+```
+├── simple_calculator   the package under test
+│   └── calculator.py
+├── requirements.txt    installation requiremnts
+├── setup.py            installation script for the package under test
+└── tests               all package tests go in this directory
+    └── test_calculator.py
+```
+
+Please take a look at this topic to see an explanation of the required directory structure.
+{{%contentlink "topics/python-specific/automated-testing-with-pytest" %}}
+
+### Java
 
 You'll be using IntelliJ, Gradle and JUnit to pull this off.
+
+Create a class named `Calculator`. All your methods should be static methods that return integers. Eg:
+
+```
+    public static int add(....
+```
+
+Please make sure that you make proper use of gitignore. We don't want your junk files. The git repo you give us should have a file hierarchy that looks like this:
+
+```
+├── build.gradle
+├── gradle
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradlew
+├── gradlew.bat
+├── settings.gradle
+└── src
+    ├── main
+    │   └── java
+    │       └── Calculator.java       <-------- names are important
+    └── test
+        └── java
+            └── CalculatorTest.java   <-------- names are important
+```
+
+Please refer to the following to find out more: {{% contentlink "topics/java-specific/gradle-and-intellij-project-structure" %}}
 
 ## 1. Create an add function that can add two integers
 

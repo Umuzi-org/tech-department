@@ -438,6 +438,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/java-specific/gradle-env-config/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/data-science-specific/data-visualisation/linux-evolution/</loc>
   </url>
   
@@ -478,7 +482,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/git/git-basics/</loc>
+    <loc>/tech-department/topics/git/</loc>
   </url>
   
   <url>
@@ -487,10 +491,6 @@
   
   <url>
     <loc>/tech-department/workshops/git-for-teamwork/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/topics/git/</loc>
   </url>
   
   <url>
@@ -503,6 +503,10 @@
   
   <url>
     <loc>/tech-department/workshops/google-forms-like-a-boss/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/gradle-and-intellij-project-structure/</loc>
   </url>
   
   <url>
@@ -594,6 +598,14 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/design-patterns/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/dotenv-module/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/intro-to-express/</loc>
   </url>
   
@@ -642,6 +654,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/java-specific/jdbc-templates/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/js-and-node-specific/</loc>
   </url>
   
@@ -670,6 +686,14 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/java-specific/generics/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/generics/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/java-specific/logging/</loc>
   </url>
   
@@ -678,7 +702,19 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/java-specific/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/java-specific/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/collections-and-datastructures/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/java-specific/collections-and-datastructures/</loc>
   </url>
   
   <url>
@@ -890,6 +926,10 @@
   
   <url>
     <loc>/tech-department/topics/intro-to-relational-databases/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/java-specific/hello-sql-and-java/</loc>
   </url>
   
   <url>

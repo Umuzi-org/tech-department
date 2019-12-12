@@ -4,6 +4,69 @@ pre: "<b>MEDIUM: </b>"
 ready: true
 ---
 
+## Set up your environment
+
+### Javascript
+
+Please test your code using jasmine.
+
+Your directory structure should look like this.
+
+```
+    >node_modules    <---- make sure this is in your .gitignore
+    >spec
+        > support
+            -jasmine.json
+        - password_is_valid_spec.js
+        - password_is_ok_spec.js
+    >src
+        - password_checker.js
+    - package.json
+```
+
+### Python
+
+Your project is expected to be completed using pytest. You are expected to follow industry best practices in all things. This means that you need to have a directory structure that is in good shape. Please name your files and folders like this:
+
+```
+├── password_checker   the package under test
+│   └── password_checker.py
+├── requirements.txt    installation requiremnts
+├── setup.py            installation script for the package under test
+└── tests               all package tests go in this directory
+    ├── test_password_is_valid.py
+    └── test_password_is_ok.py
+```
+
+Please take a look at this topic to see an explanation of the required directory structure.
+{{%contentlink "topics/python-specific/automated-testing-with-pytest" %}}
+
+### Java
+
+The code you push to git should have the following structure:
+
+```
+├── build.gradle
+├── gradle
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradlew
+├── gradlew.bat
+├── settings.gradle
+└── src
+    ├── main
+    |   └── java
+    |       └── PasswordChecker.java <-------- names are important
+    └── test
+        └── java
+            └── ???.java             <-------- names are important
+```
+
+Please refer to the following to find out more: {{% contentlink "topics/java-specific/gradle-and-intellij-project-structure" %}}
+
+## Instructions
+
 Implement the following function by following a TDD methodology:
 
 ```
@@ -39,12 +102,10 @@ Next, implement a function called password is ok:
 passwordIsOk(password)
 ```
 
-
 ```
 // Java:
-passwordIsOk(password)  
+passwordIsOk(password)
 ```
-
 
 ```
 # Python:
@@ -64,7 +125,6 @@ Add a feature: the password is never OK if conditions 1 and 2 are not met.
 
 - [Python Errors](https://www.codementor.io/sheena/how-to-write-python-custom-exceptions-du107ufv9?referral=sheena-kvo1e6ewh)
 - [Exceptions and Pytest](https://stackoverflow.com/questions/23337471/how-to-properly-assert-that-an-exception-gets-raised-in-pytest)
-
 
 ## Java Resources
 

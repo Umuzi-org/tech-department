@@ -93,8 +93,8 @@ The material and assessments are found on [Gnomio](http://umuzi.gnomio.com/). Th
 - [Disciplinary Policy](https://umuzi.gnomio.com/pluginfile.php/2134/mod_resource/content/1/Umuzi_Disciplinary%20Procedure.pdf) | [Code Of Conduct](https://umuzi.gnomio.com/pluginfile.php/2176/mod_resource/content/1/Umuzi%20Code%20of%20Conduct_December%202018.pdf) | [Sexual Harassment Policy](https://umuzi.gnomio.com/pluginfile.php/2304/mod_resource/content/1/Sexual%20Harassment%20Policy.pdf) These are the Umuzi policies please read through them and familiarise yourseld with them.
 
 - [Leave Policy](link to be inserted) [TODO]
-
-If you have any queries, these are the people to contact:
+- To help us improve our content please review or rate by clicking [here](https://docs.google.com/forms/d/e/1FAIpQLSfHCI5JtVCo28Yrvjn2xUq3sWTyvFFAtvs0h3eaPEMHRGBr6Q/viewform?usp=sf_link)
+  If you have any queries, these are the people to contact:
 
 ##### Tech/Curriculum Questions
 
