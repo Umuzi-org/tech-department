@@ -64,6 +64,34 @@ Please take a look at this topic to see an explanation of the required directory
 
 You'll be using IntelliJ, Gradle and JUnit to pull this off.
 
+Create a class named `Calculator`. All your methods should be static methods that return integers. Eg:
+
+```
+    public static int add(....
+```
+
+Please make sure that you make proper use of gitignore. We don't want your junk files. The git repo you give us should have a file hierarchy that looks like this:
+
+```
+├── build.gradle
+├── gradle
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradlew
+├── gradlew.bat
+├── settings.gradle
+└── src
+    ├── main
+    │   └── java
+    │       └── Calculator.java       <-------- names are important
+    └── test
+        └── java
+            └── CalculatorTest.java   <-------- names are important
+```
+
+Please refer to the following to find out more: {{% contentlink "topics/java-specific/gradle-and-intellij-project-structure" %}}
+
 ## 1. Create an add function that can add two integers
 
 Create a function called `add` that works like this:
