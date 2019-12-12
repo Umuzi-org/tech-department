@@ -41,6 +41,30 @@ Your project is expected to be completed using pytest. You are expected to follo
 Please take a look at this topic to see an explanation of the required directory structure.
 {{%contentlink "topics/python-specific/automated-testing-with-pytest" %}}
 
+### Java
+
+The code you push to git should have the following structure:
+
+```
+├── build.gradle
+├── gradle
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradlew
+├── gradlew.bat
+├── settings.gradle
+└── src
+    ├── main
+    |   └── java
+    |       └── PasswordChecker.java <-------- names are important
+    └── test
+        └── java
+            └── ???.java             <-------- names are important
+```
+
+Please refer to the following to find out more: {{% contentlink "topics/java-specific/gradle-and-intellij-project-structure" %}}
+
 ## Instructions
 
 Implement the following function by following a TDD methodology:

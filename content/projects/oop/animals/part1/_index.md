@@ -3,7 +3,37 @@ title: Animals Part 1. OOP basics
 ready: true
 ---
 
-This Challenge should test  topics from your OOP knowledge
+## Project structure
+
+### Java
+
+The code you push to git should have the following structure:
+
+```
+├── build.gradle
+├── gradle
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradlew
+├── gradlew.bat
+├── settings.gradle
+└── src
+    ├── main
+        └── java
+            ├── Animal.java       <-------- names are important
+            ├── Cat.java          <-------- names are important
+            ├── Dog.java          <-------- names are important
+            ├── Home.java         <-------- names are important
+            └── MainProgram.java  <-------- names are important
+
+```
+
+Please refer to the following to find out more: {{% contentlink "topics/java-specific/gradle-and-intellij-project-structure" %}}
+
+## Instructions
+
+This Challenge should test topics from your OOP knowledge
 
 1. Encapsulation
 2. Inheritance
@@ -54,9 +84,9 @@ Now let's add composition. Make a new class called `Home`. Lots of people have d
 // Java
 
 Home home = new Home()
-Dog dog1 = new Dog()
-Dog dog2 = new Dog()
-Cat cat = new Cat()
+? dog1 = new Dog()
+? dog2 = new Dog()
+? cat = new Cat()
 
 home.makeAllSounds() // this doesn't do anything
 home.adoptPet(dog1)
