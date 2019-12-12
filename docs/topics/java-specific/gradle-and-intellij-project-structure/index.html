@@ -9,22 +9,22 @@
 
     <link rel="icon" href="/tech-department/images/favicon.png" type="image/png">
 
-    <title>Test Driven Development :: Documentation for Umuzi Tech Department</title>
+    <title>Gradle and IntelliJ project submission structure :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1576139770" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1576139770" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1576139770" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1576139770" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1576139770" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1576139770" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1576139770" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1576139770" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1576139769" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1576139769" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1576139769" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1576139769" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1576139769" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1576139769" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1576139769" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1576139769" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1576139770" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1576139769" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1576139770"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1576139769"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -34,7 +34,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/tech-department/projects/tdd/">
+  <body class="" data-url="/tech-department/topics/java-specific/gradle-and-intellij-project-structure/">
     <nav id="sidebar" class="">
 
 
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1576139770"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1576139770"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1576139769"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1576139769"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1576139770"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1576139769"></script>
 
     
   </div>
@@ -317,7 +317,7 @@
   
     
     <li data-nav-id="/tech-department/topics/" title="Topics" class="dd-item 
-        
+        parent
         
         
         ">
@@ -1606,7 +1606,7 @@
   
     
     <li data-nav-id="/tech-department/topics/java-specific/" title="Java" class="dd-item 
-        
+        parent
         
         
         ">
@@ -1681,8 +1681,8 @@
   
     
     <li data-nav-id="/tech-department/topics/java-specific/gradle-and-intellij-project-structure/" title="Gradle and IntelliJ project submission structure" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="/tech-department/topics/java-specific/gradle-and-intellij-project-structure/">
@@ -4227,7 +4227,7 @@
   
     
     <li data-nav-id="/tech-department/projects/" title="Projects" class="dd-item 
-        parent
+        
         
         
         ">
@@ -6018,8 +6018,8 @@
   
     
     <li data-nav-id="/tech-department/projects/tdd/" title="Test Driven Development" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/tech-department/projects/tdd/">
@@ -7114,7 +7114,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://github.com/Umuzi-org/tech-departmentprojects/tdd/_index.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://github.com/Umuzi-org/tech-departmenttopics/java-specific/gradle-and-intellij-project-structure/_index.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -7145,7 +7145,13 @@
             
           
           
-            <a href='/tech-department/'>Umuzi Tech Department</a> > <a href='/tech-department/projects/'>Projects</a> > Test Driven Development
+            
+            
+          
+          
+            <a href='/tech-department/'>Umuzi Tech Department</a> > <a href='/tech-department/topics/'>Topics</a> > <a href='/tech-department/topics/java-specific/'>Java</a> > Gradle and IntelliJ project submission structure
+          
+        
           
         
           
@@ -7162,7 +7168,8 @@
 <ul>
 <li>
 <ul>
-<li><a href="#reads">Reads</a></li>
+<li><a href="#troubleshooting">Troubleshooting</a></li>
+<li><a href="#massive-and-very-thorough-gitignore-file">Massive and very thorough gitignore file</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -7177,7 +7184,7 @@
         
         <div id="body-inner">
           
-            <h1>Test Driven Development</h1>
+            <h1>Gradle and IntelliJ project submission structure</h1>
           
 
         
@@ -7187,60 +7194,214 @@
 
         
 
-        
-          
-        
-
-        
-        
-        
-        
-        
-        <hr/>
-
-        To submit this project follow the link below: <br/>
-
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfzgQRyS-duv3CSOtaTRv77U1ryLYb9l4uPkECktDe2nybpYQ/viewform?usp=pp_url&entry.152431284=projects%2ftdd%2f">
-            PROJECT SUBMISSION FORM
-        </a>
-        
-        <br/>
-
-        If you follow a different link or do your own thing you will have to resubmit. 
-        <hr/>
-
-        
-
-        
 
 
+<p>When pushing your work to git it&rsquo;s important to be intentional about what you are pushing. When you build your java project and/or run your tests then certain files get created automatically. We don&rsquo;t want those files. We should be able to generate them ourselves whenever we want to.</p>
 
-<p>The exercises in this section can be done in any language. The aim is to have working logic, not a beautiful user interface. You will be expected to demonstrate your working code and also to build on lessons you have already learned.</p>
+<p>When you commit your code to git, you can tell git which files to ignore. You can do this though use of a <code>.gitignore</code> file. We&rsquo;ve included a seriosly verbose gitignore file at the bottom of this document. Please just copy it and save it as a file named<code>.gitignore</code> in the root of your project.</p>
 
-<ul>
-<li>if you know OOP please use it where it is appropriate</li>
-<li>write clean code (it will be reviewed by your peers and by senior staff)</li>
-<li>use Git from the command line. This is a suuuper important skill in industry</li>
-<li>have fun :) (but not too much)</li>
-</ul>
+<p>Now if you did this right from the start you should be able to do something like this:</p>
 
-<p>There are a few exercises here. Try the ones marked as easy first.</p>
+<pre><code>git add .
+git commit -m &quot;a useful and informative message&quot;
+git push
+</code></pre>
 
-<h2 id="reads">Reads</h2>
+<p>Now let&rsquo;s see if it all worked out. Try cloning your code yourself and see what git knows about:</p>
 
-<ul>
-<li>Here is a quick read on the most common TDD pitfalls: 
+<pre><code>cd somewhere_nice
+git clone &lt;your github repo&gt; temporary_copy
+cd temporary_copy
+tree  # you might need to: `sudo apt install tree`
+</code></pre>
+
+<p>This should output something neat and tidy. Eg from one of our many calculator projects you would see something that looks like this:</p>
+
+<pre><code>├── build.gradle
+├── gradle
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradlew
+├── gradlew.bat
+├── settings.gradle
+└── src
+    ├── main
+    │   └── java
+    │       └── Calculator.java
+    └── test
+        └── java
+            └── CalculatorTest.java
+</code></pre>
+
+<p>Now you can run these commands and they should work:</p>
+
+<pre><code> ./gradlew build
+ ./gradlew test
+</code></pre>
+
+<h2 id="troubleshooting">Troubleshooting</h2>
+
+<p>If the directory structure that githb is tracking is huge and crazy looking then that&rsquo;s because you committed things before adding <code>.gitignore</code> to your project. That&rsquo;s totally ok! We can fix it like so:</p>
+
+<pre><code>git rm -r -cached .
+git add .
+git status # this should tell yu about a whole big pile of deleted files. This is expected
+git commit -m &quot;cleaned up junk files&quot;
+git push
+</code></pre>
+
+<p>Now take a look at what github knows about. Everything should be looking clean and tidy and if you clone your code it should just work.</p>
+
+<h2 id="massive-and-very-thorough-gitignore-file">Massive and very thorough gitignore file</h2>
+
+<p>Please copy this into your projects and save it as <code>.gitignore</code>:</p>
 
 
 
 
-<a href="/tech-department/topics/unit-testing/tdd-horrors"
-  >TOPICS: 
-  
-  TDD Horrors </a
->
-</li>
-</ul>
+
+<pre><code>
+
+# Created by https://www.gitignore.io/api/java,gradle,intellij
+# Edit at https://www.gitignore.io/?templates=java,gradle,intellij
+
+### Intellij ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Generated files
+.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.idea/httpRequests
+
+# Android studio 3.1&#43; serialized cache file
+.idea/caches/build_file_checksums.ser
+
+### Intellij Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# *.iml
+# modules.xml
+# .idea/misc.xml
+# *.ipr
+
+# Sonarlint plugin
+.idea/**/sonarlint/
+
+# SonarQube Plugin
+.idea/**/sonarIssues.xml
+
+# Markdown Navigator plugin
+.idea/**/markdown-navigator.xml
+.idea/**/markdown-navigator/
+
+### Java ###
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+### Gradle ###
+.gradle
+build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+
+### Gradle Patch ###
+**/build/
+
+# End of https://www.gitignore.io/api/java,gradle,intellij
+</code></pre>
+
 
 
 <footer class=" footline" >
@@ -7431,6 +7592,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -7445,6 +7607,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -8257,6 +8422,7 @@
             
             
                 
+                    
                     
                 
                 
@@ -8273,6 +8439,9 @@
             
                 
                     
+                        
+                        
+                    
                 
                 
 
@@ -8305,6 +8474,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -8320,6 +8490,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -9933,7 +10106,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -9948,9 +10120,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -11061,7 +11230,6 @@
             
             
                 
-                    
                     
                 
                 
@@ -11077,9 +11245,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -11763,20 +11928,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1576139770"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1576139770"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1576139770"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1576139770"></script>
-    <script src="/tech-department/js/featherlight.min.js?1576139770"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1576139770"></script>
-    <script src="/tech-department/js/highlight.pack.js?1576139770"></script>
+    <script src="/tech-department/js/clipboard.min.js?1576139769"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1576139769"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1576139769"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1576139769"></script>
+    <script src="/tech-department/js/featherlight.min.js?1576139769"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1576139769"></script>
+    <script src="/tech-department/js/highlight.pack.js?1576139769"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1576139770"></script>
-    <script src="/tech-department/js/learn.js?1576139770"></script>
-    <script src="/tech-department/js/hugo-learn.js?1576139770"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1576139769"></script>
+    <script src="/tech-department/js/learn.js?1576139769"></script>
+    <script src="/tech-department/js/hugo-learn.js?1576139769"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1576139770" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1576139770"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1576139769" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1576139769"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
