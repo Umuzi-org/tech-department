@@ -15,7 +15,7 @@ Regular expressions are very useful. We use them to:
 
 It's not worth memorizing this stuff, but you should understand it.
 
-## General regular expressions
+## General Regular Expressions
 
 - Video: [Best of Fluent 2012: /Reg(exp){2}lained/: Demystifying Regular Expressions](https://www.youtube.com/watch?v=EkluES9Rvak)
 
@@ -27,3 +27,7 @@ It's not worth memorizing this stuff, but you should understand it.
 ## Javascript Regular Expressions
 
 - https://www.w3schools.com/js/js_regexp.asp
+
+## Java Regular Expressions
+
+- https://www.javatpoint.com/java-regex

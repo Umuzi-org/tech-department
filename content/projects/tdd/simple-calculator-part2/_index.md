@@ -8,6 +8,41 @@ This a continuation of {{% contentlink "projects/tdd/simple-calculator-part1" %}
 
 This exercise will require a little OOP knowledge. Brace yourself.
 
+## Set up your environment
+
+### Javascript
+
+Please test your code using jasmine.
+
+Your directory structure should look like this.
+
+```
+    >node_modules    <---- make sure this is in your .gitignore
+    >spec
+        > support
+            - jasmine.json
+        - string_calculator_spec.js
+    >src
+        - string_calculator.js
+    - package.json
+```
+
+### Python
+
+Your project is expected to be completed using pytest. You are expected to follow industry best practices in all things. This means that you need to have a directory structure that is in good shape. Please name your files and folders like this:
+
+```
+├── simple_calculator   the package under test
+│   └── calculator.py
+├── requirements.txt    installation requiremnts
+├── setup.py            installation script for the package under test
+└── tests               all package tests go in this directory
+    └── test_calculator.py
+```
+
+Please take a look at this topic to see an explanation of the required directory structure.
+{{%contentlink "topics/python-specific/automated-testing-with-pytest" %}}
+
 ## Introducing the calculator class
 
 Update your tests so that they expect the `add` and `multiply` functions to be part of a class. Now make those tests pass.

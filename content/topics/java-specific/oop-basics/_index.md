@@ -224,6 +224,9 @@ This is because every class in Java inherits from a base Object class. And so a 
 - Read more to gain further understanding on [OOP concepts](https://beginnersbook.com/2013/04/oops-concepts/).
 - [Here](https://stackify.com/oops-concepts-in-java/) is another useful link.
 - [Java oops concepts](https://www.javatpoint.com/java-oops-concepts) by Java T Point.
+- [Access modifiers explained](https://stackoverflow.com/questions/215497/what-is-the-difference-between-public-protected-package-private-and-private-in)
+- [Implements veresus Extends](https://stackoverflow.com/questions/10839131/implements-vs-extends-when-to-use-whats-the-difference)
+- [More on overloading versus overriding](https://www.baeldung.com/java-method-overload-override)
 
 ## Super cool advanced stuff
 
