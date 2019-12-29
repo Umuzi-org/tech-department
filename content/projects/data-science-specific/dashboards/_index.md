@@ -1,6 +1,7 @@
 ---
 title: Dashboard Assignment
 ready: True
+noform: True
 ---
 
 ## Assignments
