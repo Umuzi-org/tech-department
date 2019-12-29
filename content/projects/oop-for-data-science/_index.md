@@ -1,6 +1,6 @@
 ---
 title: OOP for data science
-ready: False
+ready: True
 ---
 
 ## Prerequisite
