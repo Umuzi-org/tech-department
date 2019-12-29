@@ -35,7 +35,7 @@ The code you push to git should have the following structure:
             ... other logical things
 ```
 
-Please refer to the following to find out more: {{% contentlink "topics/java-specific/gradle-and-intellij-project-structure" %}}
+Please refer to the following to find out more: {{% contentlink "topics/java-specific/project-submission-requirements" %}}
 
 ## Instructions
 
