@@ -5,7 +5,7 @@ ready: true
 
 ### Submission guidelines
 
-For this specific project we require you to complete the required scripts in terminal, verify that your commands work and store them in a .sh file. Make sure your tasks are labeled clearly. You will be pushing this file to GitHub and submitting the github link for assessment after you complete your GitHub exercises.
+While you work through this project you will save your script commands in a number of files called shell scripts, name them by task and sub task number i.e. 1-2,  they have the extension .sh. You'll be handing those in later. In general we use a tool called Git and a platform called Github for project submissions but this will be covered later in the course.
 
 ### Task 1 : Basic Task
 
