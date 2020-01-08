@@ -90,7 +90,7 @@ Note: for each instruction write a script and save it under this task
 When installing a package you use `sudo apt install package_name`.
 
 3. Install a specific package called tree;
-`sudo apt install tree`
+ `sudo apt install tree`
 
 You might ask what is sudo? Sudo allows you to run programs with the security privileges of another user, it is also referred to as a superuser. It is often used to install, start and stop applications that require root priviledges.
 
