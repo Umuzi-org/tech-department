@@ -217,6 +217,19 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/android/android-self-learning/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/android/ui-resources/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/android/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/oop/animals/</loc>
   </url>
   
@@ -291,6 +304,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/clean-code/kotlin/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/clean-code/</loc>
   </url>
   
@@ -312,6 +329,10 @@
   
   <url>
     <loc>/tech-department/topics/clean-code/python/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/clean-code/xml/</loc>
   </url>
   
   <url>
@@ -642,7 +663,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/workshops/intro-to-pair-programming/</loc>
+    <loc>/tech-department/topics/intro-to-pair-programming/</loc>
   </url>
   
   <url>
@@ -719,6 +740,10 @@
   
   <url>
     <loc>/tech-department/topics/java-specific/java-self-learning/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/project-submission-requirements/</loc>
   </url>
   
   <url>
@@ -805,6 +830,14 @@
   
   <url>
     <loc>/tech-department/projects/data-science-specific/multivariate-linear-regression/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/data-science-specific/natural-language-processing/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/data-science-specific/natural-language-processing/</loc>
   </url>
   
   <url>
@@ -1052,6 +1085,10 @@
   
   <url>
     <loc>/tech-department/topics/python-specific/web-scraping/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/data-science-specific/webscraping/</loc>
   </url>
   
   <url>
