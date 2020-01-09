@@ -10,5 +10,26 @@
 	<atom:link href="/tech-department/topics/js-and-node-specific/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Node</title>
+      <link>/tech-department/topics/js-and-node-specific/node/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/topics/js-and-node-specific/node/</guid>
+      <description>Wikipedia.org defines Node.js as an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user&amp;rsquo;s web browser.
+The article below unfold the following points
+ What is Node.js Why Node js Node installation process Asynchronous vs Synchronous  Resources  Understanding the basics of Node.</description>
+    </item>
+    
+    <item>
+      <title>Node setup</title>
+      <link>/tech-department/topics/js-and-node-specific/javascript-dev-environment-setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/topics/js-and-node-specific/javascript-dev-environment-setup/</guid>
+      <description>This is a guide to help lab assistants setup a local JavaScript environment.
+Step 1 – Add Node.js PPA sudo apt-get install curl curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash - Or sudo apt-get install curl curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -  Step 2 – Install Node.js on Ubuntu sudo apt-get install nodejs  Step 3 – Check Node.js and NPM Version After installing node.js verify and check the installed version.</description>
+    </item>
+    
   </channel>
 </rss>

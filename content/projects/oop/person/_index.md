@@ -3,7 +3,34 @@ title: Person
 ready: true
 ---
 
-Please follow TDD when implementing this code.
+## Project structure
+
+### Java
+
+The code you push to git should have the following structure:
+
+```
+├── build.gradle
+├── gradle
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradlew
+├── gradlew.bat
+├── settings.gradle
+└── src
+    ├── main
+        └── java
+            ├── Person.java       <-------- names are important
+            └── MainProgram.java  <-------- names are important
+
+```
+
+Please refer to the following to find out more: {{% contentlink "topics/java-specific/project-submission-requirements" %}}
+
+## Instructions
+
+Please follow TDD when implementing this code if you have covered TDD in your course.
 
 Create a `class` called `Person` which defines the generic data and functionality of a human.
 
@@ -34,6 +61,16 @@ console.log(greeting)
 person = Person('Ryan',30,'male',['being a hardarse','agile', 'ssd hard drives'] )
 greeting = person.hello()
 print(greeting)
+```
+
+```
+// Java
+
+Person person = new Person(
+    "Ryan",30,"male",
+    new String[] {"being a hardarse", "agile", "ssd hard drives"})
+String greeting = person.hello()
+System.out.println(greeting)
 ```
 
 This should output:
