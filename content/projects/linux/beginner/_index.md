@@ -3,6 +3,10 @@ title: Beginner Linux challenges
 ready: true
 ---
 
+### Submission guidelines
+
+While you work through this project you will save your script commands in a number of files called shell scripts, name them by task and sub task number i.e. 1-2,  they have the extension .sh. You'll be handing those in later. In general we use a tool called Git and a platform called Github for project submissions but this will be covered later in the course.
+
 ### Task 1 : Basic Task
 
 Open a linux terminal. Now do the following from the command line.
