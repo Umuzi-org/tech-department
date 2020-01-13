@@ -15,7 +15,7 @@ Otherwise:
 
 
 ```
-User password is ok
+User password is not ok
 ```
 
 The log level of these messages should be `debug`.
