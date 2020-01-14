@@ -34,6 +34,38 @@ A widely used platform in Tech is Github [watch for more info](https://www.youtu
 
 New to Git and Github? Here's a [tutorial](https://www.youtube.com/watch?v=SWYqp7iY_Tc) to help you get started.
 
+### Cloud Computing
+The practise of using a network of remote servers hosted on the Internet to store, manage, and process data, rather than a local server or a personal computer.
+
+There are three types of Cloud Computing:
+
+##### SaaS (Software as a Service)
+
+It uses the internet to deliver applications. The applications are managed by 3rd party vendors to their users. Most SaaS applications run through a web browser, hence they don’t require downloading or installation. 
+Examples: Google Apps & Dropbox
+
+##### PaaS (Platform as a Service)
+
+Also known as Cloud Platform Services. They provide cloud components to certain software while being used mainly for applications. PaaS delivers a framework for developers that they can build upon and use to create customized applications. All servers, storage, and networking can be managed by the enterprise or a third-party provider while the developers can maintain management of the applications.
+Examples: AWS Elastic Beanstalk, Windows Azure, Heroku, Force.com, Google App Engine
+
+##### IaaS (Infrastructure as a Service)
+
+Cloud infrastructure services, known as Infrastructure as a Service (IaaS), are made of highly scalable and automated compute resources. IaaS is fully self-service for accessing and monitoring computers, networking, storage, and other services. IaaS allows businesses to purchase resources on-demand and as-needed instead of having to buy the hardware outright.
+Examples: DigitalOcean, Linode, Rackspace, Amazon Web Services (AWS), Cisco Metapod, Microsoft Azure, Google Compute Engine (GCE)
+
+
+
+### Virtual Machines
+
+These are software computers that provide the same functionality as a physical computer. They run on a physical computer, they behave like a separate computer system. VMs can run applications and operating software like a physical computer would. They are used to perform specific tasks that are risky to run on a host environment like accessing virus-infected data or testing an operating system. There different virtual machines for different operating systems namely: Mac, iOS, Android, Linux, VMware and Ubuntu. There are also virtual machines for Python and Java.
+
+
+### Container
+
+A container is a method for packaging applications and other dependencies so that it can be run in isolation from other processes. There are different types of container software. They include Docker, Apache Mesos, rkt (rocket) and Kubernetes.
+
+
 
 ## Web Development 
 
