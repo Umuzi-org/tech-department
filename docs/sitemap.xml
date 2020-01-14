@@ -735,7 +735,11 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/java-specific/collections-and-datastructures/</loc>
+    <loc>/tech-department/projects/java-specific/data-structures/</loc>
+  </url>
+
+  <url>
+    <loc>/tech-department/projects/java-specific/collections/</loc>
   </url>
   
   <url>

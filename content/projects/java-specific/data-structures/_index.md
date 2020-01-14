@@ -1,5 +1,5 @@
 ---
-title: Java collections and datastructures
+title: Java data structures
 ---
 
 **Game Time**
@@ -37,5 +37,5 @@ You will need to show in your console the initial state (input) and next generat
 
 / + + + # + +
 
-You should have a test for all the rules above but you can also add more.
+You should have a test for all the rules above but you can also add more test if you want.
 
