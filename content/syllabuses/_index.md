@@ -257,6 +257,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 
   - {{% contentlink "projects/java-fileio-logging-errors" %}}
   - {{% contentlink "topics/regular-expressions" %}}
+  - NCIT 17: Search and sort techniques
 
 * DATA_ENG:
 
