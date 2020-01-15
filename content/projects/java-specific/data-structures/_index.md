@@ -1,5 +1,6 @@
 ---
 title: Java data structures
+ready: true
 ---
 
 **Game Time**

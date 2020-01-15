@@ -1,5 +1,6 @@
 ---
 title: Java collections
+ready: true
 ---
 
 This project assumes you have gone through the reading for both data structures as well as collection, but for a quick recap for the purpose of this project:
