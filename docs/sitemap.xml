@@ -426,12 +426,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/data-science-specific/</loc>
+    <loc>/tech-department/topics/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/</loc>
+    <loc>/tech-department/projects/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
@@ -1044,15 +1044,11 @@
   </url>
   
   <url>
-    <loc>/tech-department/techlandscapeterminology/</loc>
+    <loc>/tech-department/topics/tech-terminology/</loc>
   </url>
   
   <url>
     <loc>/tech-department/topics/js-and-node-specific/dotenv/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/topics/tech-terminology/</loc>
   </url>
   
   <url>
