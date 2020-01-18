@@ -229,12 +229,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/android/</loc>
+    <loc>/tech-department/topics/android/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/topics/android/</loc>
+    <loc>/tech-department/projects/android/</loc>
     <priority>0</priority>
   </url>
   
@@ -748,11 +748,15 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/java-specific/collections/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/java-specific/collections-and-datastructures/</loc>
   </url>
   
   <url>
-    <loc>/tech-department/projects/java-specific/collections-and-datastructures/</loc>
+    <loc>/tech-department/projects/java-specific/data-structures/</loc>
   </url>
   
   <url>

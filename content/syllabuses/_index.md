@@ -313,7 +313,8 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/memory-game-vanilla" %}} INTRODUCED
 
 - JAVA:
-  - {{% contentlink "projects/java-specific/collections-and-datastructures" %}}
+  - {{% contentlink "projects/java-specific/data-structures" %}}
+  - {{% contentlink "projects/java-specific/collections" %}}
   - {{% contentlink "topics/java-specific/collections-and-datastructures" %}}
 
 ## Week 11
