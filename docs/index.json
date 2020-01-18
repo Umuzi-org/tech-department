@@ -1239,8 +1239,15 @@
 	"content": " Till now I am sure you have heard that the computer has storage either RAM or disk, which it uses to store information we care about. As people we care about a lot of things meaning a lot of information being stored and effeciently enough for us to get access to it without any hassles.\nComputers use this effecient storing of data to allow us to get information quickly with the help of data structures\nTake for example the differences between a binary tree and array\nResource https://opensourceforu.com/2015/06/data-structures-made-easy-with-java-collections/\nhttps://www.geeksforgeeks.org/data-structures/\nhttps://www.geeksforgeeks.org/linked-list-vs-array/\n"
 },
 {
-	"uri": "/tech-department/projects/java-specific/collections-and-datastructures/",
-	"title": "Java collections and datastructures",
+	"uri": "/tech-department/projects/java-specific/data-structures/",
+	"title": "Java data structures",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/projects/java-specific/collections/",
+	"title": "Java collections",
 	"tags": [],
 	"description": "",
 	"content": ""
