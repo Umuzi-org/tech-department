@@ -217,11 +217,20 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/android/android-application-lifecycles/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/android/android-self-learning/</loc>
   </url>
   
   <url>
     <loc>/tech-department/topics/android/ui-resources/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/android/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -495,6 +504,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/clean-code/general/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/python-specific/file_io_kata/</loc>
   </url>
   
@@ -548,6 +561,10 @@
   
   <url>
     <loc>/tech-department/workshops/how-to-be-a-professional/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/android/incremental-counter/</loc>
   </url>
   
   <url>
@@ -1020,6 +1037,10 @@
   
   <url>
     <loc>/tech-department/topics/test-driven-development/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/techlandscapeterminology/</loc>
   </url>
   
   <url>
