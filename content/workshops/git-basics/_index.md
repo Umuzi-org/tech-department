@@ -1,10 +1,6 @@
 ---
 title: Git Basics
-todo: pick ONE presentation
+ready: true
 ---
 
-https://drive.google.com/open?id=1vnS8HYC89xMTOYj0vAWaAR36zaQvhA-o
-
-https://docs.google.com/presentation/d/1Uz9PX1A-bDlxEMDXjrTaGs588QrbVwDDMhPEmuY8WA4/edit#slide=id.p
-
-https://docs.google.com/presentation/d/1N6EeW3BE2r9CZDOSgT5dUBYX9-d8QT15_tA-9OtnIfI/edit#slide=id.p
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTfYzPpWfCU3ZD9EPT9PhH-7bDC45fQUz1_YkTJfB80eV1jzAiJ2M55hKJqk59d9hV_k0e6TxO_SLQu/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
