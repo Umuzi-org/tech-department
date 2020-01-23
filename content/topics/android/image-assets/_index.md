@@ -3,10 +3,9 @@ title: Working with image assets
 ready: true
 ---
 
-Not all images in an Android application come from a database or some online source. Think about the various different icons you see in different Applications.
-These static images are uploaded into your project and are referenced through there. But it's not just uploading a single image and then you're finished.
-In Android you have to account for various `screen resolutions` to make sure the images don't appear blurry on the top of the range models and that the images aren't
-so high in quality that it slows down older devices.
+In Android images can be uploaded into the drawables folder that will be packaged along with the apk when it is compiled. These  images are uploaded into your project 
+and are referenced through the drawables folder. But it's not just uploading a single image and then you're finished. In Android you have to account for 
+various `screen resolutions` to make sure the images don't appear blurry on the top of the range models and that the images aren't so high in quality that it slows down older devices.
 
 # Adding an image to an Android application
 
@@ -25,8 +24,8 @@ When adding image assets to the drawable folder, the names of the images are not
 
 Example: Adding the following files will provide the following results
 
-Cars.png				//Error
-Toyotal Corolla.png		//Error
-Cars!.jpg				//Error
-cars.jpg				//Pass
-toyota_corolla.png		//Pass
+Cars.png	//Error
+Toyotal Corolla.png	//Error
+Cars!.jpg	//Error
+cars.jpg	//Pass
+toyota_corolla.png	//Pass
