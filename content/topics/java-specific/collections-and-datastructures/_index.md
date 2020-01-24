@@ -9,15 +9,16 @@ Computers use this efficient storing of data to allow us to get information quic
 
 Take for example the differences between a binary tree and array
 
-<img width="547" alt="Screenshot 2019-12-09 at 11 34 40" src="https://user-images.githubusercontent.com/47598382/70429381-1eea5b00-1a81-11ea-871b-1a3b17f6beb8.png">
-
-<img width="544" alt="Screenshot 2019-12-09 at 12 25 29" src="https://user-images.githubusercontent.com/47598382/70429378-1eea5b00-1a81-11ea-928a-6984a3e9322d.png">
+![linear-binary-comparison](linear-vs-binary.png)
 
 ## Collections
 
 A Collection is a group of individual objects represented as a single unit. Java provides Collection Framework which defines several classes and interfaces to represent a group of objects as a single unit.
 
 The Collection interface (java.util.Collection) and Map interface (java.util.Map) are the two main “root” interfaces of Java collection classes.
+
+![collection-tree](collection-tree.png)
+
 
 ## Resource
 
