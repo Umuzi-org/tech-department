@@ -5,7 +5,7 @@ ready: true
 
 This project assumes you have gone through the reading for both data structures as well as collection, but for a quick recap for the purpose of this project:
 
-Java has a collection framework that gives us a list of classes which help us effeciently deal with objects, one of these is called a dequeue/deque(double-ended queue). A deque is magical because it allows us to add or remove anything from either the front(head) or back(tail) of the queue.
+Java has a collection framework that gives us a list of classes which help us efficiently deal with objects, one of these is called a dequeue/deque(double-ended queue). A deque is magical because it allows us to add or remove anything from either the front(head) or back(tail) of the queue.
 
 You can implement a Deque by using either a LinkedList of an ArrayDeque class. For example
 
