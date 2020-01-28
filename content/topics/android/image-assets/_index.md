@@ -3,9 +3,8 @@ title: Working with image assets
 ready: true
 ---
 
-In Android images can be uploaded into the drawables folder that will be packaged along with the apk when it is compiled. These  images are uploaded into your project 
-and are referenced through the drawables folder. But it's not just uploading a single image and then you're finished. In Android you have to account for 
-various `screen resolutions` to make sure the images don't appear blurry on the top of the range models and that the images aren't so high in quality that it slows down older devices.
+In every Android project there is a drawables folder. This folder is where image assets are uploaded to. The images in this folder are packaged with the
+apk when it is built. The android app can access these images offline and at a much higher speed.
 
 # Adding an image to an Android application
 
@@ -20,12 +19,20 @@ You can read more about it in the [documentation](https://developer.android.com/
 
 # Important Note
 
+The size and quantity of the image assets directly affects the size of the apk file.
+
 When adding image assets to the drawable folder, the names of the images are not allowed to contain `capital letters` or `spaces` between the words.
 
 Example: Adding the following files will provide the following results
 
-Cars.png	//Error
-Toyotal Corolla.png	//Error
-Cars!.jpg	//Error
-cars.jpg	//Pass
-toyota_corolla.png	//Pass
+# Allowed image name examples
+
+cars.jpg
+toyota_corolla.png
+
+# Not-allowed image names
+
+Cars.png
+Toyotal Corolla.png
+Cars!.jpg
+
