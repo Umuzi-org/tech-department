@@ -40,7 +40,7 @@ The table below gives the variable names in the mobile money data file, with a d
 |:---:|:---|:---|
 ID	| Unique respondent ID	| String
 Q1	| Age	| Number
-Q2	| gender	| 1 Male
+Q2	| Gender	| 1 Male
   | | 2 Female
 Q3	| Marital status	| 1 Married
   | | 2 Divorced
@@ -85,7 +85,7 @@ Q8_9 | 	Rely on someone else/others to give/send me money	| 1 Yes
   | | 0 No
 Q8_10 | 	Don’t get money – someone else pays my expenses	| 1 Yes
   | | 0 No
-Q8_11 | 	Other	1 | Yes
+Q8_11 | 	Other | 1 Yes
   | | 0 No
 Q9| 	Only for those who said they get a salary/wages. Who do you work for?   	| -1 not applicable
   | | 1 Government
@@ -120,7 +120,7 @@ Q11	| Only for those who said they get money from providing a service – what k
   | | 11 Security
   | | 12 Other, specify
 Q12	| In the past 12 months, have you sent money to someone in a different place within the country or outside of Tanzania?	| 1 Yes
-  | | 2 No
+   | | 2 No
 Q13	| When did you last send money?	| -1 not applicable
   | | 1 Yesterday/today
   | | 2 In the past 7 days
@@ -169,6 +169,7 @@ Borrowing	| Do you borrow?	| 1 Yes
   | | 0 No
 Insurance	| Do you have insurance?	| 1 Yes
   | | 0 No
-Mobile_money_classification		| 0 no mobile money and no other financial service (saving, borrowing, insurance) | 1 no mobile money, but at least one other financial service
+Mobile_money_classification		| | 0 no mobile money and no other financial service (saving, borrowing, insurance)
+  | | 1 no mobile money, but at least one other financial service
   | | 2 mobile money only
   | | 3 mobile money and at least one other financial service
