@@ -459,7 +459,7 @@ ALL:
 - NCIT 15: Analytics, Surveys, and Reports / Input & Output
 
 - DATA_SCI:
-  - {{% contentlink "projects/data-science-specific/decision-trees" %}}
+  - {{% contentlink "projects/data-science-specific/logistic-regression" %}}
 
 * WEB_DEV:
   - {{% contentlink "projects/nodejs/ajax" %}}
@@ -483,7 +483,8 @@ ALL:
   - {{% contentlink "topics/python-specific/spark" %}}
 
 - DATA_SCI:
-  - {{% contentlink "projects/data-science-specific/logistic-regression" %}}
+  - {{% contentlink "projects/data-science-specific/decision-trees" %}}
+
 
 ## Week 20
 
@@ -511,11 +512,12 @@ ALL:
 - NCIT Summative assessment
 
 - DATA_SCI: PRODUCT TEAM ONBOARDING
+  - {{% contentlink "workshops/git-for-teamwork/" %}}
 
 
 ## Week 22:
 
-- DATA_SCI: PRODUCT TEAM
+- DATA_SCI: PRODUCT TEAM WORK
   - {{% contentlink "projects/data-science-specific/k-means-clustering" %}}
 
 * ALL:
@@ -529,15 +531,15 @@ ALL:
 
 ## Week 24
 
-- DATA_SCI: PRODUCT TEAM
+DATA_SCI: PRODUCT TEAM WORK
 
 ## Week 25
 
-- DATA_SCI: PRODUCT TEAM
+DATA_SCI: PRODUCT TEAM WORK
 
 ## Week 26
 
-- DATA_SCI: PRODUCT TEAM
+DATA_SCI: PRODUCT TEAM WORK
 
 * ALL:
   - {{% contentlink "workshops/git-for-teamwork/" %}}
