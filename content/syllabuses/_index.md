@@ -72,6 +72,7 @@ Everyone is also given links to resources so that they can start reading ahead.
 
 - DATA_SCI: please take note, you don't need to go as deep into coding as others. But it is good to know your way around
   - {{% contentlink "topics/python-self-learning" %}}
+  - {{% contentlink "topics/clean-code" %}}
 
 ## Week 2: Git and personal portfolio
 
@@ -106,6 +107,11 @@ The recruits finish off their portfolios. From this point forward they are expec
   - NCIT 09: Ethics and Professionalism in IT
   - {{% contentlink "workshops/general-coding-best-practices" %}}
 
+- DATA_SCI:
+
+  - {{% contentlink "workshops/survey-design" %}}
+  - {{% contentlink "workshops/google-forms-like-a-boss" %}}
+
 ## Week 4:
 
 - {{% contentlink "topics/how-to-ask-for-help-with-your-code" %}}
@@ -126,9 +132,11 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - DATA_SCI:
 
-  - {{% contentlink "workshops/survey-design" %}}
-  - {{% contentlink "workshops/google-forms-like-a-boss" %}}
+  - {{% contentlink "topics/unit-testing" %}}
+  - {{% contentlink "topics/python-specific/automated-testing-with-pytest" %}}
   - {{% contentlink "projects/basic-flow-control-katas" %}} do this in pairs
+  - {{% contentlink "projects/tdd/simple-calculator-part1/" %}} do this in pairs
+  
 
 - JAVA:
   - carry over any NCIT tasks from previous week
@@ -140,11 +148,10 @@ The recruits finish off their portfolios. From this point forward they are expec
 ## Week 5: Some specific skills
 
 - DATA_SCI:
-
-  - {{% contentlink "projects/data-science-specific/data-visualisation" %}}
   - {{% contentlink "topics/intro-to-asserive-programming" %}}
-  - {{% contentlink "projects/basic-flow-control-katas-assertive" %}} do this in pairs
   - {{% contentlink "topics/asserive-programming-tricks-for-pandas" %}}
+  - {{% contentlink "projects/basic-flow-control-katas-assertive" %}} do this in pairs
+  - {{% contentlink "projects/data-science-specific/data-visualisation" %}}
 
 - DATA_ENG:
 
@@ -182,9 +189,6 @@ The recruits finish off their portfolios. From this point forward they are expec
 - DATA_SCI:
 
   - {{% contentlink "workshops/intro-to-data-ethics" %}}
-  - {{% contentlink "topics/unit-testing" %}}
-  - {{% contentlink "topics/python-specific/automated-testing-with-pytest" %}}
-  - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
 
 * DATA_ENG:
   - {{% contentlink "projects/tdd/password-checker/part1" %}}
@@ -228,8 +232,8 @@ The recruits finish off their portfolios. From this point forward they are expec
   - NCIT 11: Test-driven development
 
 - DATA_SCI:
-
-  - {{% contentlink "projects/tdd/password-checker/part1" %}}
+  - {{% contentlink "topics/python-specific/unit-testing/automated-testing-pandas-and-numpy" %}}
+  - {{% contentlink "projects/tdd/string-calculator" %}}
 
 - DATA_ENG:
   - {{% contentlink "projects/tdd/string-calculator" %}}
@@ -249,9 +253,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 ## Week 8:
 
 - DATA_SCI:
-
-  - {{% contentlink "projects/tdd/string-calculator" %}}
-  - {{% contentlink "topics/python-specific/unit-testing/automated-testing-pandas-and-numpy" %}}
+  - {{% contentlink "projects/data-science-specific/statistical-thinking/" %}} INTRODUCED
 
 - Java:
 
@@ -272,7 +274,8 @@ The recruits finish off their portfolios. From this point forward they are expec
 ## Week 9:
 
 - DATA_SCI
-  - {{% contentlink "projects/tdd/string-calculator" %}}
+  - {{% contentlink "projects/data-science-specific/data-wrangling" %}}
+  - {{% contentlink "topics/functional-programming-intro" %}}
 
 * DATA_ENG
   - {{% contentlink "projects/github-api-consume" %}} - DUE
@@ -298,9 +301,8 @@ The recruits finish off their portfolios. From this point forward they are expec
   - NCIT 12: Business and technology
 
 - DATA_SCI:
-
-  - {{% contentlink "projects/data-science-specific/data-wrangling" %}}
-  - {{% contentlink "topics/functional-programming-intro" %}}
+- {{% contentlink "projects/data-science-specific/data-wrangling" %}} - FINISH UP
+  
 
 * DATA_ENG:
   - {{% contentlink "topics/intro-to-docker/" %}}
@@ -325,8 +327,7 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/build-rest-api-with-db" %}}
 
 - DATA_SCI:
-
-  - {{% contentlink "projects/data-science-specific/statistical-thinking/" %}} INTRODUCED
+  - {{% contentlink "projects/data-science-specific/cross-validation-and-simple-linear-regression/" %}}
 
 - WEB_DEV:
 
@@ -342,8 +343,9 @@ The recruits finish off their portfolios. From this point forward they are expec
 ## WEEK 12:
 
 - DATA_SCI:
+  - {{% contentlink "topics/python-specific/oop-for-python" %}}
+  - {{% contentlink "projects/oop-for-data-science" %}}
 
-  - {{% contentlink "projects/data-science-specific/statistical-thinking/" %}} DUE
 
 - WEB_DEV
 
@@ -366,11 +368,8 @@ The recruits finish off their portfolios. From this point forward they are expec
 - NCIT 13: Object-oriented programming
 
 - DATA_SCI
-
-  - {{% contentlink "topics/python-specific/oop-for-python/" %}}
-  - {{% contentlink "projects/oop/person" %}}
-  - {{% contentlink "projects/oop/animals/part1" %}}
-  - {{% contentlink "projects/oop-for-data-science/" %}}
+  - {{% contentlink "projects/data-science-specific/multivariate-linear-regression" %}}
+  - BONUS: Compare results using OOP principles in {{% contentlink "projects/data-science-specific/cross-validation-and-simple-linear-regression/" %}}
 
 - DATA_ENG
   - {{% contentlink "topics/data-infrastructure/database-comparison/" %}}
@@ -404,6 +403,11 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/sql/" %}} - DUE
   - {{% contentlink "workshops/node-and-sql/" %}}
 
+- DATA_SCI 
+  - {{% contentlink "topics/intro-to-docker/" %}}
+  - {{% contentlink "topics/python-specific/virtual-envs/" %}}
+
+
 ## Week 15
 
 - DATA_ENG:
@@ -411,9 +415,7 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/dags-with-airflow" %}} - INTRODUCED
 
 * DATA_SCI:
-
-  - {{% contentlink "topics/intro-to-docker/" %}}
-  - {{% contentlink "topics/python-specific/virtual-envs/" %}}
+  - {{% contentlink "topics/python-specific/sql-and-python/" %}}
 
 - WEB_DEV:
 
@@ -427,8 +429,8 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/dags-with-airflow" %}} - DUE
 
 * DATA_SCI:
-
-  - {{% contentlink "topics/python-specific/sql-and-python/" %}}
+  - {{% contentlink "topics/python-specific/web-scraping/" %}}
+  - {{% contentlink "projects/data-science-specific/dashboards/" %}}
 
 * WEB_DEV:
 
@@ -449,14 +451,15 @@ ALL:
   - {{% contentlink "topics/python-specific/kafka" %}}
   - {{% contentlink "projects/python-specific/kafka" %}} - INTRODUCTION
 
+* DATA_SCI: BUFFER WEEK
+
+
 ## Week 18
 
 - NCIT 15: Analytics, Surveys, and Reports / Input & Output
 
 - DATA_SCI:
-
-  - {{% contentlink "topics/python-specific/web-scraping/" %}}
-  - {{% contentlink "projects/data-science-specific/dashboards/" %}}
+  - {{% contentlink "projects/data-science-specific/decision-trees" %}}
 
 * WEB_DEV:
   - {{% contentlink "projects/nodejs/ajax" %}}
@@ -478,6 +481,9 @@ ALL:
 
   - {{% contentlink "projects/python-specific/spark" %}} - INTRODUCED
   - {{% contentlink "topics/python-specific/spark" %}}
+
+- DATA_SCI:
+  - {{% contentlink "projects/data-science-specific/logistic-regression" %}}
 
 ## Week 20
 
@@ -504,10 +510,13 @@ ALL:
 
 - NCIT Summative assessment
 
+- DATA_SCI: PRODUCT TEAM ONBOARDING
+
+
 ## Week 22:
 
-- DATA_SCI:
-  - {{% contentlink "projects/data-science-specific/cross-validation-and-simple-linear-regression/" %}}
+- DATA_SCI: PRODUCT TEAM
+  - {{% contentlink "projects/data-science-specific/k-means-clustering" %}}
 
 * ALL:
   - {{% contentlink "topics/data-infrastructure/database-comparison/" %}}
@@ -515,23 +524,20 @@ ALL:
 ## Week 23
 
 - DATA_SCI:
-  - {{% contentlink "projects/data-science-specific/multivariate-linear-regression" %}}
+  - {{% contentlink "topics/data-science-specific/natural-language-processing" %}}
+  - {{% contentlink "projects/data-science-specific/natural-language-processing" %}}
 
 ## Week 24
 
-- DATA_SCI:
-  - {{% contentlink "projects/data-science-specific/decision-trees" %}}
+- DATA_SCI: PRODUCT TEAM
 
 ## Week 25
 
-- DATA_SCI:
-  - {{% contentlink "projects/data-science-specific/logistic-regression" %}}
+- DATA_SCI: PRODUCT TEAM
 
 ## Week 26
 
-- DATA_SCI:
-
-  - {{% contentlink "projects/data-science-specific/k-means-clustering" %}}
+- DATA_SCI: PRODUCT TEAM
 
 * ALL:
   - {{% contentlink "workshops/git-for-teamwork/" %}}
