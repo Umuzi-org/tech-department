@@ -37,7 +37,7 @@ This function should accept one parameter and be able to accept an integer array
 
 A generic class is implemented exactly like a non-generic class. The only difference is that it contains a type parameter section. There can be more than one type of parameter, separated by a comma. The classes, which accept one or more parameters, ​are known as parametrized classes or parameterized types.
 
-Create a class called GenericClass that is able to set and get a single variable which can either be String or Integer
+Create a class called GenericClass that is able to set and get a private single variable which can either be String or Integer
 
 ```
 stringInstance = new GenericClass<?>();
