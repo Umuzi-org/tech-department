@@ -1,5 +1,6 @@
 ---
 title: Java Generics
+ready: true
 ---
 
 ## Generic method 

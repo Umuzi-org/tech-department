@@ -1,5 +1,6 @@
 ---
 title: Java Generics
+ready: true
 ---
 
 Java generics is a feature that allows you to create "parameterized data types". For example, instead of just declaring a collection that can store any data you can pass it a parameter to allow only the objects of certain data types.
