@@ -12,19 +12,19 @@
     <title>Dice :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1580398303" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1580398303" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1580398303" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1580398303" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1580398303" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1580398303" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1580398303" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1580398303" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1580789260" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1580789260" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1580789260" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1580789260" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1580789260" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1580789260" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1580789260" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1580789260" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1580398303" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1580789260" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1580398303"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1580789260"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1580398303"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1580398303"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1580789260"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1580789260"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1580398303"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1580789260"></script>
 
     
   </div>
@@ -7645,6 +7645,17 @@ print(die6.value) // this would print a number between 1 and 6 inclusive
 print(die20.value) // this would print a number between 1 and 20 inclusive
 </code></pre>
 
+<pre><code>// Java
+Die die6 = new Die(6)
+die6.roll()
+
+Die die20 = new Die(20)
+die20.roll()
+
+System.out.print(die6.value) // this would print a number between 1 and 6 inclusive
+System.out.print(die20.value) // this would print a number between 1 and 20 inclusive
+</code></pre>
+
 <h2 id="weighted-dice">Weighted Dice</h2>
 
 <p>Please extend your program with the following functionality.</p>
@@ -7694,13 +7705,13 @@ print(die20.value) // this would print a number between 1 and 20 inclusive
 </tbody>
 </table>
 
-<p>If we roll this die 700 times then cances are we&rsquo;ll get 200 6s, and 100 of each of the other values.</p>
+<p>If we roll this die 700 times then chances are we&rsquo;ll get 200 6s, and 100 of each of the other values.</p>
 
 <p>Extend the constructor of your class so that it has an optional parameter called <code>probabilities</code>. This would be an array of integers. The length of the array should be equal to the number of sides. If <code>probabilities</code> is left blank then the constructed <code>Die</code> instance should be fair.</p>
 
 <pre><code>// JavaScript
 
-// looking at the data from the table above. this is how we would costruct the weighted die
+// looking at the data from the table above. this is how we would construct the weighted die
 
 let dieDodgy6 = new Die(6,[1,1,1,1,1,2])
 
@@ -7715,7 +7726,7 @@ let die6 = new Die(6)
 
 <pre><code># Python
 
-# looking at the data from the table above. this is how we would costruct the weighted die
+# looking at the data from the table above. this is how we would construct the weighted die
 
 dieDodgy6 = Die(6,[1,1,1,1,1,2])
 
@@ -7728,10 +7739,26 @@ die6 = Die(6,[1,1,1,1,1,1])
 die6 = Die(6)
 </code></pre>
 
+<pre><code>// Java
+
+// looking at the data from the table above. this is how we would construct the weighted die
+
+Die dieDodgy6 = new Die(6,[1,1,1,1,1,2])
+
+// we can create a perfectly fair die like this
+
+Die dieFair6 = new Die(6,[1,1,1,1,1,1])
+
+// this is equivalent to
+
+Die die6 = new Die(6);
+
+</code></pre>
+
 <ul>
 <li>If there are any negative numbers in the probabilities array then raise the error <code>negative probabilities not allowed</code>.</li>
 <li>If the sum of the numbers in the probabilities array is less than 1 then raise the error <code>probability sum must be greater than 0</code></li>
-<li>If the values passed in are not integers thenraise the error <code>only integer values allowed</code></li>
+<li>If the values passed in are not integers then raise the error <code>only integer values allowed</code></li>
 </ul>
 
 <p>Create a function on your <code>Die</code> class called <code>setProbabilities</code>. This should take in an array and update the <code>Die</code> instance accordingly.</p>
@@ -7756,11 +7783,17 @@ let anotherDie20 = new factory20.makeDie()
 <pre><code># Python
 
 factory20 = DiceFactory(20)
-die20 = factory20.make_ie()
+die20 = factory20.make_die()
 anotherDie20 = factory20.make_die()
 </code></pre>
 
-<p>This is a very somplified verion of the <strong>factory design pattern</strong>. Design patterns are cool you guys. Basically the idea behind this one is that some classes are hard to construct:</p>
+<pre><code>// Java
+
+SuperClass die20 = DiceFactory.makeDie(20);
+SuperClass anotherDie20 = DiceFactory.makeDie(20);
+</code></pre>
+
+<p>This is a very simplified version of the <strong>factory design pattern</strong>. Design patterns are cool you guys. Basically the idea behind this one is that some classes are hard to construct:</p>
 
 <ul>
 <li>sometimes it&rsquo;s hard to decide what to construct</li>
@@ -12539,20 +12572,20 @@ anotherDie20 = factory20.make_die()
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1580398303"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1580398303"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1580398303"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1580398303"></script>
-    <script src="/tech-department/js/featherlight.min.js?1580398303"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1580398303"></script>
-    <script src="/tech-department/js/highlight.pack.js?1580398303"></script>
+    <script src="/tech-department/js/clipboard.min.js?1580789260"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1580789260"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1580789260"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1580789260"></script>
+    <script src="/tech-department/js/featherlight.min.js?1580789260"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1580789260"></script>
+    <script src="/tech-department/js/highlight.pack.js?1580789260"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1580398303"></script>
-    <script src="/tech-department/js/learn.js?1580398303"></script>
-    <script src="/tech-department/js/hugo-learn.js?1580398303"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1580789260"></script>
+    <script src="/tech-department/js/learn.js?1580789260"></script>
+    <script src="/tech-department/js/hugo-learn.js?1580789260"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1580398303" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1580398303"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1580789260" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1580789260"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

@@ -12,19 +12,19 @@
     <title>Java Generics :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1580398303" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1580398303" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1580398303" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1580398303" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1580398303" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1580398303" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1580398303" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1580398303" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1580789261" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1580789261" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1580789261" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1580789261" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1580789261" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1580789261" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1580789261" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1580789261" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1580398303" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1580789261" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1580398303"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1580789261"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1580398303"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1580398303"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1580789261"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1580789261"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1580398303"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1580789261"></script>
 
     
   </div>
@@ -7548,7 +7548,17 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#advantages-of-using-generics">Advantages of using generics</a></li>
+<li><a href="#types-of-java-generics">Types of Java Generics</a></li>
+<li><a href="#tutorial">Tutorial</a></li>
+<li><a href="#resource">Resource</a></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -7570,6 +7580,61 @@
 
         
 
+
+
+<p>Java generics is a feature that allows you to create &ldquo;parameterized data types&rdquo;. For example, instead of just declaring a collection that can store any data you can pass it a parameter to allow only the objects of certain data types.</p>
+
+<p>Instead of declaring and instantiating a general collection to store pets like this:</p>
+
+<pre><code>  ​ArrayList pets = new ArrayList();
+</code></pre>
+
+<p>you can do it with a parameter so it can store only String objects like this:</p>
+
+<pre><code>  ​ArrayList&lt;String&gt; pets = new ArrayList&lt;&gt;();
+</code></pre>
+
+<h2 id="advantages-of-using-generics">Advantages of using generics</h2>
+
+<ul>
+<li><p>Generics ensure compile-time safety which allows the programmer to catch the invalid types while compiling the code.</p></li>
+
+<li><p>Java Generics helps the programmer to reuse the code for whatever type he/she wishes. For instance, a programmer writes a generic method for sorting an array of objects. Generics allow the programmer to use the same method for Integer arrays, Double arrays, and even String arrays.</p></li>
+
+<li><p>Another advantage of using generics is that Individual typecasting isn’t required. The programmer defines the initial type and then lets the code do its job.</p></li>
+
+<li><p>It allows us to implement non-generic algorithms.</p></li>
+</ul>
+
+<h2 id="types-of-java-generics">Types of Java Generics</h2>
+
+<ul>
+<li>Generic method: Generic Java method takes a parameter and returns some value after performing a task. It is exactly like a normal function, however, a generic method has type parameters which are reproduced by actual type. This allows the generic method to be used in a more general way. The compiler takes care of the type of safety which enables programmers to code easily since they do not have to perform long, individual type castings.</li>
+</ul>
+
+<pre><code>public static &lt;T&gt; int getPets(T[] list, T item) {}
+</code></pre>
+
+<ul>
+<li>Generic classes: A generic class is implemented exactly like a non-generic class. The only difference is that it contains a type parameter section. There can be more than one type of parameter, separated by a comma. The classes, which accept one or more parameters, ​are known as parametrized classes or parameterized types.</li>
+</ul>
+
+<pre><code>class DemoClass&lt;T&gt; {}
+</code></pre>
+
+<h2 id="tutorial">Tutorial</h2>
+
+<p>Please go through this tutorial to give yourself a better chance to understand the topic</p>
+
+<p><a href="https://howtodoinjava.com/java/generics/complete-java-generics-tutorial/">https://howtodoinjava.com/java/generics/complete-java-generics-tutorial/</a></p>
+
+<h2 id="resource">Resource</h2>
+
+<p><a href="https://www.educative.io/edpresso/what-are-generics-in-java?https://www.educative.io/courses/grokking-the-object-oriented-design-interview?aid=5082902844932096&amp;utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=blog-dynamic&amp;gclid=Cj0KCQiAvc_xBRCYARIsAC5QT9lk7E9OCRYSk5j9kKNwDjsatXCWMIRxr1bGagOKo9jcfk3njeeokRsaAoerEALw_wcB">https://www.educative.io/edpresso/what-are-generics-in-java?https://www.educative.io/courses/grokking-the-object-oriented-design-interview?aid=5082902844932096&amp;utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=blog-dynamic&amp;gclid=Cj0KCQiAvc_xBRCYARIsAC5QT9lk7E9OCRYSk5j9kKNwDjsatXCWMIRxr1bGagOKo9jcfk3njeeokRsaAoerEALw_wcB</a></p>
+
+<p><a href="https://www.tutorialspoint.com/java/java_generics.htm">https://www.tutorialspoint.com/java/java_generics.htm</a></p>
+
+<p><a href="https://howtodoinjava.com/java/generics/complete-java-generics-tutorial/">https://howtodoinjava.com/java/generics/complete-java-generics-tutorial/</a></p>
 
 
 <footer class=" footline" >
@@ -12340,20 +12405,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1580398303"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1580398303"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1580398303"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1580398303"></script>
-    <script src="/tech-department/js/featherlight.min.js?1580398303"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1580398303"></script>
-    <script src="/tech-department/js/highlight.pack.js?1580398303"></script>
+    <script src="/tech-department/js/clipboard.min.js?1580789261"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1580789261"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1580789261"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1580789261"></script>
+    <script src="/tech-department/js/featherlight.min.js?1580789261"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1580789261"></script>
+    <script src="/tech-department/js/highlight.pack.js?1580789261"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1580398303"></script>
-    <script src="/tech-department/js/learn.js?1580398303"></script>
-    <script src="/tech-department/js/hugo-learn.js?1580398303"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1580789261"></script>
+    <script src="/tech-department/js/learn.js?1580789261"></script>
+    <script src="/tech-department/js/hugo-learn.js?1580789261"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1580398303" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1580398303"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1580789261" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1580789261"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

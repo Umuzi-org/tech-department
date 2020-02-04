@@ -12,19 +12,19 @@
     <title>Java Generics :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1580398303" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1580398303" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1580398303" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1580398303" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1580398303" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1580398303" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1580398303" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1580398303" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1580789261" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1580789261" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1580789261" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1580789261" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1580789261" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1580789261" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1580789261" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1580789261" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1580398303" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1580789261" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1580398303"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1580789261"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1580398303"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1580398303"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1580789261"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1580789261"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1580398303"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1580789261"></script>
 
     
   </div>
@@ -7548,7 +7548,15 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#generic-method">Generic method</a></li>
+<li><a href="#generic-classes">Generic classes:</a></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -7596,6 +7604,56 @@
 
         
 
+
+
+<h2 id="generic-method">Generic method</h2>
+
+<p>Generic Java method takes a parameter and returns some value after performing a task. It is exactly like a normal function, however, a generic method has type parameters which are reproduced by actual type. This allows the generic method to be used in a more general way. The compiler takes care of the type of safety which enables programmers to code easily since they do not have to perform long, individual type castings.</p>
+
+<p><strong>Example</strong></p>
+
+<pre><code>public static &lt;T&gt; int getPets(T[] list, T item) {}
+</code></pre>
+
+<p>Fun Time!!</p>
+
+<p>You have two arrays,
+First array is of type Integers</p>
+
+<pre><code>12
+324
+6
+7900
+</code></pre>
+
+<p>Second array is of type String</p>
+
+<p>Please write a single function called:</p>
+
+<pre><code>printArrayContent(array);
+</code></pre>
+
+<p>This function should accept one parameter and be able to accept an integer array or string array and print out the contents of that array.</p>
+
+<p><strong>Notes: If you use method overload the answer wont be accepted</strong></p>
+
+<h2 id="generic-classes">Generic classes:</h2>
+
+<p>A generic class is implemented exactly like a non-generic class. The only difference is that it contains a type parameter section. There can be more than one type of parameter, separated by a comma. The classes, which accept one or more parameters, ​are known as parametrized classes or parameterized types.</p>
+
+<p>Create a class called GenericClass that is able to set and get a private single variable which can either be String or Integer</p>
+
+<pre><code>stringInstance = new GenericClass&lt;?&gt;();
+stringInstance.set(&quot;Test&quot;);
+
+stringInstance.get() // print out Test
+
+integerInstance = new GenericClass&lt;?&gt;();
+integerInstance.set(1000);
+
+integerInstance.get() // print out 1000
+
+</code></pre>
 
 
 <footer class=" footline" >
@@ -12363,20 +12421,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1580398303"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1580398303"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1580398303"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1580398303"></script>
-    <script src="/tech-department/js/featherlight.min.js?1580398303"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1580398303"></script>
-    <script src="/tech-department/js/highlight.pack.js?1580398303"></script>
+    <script src="/tech-department/js/clipboard.min.js?1580789261"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1580789261"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1580789261"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1580789261"></script>
+    <script src="/tech-department/js/featherlight.min.js?1580789261"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1580789261"></script>
+    <script src="/tech-department/js/highlight.pack.js?1580789261"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1580398303"></script>
-    <script src="/tech-department/js/learn.js?1580398303"></script>
-    <script src="/tech-department/js/hugo-learn.js?1580398303"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1580789261"></script>
+    <script src="/tech-department/js/learn.js?1580789261"></script>
+    <script src="/tech-department/js/hugo-learn.js?1580789261"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1580398303" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1580398303"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1580789261" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1580789261"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
