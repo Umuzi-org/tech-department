@@ -10,7 +10,7 @@ Here's some examples on how to play audio.
 
 # Examples
 
-[Play audio](https://www.javatpoint.com/kotlin-android-media-player) from asset folder.
+[Playing audio](https://www.javatpoint.com/kotlin-android-media-player) from the asset folder.
 
 [This video](https://www.youtube.com/watch?v=T6JjTJiLI8k) also explains how to play a local audio file.
 
