@@ -8,10 +8,8 @@ project and play it without using any data.
 
 # Examples
 
-[Stream a video from a url](https://www.youtube.com/watch?v=9NrSQfcurUk).
+[Stream](https://www.techotopia.com/index.php/Kotlin_Android_Video_Playback_using_the_VideoView_and_MediaController_Classes) a video from a url.
 
-[Play a video from the local resources](https://www.youtube.com/watch?v=C6_TGPOPiOU).
+Play a video from the [raw](https://demonuts.com/videoview-android-kotlin/) folder.
 
-# An example of working with videos
-
-[Here's](https://www.youtube.com/watch?v=gMM2_ChIJKU) an example of working with a video in Android.
+[Here's](https://www.youtube.com/watch?v=4WxxyMPPSzk) an example of working with a video in Android.
