@@ -404,6 +404,13 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/sql/" %}} - DUE
   - {{% contentlink "workshops/node-and-sql/" %}}
 
+- JAVA:
+  - NCIT 14: Database Development
+  - NCIT 15: Analytics, Surveys, and Reports / Input & Output
+  - topic introduction to spring infrastructure - part 1 nb Dependency Injection + ioC containers
+  - workshop introduction to spring infrastructure - part 1
+  - project introduction to spring infrastructure - part 1
+
 ## Week 15
 
 - DATA_ENG:
@@ -421,6 +428,13 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "topics/js-and-node-specific/dotenv/" %}}
   - {{% contentlink "projects/nodejs/sql" %}}
 
+- Java :
+  - topic introduction to spring infrastructure - part 2
+  - workshop introduction to spring infrastructure - part 2
+  - project introduction to spring infrastructure - part 2
+  - {{% contentlink "topics/how-the-internet-works" %}}
+  * NCIT 05: History of the Internet
+
 ## Week 16
 
 - DATA_ENG:
@@ -436,16 +450,24 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 ALL:
 
-- {{% contentlink "topics/data-validation-and-quality-control/" %}}
 - NCIT 14: Database Development
+
+JAVA:
 
 ## Week 17
 
-- WEB_DEV:
+- JAVA:
+- topic: REST versus SOAP and GraphQL(double check if std bank wants peeps to use soap bpm)
+- project: consume github api using curl to understand apis
+- project: consume own api using curl to understand apis
+- {{% contentlink "topics/data-ethics-and-privacy" %}}
+- topic and proj: Sprint Boot introduced week 1/3
+
+* WEB_DEV:
 
   - {{% contentlink "projects/nodejs/api" %}}
 
-* DATA_ENG:
+- DATA_ENG:
   - {{% contentlink "topics/python-specific/kafka" %}}
   - {{% contentlink "projects/python-specific/kafka" %}} - INTRODUCTION
 
