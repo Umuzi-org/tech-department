@@ -359,7 +359,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 - JAVA:
   - {{% contentlink "projects/oop/dice" %}} DUE
   - {{% contentlink "topics/intro-to-docker/" %}}
-- {{% contentlink "projects/sql/" %}} INTRODUCED
+  - {{% contentlink "projects/sql/" %}} INTRODUCED
 
 ## Week 13
 
@@ -407,9 +407,9 @@ The recruits finish off their portfolios. From this point forward they are expec
 - JAVA:
   - NCIT 14: Database Development
   - NCIT 15: Analytics, Surveys, and Reports / Input & Output
-  - topic introduction to spring infrastructure - part 1 nb Dependency Injection + ioC containers
-  - workshop introduction to spring infrastructure - part 1
-  - project introduction to spring infrastructure - part 1
+  - {{% contentlink "topics/java-specific/introduction-to-spring-infrastructure/part-1" %}}
+  - {{% contentlink "workshops/java-specific/introduction-to-spring-infrastructure/part-1" %}}
+  - {{% contentlink "projects/java-specific/introduction-to-spring-infrastructure/part-1" %}}
 
 ## Week 15
 
@@ -429,9 +429,9 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/nodejs/sql" %}}
 
 - Java :
-  - topic introduction to spring infrastructure - part 2
-  - workshop introduction to spring infrastructure - part 2
-  - project introduction to spring infrastructure - part 2
+  - {{% contentlink "topics/java-specific/introduction-to-spring-infrastructure/part-2" %}}
+  - {{% contentlink "workshops/java-specific/introduction-to-spring-infrastructure/part-2" %}}
+  - {{% contentlink "projects/java-specific/introduction-to-spring-infrastructure/part-2" %}}
   - {{% contentlink "topics/how-the-internet-works" %}}
   * NCIT 05: History of the Internet
 
@@ -443,6 +443,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 * DATA_SCI:
 
   - {{% contentlink "topics/python-specific/sql-and-python/" %}}
+  - {{% contentlink "topics/data-validation-and-quality-control/" %}}
 
 * WEB_DEV:
 
@@ -454,14 +455,19 @@ ALL:
 
 JAVA:
 
+- {{% contentlink "topics/java-specific/introduction-to-spring-infrastructure/part-3" %}}
+- {{% contentlink "workshops/java-specific/introduction-to-spring-infrastructure/part-3" %}}
+- {{% contentlink "projects/java-specific/introduction-to-spring-infrastructure/part-3" %}}
+
 ## Week 17
 
 - JAVA:
-- topic: REST versus SOAP and GraphQL(double check if std bank wants peeps to use soap bpm)
-- project: consume github api using curl to understand apis
-- project: consume own api using curl to understand apis
-- {{% contentlink "topics/data-ethics-and-privacy" %}}
-- topic and proj: Sprint Boot introduced week 1/3
+  - {{% contentlink "topics/kinds-of-web-apis" %}} REST versus SOAP and GraphQL(double check if std bank wants peeps to use soap bpm)
+  - {{% contentlink "projects/github-api-consume" %}}
+  - {{% contentlink "projects/java-specific/consume-own-api-using-curl" %}}
+  - {{% contentlink "topics/data-ethics-and-privacy" %}}
+  - {{% contentlink "topics/java-specific/introduction-to-spring-boot/part-1" %}}
+  - {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-1" %}}
 
 * WEB_DEV:
 
@@ -488,6 +494,10 @@ JAVA:
   - {{% contentlink "projects/python-specific/kafka" %}} - DUE
   - {{% contentlink "topics/data-infrastructure/choosing-a-task-queue" %}}
 
+- JAVA:
+  - {{% contentlink "topics/java-specific/introduction-to-spring-boot/part-2" %}}
+  - {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-2" %}}
+
 ## Week 19
 
 - WEB_DEV:
@@ -500,6 +510,10 @@ JAVA:
 
   - {{% contentlink "projects/python-specific/spark" %}} - INTRODUCED
   - {{% contentlink "topics/python-specific/spark" %}}
+
+- JAVA:
+  - {{% contentlink "topics/java-specific/introduction-to-spring-boot/part-3" %}}
+  - {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-3" %}}
 
 ## Week 20
 
