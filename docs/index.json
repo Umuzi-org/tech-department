@@ -53,7 +53,7 @@
 	"title": "Syllabus",
 	"tags": [],
 	"description": "",
-	"content": " We support a few different technical learning paths. Data Science, Data Engineering, Web Dev, and Java sys dev. What follows below is a week-by-week breakdown of these courses. This is all on one page because our various courses have enough in common that it makes sense to keep them synchronized.\nA note on Umuzi’s formal qualification and accreditation Umuzi is a registered training provider with MICT SETA. Our National Certificate IT (Systems Development) (NCIT) qualification is a learnership requirement (i.e. Umuzi’s employer partners can therefore recognize their training and stipend spend as part of their skills development budgets). We work hard to both meet the National Certificate requirements and deliver a practical and relevant learning experience (which are not always well aligned) however, we firmly believe the most important part is the practical application of learning rather than merely meeting the unit standard requirements. Below we refer to the formal NCIT requirements e.g. NCIT01: Business and technology.\nTerminology This is a living document and there are a few things that need to be fleshed out:\n as far as possible each bullet point that describes a piece of our syllabus should be marked as a WORKSHOP, TOPIC or PROJECT. Or exercise??\n WORKSHOP == instructor led event. TOPIC == self study material PROJECT == you know  we need to make sure all the NCIT requirements have been dealt with before hitting the summative assessment\n the syllabus is really long. There is a lot to cover so that has effects on Product teams. There are decisions to be made there.\n  Week -1: Bootcamp This is the final step of our selection process. If applicants get through the bootcamp then they are accepted as Umuzi recruits and go on with the rest of the program.\nWe start off by introducing the applicants to the development environment and resources that they\u0026rsquo;ll be using. They are given various group an individual challenges throughout the week.\nWeek 0: Make Umuzi Better A recruit’s journey starts with a one week programme called #MakeUmuziBetter. Recruits from all departments form small cross-functional teams to tackle issues at Umuzi - anything from mental health to kitchen norms to the physical layout of our space. To accomplish this, they learn about and execute Human-Centered Design, a technique used throughout their time at Umuzi. Each team maps out user journeys, conducts interviews and surveys, designs a prototype of their solution, and presents it to the staff and external guests.\nNCIT assessments We get a few NCIT assessments out of the way during MUB.\n NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  Week 1: Linux and soft skills In this week, everyone gets to know their way around linux.\n ALL:\n Department ice-breaker  DEPARTMENT-PROCESSES: What You Need To Know (as a recruit)   WORKSHOPS: How to be a professional  Introduction to NCIT curriculum  WORKSHOPS: Introduction to Linux: Live demo   TOPICS: Introduction to Linux   PROJECTS: Beginner Linux challenges   TOPICS: Introduction to Bash and the terminal    Everyone is also given links to resources so that they can start reading ahead.\n JAVA:\n  TOPICS: Java Dev environment setup   TOPICS: Java learning materials   WEB_DEV:\n  TOPICS: Web Dev learning materials   DATA_ENG:\n  TOPICS: Python self-learning   DATA_SCI: please take note, you don\u0026rsquo;t need to go as deep into coding as others. But it is good to know your way around\n  TOPICS: Python self-learning    Week 2: Git and personal portfolio Recruits learn a bit about how to build an online presence. Recruits submit their work using Git from the very beginning of their course.\n ALL:\n  TOPICS: Git Basics  Q\u0026amp;A Git basics  PROJECTS: Git Basic Exercises   WORKSHOPS: What to Put On A CV   PROJECTS: Build your first personal website - Introduction  TOPICS: Clean Code  NCIT 04: Version control (GIT) for teamwork  WEB_DEV:\n  WORKSHOPS: Intro to CSS architecture   TOPICS: Introduction to web design    Week 3: Finish portfolio project The recruits finish off their portfolios. From this point forward they are expected to keep their portfolios up to date on their own time.\n ALL:\n  WORKSHOPS: [TODO] Big Picture of Web Dev   PROJECTS: Build your first personal website - Deadline NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)    Week 4:   TOPICS: How to ask for help with your code  WEB_DEV:\n  TOPICS: [TODO] Super basic intro to Node  WORKSHOP: Live code. Super basic intro to node  PROJECTS: Level 1 programming katas do this in pairs  DATA_ENG:\n  PROJECTS: Level 1 programming katas do this in pairs  WORKSHOPS: [TODO] Basic Intro to OOP   TOPICS: [TODO] Python OOP basics   PROJECTS: Person do this in pairs  PROJECTS: Animals Part 1. OOP basics individual. Due towards the end of the week  DATA_SCI:\n  WORKSHOPS: Survey design   WORKSHOPS: Google forms like a boss   PROJECTS: Level 1 programming katas do this in pairs  JAVA:\n carry over any NCIT tasks from previous week  TOPICS: Introduction to Gradle   WORKSHOPS: Live coding: Introduction to Java Monday or Tuesday Recruits should be familiar with basic flow control, if, else, loops. It may be necessary to have another workshop on this  PROJECTS: Level 1 programming katas do this in pairs, they should use Gradle   Week 5: Some specific skills  DATA_SCI:\n  PROJECTS: Data Visualisation Projects   TOPICS: Introduction to assertive programming   PROJECTS: Assertive programming kata do this in pairs  TOPICS: [TODO] Assertive programming and Pandas   DATA_ENG:\n  TOPICS: Introduction to assertive programming   PROJECTS: Assertive programming kata   TOPICS: Unit testing (language agnostic concepts)   PROJECTS: Animals Part 2. Adding Tests : add some tests to existing code  TOPICS: Test Driven Development   TOPICS: Automated Testing in Python   PROJECTS: simple-calculator part 1   WEB_DEV:\n  WORKSHOPS: [TODO] OOP in JS   TOPICS: [TODO] OOP in JS and Node   PROJECTS: Person do this in pairs  PROJECTS: Animals Part 1. OOP basics individual. Due towards the end of the week  JAVA:\n  WORKSHOPS: Basic intro to oop with IntelliJ   TOPICS: Java OOP basics resources and readings   PROJECTS: Person do this in pairs  PROJECTS: Animals Part 1. OOP basics individual. Due towards the end of the week NCIT 08: Pseudocode and documentation NCIT 13: Object-oriented programming workshop: oop Q\u0026amp;A might be needed   Week 6  ALL:\n  TOPICS: How the internet works   TOPICS: Data Ethics and Privacy   DATA_SCI:\n  WORKSHOPS: Data Ethics   TOPICS: Unit testing (language agnostic concepts)   TOPICS: Automated Testing in Python   PROJECTS: simple-calculator part 1   DATA_ENG:\n  PROJECTS: password-checker  logging with python add logging to password checker  WEB_DEV:\n  TOPICS: Introduction to assertive programming   PROJECTS: Assertive programming kata   TOPICS: Unit testing (language agnostic concepts)   PROJECTS: Animals Part 2. Adding Tests : add some tests to existing code  TOPICS: Test Driven Development   WORKSHOPS: Unit testing Introduction   PROJECTS: simple-calculator part 1   JAVA:\n  TOPICS: Introduction to assertive programming   PROJECTS: Assertive programming kata   TOPICS: Unit testing (language agnostic concepts)   TOPICS: Intro to JUnit  LIVE CODE WORKSHOP: demonstrate unit tests with intelliJ and JUnit.  PROJECTS: Animals Part 2. Adding Tests : add some tests to existing code  TOPICS: Test Driven Development   PROJECTS: simple-calculator part 1   TOPICS: Exception Handling   NCIT 05: History of the Internet\n NCIT 06: Web design for business\n NCIT 07: Building an online business\n NCIT 08: Pseudocode and documentation\n  Week 7  ALL:\n NCIT 09: Ethics and Professionalism in IT NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 11: Test-driven development  DATA_SCI:\n  PROJECTS: password-checker   DATA_ENG:\n  PROJECTS: string-calculator   WEB_DEV:\n  PROJECTS: password-checker   TOPICS: Logging in Node and JS  add logging to password checker  JAVA:\n LIVE CODE WORKSHOP: Error Handling  PROJECTS: password-checker   TOPICS: Java Logging with Log4j   PROJECTS: Add logging to password checker   TOPICS: Java File IO    Week 8:  DATA_SCI:\n  PROJECTS: string-calculator   TOPICS: Automated Testing pandas and numpy   Java:\n  PROJECTS: File IO \u0026#43; Logging \u0026#43; Errors   TOPICS: Regular Expression Resources  NCIT 17: Search and sort techniques  DATA_ENG:\n  TOPICS: [TODO] Unit testing with mocks and spies   PROJECTS: [TODO] Unit test mocks and spies kata   TOPICS: API basics   PROJECTS: [TODO] Consume Github API - INTRODUCED  WEB_DEV\n  PROJECTS: string-calculator    Week 9:  DATA_SCI\n  PROJECTS: string-calculator   DATA_ENG\n  PROJECTS: [TODO] Consume Github API - DUE  TOPICS: Environmental Variables   TOPICS: [TODO] Virtual Environments   WEB_DEV:\n  TOPICS: [TODO] Unit testing with mocks and spies   PROJECTS: [TODO] Unit test mocks and spies kata   TOPICS: API basics   PROJECTS: [TODO] Consume Github API - INTRODUCED  JAVA\n  PROJECTS: string-calculator   TOPICS: Strings and numbers in Java    Week 10:  ALL\n  TOPICS: The Tech Landscape Terminology  NCIT 12: Business and technology  DATA_SCI:\n  PROJECTS: Data Wrangling   TOPICS: Intro to functional programming   DATA_ENG:\n  TOPICS: Intro to Docker and Docker-compose   PROJECTS: SQL   WEB_DEV:\n  PROJECTS: [TODO] Consume Github API - DUE  TOPICS: DOM manipulation with vanilla JavaScript   PROJECTS: Memory game in vanilla js INTRODUCED  JAVA:\n  PROJECTS: Java data structures   PROJECTS: Java collections   TOPICS: Java collections and data structures    Week 11  DATA_ENG\n  TOPICS: [TODO] Sqlalchemy   PROJECTS: [TODO] create a REST api to interact with actual database   DATA_SCI:\n  PROJECTS: Statistical Thinking INTRODUCED  WEB_DEV:\n  PROJECTS: Memory game in vanilla js DUE  JAVA:\n  PROJECTS: Dice INTRODUCED  PROJECTS: Java Generics   TOPICS: Java Generics   TOPICS: Introduction to Design Patterns    WEEK 12:  DATA_SCI:\n  PROJECTS: Statistical Thinking DUE  WEB_DEV\n  WORKSHOPS: Node advanced  TOPICS: Introduction to Node   PROJECTS: Node \u0026amp; File IO   DATA_ENG:\n  TOPICS: [TODO] Sqlalchemy migrations with Alembic   PROJECTS: [TODO] Database migrations with SQLAlchemy - INTRODUCTION  JAVA:\n  PROJECTS: Dice DUE  TOPICS: Intro to Docker and Docker-compose    PROJECTS: SQL INTRODUCED\n  Week 13  NCIT 13: Object-oriented programming\n DATA_SCI\n  TOPICS: Intro OOP(Object-oriented Programming) for Python   PROJECTS: Person   PROJECTS: Animals Part 1. OOP basics   PROJECTS: [TODO] OOP for data science   DATA_ENG\n  TOPICS: [TODO] Database Comparison   TOPICS: MongoDB and Python   TOPICS: optimizations and big-O   PROJECTS: [TODO] Python and MongoDB - DUE  WEB_DEV:\n  TOPICS: Intro to Docker and Docker-compose   PROJECTS: SQL - INTRODUCTION  WORKSHOPS: [TODO] Introduction to Node and SQL   JAVA:\n  PROJECTS: SQL DUE  TOPICS: Environmental Variables   TOPICS: [TODO] JDBC templates   TOPICS: [TODO] Environmental variables and secrets with gradle   PROJECTS: [TODO] SQL \u0026#43; Java Helloworld    Week 14  DATA_ENG\n  TOPICS: [TODO] Sqlalchemy migrations with Alembic   PROJECTS: [TODO] Database migrations with SQLAlchemy - DUE  TOPICS: [TODO] Database Comparison   TOPICS: MongoDB and Python   PROJECTS: [TODO] Python and MongoDB - INTRODUCTION  WEB_DEV:\n  PROJECTS: SQL - DUE  WORKSHOPS: [TODO] Introduction to Node and SQL    Week 15  DATA_ENG:\n  TOPICS: [TODO] DAGs with Airflow   PROJECTS: [TODO] DAGs with Airflow - INTRODUCED  DATA_SCI:\n  TOPICS: Intro to Docker and Docker-compose   TOPICS: [TODO] Virtual Environments   WEB_DEV:\n  TOPICS: Environmental Variables   TOPICS: [TODO] The dotenv module   PROJECTS: Node \u0026amp; SQL assignment    Week 16  DATA_ENG:\n  PROJECTS: [TODO] DAGs with Airflow - DUE  DATA_SCI:\n  TOPICS: SQL and Python   WEB_DEV:\n  PROJECTS: Express, forms and templates    ALL:\n  TOPICS: Data validation and quality control  NCIT 14: Database Development  Week 17  WEB_DEV:\n  PROJECTS: Expose a JSON API   DATA_ENG:\n  TOPICS: [TODO] Python and Kafka   PROJECTS: [TODO] Python and Kafka - INTRODUCTION   Week 18  NCIT 15: Analytics, Surveys, and Reports / Input \u0026amp; Output\n DATA_SCI:\n  TOPICS: Web scraping with Python   PROJECTS: Dashboard Assignment   WEB_DEV:\n  PROJECTS: Add a little Ajax   DATA_ENG:\n  PROJECTS: [TODO] Python and Kafka - DUE  TOPICS: [TODO] ZeroMQ versus RabbitMQ versus Kafka    Week 19  WEB_DEV:\n  TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum   TOPICS: optimizations and big-O   DATA_ENG:\n  PROJECTS: [TODO] Python and Spark - INTRODUCED  TOPICS: Python and Spark    Week 20  ALL:\n  TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum   TOPICS: optimizations and big-O   NCIT 16: Thinking like a machine / Boolean algebra, logic\n NCIT 17: Search and sort techniques\n NCIT 18: Agile project management\n NCIT 19: Agile meetings\n NCIT 20: Managing the Software Development Process\n  Week 21: NCIT bits and pieces MUB must happen before this point.\n DATA_ENG:   PROJECTS: [TODO] Python and Spark - DUE   ALL:\n NCIT Summative assessment  Week 22:  DATA_SCI:\n  PROJECTS: Cross-validation \u0026amp; Simple Linear Regression   ALL:\n  TOPICS: [TODO] Database Comparison    Week 23  DATA_SCI:   PROJECTS: Multivariate Linear Regression    Week 24  DATA_SCI:   PROJECTS: Decision Trees    Week 25  DATA_SCI:   PROJECTS: Logistic regression    Week 26  DATA_SCI:\n  PROJECTS: K-Means Clustering   ALL:\n  WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap    Optional Extras If recruits want/need to go a little further with their learning then here are a few useful resources.\n WEB_DEV:\n  TOPICS: Intro to Angular   TOPICS: Intro to React   TOPICS: Intro to Vue   WORKSHOPS: [TODO] Nodejs intro to socketIO   WORKSHOPS: [TODO] Basic introduction to Redux   WORKSHOPS: [TODO] Node Sync/Async   TOPICS: MongoDB and JavaScript   DATA_ENG:\n postgres stored procedures sql index optimisations Entity Relationship Diagrams (ERD) Data warehousing with Hive Overview of the Hadoop ecosystem Linear regressions   Optional Projects The projects listed below are not necessary but could be used to re-enforce certain learnings\n  PROJECTS: Semitone Challenge   "
+	"content": " We support a few different technical learning paths. Data Science, Data Engineering, Web Dev, and Java sys dev. What follows below is a week-by-week breakdown of these courses. This is all on one page because our various courses have enough in common that it makes sense to keep them synchronized.\nA note on Umuzi’s formal qualification and accreditation Umuzi is a registered training provider with MICT SETA. Our National Certificate IT (Systems Development) (NCIT) qualification is a learnership requirement (i.e. Umuzi’s employer partners can therefore recognize their training and stipend spend as part of their skills development budgets). We work hard to both meet the National Certificate requirements and deliver a practical and relevant learning experience (which are not always well aligned) however, we firmly believe the most important part is the practical application of learning rather than merely meeting the unit standard requirements. Below we refer to the formal NCIT requirements e.g. NCIT01: Business and technology.\nTerminology This is a living document and there are a few things that need to be fleshed out:\n as far as possible each bullet point that describes a piece of our syllabus should be marked as a WORKSHOP, TOPIC or PROJECT. Or exercise??\n WORKSHOP == instructor led event. TOPIC == self study material PROJECT == you know  we need to make sure all the NCIT requirements have been dealt with before hitting the summative assessment\n the syllabus is really long. There is a lot to cover so that has effects on Product teams. There are decisions to be made there.\n  Week -1: Bootcamp This is the final step of our selection process. If applicants get through the bootcamp then they are accepted as Umuzi recruits and go on with the rest of the program.\nWe start off by introducing the applicants to the development environment and resources that they\u0026rsquo;ll be using. They are given various group an individual challenges throughout the week.\nWeek 0: Make Umuzi Better A recruit’s journey starts with a one week programme called #MakeUmuziBetter. Recruits from all departments form small cross-functional teams to tackle issues at Umuzi - anything from mental health to kitchen norms to the physical layout of our space. To accomplish this, they learn about and execute Human-Centered Design, a technique used throughout their time at Umuzi. Each team maps out user journeys, conducts interviews and surveys, designs a prototype of their solution, and presents it to the staff and external guests.\nNCIT assessments We get a few NCIT assessments out of the way during MUB.\n NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  Week 1: Linux and soft skills In this week, everyone gets to know their way around linux.\n ALL:\n Department ice-breaker  DEPARTMENT-PROCESSES: What You Need To Know (as a recruit)   WORKSHOPS: How to be a professional  Introduction to NCIT curriculum  WORKSHOPS: Introduction to Linux: Live demo   TOPICS: Introduction to Linux   PROJECTS: Beginner Linux challenges   TOPICS: Introduction to Bash and the terminal    Everyone is also given links to resources so that they can start reading ahead.\n JAVA:\n  TOPICS: Java Dev environment setup   TOPICS: Java learning materials   WEB_DEV:\n  TOPICS: Web Dev learning materials   DATA_ENG:\n  TOPICS: Python self-learning   DATA_SCI: please take note, you don\u0026rsquo;t need to go as deep into coding as others. But it is good to know your way around\n  TOPICS: Python self-learning    Week 2: Git and personal portfolio Recruits learn a bit about how to build an online presence. Recruits submit their work using Git from the very beginning of their course.\n ALL:\n  TOPICS: Git Basics  Q\u0026amp;A Git basics  PROJECTS: Git Basic Exercises   WORKSHOPS: What to Put On A CV   PROJECTS: Build your first personal website - Introduction  TOPICS: Clean Code  NCIT 04: Version control (GIT) for teamwork  WEB_DEV:\n  WORKSHOPS: Intro to CSS architecture   TOPICS: Introduction to web design    Week 3: Finish portfolio project The recruits finish off their portfolios. From this point forward they are expected to keep their portfolios up to date on their own time.\n ALL:\n  WORKSHOPS: [TODO] Big Picture of Web Dev   PROJECTS: Build your first personal website - Deadline NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)    Week 4:   TOPICS: How to ask for help with your code  WEB_DEV:\n  TOPICS: [TODO] Super basic intro to Node  WORKSHOP: Live code. Super basic intro to node  PROJECTS: Level 1 programming katas do this in pairs  DATA_ENG:\n  PROJECTS: Level 1 programming katas do this in pairs  WORKSHOPS: [TODO] Basic Intro to OOP   TOPICS: [TODO] Python OOP basics   PROJECTS: Person do this in pairs  PROJECTS: Animals Part 1. OOP basics individual. Due towards the end of the week  DATA_SCI:\n  WORKSHOPS: Survey design   WORKSHOPS: Google forms like a boss   PROJECTS: Level 1 programming katas do this in pairs  JAVA:\n carry over any NCIT tasks from previous week  TOPICS: Introduction to Gradle   WORKSHOPS: Live coding: Introduction to Java Monday or Tuesday Recruits should be familiar with basic flow control, if, else, loops. It may be necessary to have another workshop on this  PROJECTS: Level 1 programming katas do this in pairs, they should use Gradle   Week 5: Some specific skills  DATA_SCI:\n  PROJECTS: Data Visualisation Projects   TOPICS: Introduction to assertive programming   PROJECTS: Assertive programming kata do this in pairs  TOPICS: [TODO] Assertive programming and Pandas   DATA_ENG:\n  TOPICS: Introduction to assertive programming   PROJECTS: Assertive programming kata   TOPICS: Unit testing (language agnostic concepts)   PROJECTS: Animals Part 2. Adding Tests : add some tests to existing code  TOPICS: Test Driven Development   TOPICS: Automated Testing in Python   PROJECTS: simple-calculator part 1   WEB_DEV:\n  WORKSHOPS: [TODO] OOP in JS   TOPICS: [TODO] OOP in JS and Node   PROJECTS: Person do this in pairs  PROJECTS: Animals Part 1. OOP basics individual. Due towards the end of the week  JAVA:\n  WORKSHOPS: Basic intro to oop with IntelliJ   TOPICS: Java OOP basics resources and readings   PROJECTS: Person do this in pairs  PROJECTS: Animals Part 1. OOP basics individual. Due towards the end of the week NCIT 08: Pseudocode and documentation NCIT 13: Object-oriented programming workshop: oop Q\u0026amp;A might be needed   Week 6  ALL:\n  TOPICS: How the internet works   TOPICS: Data Ethics and Privacy   DATA_SCI:\n  WORKSHOPS: Data Ethics   TOPICS: Unit testing (language agnostic concepts)   TOPICS: Automated Testing in Python   PROJECTS: simple-calculator part 1   DATA_ENG:\n  PROJECTS: password-checker  logging with python add logging to password checker  WEB_DEV:\n  TOPICS: Introduction to assertive programming   PROJECTS: Assertive programming kata   TOPICS: Unit testing (language agnostic concepts)   PROJECTS: Animals Part 2. Adding Tests : add some tests to existing code  TOPICS: Test Driven Development   WORKSHOPS: Unit testing Introduction   PROJECTS: simple-calculator part 1   JAVA:\n  TOPICS: Introduction to assertive programming   PROJECTS: Assertive programming kata   TOPICS: Unit testing (language agnostic concepts)   TOPICS: Intro to JUnit  LIVE CODE WORKSHOP: demonstrate unit tests with intelliJ and JUnit.  PROJECTS: Animals Part 2. Adding Tests : add some tests to existing code  TOPICS: Test Driven Development   PROJECTS: simple-calculator part 1   TOPICS: Exception Handling   NCIT 05: History of the Internet\n NCIT 06: Web design for business\n NCIT 07: Building an online business\n NCIT 08: Pseudocode and documentation\n  Week 7  ALL:\n NCIT 09: Ethics and Professionalism in IT NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 11: Test-driven development  DATA_SCI:\n  PROJECTS: password-checker   DATA_ENG:\n  PROJECTS: string-calculator   WEB_DEV:\n  PROJECTS: password-checker   TOPICS: Logging in Node and JS  add logging to password checker  JAVA:\n LIVE CODE WORKSHOP: Error Handling  PROJECTS: password-checker   TOPICS: Java Logging with Log4j   PROJECTS: Add logging to password checker   TOPICS: Java File IO    Week 8:  DATA_SCI:\n  PROJECTS: string-calculator   TOPICS: Automated Testing pandas and numpy   Java:\n  PROJECTS: [MISSING title or page]  TOPICS: Regular Expression Resources  NCIT 17: Search and sort techniques  DATA_ENG:\n  TOPICS: [TODO] Unit testing with mocks and spies   PROJECTS: [TODO] Unit test mocks and spies kata   TOPICS: API basics   PROJECTS: [TODO] Consume Github API - INTRODUCED  WEB_DEV\n  PROJECTS: string-calculator    Week 9:  DATA_SCI\n  PROJECTS: string-calculator   DATA_ENG\n  PROJECTS: [TODO] Consume Github API - DUE  TOPICS: Environmental Variables   TOPICS: [TODO] Virtual Environments   WEB_DEV:\n  TOPICS: [TODO] Unit testing with mocks and spies   PROJECTS: [TODO] Unit test mocks and spies kata   TOPICS: API basics   PROJECTS: [TODO] Consume Github API - INTRODUCED  JAVA\n  PROJECTS: string-calculator   TOPICS: Strings and numbers in Java    Week 10:  ALL\n  TOPICS: The Tech Landscape Terminology  NCIT 12: Business and technology  DATA_SCI:\n  PROJECTS: Data Wrangling   TOPICS: Intro to functional programming   DATA_ENG:\n  TOPICS: Intro to Docker and Docker-compose   PROJECTS: SQL   WEB_DEV:\n  PROJECTS: [TODO] Consume Github API - DUE  TOPICS: DOM manipulation with vanilla JavaScript   PROJECTS: Memory game in vanilla js INTRODUCED  JAVA:\n  PROJECTS: Java data structures   PROJECTS: Java collections   TOPICS: Java collections and data structures    Week 11  DATA_ENG\n  TOPICS: [TODO] Sqlalchemy   PROJECTS: [TODO] create a REST api to interact with actual database   DATA_SCI:\n  PROJECTS: Statistical Thinking INTRODUCED  WEB_DEV:\n  PROJECTS: Memory game in vanilla js DUE  JAVA:\n  PROJECTS: Dice INTRODUCED  PROJECTS: Java Generics   TOPICS: Java Generics   TOPICS: Introduction to Design Patterns    WEEK 12:  DATA_SCI:\n  PROJECTS: Statistical Thinking DUE  WEB_DEV\n  WORKSHOPS: Node advanced  TOPICS: Introduction to Node   PROJECTS: Node \u0026amp; File IO   DATA_ENG:\n  TOPICS: [TODO] Sqlalchemy migrations with Alembic   PROJECTS: [TODO] Database migrations with SQLAlchemy - INTRODUCTION  JAVA:\n  PROJECTS: Dice DUE  TOPICS: Intro to Docker and Docker-compose   PROJECTS: SQL INTRODUCED   Week 13  NCIT 13: Object-oriented programming\n DATA_SCI\n  TOPICS: Intro OOP(Object-oriented Programming) for Python   PROJECTS: Person   PROJECTS: Animals Part 1. OOP basics   PROJECTS: [TODO] OOP for data science   DATA_ENG\n  TOPICS: [TODO] Database Comparison   TOPICS: MongoDB and Python   TOPICS: optimizations and big-O   PROJECTS: [TODO] Python and MongoDB - DUE  WEB_DEV:\n  TOPICS: Intro to Docker and Docker-compose   PROJECTS: SQL - INTRODUCTION  WORKSHOPS: [TODO] Introduction to Node and SQL   JAVA:\n  PROJECTS: SQL DUE  TOPICS: Environmental Variables   TOPICS: [TODO] JDBC templates   TOPICS: [TODO] Environmental variables and secrets with gradle   PROJECTS: [TODO] SQL \u0026#43; Java Helloworld    Week 14  DATA_ENG\n  TOPICS: [TODO] Sqlalchemy migrations with Alembic   PROJECTS: [TODO] Database migrations with SQLAlchemy - DUE  TOPICS: [TODO] Database Comparison   TOPICS: MongoDB and Python   PROJECTS: [TODO] Python and MongoDB - INTRODUCTION  WEB_DEV:\n  PROJECTS: SQL - DUE  WORKSHOPS: [TODO] Introduction to Node and SQL   JAVA:\n NCIT 14: Database Development NCIT 15: Analytics, Surveys, and Reports / Input \u0026amp; Output  TOPICS: [TODO] Introduction to Spring Infrastructure part 1   WORKSHOPS: [TODO] Introduction to Spring Infrastructure part 1   PROJECTS: [TODO] Introduction to Spring Infrastructure part 1    Week 15  DATA_ENG:\n  TOPICS: [TODO] DAGs with Airflow   PROJECTS: [TODO] DAGs with Airflow - INTRODUCED  DATA_SCI:\n  TOPICS: Intro to Docker and Docker-compose   TOPICS: [TODO] Virtual Environments   WEB_DEV:\n  TOPICS: Environmental Variables   TOPICS: [TODO] The dotenv module   PROJECTS: Node \u0026amp; SQL assignment   Java :\n  TOPICS: [TODO] Introduction to Spring Infrastructure part 2   WORKSHOPS: [TODO] Introduction to Spring Infrastructure part 2   PROJECTS: [TODO] Introduction to Spring Infrastructure part 2   TOPICS: How the internet works  NCIT 05: History of the Internet   Week 16  DATA_ENG:\n  PROJECTS: [TODO] DAGs with Airflow - DUE  DATA_SCI:\n  TOPICS: SQL and Python   TOPICS: Data validation and quality control   WEB_DEV:\n  PROJECTS: Express, forms and templates    ALL:\n NCIT 14: Database Development  JAVA:\n  TOPICS: [TODO] Introduction to Spring Infrastructure part 3   WORKSHOPS: [TODO] Introduction to Spring Infrastructure part 3   PROJECTS: [TODO] Introduction to Spring Infrastructure part 3   Week 17  JAVA:\n  TOPICS: [TODO] Kinds of web APIs REST versus SOAP and GraphQL(double check if std bank wants peeps to use soap bpm)  PROJECTS: [TODO] Consume Github API   PROJECTS: [TODO] Consume own api using curl   TOPICS: Data Ethics and Privacy   TOPICS: [TODO] Introduction to Spring Boot - part 1   PROJECTS: [TODO] Introduction to Spring Boot - part 1   WEB_DEV:\n  PROJECTS: Expose a JSON API   DATA_ENG:\n  TOPICS: [TODO] Python and Kafka   PROJECTS: [TODO] Python and Kafka - INTRODUCTION   Week 18  NCIT 15: Analytics, Surveys, and Reports / Input \u0026amp; Output\n DATA_SCI:\n  TOPICS: Web scraping with Python   PROJECTS: Dashboard Assignment   WEB_DEV:\n  PROJECTS: Add a little Ajax   DATA_ENG:\n  PROJECTS: [TODO] Python and Kafka - DUE  TOPICS: [TODO] ZeroMQ versus RabbitMQ versus Kafka   JAVA:\n  TOPICS: [TODO] Introduction to Spring Boot - part 2   PROJECTS: [TODO] Introduction to Spring Boot - part 2    Week 19  WEB_DEV:\n  TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum   TOPICS: optimizations and big-O   DATA_ENG:\n  PROJECTS: [TODO] Python and Spark - INTRODUCED  TOPICS: Python and Spark   JAVA:\n  TOPICS: [TODO] Introduction to Spring Boot - part 3   PROJECTS: [TODO] Introduction to Spring Boot - part 3    Week 20  ALL:\n  TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum   TOPICS: optimizations and big-O   NCIT 16: Thinking like a machine / Boolean algebra, logic\n NCIT 17: Search and sort techniques\n NCIT 18: Agile project management\n NCIT 19: Agile meetings\n NCIT 20: Managing the Software Development Process\n  Week 21: NCIT bits and pieces MUB must happen before this point.\n DATA_ENG:   PROJECTS: [TODO] Python and Spark - DUE   ALL:\n NCIT Summative assessment  Week 22:  DATA_SCI:\n  PROJECTS: Cross-validation \u0026amp; Simple Linear Regression   ALL:\n  TOPICS: [TODO] Database Comparison    Week 23  DATA_SCI:   PROJECTS: Multivariate Linear Regression    Week 24  DATA_SCI:   PROJECTS: Decision Trees    Week 25  DATA_SCI:   PROJECTS: Logistic regression    Week 26  DATA_SCI:\n  PROJECTS: K-Means Clustering   ALL:\n  WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap    Optional Extras If recruits want/need to go a little further with their learning then here are a few useful resources.\n WEB_DEV:\n  TOPICS: Intro to Angular   TOPICS: Intro to React   TOPICS: Intro to Vue   WORKSHOPS: [TODO] Nodejs intro to socketIO   WORKSHOPS: [TODO] Basic introduction to Redux   WORKSHOPS: [TODO] Node Sync/Async   TOPICS: MongoDB and JavaScript   DATA_ENG:\n postgres stored procedures sql index optimisations Entity Relationship Diagrams (ERD) Data warehousing with Hive Overview of the Hadoop ecosystem Linear regressions   Optional Projects The projects listed below are not necessary but could be used to re-enforce certain learnings\n  PROJECTS: Semitone Challenge   "
 },
 {
 	"uri": "/tech-department/projects/semitone-challenge/basic-algorithm/",
@@ -588,6 +588,13 @@
 	"content": " In this project you\u0026rsquo;ll make use of Github\u0026rsquo;s awesome API. We chose Github for this project because\n you are already familiar with it it has a nice frontend so you can access te api and see the results. This means you can play and experiment the api is solidly built and a lot of people use it  Instructions First, get familar with consuming apis from the command line:\n TODO  Once that is done then follow the instructions in your language of choice:\n Java Node Python  Resources  An introduction to curl using GitHub\u0026rsquo;s API.\n Github API official docs\n  "
 },
 {
+	"uri": "/tech-department/projects/java-specific/consume-own-api-using-curl/",
+	"title": "Consume own api using curl",
+	"tags": [],
+	"description": "",
+	"content": "This project is based on a Spring project that exposes a REAST api\n"
+},
+{
 	"uri": "/tech-department/contact-us/",
 	"title": "Contact",
 	"tags": [],
@@ -819,7 +826,7 @@
 	"content": " Introductory materials  Basic node server Express documentation Node.js \u0026amp; Express From Scratch [Part 1] - Intro \u0026amp; Environment Express, node overview Basic routing Static files  Middleware  Express Middleware More about middleware About bodyParser  "
 },
 {
-	"uri": "/tech-department/projects/java-fileio-logging-errors/",
+	"uri": "/tech-department/projects/java-specific/java-fileio-logging-errors/",
 	"title": "File IO + Logging + Errors",
 	"tags": [],
 	"description": "",
@@ -1134,6 +1141,146 @@
 	"content": ""
 },
 {
+	"uri": "/tech-department/projects/java-specific/introduction-to-spring-boot/",
+	"title": "Introduction to Spring Boot",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/topics/java-specific/introduction-to-spring-boot/",
+	"title": "Introduction to Spring Boot",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/projects/java-specific/introduction-to-spring-boot/part-1/",
+	"title": "Introduction to Spring Boot - part 1",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/topics/java-specific/introduction-to-spring-boot/part-1/",
+	"title": "Introduction to Spring Boot - part 1",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/projects/java-specific/introduction-to-spring-boot/part-2/",
+	"title": "Introduction to Spring Boot - part 2",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/topics/java-specific/introduction-to-spring-boot/part-2/",
+	"title": "Introduction to Spring Boot - part 2",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/projects/java-specific/introduction-to-spring-boot/part-3/",
+	"title": "Introduction to Spring Boot - part 3",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/topics/java-specific/introduction-to-spring-boot/part-3/",
+	"title": "Introduction to Spring Boot - part 3",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/projects/java-specific/introduction-to-spring-infrastructure/",
+	"title": "Introduction to Spring Infrastructure",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/topics/java-specific/introduction-to-spring-infrastructure/",
+	"title": "Introduction to Spring Infrastructure",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/workshops/java-specific/introduction-to-spring-infrastructure/",
+	"title": "Introduction to Spring Infrastructure",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/projects/java-specific/introduction-to-spring-infrastructure/part-1/",
+	"title": "Introduction to Spring Infrastructure part 1",
+	"tags": [],
+	"description": "",
+	"content": "nb Dependency Injection + ioC containers\n"
+},
+{
+	"uri": "/tech-department/topics/java-specific/introduction-to-spring-infrastructure/part-1/",
+	"title": "Introduction to Spring Infrastructure part 1",
+	"tags": [],
+	"description": "",
+	"content": "nb Dependency Injection + ioC containers\n"
+},
+{
+	"uri": "/tech-department/workshops/java-specific/introduction-to-spring-infrastructure/part-1/",
+	"title": "Introduction to Spring Infrastructure part 1",
+	"tags": [],
+	"description": "",
+	"content": "nb Dependency Injection + ioC containers\n"
+},
+{
+	"uri": "/tech-department/projects/java-specific/introduction-to-spring-infrastructure/part-2/",
+	"title": "Introduction to Spring Infrastructure part 2",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/topics/java-specific/introduction-to-spring-infrastructure/part-2/",
+	"title": "Introduction to Spring Infrastructure part 2",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/workshops/java-specific/introduction-to-spring-infrastructure/part-2/",
+	"title": "Introduction to Spring Infrastructure part 2",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/projects/java-specific/introduction-to-spring-infrastructure/part-3/",
+	"title": "Introduction to Spring Infrastructure part 3",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/topics/java-specific/introduction-to-spring-infrastructure/part-3/",
+	"title": "Introduction to Spring Infrastructure part 3",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/workshops/java-specific/introduction-to-spring-infrastructure/part-3/",
+	"title": "Introduction to Spring Infrastructure part 3",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "/tech-department/topics/intro-to-asserive-programming/",
 	"title": "Introduction to assertive programming",
 	"tags": [],
@@ -1328,6 +1475,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Introduction K-Means clustering is an unsupervised learning technique used in processes such as market segmentation, document clustering, image segmentation and image compression. Usually we do K-Means clustering to:\n Understand the structure of the data, and group similar observations. Cluster the data into subgroups and then do different predictions on the different subgroups. If we think that subgroup behaviours differ substantially, then we will get more accurate models by making separate models for each subgroup, than one model for all groups.\n  Tutorials  EDA and K-Means example K-Means Clustering: Algorithm, Applications, Evaluation Methods, and Drawbacks  Assignments Easy clustering assignment: Flower features Data: Iris species\n Use K-Means cluster analysis to cluster different iris species. Make an elbow plot and/or use silhouette analysis to find the optimal number of clusters.\n What are the factors that differ between different iris species?\n Create a plot of the clusters.\n  Optional clustering assignment: Whisky clusters Data: Whisky Reviews\nCluster whisky types by reviewers\u0026rsquo; scores. Use the elbow or silhouette method to find the optimal number of clusters. Describe the main differences between the cluster - what are the factors that differ between differently rated whisky clusters?\n"
+},
+{
+	"uri": "/tech-department/topics/kinds-of-web-apis/",
+	"title": "Kinds of web APIs",
+	"tags": [],
+	"description": "",
+	"content": "REST versus SOAP and GraphQL\n"
 },
 {
 	"uri": "/tech-department/projects/basic-flow-control-katas/",
