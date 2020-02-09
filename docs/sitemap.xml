@@ -361,6 +361,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/java-specific/consume-own-api-using-curl/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/contact-us/</loc>
   </url>
   
@@ -496,7 +500,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/java-fileio-logging-errors/</loc>
+    <loc>/tech-department/projects/java-specific/java-fileio-logging-errors/</loc>
   </url>
   
   <url>
@@ -676,6 +680,86 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/java-specific/introduction-to-spring-boot/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/introduction-to-spring-boot/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/java-specific/introduction-to-spring-boot/part-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/introduction-to-spring-boot/part-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/java-specific/introduction-to-spring-boot/part-2/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/introduction-to-spring-boot/part-2/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/java-specific/introduction-to-spring-boot/part-3/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/introduction-to-spring-boot/part-3/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/java-specific/introduction-to-spring-infrastructure/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/introduction-to-spring-infrastructure/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/java-specific/introduction-to-spring-infrastructure/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/java-specific/introduction-to-spring-infrastructure/part-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/introduction-to-spring-infrastructure/part-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/java-specific/introduction-to-spring-infrastructure/part-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/java-specific/introduction-to-spring-infrastructure/part-2/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/introduction-to-spring-infrastructure/part-2/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/java-specific/introduction-to-spring-infrastructure/part-2/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/java-specific/introduction-to-spring-infrastructure/part-3/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/introduction-to-spring-infrastructure/part-3/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/java-specific/introduction-to-spring-infrastructure/part-3/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/intro-to-asserive-programming/</loc>
   </url>
   
@@ -787,6 +871,10 @@
   
   <url>
     <loc>/tech-department/projects/data-science-specific/k-means-clustering/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/kinds-of-web-apis/</loc>
   </url>
   
   <url>
@@ -964,6 +1052,10 @@
   <url>
     <loc>/tech-department/workshops/python-specific/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/data-science-specific/regression/</loc>
   </url>
   
   <url>

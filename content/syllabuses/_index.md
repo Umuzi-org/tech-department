@@ -136,7 +136,7 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "topics/python-specific/automated-testing-with-pytest" %}}
   - {{% contentlink "projects/basic-flow-control-katas" %}} do this in pairs
   - {{% contentlink "projects/tdd/simple-calculator-part1/" %}} do this in pairs
-  
+
 
 - JAVA:
   - carry over any NCIT tasks from previous week
@@ -302,7 +302,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - DATA_SCI:
 - {{% contentlink "projects/data-science-specific/data-wrangling" %}} - FINISH UP
-  
+
 
 * DATA_ENG:
   - {{% contentlink "topics/intro-to-docker/" %}}
@@ -361,7 +361,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 - JAVA:
   - {{% contentlink "projects/oop/dice" %}} DUE
   - {{% contentlink "topics/intro-to-docker/" %}}
-- {{% contentlink "projects/sql/" %}} INTRODUCED
+  - {{% contentlink "projects/sql/" %}} INTRODUCED
 
 ## Week 13
 
@@ -403,10 +403,19 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/sql/" %}} - DUE
   - {{% contentlink "workshops/node-and-sql/" %}}
 
-- DATA_SCI 
+<<<<<<< HEAD
+- DATA_SCI
   - {{% contentlink "topics/intro-to-docker/" %}}
   - {{% contentlink "topics/python-specific/virtual-envs/" %}}
 
+=======
+- JAVA:
+  - NCIT 14: Database Development
+  - NCIT 15: Analytics, Surveys, and Reports / Input & Output
+  - {{% contentlink "topics/java-specific/introduction-to-spring-infrastructure/part-1" %}}
+  - {{% contentlink "workshops/java-specific/introduction-to-spring-infrastructure/part-1" %}}
+  - {{% contentlink "projects/java-specific/introduction-to-spring-infrastructure/part-1" %}}
+>>>>>>> 86701e2943fda5272c8a3911a4932f988aa14ef9
 
 ## Week 15
 
@@ -423,14 +432,22 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "topics/js-and-node-specific/dotenv/" %}}
   - {{% contentlink "projects/nodejs/sql" %}}
 
+- Java :
+  - {{% contentlink "topics/java-specific/introduction-to-spring-infrastructure/part-2" %}}
+  - {{% contentlink "workshops/java-specific/introduction-to-spring-infrastructure/part-2" %}}
+  - {{% contentlink "projects/java-specific/introduction-to-spring-infrastructure/part-2" %}}
+  - {{% contentlink "topics/how-the-internet-works" %}}
+  * NCIT 05: History of the Internet
+
 ## Week 16
 
 - DATA_ENG:
   - {{% contentlink "projects/dags-with-airflow" %}} - DUE
 
 * DATA_SCI:
-  - {{% contentlink "topics/python-specific/web-scraping/" %}}
-  - {{% contentlink "projects/data-science-specific/dashboards/" %}}
+
+  - {{% contentlink "topics/python-specific/sql-and-python/" %}}
+  - {{% contentlink "topics/data-validation-and-quality-control/" %}}
 
 * WEB_DEV:
 
@@ -438,16 +455,29 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 ALL:
 
-- {{% contentlink "topics/data-validation-and-quality-control/" %}}
 - NCIT 14: Database Development
+
+JAVA:
+
+- {{% contentlink "topics/java-specific/introduction-to-spring-infrastructure/part-3" %}}
+- {{% contentlink "workshops/java-specific/introduction-to-spring-infrastructure/part-3" %}}
+- {{% contentlink "projects/java-specific/introduction-to-spring-infrastructure/part-3" %}}
 
 ## Week 17
 
-- WEB_DEV:
+- JAVA:
+  - {{% contentlink "topics/kinds-of-web-apis" %}} REST versus SOAP and GraphQL(double check if std bank wants peeps to use soap bpm)
+  - {{% contentlink "projects/github-api-consume" %}}
+  - {{% contentlink "projects/java-specific/consume-own-api-using-curl" %}}
+  - {{% contentlink "topics/data-ethics-and-privacy" %}}
+  - {{% contentlink "topics/java-specific/introduction-to-spring-boot/part-1" %}}
+  - {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-1" %}}
+
+* WEB_DEV:
 
   - {{% contentlink "projects/nodejs/api" %}}
 
-* DATA_ENG:
+- DATA_ENG:
   - {{% contentlink "topics/python-specific/kafka" %}}
   - {{% contentlink "projects/python-specific/kafka" %}} - INTRODUCTION
 
@@ -469,6 +499,10 @@ ALL:
   - {{% contentlink "projects/python-specific/kafka" %}} - DUE
   - {{% contentlink "topics/data-infrastructure/choosing-a-task-queue" %}}
 
+- JAVA:
+  - {{% contentlink "topics/java-specific/introduction-to-spring-boot/part-2" %}}
+  - {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-2" %}}
+
 ## Week 19
 
 - WEB_DEV:
@@ -482,9 +516,15 @@ ALL:
   - {{% contentlink "projects/python-specific/spark" %}} - INTRODUCED
   - {{% contentlink "topics/python-specific/spark" %}}
 
+<<<<<<< HEAD
 - DATA_SCI:
   - {{% contentlink "projects/data-science-specific/decision-trees" %}}
 
+=======
+- JAVA:
+  - {{% contentlink "topics/java-specific/introduction-to-spring-boot/part-3" %}}
+  - {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-3" %}}
+>>>>>>> 86701e2943fda5272c8a3911a4932f988aa14ef9
 
 ## Week 20
 
