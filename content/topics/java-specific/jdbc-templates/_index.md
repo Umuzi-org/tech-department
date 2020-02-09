@@ -3,6 +3,11 @@ title: JDBC templates
 ready: true
 ---
 
+Both Springboot and VanillaJS require a middle man to be able to talk to a database. This is where JDBC comes in. It can be used with multiple programming languages.
+Javascript languages tend to make more use of ODBC (Open Database Connectivity) whereas JDBC was created with Java in mind. The 2 are interchangeable.
+
+Springboot has no way of directly communicating with a database, it requires a JDBC driver.
+
 ## JDBC - Java Database Connectivity
 
 JDBC is an API that consists of interfaces used to access relational databases such as SQL.
