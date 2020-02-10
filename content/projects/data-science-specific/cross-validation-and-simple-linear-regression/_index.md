@@ -16,6 +16,7 @@ ready: True
 - [Simple and Multiple Linear Regression in Python](https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c928425168f9)
 - [Crash Course Statistics: Regression](https://youtu.be/WWqE7YHR4Jc)
 - [Khan Academy Engageny Algebra Topic D, Lessons 14 – 18 (Modelling relationships with a line & Residuals)](https://www.khanacademy.org/math/engageny-alg-1/alg1-2/alg1-2d-modeling-relationships-line/v/fitting-a-line-to-data)
+- [Linear Regression (CSIR presentation)](https://drive.google.com/drive/u/1/folders/1VagfIEP29_v5yprBUiWbEYem3Kkx2nbH)
 
 ### Overfitting and underfitting
 - [Coursera  Video](https://www.coursera.org/lecture/python-machine-learning/overfitting-and-underfitting-fVStr)
