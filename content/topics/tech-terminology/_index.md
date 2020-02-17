@@ -1,5 +1,5 @@
 ---
-Title: The Tech Landscape Terminology
+title: The Tech Landscape Terminology
 ready: true
 ---
 
