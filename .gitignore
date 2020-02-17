@@ -1,9 +1,0 @@
-config.toml
-gitignore/
-node_modules/
-public/
-.vscode/
-umuzi-tech-dept
-/.vs/slnx.sqlite
-/.vs/tech-department/v16/TestStore/0
-/.vs
