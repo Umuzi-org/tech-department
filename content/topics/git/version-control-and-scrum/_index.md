@@ -4,14 +4,35 @@ title: Version Control & Scrum using Trello & Github
 weight: 15
 ---
 
+## Definition of Scrum
+
+A framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value.
+
+## The Scrum Team
+
+The Scrum Team consists of a Product Owner, the Development Team, and a Scrum Master. Scrum Teams are self-organizing and cross-functional. Self-organizing teams choose how best to accomplish their work, rather than being directed by others outside the team. Cross-functional teams have all competencies needed to accomplish the work without depending on others not part of the team.
+
+Scrum Teams deliver products iteratively and incrementally, maximizing opportunities for feedback. Incremental deliveries of "Done" product ensure a potentially useful version of working product is always available.
+
 ## Scrum roles
 
-- Team Member
+- This is how it works in the industry:
+    - The Product Owner is responsible for maximizing the value of the product resulting from work of the Development Team. How this is done may vary widely across organizations, Scrum Teams, and individuals.The Product Owner is responsible for maximizing the value of the product resulting from work of the Development Team. How this is done may vary widely across organizations, Scrum Teams, and individuals.
+
+    - The Development Team consists of professionals who do the work of delivering a potentially releasable Increment of "Done" product at the end of each Sprint. A "Done" increment is required at the Sprint Review. Only members of the Development Team create the Increment. Optimal Development Team is allowed to have not less than 3 and not more than 9 team members to be able to execute tasks efficiently.
+
+    - The Scrum Master is responsible for promoting and supporting Scrum as defined in the Scrum Guide. Scrum Masters do this by helping everyone understand Scrum theory, practices, rules, and values.The Scrum Master is a servant-leader for the Scrum Team. The Scrum Master helps those outside the Scrum Team understand which of their interactions with the Scrum Team are helpful and which aren’t. The Scrum Master helps everyone change these interactions to maximize the value created by the Scrum Team.
+
+- This is how we follow Scrum at Umuzi:
+    - Product Owner
+  The stakeholder for the product. This person is in charge of deciding what the MVP, and different versions of the product look like. They are also responsible for ensuring the backlog is in correct order. 
+
+  - Team Member
   Developers, designers, and anyone who's doing that actual production of work. Responsible for working with the Product Owner to break down tasks & reach completion on different ticket items.
-- Scrum Master
+
+  - Scrum Master
   The facilitator of the scrum process. If this person is doing their job right, the team becomes independent over time.
-- Product Owner
-  The stakeholder for the product. This person is in charge of deciding what the MVP, and different versions of the product look like. They are also responsible for ensuring the backlog is in correct order.
+
 
 ## Scrum Meetings
 
