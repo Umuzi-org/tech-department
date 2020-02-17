@@ -2,20 +2,23 @@
 title: SQL Extended
 ---
 
-We have had many sessions about JDBC Templates, JPA and Hibernate, so I would hope that you now have a clue of what we are talking about.
-
-Remember the scripts you submitted for this https://umuzi-org.github.io/tech-department/projects/sql/ project now we are going to do this through JAVA.
+I hope at this point you should have already read up on JDBC templates, JPA and Hibernate from the topic resources. In this project we wil re-visit you SQl project. Instead of only using scripts to create and interact with your database you are doing to do this using java + scripts. You will be using dataSources to configured your connection to your database and query your tables.
 
 ## Part1
+1. Revise {{% contentlink "projects/sql/" %}} and make sure all tables are created and populated
 
-1. I would like to use vanilla java **(no Springboot)** connect to your database and perform the queries in part2 but only number [1-7]
-2. I would like you to use Springboot JDBC templates to connect to your database and perform the queries in part2 but only number [1-9]
-3. Lastly I would like you to use Hibernate + JPA to connect to your database and perform the queries in part2 [1-17]
+2. Use vanilla java **(no Springboot)** connect to your database and perform the queries in part2 but only number [1-7]
 
-**Part 2 of this project should be tested scenario by scenario**
+3. Use Springboot JDBC templates to connect to your database and perform the queries in part2 but only number [1-9]
+
+**Added Bonus**
+
+4. Lastly I would like you to use Hibernate + JPA to connect to your database and perform the queries in part2 [1-17]
+
+**Don't forget to test your application**
 
 
-## Part 2: Querying a database
+## Part 2: Querying a database (Reminder)
 
 Save all of your instructions in a script file - you will submit this file on Gnomio and github.
 
