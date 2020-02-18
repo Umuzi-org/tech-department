@@ -12,19 +12,19 @@
     <title>Environmental variables and secrets with gradle :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1581063047" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1581063047" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1581063047" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1581063047" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1581063047" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1581063047" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1581063047" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1581063047" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1582012501" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1582012501" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1582012501" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1582012501" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1582012501" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1582012501" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1582012501" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1582012501" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1581063047" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1582012501" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1581063047"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1582012501"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1581063047"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1581063047"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1582012501"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1582012501"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1581063047"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1582012501"></script>
 
     
   </div>
@@ -449,6 +449,30 @@
         ">
       <a href="/tech-department/topics/android/ui-resources/">
           Android user interface resources
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/tech-department/topics/android/video-assets/" title="Working with video assets" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/tech-department/topics/android/video-assets/">
+          Working with video assets
           
       </a>
       
@@ -986,6 +1010,30 @@
           
           
         
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/tech-department/topics/data-science-specific/data-science-methodology/" title="Data Science Methodology" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/tech-department/topics/data-science-specific/data-science-methodology/">
+          Data Science Methodology
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
           
             
             
@@ -6044,13 +6092,13 @@
  
   
     
-    <li data-nav-id="/tech-department/projects/java-specific/hello-sql-and-java/" title="SQL &#43; Java Helloworld" class="dd-item 
+    <li data-nav-id="/tech-department/projects/java-specific/hello-sql-and-java/" title="SQL Extended" class="dd-item 
         
         
         
         ">
       <a href="/tech-department/projects/java-specific/hello-sql-and-java/">
-          SQL &#43; Java Helloworld
+          SQL Extended
           
       </a>
       
@@ -8136,7 +8184,18 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#operating-system-environment-variables">Operating System Environment variables</a></li>
+<li><a href="#resources">Resources</a></li>
+<li><a href="#note">Note</a></li>
+<li><a href="#program-specific-environmental-variables-using-java-dotenv">Program specific environmental variables using java-dotenv</a></li>
+<li><a href="#java-deployment-configurations-with-gradle">Java deployment configurations with Gradle</a></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -8158,6 +8217,54 @@
 
         
 
+
+
+<p>Environment variables are global variables that are accessible from every system running in the OS (Operating System).</p>
+
+<p>There are multiple forms of environmental variables that can be used in a java application.</p>
+
+<p>Those accessible to any project in the operating system and those accessible to a specific java application</p>
+
+<h2 id="operating-system-environment-variables">Operating System Environment variables</h2>
+
+<p>The 2 links below describe what environment variables are and how to update them.</p>
+
+<p><a href="https://www.ntu.edu.sg/home/ehchua/programming/howto/environment_variables.html">Link 1</a>.</p>
+
+<p><a href="https://www.tutorialspoint.com/how-to-set-java-home-environment-variables-on-windows-os-in-java">Link 2</a>.</p>
+
+<h2 id="resources">Resources</h2>
+
+<p>You can read through the following <a href="https://www.technicalkeeda.com/java-tutorials/read-environment-variables-in-java">example</a> to see how you can access the environment variables from a Java application.</p>
+
+<h2 id="note">Note</h2>
+
+<p>A typical use case for environment variables is to store the paths to certain directories, such as paths to folders holding SDKs.</p>
+
+<h2 id="program-specific-environmental-variables-using-java-dotenv">Program specific environmental variables using java-dotenv</h2>
+
+<p>java-dotenv is a package that can be imported into a java project to assist with simplyfying using environment variables
+in applications.</p>
+
+<p><a href="https://github.com/cdimascio/java-dotenv">Documentation</a> for its use can be found here.</p>
+
+<h2 id="java-deployment-configurations-with-gradle">Java deployment configurations with Gradle</h2>
+
+<p>deployment configurations refers to different build environments, each with their own set of variables that can be used when the
+java application is built using those environments.</p>
+
+<p>For example: If you have an Api for your development environment and an Api for Production, you can make use of gradle build types
+to inform your application which Api it should communicate with in a specific build environment.</p>
+
+<p>This automates the process of changing environments. So instead of having to manually change the Url of your Api to toggle
+between development and production, you can create a debug and release build type. So changing the build environment will
+automatically point to the correct version of the Api you are using.</p>
+
+<p><a href="https://medium.com/@android2ee/playing-with-gradle-3-flavors-buildtypes-and-variants-ad5fe75158b9">This</a> documentation describles how to create different gradle files
+for different situations in an Android project.</p>
+
+<p>Android Apps can however be created using Java, so implementing gradle rules in a java application will follow the same format
+as the documentation above describes.</p>
 
 
 <footer class=" footline" >
@@ -8441,24 +8548,6 @@
             
         
                     
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
                         
             
             
@@ -8474,38 +8563,6 @@
                     
             
         
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
                     
             
         
@@ -8556,118 +8613,6 @@
                     
             
         
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
                     
             
         
@@ -8751,6 +8696,118 @@
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
             
         
                     
@@ -8768,6 +8825,88 @@
                     
                     
 
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
                     
                         
             
@@ -13287,20 +13426,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1581063047"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1581063047"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1581063047"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1581063047"></script>
-    <script src="/tech-department/js/featherlight.min.js?1581063047"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1581063047"></script>
-    <script src="/tech-department/js/highlight.pack.js?1581063047"></script>
+    <script src="/tech-department/js/clipboard.min.js?1582012501"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1582012501"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1582012501"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1582012501"></script>
+    <script src="/tech-department/js/featherlight.min.js?1582012501"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1582012501"></script>
+    <script src="/tech-department/js/highlight.pack.js?1582012501"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1581063047"></script>
-    <script src="/tech-department/js/learn.js?1581063047"></script>
-    <script src="/tech-department/js/hugo-learn.js?1581063047"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1582012501"></script>
+    <script src="/tech-department/js/learn.js?1582012501"></script>
+    <script src="/tech-department/js/hugo-learn.js?1582012501"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1581063047" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1581063047"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1582012501" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1582012501"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
