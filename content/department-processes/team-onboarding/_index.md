@@ -13,6 +13,10 @@ This is a guide to the Tech Department and how it works. It contains contact det
 - Deep work days - Staff that need to are allowed to take work from home 1 day per week - The team needs to be notified in advance via slack with at least one day prior notice.
 - Your responsibilities are yours to handle - should you be unable to deal with one of them arrange someone to cover for you and ensure that it gets done.
 
+#### Disciplinary Procedures and Guidelines
+At Umuzi we have rules and regulations to adhere by and there are also disciplinary acts that come with those rules if they not followed accordingly. Read all about them here:
+https://drive.google.com/open?id=1pgiIhgpFFRckwvcaEJXLCCAPqeC9KSZqb9Wnufv-5jM  
+
 #### What recruits need to know
 Firstly, read through {{% contentlink "/department-processes/what-recruits-need-to-know/" %}}
 
