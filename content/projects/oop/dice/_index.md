@@ -113,11 +113,11 @@ die6 = Die(6)
 
 // looking at the data from the table above. this is how we would construct the weighted die
 
-Die dieDodgy6 = new Die(6,[1,1,1,1,1,2])
+Die dieDodgy6 = new Die(6,new int[]{1,1,1,1,1,2})
 
 // we can create a perfectly fair die like this
 
-Die dieFair6 = new Die(6,[1,1,1,1,1,1])
+Die dieFair6 = new Die(6,new int[]{1,1,1,1,1,1})
 
 // this is equivalent to
 
