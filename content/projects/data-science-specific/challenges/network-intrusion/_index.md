@@ -1,5 +1,6 @@
 ---
 title: Network Intrusion
+pre: "<b> HARD: </b>"
 ready: true
 ---
 
@@ -32,30 +33,31 @@ Attacks fall into four main categories:
 - U2R: unauthorized access to local superuser (root) privileges, e.g., various - "buffer overflow" attacks
 - probing: surveillance and other probing, e.g., port scanning
 
- #### Attack types:  
- - back
- - buffer_overflow
- - ftp_write
- - guess_passwd
- - imap
- - ipsweep
- - land
- - loadmodule
- - multihop
- -  neptune
- - nmap
- - normal
- - perl
- - phf
- - pod
- - portsweep
- - rootkit
- - satan
- - smurf
- - spy
- - teardrop
- - warezclient
- - warezmaster
+#### Attack types:
+
+ - back  
+ - buffer_overflow  
+ - ftp_write  
+ - guess_passwd  
+ - imap  
+ - ipsweep  
+ - land  
+ - loadmodule  
+ - multihop  
+ -  neptune  
+ - nmap  
+ - normal  
+ - perl  
+ - phf  
+ - pod  
+ - portsweep  
+ - rootkit  
+ - satan  
+ - smurf  
+ - spy  
+ - teardrop  
+ - warezclient  
+ - warezmaster  
 
 ## Features:
 ### Table 1: Basic features of individual TCP connections.
