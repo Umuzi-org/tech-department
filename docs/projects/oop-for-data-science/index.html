@@ -12,19 +12,19 @@
     <title>OOP for data science :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1582012502" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1582012502" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1582012502" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1582012502" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1582012502" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1582012502" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1582012502" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1582012502" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1582518161" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1582518161" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1582518161" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1582518161" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1582518161" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1582518161" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1582518161" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1582518161" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1582012502" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1582518161" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1582012502"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1582518161"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1582012502"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1582012502"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1582518161"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1582518161"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1582012502"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1582518161"></script>
 
     
   </div>
@@ -449,6 +449,30 @@
         ">
       <a href="/tech-department/topics/android/ui-resources/">
           Android user interface resources
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/tech-department/topics/android/sound-assets/" title="Working with sound assets" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/tech-department/topics/android/sound-assets/">
+          Working with sound assets
           
       </a>
       
@@ -4969,6 +4993,30 @@
 
             
           
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/tech-department/projects/android/information-page/" title="Information Page" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/tech-department/projects/android/information-page/">
+          Information Page
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
         
         </ul>
               
@@ -8178,7 +8226,15 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#prerequisite">Prerequisite</a></li>
+<li><a href="#assignment">Assignment</a></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -8226,6 +8282,80 @@
 
         
 
+
+
+<h2 id="prerequisite">Prerequisite</h2>
+
+<p>You need to complete the Multivariate Regression assignment using the salary dataset before doing this assignment (
+
+
+
+
+<a href="/tech-department/projects/data-science-specific/multivariate-linear-regression"
+  >PROJECTS: 
+  
+  Multivariate Linear Regression </a
+>
+). You will use the data and the model you built in that assignment for this OOP assignment.</p>
+
+<p>Go through the OOP for Python topic 
+
+
+
+
+<a href="/tech-department/topics/python-specific/oop-for-python"
+  >TOPICS: 
+  
+  Intro OOP(Object-oriented Programming) for Python </a
+>
+ before starting this assignment.</p>
+
+<p>You may also want to look at Khan Academy&rsquo;s content on <a href="https://www.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data/assessing-the-fit-in-least-squares-regression/v/residual-plots">interpreting residual plots</a>.</p>
+
+<h2 id="assignment">Assignment</h2>
+
+<p>It is efficient to put machine learning models and other data science techniques into classes so that we can reuse them later and change attributes without changing the code behind these models. Independent concepts can also be put into independent classes: for example, the functioning of a cross-validate class should not affect the functioning of a linear regression class. These concepts are also referred to as <a href="https://medium.com/clarityhub/low-coupling-high-cohesion-3610e35ac4a6">high cohesion and loose coupling</a>.</p>
+
+<ol>
+<li>Create a class called <code>ErrorCalculator</code> that has methods to compute the residuals, <a href="https://www.isixsigma.com/dictionary/standardized-residual/">standardised residuals</a>, Mean Squared Error (MSE) and Root Mean Squared Error (RMSE). Name these methods <code>get_residuals</code>, <code>get_standardised_residuals</code>, <code>get_mse</code> and <code>get_rmse</code> respectively. You can also have a method, <code>error_summary</code> that prints the average, minimum and maximum of the standardised residuals, as well as the MSE and RMSE.</li>
+</ol>
+
+<p>The class should have the following parameters:
+  - <code>y</code>: A 1D array of the target variable, size n_observations
+  - <code>y_pred</code>: A 1D array of the predicted values of the target variable, size n_observations</p>
+
+<ol>
+<li>Create a generic class called <code>Plotter</code>. This class should have a method, <code>run_calculations</code>, to calculate the residuals if they have not yet been calculated, and a method <code>plot</code>, which simply plots a histogram of the residuals.</li>
+</ol>
+
+<p>As before, the class should have the following parameters:
+- <code>y</code>: A 1D array of the target variable, size n_observations
+- <code>y_pred</code>: A 1D array of the predicted values of the target variable, size n_observations</p>
+
+<p>Now create two child classes, <code>HistogramPlotter</code> and <code>ScatterPlotter</code>, that both inherit from <code>Plotter</code>. As the name suggests, <code>HistogramPlotter.plot()</code> should return a histogram of the residuals, whereas <code>ScatterPlotter.plot()</code> should return scatterplots of the residual versus predicted values and the predicted versus observed values. (Why do this, you ask? Inheriting in this way makes it easier for future developers to know that the method <code>plot</code> will return a plot, regardless of the type of plot specified by the child class).</p>
+
+<ol>
+<li>Use the model you built in the Multivariate Regression project to predict log-transformed salary (<code>log_salary</code>). Also create a second multiple regression model which does not include <code>yearsrank</code> as a feature. Save these model instances as <code>model1</code> and <code>model2</code>. Remember to scale (standardise) the features before modelling.</li>
+</ol>
+
+<p>In other words, you should have two models:</p>
+
+<p><strong>Model 1:</strong></p>
+
+<p>Features: exprior, yearsworked, yearsrank,  market, degree,  otherqual,  position,  male,  Field_dummyvariable1,  Field_dummyvariable2, Field_dummyvariable3, yearsabs</p>
+
+<p><strong>Model 2:</strong></p>
+
+<p>Features: exprior,    yearsworked,  market,  degree,  otherqual,  position,  male,  Field_dummyvariable1, Field_dummyvariable2, Field_dummyvariable3, yearsabs</p>
+
+<ol>
+<li><p>Use <code>ErrorCalculator</code>, <code>HistogramPlotter</code> and <code>ScatterPlotter</code> to get accuracy metrics and diagnostic plots for model 1 and model 2 (as defined in Q3). To keep the notebook neat, your classes should be imported from separate python files.
+How does the model accuracy and diagnostics for the two models compare? Which is the better regression model?</p></li>
+
+<li><p>[OPTIONAL] Create a class called <code>InfluenceCalculator</code> that takes a model fit object as an argument and has methods for calculating and displaying leverage values and Cook&rsquo;s distance. Call these methods <code>leverage</code>, <code>cooks_distance</code>. This is easiest to do using the package <code>statsmethods</code> to create the linear regression model object. Are there any observations that may be influencing the models?</p></li>
+</ol>
+
+<p><em>Tip:</em> These classes should be able to work with any regression problem. You can re-use these classes in upcoming assignments when inspecting models and you can also make classes in future that can work for both regression and classification problems.</p>
 
 
 <footer class=" footline" >
@@ -8521,6 +8651,22 @@
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -11370,6 +11516,22 @@
                     
                     
 
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
                     
                         
             
@@ -13386,20 +13548,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1582012502"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1582012502"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1582012502"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1582012502"></script>
-    <script src="/tech-department/js/featherlight.min.js?1582012502"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1582012502"></script>
-    <script src="/tech-department/js/highlight.pack.js?1582012502"></script>
+    <script src="/tech-department/js/clipboard.min.js?1582518161"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1582518161"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1582518161"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1582518161"></script>
+    <script src="/tech-department/js/featherlight.min.js?1582518161"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1582518161"></script>
+    <script src="/tech-department/js/highlight.pack.js?1582518161"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1582012502"></script>
-    <script src="/tech-department/js/learn.js?1582012502"></script>
-    <script src="/tech-department/js/hugo-learn.js?1582012502"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1582518161"></script>
+    <script src="/tech-department/js/learn.js?1582518161"></script>
+    <script src="/tech-department/js/hugo-learn.js?1582518161"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1582012502" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1582012502"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1582518161" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1582518161"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
