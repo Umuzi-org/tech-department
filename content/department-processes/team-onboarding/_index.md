@@ -58,6 +58,7 @@ sheena.oconnell@umuzi.org
 Daily stand ups with recruits at 9am. 
 
 Daily tech meeting / check-in with tech facilitators and managers at 3:30pm on Mondays and 4pm every other day. Tech team daily meeting format:
+
  - Mondays: Review on the weekly proceedings
  - Tuesdays: at hawk
  - Wednesdays: at hawk 
