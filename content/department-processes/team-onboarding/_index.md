@@ -10,7 +10,7 @@ This is a guide to the Tech Department and how it works. It contains contact det
 #### Ground Rules
 - Arrive before 9:00 and ensure you are up to date on recruit activities and any announcements you may have for stand-up
 - Don't be late for workshops - if you commit to doing a workshop ensure it happens and start on time.
-- Deep work days - Staff that need to are allowed to take work from home 1 day per week - The team needs to be notified in advance via slack with at least one day prior notice.
+- Deep work days - Staff that need to are allowed to take work from home 1 day per week - The team needs to be notified in advance via slack with at least one day prior notice. Find the schedule here:https://drive.google.com/open?id=1LApO2CL5fqUpymsXzJ-qNrU0wHs_AUbkYYzRw_S3G6Y
 - Your responsibilities are yours to handle - should you be unable to deal with one of them arrange someone to cover for you and ensure that it gets done.
 
 #### Disciplinary Procedures and Guidelines
