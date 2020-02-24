@@ -229,12 +229,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/android/</loc>
+    <loc>/tech-department/topics/android/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/topics/android/</loc>
+    <loc>/tech-department/projects/android/</loc>
     <priority>0</priority>
   </url>
   
@@ -434,12 +434,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/</loc>
+    <loc>/tech-department/projects/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/projects/data-science-specific/</loc>
+    <loc>/tech-department/topics/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
@@ -573,6 +573,10 @@
   
   <url>
     <loc>/tech-department/projects/android/incremental-counter/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/android/information-page/</loc>
   </url>
   
   <url>
@@ -1226,6 +1230,10 @@
   
   <url>
     <loc>/tech-department/workshops/what-to-put-in-your-cv/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/android/sound-assets/</loc>
   </url>
   
   <url>

@@ -403,19 +403,16 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/sql/" %}} - DUE
   - {{% contentlink "workshops/node-and-sql/" %}}
 
-<<<<<<< HEAD
 - DATA_SCI
   - {{% contentlink "topics/intro-to-docker/" %}}
   - {{% contentlink "topics/python-specific/virtual-envs/" %}}
 
-=======
 - JAVA:
   - NCIT 14: Database Development
   - NCIT 15: Analytics, Surveys, and Reports / Input & Output
   - {{% contentlink "topics/java-specific/introduction-to-spring-infrastructure/part-1" %}}
   - {{% contentlink "workshops/java-specific/introduction-to-spring-infrastructure/part-1" %}}
   - {{% contentlink "projects/java-specific/introduction-to-spring-infrastructure/part-1" %}}
->>>>>>> 86701e2943fda5272c8a3911a4932f988aa14ef9
 
 ## Week 15
 
@@ -516,15 +513,12 @@ JAVA:
   - {{% contentlink "projects/python-specific/spark" %}} - INTRODUCED
   - {{% contentlink "topics/python-specific/spark" %}}
 
-<<<<<<< HEAD
 - DATA_SCI:
   - {{% contentlink "projects/data-science-specific/decision-trees" %}}
 
-=======
 - JAVA:
   - {{% contentlink "topics/java-specific/introduction-to-spring-boot/part-3" %}}
   - {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-3" %}}
->>>>>>> 86701e2943fda5272c8a3911a4932f988aa14ef9
 
 ## Week 20
 
