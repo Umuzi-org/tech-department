@@ -10,7 +10,7 @@ This is a guide to the Tech Department and how it works. It contains contact det
 #### Ground Rules
 - Arrive before 9:00 and ensure you are up to date on recruit activities and any announcements you may have for stand-up
 - Don't be late for workshops - if you commit to doing a workshop ensure it happens and start on time.
-- Deep work days - Staff that need to are allowed to take work from home 1 day per week - The team needs to be notified in advance via slack with at least one day prior notice. Find the schedule here:https://drive.google.com/open?id=1LApO2CL5fqUpymsXzJ-qNrU0wHs_AUbkYYzRw_S3G6Y
+- Deep work days - Staff that need to are allowed to take work from home 1 day per week - Deep work is planned out one week in advance. Tech team members have access to sheet where they can either comment directly to the spreadsheet or they can send a slack on the tech team channel. ALSO on Deep work day, the work completed on the deepwork day should be visable and measurable. While on deepwork you will still be required to come online on Rocketchat and respond to messages occasionally. Find the schedule here:https://drive.google.com/open?id=1LApO2CL5fqUpymsXzJ-qNrU0wHs_AUbkYYzRw_S3G6Y
 - Your responsibilities are yours to handle - should you be unable to deal with one of them arrange someone to cover for you and ensure that it gets done.
 
 #### Disciplinary Procedures and Guidelines
@@ -57,13 +57,13 @@ sheena.oconnell@umuzi.org
 #### Regular meetings: 
 Daily stand ups with recruits at 9am. 
 
-Daily tech meeting / check-in with tech facilitators and managers at 3:30pm on Mondays and 4pm every other day. Tech team daily meeting format:
+Daily tech meeting / check-in with tech facilitators and managers at 4pm Monday to Thursday and 3pm Friday. Tech team daily meeting format:
 
- - Mondays: Review on the weekly proceedings
- - Tuesdays: at hawk
- - Wednesdays: at hawk 
- - Thursdays: Plannning
- - Fridays: at hawk
+ - Mondays: Review the prototyping we are currently implimenting (Findings will be useful for daily runnings and future prototyping). 
+ - Tuesdays: ad hoc
+ - Wednesdays: ad hoc 
+ - Thursdays: Syllabus and workshop planning for the next two weeks.
+ - Fridays: ad hoc
 
 #### Processes for Umuzi tech managers when new staff join:
 
