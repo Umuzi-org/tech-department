@@ -12,19 +12,19 @@
     <title>Introduction to Spring Boot - part 1 :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1582530726" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1582530726" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1582530726" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1582530726" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1582530726" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1582530726" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1582530726" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1582530726" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1582615722" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1582615722" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1582615722" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1582615722" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1582615722" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1582615722" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1582615722" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1582615722" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1582530726" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1582615722" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1582530726"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1582615722"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1582530726"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1582530726"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1582615722"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1582615722"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1582530726"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1582615722"></script>
 
     
   </div>
@@ -8238,7 +8238,19 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#the-difference-between-spring-and-spring-boot">The Difference Between Spring and Spring boot</a></li>
+<li><a href="#spring-boot-annotation">Spring Boot Annotation</a></li>
+<li><a href="#dependency-injection">Dependency Injection</a></li>
+<li><a href="#what-is-inversion-of-control">What Is Inversion of Control?</a></li>
+<li><a href="#what-is-dependency-injection">What Is Dependency Injection?</a></li>
+<li><a href="#resources">Resources</a></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -8260,6 +8272,154 @@
 
         
 
+
+
+<p>Spring Boot is a very big and complex framework and for the next few weeks we are going to spend a great deal of time focusing on the core of the framework and all its parts. There will be a lot of content to go through so please go through it diligently as it will set a solid foundation for you.</p>
+
+<h2 id="the-difference-between-spring-and-spring-boot">The Difference Between Spring and Spring boot</h2>
+
+<p><strong>Spring</strong></p>
+
+<p>Spring is one of the most extensively used Java EE Frameworks for building applications. For the Java platform, the Spring framework provides a detailed programming and configuration model. It aims to simplify the Java EE development and helps developers be more productive at work. It can be used at any kind of deployment platform. It tries to cater for todays needs in business to make it quick an easy to develop applications.</p>
+
+<p><strong>Spring Boot</strong></p>
+
+<p>While the Spring framework focuses on providing flexibility to you, Spring Boot aims to shorten the code length and provide you with the easiest way to develop a web application. With annotation configuration and default codes, Spring Boot shortens the time involved in developing an application. It helps create a stand-alone application with less or almost zero-configuration. IT is a module of the spring framework and built on top of it.</p>
+
+<p><img src="spring-vs-springboot.png" alt="spring-vs-springboot" /></p>
+
+<p>Spring Boot follows a layered architecture in which each layer communicates with the layer directly below or above it (hierarchical structure).</p>
+
+<p><strong>Presentation Layer:</strong> The presentation layer handles the HTTP requests (your Restful api), translates the JSON parameter to object, and authenticates the request and transfer it to the business layer. In short, it consists of views i.e., frontend part.</p>
+
+<p><strong>Business Layer:</strong> The business layer handles all the business logic. It consists of service classes and uses services provided by data access layers. It also performs authorization and validation.</p>
+
+<p><strong>Persistence Layer:</strong> The persistence layer contains all the storage logic and translates business objects from and to database rows using different tools such JDBC and Repository.</p>
+
+<p><strong>Database Layer:</strong> In the database layer, CRUD (create, retrieve, update, delete) operations are performed. The actual scripts which get/insert information to and from the database</p>
+
+<p>Spring boot flow architecture looks like this</p>
+
+<p><img src="springboot-architecture.png" alt="springboot-architecture" /></p>
+
+<h2 id="spring-boot-annotation">Spring Boot Annotation</h2>
+
+<p>Spring Boot is easier to work with because it auto configures objects and resources for us using annotation, and annotations are big on Spring so its probably a good idea to look over some of the core annotations to get an application started.</p>
+
+<p><strong>@Autowired</strong>
+We can use the @Autowired to mark a dependency which Spring is going to resolve and inject. We can use this annotation with a constructor, setter, or field injection.</p>
+
+<p><a href="https://www.baeldung.com/spring-core-annotations">Checkout Spring Core Annotations Here</a></p>
+
+<p><strong>@SpringBootApplication</strong>
+We use this annotation to mark the main class of a Spring Boot application, it encapsulates @Configuration, @EnableAutoConfiguration, and @ComponentScan annotations with their default attributes.</p>
+
+<p><a href="https://www.baeldung.com/spring-boot-annotations">Checkout Spring Boot Annotations Here</a></p>
+
+<p><strong>and many others</strong></p>
+
+<h2 id="dependency-injection">Dependency Injection</h2>
+
+<p>Before we can understand dependencies inject we have to first understand what inversion of control(Ioc) is and why we care about it</p>
+
+<h2 id="what-is-inversion-of-control">What Is Inversion of Control?</h2>
+
+<p>Inversion of Control is a principle in software engineering by which the control of objects or portions of a program is transferred to a container or framework. It&rsquo;s most often used in the context of object-oriented programming.</p>
+
+<p>By contrast with traditional programming, in which our custom code makes calls to a library, IoC enables a framework to take control of the flow of a program and make calls to our custom code.</p>
+
+<p><strong>The advantages of this architecture are:</strong></p>
+
+<ul>
+<li>decoupling the execution of a task from its implementation</li>
+<li>making it easier to switch between different implementations</li>
+<li>greater modularity of a program</li>
+<li>greater ease in testing a program by isolating a component or mocking its dependencies and allowing components to communicate through contracts</li>
+</ul>
+
+<h2 id="what-is-dependency-injection">What Is Dependency Injection?</h2>
+
+<p>Dependency injection is a pattern through which to implement IoC, where the control being inverted is the setting of object&rsquo;s dependencies. The act of connecting objects with other objects, or “injecting” objects into other objects, is done by an assembler rather than by the objects themselves</p>
+
+<p>Simply put, this allows for loose coupling of components and moves the responsibility of managing components onto the container.</p>
+
+<p><strong>There are 3 overall types of injection</strong></p>
+
+<ol>
+<li><p>Constructor Injection
+```
+Class Animal {</p>
+
+<pre><code>@Autowired
+public Dog dog() {
+    return new Dog();
+}
+</code></pre></li>
+</ol>
+
+<p>}</p>
+
+<pre><code>
+2. Setter Injection
+</code></pre>
+
+<p>Class Animal {
+        private Dog dog;</p>
+
+<pre><code>    @Autowired
+    public void setDog(Dog dog) {
+        this.dog = dog;
+    }
+</code></pre>
+
+<p>}</p>
+
+<pre><code>
+3. Field Injection
+</code></pre>
+
+<p>Class Animal {
+        @Autowired
+        private Dog dog;
+}</p>
+
+<pre><code>
+**Interface - (Not officially a type)**
+</code></pre>
+
+<p>Class RestController {
+        @Autowired // still field injection but this is how you can create an abstraction between your view and service
+        private AccountService accService;
+}</p>
+
+<p>Interface AccountService {
+        &hellip;
+}</p>
+
+<p>Class AccountServiceImpl implements AccountService {
+        &hellip;
+}
+```</p>
+
+<h2 id="resources">Resources</h2>
+
+<p><a href="https://dzone.com/articles/understanding-the-basics-of-spring-vs-spring-boot">https://dzone.com/articles/understanding-the-basics-of-spring-vs-spring-boot</a></p>
+
+<p><a href="https://www.javatpoint.com/spring-boot-architecture">https://www.javatpoint.com/spring-boot-architecture</a></p>
+
+<p><a href="https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc">https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc</a></p>
+
+<p><a href="https://www.javatpoint.com/spring-boot-dm">https://www.javatpoint.com/spring-boot-dm</a></p>
+
+<p><a href="https://www.baeldung.com/spring-dependency-injection">https://www.baeldung.com/spring-dependency-injection</a></p>
+
+<p><a href="https://www.baeldung.com/inversion-control-and-dependency-injection-in-spring">https://www.baeldung.com/inversion-control-and-dependency-injection-in-spring</a></p>
+
+<p><a href="https://www.baeldung.com/spring-core-annotations">https://www.baeldung.com/spring-core-annotations</a></p>
+
+<p><a href="https://www.baeldung.com/spring-boot-annotations">https://www.baeldung.com/spring-boot-annotations</a></p>
+
+<p><a href="https://www.tutorialspoint.com/spring_boot/index.htm">https://www.tutorialspoint.com/spring_boot/index.htm</a></p>
 
 
 <footer class=" footline" >
@@ -13457,20 +13617,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1582530726"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1582530726"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1582530726"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1582530726"></script>
-    <script src="/tech-department/js/featherlight.min.js?1582530726"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1582530726"></script>
-    <script src="/tech-department/js/highlight.pack.js?1582530726"></script>
+    <script src="/tech-department/js/clipboard.min.js?1582615722"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1582615722"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1582615722"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1582615722"></script>
+    <script src="/tech-department/js/featherlight.min.js?1582615722"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1582615722"></script>
+    <script src="/tech-department/js/highlight.pack.js?1582615722"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1582530726"></script>
-    <script src="/tech-department/js/learn.js?1582530726"></script>
-    <script src="/tech-department/js/hugo-learn.js?1582530726"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1582615722"></script>
+    <script src="/tech-department/js/learn.js?1582615722"></script>
+    <script src="/tech-department/js/hugo-learn.js?1582615722"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1582530726" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1582530726"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1582615722" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1582615722"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
