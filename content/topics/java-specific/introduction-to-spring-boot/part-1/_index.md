@@ -1,5 +1,6 @@
 ---
 title: Introduction to Spring Boot - part 1
+ready: true
 ---
 
 Spring Boot is a very big and complex framework and for the next few weeks we are going to spend a great deal of time focusing on the core of the framework and all its parts. There will be a lot of content to go through so please go through it diligently as it will set a solid foundation for you.
@@ -121,6 +122,9 @@ Class AccountServiceImpl implements AccountService {
         ...
 }
 ```
+
+## Spring Actuator
+This feature provides a lot of insights of a running Spring boot application. For example, you can use Actuator to find out which beans are created in Spring's application context and which request path are mapped to controllers.
 
 
 ## Resources

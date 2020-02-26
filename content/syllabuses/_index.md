@@ -410,9 +410,8 @@ The recruits finish off their portfolios. From this point forward they are expec
 - JAVA:
   - NCIT 14: Database Development
   - NCIT 15: Analytics, Surveys, and Reports / Input & Output
-  - {{% contentlink "topics/java-specific/introduction-to-spring-infrastructure/part-1" %}}
-  - {{% contentlink "workshops/java-specific/introduction-to-spring-infrastructure/part-1" %}}
-  - {{% contentlink "projects/java-specific/introduction-to-spring-infrastructure/part-1" %}}
+  - {{% contentlink "topics/java-specific/introduction-to-spring-boot/part-1" %}}
+  - {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-1" %}}
 
 ## Week 15
 
@@ -430,9 +429,8 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/nodejs/sql" %}}
 
 - Java :
-  - {{% contentlink "topics/java-specific/introduction-to-spring-infrastructure/part-2" %}}
-  - {{% contentlink "workshops/java-specific/introduction-to-spring-infrastructure/part-2" %}}
-  - {{% contentlink "projects/java-specific/introduction-to-spring-infrastructure/part-2" %}}
+  - {{% contentlink "topics/java-specific/introduction-to-spring-boot/part-2" %}}
+  - {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-2" %}}
   - {{% contentlink "topics/how-the-internet-works" %}}
   * NCIT 05: History of the Internet
 
@@ -456,9 +454,8 @@ ALL:
 
 JAVA:
 
-- {{% contentlink "topics/java-specific/introduction-to-spring-infrastructure/part-3" %}}
-- {{% contentlink "workshops/java-specific/introduction-to-spring-infrastructure/part-3" %}}
-- {{% contentlink "projects/java-specific/introduction-to-spring-infrastructure/part-3" %}}
+  - {{% contentlink "topics/java-specific/introduction-to-spring-boot/part-3" %}}
+  - {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-3" %}}
 
 ## Week 17
 
@@ -467,8 +464,6 @@ JAVA:
   - {{% contentlink "projects/github-api-consume" %}}
   - {{% contentlink "projects/java-specific/consume-own-api-using-curl" %}}
   - {{% contentlink "topics/data-ethics-and-privacy" %}}
-  - {{% contentlink "topics/java-specific/introduction-to-spring-boot/part-1" %}}
-  - {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-1" %}}
 
 * WEB_DEV:
 
@@ -497,8 +492,7 @@ JAVA:
   - {{% contentlink "topics/data-infrastructure/choosing-a-task-queue" %}}
 
 - JAVA:
-  - {{% contentlink "topics/java-specific/introduction-to-spring-boot/part-2" %}}
-  - {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-2" %}}
+
 
 ## Week 19
 
