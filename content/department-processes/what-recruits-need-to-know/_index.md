@@ -5,6 +5,10 @@ ready: true
 
 This is a guide to the Tech Department and how it works. It contains contact details, important links to documents we use and software that are useful.
 
+## Umuzi Handbook
+
+This documentation has EVERYTHING you need to know about Umuzi. The recruit user journey, the processes and protocols and the culture of Umuzi are all found [here](https://docs.google.com/document/d/1aal5u4dUAU1WvAWEWeW4uYVu8c4Q2JbwZuFcJqG2kbQ/edit#heading=h.qudvz63naw4s)
+
 ## Ground Rules
 
 In order to be efficient and productive we have some ground rules:
