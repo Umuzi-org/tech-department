@@ -76,6 +76,7 @@ Simply put, this allows for loose coupling of components and moves the responsib
 **There are 3 overall types of injection**
 
 1. Constructor Injection
+
 ```
 Class Animal {
     
@@ -88,6 +89,7 @@ Class Animal {
 ```
 
 2. Setter Injection
+
 ```
 Class Animal {
         private Dog dog;
@@ -100,6 +102,7 @@ Class Animal {
 ```
 
 3. Field Injection
+
 ```
 Class Animal {
         @Autowired
@@ -108,6 +111,7 @@ Class Animal {
 ```
 
 **Interface - (Not officially a type)**
+
 ```
 Class RestController {
         @Autowired // still field injection but this is how you can create an abstraction between your view and service
