@@ -32,13 +32,22 @@ These links will teach you the basics
 
 - https://www.w3schools.com/html/html_responsive.asp
 - https://www.w3schools.com/css/css_rwd_intro.asp
+- [Learn UI design fundamentals with this free one-hour course](https://www.freecodecamp.org/news/learn-ui-design-fundamentals-with-this-free-one-hour-course/)
 
 ## Accessibility
 
 - [A developer's guide to web design for non-designers](https://www.freecodecamp.org/news/a-developers-guide-to-web-design-for-non-designers-1f64ce28c38d/)
+- [Design Course - Beginner's Web Design](https://www.youtube.com/watch?v=alswD2tCc_Q)
+- [Dev Ed - Creating a website from scratch](https://www.youtube.com/watch?v=wmEc9HeQV7Q
+)
 
 ## Principles of design
 
+- [How To Plan For a Website](https://www.quicksprout.com/plan-new-website/)
 - [design-101-for-developers](https://academy.realm.io/posts/christopher-downer-design-101-for-developers/)
 - [7 principles of design for coders](https://learntocodewith.me/posts/7-principles-of-design/)
 - https://www.w3.org/WAI/fundamentals/accessibility-intro/
+
+## Tools for design
+
+- [Figma - Open source wireframing application](https://snapcraft.io/install/figma-linux/mint)

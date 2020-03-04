@@ -43,6 +43,18 @@ print(die6.value) // this would print a number between 1 and 6 inclusive
 print(die20.value) // this would print a number between 1 and 20 inclusive
 ```
 
+```
+// Java
+Die die6 = new Die(6)
+die6.roll()
+
+Die die20 = new Die(20)
+die20.roll()
+
+System.out.print(die6.value) // this would print a number between 1 and 6 inclusive
+System.out.print(die20.value) // this would print a number between 1 and 20 inclusive
+```
+
 ## Weighted Dice
 
 Please extend your program with the following functionality.
@@ -60,14 +72,14 @@ For example we might have a weighted 6 sided die with the following probabilitie
 | 5     | 1/7                        |
 | 6     | 2/7                        |
 
-If we roll this die 700 times then cances are we'll get 200 6s, and 100 of each of the other values.
+If we roll this die 700 times then chances are we'll get 200 6s, and 100 of each of the other values.
 
 Extend the constructor of your class so that it has an optional parameter called `probabilities`. This would be an array of integers. The length of the array should be equal to the number of sides. If `probabilities` is left blank then the constructed `Die` instance should be fair.
 
 ```
 // JavaScript
 
-// looking at the data from the table above. this is how we would costruct the weighted die
+// looking at the data from the table above. this is how we would construct the weighted die
 
 let dieDodgy6 = new Die(6,[1,1,1,1,1,2])
 
@@ -83,7 +95,7 @@ let die6 = new Die(6)
 ```
 # Python
 
-# looking at the data from the table above. this is how we would costruct the weighted die
+# looking at the data from the table above. this is how we would construct the weighted die
 
 dieDodgy6 = Die(6,[1,1,1,1,1,2])
 
@@ -96,9 +108,26 @@ die6 = Die(6,[1,1,1,1,1,1])
 die6 = Die(6)
 ```
 
+```
+// Java
+
+// looking at the data from the table above. this is how we would construct the weighted die
+
+Die dieDodgy6 = new Die(6,new int[]{1,1,1,1,1,2})
+
+// we can create a perfectly fair die like this
+
+Die dieFair6 = new Die(6,new int[]{1,1,1,1,1,1})
+
+// this is equivalent to
+
+Die die6 = new Die(6);
+
+```
+
 - If there are any negative numbers in the probabilities array then raise the error `negative probabilities not allowed`.
 - If the sum of the numbers in the probabilities array is less than 1 then raise the error `probability sum must be greater than 0`
-- If the values passed in are not integers thenraise the error `only integer values allowed`
+- If the values passed in are not integers then raise the error `only integer values allowed`
 
 Create a function on your `Die` class called `setProbabilities`. This should take in an array and update the `Die` instance accordingly.
 
@@ -124,11 +153,18 @@ let anotherDie20 = new factory20.makeDie()
 # Python
 
 factory20 = DiceFactory(20)
-die20 = factory20.make_ie()
+die20 = factory20.make_die()
 anotherDie20 = factory20.make_die()
 ```
 
-This is a very somplified verion of the **factory design pattern**. Design patterns are cool you guys. Basically the idea behind this one is that some classes are hard to construct:
+```
+// Java
+
+SuperClass die20 = DiceFactory.makeDie(20);
+SuperClass anotherDie20 = DiceFactory.makeDie(20);
+```
+
+This is a very simplified version of the **factory design pattern**. Design patterns are cool you guys. Basically the idea behind this one is that some classes are hard to construct:
 
 - sometimes it's hard to decide what to construct
 - sometimes the constructor has a lot of parameters

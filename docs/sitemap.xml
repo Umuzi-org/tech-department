@@ -361,6 +361,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/java-specific/consume-own-api-using-curl/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/contact-us/</loc>
   </url>
   
@@ -401,6 +405,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/data-science-specific/data-science-methodology/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/data_validation_and_verification/</loc>
   </url>
   
@@ -426,12 +434,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/</loc>
+    <loc>/tech-department/projects/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/projects/data-science-specific/</loc>
+    <loc>/tech-department/topics/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
@@ -496,7 +504,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/java-fileio-logging-errors/</loc>
+    <loc>/tech-department/projects/java-specific/java-fileio-logging-errors/</loc>
   </url>
   
   <url>
@@ -565,6 +573,10 @@
   
   <url>
     <loc>/tech-department/projects/android/incremental-counter/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/android/information-page/</loc>
   </url>
   
   <url>
@@ -673,6 +685,86 @@
   
   <url>
     <loc>/tech-department/workshops/node-and-sql/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/java-specific/introduction-to-spring-boot/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/introduction-to-spring-boot/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/java-specific/introduction-to-spring-boot/part-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/introduction-to-spring-boot/part-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/java-specific/introduction-to-spring-boot/part-2/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/introduction-to-spring-boot/part-2/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/java-specific/introduction-to-spring-boot/part-3/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/introduction-to-spring-boot/part-3/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/java-specific/introduction-to-spring-infrastructure/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/introduction-to-spring-infrastructure/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/java-specific/introduction-to-spring-infrastructure/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/java-specific/introduction-to-spring-infrastructure/part-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/introduction-to-spring-infrastructure/part-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/java-specific/introduction-to-spring-infrastructure/part-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/java-specific/introduction-to-spring-infrastructure/part-2/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/introduction-to-spring-infrastructure/part-2/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/java-specific/introduction-to-spring-infrastructure/part-2/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/java-specific/introduction-to-spring-infrastructure/part-3/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/introduction-to-spring-infrastructure/part-3/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/java-specific/introduction-to-spring-infrastructure/part-3/</loc>
   </url>
   
   <url>
@@ -787,6 +879,10 @@
   
   <url>
     <loc>/tech-department/projects/data-science-specific/k-means-clustering/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/kinds-of-web-apis/</loc>
   </url>
   
   <url>
@@ -967,6 +1063,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/data-science-specific/regression/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/regular-expressions/</loc>
   </url>
   
@@ -1130,6 +1230,14 @@
   
   <url>
     <loc>/tech-department/workshops/what-to-put-in-your-cv/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/android/sound-assets/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/android/video-assets/</loc>
   </url>
   
   <url>
