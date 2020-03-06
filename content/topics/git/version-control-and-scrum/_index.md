@@ -16,22 +16,19 @@ Scrum Teams deliver products iteratively and incrementally, maximizing opportuni
 
 ## Scrum roles
 
-- This is how it works in the industry:
+- **This is how it works in the industry:**
     - The Product Owner is responsible for maximizing the value of the product resulting from work of the Development Team. How this is done may vary widely across organizations, Scrum Teams, and individuals.The Product Owner is responsible for maximizing the value of the product resulting from work of the Development Team. How this is done may vary widely across organizations, Scrum Teams, and individuals.
 
     - The Development Team consists of professionals who do the work of delivering a potentially releasable Increment of "Done" product at the end of each Sprint. A "Done" increment is required at the Sprint Review. Only members of the Development Team create the Increment. Optimal Development Team is allowed to have not less than 3 and not more than 9 team members to be able to execute tasks efficiently.
 
     - The Scrum Master is responsible for promoting and supporting Scrum as defined in the Scrum Guide. Scrum Masters do this by helping everyone understand Scrum theory, practices, rules, and values.The Scrum Master is a servant-leader for the Scrum Team. The Scrum Master helps those outside the Scrum Team understand which of their interactions with the Scrum Team are helpful and which aren’t. The Scrum Master helps everyone change these interactions to maximize the value created by the Scrum Team.
 
-- This is how we follow Scrum at Umuzi:
-    - Product Owner
-  The stakeholder for the product. This person is in charge of deciding what the MVP, and different versions of the product look like. They are also responsible for ensuring the backlog is in correct order. 
+- **This is how we follow Scrum at Umuzi:**
+    - Product Owner also acts as a stakeholder for the product. This person is in charge of deciding what the MVP, and different versions of the product look like. They are also responsible for ensuring the backlog is in correct order. 
 
-  - Team Member
-  Developers, designers, and anyone who's doing that actual production of work. Responsible for working with the Product Owner to break down tasks & reach completion on different ticket items.
+  - Team Members consist of developers, designers, and anyone who's doing that actual production of work. Responsible for working with the Product Owner to break down tasks & reach completion on different ticket items.
 
-  - Scrum Master
-  The facilitator of the scrum process. If this person is doing their job right, the team becomes independent over time.
+  - Scrum Master is the facilitator of the scrum process. Helps the team to be productive and acheive their goal by making sure that the resources are available and there are no blockers in acheiving the goal, the team becomes independent over time.
 
 
 ## Scrum Meetings
@@ -87,10 +84,30 @@ Scrum Teams deliver products iteratively and incrementally, maximizing opportuni
 
 ## General issue board procedure
 
-Every time you move a ticket from one column to another, you make a PR and assign a team member for the first review on your code. If the code has no bugs or errors then the ticket moves to final code review so it can be merged.If there are any changes requested comments are made on the PR and then the ticket is moves to reveiw changes requested. Tickets that are merged move to the Done column.
+ Columns in project boards tend to be named differently. Please note that issues cannot be moved to the Done/Complete column until the code is at least merged into the master branch. There is a whole procedure around getting this done. Basically:
+
+- once a developer has written something useful: they make a pull request (PR)
+- that PR needs to be reviewed by team mates
+- that PR needs to be reviewed by a senior developer
+- once the PR is accepted by everyone then the PR is merged and the issue can be moved to the next column.
+
 Attach all resources to the ticket whether they are points of reference, design documents, etc.
-Name the tickets so there is no confusion as to what is being accomplished.
-Add every requirement to the checklist, and be specific. Check off requirements as you finish work on them in development.
+Name the tickets so there is no confusion as to what is being accomplished.Add every requirement to the checklist and be specific. Check off requirements as you finish work on them in development.
+
+### Feature Branching
+
+We follow feature branching {{contentlink here}}. This basically means that:
+
+- when a dev starts working on a new issue, they should make a new branch. The branch should have a sensible name
+- if the dev is writing code, they should be committing and pushing code. They should push every day that they made progress! Please insist on this,you will meet resistence and you will need to stand your ground.
+- Once the developer has made some changes worth committing then they make a PR.
+
+PRs should:
+
+- have meaningful names
+- be as small as possible so that whoever is doing the review can do a good job
+- PRs are created when there is code to be merged.
+
 
 ### Backlog
 
