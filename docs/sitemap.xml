@@ -405,6 +405,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/data-science-specific/challenges/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/data-science-specific/data-science-methodology/</loc>
   </url>
   
@@ -469,6 +473,10 @@
   
   <url>
     <loc>/tech-department/projects/python-specific/django-migrations/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/basic-unit-test-mocks-kata/</loc>
   </url>
   
   <url>
@@ -938,6 +946,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/workshops/model-evaluaton/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/js-and-node-specific/mongodb/</loc>
   </url>
   
@@ -955,6 +967,10 @@
   
   <url>
     <loc>/tech-department/projects/data-science-specific/natural-language-processing/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/data-science-specific/challenges/network-intrusion/</loc>
   </url>
   
   <url>
@@ -1023,6 +1039,10 @@
   
   <url>
     <loc>/tech-department/topics/python-specific/oop-basics/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/unit-testing/mocks-and-spies/</loc>
   </url>
   
   <url>
@@ -1160,10 +1180,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/basic-unit-test-mocks-kata/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/unit-testing/</loc>
   </url>
   
@@ -1176,7 +1192,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/unit-testing/mocks-and-spies/</loc>
+    <loc>/tech-department/topics/unit-testing-mocks-and-spies/</loc>
   </url>
   
   <url>
