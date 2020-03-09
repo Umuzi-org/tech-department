@@ -137,8 +137,7 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/basic-flow-control-katas" %}} do this in pairs
   - {{% contentlink "projects/tdd/simple-calculator-part1/" %}} do this in pairs
 
-
-- JAVA:
+* JAVA:
   - carry over any NCIT tasks from previous week
   - {{% contentlink "topics/java-specific/intro-to-gradle-with-intellij" %}}
   - {{% contentlink "workshops/java-specific/live-code-java-intro" %}} Monday or Tuesday
@@ -148,6 +147,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 ## Week 5: Some specific skills
 
 - DATA_SCI:
+
   - {{% contentlink "topics/intro-to-asserive-programming" %}}
   - {{% contentlink "topics/asserive-programming-tricks-for-pandas" %}}
   - {{% contentlink "projects/basic-flow-control-katas-assertive" %}} do this in pairs
@@ -232,6 +232,7 @@ The recruits finish off their portfolios. From this point forward they are expec
   - NCIT 11: Test-driven development
 
 - DATA_SCI:
+
   - {{% contentlink "topics/python-specific/unit-testing/automated-testing-pandas-and-numpy" %}}
   - {{% contentlink "projects/tdd/string-calculator" %}}
 
@@ -253,17 +254,18 @@ The recruits finish off their portfolios. From this point forward they are expec
 ## Week 8:
 
 - DATA_SCI:
+
   - {{% contentlink "projects/data-science-specific/statistical-thinking/" %}} INTRODUCED
 
 - Java:
 
-  - {{% contentlink "projects/java-fileio-logging-errors" %}}
+  - {{% contentlink "projects/java-specific/java-fileio-logging-errors" %}}
   - {{% contentlink "topics/regular-expressions" %}}
   - NCIT 17: Search and sort techniques
 
 * DATA_ENG:
 
-  - {{% contentlink "topics/unit-testing/mocks-and-spies" %}}
+  - {{% contentlink "topics/unit-testing-mocks-and-spies" %}}
   - {{% contentlink "projects/basic-unit-test-mocks-kata" %}}
   - {{% contentlink "topics/apis/basics/" %}}
   - {{% contentlink "projects/github-api-consume" %}} - INTRODUCED
@@ -284,7 +286,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - WEB_DEV:
 
-  - {{% contentlink "topics/unit-testing/mocks-and-spies" %}}
+  - {{% contentlink "topics/unit-testing-mocks-and-spies" %}}
   - {{% contentlink "projects/basic-unit-test-mocks-kata" %}}
   - {{% contentlink "topics/apis/basics/" %}}
   - {{% contentlink "projects/github-api-consume" %}} - INTRODUCED
@@ -302,7 +304,6 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - DATA_SCI:
 - {{% contentlink "projects/data-science-specific/data-wrangling" %}} - FINISH UP
-
 
 * DATA_ENG:
   - {{% contentlink "topics/intro-to-docker/" %}}
@@ -327,6 +328,7 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "projects/build-rest-api-with-db" %}}
 
 - DATA_SCI:
+
   - {{% contentlink "projects/data-science-specific/cross-validation-and-simple-linear-regression/" %}}
 
 - WEB_DEV:
@@ -346,19 +348,18 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "topics/python-specific/oop-for-python" %}}
   - {{% contentlink "projects/oop-for-data-science" %}}
 
-
-- WEB_DEV
+* WEB_DEV
 
   - {{% contentlink "workshops/node/" %}} advanced
   - {{% contentlink "topics/js-and-node-specific/introduction-to-node/" %}}
   - {{% contentlink "projects/nodejs/file-io" %}}
 
-- DATA_ENG:
+* DATA_ENG:
 
   - {{% contentlink "topics/python-specific/sqlalchemy/migrations" %}}
   - {{% contentlink "projects/python-specific/sqlalchemy-migrations" %}} - INTRODUCTION
 
-- JAVA:
+* JAVA:
   - {{% contentlink "projects/oop/dice" %}} DUE
   - {{% contentlink "topics/intro-to-docker/" %}}
   - {{% contentlink "projects/sql/" %}} INTRODUCED
@@ -368,6 +369,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 - NCIT 13: Object-oriented programming
 
 - DATA_SCI
+
   - {{% contentlink "projects/data-science-specific/multivariate-linear-regression" %}}
   - BONUS: Compare results using OOP principles in {{% contentlink "projects/data-science-specific/cross-validation-and-simple-linear-regression/" %}}
 
@@ -404,6 +406,7 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "workshops/node-and-sql/" %}}
 
 - DATA_SCI
+
   - {{% contentlink "topics/intro-to-docker/" %}}
   - {{% contentlink "topics/python-specific/virtual-envs/" %}}
 
@@ -454,8 +457,8 @@ ALL:
 
 JAVA:
 
-  - {{% contentlink "topics/java-specific/introduction-to-spring-boot/part-3" %}}
-  - {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-3" %}}
+- {{% contentlink "topics/java-specific/introduction-to-spring-boot/part-3" %}}
+- {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-3" %}}
 
 ## Week 17
 
@@ -475,7 +478,6 @@ JAVA:
 
 * DATA_SCI: BUFFER WEEK
 
-
 ## Week 18
 
 - NCIT 15: Analytics, Surveys, and Reports / Input & Output
@@ -493,7 +495,6 @@ JAVA:
 
 - JAVA:
 
-
 ## Week 19
 
 - WEB_DEV:
@@ -508,6 +509,7 @@ JAVA:
   - {{% contentlink "topics/python-specific/spark" %}}
 
 - DATA_SCI:
+
   - {{% contentlink "projects/data-science-specific/decision-trees" %}}
 
 - JAVA:
@@ -542,7 +544,6 @@ ALL:
 - DATA_SCI: PRODUCT TEAM ONBOARDING
   - {{% contentlink "workshops/git-for-teamwork/" %}}
 
-
 ## Week 22:
 
 - DATA_SCI: PRODUCT TEAM WORK
@@ -569,7 +570,7 @@ DATA_SCI: PRODUCT TEAM WORK
 
 DATA_SCI: PRODUCT TEAM WORK
 
-* ALL:
+- ALL:
   - {{% contentlink "workshops/git-for-teamwork/" %}}
   - {{% contentlink "workshops/agile-recap/" %}}
 
