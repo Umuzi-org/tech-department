@@ -14,11 +14,14 @@ Before we get started here I would like to ask for your patience. We have a plan
 
 No matter what category of user you are, you'll be using a couple of fundamental tools for communication
 
-1. Rocketchat. You'll be expected to be online a lot. Not 100% of the time, but you will be expected to check your messages every morning and every couple of hours
-2. Google calandars. We'll be scheduling a lot of video calls. Workshops, demos, meetings, they'll all pop up on your Google calandar with nice links to video conferencing. Needless to say, if something is compulsory for you then you should be there. So check your calandar. Generally I just keep it open in a tab on my computer and it warns me if an appointment is drawing near. I'd recommend you do similarly.
+1. Rocketchat. You'll be expected to be online a lot. Not 100% of the time, but you will be expected to check your messages every morning and every 2 to 3 hours at least.
+2. Google calandars. We'll be scheduling a lot of video calls. Workshops, demos, meetings, they'll all pop up on your Google calandar with nice links to video conferencing. Needless to say, if something is compulsory for you then you should be there. So check your calandar. With your eyes. Generally I just keep it open in a tab on my computer and it warns me if an appointment is drawing near. I'd recommend you do similarly.
 
 So long as we optimise for good, solid, professional communication good things will follow.
 
-## Categories
+## Details details
 
-1. Recruits. While you are still
+Have some links
+
+- If you are still working on your syllabus: {{% contentlink "content/remote-work/tech-recruits" %}}
+- If you are on a product team: {{% contentlink "content/remote-work/tech-product-teams" %}}
