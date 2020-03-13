@@ -1,56 +1,24 @@
 ---
-title: Umuzi transition to remote work
+title: Umuzi Remote work - Recipe for Success
 ---
 
 Umuzi is moving towards a remote work situation. We can't say exactly how long this will last. However we can say that there are many dev and creative teams all over the world that prefer remote work to on premesis work. And we have been learning from those people.
 
-Basically we aim to make sure that this time is as productive and safe for everyone as possible. We all need to adapt to get this right.
+Basically we aim to make sure that this time is as productive and safe for everyone as possible. We all need to adapt to get this right. And we as an organisation believe we'll learn a tonne from this experience.
 
-Here's the plan, the technologies and the processes you need to be aware of:
+Now, as you know, we are all about that human-centered experience. And this experience has a bunch of different users. You'll see a few different documents in this section for different categories of users. You might actually fit into multiple categories. In this case you'll need to follow multiple recipes.
 
-## Attendance
+Before we get started here I would like to ask for your patience. We have a plan, but it'll probably have a few bad assumptions and inefficiencies. We're all in this together, so let us know if you think there is something we should be doing better and we will do our best to adapt. Change is life
 
-As you know, SETA is really serious about attendance. But we can't do this the usual way.
+## Foundations
 
-We are going to put the power into your hands, you need to take your own attendance! Here are some google forms:
+No matter what category of user you are, you'll be using a couple of fundamental tools for communication
 
-- (Morning form)[https://forms.gle/E2W9cC5cpHQdu1EL7] To be completed by 8:30 every day
-- (Afternoon form)[https://forms.gle/68E7WMeWtMz4ryQSA] To be completed between 12:00 and 13:00 every day
-- (End of day form)[https://forms.gle/cmUR2DiTgZRisDad8] To be completed from 16:30 onwards
+1. Rocketchat. You'll be expected to be online a lot. Not 100% of the time, but you will be expected to check your messages every morning and every couple of hours
+2. Google calandars. We'll be scheduling a lot of video calls. Workshops, demos, meetings, they'll all pop up on your Google calandar with nice links to video conferencing. Needless to say, if something is compulsory for you then you should be there. So check your calandar. Generally I just keep it open in a tab on my computer and it warns me if an appointment is drawing near. I'd recommend you do similarly.
 
-You need to fill these in every single working day or you will be marked absent!
+So long as we optimise for good, solid, professional communication good things will follow.
 
-There are a few things that can go wrong:
+## Categories
 
-1. Loadshedding: In the case of loadshedding we still expect you to fill in the form as early as possible
-2. Personal illness or emergency: There is a form for that too! [TODO] . Alternatively there's good 'ol Rocketchat! What's rocketchat you ask? [TODO: links]
-
-## Syllabus
-
-You would have been given a flash drive with your syllabus on it. We've downloaded everything for you so that you don't need all the data in the world in order to get through your work. If the syllabus refers to a youtube video then take a look on the flash drive and see it it is there.
-
-You should be able to run the tech department website on your own computer. If you can't then please please ask for help. We really want to help you to be successful.
-
-## Workshops
-
-We run a bunch of workshops for a bunch of reasons. Sometimes the workshops are about demonstrating some code things, sometimes they are about you demonstrating your understanding of concepts.
-
-Your cohort leader will tell you which workshops are compulsory. You will be expected to join from your computer, not from your phone. You might be asked to share your computer screen.
-
-All our workshops will be recorded and shared on Youtube so if you miss out (maybe there are internet issues or the dreaded loadshedding) you should be able to go and watch it later. Or even refer back to the workshop videos when you need them. Feel free to use the comments section on Youtube to discuss the content.
-
-## Deadlines an projects
-
-We will be giving you assignments to work through. If we give you a deadline and you finish early then that's great! You can either get started with the next syllabus item, work on a product team, or just learn and build cool stuff. We don't want to slow anyone down.
-
-## Getting help
-
-You'll notice that those forms we ask yuoi to fill in are supposed to show us who needs help and who doesn't. There shure are a lot of you so we'll try our best to keep track of what everyone needs. But we are all only human. If you feel like you are not being noticed please feel free to contact:
-
-- your cohort
-- your mentor
-- your team mates
-- your cohort leadership
-- managment
-
-Seriously, we're all dedicated to making a success of this situation. Help us to do that by asking for help when you need it.
+1. Recruits. While you are still
