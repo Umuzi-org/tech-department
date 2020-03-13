@@ -14,13 +14,16 @@ git clone --recursive git@github.com:Umuzi-org/tech-department.git
 
 ## running locally
 
-This is a Hugo based application. To get yourself set up on a Debian machine:
+This is a Hugo based application.
+
+### To get yourself set up on a Debian machine (linux ubuntu/mint)
 
 ```
 sudo apt install golang
 ./install_hugo.sh
 ```
-MAC
+
+### MAC
 
 Add this in your bash file e.g zshrc
 
@@ -30,13 +33,15 @@ export GOPATH="${HOME}/.go"
 export GOROOT="$(brew --prefix golang)/libexec"
 export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
 ```
+
 Run these installs in your terminal using Homebrew
+
 ```
 brew install go
 brew install hugo -> look for version 0.51
-``` 
+```
 
-To run the development server:
+### To run the development server, once it is installed
 
 ```
 hugo serve -b "http://localhost:1313/"
