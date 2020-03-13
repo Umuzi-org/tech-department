@@ -23,7 +23,7 @@ There are a few things that can go wrong:
 
 ## Syllabus
 
-You would have been given a flash drive with your syllabus on it. We've downloaded everything for you so that you don't need all the data in the world in order to get through your work. If the syllabus refers to a youtube video then take a look on the flash drive and see it it is there.
+You should have been given a flash drive with your syllabus on it. We've downloaded everything for you so that you don't need all the data in the world in order to get through your work. If the syllabus refers to a youtube video then take a look on the flash drive and see it it is there.
 
 You should be able to run the tech department website on your own computer. If you can't then please please ask for help. We really want to help you to be successful.
 
@@ -41,7 +41,7 @@ We will be giving you assignments to work through. If we give you a deadline and
 
 ## Getting help
 
-You'll notice that those forms we ask yuoi to fill in are supposed to show us who needs help and who doesn't. There shure are a lot of you so we'll try our best to keep track of what everyone needs. But we are all only human. If you feel like you are not being noticed please feel free to contact:
+You'll notice that those forms we ask yuoi to fill in are supposed to show us who needs help and who doesn't. There sure are a lot of you so we'll try our best to keep track of what everyone needs. But we are all only human. If you feel like you are not being noticed please feel free to contact:
 
 - your cohort
 - your mentor

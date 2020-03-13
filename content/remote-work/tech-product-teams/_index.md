@@ -28,7 +28,7 @@ Optimise your efforts around making your team successful and you will be success
 
 This is also hugely important: always try to understand what your team mates are working on and how that relates to your work. For one thing this will make you an all round better human being and will make your mother proud. For another thing it will reduce waste on the team.
 
-We've had a few situations in the pas where two evelopers built the same thing in different ways on the same project. And then what happens is we have to just delete someone's code. And that sucks. A lot. Don't let that be you. And don't let that be your team mate.
+We've had a few situations in the past where two developers built the same thing in different ways on the same project. And then what happens is we have to just delete someone's code. And that suuuucks. A lot! Don't let that be you. And don't let that be your team mate.
 
 So basically, focus on communication! They say communication is a soft skill, but it's actually pretty hard. So give it the care and attention it deserves.
 
@@ -36,4 +36,4 @@ Also: make sure you push your code every day.
 
 I REPEAT: PUSH YOUR CODE EVERY DAY. There are many reasons to do this.
 
-And read this: https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow. That's how we work. You need to understand it.
+And read this: https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow. That's how we work. You need to understand it and follow it.
