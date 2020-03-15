@@ -37,12 +37,6 @@ Here are a few professional behaviors you should start practicing today:
 
 Talking about submissint work... {{% contentlink "projects/how-to-submit-your-project" %}}
 
-## How to learn extra quickly
-
-Build something useful in your spare time! We've seen all sorts of cool stuff come from our recruits. There's been a chatbot, a chess tournament system, a library managment system, games... what can you build in your free time?
-
-If you have some ideas and need a little bit of help knowing where to start just ask :)
-
 ## Workshops
 
 We run a bunch of workshops for a bunch of reasons. Sometimes the workshops are about demonstrating some code things, sometimes they are about you demonstrating your understanding of concepts.
@@ -84,6 +78,28 @@ Seriously, we're all dedicated to helping you grow as much as possible. Help us 
 
 As you will be doing assessments for your National Certificate in Information Technology - Systems Development
 The material and assessments are found on [Gnomio](http://umuzi.gnomio.com/). This is where you will also submit these assessments
+
+## How to learn extra quickly
+
+If you want to turbocharge your education there are a few things you can do. Here are just a few suggestions:
+
+Build something useful in your spare time! We've seen all sorts of cool stuff come from our recruits. There's been a chatbot, a chess tournament system, a library managment system, games... what can you build in your free time?
+
+If you have some ideas and need a little bit of help knowing where to start just ask :)
+
+Another thing you can do is just practice. If you practice your problem solving skills you'll be more hirable. The bigger the problems you can solve the further you'll go in your career. These are all wonderful resources.
+
+- https://codewars.com
+- https://www.hackerrank.com/
+- https://projecteuler.net/archives
+
+And of course, you can work on your "soft skills". Spoiler alert, soft skills are actually pretty hard to master.
+
+You can start by working on the top 8 developer habits. Try watch this until the end:
+
+- [Top 8 developer habits - Part 1](https://www.youtube.com/watch?v=DwQ7psiU23I)
+- [Top 8 developer habits - Part 2](https://www.youtube.com/watch?v=mZNXkQxu9Rw)
+- [Top 8 developer habits - Part 3](https://www.youtube.com/watch?v=RleN-6uMF04)
 
 ## Important Spreadsheets, Forms and Calendars (I suggest you bookmark these)
 
