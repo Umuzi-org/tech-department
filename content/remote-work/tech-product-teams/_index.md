@@ -1,5 +1,6 @@
 ---
 title: Tech Product Teams
+ready: True
 ---
 
 Product teams need to interact like teams. There will be a few compulsory meetings set up by your scrum masters. Just the usual things: Standups, Sprint plannings, demos, retros... if you just show up 100% when you need to then life should be groovy.

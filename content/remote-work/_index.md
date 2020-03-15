@@ -28,7 +28,7 @@ No matter what category of user you are, you'll be using a couple of fundamental
 
 Have some links
 
-- If you are still working on your syllabus: {{% contentlink "content/remote-work/tech-recruits" %}}
-- If you are on a product team: {{% contentlink "content/remote-work/tech-product-teams" %}}
+- If you are still working on your syllabus: {{% contentlink "remote-work/tech-recruits" %}}
+- If you are on a product team: {{% contentlink "remote-work/tech-product-teams" %}}
 
 So long as we optimise for good, solid, professional communication good things will follow.
