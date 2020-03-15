@@ -37,7 +37,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/syllabuses/</loc>
+    <loc>/tech-department/remote-work/</loc>
   </url>
   
   <url>
@@ -54,6 +54,10 @@
   
   <url>
     <loc>/tech-department/projects/nodejs/mongo/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/syllabuses/</loc>
   </url>
   
   <url>
@@ -438,12 +442,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/data-science-specific/</loc>
+    <loc>/tech-department/topics/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/</loc>
+    <loc>/tech-department/projects/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
@@ -1156,6 +1160,14 @@
   </url>
   
   <url>
+    <loc>/tech-department/remote-work/tech-product-teams/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/remote-work/tech-recruits/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/tdd/</loc>
   </url>
   
@@ -1173,6 +1185,10 @@
   
   <url>
     <loc>/tech-department/workshops/time-managment/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/remote-work/tools-for-remote-workshops/</loc>
   </url>
   
   <url>
