@@ -148,11 +148,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/how-to-submit-your-project/</loc>
-    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tech-department/workshops/interviewing-sucessfully/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
@@ -442,12 +437,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/</loc>
+    <loc>/tech-department/projects/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/projects/data-science-specific/</loc>
+    <loc>/tech-department/topics/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
@@ -568,6 +563,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/remote-work/tech-recruits/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/how-the-internet-works/</loc>
   </url>
   
@@ -581,6 +580,10 @@
   
   <url>
     <loc>/tech-department/workshops/how-to-be-a-professional/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/how-to-submit-your-project/</loc>
   </url>
   
   <url>
@@ -1161,10 +1164,6 @@
   
   <url>
     <loc>/tech-department/remote-work/tech-product-teams/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/remote-work/tech-recruits/</loc>
   </url>
   
   <url>
