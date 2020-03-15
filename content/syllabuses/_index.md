@@ -1,7 +1,7 @@
 ---
 title: Syllabus
 pre: "<b>1. </b>"
-weight: 1
+weight: 2
 ---
 
 We support a few different technical learning paths. Data Science, Data Engineering, Web Dev, and Java sys dev. What follows below is a week-by-week breakdown of these courses. This is all on one page because our various courses have enough in common that it makes sense to keep them synchronized.
