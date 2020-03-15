@@ -1,5 +1,7 @@
 ---
 title: How to submit your project
+ready: True
+noform: True
 ---
 
 Create a repo on github. The repo name should be:

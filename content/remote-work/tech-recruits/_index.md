@@ -35,6 +35,8 @@ Here are a few professional behaviors you should start practicing today:
 - Always submit your work on time
 - When you get feedback about your work, implement it
 
+Talking about submissint work... {{% contentlink "projects/how-to-submit-your-project" %}}
+
 ## How to learn extra quickly
 
 Build something useful in your spare time! We've seen all sorts of cool stuff come from our recruits. There's been a chatbot, a chess tournament system, a library managment system, games... what can you build in your free time?
