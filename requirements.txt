@@ -1,1 +1,2 @@
 python-frontmatter==0.4.5
+youtube-dl==2020.3.8

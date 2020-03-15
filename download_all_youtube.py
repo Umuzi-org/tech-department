@@ -4,7 +4,6 @@ import re
 import youtube_dl
 
 OUTPUT_DIR = Path("downloaded_videos")
-os.makedirs(OUTPUT_DIR, exist_ok=True)
 CONTENT_DIR = Path("content")
 
 
