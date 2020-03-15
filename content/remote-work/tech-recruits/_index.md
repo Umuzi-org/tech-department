@@ -1,25 +1,45 @@
 ---
-title: Techie Recruits
+title: How recruits work remotely
+ready: True
 ---
 
 Here's the plan, the technologies and the processes you need to be aware of:
 
 ## Attendance
 
-As you know, SETA is really serious about attendance. But we can't do this the usual way.
+While at Umuzi we would usually just have a human being take attendance. That doesn't work so well in a remote working environment.
 
 We are going to put the power into your hands, you need to take your own attendance! Here are some google forms:
 
-- (Morning form)[https://forms.gle/E2W9cC5cpHQdu1EL7] To be completed by 8:30 every day
-- (Afternoon form)[https://forms.gle/68E7WMeWtMz4ryQSA] To be completed between 12:00 and 13:00 every day
-- (End of day form)[https://forms.gle/cmUR2DiTgZRisDad8] To be completed from 16:30 onwards
+- [Morning form](https://forms.gle/E2W9cC5cpHQdu1EL7) To be completed by 8:30 every day
+- [Afternoon form](https://forms.gle/68E7WMeWtMz4ryQSA) To be completed between 12:00 and 13:00 every day
+- [End of day form](https://forms.gle/cmUR2DiTgZRisDad8) To be completed from 16:30 onwards
 
 You need to fill these in every single working day or you will be marked absent!
 
 There are a few things that can go wrong:
 
 1. Loadshedding: In the case of loadshedding we still expect you to fill in the form as early as possible
-2. Personal illness or emergency. You can apply for leave using (this form)[https://docs.google.com/forms/d/e/1FAIpQLSdRy444hA3WR4Vul4nTXOuC0x9ZuA3TFBaB8aA-PPMDCeQN8g/viewform]. And if something crazy comes up just communicate with your cohort leader via Rocketchat.
+2. Personal illness or emergency. You can apply for leave using [this form](https://docs.google.com/forms/d/e/1FAIpQLSdRy444hA3WR4Vul4nTXOuC0x9ZuA3TFBaB8aA-PPMDCeQN8g/viewform). And if something crazy comes up just communicate with your cohort leader via Rocketchat.
+
+## Good professional behaviour
+
+When people arrive at Umuzi they aren't professionals yet. But when they leave they are.
+
+Here are a few professional behaviors you should start practicing today:
+
+- Always be on time for workshops and meetings
+- Always be respectful and helpful to your peers
+- Ask the dumb questions! Some people are too shy to ask so ask for them
+- Always submit high quality work
+- Always submit your work on time
+- When you get feedback about your work, implement it
+
+## How to learn extra quickly
+
+Build something useful in your spare time! We've seen all sorts of cool stuff come from our recruits. There's been a chatbot, a chess tournament system, a library managment system, games... what can you build in your free time?
+
+If you have some ideas and need a little bit of help knowing where to start just ask :)
 
 ## Workshops
 
@@ -57,3 +77,30 @@ You'll notice that those forms we ask you to fill in are supposed to show us who
 - managment
 
 Seriously, we're all dedicated to helping you grow as much as possible. Help us to do that by asking for help when you need it.
+
+## NCIT/Gnomio
+
+As you will be doing assessments for your National Certificate in Information Technology - Systems Development
+The material and assessments are found on [Gnomio](http://umuzi.gnomio.com/). This is where you will also submit these assessments
+
+## Important Spreadsheets, Forms and Calendars (I suggest you bookmark these)
+
+- [Coding & Data Programme Outline](https://docs.google.com/spreadsheets/d/14SsiRw8sit3-IvzpntINicIWd4MG1CDOxbv14Ypsmpw)
+  This spreadsheet is the source of truth, make sure to check it regularly. The tech staff updates the spreadsheet once per week, usually on Monday afternoon.
+
+- [Tech Events Calendar](https://calendar.google.com/calendar/b/3?cid=dW11emkub3JnXzF1dGs1OWJuc2RqMDNpZDI3ZzlzZGJmb2EwQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
+  That all tech events are scheduled on. This is where yu will find dates for Workshops, Talks and Meetups. Check this everyday.
+
+- [Leave Request Form](https://docs.google.com/forms/d/e/1FAIpQLSdRy444hA3WR4Vul4nTXOuC0x9ZuA3TFBaB8aA-PPMDCeQN8g/viewform?usp=sf_link) This is to be completed for any leave requested or taken.
+
+- [Disciplinary Policy](https://umuzi.gnomio.com/pluginfile.php/2134/mod_resource/content/1/Umuzi_Disciplinary%20Procedure.pdf) | [Code Of Conduct](https://umuzi.gnomio.com/pluginfile.php/2176/mod_resource/content/1/Umuzi%20Code%20of%20Conduct_December%202018.pdf) | [Sexual Harassment Policy](https://umuzi.gnomio.com/pluginfile.php/2304/mod_resource/content/1/Sexual%20Harassment%20Policy.pdf) These are the Umuzi policies please read through them and familiarise yourseld with them.
+
+## Editor of choice
+
+Visual Studio Code - https://code.visualstudio.com/download
+
+This is also known as vscode. It has some really nice features for remote pair programming. Other than that it's just a seriously powerful editor.
+
+## Umuzi Handbook
+
+The recruit user journey, the processes and protocols and the culture of Umuzi are all found [here](https://docs.google.com/document/d/1aal5u4dUAU1WvAWEWeW4uYVu8c4Q2JbwZuFcJqG2kbQ/edit#heading=h.qudvz63naw4s)

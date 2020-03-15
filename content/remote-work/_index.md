@@ -1,5 +1,5 @@
 ---
-title: Umuzi Remote work - Recipe for Success
+title: Umuzi Remote work
 weight: 1
 ---
 
@@ -18,6 +18,11 @@ No matter what category of user you are, you'll be using a couple of fundamental
 1. Rocketchat. You'll be expected to be online a lot. Not 100% of the time, but you will be expected to check your messages every morning and every 2 to 3 hours at least. Rocketchat is where the action is at.
 2. Google calandars. We'll be scheduling a lot of video calls. Workshops, demos, meetings, they'll all pop up on your Google calandar with nice links to video conferencing. Needless to say, if something is compulsory for you then you should be there. So check your calandar. With your eyes. Generally I just keep it open in a tab on my computer and it warns me if an appointment is drawing near. I'd recommend you do similarly.
 3. Discord. Some things just work better with voice instead of text. Sometimes text looses its tone and seems just plain rude when no offence was meant. Sometimes nuance gets lost. Discord is a really really good and free voice client. It was originally built for gamers but now it's used all over the place.
+
+## Other stuff
+
+- Please check your Umuzi email address once per day
+- there is a whatsapp group for the tech deparment, but any official communication should happen on Rocketchat or Email
 
 ## Details details
 

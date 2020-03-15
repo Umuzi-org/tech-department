@@ -3,6 +3,8 @@ title: "What You Need To Know (as a recruit)"
 ready: true
 ---
 
+**NOTE: While we are in remote-work mode things will be a little bit different. Any reference to being at your desk and what not might not apply.**
+
 This is a guide to the Tech Department and how it works. It contains contact details, important links to documents we use and software that are useful.
 
 ## Umuzi Handbook
@@ -34,7 +36,7 @@ This is how we begin our day, announcements are shared and we discuss anything t
 
 _handled by Tech Facilitators_
 
-This is a daily compulsary after lunch event. There are a variety of events we will be doing with you in orer to improve your coding, interpersonal and presentation skills . There is a [Schedule](https://docs.google.com/spreadsheets/d/1Ue5vfIjtCpqgIEp_Va9kurBm9khQ4oVE4Nf4DgSFpq4/edit#gid=0) that specifies who will present on which day.
+This is a daily compulsary after lunch event. There are a variety of events we will be doing with you in order to improve your coding, interpersonal and presentation skills . There is a [Schedule](https://docs.google.com/spreadsheets/d/1Ue5vfIjtCpqgIEp_Va9kurBm9khQ4oVE4Nf4DgSFpq4/edit#gid=0) that specifies who will present on which day.
 
 - Everyday after lunch at 13:30
 
@@ -172,6 +174,4 @@ These are all good. Choose your favorite
 
 ## Useful android apps
 
-- https://play.google.com/store/apps/details?id=org.withouthat.acalendar
-- https://play.google.com/store/apps/details?id=com.Slack
 - https://play.google.com/store/apps/details?id=com.trello
