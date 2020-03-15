@@ -18,7 +18,7 @@ Look out for the following:
 
 [Kotlin bootcamp for programmers by Google](https://www.udacity.com/course/kotlin-bootcamp-for-programmers--ud9011).
 
-The bootcamp might not be Android specific, but will assist with familiarising yourself with Kotlin and will help in getting to know the syntax and structure of the language. 
+The bootcamp might not be Android specific, but will assist with familiarising yourself with Kotlin and will help in getting to know the syntax and structure of the language.
 
 [Developing Android apps with Kotlin by Google](https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012).
 
@@ -34,20 +34,9 @@ Similar to Udacity, Udemy consists of online courses. While most are paid course
 
 [Kotlin Android development masterclass](https://www.udemy.com/course/kotlin-android-developer-masterclass/).
 
-### Youtube
-
-A simple search for "Kotlin android" on youtube will already show you multiple short tutorial videos, spanning from the simplest- to the most complicated- examples.
-
-[Search for Android Kotlin videos](https://www.youtube.com/results?search_query=Kotlin+android).
-
-As powerful as youtube can be, it relies on one's knowledge in knowing what to search for. The courses listed above can assist in gaining the required knowldge to tackle this problem.
-
-
 ### Android documentation
 
 When it comes to all things Android you can find most of what you need on the [Android developer website](https://developer.android.com/kotlin).
 
-For more information regarding User Interface design, [Tutorialspoint](https://www.tutorialspoint.com/android/android_ui_design.htm) and the 
+For more information regarding User Interface design, [Tutorialspoint](https://www.tutorialspoint.com/android/android_ui_design.htm) and the
 [Android developer website](https://developer.android.com/guide/topics/ui) have some great pages that drill down into the various components and layouts.
-
-

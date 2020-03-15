@@ -18,7 +18,8 @@ def generate_youtube_links(path):
     elif path.suffix == ".md":
         with open(path, "r") as f:
             for line in f:
-                found = re.search("\((https://youtu.*)\)", line)
+                # found = re.search("\((https://youtu.*)\)", line)
+                found = re.search("(https://w{0,3}\.?youtu.*)\)", line)
                 if found:
                     for link in found.groups():
                         yield path, link
@@ -27,6 +28,8 @@ def generate_youtube_links(path):
 def main():
     cwd = os.getcwd()
     for path, link in generate_youtube_links(CONTENT_DIR):
+        print()
+        print(f"downloading {path} : {link}")
         final_dir = OUTPUT_DIR / path.relative_to(CONTENT_DIR).parent
         os.makedirs(final_dir, exist_ok=True)
         os.chdir(final_dir)
