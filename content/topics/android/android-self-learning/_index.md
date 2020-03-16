@@ -40,3 +40,7 @@ When it comes to all things Android you can find most of what you need on the [A
 
 For more information regarding User Interface design, [Tutorialspoint](https://www.tutorialspoint.com/android/android_ui_design.htm) and the
 [Android developer website](https://developer.android.com/guide/topics/ui) have some great pages that drill down into the various components and layouts.
+
+### Youtube
+
+- [Here's a youtube course](https://www.youtube.com/watch?v=e7WIPwRd2s8&list=PLlxmoA0rQ-Lw5k_QCqVl3rsoJOnb_00UV)

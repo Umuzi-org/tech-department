@@ -33,7 +33,10 @@ def main():
         os.makedirs(final_dir, exist_ok=True)
         os.chdir(final_dir)
         with youtube_dl.YoutubeDL({}) as ydl:
-            ydl.download([link])
+            try:
+                ydl.download([link])
+            except youtube_dl.utils.DownloadError:
+                pass  # yes, we are explicitly silencing the error
         os.chdir(cwd)
 
 
