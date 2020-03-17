@@ -21,7 +21,7 @@ Now in your language of choice (not bash, use Java, Python or Js) write a functi
 - start date
 - end date
 
-And then outputs a list or array of pull requests on the repo such that the PRs were created, updated, merged or closed between the given two dates.
+The function should output a list or array of pull requests on the repo such that the PRs were created, updated, merged or closed between the given two dates.
 
 Please be sure to follow the standard naming conventions for your language.
 

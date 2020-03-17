@@ -1,5 +1,5 @@
 ---
-title: ipone content
+title: iphone content
 ---
 
 The standford CS IUphone course is really good.
