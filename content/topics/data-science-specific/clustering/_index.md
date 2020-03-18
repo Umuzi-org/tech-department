@@ -3,7 +3,8 @@ title: K-Means Clustering
 ready: True
 ---
 
-There are many different clustering algorithms to cluster, or group, objects based on their attributes.
+There are many different clustering algorithms to cluster, or group, objects based on how similar (or close in terms of distance) their attributes are.
+
 We will look at just one type of clustering, K-Means clustering, but many other types exist.
 You can read more about other methods of clustering [here](https://scikit-learn.org/stable/modules/clustering.html).
 
@@ -24,7 +25,8 @@ by making separate models for each subgroup, than one model for all groups.
 
 ### Guided tutorials
 
-- [EDA and K-Means example](https://www.kaggle.com/thebrownviking20/in-depth-eda-and-k-means-clustering)
+- [K-Means Clustering in Depth](https://jakevdp.github.io/PythonDataScienceHandbook/05.11-k-means.html)
+- [EDA and K-Means Example](https://www.kaggle.com/thebrownviking20/in-depth-eda-and-k-means-clustering)
 - [K-Means Clustering: Algorithm, Applications, Evaluation Methods, and Drawbacks](https://towardsdatascience.com/k-means-clustering-algorithm-applications-evaluation-methods-and-drawbacks-aa03e644b48a)
 
 
