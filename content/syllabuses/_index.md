@@ -325,7 +325,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 - DATA_ENG
 
   - {{% contentlink "topics/python-specific/sqlalchemy" %}}
-  - {{% contentlink "projects/build-rest-api-with-db" %}}
+  - {{% contentlink "projects/python-specific/build-rest-api-with-db" %}}
 
 - DATA_SCI:
 

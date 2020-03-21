@@ -1,6 +1,6 @@
 ---
 title: Consume Github API
-ready: false
+ready: true
 ---
 
 In this project you'll make use of Github's awesome API. We chose Github for this project because:
