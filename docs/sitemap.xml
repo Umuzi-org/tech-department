@@ -1130,11 +1130,11 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/python-specific/sqlalchemy/</loc>
+    <loc>/tech-department/topics/python-specific/sqlalchemy/basics/</loc>
   </url>
   
   <url>
-    <loc>/tech-department/topics/python-specific/sqlalchemy/basics/</loc>
+    <loc>/tech-department/topics/python-specific/sqlalchemy/</loc>
   </url>
   
   <url>
@@ -1284,7 +1284,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/build-rest-api-with-db/</loc>
+    <loc>/tech-department/projects/python-specific/build-rest-api-with-db/</loc>
   </url>
   
   <url>
