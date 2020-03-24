@@ -1,20 +1,24 @@
 ---
 title: Dashboard Assignment
-ready: True
-noform: True
+ready: true
+noform: true
 ---
 
 ## Assignments
 
-There are several assignments on this page for you to try. The first two create dashboards using Plotly, a static and a dynamic real time data update. 
+There are three assignments for you to try. Two of them create dashboards using Plotly, one uses static data, while the other one uses dynamic real time data. 
 
-The Google Data Studio is an optional, static dashboard. This assignment has a slightly sharp learning curve on setting up, uploading data and structuring the data, but once that is done, it is relatively easy.
+The third one is a Google Data Studio project which also uses static data. This assignment has a slightly sharp learning curve on setting up, uploading data and structuring the data, but once that is done, it is relatively easy.
 
-## Compulsory
+### Compulsory
 
-1. EASY: Using Plotly {{% contentlink "projects/data-science-specific/dashboards/plotly_dashboards" %}}.
-2. HARD: Visualising real time data with Plotly {{% contentlink "projects/data-science-specific/dashboards/live_dashboards" %}}
+EASY {{% contentlink "projects/data-science-specific/dashboards/plotly_dashboards" %}}.
 
-## Optional
+### Optional
+You will need the tutorial in Google Datastudio {{% contentlink "topics/data-science-specific/google-data-studio" %}}
 
-1. EASY: Using Google Data Studio {{% contentlink "projects/data-science-specific/dashboards/google_data_studio" %}}. You will need the tutorial in {{% contentlink "topics/data-science-specific/google-data-studio" %}}.
+EASY {{% contentlink "projects/data-science-specific/dashboards/google_data_studio" %}}
+
+HARD:{{% contentlink "projects/data-science-specific/dashboards/live_dashboards" n%}}
+
+HARD:{{% contentlink "projects/data-science-specific/dashboards/webscraping_plus_dashboards" %}}
