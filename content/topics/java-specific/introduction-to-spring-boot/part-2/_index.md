@@ -1,5 +1,6 @@
 ---
-title: Introduction to Spring Boot - part 2
+title: Introduction to Spring Boot 
+ready: true
 ---
 
 ## Microservices

@@ -1,5 +1,6 @@
 ---
 title: Introduction to Spring Boot - part 2
+ready: true
 ---
 
 We are going to work on Spring boot **Caching** and **Security** for this project
