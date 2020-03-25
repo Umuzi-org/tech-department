@@ -1,6 +1,7 @@
 ---
 title: Logistic regression
 ready: True
+noform: True
 ---
 
 ## Background material
@@ -10,5 +11,5 @@ ready: True
 ## Assignment 1
 Complete and submit a copy of {{% contentlink "projects/data-science-specific/logistic-regression/credit-card-approvals" %}}.  
 
-## Assignment 2 
-Complete and submit {{% contentlink "projects/data-science-specific/logistic-regression/titanic" %}}. or your submission, create an html report to accompany your notebook in your repo.
+## Assignment 2
+Complete and submit {{% contentlink "projects/data-science-specific/logistic-regression/breast-cancer" %}}. For your submission, create an html report to accompany your notebook in your repo.
