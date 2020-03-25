@@ -893,6 +893,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/data-science-specific/clustering/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/data-science-specific/k-means-clustering/</loc>
   </url>
   
@@ -1037,11 +1041,11 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/data-science-specific/logistic-regression/credit-card-approvals/</loc>
+    <loc>/tech-department/projects/data-science-specific/logistic-regression/breast-cancer/</loc>
   </url>
   
   <url>
-    <loc>/tech-department/projects/data-science-specific/logistic-regression/titanic/</loc>
+    <loc>/tech-department/projects/data-science-specific/logistic-regression/credit-card-approvals/</loc>
   </url>
   
   <url>
