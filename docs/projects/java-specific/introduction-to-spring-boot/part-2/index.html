@@ -12,19 +12,19 @@
     <title>Introduction to Spring Boot - part 2 :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1585117112" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1585117112" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1585117112" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1585117112" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1585117112" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1585117112" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1585117112" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1585117112" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1585314951" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1585314951" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1585314951" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1585314951" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1585314951" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1585314951" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1585314951" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1585314951" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1585117112" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1585314951" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1585117112"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1585314951"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1585117112"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1585117112"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1585314951"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1585314951"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1585117112"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1585314951"></script>
 
     
   </div>
@@ -8498,7 +8498,16 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#caching">Caching</a></li>
+<li><a href="#security">Security</a></li>
+<li><a href="#resource">Resource 😉</a></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -8546,6 +8555,125 @@
 
         
 
+
+
+<p>We are going to work on Spring boot <strong>Caching</strong> and <strong>Security</strong> for this project</p>
+
+<h2 id="caching">Caching</h2>
+
+<p>Continuing with 
+
+
+
+
+<a href="/tech-department/projects/java-specific/introduction-to-spring-boot/part-1"
+  >PROJECTS: 
+  
+  Introduction to Spring Boot - part 1 </a
+>
+ for the <strong>User</strong> we are going to add <strong>security</strong> and <strong>caching</strong> on the application and we will use test to see if the application does what we want it to.</p>
+
+<p><strong>Step 1</strong></p>
+
+<p>Import the following dependency</p>
+
+<pre><code>dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-cache'
+}
+</code></pre>
+
+<p><strong>Step 2</strong></p>
+
+<p>Implement caching for the &lsquo;name&rsquo; in the &ldquo;getUser&rdquo; method, use the right annotation to invoke this 😉, in order to see if something is being served from cache or not we are going to simulate our own delay.</p>
+
+<p>Add this code on your getUser method just before the return statement</p>
+
+<pre><code>try
+{
+    System.out.println(&quot;Going to sleep for 5 Secs.. to simulate backend call.&quot;);
+    Thread.sleep(1000*5);
+}
+catch (InterruptedException e)
+{
+    e.printStackTrace();
+}
+</code></pre>
+
+<p>because we don&rsquo;t have a REST API for now (will be covered in Part3) we are going to use Tests to simulate a REST API call.</p>
+
+<p>Write a test that will call &ldquo;getUser&rdquo; four times</p>
+
+<p>Expect output after running &ldquo;getUser&rdquo; four times</p>
+
+<p><strong>Without Cache:</strong></p>
+
+<pre><code>Going to sleep for 5 Secs.. to simulate backend call.
+Going to sleep for 5 Secs.. to simulate backend call.
+Going to sleep for 5 Secs.. to simulate backend call.
+Going to sleep for 5 Secs.. to simulate backend call.
+
+</code></pre>
+
+<p><strong>With Cache:</strong></p>
+
+<pre><code>Going to sleep for 5 Secs.. to simulate backend call.
+...
+...
+...
+
+</code></pre>
+
+<h2 id="security">Security</h2>
+
+<p>Import the following dependency</p>
+
+<pre><code>dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+}
+</code></pre>
+
+<p><strong>Step 1</strong></p>
+
+<p>Add the following class and provide implementation for the <strong>configure</strong> function where you see <strong>// COMPLETE CODE HERE</strong> specify your password and username.</p>
+
+<pre><code>@Configuration
+public class WebSecurityConfigurer extends WebSecurityConfigurerAdapter {
+    // TODO: Read more about this extension WebSecurityConfigurerAdapter
+
+    @Override
+    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+        // COMPLETE CODE HERE
+    }
+
+    @Override
+    protected void configure(HttpSecurity http) throws Exception {
+        http.authorizeRequests()
+                .antMatchers(&quot;/user&quot;)
+                .authenticated()
+                .antMatchers(&quot;/user&quot;)
+                .permitAll()
+                .and()
+                .httpBasic();
+    }
+}
+
+</code></pre>
+
+<p><strong>Step 2</strong></p>
+
+<p>Add a test to show that your username and password actually work by using the following</p>
+
+<pre><code>  @Autowired
+    private TestRestTemplate template;
+
+    ResponseEntity&lt;String&gt; response = template.withBasicAuth(?).getForEntity(?)
+</code></pre>
+
+<h2 id="resource">Resource 😉</h2>
+
+<p><a href="https://howtodoinjava.com/spring-boot2/spring-boot-cache-example/">https://howtodoinjava.com/spring-boot2/spring-boot-cache-example/</a></p>
+
+<p><a href="https://www.baeldung.com/spring-security-integration-tests">https://www.baeldung.com/spring-security-integration-tests</a></p>
 
 
 <footer class=" footline" >
@@ -13910,20 +14038,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1585117112"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1585117112"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1585117112"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1585117112"></script>
-    <script src="/tech-department/js/featherlight.min.js?1585117112"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1585117112"></script>
-    <script src="/tech-department/js/highlight.pack.js?1585117112"></script>
+    <script src="/tech-department/js/clipboard.min.js?1585314951"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1585314951"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1585314951"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1585314951"></script>
+    <script src="/tech-department/js/featherlight.min.js?1585314951"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1585314951"></script>
+    <script src="/tech-department/js/highlight.pack.js?1585314951"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1585117112"></script>
-    <script src="/tech-department/js/learn.js?1585117112"></script>
-    <script src="/tech-department/js/hugo-learn.js?1585117112"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1585314951"></script>
+    <script src="/tech-department/js/learn.js?1585314951"></script>
+    <script src="/tech-department/js/hugo-learn.js?1585314951"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1585117112" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1585117112"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1585314951" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1585314951"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
