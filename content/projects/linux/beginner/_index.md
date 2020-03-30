@@ -5,7 +5,7 @@ ready: true
 
 ### Submission guidelines
 
-While you work through this project you will save your script commands in a number of files called shell scripts, name them by task and sub task number i.e. 1-2,  they have the extension .sh. You'll be handing those in later. In general we use a tool called Git and a platform called Github for project submissions but this will be covered later in the course.
+While you work through this project you will save your script commands in a number of files called shell scripts, name them by task and sub task number i.e. 1-2, they have the extension .sh. You'll be handing those in later. In general we use a tool called Git and a platform called Github for project submissions but this will be covered later in the course.
 
 ### Task 1 : Basic Task
 
@@ -52,7 +52,7 @@ Create an empty file named `exercise.md` and move this file to the `/tmp` di
 #### Resources
 
 1. http://bit.ly/2GPWP9E
-2. http://bit.ly/2IUg2KH
+2. https://www.youtube.com/watch?v=5m7SX0ikoWc
 
 ### Task 5 The locate command cont..
 
@@ -87,17 +87,18 @@ Note: for each instruction write a script and save it under this task
 1. https://www.lifewire.com/beginners-guide-to-nano-editor-3859002
 
 ### Task 8 Update and Upgrade
-1. Update your system with `sudo apt update`. 
-2. Use the `sudo apt upgrade` to apply the updates downloaded and select Y for Yes. 
+
+1. Update your system with `sudo apt update`.
+2. Use the `sudo apt upgrade` to apply the updates downloaded and select Y for Yes.
 3. When installing a package you use `sudo apt install` package_name.
 4. Install a specific package called tree; using `sudo apt install tree`.
-You might ask what is sudo? Sudo allows you to run programs with the security privileges of another user, it is also referred to as a superuser. It is often used to install, start and stop applications that require root priviledges.
+   You might ask what is sudo? Sudo allows you to run programs with the security privileges of another user, it is also referred to as a superuser. It is often used to install, start and stop applications that require root priviledges.
 5. `dpkg` is a tool to install, build remove and manage Debian Packages.
-This is how you use `dpkg`, we will install VS Code in this example.
-Firstly download VS Code [VS Code Download](https://code.visualstudio.com/download)
-then open your terminal in the current folder of the item you just downloaded, type in 
-`sudo dpkg -i` filename.deb, you will then enter your password and the package will install.
+   This is how you use `dpkg`, we will install VS Code in this example.
+   Firstly download VS Code [VS Code Download](https://code.visualstudio.com/download)
+   then open your terminal in the current folder of the item you just downloaded, type in
+   `sudo dpkg -i` filename.deb, you will then enter your password and the package will install.
 
 ### Resources
-1. https://www.youtube.com/watch?v=o2JyzCH8tlM 
 
+1. https://www.youtube.com/watch?v=o2JyzCH8tlM

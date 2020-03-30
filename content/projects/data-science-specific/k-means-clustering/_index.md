@@ -1,32 +1,18 @@
 ---
-title: K-Means Clustering
+title: K-Means Clustering Assignment
 ready: True
 ---
 
-## Introduction
-K-Means clustering is an unsupervised learning technique used in processes such as market segmentation, document clustering, image segmentation and image compression. Usually we do K-Means clustering to:
 
-- Understand the structure of the data, and group similar observations.
-- Cluster the data into subgroups and then do different predictions on the different subgroups.
-If we think that subgroup behaviours differ substantially, then we will get more accurate models by making separate models for each subgroup, than one model for all groups.  
+## Pre-requisites
+Read through the K-Means Tutorials at {{% contentlink "topics/data-science-specific/clustering" %}} before starting this project.
 
+## Clustering whisky distilleries according to tasting Profiles
 
-## Tutorials
-- [EDA and K-Means example](https://www.kaggle.com/thebrownviking20/in-depth-eda-and-k-means-clustering)
-- [K-Means Clustering: Algorithm, Applications, Evaluation Methods, and Drawbacks](https://towardsdatascience.com/k-means-clustering-algorithm-applications-evaluation-methods-and-drawbacks-aa03e644b48a)
+Data: [Whisky Tasting Profiles](whisky.csv)  
 
+Use K-Means clustering to cluster whisky distilleries by their tasting profile. Use the elbow or silhouette method to find the optimal number of clusters.
 
-## Assignments
-### Easy clustering assignment: Flower features
-Data: [Iris species](https://www.kaggle.com/shrutimechlearn/classification-with-iris-dataset/data)
+To see how successful clustering was, report relevant metrics (e.g. silhouette, adjusted rand index, etc.) and create a plot showing the different distilleries, their classes according to the k-Means clustering, and the distance between points. You can use `sklearn.manifold` to get Euclidean distances between points.
 
-1. Use K-Means cluster analysis to cluster different iris species. Make an elbow plot and/or use silhouette analysis to find the optimal number of clusters.
-
-2. What are the factors that differ between different iris species?
-
-3. Create a plot of the clusters.
-
-### Optional clustering assignment: Whisky clusters
-Data: [Whisky Reviews](https://www.kaggle.com/koki25ando/cluster-analysis-of-whisky-reviews-using-k-means/data)  
-
-Cluster whisky types by reviewers' scores. Use the elbow or silhouette method to find the optimal number of clusters. Describe the main differences between the cluster - what are the factors that differ between differently rated whisky clusters?  
+Describe the main differences between the cluster - what are the factors that differ between classes?  

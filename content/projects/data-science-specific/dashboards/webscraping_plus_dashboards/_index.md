@@ -1,8 +1,12 @@
 ---
 title: Webscraping and Live Dashboard Assignment
+weight: 3
 pre: "<b> HARD: </b>"
 ready: True
 ---
+
+
+## Assignment
 
 Use [beautifulsoup](https://pypi.org/project/beautifulsoup4/) and regular expressions (regex) to scrape the data of provincial dam levels from the [Department of Water and Sanitation](http://www.dwa.gov.za/Hydrology/Weekly/SumProvince.aspx).
 

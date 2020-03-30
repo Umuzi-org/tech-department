@@ -44,7 +44,7 @@ MEH='The quick brown fox'
 
 ### try this out
 
-Open one two terminals.
+Open two terminals.
 
 In terminal 1:
 
@@ -65,7 +65,7 @@ echo $HELLO # what does this do?
 
 ## Scope
 
-Consider the following Python code:
+Consider the following Python code.
 
 ```
 a = 1

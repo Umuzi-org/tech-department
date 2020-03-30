@@ -7,14 +7,17 @@ ready: true
 ## NCIT Units 114059 & 114051
 
 #### Definition of Agile:
+
 Agile project management is an iterative and incremental approach to delivering requirements throughout the project life cycle. At the core, agile projects should exhibit central values and behaviours of trust, flexibility, empowerment and collaboration.
 
 ##### Read and watch the below:
+
 [Read: The Agile Manefesto](https://agilemanifesto.org/) | [Read: The 12 Agile Principles](https://agilemanifesto.org/principles.html)
 
 [Watch: What is Agile?](https://youtu.be/Z9QbYZh1YXY)
 
 #### Definition of Scrum
+
 Scrum (n): A framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value.
 
 #### Scrum is:
@@ -33,10 +36,10 @@ The essence of Scrum is a small team of people. The individual team is highly fl
 
 [Watch: Introduction to Scrum](https://youtu.be/9TycLR0TqFA)
 
-##Scrum Values
+## Scrum Values
+
 When the values of commitment, courage, focus, openness and respect are embodied and lived by the Scrum Team, the Scrum pillars of transparency, inspection, and adaptation come to life and build trust for everyone. The Scrum Team members learn and explore those values as they work with the Scrum events, roles and artifacts.
 
 Successful use of Scrum depends on people becoming more proficient in living these five values. People personally commit to achieving the goals of the Scrum Team. The Scrum Team members have courage to do the right thing and work on tough problems. Everyone focuses on the work of the Sprint and the goals of the Scrum Team. The Scrum Team and its stakeholders agree to be open about all the work and the challenges with performing the work. Scrum Team members respect each other to be capable, independent people.
 
-[Watch: SCRUM: Twice the Work, Half the Time] (https://youtu.be/RaaBrPCo_Mw)
-
+[Watch: SCRUM: Twice the Work, Half the Time](https://youtu.be/RaaBrPCo_Mw)

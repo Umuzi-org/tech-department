@@ -1,29 +1,30 @@
 ---
 title: Consume Github API
-noform: true
+ready: true
 ---
 
-In this project you'll make use of Github's awesome API. We chose Github for this project because 
+In this project you'll make use of Github's awesome API. We chose Github for this project because:
 
-- you are already familiar with it
-- it has a nice frontend so you can access te api and see the results. This means you can play and experiment
+- you are already familiar with Github
+- The api is really well documented
 - the api is solidly built and a lot of people use it
 
 ## Instructions
 
-First, get familar with consuming apis from the command line: 
+First, get familar with consuming apis from the command line. Play with this. [Getting started with the Github API V3](https://developer.github.com/v3/guides/getting-started/).
 
-- TODO
+Remember, `curl` is your friend.
 
-Once that is done then follow the instructions in your language of choice:
+Now in your language of choice (not bash, use Java, Python or Js) write a function with the inpur arguments:
 
-- Java
-- Node
-- Python
+- reporitory name
+- start date
+- end date
 
-## Resources 
+The function should output a list or array of pull requests on the repo such that the PRs were created, updated, merged or closed between the given two dates.
+
+Please be sure to follow the standard naming conventions for your language.
+
+## Resources
 
 - [An introduction to curl using GitHub's API](https://gist.github.com/tazjel/8735770).
-
-- [Github API official docs](https://developer.github.com/v3/guides/getting-started/#create-a-repository)
-

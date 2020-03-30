@@ -37,7 +37,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/syllabuses/</loc>
+    <loc>/tech-department/remote-work/</loc>
   </url>
   
   <url>
@@ -54,6 +54,10 @@
   
   <url>
     <loc>/tech-department/projects/nodejs/mongo/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/syllabuses/</loc>
   </url>
   
   <url>
@@ -141,11 +145,6 @@
   
   <url>
     <loc>/tech-department/department-processes/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/projects/how-to-submit-your-project/</loc>
-    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
   <url>
@@ -405,6 +404,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/data-science-specific/challenges/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/data-science-specific/data-science-methodology/</loc>
   </url>
   
@@ -469,6 +472,10 @@
   
   <url>
     <loc>/tech-department/projects/python-specific/django-migrations/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/basic-unit-test-mocks-kata/</loc>
   </url>
   
   <url>
@@ -556,6 +563,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/remote-work/tech-recruits/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/how-the-internet-works/</loc>
   </url>
   
@@ -569,6 +580,10 @@
   
   <url>
     <loc>/tech-department/workshops/how-to-be-a-professional/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/how-to-submit-your-project/</loc>
   </url>
   
   <url>
@@ -878,6 +893,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/data-science-specific/clustering/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/data-science-specific/k-means-clustering/</loc>
   </url>
   
@@ -938,6 +957,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/workshops/model-evaluaton/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/js-and-node-specific/mongodb/</loc>
   </url>
   
@@ -955,6 +978,10 @@
   
   <url>
     <loc>/tech-department/projects/data-science-specific/natural-language-processing/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/data-science-specific/challenges/network-intrusion/</loc>
   </url>
   
   <url>
@@ -1014,15 +1041,19 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/data-science-specific/logistic-regression/breast-cancer/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/data-science-specific/logistic-regression/credit-card-approvals/</loc>
   </url>
   
   <url>
-    <loc>/tech-department/projects/data-science-specific/logistic-regression/titanic/</loc>
+    <loc>/tech-department/topics/python-specific/oop-basics/</loc>
   </url>
   
   <url>
-    <loc>/tech-department/topics/python-specific/oop-basics/</loc>
+    <loc>/tech-department/topics/unit-testing/mocks-and-spies/</loc>
   </url>
   
   <url>
@@ -1103,11 +1134,11 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/python-specific/sqlalchemy/</loc>
+    <loc>/tech-department/topics/python-specific/sqlalchemy/basics/</loc>
   </url>
   
   <url>
-    <loc>/tech-department/topics/python-specific/sqlalchemy/basics/</loc>
+    <loc>/tech-department/topics/python-specific/sqlalchemy/</loc>
   </url>
   
   <url>
@@ -1136,6 +1167,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/remote-work/tech-product-teams/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/tdd/</loc>
   </url>
   
@@ -1156,11 +1191,11 @@
   </url>
   
   <url>
-    <loc>/tech-department/</loc>
+    <loc>/tech-department/remote-work/tools-for-remote-workshops/</loc>
   </url>
   
   <url>
-    <loc>/tech-department/projects/basic-unit-test-mocks-kata/</loc>
+    <loc>/tech-department/</loc>
   </url>
   
   <url>
@@ -1176,7 +1211,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/unit-testing/mocks-and-spies/</loc>
+    <loc>/tech-department/topics/unit-testing-mocks-and-spies/</loc>
   </url>
   
   <url>
@@ -1253,7 +1288,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/build-rest-api-with-db/</loc>
+    <loc>/tech-department/projects/python-specific/build-rest-api-with-db/</loc>
   </url>
   
   <url>
@@ -1262,6 +1297,10 @@
   
   <url>
     <loc>/tech-department/projects/tdd/factorials/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/iphone-content/</loc>
   </url>
   
   <url>

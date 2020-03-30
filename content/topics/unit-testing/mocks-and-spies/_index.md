@@ -1,4 +1,3 @@
 ---
-title: Unit testing with mocks and spies
+title: Python Unit testing with mocks and spies
 ---
-
