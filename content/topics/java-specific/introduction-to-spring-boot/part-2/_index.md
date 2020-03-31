@@ -1,5 +1,5 @@
 ---
-title: Introduction to Spring Boot 
+title: Introduction to Spring Boot - part 2
 ready: true
 ---
 
@@ -61,7 +61,7 @@ Spring Security is a framework that provides authentication, authorization, and 
 
 - Optional integration with Spring Web MVC
 
-you will need 
+you will need
 
 ```
 dependencies {
@@ -73,7 +73,7 @@ dependencies {
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     //override configuration
-    
+
     // override userDetailsService
 }
 ```
@@ -85,6 +85,7 @@ With this dependencies you get a lot out of the box and it also provides basic s
 We live in a word where data is not so cheat and access to wifi is currently not accessible to everyone. More so we don't have as many people using smart devices which makes using advanced technology a bit of a struggle. It is our responsibility as software developers to know these limitation so we can create software that is thoughtful. Meaning creating applications that don't require a lot of processing power, high speed and if possible even be able to work offline. Caching is the first, no-brainer step you can take
 
 #### What is Caching
+
 Caching is a mechanism to enhance the performance of a system. It is a temporary memory that lies between the application and the persistent database. Cache memory stores recently used data items in order to reduce the number of database hits as much as possible. [from](wtodoinjava.com/spring-boot2/spring-boot-cache-example/)
 
 #### Types of caching
@@ -96,7 +97,6 @@ Caching is a mechanism to enhance the performance of a system. It is a temporary
 3. **Web server caching:** Caching request and responses to server at API level with the help of Reverse proxies
 
 4. **CDN(Content Delivery Network) caching:** a CDN will reduce the load on an application origin and improve the experience of the requestor by delivering a local copy of the content from a nearby cache edge, or Point of Presence (PoP).
-
 
 #### Spring boot Caching Annotation
 
@@ -110,21 +110,21 @@ Caching is a mechanism to enhance the performance of a system. It is a temporary
 org.springframework.boot:spring-boot-starter-cache
 
 @Service
-public class StudentService 
+public class StudentService
 {
     @Cacheable("student")
-    public Student getStudentByID(String id) 
+    public Student getStudentByID(String id)
     {
         try
         {
             System.out.println("Going to sleep for 5 Secs.. to simulate backend call.");
             Thread.sleep(1000*5);
-        } 
-        catch (InterruptedException e) 
+        }
+        catch (InterruptedException e)
         {
             e.printStackTrace();
         }
- 
+
         return new Student(id,"Sajal" ,"V");
     }
 }
@@ -154,7 +154,7 @@ https://docs.spring.io/spring-security/site/docs/5.3.1.BUILD-SNAPSHOT/reference/
 
 https://www.javainuse.com/spring/sprboot_sec
 
-https://howtodoinjava.com/spring-boot2/spring-boot-cache-example/ - **Go through this tutorial** 
+https://howtodoinjava.com/spring-boot2/spring-boot-cache-example/ - **Go through this tutorial**
 
 https://dzone.com/articles/introducing-amp-assimilating-caching-quick-read-fo
 
