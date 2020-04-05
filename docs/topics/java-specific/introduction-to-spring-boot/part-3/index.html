@@ -12,19 +12,19 @@
     <title>Introduction to Spring Boot - part 3 :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1585628576" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1585628576" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1585628576" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1585628576" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1585628576" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1585628576" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1585628576" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1585628576" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1586099269" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1586099269" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1586099269" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1586099269" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1586099269" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1586099269" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1586099269" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1586099269" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1585628576" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1586099269" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1585628576"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1586099269"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1585628576"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1585628576"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1586099269"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1586099269"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1585628576"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1586099269"></script>
 
     
   </div>
@@ -8522,7 +8522,24 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#what-is-rest-representational-state-transfer">What is REST (Representational State Transfer)?</a></li>
+<li><a href="#what-is-soap-simple-object-access-protocol">What is SOAP (Simple Object Access Protocol) ?</a></li>
+<li><a href="#we-ll-focus-on-rest-in-the-context-of-this-document">We&rsquo;ll focus on REST in the context of this document.</a></li>
+<li><a href="#here-is-a-list-of-resources-where-you-can-find-tutorials-on-the-endpoint-types">Here is a list of resources where you can find tutorials on the endpoint types.</a></li>
+<li><a href="#getmapping">GetMapping</a></li>
+<li><a href="#postmapping">PostMapping</a></li>
+<li><a href="#putmapping">PutMapping</a></li>
+<li><a href="#patchmapping">PatchMapping</a></li>
+<li><a href="#deletemapping">DeleteMapping</a></li>
+<li><a href="#how-can-a-developer-test-endpoints">How can a developer test endpoints</a></li>
+<li><a href="#resources">Resources</a></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -8544,6 +8561,153 @@
 
         
 
+
+
+<p>Two of the most commonly used Api architectures currently in use are REST and SOAP.</p>
+
+<h2 id="what-is-rest-representational-state-transfer">What is REST (Representational State Transfer)?</h2>
+
+<p>REST is an architecture used in web applications that make it easier for different systems to communicate with each other.
+They are referred to as stateless, which means that the current state of the system calling the REST api, has no influence on the functionality
+of the Api. REST was created to fix some of the shortcomings that the SOAP architecture has.</p>
+
+<p>The most common REST endpoints are the following:</p>
+
+<p>GET - Used to fetch data
+POST - Used to create a new resource
+PUT - Used to update a specific resource
+DELETE - Used to remove a specific resource</p>
+
+<h2 id="what-is-soap-simple-object-access-protocol">What is SOAP (Simple Object Access Protocol) ?</h2>
+
+<p>SOAP is an architecture that makes use of XML for queries. It was created before REST to replace systems at that time that made use of
+binary messaging.</p>
+
+<h2 id="we-ll-focus-on-rest-in-the-context-of-this-document">We&rsquo;ll focus on REST in the context of this document.</h2>
+
+<h2 id="here-is-a-list-of-resources-where-you-can-find-tutorials-on-the-endpoint-types">Here is a list of resources where you can find tutorials on the endpoint types.</h2>
+
+<p>As part of the examples, let&rsquo;s assume the url to be <code>https://www.myapi.com</code></p>
+
+<h2 id="getmapping">GetMapping</h2>
+
+<ul>
+<li><a href="http://zetcode.com/spring/getmapping/">GET Endpoint</a>.</li>
+</ul>
+
+<pre><code>  @GetMapping(&quot;/employees&quot;)
+  List&lt;Users&gt; all(String item) {
+	return listOfUsers;
+  }
+</code></pre>
+
+<p>Here is a breakdown of the snippet above:
+- @GetMapping: Tells the API that this method is a Get Endpoint.
+- &ldquo;/employees&rdquo;: Describes what is appended to the url in order to reach the endpoint. This endpoint is reached using the following url: <a href="https://www.myapi.com/employees">https://www.myapi.com/employees</a>.
+- The endpoint returns a List of Users.
+- item: The variable being passed into the method.</p>
+
+<h2 id="postmapping">PostMapping</h2>
+
+<ul>
+<li><a href="https://howtodoinjava.com/spring5/webmvc/controller-getmapping-postmapping/">POST Endpoint</a>.</li>
+</ul>
+
+<pre><code>@PostMapping(value = &quot;/posts&quot;)
+public UserRest createUser(@RequestBody UserDetailsRequestModel requestUserDetails) 
+{
+	UserRest returnValue = new UserRest();
+				
+	UserDto userDto = new UserDto();
+	BeanUtils.copyProperties(requestUserDetails, userDto);
+	UserDto createdUser = userService.createUser(userDto);
+	BeanUtils.copyProperties(createdUser, returnValue);
+	return returnValue;
+</code></pre>
+
+<p>Here is a breakdown of the snippet above:
+- @PostMapping: Tells the API that this method is a POST Endpoint.
+- &ldquo;/posts&rdquo;: Describes what is appended to the url in order to reach the endpoint. This endpoint is reached using the following url: <a href="https://www.myapi.com/posts">https://www.myapi.com/posts</a>.
+- The endpoint returns a List of Users.
+- @RequestBody: The data model that was sent through the POST request. The requestbody is usually sent to the endpoint in a JSON string format.</p>
+
+<h2 id="putmapping">PutMapping</h2>
+
+<ul>
+<li><a href="https://www.sourcecodeexamples.net/2019/10/putmapping-spring-boot-example.html">PUT Endpoint</a>.</li>
+</ul>
+
+<pre><code>@PutMapping(value = &quot;/contacts/{contactId}&quot;)
+public ResponseEntity&lt;Contact&gt; updateContact(@RequestBody Contact contact, 
+		@PathVariable long contactId) {
+	...
+	return ...
+}
+</code></pre>
+
+<p>Here is a breakdown of the snippet above:
+- @PutMapping: Tells the API that this method is a PUT Endpoint.
+- &ldquo;/contacts/{contactId}&rdquo;: Describes what is appended to the url in order to reach the endpoint. This endpoint is reached using the following url: <a href="https://www.myapi.com/posts/1234-1234-23432">https://www.myapi.com/posts/1234-1234-23432</a>.
+- {} indicates that something in the path is a variable. So it&rsquo;s not a fied value.
+- The endpoint returns a List of Users.
+- @RequestBody: The data model that was sent through the POST request. The requestbody is usually sent to the endpoint in a JSON string format.</p>
+
+<h2 id="patchmapping">PatchMapping</h2>
+
+<ul>
+<li><a href="https://www.sourcecodeexamples.net/2019/10/patchmapping-spring-boot-example.html">PATCH Endpoint</a>.</li>
+</ul>
+
+<pre><code>@PatchMapping(&quot;/patch&quot;)
+public @ResponseBody ResponseEntity&lt;String&gt; patch() {
+	return new ResponseEntity&lt;String&gt;(&quot;PATCH Response&quot;, HttpStatus.OK);
+}
+</code></pre>
+
+<p>Here is a breakdown of the snippet above:
+- @PatchMapping: Tells the API that this method is a PATCH Endpoint.
+- &ldquo;/patch&rdquo;: Describes what is appended to the url in order to reach the endpoint. This endpoint is reached using the following url: <a href="https://www.myapi.com/patch">https://www.myapi.com/patch</a>.</p>
+
+<h2 id="deletemapping">DeleteMapping</h2>
+
+<ul>
+<li><a href="http://zetcode.com/spring/deletemapping/">DELETE Endpoint</a>.</li>
+</ul>
+
+<pre><code>@DeleteMapping(value = &quot;/posts/{id}&quot;)
+public ResponseEntity&lt;Long&gt; deletePost(@PathVariable Long id) {
+
+	var isRemoved = postService.delete(id);
+
+	return new ResponseEntity&lt;&gt;(id, HttpStatus.OK);
+}
+</code></pre>
+
+<p>Here is a breakdown of the snippet above:
+- @DeleteMapping: Tells the API that this method is a DELETE Endpoint.
+- &ldquo;/contacts/{contactId}&rdquo;: Describes what is appended to the url in order to reach the endpoint. This endpoint is reached using the following url: <a href="https://www.myapi.com/posts/1234-1234-23432">https://www.myapi.com/posts/1234-1234-23432</a>.
+- {} indicates that something in the path is a variable. So it&rsquo;s not a fied value.</p>
+
+<h2 id="how-can-a-developer-test-endpoints">How can a developer test endpoints</h2>
+
+<p>Using programs such as Postman, a developer can easily insert the details of the endpoint required and view the results the api returns.
+It is a widely used software in the development community.</p>
+
+<h2 id="resources">Resources</h2>
+
+<p><a href="https://www.guru99.com/soap-simple-object-access-protocol.html">https://www.guru99.com/soap-simple-object-access-protocol.html</a>.
+<a href="https://www.sitepoint.com/developers-rest-api/">https://www.sitepoint.com/developers-rest-api/</a>
+<a href="https://spring.io/guides/tutorials/bookmarks/">https://spring.io/guides/tutorials/bookmarks/</a>
+<a href="https://www.youtube.com/watch?v=_Py89z5Reus">https://www.youtube.com/watch?v=_Py89z5Reus</a>
+<a href="http://www.appsdeveloperblog.com/postmapping-requestbody-spring-mvc/">http://www.appsdeveloperblog.com/postmapping-requestbody-spring-mvc/</a>
+<a href="http://zetcode.com/spring/postmapping/">http://zetcode.com/spring/postmapping/</a>
+<a href="http://www.appsdeveloperblog.com/putmapping-spring-mvc/">http://www.appsdeveloperblog.com/putmapping-spring-mvc/</a>
+<a href="https://www.programcreek.com/java-api-examples/index.php?api=org.springframework.web.bind.annotation.PutMapping">https://www.programcreek.com/java-api-examples/index.php?api=org.springframework.web.bind.annotation.PutMapping</a>
+<a href="https://www.javaguides.net/2018/11/spring-getmapping-postmapping-putmapping-deletemapping-patchmapping.html">https://www.javaguides.net/2018/11/spring-getmapping-postmapping-putmapping-deletemapping-patchmapping.html</a>
+<a href="https://www.javaguides.net/2018/09/spring-boot-2-hibernate-5-mysql-crud-rest-api-tutorial.html">https://www.javaguides.net/2018/09/spring-boot-2-hibernate-5-mysql-crud-rest-api-tutorial.html</a>
+<a href="http://zetcode.com/spring/deletemapping/">http://zetcode.com/spring/deletemapping/</a>
+<a href="https://www.concretepage.com/spring-boot/spring-boot-rest-example">https://www.concretepage.com/spring-boot/spring-boot-rest-example</a>
+<a href="https://www.postman.com/">https://www.postman.com/</a></p>
 
 
 <footer class=" footline" >
@@ -13924,20 +14088,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1585628576"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1585628576"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1585628576"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1585628576"></script>
-    <script src="/tech-department/js/featherlight.min.js?1585628576"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1585628576"></script>
-    <script src="/tech-department/js/highlight.pack.js?1585628576"></script>
+    <script src="/tech-department/js/clipboard.min.js?1586099269"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1586099269"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1586099269"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1586099269"></script>
+    <script src="/tech-department/js/featherlight.min.js?1586099269"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1586099269"></script>
+    <script src="/tech-department/js/highlight.pack.js?1586099269"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1585628576"></script>
-    <script src="/tech-department/js/learn.js?1585628576"></script>
-    <script src="/tech-department/js/hugo-learn.js?1585628576"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1586099269"></script>
+    <script src="/tech-department/js/learn.js?1586099269"></script>
+    <script src="/tech-department/js/hugo-learn.js?1586099269"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1585628576" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1585628576"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1586099269" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1586099269"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
