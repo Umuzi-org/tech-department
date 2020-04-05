@@ -29,7 +29,7 @@ As a developer working on a product you have been given a ticket that has the fo
  - Cohorts
  - Recruits
  - staffs
-[step 1 image](./img/step_1.png)
+![step 1 image](./img/step_1.png)
 
 
   Step 2: Each attribute in a given entity should have a unique name
@@ -61,7 +61,7 @@ RECRUIT
     -RECRUIT-COHORT
     -RECRUIT_PORTFOLIO_LINK
 ```
-[step 2 image](./img/step_2.png)
+![step 2 image](./img/step_2.png)
 
   Step 3: establish  relationships
   ---
@@ -76,7 +76,7 @@ RECRUIT
 
 We will consider only this scenario for now.
 
-[step 3 image](./img/step_3.png)
+![step 3 image](./img/step_3.png)
 
 Voila!
 
