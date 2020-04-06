@@ -1,9 +1,9 @@
 ---
-title: SQL
+title: SQL Database schema design
 ready: True
 ---
 
-# Database schema design
+
 
 
 In this topic, we will discuss the schema design. Here is what Wikipedia says about "Database Schema":
@@ -23,50 +23,27 @@ As a developer working on a product you have been given a ticket that has the fo
   Step 1:   idetify `entities` within a deparment
   ---
 
- Our "Department" schema to include the following entities:
+ Our "Umuzi" schema to include the following entities:
 
  - Departments
  - Cohorts
  - Recruits
- - staffs
+ - staff
+
 ![step 1 image](./img/step_1.png)
 
 
-  Step 2: Each attribute in a given entity should have a unique name
+  Step 2: Add the other attributes
   ---
 let establish all entities with their names and properties
-```
- DEPARTMENT
-    -DEP_ID
-    -DEP_NAME
-
-COHORT
-    -COHORT_ID
-    -COHORT_NAME
-    -COHORT_START_DATE
-    -COHORT_END_DATE
 
 
-STAFF
-    -STAF_ID
-    -STAFF_TYPE
-    -STAF_FULL_NAME
-    -STAF_EMAIL
-    -STAF_DEPARTMENT
-
-RECRUIT
-    -RECRUIT_ID
-    -RECRUIT_FULL_NAME
-    -RECRUIT_DEPARTMENT
-    -RECRUIT-COHORT
-    -RECRUIT_PORTFOLIO_LINK
-```
 ![step 2 image](./img/step_2.png)
 
   Step 3: establish  relationships
   ---
 
-  Each entity, attribute and relationship, should have appropriate names and that can be easily understood by the non-technical people as well. A relationship should not be connected directly to each other, a relationship should connect entities.
+  Each entity, attribute and relationship, should have appropriate names and that can be easily understood by the non-technical people as well. A relationship should connect entities.
 
  our entities within the "department schema" have the following relationships:
 
