@@ -103,4 +103,4 @@ mkvirtualenv -p $(which python3.7) umuzi-tech-dept
 pip install -r requirements.txt
 ```
 
-Run `python3.7 lint.py` to make sure all your markdown frontmatter is ok.
+Run `python lint.py` to make sure all your markdown frontmatter is ok.
