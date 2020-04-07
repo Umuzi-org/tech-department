@@ -980,6 +980,13 @@
 	"content": "This is a run down of what it means to be a professional and how we expect you to behave within the tech department.\n "
 },
 {
+	"uri": "/tech-department/topics/how-to-download-youtube-videos-from-the-terminal/",
+	"title": "How to download youtube videos from the terminal",
+	"tags": [],
+	"description": "",
+	"content": " If you have night-time data to use up, and you want to conserve your day-time data then it would be wise to download all your youtube videos at night.\nYou have 2 options here:\nOption 1: Use the download_all_youtube.py script in this repo  Install python3.7 or later. install python development headers. Eg: sudo apt-get install -y python3.7-dev If you installed Python3.8 then sudo apt-get install -y python3.8-dev If you know your way around virtualenvs, make one. Otherwise don\u0026rsquo;t worry Clone this repo if you haven\u0026rsquo;t yet and cd in pip3 install -r requirements.txt python download_all_youtube.py  This script will then look for all the youtube links in our syllabus and download the lot. If a video file is already present it wont download it again.\nIMPORTANT by default this script will terminate after 1 hour. If you want to allow your downloads to run while you are sleeping you might want to increase this number. You can set the number of hours from the command line like so:\npython download_all_youtube.py --cutoff_after_n_hours=5\nThe above command will download as much as it can for the next 5 hours.\nOption 2: Just use python your way :)  follow the steps from the above section in order to install all the goodies. Open a python shell and type in the following (or save this to a script and run it):  import youtube_dl with youtube_dl.YoutubeDL({}) as ydl: ydl.download([\u0026quot;https://www.youtube.com/watch?v=RleN-6uMF04\u0026quot;])  The url there is any youtube video or playlist url. Nice eh?\n"
+},
+{
 	"uri": "/tech-department/projects/how-to-submit-your-project/",
 	"title": "How to submit your project",
 	"tags": [],
@@ -2226,7 +2233,7 @@
 	"content": " Write a script with a function called calculate_factorial that takes a number and returns its factorial.\nIn a separate file, write some tests that prove that your code works.\nJavascript instructions  Name your script factorial.js Use jasmine to test your code  Python instructions  Name your script factorial.py Use pytest to test your code  Steps:  Think about which tests you want to do to test that the factorial function works. Write the tests first (before creating the function). Test an empty function called factorial - it should fail the tests Add code for returning the factorial of a number - it should pass for numbers \u0026gt;= 1 Add code for dealing with zero - should pass unit test for zero and for numbers \u0026gt;= 1 Add code for dealing with negative numbers Add code for dealing with non-numeric input  Make sure you use Github to keep track of your progress.\nReferences: Factorial Numbers\n"
 },
 {
-	"uri": "/tech-department/iphone-content/",
+	"uri": "/tech-department/topics/iphone-content/",
 	"title": "iphone content",
 	"tags": [],
 	"description": "",
