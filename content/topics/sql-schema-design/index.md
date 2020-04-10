@@ -42,7 +42,7 @@ The strategist on the team has added the following details to your ticket:
 ![step 1 image](./img/step_1.png)
 
 
-  Step 2: Add the other attributes
+  Step 2: Add more attributes
   ---
 let establish all entities with their names and properties
 
