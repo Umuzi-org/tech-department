@@ -23,8 +23,8 @@ As a developer working on a product you have been given a ticket that has the fo
 The strategist on the team has added the following details to your ticket:
 > The database you are about to design should handle the following queries
 -  if the user has a recruit's full name he/she should be able to find which cohort the recruit belongs to.
-- [] if the user has a cohort name he/she should be able to find recruit(s) in it.
-- [] if the user has a staff member's email he/she should be able to retrieve recruits  he/she is servicing
+-  if the user has a cohort name he/she should be able to find recruit(s) in it.
+-  if the user has a staff member's email he/she should be able to retrieve recruits  he/she is servicing
 
 
 ## The steps
@@ -70,7 +70,7 @@ So far we have identified entities, added attributed to our entities, and establ
 
 Do you recall the 4 queries? Great!
 
-1. [] if the user has a recruit's full name he/she should be able to find which cohort the recruit belongs to.
+1. if the user has a recruit's full name he/she should be able to find which cohort the recruit belongs to.
 
 Let have a closer look at the relationship between recruits and cohorts, one recruits should belong to one cohort at a time, `one to one relationship`.
 
