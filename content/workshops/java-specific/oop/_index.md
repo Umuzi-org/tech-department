@@ -2,7 +2,7 @@
 date: 2020-04-07T15:03:16+02:00
 title: oop in java 
 weight: 3
-pre: "<b>1. </b>"
+# pre: "<b>1. </b>"
 ---
 
 **Object Oriented Programing referred to as ( 'OOPs' ):** 
@@ -39,8 +39,6 @@ May also be defined as: the process of identifying only the required characteris
  - ```
      In java, abstraction is achieved by interfaces and abstract classes. We can achieve 100% abstraction using interfaces.
     ```
-
-
 
 > **Abstract classes and Abstract methods:**
 
