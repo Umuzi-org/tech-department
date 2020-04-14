@@ -1,8 +1,8 @@
 ---
 date: 2020-04-07T17:08:16+02:00
-title: basic SQL with Framework
+title: basic SQL Framework Excluded
 weight: 3
-# pre: "<b>2. </b>"
+# pre: "<b>1. </b>"
 ---
  
 ***What is SQL?***
@@ -79,3 +79,102 @@ https://www.tutorialspoint.com/Types-of-databases)
 * Expression is a combination of one or more values, operators and SQL functions that evaluate to a value.
 * SQL EXPRESSIONs are like formulae and they are written in query language.
 * You can also use them to query the database for a specific set of data.
+
+  - **Types of Expressions in SQL:**
+    - Boolean
+    - Numeric
+    - Date
+
+  - **Example of Expressions in SQL:**
+    - SELECT * FROM CUSTOMERS WHERE SALARY = 10000;
+
+  >       +----+-------+-----+---------+----------+
+  >       | ID | NAME  | AGE | ADDRESS | SALARY   |
+  >       +----+-------+-----+---------+----------+
+  >       |  7 | Muffy |  24 | Indore  | 10000.00 |
+  >       +----+-------+-----+---------+----------+
+
+  - **Numeric Expression in SQL:**
+    - SELECT (15 + 6) AS ADDITION;
+  
+  >      +----------+
+  >      | ADDITION |
+  >      +----------+
+  >      |       21 |
+  >      +----------+  
+
+  - **Built-in functions like avg(), sum(), count(), etc.**	
+    - SELECT COUNT(*) AS "RECORDS" FROM CUSTOMERS;
+
+  >      +---------+
+  >      | RECORDS |
+  >      +---------+
+  >      |       7 |
+  >      +---------+
+
+  - **Date Expressions.**	
+    - SELECT COUNT(*) AS "RECORDS" FROM CUSTOMERS;
+    - SELECT GETDATE();
+
+  >     +---------------------+	    +-------------------------+
+  >     | Current_Timestamp   |     |       GETDATE           |
+  >     +---------------------+     +-------------------------+
+  >     | 2009-11-12 06:40:23 |     | 2009-10-22 12:07:18.140 |
+  >     +---------------------+     +-------------------------+
+
+**SQL Modules (In Java).**
+  
+- A module consists of a group of procedures, which are called from the host programming language. 
+- Each procedure contains a single SQL statement, and data is passed to and from the procedure through parameters.
+- A module can be thought of as an object library that is linked to the application code. However, exactly how the procedures and the rest of the application are linked is - implementation-dependent.
+
+
+**SQL Modules using Stored Procedure.** 
+
+  - A stored procedure is a prepared SQL code that you can save, so the code can be reused over and over again.
+  - You can also pass parameters to a stored procedure, so that the stored procedure can act based on the parameter value(s) that is passed.
+
+**Stored Procedure Syntax.**
+
+  - CREATE PROCEDURE procedure_name<br>
+    - AS<br>
+    - sql_statement<br>
+    - GO;<br>
+  - EXEC procedure_name;
+
+**Stored Procedure example.**
+
+  - CREATE PROCEDURE SelectAllCustomers
+    - AS
+    - SELECT * FROM Customers
+    - GO;
+  - EXEC SelectAllCustomers;
+
+**Stored Procedure With Multiple Parameters**
+
+- CREATE PROCEDURE SelectAllCustomers @City nvarchar(30), 
+  @PostalCode nvarchar(10)
+  - AS
+  - SELECT * FROM Customers WHERE City = @City AND 
+  <br>PostalCode = @PostalCode
+  - GO;
+- EXEC SelectAllCustomers @City = "London", @PostalCode = "WA1 1DP";
+
+
+##### End of SQL Basics Part1...
+
+![alt text](https://www.azquotes.com/picture-quotes/quote-art-has-always-been-this-pure-interrogation-rhetorical-question-less-the-rhetoric-whatever-samuel-beckett-123-66-83.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
