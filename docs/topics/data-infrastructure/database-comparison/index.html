@@ -12,19 +12,19 @@
     <title>Database Comparison :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1586335651" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1586335651" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1586335651" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1586335651" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1586335651" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1586335651" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1586335651" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1586335651" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1586949385" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1586949385" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1586949385" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1586949385" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1586949385" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1586949385" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1586949385" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1586949385" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1586335651" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1586949385" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1586335651"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1586949385"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1586335651"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1586335651"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1586949385"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1586949385"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1586335651"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1586949385"></script>
 
     
   </div>
@@ -8542,7 +8542,14 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#resources">Resources</a></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -8564,6 +8571,35 @@
 
         
 
+
+
+<p>SQL is great and all, and even though a lot of people think it&rsquo;s a lil old-school, it&rsquo;s here to stay. It is a robust and mature technology, the query language it defines can be used for all sorts of big data and analytic workloads, and it&rsquo;s easy to reason about.</p>
+
+<p>But when it comes to data storage and access there isn&rsquo;t a once-size-fits-all technology.</p>
+
+<p>There are a lot of databases out there. You can think of them in a few different categories.</p>
+
+<p><em>In memory databases</em> are FAST, they store everythig in RAM and so the data that they store is not durable. If the computer shuts down then the data is gone. Redis is an example of this.</p>
+
+<p>Most databases store data to disk. Eg Postgres is not an in-memory database. The data it stores is durable.</p>
+
+<p>Then you get NoSQL databases. The No in NoSQL could maybe stand for &ldquo;Not only&rdquo; SQL. But it depends on who you talk to and their agenda. Basically when it comes to SQL, the database structure is pretty strict and rigid and if the shape of your data changes you need to jump through hoops to make it work. In many sitations this just isn&rsquo;t ideal. So there is a whole class of shemaless or low-schema databases that address this. MongoDB is a commonly used durable NoSQL database.</p>
+
+<p>Another set of categories that databases fall into is to do with how they scale. The options are vertical and horizontal.</p>
+
+<p>Imagine you have a database running on a server and it runs out of disk space or some other respource. Vertical scaling implies simply upgrading that server - by giving it a bigger hard-drive, more ram, or a bigger cpu you allow bigger workloads. There is an upper limit to how big you can vertically scale.</p>
+
+<p>Horisontal scaling is all about introducing more computing nodes (computers, VMs or containers) to the mix, and then coordinating those nodes to do the job of one big database. This allows for much bigger data and database requests and writes can also be shared between the nodes. This is awesome but of course has its own complexities and limitations, for example data on different nodes tends to become out of sync and you have to be aware of that.</p>
+
+<p>MongoDB is horizontally scalable by default. Postrgres isn&rsquo;t really but there are a <a href="https://stackoverflow.com/questions/34831086/scaling-postgres-horizontally">few workarounds</a> depending on what you want to do with it.</p>
+
+<h2 id="resources">Resources</h2>
+
+<ul>
+<li><a href="https://realpython.com/data-engineer-interview-questions-python/">https://realpython.com/data-engineer-interview-questions-python/</a> This covers a ot of ground around comparing different databases</li>
+<li>Python and MongoDB: <a href="https://realpython.com/introduction-to-mongodb-and-python/">https://realpython.com/introduction-to-mongodb-and-python/</a></li>
+<li>Python and Redis: <a href="https://realpython.com/python-redis/">https://realpython.com/python-redis/</a></li>
+</ul>
 
 
 <footer class=" footline" >
@@ -13956,20 +13992,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1586335651"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1586335651"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1586335651"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1586335651"></script>
-    <script src="/tech-department/js/featherlight.min.js?1586335651"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1586335651"></script>
-    <script src="/tech-department/js/highlight.pack.js?1586335651"></script>
+    <script src="/tech-department/js/clipboard.min.js?1586949385"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1586949385"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1586949385"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1586949385"></script>
+    <script src="/tech-department/js/featherlight.min.js?1586949385"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1586949385"></script>
+    <script src="/tech-department/js/highlight.pack.js?1586949385"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1586335651"></script>
-    <script src="/tech-department/js/learn.js?1586335651"></script>
-    <script src="/tech-department/js/hugo-learn.js?1586335651"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1586949385"></script>
+    <script src="/tech-department/js/learn.js?1586949385"></script>
+    <script src="/tech-department/js/hugo-learn.js?1586949385"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1586335651" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1586335651"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1586949385" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1586949385"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
