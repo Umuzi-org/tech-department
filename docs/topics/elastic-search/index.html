@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/tech-department/images/favicon.png" type="image/png">
 
-    <title>Java File IO :: Documentation for Umuzi Tech Department</title>
+    <title>ElasticSearch :: Documentation for Umuzi Tech Department</title>
 
     
     <link href="/tech-department/css/nucleus.css?1587011208" rel="stylesheet">
@@ -34,7 +34,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/tech-department/topics/java-specific/file-io/">
+  <body class="" data-url="/tech-department/topics/elastic-search/">
     <nav id="sidebar" class="">
 
 
@@ -1326,8 +1326,8 @@
   
     
     <li data-nav-id="/tech-department/topics/elastic-search/" title="ElasticSearch" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="/tech-department/topics/elastic-search/">
@@ -2132,7 +2132,7 @@
   
     
     <li data-nav-id="/tech-department/topics/java-specific/" title="Java" class="dd-item 
-        parent
+        
         
         
         ">
@@ -2543,8 +2543,8 @@
   
     
     <li data-nav-id="/tech-department/topics/java-specific/file-io/" title="Java File IO" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/tech-department/topics/java-specific/file-io/">
@@ -8516,7 +8516,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://github.com/Umuzi-org/tech-departmenttopics/java-specific/file-io/_index.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://github.com/Umuzi-org/tech-departmenttopics/elastic-search/_index.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -8547,13 +8547,7 @@
             
           
           
-            
-            
-          
-          
-            <a href='/tech-department/'>Umuzi Tech Department</a> > <a href='/tech-department/topics/'>Topics</a> > <a href='/tech-department/topics/java-specific/'>Java</a> > Java File IO
-          
-        
+            <a href='/tech-department/'>Umuzi Tech Department</a> > <a href='/tech-department/topics/'>Topics</a> > ElasticSearch
           
         
           
@@ -8570,7 +8564,9 @@
 <ul>
 <li>
 <ul>
-<li><a href="#resources">Resources:</a></li>
+<li><a href="#what-is-elasticsearch">What is ElasticSearch?</a></li>
+<li><a href="#getting-it-running">Getting it running</a></li>
+<li><a href="#tutorials-and-fun-stuff">tutorials and fun stuff</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -8585,7 +8581,7 @@
         
         <div id="body-inner">
           
-            <h1>Java File IO</h1>
+            <h1>ElasticSearch</h1>
           
 
         
@@ -8597,18 +8593,33 @@
 
 
 
-<p>It&rsquo;s all good and well writing programs that a user can interact with, and programs that print stuff out to the screen. But that has limited usefulness. Serious programs generally have some form of data persistence.</p>
+<h2 id="what-is-elasticsearch">What is ElasticSearch?</h2>
 
-<p>Basically programs often need to store data, or access stored data. And there are a lot of different ways to make that happen.</p>
+<blockquote>
+<p>ElasticSearch (ES) is a distributed and highly available open-source search engine that is built on top of Apache Lucene. It’s an open-source which is built in Java thus available for many platforms. You store unstructured data in JSON format which also makes it a NoSQL database. So, unlike other NoSQL databases ES also provides search engine capabilities and other related features.
+<a href="https://towardsdatascience.com/getting-started-with-elasticsearch-in-python-c3598e718380">source: Towards Data Science</a></p>
 
-<p>For now we&rsquo;ll be focusing on reading and writing files.</p>
+<p>Elasticsearch is a distributed, open source search and analytics engine for all types of data, including textual, numerical, geospatial, structured, and unstructured. Elasticsearch is built on Apache Lucene and was first released in 2010 by Elasticsearch N.V. (now known as Elastic). Known for its simple REST APIs, distributed nature, speed, and scalability, Elasticsearch is the central component of the Elastic Stack, a set of open source tools for data ingestion, enrichment, storage, analysis, and visualization. Commonly referred to as the ELK Stack (after Elasticsearch, Logstash, and Kibana), the Elastic Stack now includes a rich collection of lightweight shipping agents known as Beats for sending data to Elasticsearch.
+<a href="https://www.elastic.co/what-is/elasticsearch">source: official docs</a></p>
+</blockquote>
 
-<h2 id="resources">Resources:</h2>
+<h2 id="getting-it-running">Getting it running</h2>
+
+<p>Of course docker is a great way to get started:</p>
+
+<p>If you follow this document you will end up with a 3 node cluster running on your computer. This will eat all your ram. Rather use a one node cluster.
+Also there is no need to use TLS on your local development machine:</p>
+
+<p><a href="https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-docker.html">https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-docker.html</a></p>
+
+<h2 id="tutorials-and-fun-stuff">tutorials and fun stuff</h2>
 
 <ul>
-<li><a href="https://www.w3schools.com/java/java_files.asp">https://www.w3schools.com/java/java_files.asp</a> a gentle introduction to file io</li>
-<li><a href="https://www.tutorialspoint.com/java/java_files_io.htm">https://www.tutorialspoint.com/java/java_files_io.htm</a> this one is a bit less gentle</li>
-<li><a href="https://docs.oracle.com/javase/tutorial/essential/io">https://docs.oracle.com/javase/tutorial/essential/io</a> this one is very thorough, and the offical docs are practically always the best place to find the latest and greatest info</li>
+<li><p>Twitter sentiment analysis: <a href="https://realpython.com/twitter-sentiment-python-docker-elasticsearch-kibana/">https://realpython.com/twitter-sentiment-python-docker-elasticsearch-kibana/</a> This tutorial is written in legacy python. See if you can make it work with modern tools.</p></li>
+
+<li><p><a href="https://www.freecodecamp.org/news/how-to-use-elasticsearch-logstash-and-kibana-to-visualise-logs-in-python-in-realtime-acaab281c9de/">https://www.freecodecamp.org/news/how-to-use-elasticsearch-logstash-and-kibana-to-visualise-logs-in-python-in-realtime-acaab281c9de/</a> this one is more relevent to data engineers but also goes into kibana a bit</p></li>
+
+<li><p>python-elasticsearch docs: <a href="https://elasticsearch-py.readthedocs.io/en/master/">https://elasticsearch-py.readthedocs.io/en/master/</a> . Elasticsearch exposes a really wonderful API. You can jusut interact with t using http requests instead of a different library if you wanted to. But this package makes life a lot easier</p></li>
 </ul>
 
 
@@ -9439,55 +9450,6 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -9505,16 +9467,18 @@
             
                 
                     
+                        
+                        
+                    
                 
                 
 
                     
                     
+                        
+                    
                     
 
-                    
-            
-        
                     
                         
             
@@ -9532,180 +9496,8 @@
             
         
                     
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
             
         
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
                     
                         
             
@@ -9925,14 +9717,10 @@
 
                     
                     
+                        
+                    
                     
 
-                    
-            
-        
-                    
-            
-        
                     
                         
             
@@ -9971,24 +9759,21 @@
             
                 
                     
-                    
                 
                 
 
                     
                     
-                        
-                    
                     
 
+                    
+            
+        
                     
                         
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -10075,21 +9860,6 @@
 
                     
                     
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
                     
 
                     
@@ -10127,24 +9897,6 @@
                     
             
         
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
                     
                         
             
@@ -10234,6 +9986,20 @@
             
                 
                     
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -10251,8 +10017,249 @@
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
                         
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
                         
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
                     
                 
                 
