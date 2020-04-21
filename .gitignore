@@ -3,6 +3,7 @@ gitignore/
 node_modules/
 public/
 .vscode/
+package-lock.json/
 umuzi-tech-dept
 /.vs/slnx.
 /.vs/*
