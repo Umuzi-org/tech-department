@@ -60,11 +60,11 @@ public class UserServiceImpl{
 
 **Step 4**
 
-Specify all your methods inside the UserServiceInterface then implement all services in the UserServiceImpl. 
+Specify all your methods inside the UserServiceInterface then implement all methods in the UserServiceImpl. 
 
 **Step 5**
 
-1 - Use the annotation to instantiate the UserController.
+1 - Do the following in the UserController.
 
 2 - Use the Put, Delete, Get spring annotations to map the respective services. 
 
