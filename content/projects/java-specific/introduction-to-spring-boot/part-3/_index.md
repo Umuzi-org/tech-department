@@ -64,7 +64,7 @@ Specify all your methods inside the UserServiceInterface then implement all serv
 
 **Step 5**
 
-1 - Use the annotation to instantiate the UserService class.
+1 - Use the annotation to instantiate the UserController.
 
 2 - Use the Put, Delete, Get spring annotations to map the respective services. 
 
