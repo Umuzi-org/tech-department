@@ -371,14 +371,14 @@
 	"content": " When creating an Android application, the user experience plays a big role in the way a user experiences the app. These resources are to describe the various elements available for creating an Android apps user interface.\nAndroid UI controls Here is a list of various Android controls that can be used along with descriptions of each and some code samples.\nAndroid UI layouts When developing a screen on an application, the UI elements are placed inside layouts. Layouts are essentially containers for your controls.\nEach layout has it\u0026rsquo;s own characteristics when it comes to placing controls on the screen.\nYou can find information on the various Android layouts here.\nOne of the more newly developed and powerful layouts is a the ConstraintLayout.\nMaterial design Material design refers to the best practices that should be kept in mind when creating the various screens in your application.\nFor more extensive information on the topic, you can find various articles and documentation here.\nUdacity has a great free course on material design named: Material design for Android Developers, created by employees from Google.\nNote: For optimal performance, it is advised to refrain from nesting layouts as much as possible.\n"
 },
 {
-	"uri": "/tech-department/projects/android/",
+	"uri": "/tech-department/topics/android/",
 	"title": "Androids",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/tech-department/topics/android/",
+	"uri": "/tech-department/projects/android/",
 	"title": "Androids",
 	"tags": [],
 	"description": "",
@@ -728,14 +728,14 @@
 	"content": ""
 },
 {
-	"uri": "/tech-department/topics/data-science-specific/",
+	"uri": "/tech-department/projects/data-science-specific/",
 	"title": "Data-science-specifics",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/tech-department/projects/data-science-specific/",
+	"uri": "/tech-department/topics/data-science-specific/",
 	"title": "Data-science-specifics",
 	"tags": [],
 	"description": "",
