@@ -119,18 +119,6 @@ expected output: RIGHT ANGLE TRIANGLE * ** *** ****  2. Write a function that ta
     </item>
     
     <item>
-      <title>Introduction to Spring Boot - part 3</title>
-      <link>/tech-department/projects/java-specific/introduction-to-spring-boot/part-3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tech-department/projects/java-specific/introduction-to-spring-boot/part-3/</guid>
-      <description>We are going to focus on creating a REST api that will serve as a end point to our sping boot java application.
-Service Continuing with &amp;ldquo;introduction-to-spring-boot/part-2&amp;rdquo; for the User we are going to expose a REST endpoint to the application and we will use test to see if the application does what we want it to.
-Step 1
-Create a Controller Class based on the spring MVC infrastructure. This will be used to expose the endpoint.</description>
-    </item>
-    
-    <item>
       <title>Node</title>
       <link>/tech-department/topics/js-and-node-specific/node/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
