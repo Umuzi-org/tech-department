@@ -1,3 +1,0 @@
----
-title: DAGs with Airflow
----

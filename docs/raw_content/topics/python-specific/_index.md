@@ -1,3 +1,0 @@
----
-title: python specific resources
----

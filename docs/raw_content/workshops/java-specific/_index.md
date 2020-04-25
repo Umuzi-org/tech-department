@@ -1,3 +1,0 @@
----
-title: Java Specific Workshops
----
