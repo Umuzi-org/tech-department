@@ -3,6 +3,8 @@ gitignore/
 node_modules/
 public/
 .vscode/
+.idea/
+
 umuzi-tech-dept
 /.vs/slnx.
 /.vs/*

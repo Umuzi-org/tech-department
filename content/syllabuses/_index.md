@@ -345,8 +345,8 @@ The recruits finish off their portfolios. From this point forward they are expec
 ## WEEK 12:
 
 - DATA_SCI:
-  - {{% contentlink "topics/python-specific/oop-for-python" %}}
-  - {{% contentlink "projects/oop-for-data-science" %}}
+  - {{% contentlink "projects/data-science-specific/multivariate-linear-regression" %}}
+  - BONUS: Compare results using OOP principles in {{% contentlink "projects/data-science-specific/cross-validation-and-simple-linear-regression/" %}}
 
 * WEB_DEV
 
@@ -369,9 +369,8 @@ The recruits finish off their portfolios. From this point forward they are expec
 - NCIT 13: Object-oriented programming
 
 - DATA_SCI
-
-  - {{% contentlink "projects/data-science-specific/multivariate-linear-regression" %}}
-  - BONUS: Compare results using OOP principles in {{% contentlink "projects/data-science-specific/cross-validation-and-simple-linear-regression/" %}}
+  - {{% contentlink "topics/python-specific/oop-for-python" %}}
+  - {{% contentlink "projects/oop-for-data-science" %}}
 
 - DATA_ENG
   - {{% contentlink "topics/data-infrastructure/database-comparison/" %}}
