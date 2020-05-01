@@ -2,6 +2,10 @@
 title: simple-calculator part 2
 pre: "<b>MEDIUM: </b>"
 ready: true
+prerequisites:
+  - hard: ["projects/tdd/simple-calculator-part1"]
+  - soft: []
+tags: ["tdd"]
 ---
 
 This a continuation of {{% contentlink "projects/tdd/simple-calculator-part1" %}}. If you haven't done that yet then please do. At this point you should have a well tested `add` and `multiply` function.

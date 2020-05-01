@@ -2,6 +2,7 @@
 title: simple-calculator part 1
 pre: "<b>EASY: </b>"
 ready: true
+tags: ["tdd"]
 ---
 
 The objective of this project is to build a calulator that can perform multiplication and addition on multiple integers. Do not build a front-end (UI). Complete this project by using a TDD approach.
