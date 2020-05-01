@@ -3,8 +3,8 @@ title: simple-calculator part 2
 pre: "<b>MEDIUM: </b>"
 ready: true
 prerequisites:
-  - hard: ["projects/tdd/simple-calculator-part1"]
-  - soft: []
+  hard: ["projects/tdd/simple-calculator-part1"]
+  soft: []
 tags: ["tdd"]
 ---
 
