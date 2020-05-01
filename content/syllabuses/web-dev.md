@@ -12,13 +12,13 @@ title: "Web Development"
 
 - Department ice-breaker
 - {{% contentlink "workshops/how-to-be-a-professional" %}}
+- {{% contentlink "topics/web-dev-self-learning" %}}
 - {{% contentlink "remote-work/tech-recruits" %}}
 - Introduction to NCIT curriculum
 - {{% contentlink "workshops/intro-to-linux" %}}
 - {{% contentlink "topics/linux/intro-to-linux" %}}
 - {{% contentlink "projects/linux/beginner" %}}
 - {{% contentlink "topics/linux/intro-to-bash" %}}
-- {{% contentlink "topics/web-dev-self-learning" %}}
 
 ## Week 2: Git and personal portfolio
 
@@ -180,11 +180,11 @@ MUB2 must happen before this point.
 
 ## Optional Extras
 
-- {{% contentlink "topics/web-frontend/intro-to-angular/" %}}
-- {{% contentlink "topics/web-frontend/intro-to-react/" %}}
-- {{% contentlink "topics/web-frontend/intro-to-vue/" %}}
-- {{% contentlink "workshops/nodejs-intro-to-socketio/" %}}
-- {{% contentlink "workshops/redux_intro/" %}}
-- {{% contentlink "workshops/nodejs-async-vs-sync" %}}
-- {{% contentlink "topics/js-and-node-specific/mongodb/" %}}
-- {{% contentlink "projects/semitone-challenge" %}}
+- {{% contentlink "topics/web-frontend/intro-to-angular/" "optional" %}}
+- {{% contentlink "topics/web-frontend/intro-to-react/" "optional" %}}
+- {{% contentlink "topics/web-frontend/intro-to-vue/" "optional" %}}
+- {{% contentlink "workshops/nodejs-intro-to-socketio/" "optional" %}}
+- {{% contentlink "workshops/redux_intro/" "optional" %}}
+- {{% contentlink "workshops/nodejs-async-vs-sync" "optional" %}}
+- {{% contentlink "topics/js-and-node-specific/mongodb/" "optional" %}}
+- {{% contentlink "projects/semitone-challenge" "optional" %}}
