@@ -3,7 +3,7 @@ title: Test Driven Development
 ready: true
 ---
 
-By now you should know a bit about what a unit test is na dwhy we do them. The next question is: when should we do them? Do we write our unit tests after we write our code or before?
+By now you should know a bit about what a unit test is and why we do them. The next question is: when should we do them? Do we write our unit tests after we write our code or before?
 
 Test driven development is a methodology in which tests are written before the code. This probably seems a little bit strange. Because it is. But it has a lot of advantages.
 
