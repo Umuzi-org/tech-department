@@ -13,7 +13,6 @@ title: "Web Development"
 - Department ice-breaker
 - {{% contentlink "workshops/how-to-be-a-professional" %}}
 - {{% contentlink "topics/web-dev-self-learning" %}}
-- {{% contentlink "remote-work/tech-recruits" %}}
 - Introduction to NCIT curriculum
 - {{% contentlink "workshops/intro-to-linux" %}}
 - {{% contentlink "topics/linux/intro-to-linux" %}}
