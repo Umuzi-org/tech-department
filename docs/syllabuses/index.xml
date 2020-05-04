@@ -10,5 +10,24 @@
 	<atom:link href="/tech-department/syllabuses/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Data Engineering</title>
+      <link>/tech-department/syllabuses/data-eng/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/syllabuses/data-eng/</guid>
+      <description>MUB  NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  Week 1: Linux and soft skills In this week, everyone gets to know their way around linux.
+ Department ice-breaker  WORKSHOPS: How to be a professional   REMOTE-WORK: How recruits work remotely  Introduction to NCIT curriculum  WORKSHOPS: Introduction to Linux: Live demo   TOPICS: Introduction to Linux   PROJECTS: Beginner Linux challenges   TOPICS: Introduction to Bash and the terminal   TOPICS: Python self-learning   TOPICS: Clean Code   Week 2: Git and personal portfolio   TOPICS: Git Basics  Q&amp;amp;A Git basics  PROJECTS: Git Basic Exercises   WORKSHOPS: What to Put On A CV   PROJECTS: Build your first personal website - Introduction  TOPICS: Clean Code  NCIT 04: Version control (GIT) for teamwork  Week 3: Finish portfolio project   WORKSHOPS: [TODO] Big Picture of Web Dev   PROJECTS: Build your first personal website - Deadline NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)   Week 4:   TOPICS: How to ask for help with your code   PROJECTS: Level 1 programming katas do this in pairs  WORKSHOPS: [TODO] Basic Intro to OOP   TOPICS: [TODO] Python OOP basics   PROJECTS: Person do this in pairs  PROJECTS: Animals Part 1.</description>
+    </item>
+    
+    <item>
+      <title>Web Development</title>
+      <link>/tech-department/syllabuses/web-dev/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/syllabuses/web-dev/</guid>
+      <description>MUB  NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  Week 1: Linux and soft skills  Department ice-breaker  WORKSHOPS: How to be a professional   TOPICS: Web Dev learning materials  Introduction to NCIT curriculum  WORKSHOPS: Introduction to Linux: Live demo   TOPICS: Introduction to Linux   PROJECTS: Beginner Linux challenges   TOPICS: Introduction to Bash and the terminal   Week 2: Git and personal portfolio Recruits learn a bit about how to build an online presence.</description>
+    </item>
+    
   </channel>
 </rss>

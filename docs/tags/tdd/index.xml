@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tdd on Documentation for Umuzi Tech Department</title>
+    <link>/tech-department/tags/tdd/</link>
+    <description>Recent content in Tdd on Documentation for Umuzi Tech Department</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="/tech-department/tags/tdd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>simple-calculator part 1</title>
+      <link>/tech-department/projects/tdd/simple-calculator-part1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/projects/tdd/simple-calculator-part1/</guid>
+      <description>The objective of this project is to build a calulator that can perform multiplication and addition on multiple integers. Do not build a front-end (UI). Complete this project by using a TDD approach.
+The basic TDD approach is as follows:
+ RED: Write tests. It should fail initially because there isn&amp;rsquo;t any code that it is testing. GREEN: Write code to make the tests pass. REFACTOR: Make sure code is understandable and clean.</description>
+    </item>
+    
+    <item>
+      <title>simple-calculator part 2</title>
+      <link>/tech-department/projects/tdd/simple-calculator-part2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/projects/tdd/simple-calculator-part2/</guid>
+      <description>This a continuation of PROJECTS: simple-calculator part 1 . If you haven&amp;rsquo;t done that yet then please do. At this point you should have a well tested add and multiply function.
+This exercise will require a little OOP knowledge. Brace yourself.
+Set up your environment Javascript Please test your code using jasmine.
+Your directory structure should look like this.
+ &amp;gt;node_modules &amp;lt;---- make sure this is in your .gitignore &amp;gt;spec &amp;gt; support - jasmine.</description>
+    </item>
+    
+  </channel>
+</rss>

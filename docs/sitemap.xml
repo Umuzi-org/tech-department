@@ -3,36 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/tech-department/syllabuses/data-engineering/</loc>
-    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tech-department/syllabuses/data-science/</loc>
-    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tech-department/syllabuses/product-teams/</loc>
-    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tech-department/syllabuses/web-dev-long/</loc>
-    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tech-department/syllabuses/home-study-web-dev-prep/</loc>
-    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tech-department/syllabuses/web-dev-short-course/</loc>
-    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tech-department/projects/nodejs/file-io/</loc>
   </url>
   
@@ -187,11 +157,6 @@
   
   <url>
     <loc>/tech-department/topics/agile-scrum/</loc>
-    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tech-department/syllabuses/online-learning-and-bootbamp/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
   
@@ -397,6 +362,10 @@
   
   <url>
     <loc>/tech-department/projects/data-science-specific/dashboards/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/syllabuses/data-eng/</loc>
   </url>
   
   <url>
@@ -1106,6 +1075,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/rabbitmq/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/data-science-specific/regression/</loc>
   </url>
   
@@ -1135,10 +1108,6 @@
   
   <url>
     <loc>/tech-department/department-processes/workshops_and_events/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/syllabuses/web-dev-short-course/self-study/</loc>
   </url>
   
   <url>
@@ -1175,6 +1144,11 @@
   
   <url>
     <loc>/tech-department/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/tdd/</loc>
     <priority>0</priority>
   </url>
   
@@ -1245,6 +1219,10 @@
   
   <url>
     <loc>/tech-department/topics/web-dev-self-learning/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/syllabuses/web-dev/</loc>
   </url>
   
   <url>
