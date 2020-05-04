@@ -369,6 +369,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 - NCIT 13: Object-oriented programming
 
 - DATA_SCI
+
   - {{% contentlink "topics/python-specific/oop-for-python" %}}
   - {{% contentlink "projects/oop-for-data-science" %}}
 
@@ -418,7 +419,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 ## Week 15
 
 - DATA_ENG:
-  - {{% contentlink "topics/data-infrastructure/dags-with-airflow" %}}
+  - {{% contentlink "projects/rabbitmq" %}}
   - {{% contentlink "projects/dags-with-airflow" %}} - INTRODUCED
 
 * DATA_SCI:

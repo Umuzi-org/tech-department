@@ -2,6 +2,9 @@
 title: password-checker
 pre: "<b>MEDIUM: </b>"
 ready: true
+prerequisites:
+  hard: ["projects/tdd/simple-calculator-part1"]
+  soft: []
 ---
 
 ## Set up your environment
