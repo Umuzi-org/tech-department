@@ -478,6 +478,10 @@ JAVA:
 
 * DATA_SCI: BUFFER WEEK
 
+- JAVA:
+  - {{% contentlink "topics/java-specific/introduction-to-spring-boot/part-4" %}}
+  - {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-4" %}}
+
 ## Week 18
 
 - NCIT 15: Analytics, Surveys, and Reports / Input & Output
