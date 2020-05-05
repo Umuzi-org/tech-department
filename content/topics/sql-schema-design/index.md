@@ -120,7 +120,7 @@ Designing a database schema design is fairly a simple process, yet can prove to 
 
 ## For more:
 
-- To find out more about the difference bettwen **data model** and **database schema** please click [here](https://www.quora.com/What-is-the-difference-between-a-data-model-and-database-schema)
+- To find out more about the difference between **data model** and **database schema** please click [here](https://www.quora.com/What-is-the-difference-between-a-data-model-and-database-schema)
 - To find more about *database design* please click [here](https://www.guru99.com/database-design.html)
 - [Learn SQL](https://www.w3schools.com/sql/sql_intro.asp).
 - Find out more about relational database [here](https://dev.to/lmolivera/everything-you-need-to-know-about-relational-databases-3ejl)
