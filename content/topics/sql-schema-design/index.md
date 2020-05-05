@@ -54,62 +54,48 @@ let establish all entities with their names and properties
 
   Each entity, attribute and relationship, should have appropriate names and that can be easily understood by the non-technical people as well. A relationship should connect entities.
 
- our entities within the "department schema" have the following relationships:
+ We will consider the following relationships within our  database :
 
-- Each department has a one or more staff member, a staff member is part of only one department at a time
-- each cohort is linked to one or more department(s)
-- each cohort has one or more recruits
+- a one to one
+- a one to many
+- a many to many
 
-We will consider only this scenario for now.
+### CASE 1 : One  to one relationship
+
+Think on of a student who has joined a cohort,
+having their name should allow a manger to retrieve his/her cohort.
+
+The relationship is to be represented as follow:
+
+![step 3 image](./img/one_one_rel.png)
+
+The resulting joined table
+
+![step 3 image](./img/one_one_result.png)
+
+### CASE 2 : Many to one
+
+On the other hand many recruits have been added to the same cohort, one cohort can contain many recruits, this is a `many to
+one relationship`.
+
+Our relationship representation becomes:
+
+![step 3 image](./img/many_to_one_table.png)
+
+Query to see the recruits within a cohort could look as follow.
 
 ![step 3 image](./img/step_3.png)
 
-Step 4: Create queries
+### CASE 3 : Many to many relationship
 
-So far we have identified entities, added attributed to our entities, and established relationships. It about time we create queries as required on our ticket.
+ It is well known that a product at Umuzi might have one or more senior team members(staff) contributing to it. Assume you need to find out who are the seniors working on a team.
 
-Do you recall the 4 queries? Great!
+ ![step 3 image](./img/many_to_many_rel.png)
 
-1. if the user has a recruit's full name he/she should be able to find which cohort the recruit belongs to.
+ This works for few data but what if the management require that more details about a manager performance on a project be stored as wel.
+ We have a possibility to create a new table from the existing relationship, such tables ar called `bridge table`.
 
-Let have a closer look at the relationship between recruits and cohorts, one recruits should belong to one cohort at a time, `one to one relationship`.
-
-![recruit -> cohort relatioship](./img/recruit_to_cohort.png)
-
-From this relationship a SQL query could look as follow :
-
-```
-SELECT cohorts.name FROM cohorts
- JOIN recruits ON cohorts.cohort.id=recruits.cohort_id
-WHERE recruits.name ='Lufuno Bourgier'
-```
-
--  if the user has a cohort name he/she should be able to find recruit(s) in it.
-
-This is a reverse operation from the previous one, `one to many`.
-
-```
-SELECT recruits.name
- FROM recruits
- JOIN cohorts ON recruits.cohort_id = cohorts.id
-WHERE cohort.id = 'Cx'
- ```
-
--  if the user has a staff member's email he/she should be able to retrieve recruits  he/she is servicing
-
-There seems to be no direct link between a recruits entity and staff entity, however, they both share one property which is a `department id`, once the relationship between staff entity and the recruits entity is established, we will what is called a `many to many` relationships as illustrated bellow.
-
-![many to many relationship](./img/many_to_many.png)
-
-A SQL query could look as follow:
-
-```
-SELECT recruits.name
- FROM recruits
- JOIN departments on recruits.department_id = department.id
- JOIN staff on department.id = staff.department_id
-WHERE staff.email = 'name.surname@umuzi.org'
-```
+ ![step 3 image](./img/many_to_many_bridge.png)
 
 
 
