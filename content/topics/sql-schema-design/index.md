@@ -82,9 +82,7 @@ Our relationship representation becomes:
 
 ![step 3 image](./img/many_to_one_table.png)
 
-Query to see the recruits within a cohort could look as follow.
 
-![step 3 image](./img/step_3.png)
 
 ### CASE 3 : Many to many relationship
 
