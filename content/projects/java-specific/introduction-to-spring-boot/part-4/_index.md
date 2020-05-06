@@ -71,7 +71,7 @@ Now we start to do the real work
 1. Get the currency for United Kingdom: Output
 
 ```
-Currency: EUR
+Currency: GBP
 
 ```
 
