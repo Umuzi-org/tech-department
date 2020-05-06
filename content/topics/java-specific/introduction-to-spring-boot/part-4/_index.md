@@ -112,7 +112,7 @@ restTemplate.delete(entityUrl);
 
 ```
 
-# Consuming SOAP Webservice
+# Consuming SOAP Web Service
 
 This is the second kind of web service you mights be required to consume which is more involved that the REST API.
 
@@ -122,19 +122,19 @@ First lets learn some terminology of all the things you will working on
 
 	- Below is the general structure of a WSDL file
 
-		- Definition
+		- Definition: It defines the name of the web service.
 
-		- TargetNamespace
+		- TargetNamespace: Is a convention of XML Schema that enables the WSDL document to refer to itself
 
-		- DataTypes
+		- DataTypes: Defines the types for input and output
 
-		- Messages
+		- Messages: Defines the data elements for each operation
 
-		- Porttype
+		- Porttype: Describes the operations that can be performed and the messages involved.
 
-		- Bindings
+		- Bindings: Defines the protocol and data format for each port type.
 
-		- service
+		- service: A collection of related endpoints.
 
 2. `xsd`: is a file used to define what elements and attributes may appear in an XML document. It also defines the relationship of the elements and what data may be stored in them
 
@@ -160,7 +160,19 @@ First lets learn some terminology of all the things you will working on
     </xsd:element>
 ```
 
-Second you need to download the right dependencies to generate classes from a wsdl. I wont lie the gradle configuration for this is long and complicated so I wont add it in the note but I suggest you go through this [example](https://spring.io/guides/gs/consuming-web-service/)
+The first most important process of consuming a wsdl is generating classes from the wsdl which can be used in the project. We have multiple ways to consume wsdl but we will explore 1 which is Jax-WS if you would like you can also checkout [spring-ws](https://docs.spring.io/spring-ws/docs/3.0.9.RELEASE/reference/).
+
+1. Jax-WS: Is a technology for building web services and clients that communicate using XML e.g SOAP
+
+2. Spring-WS: Aims to facilitate contract-first SOAP service development, allowing for the creation of flexible web services using one of the many ways to manipulate XML payloads
+
+### Jax-WS (Java API for XML Web Services)
+
+The process of generating wsdl can be done as a build task so it execute at run time. You want to be able to do this so that your application can be deployed and function on different environments outside your local setting.
+
+This process is quite complex and lengthy but you can checkout the [example](https://spring.io/guides/gs/consuming-web-service/). I have added some code snippet and explanation below for some of the sections. 
+
+Basic gradle dependencies this will be coupled with a build task which points to the source and destination of the wsdl and generated files
 
 ```
 implementation ('org.springframework.boot:spring-boot-starter-web-services') {
@@ -193,7 +205,7 @@ public class UserClient extends WebServiceGatewaySupport {
 
 ```
 
-Then you need to configure Marshalling, Spring Web Service uses Spring Framework’s OXM module, which has the Jaxb2Marshaller to serialize and deserialize XML requests.
+Then you need to configure `Marshalling`(refers to the process of converting the data or the objects into a byte-stream), Spring Web Service uses Spring Framework’s OXM module (mapping XML data), which has the Jaxb2Marshaller to serialize and deserialize XML requests.
 
 ```
 import org.springframework.context.annotation.Bean;
@@ -207,7 +219,7 @@ public class UserConfiguration {
   public Jaxb2Marshaller marshaller() {
     Jaxb2Marshaller marshaller = new Jaxb2Marshaller();
     // this package must match the package in the <generatePackage> specified in
-    // pom.xml
+    // gradle
     marshaller.setContextPath("com.example.consumingwebservice.wsdl");
     return marshaller;
   }
@@ -224,6 +236,40 @@ public class UserConfiguration {
 }
 
 ```
+
+
+There is however a more simpler way which is more suited for our use case which is generating the files local and testing them. I can imagine that you can add this command in a build script that run on a deployed application but maybe that exploration is for another day. To do this we need to know what `wsimport` is.
+
+- `wsimport`: Available in you JDK bin directory, is used to parse an existing Web Services Description Language (WSDL) file and generate required files for web service client to access the published web services.
+
+To generate the classes you would do something like
+
+```
+wsimport -keep -p com.mypackage.wsdl http://localhost:8080/ws/countries.wsdl
+
+```
+
+`-keep`: Store the files in disk.
+
+`-p`: specifies target package (where we are getting the wsdl from), this one http://localhost:8080/ws/countries.wsdl is hosted 'remotely'.
+
+Now we have the classes in the this package `com.mypackage.wsdl` we can start using it to communicate with our web service and its as simple as this
+
+```
+
+public class EmployeeServiceClient {
+    public static void main(String[] args) throws Exception {
+        URL url = new URL("http://localhost:8080/employeeservice?wsdl");
+ 
+        EmployeeService_Service employeeService_Service = new EmployeeService_Service(url);
+        EmployeeService employeeServiceProxy  = employeeService_Service.getEmployeeServiceImplPort();
+ 
+        List<Employee> allEmployees = employeeServiceProxy.getAllEmployees();
+    }
+}
+
+```
+
 
 ## References
 
@@ -243,6 +289,7 @@ https://www.baeldung.com/rest-template
 
 https://www.tutorialspoint.com/java/java_serialization.htm
 
+https://crunchify.com/basic-wsdl-structure-understanding-wsdl-explained/
 
 https://spring.io/guides/gs/consuming-web-service/#initial
 
@@ -253,3 +300,9 @@ https://fileinfo.com/extension/xsd
 https://medium.com/swlh/consume-soap-web-services-with-spring-boot-4ea8e1ad7b16
 
 https://docs.spring.io/spring-ws/site/reference/html/client.html
+
+https://mkyong.com/webservices/jax-ws/jax-ws-wsimport-tool-example/
+
+https://www.baeldung.com/jax-ws
+
+https://www.w3schools.com/xml/xml_wsdl.asp
