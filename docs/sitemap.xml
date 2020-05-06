@@ -197,12 +197,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/android/</loc>
+    <loc>/tech-department/projects/android/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/projects/android/</loc>
+    <loc>/tech-department/topics/android/</loc>
     <priority>0</priority>
   </url>
   
@@ -684,10 +684,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/java-specific/introduction-to-spring-boot/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/java-specific/introduction-to-spring-boot/</loc>
   </url>
   
@@ -713,6 +709,18 @@
   
   <url>
     <loc>/tech-department/topics/java-specific/introduction-to-spring-boot/part-3/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/java-specific/introduction-to-spring-boot/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/java-specific/introduction-to-spring-boot/part-4/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/java-specific/introduction-to-spring-boot/part-4/</loc>
   </url>
   
   <url>
