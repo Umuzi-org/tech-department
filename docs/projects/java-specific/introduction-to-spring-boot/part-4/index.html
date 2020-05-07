@@ -12,19 +12,19 @@
     <title>Introduction to Spring Boot - part 4 :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1588669146" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1588669146" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1588669146" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1588669146" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1588669146" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1588669146" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1588669146" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1588669146" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1588845435" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1588845435" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1588845435" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1588845435" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1588845435" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1588845435" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1588845435" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1588845435" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1588669146" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1588845435" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1588669146"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1588845435"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1588669146"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1588669146"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1588845435"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1588845435"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1588669146"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1588845435"></script>
 
     
   </div>
@@ -8476,7 +8476,18 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#rest-api">REST API</a></li>
+<li><a href="#soap-web-service">SOAP WEB SERVICE</a>
+<ul>
+<li><a href="#happy-hacking">Happy Hacking!!!</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -8533,6 +8544,95 @@
 
         
 
+
+
+<p>In this project we will consume a REST API and a SOAP web service in our User service repository.</p>
+
+<h2 id="rest-api">REST API</h2>
+
+<p><strong>Step 1</strong></p>
+
+<p>Familiarize yourself with the git api found here <a href="https://developer.github.com/v3/">https://developer.github.com/v3/</a> learn which endpoint to get your repo, commits maybe branches etc. Try it out or postman or curl on the terminal</p>
+
+<p><strong>Step 2</strong></p>
+
+<p>Now we are going to consume the api in our spring boot application using restTemplates as per topic work. I would like to se</p>
+
+<ol>
+<li>I would like you to specifically return the v3 version of the api</li>
+<li>A list of all your repos - output on the console</li>
+<li>A list of commits in 1 repo of your choice - output on teh console</li>
+</ol>
+
+<h2 id="soap-web-service">SOAP WEB SERVICE</h2>
+
+<p><strong>Step 1</strong></p>
+
+<p>Clone the repo found here <a href="https://github.com/spring-guides/gs-producing-web-service">https://github.com/spring-guides/gs-producing-web-service</a> and open the <code>complete</code> folder as your project not the entire repo. Review it on a high level this will be the wsdl project we are going to use to learn how to consume a wsdl application.</p>
+
+<p>Change the application to sun on port 9090 by adding this to the properties file</p>
+
+<pre><code>server.port=9090
+
+</code></pre>
+
+<p>Run the application you should be able to do to the below url,</p>
+
+<pre><code>http://localhost:9090/ws/countries.wsdl
+
+</code></pre>
+
+<p>and see this</p>
+
+<pre><code>&lt;wsdl:definitions xmlns:wsdl=&quot;http://schemas.xmlsoap.org/wsdl/&quot; xmlns:sch=&quot;http://spring.io/guides/gs-producing-web-service&quot; xmlns:soap=&quot;http://schemas.xmlsoap.org/wsdl/soap/&quot; xmlns:tns=&quot;http://spring.io/guides/gs-producing-web-service&quot; targetNamespace=&quot;http://spring.io/guides/gs-producing-web-service&quot;&gt;
+    &lt;wsdl:types&gt;
+        &lt;xs:schema xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; elementFormDefault=&quot;qualified&quot; targetNamespace=&quot;http://spring.io/guides/gs-producing-web-service&quot;&gt;
+        &lt;xs:element name=&quot;getCountryRequest&quot;&gt;
+            &lt;xs:complexType&gt;
+            &lt;xs:sequence&gt;
+
+// ....
+
+</code></pre>
+
+<p>keep this project running in the background</p>
+
+<p><strong>Step 2</strong>
+Got back to your UserService repo and in your terminal navigate to <code>src/main/java</code> and run this command</p>
+
+<pre><code>wsimport -keep -p com.nameOfYourPackage.wsdl http://localhost:9090/ws/countries.wsdl
+
+</code></pre>
+
+<p><strong>Step 3</strong></p>
+
+<p>Now we start to do the real work</p>
+
+<ol>
+<li>Get the currency for United Kingdom: Output</li>
+</ol>
+
+<pre><code>Currency: GBP
+
+</code></pre>
+
+<ol>
+<li>Get the capital of United Kingdom: Output</li>
+</ol>
+
+<pre><code>Capital: London
+
+</code></pre>
+
+<ol>
+<li>Get the population of United Kingdom: Output</li>
+</ol>
+
+<pre><code>Population: 63705000
+
+</code></pre>
+
+<h3 id="happy-hacking">Happy Hacking!!!</h3>
 
 
 <footer class=" footline" >
@@ -13893,20 +13993,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1588669146"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1588669146"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1588669146"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1588669146"></script>
-    <script src="/tech-department/js/featherlight.min.js?1588669146"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1588669146"></script>
-    <script src="/tech-department/js/highlight.pack.js?1588669146"></script>
+    <script src="/tech-department/js/clipboard.min.js?1588845435"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1588845435"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1588845435"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1588845435"></script>
+    <script src="/tech-department/js/featherlight.min.js?1588845435"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1588845435"></script>
+    <script src="/tech-department/js/highlight.pack.js?1588845435"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1588669146"></script>
-    <script src="/tech-department/js/learn.js?1588669146"></script>
-    <script src="/tech-department/js/hugo-learn.js?1588669146"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1588845435"></script>
+    <script src="/tech-department/js/learn.js?1588845435"></script>
+    <script src="/tech-department/js/hugo-learn.js?1588845435"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1588669146" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1588669146"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1588845435" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1588845435"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

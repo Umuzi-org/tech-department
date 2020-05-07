@@ -12,19 +12,19 @@
     <title>Introduction to Spring Boot - part 4 :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1588669146" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1588669146" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1588669146" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1588669146" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1588669146" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1588669146" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1588669146" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1588669146" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1588845435" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1588845435" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1588845435" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1588845435" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1588845435" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1588845435" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1588845435" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1588845435" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1588669146" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1588845435" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1588669146"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1588845435"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1588669146"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1588669146"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1588845435"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1588845435"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1588669146"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1588845435"></script>
 
     
   </div>
@@ -8484,8 +8484,12 @@
 <li><a href="#post-call-used-to-save-data">POST call: Used to save data</a></li>
 <li><a href="#delete-call-removing-a-record">DELETE call: Removing a record</a></li>
 </ul></li>
-<li><a href="#consuming-soap-webservice">Consuming SOAP Webservice</a>
+<li><a href="#consuming-soap-web-service">Consuming SOAP Web Service</a>
 <ul>
+<li>
+<ul>
+<li><a href="#jax-ws-java-api-for-xml-web-services">Jax-WS (Java API for XML Web Services)</a></li>
+</ul></li>
 <li><a href="#references">References</a></li>
 </ul></li>
 </ul>
@@ -8639,7 +8643,7 @@ restTemplate.delete(entityUrl);
 
 </code></pre>
 
-<h1 id="consuming-soap-webservice">Consuming SOAP Webservice</h1>
+<h1 id="consuming-soap-web-service">Consuming SOAP Web Service</h1>
 
 <p>This is the second kind of web service you mights be required to consume which is more involved that the REST API.</p>
 
@@ -8652,19 +8656,19 @@ restTemplate.delete(entityUrl);
 <li><p>Below is the general structure of a WSDL file</p>
 
 <ul>
-<li><p>Definition</p></li>
+<li><p>Definition: It defines the name of the web service.</p></li>
 
-<li><p>TargetNamespace</p></li>
+<li><p>TargetNamespace: Is a convention of XML Schema that enables the WSDL document to refer to itself</p></li>
 
-<li><p>DataTypes</p></li>
+<li><p>DataTypes: Defines the types for input and output</p></li>
 
-<li><p>Messages</p></li>
+<li><p>Messages: Defines the data elements for each operation</p></li>
 
-<li><p>Porttype</p></li>
+<li><p>Porttype: Describes the operations that can be performed and the messages involved.</p></li>
 
-<li><p>Bindings</p></li>
+<li><p>Bindings: Defines the protocol and data format for each port type.</p></li>
 
-<li><p>service</p></li>
+<li><p>service: A collection of related endpoints.</p></li>
 </ul></li>
 </ul></li>
 
@@ -8692,7 +8696,21 @@ restTemplate.delete(entityUrl);
     &lt;/xsd:element&gt;
 </code></pre>
 
-<p>Second you need to download the right dependencies to generate classes from a wsdl. I wont lie the gradle configuration for this is long and complicated so I wont add it in the note but I suggest you go through this <a href="https://spring.io/guides/gs/consuming-web-service/">example</a></p>
+<p>The first most important process of consuming a wsdl is generating classes from the wsdl which can be used in the project. We have multiple ways to consume wsdl but we will explore 1 which is Jax-WS if you would like you can also checkout <a href="https://docs.spring.io/spring-ws/docs/3.0.9.RELEASE/reference/">spring-ws</a>.</p>
+
+<ol>
+<li><p>Jax-WS: Is a technology for building web services and clients that communicate using XML e.g SOAP</p></li>
+
+<li><p>Spring-WS: Aims to facilitate contract-first SOAP service development, allowing for the creation of flexible web services using one of the many ways to manipulate XML payloads</p></li>
+</ol>
+
+<h3 id="jax-ws-java-api-for-xml-web-services">Jax-WS (Java API for XML Web Services)</h3>
+
+<p>The process of generating wsdl can be done as a build task so it execute at run time. You want to be able to do this so that your application can be deployed and function on different environments outside your local setting.</p>
+
+<p>This process is quite complex and lengthy but you can checkout the <a href="https://spring.io/guides/gs/consuming-web-service/">example</a>. I have added some code snippet and explanation below for some of the sections.</p>
+
+<p>Basic gradle dependencies this will be coupled with a build task which points to the source and destination of the wsdl and generated files</p>
 
 <pre><code>implementation ('org.springframework.boot:spring-boot-starter-web-services') {
 	exclude group: 'org.springframework.boot', module: 'spring-boot-starter-tomcat'
@@ -8723,7 +8741,7 @@ public class UserClient extends WebServiceGatewaySupport {
 
 </code></pre>
 
-<p>Then you need to configure Marshalling, Spring Web Service uses Spring Framework’s OXM module, which has the Jaxb2Marshaller to serialize and deserialize XML requests.</p>
+<p>Then you need to configure <code>Marshalling</code>(refers to the process of converting the data or the objects into a byte-stream), Spring Web Service uses Spring Framework’s OXM module (mapping XML data), which has the Jaxb2Marshaller to serialize and deserialize XML requests.</p>
 
 <pre><code>import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -8736,7 +8754,7 @@ public class UserConfiguration {
   public Jaxb2Marshaller marshaller() {
     Jaxb2Marshaller marshaller = new Jaxb2Marshaller();
     // this package must match the package in the &lt;generatePackage&gt; specified in
-    // pom.xml
+    // gradle
     marshaller.setContextPath(&quot;com.example.consumingwebservice.wsdl&quot;);
     return marshaller;
   }
@@ -8750,6 +8768,38 @@ public class UserConfiguration {
     return client;
   }
 
+}
+
+</code></pre>
+
+<p>There is however a more simpler way which is more suited for our use case which is generating the files local and testing them. I can imagine that you can add this command in a build script that run on a deployed application but maybe that exploration is for another day. To do this we need to know what <code>wsimport</code> is.</p>
+
+<ul>
+<li><code>wsimport</code>: Available in you JDK bin directory, is used to parse an existing Web Services Description Language (WSDL) file and generate required files for web service client to access the published web services.</li>
+</ul>
+
+<p>To generate the classes you would do something like</p>
+
+<pre><code>wsimport -keep -p com.mypackage.wsdl http://localhost:8080/ws/countries.wsdl
+
+</code></pre>
+
+<p><code>-keep</code>: Store the files in disk.</p>
+
+<p><code>-p</code>: specifies target package (where we are getting the wsdl from), this one <a href="http://localhost:8080/ws/countries.wsdl">http://localhost:8080/ws/countries.wsdl</a> is hosted &lsquo;remotely&rsquo;.</p>
+
+<p>Now we have the classes in the this package <code>com.mypackage.wsdl</code> we can start using it to communicate with our web service and its as simple as this</p>
+
+<pre><code>
+public class EmployeeServiceClient {
+    public static void main(String[] args) throws Exception {
+        URL url = new URL(&quot;http://localhost:8080/employeeservice?wsdl&quot;);
+ 
+        EmployeeService_Service employeeService_Service = new EmployeeService_Service(url);
+        EmployeeService employeeServiceProxy  = employeeService_Service.getEmployeeServiceImplPort();
+ 
+        List&lt;Employee&gt; allEmployees = employeeServiceProxy.getAllEmployees();
+    }
 }
 
 </code></pre>
@@ -8772,6 +8822,8 @@ public class UserConfiguration {
 
 <p><a href="https://www.tutorialspoint.com/java/java_serialization.htm">https://www.tutorialspoint.com/java/java_serialization.htm</a></p>
 
+<p><a href="https://crunchify.com/basic-wsdl-structure-understanding-wsdl-explained/">https://crunchify.com/basic-wsdl-structure-understanding-wsdl-explained/</a></p>
+
 <p><a href="https://spring.io/guides/gs/consuming-web-service/#initial">https://spring.io/guides/gs/consuming-web-service/#initial</a></p>
 
 <p><a href="https://www.guru99.com/wsdl-web-services-description-language.html">https://www.guru99.com/wsdl-web-services-description-language.html</a></p>
@@ -8781,6 +8833,12 @@ public class UserConfiguration {
 <p><a href="https://medium.com/swlh/consume-soap-web-services-with-spring-boot-4ea8e1ad7b16">https://medium.com/swlh/consume-soap-web-services-with-spring-boot-4ea8e1ad7b16</a></p>
 
 <p><a href="https://docs.spring.io/spring-ws/site/reference/html/client.html">https://docs.spring.io/spring-ws/site/reference/html/client.html</a></p>
+
+<p><a href="https://mkyong.com/webservices/jax-ws/jax-ws-wsimport-tool-example/">https://mkyong.com/webservices/jax-ws/jax-ws-wsimport-tool-example/</a></p>
+
+<p><a href="https://www.baeldung.com/jax-ws">https://www.baeldung.com/jax-ws</a></p>
+
+<p><a href="https://www.w3schools.com/xml/xml_wsdl.asp">https://www.w3schools.com/xml/xml_wsdl.asp</a></p>
 
 
 <footer class=" footline" >
@@ -14141,20 +14199,20 @@ public class UserConfiguration {
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1588669146"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1588669146"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1588669146"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1588669146"></script>
-    <script src="/tech-department/js/featherlight.min.js?1588669146"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1588669146"></script>
-    <script src="/tech-department/js/highlight.pack.js?1588669146"></script>
+    <script src="/tech-department/js/clipboard.min.js?1588845435"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1588845435"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1588845435"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1588845435"></script>
+    <script src="/tech-department/js/featherlight.min.js?1588845435"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1588845435"></script>
+    <script src="/tech-department/js/highlight.pack.js?1588845435"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1588669146"></script>
-    <script src="/tech-department/js/learn.js?1588669146"></script>
-    <script src="/tech-department/js/hugo-learn.js?1588669146"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1588845435"></script>
+    <script src="/tech-department/js/learn.js?1588845435"></script>
+    <script src="/tech-department/js/hugo-learn.js?1588845435"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1588669146" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1588669146"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1588845435" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1588845435"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
