@@ -1,6 +1,19 @@
 ---
 title: OOP for data science
-ready: True
+pre: "<b>MEDIUM: </b>"
+ready: true
+prerequisites:
+  hard: 
+    [
+	  "topics/python-specific/oop-for-python",
+    "projects/data-science-specific/cross-validation-and-simple-linear-regression",
+    "projects/data-science-specific/multivariate-linear-regression",
+    ]
+  soft:
+  	[
+	  "topics/python-specific/oop-basics"
+    ]
+tags: ["oop-data-sci"]
 ---
 
 ## Prerequisite
