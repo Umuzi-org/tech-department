@@ -125,6 +125,7 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "topics/linux/os-environmental-variables/" %}}
   - {{% contentlink "topics/intro-to-docker/" %}}
   - {{% contentlink "topics/python-specific/virtual-envs/" %}}
+  - {{% contentlink "projects/data-science-specific/dashboards/" %}}
 
 ## Week 16
 
