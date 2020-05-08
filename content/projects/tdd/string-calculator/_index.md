@@ -2,6 +2,10 @@
 title: string-calculator
 pre: "<b>MEDIUM: </b>"
 ready: true
+prerequisites:
+  hard: ["projects/basic-flow-control-katas"]
+  soft: ["projects/tdd/simple-calculator-part1"]
+tags: ["string-calculator"]
 ---
 
 ## Set up your environment

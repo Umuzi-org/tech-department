@@ -58,8 +58,6 @@ The recruits finish off their portfolios. From this point forward they are expec
   - {{% contentlink "topics/python-specific/automated-testing-with-pytest" %}}
   - {{% contentlink "projects/basic-flow-control-katas" %}} do this in pairs
   - {{% contentlink "projects/tdd/simple-calculator-part1/" %}} do this in pairs
-  - {{% contentlink "projects/basic-flow-control-katas" %}} do this in pairs
-  
 
 ## Week 5: Some specific skills
 
