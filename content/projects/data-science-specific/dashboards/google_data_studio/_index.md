@@ -2,6 +2,16 @@
 title: Google Data Studio Assignment
 pre: "<b> EASY: </b>"
 ready: True
+prerequisites:
+  hard: 
+    [
+	  "projects/data-science-specific/dashboards/plotly_dashboards",
+    ]
+  soft:
+  	[
+	  "projects/data-science-specific/data-wrangling"
+    ]
+tags: ["google-datastudio"]
 ---
 
 

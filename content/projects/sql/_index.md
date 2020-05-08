@@ -1,6 +1,20 @@
 ---
 title: SQL
 ready: True
+pre: "<b> EASY: </b>"
+ready: true
+prerequisites:
+  hard: 
+    [
+      "topics/python-specific/sql-and-python",
+      "topics/python-specific/sqlalchemy/migration",
+      "projects/data-science-specific/data-visualisation",
+    ]
+  soft:
+  	[
+	  "projects/data-science-specific/data-wrangling"
+    ]
+tags: ["sql"]
 ---
 ## NCIT Units 114048 & 114049
 

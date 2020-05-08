@@ -116,22 +116,22 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 ## Week 14
 
-  - {{% contentlink "topics/python-specific/sql-and-python/" %}}
-  - {{% contentlink "topics/python-specific/sqlalchemy/migrations" %}}
-  - {{% contentlink "projects/sql/" %}}
-  
-## Week 15
-
   - {{% contentlink "topics/linux/os-environmental-variables/" %}}
   - {{% contentlink "topics/intro-to-docker/" %}}
   - {{% contentlink "topics/python-specific/virtual-envs/" %}}
-  - {{% contentlink "projects/data-science-specific/dashboards/" %}}
+  - {{% contentlink "projects/data-science-specific/dashboards/plotly_dashboards" %}} 
+  
+## Week 15
+
+  - {{% contentlink "projects/data-science-specific/dashboards/" %}} (ELECTIVE)
 
 ## Week 16
 
   - NCIT 14: Database Development
   - {{% contentlink "topics/python-specific/sql-and-python/" %}}
   - {{% contentlink "topics/data-validation-and-quality-control/" %}}
+  - {{% contentlink "topics/python-specific/sqlalchemy/migrations" %}}
+  - {{% contentlink "projects/sql/" %}}
 
 ## Week 17
 
