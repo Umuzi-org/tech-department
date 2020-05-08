@@ -5,12 +5,12 @@ ready: True
 pre: "<b>MEDIUM: </b>"
 ready: True
 prerequisites:
-  hard: 
+  hard:
     [
 	  "topics/data-science-specific/natural-language-processing"
     ]
   soft:
-  	[
+    [
 	  "topics/python-self-learning",
       "topics/jupyter-notebooks-best-practices",
     ]

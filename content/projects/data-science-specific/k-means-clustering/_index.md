@@ -4,7 +4,7 @@ ready: True
 pre: "<b>MEDIUM: </b>"
 ready: True
 prerequisites:
-  hard: 
+  hard:
     [
 	  "projects/data-science-specific/statistical-thinking",
       "projects/data-science-specific/data-visualisation",
@@ -12,7 +12,7 @@ prerequisites:
       "topics/data-science-specific/clustering",      
     ]
   soft:
-  	[
+    [
 	  "topics/python-self-learning",
       "topics/jupyter-notebooks-best-practices",
       "topics/data-science-specific/data-science-methodology",

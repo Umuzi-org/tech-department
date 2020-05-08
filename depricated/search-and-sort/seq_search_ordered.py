@@ -10,10 +10,11 @@ def orderedSequentialSearch(alist, item):
             if alist[pos] > item:
                 stop = True
             else:
-                pos = pos+1
+                pos = pos + 1
 
     return found
 
-testlist = [0, 1, 2, 8, 13, 17, 19, 32, 42,]
-print(orderedSequentialSearch(testlist, 3)) #return False
-print(orderedSequentialSearch(testlist, 13)) #return True
+
+testlist = [0, 1, 2, 8, 13, 17, 19, 32, 42]
+print(orderedSequentialSearch(testlist, 3))  # return False
+print(orderedSequentialSearch(testlist, 13))  # return True

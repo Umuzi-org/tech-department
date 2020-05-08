@@ -9,10 +9,10 @@ prerequisites:
 	  "projects/data-science-specific/data-visualisation/mobile-money-viz",
     ]
   soft:
-  	[
+    [
 	  "topics/python-self-learning",
 	  "topics/jupyter-notebooks-best-practices",
-	]
+    ]
 tags: ["simple-linear-regression"]
 ---
 

@@ -4,14 +4,10 @@ title: Webscraping and Live Dashboard Assignment
 pre: "<b> HARD: </b>"
 ready: True
 prerequisites:
-  hard: 
-    [
-	  "projects/data-science-specific/dashboards/plotly_dashboards",
-    ]
+  hard:
+    ["projects/data-science-specific/dashboards/plotly_dashboards"]
   soft:
-  	[
-	  "projects/data-science-specific/data-wrangling"
-    ]
+    ["projects/data-science-specific/data-wrangling"]
 tags: ["webscraping+dashboard"]
 ---
 

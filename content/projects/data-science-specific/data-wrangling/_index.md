@@ -3,9 +3,9 @@ title: Data Wrangling
 pre: "<b>MEDIUM: </b>"
 ready: true
 prerequisites:
-  hard: 
+  hard:
     [
-      "topics/data-validation-and-quality-control/_index.md"
+      "topics/data-validation-and-quality-control",
       "topics/jupyter-notebooks-best-practices",
       "topics/python-self-learning",
     ]

@@ -3,13 +3,13 @@ title: Multivariate Linear Regression
 pre: "<b>MEDIUM: </b>"
 ready: true
 prerequisites:
-  hard: 
+  hard:
     [
 	  "projects/data-science-specific/statistical-thinking",
 	  "content/projects/data-science-specific/cross-validation-and-simple-linear-regression",
     ]
   soft:
-  	[
+    [
 	  "topics/python-self-learning",
     "topics/jupyter-notebooks-best-practices",
     ]
