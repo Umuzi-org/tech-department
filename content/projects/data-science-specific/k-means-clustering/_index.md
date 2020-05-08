@@ -8,7 +8,8 @@ prerequisites:
     [
 	  "projects/data-science-specific/statistical-thinking",
       "projects/data-science-specific/data-visualisation",
-      "projects/data-science-specific/logistic-regression",      
+      "projects/data-science-specific/logistic-regression",
+      "topics/data-science-specific/clustering",      
     ]
   soft:
   	[
