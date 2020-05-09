@@ -1,6 +1,11 @@
 ---
 title: Introduction to Spring Boot - part 2
 ready: true
+prerequisites:
+hard: ["projects/java-specific/introduction-to-spring-boot/part-1"]
+  soft:
+    [ 
+    ]
 ---
 
 We are going to work on Spring boot **Caching** and **Security** for this project

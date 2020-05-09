@@ -1,6 +1,11 @@
 ---
 title: Introduction to Spring Boot - part 4
 ready: true
+prerequisites:
+hard: ["projects/java-specific/introduction-to-spring-boot/part-3"]
+  soft:
+    [ 
+    ]
 ---
 
 In this project we will consume a REST API and a SOAP web service in our User service repository.
