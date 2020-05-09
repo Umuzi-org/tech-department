@@ -1,6 +1,17 @@
 ---
 title: Java collections
 ready: true
+prerequisites:
+  hard: ["projects/oop/animals"]
+  soft:
+    [
+      "topics/intro-to-docker",
+      "topics/java-specific/intro-to-gradle-with-intellij",
+      "projects/how-to-submit-your-project",
+      "projects/java-specific/hello-sql-and-java",
+      "projects/oop/dice",
+      "projects/oop/person"
+    ]
 ---
 
 This project assumes you have gone through the reading for both data structures as well as collection, but for a quick recap for the purpose of this project:

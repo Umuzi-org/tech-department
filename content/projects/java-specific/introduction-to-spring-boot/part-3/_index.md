@@ -1,6 +1,11 @@
 ---
 title: Introduction to Spring Boot - part 3
 ready: true
+prerequisites:
+hard: ["projects/java-specific/introduction-to-spring-boot/part-2"]
+  soft:
+    [ 
+    ]
 ---
 
 We are going to focus on creating a REST api that will serve as a end point to our sping boot java application.  

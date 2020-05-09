@@ -1,6 +1,11 @@
 ---
 title: Java data structures
 ready: true
+prerequisites:
+hard: ["projects/java-specific/java-fileio-logging-errors"]
+  soft:
+    [
+    ]
 ---
 
 **Game Time**
