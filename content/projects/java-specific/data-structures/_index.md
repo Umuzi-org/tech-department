@@ -2,10 +2,8 @@
 title: Java data structures
 ready: true
 prerequisites:
-hard: ["projects/java-specific/java-fileio-logging-errors"]
-  soft:
-    [
-    ]
+  hard: ["projects/java-specific/java-fileio-logging-errors"]
+  soft: []
 ---
 
 **Game Time**
@@ -14,7 +12,7 @@ In this project we are going to create a GAME!!! fun right, its called [Conway G
 
 **How This game works**
 
-Initially, there is a grid (yours should be 10 * 10) with some cells which may be alive or dead. Our task is to generate the next generation of cells based on the following rules:
+Initially, there is a grid (yours should be 10 \* 10) with some cells which may be alive or dead. Our task is to generate the next generation of cells based on the following rules:
 
 1. Any live cell with fewer than two live neighbors dies, as if caused by under population.
 2. Any live cell with two or three live neighbors lives on to the next generation.
@@ -44,4 +42,3 @@ You will need to show in your console the initial state (input) and next generat
 / + + + # + +
 
 You should have a test for all the rules above but you can also add more test if you want.
-

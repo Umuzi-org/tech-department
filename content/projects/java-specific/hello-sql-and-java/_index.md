@@ -1,16 +1,14 @@
 ---
 title: SQL Extended
 prerequisites:
-hard: ["projects/java-specific/introduction-to-spring-boot/part-4"]
-  soft:
-    [ 
-    "projects/sql"
-    ]
+  hard: ["projects/java-specific/introduction-to-spring-boot/part-4"]
+  soft: ["projects/sql"]
 ---
 
 I hope at this point you should have already read up on JDBC templates, JPA and Hibernate from the topic resources. In this project we wil re-visit you SQl project. Instead of only using scripts to create and interact with your database you are doing to do this using java + scripts. You will be using dataSources to configured your connection to your database and query your tables.
 
 ## Part1
+
 1. Revise {{% contentlink "projects/sql/" %}} and make sure all tables are created and populated
 
 2. Use vanilla java **(no Springboot)** connect to your database and perform the queries in part2 but only number [1-7]
@@ -22,7 +20,6 @@ I hope at this point you should have already read up on JDBC templates, JPA and 
 4. Lastly I would like you to use Hibernate + JPA to connect to your database and perform the queries in part2 [1-17]
 
 **Don't forget to test your application**
-
 
 ## Part 2: Querying a database (Reminder)
 

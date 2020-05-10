@@ -14,7 +14,6 @@ In this week, everyone gets to know their way around linux.
 
 - Department ice-breaker
 - {{% contentlink "workshops/how-to-be-a-professional" %}}
-- {{% contentlink "remote-work/tech-recruits" %}}
 - Introduction to NCIT curriculum
 - {{% contentlink "workshops/intro-to-linux" %}}
 - {{% contentlink "topics/linux/intro-to-linux" %}}

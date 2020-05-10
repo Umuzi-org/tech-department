@@ -2,10 +2,8 @@
 title: Introduction to Spring Boot - part 4
 ready: true
 prerequisites:
-hard: ["projects/java-specific/introduction-to-spring-boot/part-3"]
-  soft:
-    [ 
-    ]
+  hard: ["projects/java-specific/introduction-to-spring-boot/part-3"]
+  soft: []
 ---
 
 In this project we will consume a REST API and a SOAP web service in our User service repository.
@@ -23,7 +21,6 @@ Now we are going to consume the api in our spring boot application using restTem
 1. I would like you to specifically return the v3 version of the api
 2. A list of all your repos - output on the console
 3. A list of commits in 1 repo of your choice - output on teh console
-
 
 ## SOAP WEB SERVICE
 
@@ -95,4 +92,3 @@ Population: 63705000
 ```
 
 ### Happy Hacking!!!
-

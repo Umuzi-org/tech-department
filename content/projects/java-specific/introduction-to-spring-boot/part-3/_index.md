@@ -2,19 +2,17 @@
 title: Introduction to Spring Boot - part 3
 ready: true
 prerequisites:
-hard: ["projects/java-specific/introduction-to-spring-boot/part-2"]
-  soft:
-    [ 
-    ]
+  hard: ["projects/java-specific/introduction-to-spring-boot/part-2"]
+  soft: []
 ---
 
-We are going to focus on creating a REST api that will serve as a end point to our sping boot java application.  
+We are going to focus on creating a REST api that will serve as a end point to our sping boot java application.
 
-## Service 
+## Service
 
 Continuing with {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-1" %}} for the **User** we are going to expose a **REST endpoint** to the application and we will use test to see if the application does what we want it to.
 
-**Step 1** 
+**Step 1**
 
 Create a Controller Class based on the spring MVC infrastructure. This will be used to expose the endpoint.
 Remember to create your Controller Class inside a "Controller" package.
@@ -41,15 +39,13 @@ public class UserController {
 }
 ```
 
-
-**Step 3** 
+**Step 3**
 
 Add the annotation to your UserServiceImpl that indicated class previously created in {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-1" %}} is a service.
 
-
 ```
 //add annotation here.
-				
+
 public class UserServiceImpl{
     addUser(name, surname) // should call insert(name, surname) from FakeRepo and print to console '[name] entered'
 
@@ -65,20 +61,19 @@ public class UserServiceImpl{
 
 **Step 4**
 
-Specify all your methods inside the UserServiceInterface then implement all methods in the UserServiceImpl. 
+Specify all your methods inside the UserServiceInterface then implement all methods in the UserServiceImpl.
 
 **Step 5**
 
 1 - Do the following in the UserController.
 
-2 - Use the Put, Delete, Get spring annotations to map the respective services. 
+2 - Use the Put, Delete, Get spring annotations to map the respective services.
 
-3 - Do not forget to mark the input parameter as a Request Body if you are receiving data in the body of the object.	
+3 - Do not forget to mark the input parameter as a Request Body if you are receiving data in the body of the object.
 
-4 - If you are receiving the data as url parameter -  mark variable as a Path Variable.
+4 - If you are receiving the data as url parameter - mark variable as a Path Variable.
 
-5 - If you are receiving the data as a query parameter -  mark variable as a query parameter.
-		
+5 - If you are receiving the data as a query parameter - mark variable as a query parameter.
 
 Example
 
@@ -96,7 +91,8 @@ Example
 **Step 5**
 
 Do not forget to test to write unit tests for the methods in your application.
-- All CRUD operations defined in your services should be accompanied by corresponding unit test, 
+
+- All CRUD operations defined in your services should be accompanied by corresponding unit test,
   using the relevant spring annotations as in {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-1" %}}.
 
 **Side Notes**
@@ -104,10 +100,10 @@ Do not forget to test to write unit tests for the methods in your application.
 
 2 - Add at least one image of a successful request using postman.
 3 - The first resource link shows you everything you need to do to complete this project from start to finish if you struggle with any step.
-4 - This project assumes you have set up your Postgress connection as it is an extension of part1 and part2 of the Spring Boot Series. 
+4 - This project assumes you have set up your Postgress connection as it is an extension of part1 and part2 of the Spring Boot Series.
 5 - Please create a new branch labeled **part3**
-												
-												**Happy Coding...**
+**Happy Coding...**
+
 ## Resources
 
 https://dzone.com/articles/expose-restful-apis-using-spring-boot-in-7-minutes

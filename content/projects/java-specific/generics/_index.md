@@ -2,13 +2,12 @@
 title: Java Generics
 ready: true
 prerequisites:
-hard: ["projects/java-specific/data-structures"]
-  soft:
-    [
-    ]
+  hard: ["projects/java-specific/data-structures"]
+  soft: []
 ---
 
-## Generic method 
+## Generic method
+
 Generic Java method takes a parameter and returns some value after performing a task. It is exactly like a normal function, however, a generic method has type parameters which are reproduced by actual type. This allows the generic method to be used in a more general way. The compiler takes care of the type of safety which enables programmers to code easily since they do not have to perform long, individual type castings.
 
 **Example**
@@ -21,12 +20,14 @@ Fun Time!!
 
 You have two arrays,
 First array is of type Integers
+
 ```
 12
 324
 6
 7900
 ```
+
 Second array is of type String
 
 Please write a single function called:
@@ -39,7 +40,7 @@ This function should accept one parameter and be able to accept an integer array
 
 **Notes: If you use method overload the answer wont be accepted**
 
-## Generic classes: 
+## Generic classes:
 
 A generic class is implemented exactly like a non-generic class. The only difference is that it contains a type parameter section. There can be more than one type of parameter, separated by a comma. The classes, which accept one or more parameters, ​are known as parametrized classes or parameterized types.
 

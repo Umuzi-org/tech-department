@@ -2,10 +2,8 @@
 title: Introduction to Spring Boot - part 1
 ready: true
 prerequisites:
-hard: ["projects/java-specific/introduction-to-spring-boot/"]
-  soft:
-    [ 
-    ]
+  hard: ["projects/java-specific/introduction-to-spring-boot/"]
+  soft: []
 ---
 
 We covered a very large part of the Spring Boot framework at a high level on the reading material but I hope you went through the resource as well. This project will be very simple but focusing on all the building blocks. **HAVE FUN!!**
@@ -62,7 +60,7 @@ getUser(Id)
 
 **Step 7** - Create a class called UserServiceImpl which implements the interface in [step 4] and must do the following
 
-Use (dependency injection) for including FakeRepo inside UserServiceImpl  **DO NOT USE THE NEW KEYWORD**
+Use (dependency injection) for including FakeRepo inside UserServiceImpl **DO NOT USE THE NEW KEYWORD**
 
 ```
 addUser(name, surname) // should call insert(name, surname) from FakeRepo and print to console '[name] entered'
