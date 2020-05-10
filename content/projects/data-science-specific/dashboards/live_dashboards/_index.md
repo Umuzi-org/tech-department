@@ -1,6 +1,5 @@
 ---
 title: Live Dashboard Assignment
-title: Webscraping and Live Dashboard Assignment
 pre: "<b> HARD: </b>"
 ready: True
 prerequisites:
