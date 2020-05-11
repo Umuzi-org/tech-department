@@ -6,14 +6,8 @@ prerequisites:
   hard: ["topics/intro-to-relational-databases", "topics/intro-to-docker/"]
   soft: []
 tags: []
----
 ## NCIT Units 114048 & 114049
-
-## Background reading
-You should be familiar with:  
- {{% contentlink "topics/intro-to-relational-databases" %}}
-
-
+---
 
 ## Installation:
 * We are using Postgres
