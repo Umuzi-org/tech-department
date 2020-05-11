@@ -1,0 +1,71 @@
+---
+title: Data Engineering
+---
+
+- Introduction to NCIT curriculum
+- NCIT 01: Conducting research and user interviews
+- NCIT 02: Reporting
+- NCIT 03: Research presentation
+- {{% contentlink "topics/agile-scrum" %}}
+- {{% contentlink "workshops/agile-scrum/" %}}
+- NCIT 18: Agile project management
+- NCIT 19: Agile meetings
+- {{% contentlink "workshops/how-to-be-a-professional" %}}
+- {{% contentlink "projects/linux/beginner" %}}
+- {{% contentlink "topics/python-self-learning" %}}
+- {{% contentlink "topics/clean-code/python" %}}
+- {{% contentlink "projects/git-exercises" %}}
+- NCIT 04: Version control (GIT) for teamwork
+- {{% contentlink "projects/basic-flow-control-katas" %}}
+- {{% contentlink "projects/first-personal-website" %}}
+- {{% contentlink "topics/how-to-ask-for-help-with-your-code" %}}
+- {{% contentlink "workshops/big-picture-web-dev" %}}
+- NCIT 10: Workshop: Giving and receiving constructive feedback
+- NCIT 06: Web design for business
+- NCIT 07: Building an online business
+- NCIT 12: Business and technology
+- NCIT 09: Ethics and Professionalism in IT
+- {{% contentlink "workshops/general-coding-best-practices" %}}
+- {{% contentlink "topics/python-specific/oop-basics" %}}
+- {{% contentlink "topics/python-specific/automated-testing-with-pytest"%}}
+- {{% contentlink "topics/python-specific/virtual-envs/" %}}
+- {{% contentlink "projects/oop/animals/part2" %}}
+- NCIT 13: Object-oriented programming
+- {{% contentlink "topics/how-the-internet-works" %}}
+- {{% contentlink "topics/data-ethics-and-privacy" %}}
+- NCIT 05: History of the Internet
+- NCIT 08: Pseudocode and documentation
+- {{% contentlink "projects/tdd/password-checker/part2" %}}
+- NCIT 11: Test-driven development
+- {{% contentlink "topics/intro-to-docker/" %}}
+- {{% contentlink "projects/tdd/string-calculator" %}}
+- {{% contentlink "projects/basic-unit-test-mocks-kata" %}}
+- {{% contentlink "projects/github-api-consume" %}}
+- {{% contentlink "projects/sql/" %}}
+- NCIT 14: Database Development
+- {{% contentlink "topics/tech-terminology" %}}
+- {{% contentlink "topics/data-infrastructure/database-comparison/" %}}
+- {{% contentlink "projects/python-specific/sqlalchemy-migrations" %}}
+- {{% contentlink "projects/python-specific/build-rest-api-with-db" %}}
+- {{% contentlink "projects/python-specific/mongo" %}}
+- {{% contentlink "projects/rabbitmq" %}}
+- {{% contentlink "projects/dags-with-airflow" %}}
+- {{% contentlink "projects/python-specific/kafka" %}}
+- NCIT 15: Analytics, Surveys, and Reports / Input & Output
+- {{% contentlink "projects/python-specific/spark" %}}
+- {{% contentlink "topics/data-infrastructure/choosing-a-task-queue" %}}
+- {{% contentlink "topics/optimizations-and-big-o/" %}}
+- {{% contentlink "projects/data-science-specific/data-wrangling" %}}
+- NCIT 16: Thinking like a machine / Boolean algebra, logic
+- NCIT 17: Search and sort techniques
+- {{% contentlink "workshops/git-for-teamwork/" %}}
+- {{% contentlink "workshops/agile-recap/" %}}
+- NCIT 20: Managing the Software Development Process
+
+* DATA_ENG:
+  - postgres stored procedures
+  - sql index optimisations
+  - Entity Relationship Diagrams (ERD)
+  - Data warehousing with Hive
+  - Overview of the Hadoop ecosystem
+  - Linear regressions

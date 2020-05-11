@@ -1,6 +1,10 @@
 ---
 title: Environmental Variables
 ready: True
+prerequisites:
+  hard: ["topics/linux/intro-to-bash"]
+  soft: []
+tags: []
 ---
 
 This tutorial assumes that you are using some kind of bash derived shell. Open up your linux command prompt :)

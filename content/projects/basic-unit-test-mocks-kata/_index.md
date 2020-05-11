@@ -1,6 +1,15 @@
 ---
 title: Email random inspirational quote
 ready: True
+
+prerequisites:
+  hard:
+    [
+      "topics/unit-testing-mocks-and-spies",
+      "topics/linux/os-environmental-variables/",
+    ]
+  soft: []
+tags: ["tdd", "mocks", "environmental variables", "smtp"]
 ---
 
 This basic project should demonstrate your understanding of mocks/spies.
@@ -9,7 +18,7 @@ We'll be making an application that ends emails.
 
 ## Set up
 
-Step 1 is to sign up for [SendinBlue](https://www.sendinblue.com/). You can sign up for the free plan. Once you are logged in click on the "Transactional" tab at the top of the page. You'll see some DMTP settings. It'll look something like this:
+Step 1 is to sign up for [SendinBlue](https://www.sendinblue.com/). You can sign up for the free plan. Once you are logged in click on the "Transactional" tab at the top of the page. You'll see some SMTP settings. It'll look something like this:
 
 ```
 SMTP server: smtp-relay.sendinblue.com
@@ -31,7 +40,7 @@ export SMTP_LOGIN=???
 export SMTP_PASSWORD=?????
 ```
 
-Why? Because we don't mix code and configuration. Your code should be able to access configuration when it needs to.
+Why? Because **we don't mix code and configuration**. Your code should be able to access configuration when it needs to.
 
 Now add the following line to your `.gitignore` file:
 
@@ -39,7 +48,9 @@ Now add the following line to your `.gitignore` file:
 smtp_secrets.sh
 ```
 
-Why? Because these credentials should be kept secret. If you commit them to your git repo and push it to github then anyone who wants to can read your secrets and start sending emails from your account.
+Why? Because these credentials should be kept secret. If you commit them to your git repo and push it to github then anyone who has access to your repo can read your secrets and start sending emails from your account.
+
+This remains true even if you make a commit that removes the secrets from the repo.
 
 So far so good.
 

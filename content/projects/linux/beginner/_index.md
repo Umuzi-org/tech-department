@@ -1,6 +1,9 @@
 ---
 title: Beginner Linux challenges
-ready: true
+prerequisites:
+  hard: ["topics/linux/intro-to-linux", "topics/linux/intro-to-bash"]
+  soft: ["workshops/intro-to-linux"]
+tags: ["bash"]
 ---
 
 ### Submission guidelines
@@ -43,38 +46,6 @@ Create an empty file named `exercise.md` and move this file to the `/tmp` di
 
 1. [Standard File Streams (video)](https://www.youtube.com/watch?v=shFMEJJ_fpU)
 2. [The cat commands](http://www.linfo.org/cat.html)
-
-### Task 4 : The locate command
-
-1. Write a script to help you `locate` a file named `umuzi`
-2. Write a second script that will search for the same file and send the result of the search to a file named `search_result.md`
-
-#### Resources
-
-1. http://bit.ly/2GPWP9E
-2. https://www.youtube.com/watch?v=5m7SX0ikoWc
-
-### Task 5 The locate command cont..
-
-1. Create a file within `Documents` directory, add to is a file named `pad.md`
-2. change the working directory to Desktop, then create a folder and name it `work`
-3. copy `pad.md` to the currently working directory as `pad_copy.md`
-4. update the database used by locate by running `locate updatedb`.
-5. change the working directory to the previous one (`cd -`)
-6. use `locate` to find `pad_copy.md`
-
-Note: for each instruction write a script and save it under this task
-
-### Task 6 Find commands
-
-1. Write a script to find all files ending with 'pdf' on your computer
-2. Write a second command that takes the result of the previous search and copy into a folder of your choice.
-3. Write a command to display files that where modified today.
-
-#### Resources
-
-1. https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
-2. https://unix.stackexchange.com/questions/70455/how-to-run-find-exec-script
 
 ### Task 7 Text editor
 

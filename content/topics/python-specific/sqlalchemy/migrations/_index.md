@@ -1,6 +1,10 @@
 ---
 title: Sqlalchemy migrations with Alembic
 ready: True
+prerequisites:
+  hard: ["topics/python-specific/sqlalchemy"]
+  soft: []
+tags: []
 ---
 
 Here's the official tutorial. It's really quite good.

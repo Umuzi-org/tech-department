@@ -1,6 +1,10 @@
 ---
 title: Person
 ready: true
+prerequisites:
+  hard: []
+  soft: []
+tags: ["oop"]
 ---
 
 ## Project structure

@@ -1,6 +1,10 @@
 ---
 title: Git Basic Exercises
 ready: true
+prerequisites:
+  hard: ["topics/git"]
+  soft: []
+tags: ["git"]
 ---
 
 ## Introduction
@@ -24,12 +28,14 @@ Note: you can do all of this stuff from the command line! You should be using li
 9. Then check your `git status` again. Can you see the difference?
 10. Try to unstage your file and check your `git status` again
 11. Ok, now for your first commit: Make sure your readme file is staged then type in `git commit -m "initial commit"`
-Your output should be something like this:
+    Your output should be something like this:
+
 ```
  [master (root-commit) 2103b64] initial commit
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 README.md
 ```
+
 12. type in `git log` isn't that nice? press `q` to exit
 
 ### more commits!
@@ -68,7 +74,7 @@ Each commit has a "hash". That's the weird alphanumeric string thingy.
 
 2. Copy the commit hash for your second commit. You can just select it with your mouse and right click and choose 'copy'
 3. press q to exit the log view. You should now be back at the terminal
-4. type in `git checkout ` and then paste in the commit hash and press enter
+4. type in `git checkout` and then paste in the commit hash and press enter
 5. `cat README.md` It's like going back in time
 6. `git checkout master`
 7. `cat README.md` Now we are up to date
@@ -97,11 +103,14 @@ The real power of git is in branching. Branching is what allows big teams of dev
 14. make some arbitrary changes to the readme file and make a new commit with the message `"random readme changes"`
 15. checkout `history` again and `cat README.md`
 16. now on your history branch do the following:
+
 ```
 rm README.md
 echo "booya" > README.md
 ```
+
 You should know what these lines do.
+
 17. commit your changes. Use the commit message `"rewrote readme"`
 18. checkout master again
 
@@ -110,11 +119,14 @@ You should know what these lines do.
 If you have followed along up until this point then your branches should look like this:
 
 Type in:
+
 ```
 git checkout master
 ls
 ```
+
 this outputs:
+
 ```
 README.md
 ```
@@ -124,6 +136,7 @@ Check the log:
 ```
 git log
 ```
+
 this outputs something like:
 
 ```
@@ -152,10 +165,13 @@ Now lets look at milkshake-flavours:
 git checkout milkshake-flavours
 ls
 ```
+
 You will see two files:
+
 ```
 milkshakes.md  README.md
 ```
+
 And `git log` will look like:
 
 ```
@@ -236,6 +252,7 @@ Date:   Tue Apr 23 14:43:51 2019 +0200
 Now we want to get the master up to date with all out changes. Let's start with the milkshake branch
 
 1. merge milkshake-flavours into master
+
 ```
 git checkout master
 git merge milkshake-flavours
@@ -244,8 +261,9 @@ git merge milkshake-flavours
 2. Use `ls` and `git log` to see what this did
 3. merge history into master
 4. Use `ls` and `git log` to see what this did
-As you can see a whole lot of changes have been made to the master branch
+   As you can see a whole lot of changes have been made to the master branch
 5. Now lets take a look at the other branches
+
 ```
 git checkout history
 git log
@@ -253,13 +271,16 @@ git log
 git checkout milkshake-flavours
 git log
 ```
+
 These branches were not effected by the merge!
 
 In general if we want to merge branch X into branch Y:
+
 ```
 git checkout Y
 git merge X
 ```
+
 This adds a commit to branch Y and doesn't change branch X
 
 6. merge the master branch into `history`. Use `git log` to see whats up.
@@ -295,9 +316,9 @@ Now you should see a little dropdown box on github that says "Branch: master". C
 1. While still in your newly created branch `project/git-basic-exercises` use `git log` to see the history.
 2. From your new branch called `project/git-basic-exercises`navigate back to your `git-basic-exercises` repo, use `git log` again to see the difference.
 3. Let's go back to our home directory `cd` and make a new folder `mkdir this-will-be-another-repo`
-4. cd into this folder now use `git init` to initilise a new git repo here, you should get a message in terminal that says 'Initialized empty Git repository in /home/$specific-path/this-will-be-another-repo/.git/'
+4. cd into this folder now use `git init` to initilise a new git repo here, you should get a message in terminal that says 'Initialized empty Git repository in /home/\$specific-path/this-will-be-another-repo/.git/'
 5. Type in `touch README.md`. This creates a new blank file. Stage then commit.
-6. Go back to your  `git-basic-exercises` repo and use `git log` to check that you are in the right place and repo.
+6. Go back to your `git-basic-exercises` repo and use `git log` to check that you are in the right place and repo.
 
 ### gitignore
 
@@ -310,17 +331,17 @@ Now you should see a little dropdown box on github that says "Branch: master". C
 7. `cd` into this directory and create a readme.md file with some random text in
 8. Use `cd ..` to go back to your main directory and `git status` to see what is going on, you should now see your new folder as an unstaged change.
 9. Lets add this folder to .gitignore `nano .gitignore` and add `/large-directory-that-should-be-local-only` on a new line, save and close .gitignore
-10. Check  `git status` again, .gitignore is going to be super useful later when you are submitting projects and need to keep your repos small and free from junk and irrelevant files.
+10. Check `git status` again, .gitignore is going to be super useful later when you are submitting projects and need to keep your repos small and free from junk and irrelevant files.
 
 #### gitignore best practices
 
 You should always gitignore the items in the below list:
 
- - secrets like passwords and keys
- - databases
- - pycache/
- - node_modules/
- - temporary files and editor settings files eg .vscode/
+- secrets like passwords and keys
+- databases
+- pycache/
+- node_modules/
+- temporary files and editor settings files eg .vscode/
 
 ### Repo Best Practices
 

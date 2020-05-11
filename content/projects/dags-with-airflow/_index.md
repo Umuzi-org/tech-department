@@ -1,6 +1,10 @@
 ---
 title: DAGs with Airflow
 ready: True
+prerequisites:
+  hard: ["projects/rabbitmq"]
+  soft: []
+tags: ["apache-airflow"]
 ---
 
 Create a dag that does the following:

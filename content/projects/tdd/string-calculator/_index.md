@@ -1,7 +1,10 @@
 ---
 title: string-calculator
-pre: "<b>MEDIUM: </b>"
 ready: true
+prerequisites:
+  hard: ["projects/tdd/simple-calculator-part1"]
+  soft: []
+tags: ["tdd", "regular-expressions"]
 ---
 
 ## Set up your environment

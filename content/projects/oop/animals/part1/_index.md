@@ -1,6 +1,10 @@
 ---
 title: Animals Part 1. OOP basics
 ready: true
+prerequisites:
+  hard: ["projects/oop/person"]
+  soft: []
+tags: ["oop"]
 ---
 
 ## Project structure

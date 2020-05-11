@@ -1,6 +1,7 @@
 ---
 title: Introduction to Bash and the terminal
 ready: true
+tags: ["bash"]
 ---
 
 Try this out.
