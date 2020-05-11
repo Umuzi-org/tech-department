@@ -1,20 +1,10 @@
 ---
 title: string-calculator
-pre: "<b>MEDIUM: </b>"
 ready: true
 prerequisites:
-  hard: 
-    [
-      "projects/basic-flow-control-katas",
-      "topics/unit-testing",
-    ]
-  soft: 
-    [
-      "projects/tdd/simple-calculator-part1",
-      "topics/jasmine-unit-tests",
-      "topics/python-specific/automated-testing-with-pytest",
-    ]
-tags: ["string-calculator"]
+  hard: ["projects/tdd/simple-calculator-part1"]
+  soft: []
+tags: ["tdd", "regular-expressions"]
 ---
 
 ## Set up your environment
