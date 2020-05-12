@@ -1,6 +1,16 @@
 ---
 title: RabbitMQ
 ready: True
+prerequisites:
+  hard:
+    [
+      "topics/clean-code/python",
+      "topics/linux/os-environmental-variables",
+      "topics/how-the-internet-works",
+      "projects/github-api-consume",
+    ]
+  soft: []
+tags: ["rabbit-mq"]
 ---
 
 RabbitMQ, despite its funny name, is a seriously useful piece of software.

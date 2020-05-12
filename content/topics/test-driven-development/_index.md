@@ -1,6 +1,10 @@
 ---
 title: Test Driven Development
 ready: true
+prerequisites:
+  hard: ["topics/unit-testing"]
+  soft: []
+tags: ["tdd"]
 ---
 
 By now you should know a bit about what a unit test is and why we do them. The next question is: when should we do them? Do we write our unit tests after we write our code or before?

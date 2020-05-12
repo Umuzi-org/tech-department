@@ -1,6 +1,9 @@
 ---
 title: Introduction to Spring Boot - part 2
 ready: true
+prerequisites:
+  hard: ["projects/java-specific/introduction-to-spring-boot/part-1"]
+  soft: []
 ---
 
 We are going to work on Spring boot **Caching** and **Security** for this project
@@ -9,7 +12,7 @@ We are going to work on Spring boot **Caching** and **Security** for this projec
 
 Continuing with {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-1" %}} for the **User** we are going to add **security** and **caching** on the application and we will use test to see if the application does what we want it to.
 
-**Step 1** 
+**Step 1**
 
 Import the following dependency
 
@@ -73,10 +76,9 @@ dependencies {
 }
 ```
 
-**Step 1** 
+**Step 1**
 
 Add the following class and provide implementation for the **configure** function where you see **// COMPLETE CODE HERE** specify your password and username.
-
 
 ```
 @Configuration

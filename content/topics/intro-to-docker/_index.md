@@ -1,6 +1,10 @@
 ---
 title: Intro to Docker and Docker-compose
 ready: True
+prerequisites:
+  hard: ["topics/linux/os-environmental-variables"]
+  soft: []
+tags: ["docker-compose", "postgres"]
 ---
 
 [What is Docker](https://opensource.com/resources/what-docker)

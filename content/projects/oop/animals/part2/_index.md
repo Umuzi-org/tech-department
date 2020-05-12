@@ -1,6 +1,10 @@
 ---
 title: Animals Part 2. Adding Tests
 ready: true
+prerequisites:
+  hard: ["projects/oop/animals/part1"]
+  soft: []
+tags: ["unit-testing", "oop"]
 ---
 
 In this challenge you will update your current Animals project and add unit tests to the project

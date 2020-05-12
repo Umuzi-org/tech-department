@@ -2,14 +2,16 @@
 title: simple-calculator part 1
 pre: "<b>EASY: </b>"
 ready: true
-tags: ["tdd"]
 prerequisites:
-  hard: ["topics/unit-testing"]
-  soft:
+  hard:
     [
-      "topics/jasmine-unit-tests",
-      "topics/python-specific/automated-testing-with-pytest",
+      "projects/basic-flow-control-katas-assertive",
+      "topics/test-driven-development",
     ]
+  soft: []
+#   "topics/jasmine-unit-tests",
+#   "topics/python-specific/automated-testing-with-pytest",
+tags: ["tdd"]
 story_points: 1
 ---
 

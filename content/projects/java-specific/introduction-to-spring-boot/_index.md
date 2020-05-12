@@ -1,5 +1,7 @@
 ---
-title: Introduction to Spring Boot - part 4
+title: Introduction to Spring Boot
 ready: true
+prerequisites:
+  hard: []
+  soft: []
 ---
-

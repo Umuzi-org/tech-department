@@ -1,6 +1,5 @@
 ---
 title: "Introduction to Linux: Live demo"
-ready: true
 todo:
   - "these all seem bad in different ways: Some aren't in depth, some go into too much detail on irrelevent things. Signal to noise ratio matters"
   - https://docs.google.com/presentation/d/1dhj1-p9Ufl4ilSy_Nu8sw-kuNVWkSvhp0dn5KGo9TyY

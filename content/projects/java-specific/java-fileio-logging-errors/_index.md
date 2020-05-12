@@ -1,6 +1,9 @@
 ---
 title: File IO + Logging + Errors
 ready: true
+prerequisites:
+  hard: ["projects/java-specific/collections"]
+  soft: []
 ---
 
 You are required to create a back-end service that will help capture basic information about prospective students who come to inquire here at Umuzi. In this project you'll just be storing and retrieving information from plain old txt files.
@@ -28,7 +31,6 @@ bob.save()     # results in visitor_bob_marley.txt
 charlie.save() # results in visitor_charley_sheen.txt
 ```
 
-
 Notice that the full name used in the file is all lower-case and spaces are replaced by underscores.
 
 3. Create a function called `load` that takes in a name and then grabs a Visitor object from file. It should simply `System.out.println` the visitor.
@@ -47,6 +49,7 @@ bob.load("Bob Marley")
 ```
 
 ## Resources
+
 https://www.w3schools.com/java/java_files_create.asp
 
 https://www.loggly.com/ultimate-guide/java-logging-basics/
