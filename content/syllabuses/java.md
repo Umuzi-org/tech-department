@@ -1,0 +1,37 @@
+---
+title: Java Basics 
+---
+
+- Java Collections
+- {{% contentlink "topics/java-specific/collections-and-datastructures" %}}
+- {{% contentlink "projects/java-specific/collections" %}}
+- Java Data Structures
+- {{% contentlink "topics/java-specific/collections-and-datastructures" %}}
+- {{% contentlink "projects/java-specific/data-structures" %}}
+- Java Generics
+- {{% contentlink "topics/java-specific/generics" %}}
+- {{% contentlink "projects/java-specific/generics" %}}
+- Spring Infrastructure 
+- {{% contentlink "topics/java-specific/introduction-to-spring-infrastructure/part-1" %}}
+- {{% contentlink "topics/java-specific/introduction-to-spring-infrastructure/part-2" %}}
+- {{% contentlink "topics/java-specific/introduction-to-spring-infrastructure/part-3" %}}
+- {{% contentlink "projects/java-specific/introduction-to-spring-infrastructure/part-1" %}}
+- {{% contentlink "projects/java-specific/introduction-to-spring-infrastructure/part-2" %}}
+- {{% contentlink "projects/java-specific/introduction-to-spring-infrastructure/part-3" %}}
+- Spring Boot Introduction
+- {{% contentlink "topics/java-specific/introduction-to-spring-boot/part-1" %}}
+- {{% contentlink "topics/java-specific/introduction-to-spring-boot/part-2" %}}
+- {{% contentlink "topics/java-specific/introduction-to-spring-boot/part-3" %}}
+- {{% contentlink "topics/java-specific/introduction-to-spring-boot/part-4" %}}
+- {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-1" %}}
+- {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-2" %}}
+- {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-3" %}}
+- {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-4" %}}
+- SQL and Java
+- {{% contentlink "topics/java-specific/jdbc-templates" %}}
+- {{% contentlink "projects/java-specific/hello-sql-and-java" %}}
+- File - Input Output, Logging Errors.
+- {{% contentlink "topics/java-specific/logging" %}}
+- {{% contentlink "topics/java-specific/logging" %}}
+- {{% contentlink "projects/java-specific/java-fileio-logging-errors" %}}
+- {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-4" %}}
