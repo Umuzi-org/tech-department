@@ -1,8 +1,10 @@
 ---
 title: Node & File IO
 ready: true
-weight: 1
-pre: "<b>1: </b>"
+prerequisites:
+  hard: ["workshops/node", "topics/js-and-node-specific/introduction-to-node"]
+  soft: []
+tags: ["Node", "FileIO"]
 ---
 
 You are required to create a back-end service that will help capture basic information about prospective students who come to inquire here at Umuzi. In this project you'll just be storing and retrieving information from plain old json files.

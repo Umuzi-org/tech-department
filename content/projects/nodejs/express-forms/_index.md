@@ -1,8 +1,10 @@
 ---
 title: Express, forms and templates
 ready: true
-weight: 3
-pre: "<b>3: </b>"
+prerequisites:
+  hard: ["topics/js-and-node-specific/expressjs" "workshops/intro-to-express"]
+  soft: []
+tags: ["Node", "Express"]
 ---
 
 There is no need to create a new git repo for this code submission. This is a continuation of your previous work.

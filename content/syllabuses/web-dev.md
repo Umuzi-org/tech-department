@@ -1,0 +1,70 @@
+---
+title: Web Development
+---
+
+- Introduction to NCIT curriculum
+- NCIT 01: Conducting research and user interviews
+- NCIT 02: Reporting
+- NCIT 03: Research presentation
+- {{% contentlink "topics/agile-scrum" %}}
+- {{% contentlink "workshops/agile-scrum/" %}}
+- NCIT 18: Agile project management
+- NCIT 19: Agile meetings
+- {{% contentlink "workshops/how-to-be-a-professional" %}}
+- {{% contentlink "projects/linux/beginner" %}}
+- {{% contentlink "topics/web-dev-self-learning" %}}
+- {{% contentlink "topics/clean-code" %}}
+- {{% contentlink "projects/git-exercises" %}}
+- NCIT 04: Version control (GIT) for teamwork
+- {{% contentlink "projects/first-personal-website" %}}
+- {{% contentlink "topics/how-to-ask-for-help-with-your-code" %}}
+- {{% contentlink "workshops/big-picture-web-dev" %}}
+- NCIT 10: Workshop: Giving and receiving constructive feedback
+- NCIT 06: Web design for business
+- NCIT 07: Building an online business
+- NCIT 12: Business and technology
+- NCIT 09: Ethics and Professionalism in IT
+- {{% contentlink "projects/basic-flow-control-katas" %}} 
+- {{% contentlink "topics/js-and-node-specific/super-basic-intro-to-node" %}}
+- WORKSHOP: Live code. Super basic intro to node
+{{% contentlink "topics/unit-testing" %}}
+%}}: add some tests to existing code
+- {{% contentlink "topics/test-driven-development" %}}
+- {{% contentlink "workshops/intro-to-unit-testing-with-jasmine" %}}
+- {{% contentlink "workshops/js-and-node-specific/basic-intro-to-oop" %}}
+- {{% contentlink "topics/js-and-node-specific/oop-basics" %}}
+- {{% contentlink "projects/oop/animals/part2" 
+- NCIT 13: Object-oriented programming
+- {{% contentlink "topics/how-the-internet-works" %}}
+- {{% contentlink "topics/data-ethics-and-privacy" %}}
+- {{% contentlink "projects/basic-flow-control-katas-assertive" %}}
+- {{% contentlink "topics/how-the-internet-works" %}}
+- {{% contentlink "topics/data-ethics-and-privacy" %}}
+- NCIT 05: History of the Internet
+- NCIT 08: Pseudocode and documentation
+- {{% contentlink "topics/js-and-node-specific/logging" %}}
+- {{% contentlink "projects/tdd/password-checker/part2" %}}
+- {{% contentlink "projects/tdd/string-calculator"
+- {{% contentlink "projects/basic-unit-test-mocks-kata" %}}
+- {{% contentlink "projects/github-api-consume" %}} 
+- {{% contentlink "topics/tech-terminology" %}}
+- {{% contentlink "projects/memory-game-vanilla" 
+- {{% contentlink "projects/nodejs/file-io" %}}
+- {{% contentlink "projects/sql/" %}}
+- NCIT 14: Database Development
+- {{% contentlink "projects/nodejs/sql" %}}
+- {{% contentlink "topics/linux/os-environmental-variables/" %}}
+- {{% contentlink "topics/js-and-node-specific/dotenv/" %}}
+- {{% contentlink "projects/nodejs/express-forms" %}}
+- {{% contentlink "projects/nodejs/api" %}}
+- NCIT 15: Analytics, Surveys, and Reports / Input & Output
+- {{% contentlink "projects/nodejs/ajax" %}}
+- {{% contentlink "topics/data-infrastructure/choosing-a-task-queue" %}}
+- {{% contentlink "topics/optimizations-and-big-o/" %}}
+- NCIT 16: Thinking like a machine / Boolean algebra, logic
+- NCIT 17: Search and sort techniques
+- NCIT 20: Managing the Software Development Process
+- NCIT Summative assessments
+- {{% contentlink "workshops/git-for-teamwork/" %}}
+- {{% contentlink "topics/data-infrastructure/database-comparison/" %}}
+prerequisites:

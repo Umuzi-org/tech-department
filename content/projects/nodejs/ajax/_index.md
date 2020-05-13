@@ -1,8 +1,10 @@
 ---
 title: Add a little Ajax
 ready: true
-weight: 5
-pre: "<b>5: </b>"
+prerequisites:
+  hard: ["topics/intro-to-ajax/"]
+  soft: []
+tags: ["Node", "ajax"]
 ---
 
 There is no need to create a new git repo for this code submission. This is a continuation of your previous work.

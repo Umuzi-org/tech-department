@@ -3,7 +3,7 @@ title: Build your first personal website
 ready: True
 prerequisites:
   hard: ["workshops/what-to-put-on-a-cv"]
-  soft: []
+  soft: ["topics/web-frontend/intro-to-web-design/", "workshops/intro-to-css-architecture"]
 tags: ["html", "css"]
 ---
 
