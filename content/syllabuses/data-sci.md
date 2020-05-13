@@ -6,72 +6,55 @@ title: "Data Science"
 - NCIT 01: Conducting research and user interviews
 - NCIT 02: Reporting
 - NCIT 03: Research presentation
+- {{% contentlink "topics/agile-scrum" %}}
+- {{% contentlink "workshops/agile-scrum/" %}}
+- NCIT 18: Agile project management
+- NCIT 19: Agile meetings
 - {{% contentlink "workshops/how-to-be-a-professional" %}}
-- {{% contentlink "remote-work/tech-recruits" %}}
-- {{% contentlink "topics/python-self-learning" %}}
-- {{% contentlink "topics/clean-code" %}}
-- {{% contentlink "topics/linux/intro-to-bash" %}}
-- {{% contentlink "workshops/intro-to-linux" %}}
-- {{% contentlink "topics/linux/intro-to-linux" %}}
 - {{% contentlink "projects/linux/beginner" %}}
-- NCIT 04: Version control (GIT) for teamwork
-- {{% contentlink "topics/git" %}}
-- {{% contentlink "topics/web-frontend/intro-to-web-design/" %}}
-- {{% contentlink "workshops/what-to-put-on-a-cv" %}}
-- {{% contentlink "workshops/intro-to-css-architecture" %}}
-- {{% contentlink "projects/first-personal-website" %}}
+- {{% contentlink "topics/python-self-learning" %}}
+- {{% contentlink "topics/clean-code/python" %}}
 - {{% contentlink "projects/git-exercises" %}}
+- NCIT 04: Version control (GIT) for teamwork
+- {{% contentlink "projects/basic-flow-control-katas" %}}
+- {{% contentlink "projects/first-personal-website" %}}
+- {{% contentlink "topics/how-to-ask-for-help-with-your-code" %}}
+- NCIT 10: Workshop: Giving and receiving constructive feedback
 - NCIT 06: Web design for business
 - NCIT 07: Building an online business
-- NCIT 09: Ethics and Professionalism in IT
-- NCIT 10: Workshop: Giving and receiving constructive feedback
 - NCIT 12: Business and technology
-- {{% contentlink "workshops/big-picture-web-dev" %}}
-- {{% contentlink "projects/first-personal-website" %}}
+- NCIT 09: Ethics and Professionalism in IT
 - {{% contentlink "workshops/general-coding-best-practices" %}}
+- {{% contentlink "topics/python-specific/oop-basics" %}}
+- {{% contentlink "topics/python-specific/automated-testing-with-pytest"%}}
+- {{% contentlink "topics/python-specific/virtual-envs/" %}}
 - {{% contentlink "workshops/survey-design" %}}
 - {{% contentlink "workshops/google-forms-like-a-boss" %}}
-- {{% contentlink "topics/how-to-ask-for-help-with-your-code" %}}
-- {{% contentlink "topics/unit-testing" %}}
-- {{% contentlink "topics/test-driven-development" %}}
-- {{% contentlink "topics/python-specific/automated-testing-with-pytest" %}}
 - {{% contentlink "projects/basic-flow-control-katas" %}}
 - {{% contentlink "projects/tdd/simple-calculator-part1/" %}}
-- {{% contentlink "topics/intro-to-asserive-programming" %}}
-- {{% contentlink "topics/asserive-programming-tricks-for-pandas" %}}
 - {{% contentlink "projects/basic-flow-control-katas-assertive" %}}
 - {{% contentlink "projects/data-science-specific/data-visualisation" %}}
-- {{% contentlink "topics/how-the-internet-works" %}}
-- {{% contentlink "topics/data-ethics-and-privacy" %}}
 - {{% contentlink "workshops/intro-to-data-ethics" %}}
 - NCIT 11: Test-driven development
-- {{% contentlink "topics/python-specific/unit-testing/automated-testing-pandas-and-numpy" %}}
 - {{% contentlink "projects/tdd/string-calculator" %}}
 - {{% contentlink "projects/data-science-specific/statistical-thinking" %}}
-- {{% contentlink "topics/functional-programming-intro" %}}
 - {{% contentlink "topics/tech-terminology" %}}
 - NCIT 12: Business and technology
 - {{% contentlink "projects/data-science-specific/data-wrangling" %}}
 - {{% contentlink "projects/data-science-specific/cross-validation-and-simple-linear-regression/" %}}
 - {{% contentlink "projects/data-science-specific/multivariate-linear-regression" %}}
 - NCIT 13: Object-oriented programming
-- {{% contentlink "topics/python-specific/oop-basics"%}}
-- {{% contentlink "topics/python-specific/oop-for-python" %}}
-- {{% contentlink "workshops/python-specific/basic-intro-to-oop" %}}
+- {{% contentlink "topics/how-the-internet-works" %}}
+- {{% contentlink "topics/data-ethics-and-privacy" %}}
+- NCIT 05: History of the Internet
+- NCIT 08: Pseudocode and documentation
 - {{% contentlink "projects/data-science-specific/oop-for-data-science" %}}
-- {{% contentlink "topics/linux/os-environmental-variables/" %}}
-- {{% contentlink "topics/intro-to-docker/" %}}
-- {{% contentlink "topics/python-specific/virtual-envs/" %}}
 - {{% contentlink "projects/data-science-specific/dashboards/plotly_dashboards" %}} 
 - {{% contentlink "projects/data-science-specific/dashboards/" %}}
 - NCIT 14: Database Development
-- {{% contentlink "topics/python-specific/sql-and-python/" %}}
-- {{% contentlink "topics/data-validation-and-quality-control/" %}}
-- {{% contentlink "topics/python-specific/sqlalchemy/migrations" %}}
 - {{% contentlink "projects/sql/" %}}
 - NCIT 15: Analytics, Surveys, and Reports / Input & Output
 - {{% contentlink "projects/data-science-specific/logistic-regression" %}}
-- {{% contentlink "topics/agile-scrum" %}}
 - {{% contentlink "workshops/agile-scrum/" %}}
 - {{% contentlink "projects/data-science-specific/decision-trees" %}}
 - NCIT 16: Thinking like a machine / Boolean algebra, logic
