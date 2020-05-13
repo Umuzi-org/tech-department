@@ -2,7 +2,8 @@
 title: Introduction to Spring Boot - part 2
 ready: true
 prerequisites:
-  hard: ["projects/java-specific/introduction-to-spring-boot/part-1"]
+  hard: ["projects/java-specific/introduction-to-spring-boot/part-1",
+         "topics/java-specific/introduction-to-spring-boot/part-2"]
   soft: []
 ---
 
