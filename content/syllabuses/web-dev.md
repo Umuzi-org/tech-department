@@ -44,6 +44,7 @@ title: Web Development
 - NCIT 08: Pseudocode and documentation
 - {{% contentlink "topics/js-and-node-specific/logging" %}}
 - {{% contentlink "projects/tdd/password-checker/part2" %}}
+- NCIT 11: Test-driven development
 - {{% contentlink "projects/tdd/string-calculator"
 - {{% contentlink "projects/basic-unit-test-mocks-kata" %}}
 - {{% contentlink "projects/github-api-consume" %}} 
@@ -67,4 +68,15 @@ title: Web Development
 - NCIT Summative assessments
 - {{% contentlink "workshops/git-for-teamwork/" %}}
 - {{% contentlink "topics/data-infrastructure/database-comparison/" %}}
-prerequisites:
+
+## Optional Extras
+
+- {{% contentlink "topics/web-frontend/intro-to-angular/" "optional" %}}
+- {{% contentlink "topics/web-frontend/intro-to-react/" "optional" %}}
+- {{% contentlink "topics/web-frontend/intro-to-vue/" "optional" %}}
+- {{% contentlink "workshops/nodejs-intro-to-socketio/" "optional" %}}
+- {{% contentlink "workshops/redux_intro/" "optional" %}}
+- {{% contentlink "workshops/nodejs-async-vs-sync" "optional" %}}
+- {{% contentlink "topics/js-and-node-specific/mongodb/" "optional" %}}
+- {{% contentlink "projects/semitone-challenge" "optional" %}}
+
