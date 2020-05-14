@@ -32,19 +32,19 @@ title: Web Development
 - {{% contentlink "workshops/intro-to-unit-testing-with-jasmine" %}}
 - {{% contentlink "workshops/js-and-node-specific/basic-intro-to-oop" %}}
 - {{% contentlink "topics/js-and-node-specific/oop-basics" %}}
-- {{% contentlink "projects/oop/animals/part2" 
+- {{% contentlink "projects/oop/animals/part2" %}}
 - NCIT 13: Object-oriented programming
 - {{% contentlink "topics/how-the-internet-works" %}}
+- {{% contentlink "topics/tech-terminology" %}}
 - {{% contentlink "topics/data-ethics-and-privacy" %}}
 - NCIT 05: History of the Internet
 - NCIT 08: Pseudocode and documentation
 - {{% contentlink "topics/js-and-node-specific/logging" %}}
 - {{% contentlink "projects/tdd/password-checker/part2" %}}
 - NCIT 11: Test-driven development
-- {{% contentlink "projects/tdd/string-calculator"
+- {{% contentlink "projects/tdd/string-calculator" %}}
 - {{% contentlink "projects/basic-unit-test-mocks-kata" %}}
 - {{% contentlink "projects/github-api-consume" %}} 
-- {{% contentlink "topics/tech-terminology" %}}
 - {{% contentlink "projects/memory-game-vanilla" %}} 
 - {{% contentlink "projects/nodejs/file-io" %}}
 - {{% contentlink "projects/sql/" %}}

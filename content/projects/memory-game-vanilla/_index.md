@@ -4,7 +4,7 @@ ready: True
 prerequisites:
   hard: ["topics/unit-testing-mocks-and-spies", "topics/js-and-node-specific/dom-manipulation-with-vanilla-js"]
   soft: []
-tags: ["TDD", "Mocks and spies"]
+tags: ["TDD","Dom Manipulation", "Mocks and spies"]
 ---
 
 Here is an example of a memory game: http://dkmgames.com/memory/pairsrun.php
