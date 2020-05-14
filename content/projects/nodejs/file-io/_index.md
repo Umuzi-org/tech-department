@@ -2,7 +2,7 @@
 title: Node & File IO
 ready: true
 prerequisites:
-  hard: ["workshops/node", "topics/js-and-node-specific/introduction-to-node"]
+  hard: ["topics/js-and-node-specific/introduction-to-node"]
   soft: []
 tags: ["Node", "FileIO"]
 ---

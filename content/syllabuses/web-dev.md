@@ -27,17 +27,13 @@ title: Web Development
 - {{% contentlink "projects/basic-flow-control-katas" %}} 
 - {{% contentlink "topics/js-and-node-specific/super-basic-intro-to-node" %}}
 - WORKSHOP: Live code. Super basic intro to node
-{{% contentlink "topics/unit-testing" %}}
-%}}: add some tests to existing code
+- {{% contentlink "projects/basic-flow-control-katas-assertive" %}}
 - {{% contentlink "topics/test-driven-development" %}}
 - {{% contentlink "workshops/intro-to-unit-testing-with-jasmine" %}}
 - {{% contentlink "workshops/js-and-node-specific/basic-intro-to-oop" %}}
 - {{% contentlink "topics/js-and-node-specific/oop-basics" %}}
 - {{% contentlink "projects/oop/animals/part2" 
 - NCIT 13: Object-oriented programming
-- {{% contentlink "topics/how-the-internet-works" %}}
-- {{% contentlink "topics/data-ethics-and-privacy" %}}
-- {{% contentlink "projects/basic-flow-control-katas-assertive" %}}
 - {{% contentlink "topics/how-the-internet-works" %}}
 - {{% contentlink "topics/data-ethics-and-privacy" %}}
 - NCIT 05: History of the Internet
@@ -49,11 +45,10 @@ title: Web Development
 - {{% contentlink "projects/basic-unit-test-mocks-kata" %}}
 - {{% contentlink "projects/github-api-consume" %}} 
 - {{% contentlink "topics/tech-terminology" %}}
-- {{% contentlink "projects/memory-game-vanilla" 
+- {{% contentlink "projects/memory-game-vanilla" %}} 
 - {{% contentlink "projects/nodejs/file-io" %}}
 - {{% contentlink "projects/sql/" %}}
 - NCIT 14: Database Development
-- {{% contentlink "projects/nodejs/sql" %}}
 - {{% contentlink "topics/linux/os-environmental-variables/" %}}
 - {{% contentlink "topics/js-and-node-specific/dotenv/" %}}
 - {{% contentlink "projects/nodejs/express-forms" %}}
@@ -67,7 +62,6 @@ title: Web Development
 - NCIT 20: Managing the Software Development Process
 - NCIT Summative assessments
 - {{% contentlink "workshops/git-for-teamwork/" %}}
-- {{% contentlink "topics/data-infrastructure/database-comparison/" %}}
 
 ## Optional Extras
 

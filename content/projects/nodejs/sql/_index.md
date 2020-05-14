@@ -2,7 +2,7 @@
 title: Node & SQL assignment
 ready: true
 prerequisites:
-  hard: ["workshops/node-and-sql"]
+  hard: ["projects/sql", "workshops/node-and-sql"]
   soft: []
 tags: ["Node", "SQL"]
 ---
