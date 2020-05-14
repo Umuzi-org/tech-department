@@ -6,7 +6,7 @@ prerequisites:
   hard:
     [
 	  "projects/data-science-specific/statistical-thinking",
-	  "content/projects/data-science-specific/cross-validation-and-simple-linear-regression",
+	  "projects/data-science-specific/cross-validation-and-simple-linear-regression",
     ]
   soft:
     [

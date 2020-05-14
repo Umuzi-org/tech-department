@@ -7,7 +7,7 @@ prerequisites:
     ["projects/data-science-specific/dashboards/plotly_dashboards"]
   soft:
     ["projects/data-science-specific/data-wrangling"]
-tags: ["webscraping+dashboard"]    
+tags: ["webscraping","dashboard"]    
 ---
 
 

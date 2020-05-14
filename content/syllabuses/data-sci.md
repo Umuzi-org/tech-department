@@ -30,8 +30,6 @@ title: "Data Science"
 - {{% contentlink "topics/python-specific/virtual-envs/" %}}
 - {{% contentlink "workshops/survey-design" %}}
 - {{% contentlink "workshops/google-forms-like-a-boss" %}}
-- {{% contentlink "projects/basic-flow-control-katas" %}}
-- {{% contentlink "projects/tdd/simple-calculator-part1/" %}}
 - {{% contentlink "projects/basic-flow-control-katas-assertive" %}}
 - {{% contentlink "projects/data-science-specific/data-visualisation" %}}
 - {{% contentlink "workshops/intro-to-data-ethics" %}}
@@ -50,7 +48,6 @@ title: "Data Science"
 - NCIT 08: Pseudocode and documentation
 - {{% contentlink "projects/data-science-specific/oop-for-data-science" %}}
 - {{% contentlink "projects/data-science-specific/dashboards/plotly_dashboards" %}} 
-- {{% contentlink "projects/data-science-specific/dashboards/" %}}
 - NCIT 14: Database Development
 - {{% contentlink "projects/sql/" %}}
 - NCIT 15: Analytics, Surveys, and Reports / Input & Output
@@ -68,5 +65,4 @@ title: "Data Science"
 - {{% contentlink "workshops/agile-recap/" %}}
 - {{% contentlink "topics/data-infrastructure/database-comparison/" %}}
 - {{% contentlink "projects/data-science-specific/k-means-clustering" %}}
-- {{% contentlink "topics/data-science-specific/natural-language-processing" %}}
 - {{% contentlink "projects/data-science-specific/natural-language-processing" %}}
