@@ -2,7 +2,8 @@
 title: Java data structures
 ready: true
 prerequisites:
-  hard: ["projects/java-specific/java-fileio-logging-errors"]
+  hard: ["projects/java-specific/collections",
+         "topics/java-specific/collections-and-datastructures"]
   soft: []
 ---
 

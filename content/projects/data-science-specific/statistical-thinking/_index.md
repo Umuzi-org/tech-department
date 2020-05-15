@@ -1,6 +1,16 @@
 ---
 title: Statistical Thinking
-ready: True
+pre: "<b>MEDIUM: </b>"
+ready: true
+prerequisites:
+  hard: 
+    [
+      "projects/data-science-specific/data-visualisation/mobile-money-viz",
+      "topics/jupyter-notebooks-best-practices",
+      "topics/python-self-learning",
+    ]
+  soft: []
+tags: ["stats"]
 ---
 
 ## Objectives

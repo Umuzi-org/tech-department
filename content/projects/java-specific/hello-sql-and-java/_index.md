@@ -1,7 +1,8 @@
 ---
 title: SQL Extended
 prerequisites:
-  hard: ["projects/java-specific/introduction-to-spring-boot/part-4"]
+  hard: ["projects/java-specific/introduction-to-spring-boot/part-4",
+         "topics/java-specific/jdbc-templates"]
   soft: ["projects/sql"]
 ---
 

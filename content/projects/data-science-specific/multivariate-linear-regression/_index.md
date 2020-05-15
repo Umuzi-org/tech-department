@@ -1,6 +1,19 @@
 ---
 title: Multivariate Linear Regression
-ready: True
+pre: "<b>MEDIUM: </b>"
+ready: true
+prerequisites:
+  hard:
+    [
+	  "projects/data-science-specific/statistical-thinking",
+	  "projects/data-science-specific/cross-validation-and-simple-linear-regression",
+    ]
+  soft:
+    [
+	  "topics/python-self-learning",
+    "topics/jupyter-notebooks-best-practices",
+    ]
+tags: ["multiple-linear-regression"]
 ---
 
 This week is all about one-hot encoding and multiple regression.

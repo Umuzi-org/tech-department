@@ -2,7 +2,8 @@
 title: Java Generics
 ready: true
 prerequisites:
-  hard: ["projects/java-specific/data-structures"]
+  hard: ["projects/java-specific/data-structures",
+         "topics/java-specific/generics"]
   soft: []
 ---
 

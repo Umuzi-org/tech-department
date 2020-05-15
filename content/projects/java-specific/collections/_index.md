@@ -2,13 +2,13 @@
 title: Java collections
 ready: true
 prerequisites:
-  hard: ["projects/oop/animals"]
+  hard: ["projects/oop/animals",
+        "topics/java-specific/collections-and-datastructures"]
   soft:
     [
       "topics/intro-to-docker",
       "topics/java-specific/intro-to-gradle-with-intellij",
       "projects/how-to-submit-your-project",
-      "projects/java-specific/hello-sql-and-java",
       "projects/oop/dice",
       "projects/oop/person",
     ]

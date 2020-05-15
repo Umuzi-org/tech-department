@@ -1,6 +1,11 @@
 ---
 title: Evolution of Linux Visualisation
-ready: True
+pre: "<b>MEDIUM: </b>"
+ready: true
+prerequisites:
+  hard: ["topics/python-self-learning"]
+  soft: ["projects/tdd/simple-calculator-part1"]
+tags: ["data-visualisation-datacamp"]
 ---
 
 Complete the DataCamp project
