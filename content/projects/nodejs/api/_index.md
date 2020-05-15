@@ -3,6 +3,11 @@ title: Expose a JSON API
 ready: true
 weight: 4
 pre: "<b>4: </b>"
+
+prerequisites:
+  hard: ["projects/nodejs/sql", topics/js-and-node-specific/apis-with-node]
+  soft: []
+tags: ["node", "api", "express"]
 ---
 
 There is no need to create a new git repo for this code submission. This is a continuation of your previous work.

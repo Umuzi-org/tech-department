@@ -350,8 +350,7 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 * WEB_DEV
 
-  - {{% contentlink "workshops/node/" %}} advanced
-  - {{% contentlink "topics/js-and-node-specific/introduction-to-node/" %}}
+  - {{% contentlink "topics/js-and-node-specific/node/" %}}
   - {{% contentlink "projects/nodejs/file-io" %}}
 
 * DATA_ENG:
