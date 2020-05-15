@@ -49,4 +49,3 @@ class Car(Vehicle):
             if not wheel.still_ok():
                 return True
         return False
-

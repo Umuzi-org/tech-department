@@ -1,6 +1,20 @@
 ---
 title: Data Wrangling
-ready: True
+pre: "<b>MEDIUM: </b>"
+ready: true
+prerequisites:
+  hard:
+    [
+      "topics/data-validation-and-quality-control",
+      "topics/jupyter-notebooks-best-practices",
+      "topics/python-self-learning",
+    ]
+  soft: 
+    [
+      "topics/data-ethics-and-privacy",
+      "projects/tdd/simple-calculator-part1",
+    ]
+tags: ["data-wrangling"]
 ---
 
 ## Key concepts

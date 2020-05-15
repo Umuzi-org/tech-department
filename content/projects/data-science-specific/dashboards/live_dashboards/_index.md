@@ -2,6 +2,12 @@
 title: Live Dashboard Assignment
 pre: "<b> HARD: </b>"
 ready: True
+prerequisites:
+  hard:
+    ["projects/data-science-specific/dashboards/plotly_dashboards"]
+  soft:
+    ["projects/data-science-specific/data-wrangling"]
+tags: ["webscraping","dashboard"]
 ---
 
 Watch the sessions on [Dashboarding with Notebooks](https://www.kaggle.com/rtatman/dashboarding-with-notebooks-day-1/notebook) to help you create a dashboard with Jupyter Notebooks and Plotly.

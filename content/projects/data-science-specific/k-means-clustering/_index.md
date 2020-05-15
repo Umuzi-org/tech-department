@@ -1,6 +1,23 @@
 ---
 title: K-Means Clustering Assignment
 ready: True
+pre: "<b>MEDIUM: </b>"
+ready: True
+prerequisites:
+  hard:
+    [
+	  "projects/data-science-specific/statistical-thinking",
+      "projects/data-science-specific/data-visualisation",
+      "projects/data-science-specific/logistic-regression",
+      "topics/data-science-specific/clustering",      
+    ]
+  soft:
+    [
+	  "topics/python-self-learning",
+      "topics/jupyter-notebooks-best-practices",
+      "topics/data-science-specific/data-science-methodology",
+    ]
+tags: ["kmeans"]
 ---
 
 

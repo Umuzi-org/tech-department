@@ -1,5 +1,11 @@
 ---
 title : Data Ethics
+pre: "<b>MEDIUM: </b>"
+ready: true
+prerequisites:
+  hard: ["topics/data-ethics-and-privacy"]
+  soft: []
+tags: ["data-ethics"]
 ready : True
 ---
 
