@@ -5,15 +5,8 @@ ready: True
 pre: "<b>MEDIUM: </b>"
 ready: True
 prerequisites:
-  hard:
-    [
-	  "topics/data-science-specific/natural-language-processing"
-    ]
-  soft:
-    [
-	  "topics/python-self-learning",
-      "topics/jupyter-notebooks-best-practices",
-    ]
+  hard: ["topics/data-science-specific/natural-language-processing"]
+  soft: ["topics/python-self-learning","topics/jupyter-notebooks-best-practices",]
 tags: ["nlp"]
 ---
 
@@ -22,6 +15,7 @@ The contents of the State of the Nation Address (SONA) for every year dating bac
 1. Create a corpus from the English-language text for the SONAs dating back to 2000. Save them with the speaker information and date for later analysis. Where there is more than one SONA per year, get both.
 
 2. Use `NLTK` to create a document-term matrix from the text. To do this, the text should be:
+
 - in lowercase with punctuation and numbers removed (tip: use regular expressions)
 - tokenized and lemmatized
 - without stop words
