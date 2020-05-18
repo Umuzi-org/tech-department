@@ -127,7 +127,7 @@ add("-1,-2,3,4")
 #### 6. Modify the add function so that it ignores integers greater than or equal to 1000.
 
 ```
-add("//;\n1000,1;2")
+add("//;\n1000;1;2")
 // should return 3
 ```
 
