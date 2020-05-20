@@ -124,29 +124,34 @@ expected output: RIGHT ANGLE TRIANGLE * ** *** ****  2. Write a function that ta
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/syllabuses/data-eng/</guid>
-      <description>MUB  NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  Week 1: Linux and soft skills In this week, everyone gets to know their way around linux.
- Department ice-breaker  WORKSHOPS: How to be a professional   REMOTE-WORK: How recruits work remotely  Introduction to NCIT curriculum  WORKSHOPS: Introduction to Linux: Live demo   TOPICS: Introduction to Linux   PROJECTS: Beginner Linux challenges   TOPICS: Introduction to Bash and the terminal   TOPICS: Python self-learning   TOPICS: Clean Code   Week 2: Git and personal portfolio   TOPICS: Git Basics  Q&amp;amp;A Git basics  PROJECTS: Git Basic Exercises   WORKSHOPS: What to Put On A CV   PROJECTS: Build your first personal website - Introduction  TOPICS: Clean Code  NCIT 04: Version control (GIT) for teamwork  Week 3: Finish portfolio project   WORKSHOPS: [TODO] Big Picture of Web Dev   PROJECTS: Build your first personal website - Deadline NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)   Week 4:   TOPICS: How to ask for help with your code   PROJECTS: Level 1 programming katas do this in pairs  WORKSHOPS: [TODO] Basic Intro to OOP   TOPICS: [TODO] Python OOP basics   PROJECTS: Person do this in pairs  PROJECTS: Animals Part 1.</description>
+      <description>Introduction to NCIT curriculum NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile &amp;amp; Scrum   WORKSHOPS: Agile and Scrum  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   PROJECTS: [TODO] Beginner Linux challenges   TOPICS: Python self-learning   TOPICS: Clean Code for Python   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  PROJECTS: Level 1 programming katas   PROJECTS: Build your first personal website   TOPICS: How to ask for help with your code   WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)   TOPICS: [TODO] Python OOP basics   TOPICS: Automated Testing in Python   TOPICS: [TODO] Virtual Environments   PROJECTS: Animals Part 2.</description>
     </item>
     
     <item>
-      <title>Node</title>
-      <link>/tech-department/topics/js-and-node-specific/node/</link>
+      <title>Data Science</title>
+      <link>/tech-department/syllabuses/data-sci/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tech-department/topics/js-and-node-specific/node/</guid>
-      <description>Wikipedia.org defines Node.js as an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user&amp;rsquo;s web browser.
-The article below unfold the following points
- What is Node.js Why Node js Node installation process Asynchronous vs Synchronous  Resources  Understanding the basics of Node.</description>
+      <guid>/tech-department/syllabuses/data-sci/</guid>
+      <description> Introduction to NCIT curriculum NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile &amp;amp; Scrum   WORKSHOPS: Agile and Scrum  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   PROJECTS: [TODO] Beginner Linux challenges   TOPICS: Python self-learning   TOPICS: Clean Code for Python   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  PROJECTS: Level 1 programming katas   PROJECTS: Build your first personal website   TOPICS: How to ask for help with your code  NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)   TOPICS: [TODO] Python OOP basics   TOPICS: Automated Testing in Python   TOPICS: [TODO] Virtual Environments   WORKSHOPS: Survey design   WORKSHOPS: Google forms like a boss   PROJECTS: Assertive programming kata   PROJECTS: Data Visualisation Projects   WORKSHOPS: Data Ethics  NCIT 11: Test-driven development  PROJECTS: string-calculator   PROJECTS: Statistical Thinking   TOPICS: The Tech Landscape Terminology  NCIT 12: Business and technology  PROJECTS: Data Wrangling   PROJECTS: Cross-validation &amp;amp; Simple Linear Regression   PROJECTS: Multivariate Linear Regression  NCIT 13: Object-oriented programming  TOPICS: How the internet works   TOPICS: Data Ethics and Privacy  NCIT 05: History of the Internet NCIT 08: Pseudocode and documentation  PROJECTS: OOP for data science   PROJECTS: Plotly Dashboard Assignment  NCIT 14: Database Development  PROJECTS: SQL  NCIT 15: Analytics, Surveys, and Reports / Input &amp;amp; Output  PROJECTS: Logistic regression   WORKSHOPS: Agile and Scrum   PROJECTS: Decision Trees  NCIT 16: Thinking like a machine / Boolean algebra, logic NCIT 17: Search and sort techniques NCIT 18: Agile project management NCIT 19: Agile meetings NCIT 20: Managing the Software Development Process  TOPICS: optimizations and big-O  NCIT Summative assessment  WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap   TOPICS: Database Comparison   PROJECTS: K-Means Clustering Assignment   PROJECTS: Natural language processing   </description>
     </item>
     
     <item>
-      <title>Node setup</title>
-      <link>/tech-department/topics/js-and-node-specific/javascript-dev-environment-setup/</link>
+      <title>Hybrid mobile dev short course</title>
+      <link>/tech-department/syllabuses/hybrid-mobile-short/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tech-department/topics/js-and-node-specific/javascript-dev-environment-setup/</guid>
-      <description>This is a guide to help lab assistants setup a local JavaScript environment.
-Step 1 – Add Node.js PPA sudo apt-get install curl curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash - Or sudo apt-get install curl curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -  Step 2 – Install Node.js on Ubuntu sudo apt-get install nodejs  Step 3 – Check Node.js and NPM Version After installing node.js verify and check the installed version.</description>
+      <guid>/tech-department/syllabuses/hybrid-mobile-short/</guid>
+      <description>TOPICS: Intro to hybrid mobile   TOPICS: Introduction to Typescript   TOPICS: Introduction to web design   PROJECTS: Level 1 programming katas   TOPICS: Jasmine Unit testing   PROJECTS: Animals Part 2. Adding Tests   PROJECTS: Add logging to password checker   TOPICS: Intro to Angular   PROJECTS: Angular Tutorial   PROJECTS: Add Redux to your semitone game   TOPICS: Angular Elements   PROJECTS: Memory game using Angular Material   PROJECTS: [TODO] Game of life: Angular elements   TODO: Wiremock Connecting to mock services Connecting to Java backend services Unit testing.</description>
+    </item>
+    
+    <item>
+      <title>Java Basics</title>
+      <link>/tech-department/syllabuses/java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/syllabuses/java/</guid>
+      <description> Java Collections  PROJECTS: Java collections  Java Data Structures  PROJECTS: Java data structures  Java Generics  PROJECTS: Java Generics  Spring Infrastructure  PROJECTS: [TODO] Introduction to Spring Infrastructure part 3  Spring Boot Introduction  PROJECTS: Introduction to Spring Boot - part 4  SQL and Java  PROJECTS: [TODO] SQL Extended  File - Input Output, Logging Errors.  PROJECTS: File IO &amp;#43; Logging &amp;#43; Errors   </description>
     </item>
     
     <item>
@@ -155,7 +160,7 @@ Step 1 – Add Node.js PPA sudo apt-get install curl curl -sL https://deb.nodeso
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/syllabuses/web-dev/</guid>
-      <description>MUB  NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  Week 1: Linux and soft skills  Department ice-breaker  WORKSHOPS: How to be a professional   TOPICS: Web Dev learning materials  Introduction to NCIT curriculum  WORKSHOPS: Introduction to Linux: Live demo   TOPICS: Introduction to Linux   PROJECTS: Beginner Linux challenges   TOPICS: Introduction to Bash and the terminal   Week 2: Git and personal portfolio Recruits learn a bit about how to build an online presence.</description>
+      <description>Introduction to NCIT curriculum NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile &amp;amp; Scrum   WORKSHOPS: Agile and Scrum   WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   PROJECTS: [TODO] Beginner Linux challenges   TOPICS: Web Dev learning materials   TOPICS: Clean Code   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  TOPICS: [TODO] Super basic intro to Node   TOPICS: How to ask for help with your code   PROJECTS: Level 1 programming katas   WORKSHOPS: Intro to CSS architecture   TOPICS: Introduction to web design   PROJECTS: Build your first personal website  NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 08: Pseudocode and documentation NCIT 10: Workshop: Giving and receiving constructive feedback  WORKSHOPS: Clean Code (language agnostic)   TOPICS: [TODO] OOP in JS and Node   TOPICS: Jasmine Unit testing   PROJECTS: Animals Part 2.</description>
     </item>
     
   </channel>

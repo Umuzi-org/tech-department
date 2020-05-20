@@ -19,10 +19,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/nodejs/sql/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/projects/nodejs/mongo/</loc>
   </url>
   
@@ -46,10 +42,6 @@
   
   <url>
     <loc>/tech-department/projects/nodejs/express-forms/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/projects/data-science-specific/dashboards/webscraping_plus_dashboards/</loc>
   </url>
   
   <url>
@@ -169,6 +161,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/semitone-challenge/add-redux/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/tdd/password-checker/part2/</loc>
   </url>
   
@@ -182,6 +178,11 @@
   
   <url>
     <loc>/tech-department/workshops/agile-scrum/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/ajax/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -207,6 +208,22 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/angular-elements/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/angular-tutorial/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/angular-material/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/angular-testing/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/oop/animals/</loc>
   </url>
   
@@ -216,6 +233,16 @@
   
   <url>
     <loc>/tech-department/projects/oop/animals/part2/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/apache-airflow/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/api/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -241,6 +268,11 @@
   
   <url>
     <loc>/tech-department/projects/oop/bank_accounts/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/bash/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -281,10 +313,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/clean-code/kotlin/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/workshops/clean-code/</loc>
   </url>
   
@@ -302,6 +330,10 @@
   
   <url>
     <loc>/tech-department/topics/clean-code/java/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/clean-code/kotlin/</loc>
   </url>
   
   <url>
@@ -345,6 +377,11 @@
   </url>
   
   <url>
+    <loc>/tech-department/tags/css/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/dags-with-airflow/</loc>
   </url>
   
@@ -361,11 +398,21 @@
   </url>
   
   <url>
+    <loc>/tech-department/tags/dashboard/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/data-science-specific/dashboards/</loc>
   </url>
   
   <url>
     <loc>/tech-department/syllabuses/data-eng/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/data-ethics/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -381,6 +428,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/syllabuses/data-sci/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/data-science-specific/data-science-methodology/</loc>
   </url>
   
@@ -393,7 +444,22 @@
   </url>
   
   <url>
+    <loc>/tech-department/tags/data-visualisation-datacamp/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/data-visualisation-mobile-money/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/data-science-specific/data-visualisation/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/data-wrangling/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -410,12 +476,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/</loc>
+    <loc>/tech-department/projects/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/projects/data-science-specific/</loc>
+    <loc>/tech-department/topics/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
@@ -428,7 +494,17 @@
   </url>
   
   <url>
+    <loc>/tech-department/tags/datacamp-logistic-regression/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/department-processes/deadlines/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/decision-trees/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -448,6 +524,16 @@
   </url>
   
   <url>
+    <loc>/tech-department/tags/docker-compose/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/dom-manipulation/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/elastic-search/</loc>
   </url>
   
@@ -456,11 +542,21 @@
   </url>
   
   <url>
+    <loc>/tech-department/tags/environmental-variables/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/linux/os-environmental-variables/</loc>
   </url>
   
   <url>
     <loc>/tech-department/topics/java-specific/gradle-env-config/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/error-checking/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -473,6 +569,11 @@
   
   <url>
     <loc>/tech-department/projects/expose-a-simple-rest-api-for-game/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/express/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -492,7 +593,16 @@
   </url>
   
   <url>
+    <loc>/tech-department/tags/fileio/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/data-science-specific/data-visualisation/mobile-money-viz/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/game-of-life-angular-elements/</loc>
   </url>
   
   <url>
@@ -501,6 +611,11 @@
   
   <url>
     <loc>/tech-department/projects/python-specific/file_io_kata/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/git/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -525,6 +640,11 @@
   
   <url>
     <loc>/tech-department/projects/data-science-specific/dashboards/google_data_studio/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/google-datastudio/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -565,6 +685,15 @@
   
   <url>
     <loc>/tech-department/projects/how-to-submit-your-project/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/html/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/syllabuses/hybrid-mobile-short/</loc>
   </url>
   
   <url>
@@ -613,6 +742,10 @@
   
   <url>
     <loc>/tech-department/topics/functional-programming-intro/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/intro-to-hybrid-mobile/</loc>
   </url>
   
   <url>
@@ -676,11 +809,11 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/js-and-node-specific/introduction-to-node/</loc>
+    <loc>/tech-department/workshops/node-and-sql/</loc>
   </url>
   
   <url>
-    <loc>/tech-department/workshops/node-and-sql/</loc>
+    <loc>/tech-department/projects/java-specific/introduction-to-spring-boot/</loc>
   </url>
   
   <url>
@@ -709,10 +842,6 @@
   
   <url>
     <loc>/tech-department/topics/java-specific/introduction-to-spring-boot/part-3/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/projects/java-specific/introduction-to-spring-boot/</loc>
   </url>
   
   <url>
@@ -772,6 +901,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/intro-to-typescript/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/intro-to-asserive-programming/</loc>
   </url>
   
@@ -809,6 +942,10 @@
   
   <url>
     <loc>/tech-department/topics/java-specific/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/syllabuses/java/</loc>
   </url>
   
   <url>
@@ -894,11 +1031,21 @@
   </url>
   
   <url>
+    <loc>/tech-department/tags/kmeans/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/basic-flow-control-katas/</loc>
   </url>
   
   <url>
     <loc>/tech-department/department-processes/linkz/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/linux/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -922,6 +1069,11 @@
   </url>
   
   <url>
+    <loc>/tech-department/tags/logging/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/logging/</loc>
   </url>
   
@@ -931,6 +1083,11 @@
   
   <url>
     <loc>/tech-department/topics/python-specific/logging/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/logistic-regression/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -946,6 +1103,20 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/memory-game-angular-material/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/mocks/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/mocks-and-spies/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/model-evaluaton/</loc>
   </url>
   
@@ -955,6 +1126,11 @@
   
   <url>
     <loc>/tech-department/topics/python-specific/mongodb/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/multiple-linear-regression/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -974,11 +1150,21 @@
   </url>
   
   <url>
+    <loc>/tech-department/tags/nlp/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/node/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/js-and-node-specific/node/</loc>
   </url>
   
   <url>
-    <loc>/tech-department/workshops/node/</loc>
+    <loc>/tech-department/projects/nodejs/sql/</loc>
   </url>
   
   <url>
@@ -998,7 +1184,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/oop-for-data-science/</loc>
+    <loc>/tech-department/projects/data-science-specific/oop-for-data-science/</loc>
   </url>
   
   <url>
@@ -1018,6 +1204,16 @@
   </url>
   
   <url>
+    <loc>/tech-department/tags/oop/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/oop-data-sci/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/tdd/password-checker/</loc>
   </url>
   
@@ -1026,7 +1222,17 @@
   </url>
   
   <url>
+    <loc>/tech-department/tags/plotly/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/data-science-specific/dashboards/plotly_dashboards/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/postgres/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -1083,6 +1289,11 @@
   </url>
   
   <url>
+    <loc>/tech-department/tags/rabbit-mq/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/rabbitmq/</loc>
   </url>
   
@@ -1092,6 +1303,11 @@
   
   <url>
     <loc>/tech-department/topics/regular-expressions/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/regular-expressions/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -1123,6 +1339,21 @@
   </url>
   
   <url>
+    <loc>/tech-department/tags/simple-linear-regression/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/smtp/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/sql/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/python-specific/sqlalchemy/basics/</loc>
   </url>
   
@@ -1136,6 +1367,11 @@
   
   <url>
     <loc>/tech-department/projects/data-science-specific/statistical-thinking/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/stats/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -1193,15 +1429,20 @@
   </url>
   
   <url>
+    <loc>/tech-department/tags/unit-testing/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/unit-testing/</loc>
   </url>
   
   <url>
-    <loc>/tech-department/workshops/intro-to-unit-testing-with-jasmine/</loc>
+    <loc>/tech-department/workshops/js-unit-tewsting/</loc>
   </url>
   
   <url>
-    <loc>/tech-department/workshops/js-unit-tewsting/</loc>
+    <loc>/tech-department/workshops/intro-to-unit-testing-with-jasmine/</loc>
   </url>
   
   <url>
@@ -1242,7 +1483,16 @@
   </url>
   
   <url>
+    <loc>/tech-department/tags/webscraping/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/data-science-specific/webscraping/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/data-science-specific/dashboards/webscraping_plus_dashboards/</loc>
   </url>
   
   <url>

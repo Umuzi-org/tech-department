@@ -11,6 +11,50 @@
     
     
     <item>
+      <title>Email random inspirational quote</title>
+      <link>/tech-department/projects/basic-unit-test-mocks-kata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/projects/basic-unit-test-mocks-kata/</guid>
+      <description>This basic project should demonstrate your understanding of mocks/spies.
+We&amp;rsquo;ll be making an application that ends emails.
+Set up Step 1 is to sign up for SendinBlue. You can sign up for the free plan. Once you are logged in click on the &amp;ldquo;Transactional&amp;rdquo; tab at the top of the page. You&amp;rsquo;ll see some SMTP settings. It&amp;rsquo;ll look something like this:
+SMTP server: smtp-relay.sendinblue.com Port: 587 Login: ??? Password: ?</description>
+    </item>
+    
+    <item>
+      <title>Memory game in vanilla js</title>
+      <link>/tech-department/projects/memory-game-vanilla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/projects/memory-game-vanilla/</guid>
+      <description>Here is an example of a memory game: http://dkmgames.com/memory/pairsrun.php
+Instructions Create a Memory game MVP. Requirements:
+ Take a moment to google MVP. If you add unnecessary features we&amp;rsquo;ll ask you to remove them make use of simple dom elements, no fancy graphics needed or canvas stuff a single player can play the game board is a pre-defined size board allows one set of symbols or images to be randomly hidden  Build your game in a TDD manner.</description>
+    </item>
+    
+    <item>
+      <title>Test Driven Development</title>
+      <link>/tech-department/topics/test-driven-development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/topics/test-driven-development/</guid>
+      <description>By now you should know a bit about what a unit test is and why we do them. The next question is: when should we do them? Do we write our unit tests after we write our code or before?
+Test driven development is a methodology in which tests are written before the code. This probably seems a little bit strange. Because it is. But it has a lot of advantages.</description>
+    </item>
+    
+    <item>
+      <title>password-checker</title>
+      <link>/tech-department/projects/tdd/password-checker/part1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/projects/tdd/password-checker/part1/</guid>
+      <description>Set up your environment Javascript Please test your code using jasmine.
+Your directory structure should look like this.
+ &amp;gt;node_modules &amp;lt;---- make sure this is in your .gitignore &amp;gt;spec &amp;gt; support -jasmine.json - password_is_valid_spec.js - password_is_ok_spec.js &amp;gt;src - password_checker.js - package.json  Python Your project is expected to be completed using pytest. You are expected to follow industry best practices in all things. This means that you need to have a directory structure that is in good shape.</description>
+    </item>
+    
+    <item>
       <title>simple-calculator part 1</title>
       <link>/tech-department/projects/tdd/simple-calculator-part1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -32,6 +76,17 @@ This exercise will require a little OOP knowledge. Brace yourself.
 Set up your environment Javascript Please test your code using jasmine.
 Your directory structure should look like this.
  &amp;gt;node_modules &amp;lt;---- make sure this is in your .gitignore &amp;gt;spec &amp;gt; support - jasmine.</description>
+    </item>
+    
+    <item>
+      <title>string-calculator</title>
+      <link>/tech-department/projects/tdd/string-calculator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/projects/tdd/string-calculator/</guid>
+      <description>Set up your environment Javascript Please test your code using jasmine.
+Your directory structure should look like this.
+ &amp;gt;node_modules &amp;lt;---- make sure this is in your .gitignore &amp;gt;spec &amp;gt; support - jasmine.json - string_calculator_spec.js &amp;gt;src - string_calculator.js - package.json  Python Your project is expected to be completed using pytest. You are expected to follow industry best practices in all things. This means that you need to have a directory structure that is in good shape.</description>
     </item>
     
   </channel>
