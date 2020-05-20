@@ -4,7 +4,12 @@ ready: true
 weight: 5
 
 prerequisites:
-  hard: ["topics/ajax", "projects/nodejs/express-forms", "projects/nodejs/api"]
+  hard:
+    [
+      "topics/intro-to-ajax",
+      "projects/nodejs/express-forms",
+      "projects/nodejs/api",
+    ]
   soft: []
 tags: ["node", "ajax"]
 ---

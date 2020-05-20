@@ -67,6 +67,9 @@ def check_one_file_frontmatter(file_path):
         "noform",
         "ncit_unit_standard",
         "ncit_specific_outcomes",
+        "prerequisites",
+        "tags",
+        "story_points",
     ]
 
     for key in post.keys():
