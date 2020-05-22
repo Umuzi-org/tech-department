@@ -92,7 +92,7 @@ A department contains one or more cohorts.
 Each department has one or more employees, employees are part of one department at a time only.
 
 
- ![step 1 image](.department_and_employee.png)
+ ![step 1 image](./img/department_and_employee.png)
 
 #### Recruits and departments
 
