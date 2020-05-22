@@ -6,20 +6,15 @@ ready: True
 
 
 
-In this topic, we will discuss the schema design. Here is what Wikipedia says about "Database Schema":
-
-> The database schema of a database is its structure described in a formal language supported by the database management system. The term "schema" refers to the organization of data as a blueprint of how the database is constructed. [Wikipedia](https://en.wikipedia.org/wiki/Database_schema)
-
-To help us understand the design process we will design an Umuzi.org physical database as an example. We will use Entity Relationship Diagram  (ERD) as a method to design our schema, I have selected [dbdiagram](https://dbdiagram.io) as a  tool to help us achieve this objective, I find the tool painless and straightforward, it provides fast feedback and I get to download a physical database right after, feel free to explore alternatives on the internet or experiment along.
-
+In this topic, we will discuss the schema design.
 This topic requires that you are a little bit familiar with [SQL](https://www.youtube.com/watch?v=27axs9dO7AE).
 
 ## The brief
 
-As an educational instruction, Umuzi.org plan to develop a database that will
+For their educational instruction needs, Umuzi.org plan to develop a database that will
 help different users retrieve specific information when needed efficiently. You have been selected by the tech team leadership to design and develop the database.
 
-We will first focus on designing the database using entity-relationship diagram (ERD). We will then proceed with converting our ERD into tables.
+We will first focus on designing the database using ERD. We will then proceed with converting our ERD into tables.
 
 
 ## Entity-relationship diagram (ERD)
@@ -40,7 +35,7 @@ It is important to uncover the relationship between entities, this will make sen
 
 #### Cohorts and recruits
 
-A cohort contains one or more recruits, on the other hand, a recruit can only belong to one cohort at a time.
+On one hand, a cohort contains one or more recruits, on the other hand, a recruit can only belong to one cohort at a time.
 
 ![step 1 image](./img/cohort_to_recruit.png)
 
@@ -74,7 +69,7 @@ Each department has one or more recruits, and recruits belong to a department at
 
 ##### Departments
 
-A department is managed by one employee (Head of a department) at a time. This is also called a `one to one relationship`. The `employee_id` is a `foreign key` with a `unique constraint`.
+A department is managed by one employee (Head of a department) at a time. This is also called a `one to one relationship`.
 
 | id | name | `employee_id` |
 |----|------|---------------|
@@ -87,7 +82,7 @@ A department is managed by one employee (Head of a department) at a time. This i
 ##### Cohort leadership
 
 A cohort at Umuzi.org can be managed by one or more employee from the same department.
-This said to be a `one to many relationships`, the `employee_id` is said to be a `foreign key` with `no unique constraint`.
+This said to be a `one to many relationships`.
 from the cohort and Employees tables, we derive the following table.
 
 | id | `employee_id` | `cohort_id` |
