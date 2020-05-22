@@ -16,88 +16,175 @@ This topic requires that you are a little bit familiar with [SQL](https://www.yo
 
 ## The brief
 
+As an educational instruction, Umuzi.org plan to develop a database that will
+help different users retrieve specific information  when needed efficiently.You have been selected by the tech team leadership to design and develop the database.
 
-As a developer working on a product you have been given a ticket that has the following requirements:
->Design a Umuzi's department database schema to handle data related to it.
-
-The strategist on the team has added the following details to your ticket:
-> The database you are about to design should handle the following queries
--  if the user has a recruit's full name he/she should be able to find which cohort the recruit belongs to.
--  if the user has a cohort name he/she should be able to find recruit(s) in it.
--  if the user has a staff member's email he/she should be able to retrieve recruits  he/she is servicing
+We will first focus on designing the database using entity-relationship diagram (ERD). We will then proceed with converting our ERD into table.
+Lastly we will demonstrate 2 query cases.
 
 
-## The steps
+## Entity-relationship diagram (ERD)
 
-  Step 1:   idetify `entities` within a deparment
-  ---
+As the name implies, entity-relationship diagram is all about relationship. For us to establish relationships we need to uncover different parts that make Umuzi.org. Let note that the discovered elements
+are those from which data is needed, they are also called `entities`.
 
- Our "Umuzi" schema to include the following entities:
+1. Cohorts
+2. Recruits
+3. Employees
+4. Departments
 
- - Departments
- - Cohorts
- - Recruits
- - staff
+So far these are entities from which the management will require information
 
-![step 1 image](./img/step_1.png)
+### The relationships
+
+It is important to uncover the relationship between entities, this will make sense later in this topic. Let examine few of them for now.
+
+#### Cohorts and recruits
+
+A cohort contains one or more recruits. And a recruits can belong to one cohort at a time.
+
+<!-- image describing the relationship here -->
+![step 1 image](./img/cohort_to_recruit.png)
 
 
-  Step 2: Add more attributes
-  ---
-let establish all entities with their names and properties
+#### Cohorts and departments
+
+A department contains one or more cohort. One cohort might span through many department at a time.
+
+![step 1 image](./img/department_and_cohort_rel.png)
 
 
-![step 2 image](./img/step_2.png)
+#### Departments and employees
 
-  Step 3: establish  relationships
-  ---
+Each department has one or more employees, employees are part of one department at a time only.
 
-  Each entity, attribute and relationship, should have appropriate names and that can be easily understood by the non-technical people as well. A relationship should connect entities.
+<!-- Image describing relationship between department and employees -->
 
- We will consider the following relationships within our  database :
+ ![step 1 image](.department_and_employee.png)
 
-- a one to one
-- a one to many
-- a many to many
+#### Recruits and departments
 
-### CASE 1 : One  to one relationship
+![step 1 image](./img/recruit_and_department.png)
 
-Think on of a student who has joined a cohort,
-having their name should allow a manger to retrieve his/her cohort.
-
-The relationship is to be represented as follow:
-
-![step 3 image](./img/one_one_rel.png)
-
-The resulting joined table
-
-![step 3 image](./img/one_one_result.png)
-
-### CASE 2 : Many to one
-
-On the other hand many recruits have been added to the same cohort, one cohort can contain many recruits, this is a `many to
-one relationship`.
-
-Our relationship representation becomes:
-
-![step 3 image](./img/many_to_one_table.png)
+Each department has one or more recruits,and recruits belong to a department at a time.
 
 
 
-### CASE 3 : Many to many relationship
 
- It is well known that a product at Umuzi might have one or more senior team members(staff) contributing to it. Assume you need to find out who are the seniors working on a team.
+#### Final view
 
- ![step 3 image](./img/many_to_many_rel.png)
+![step 1 image](./img/final_view_3.png)
 
- This works for few data but what if the management require that more details about a manager performance on a project be stored as wel.
- We have a possibility to create a new table from the existing relationship, such tables ar called `bridge table`.
+#### Tabular view
 
- ![step 3 image](./img/many_to_many_bridge.png)
+##### Departments
+
+A department is managed by one employee (Head of department) at a time. This is also called a `one to one relationship`. The `employee_id` is a `foreign key` with a `unique constraint`.
+
+| id | name | `employee_id` |
+|----|------|---------------|
+
+##### Cohorts
+
+| id | name | start_date | end_date |
+|----|------|------------|----------|
+
+##### Cohort leadership
+
+A cohort at Umuzi.org can be managed by one or more employee from the same department.
+This said to be a `one to many relationship`,the `employee_id` is said to be a `foreign key` with `no unique constraint`.
+from the cohort and Employees tables  we derive the following table.
+
+| id | `employee_id` | `cohort_id` |
+|----|-------------|-----------|
+
+
+##### Employees
+
+| id | f_name | l_name | dob | `department_id` | `role_id` |
+|----|--------|--------|-----|---------------|---------|
+
+##### Recruits
 
 
 
-Voila!
+| id | f_name | l_name | dob | `department_id` | `cohort_id` |
+|----|--------|--------|-----|---------------|-----------|
+
+##### Management
+
+let assume the user need to find who is in charge of what department, branches of a
+department,or a cohort. From the `employee` and `department` tables we derive the following table.
+
+
+| id | `employee_id` | `department_id` | `role_id` |
+|----|-------------|---------------|---------|
+
+It is often the case  that  manager takes on more than one responsibility at Umuzi.org,
+for example: a head of a department could taking on a cohort leader role, a cohort leadership position can be filled by more than one employee, this a `many to one relationship`.
+
+
+##### Management roles
+
+| id | name |
+|----|------|
+
+
+
+#### An example of few resulting tables
+
+##### Departments
+
+| id | name   |
+|----|--------|
+| 1  | Tech   |
+| 2  | Ui/Ux  |
+| 3  | Design |
+
+##### Cohorts
+
+| id | name | `manager_id` | `start_date` | `end_date` |
+|----|------|------------|------------|----------|
+| 1  | C22  | 1          | TBC        | TBC      |
+| 2  | C23  | 1          | TBC        | TBC      |
+| 3  | C24  | 2          | TBC        | TBC      |
+
+##### Employees
+
+| id | f_name       | l_name  | dob      | `department_id` |
+|----|--------------|---------|----------|---------------|
+| 1  | Vyachyeslahv | Bogdahn | 2/5/1987 | 1             |
+| 2  | Ahfahnahseey | Victor  | 5/1/1980 | 2             |
+
+##### Roles
+
+| id | name                   |
+|----|------------------------|
+| 1  | Head manager           |
+| 2  | Manager (Web dev)      |
+| 3  | Manager (Data science) |
+| 4  | Cohort leader          |
+
+
+##### Management
+
+
+| id | `employee_id` | `department_id` | `role_id` |
+|----|-------------|---------------|---------|
+| 1  | 1           | 1             | 1       |
+| 2  | 2           | 1             | 2       |
+| 3  | 3           | 1             | 3       |
+
+
+##### Recruits
+
+
+| id | f_name | l_name  | dob      | `dep_id` | `cohort_id` |
+|----|--------|---------|----------|--------|-----------|
+| 1  | Ahlyek | Vahlyen | 2/5/1987 | 1      | 1         |
+| 2  | Ahnton | Ahrtoor | 5/1/1980 | 2      | 3         |
+
+
 
 ## A note about redundant records
 
