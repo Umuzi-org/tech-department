@@ -54,11 +54,16 @@ Each department has one or more employees, employees are part of one department 
 
 ![step 1 image](./img/department_and_employee.png)
 
+Let note that one department is managed by one manager who an employee him/herself hence the following diagram
+
+![step 1 image](./img/department_management.png)
+
 #### Recruits and departments
 
 Each department has one or more recruits, and recruits belong to a department at a time.
+This relationship can best be represented when linking both entities through the cohort table(seen below picture), this way we get to observe in details the relationship.
 
-![step 1 image](./img/recruit_and_department.png)
+![step 1 image](./img/department_and_recruit.png)
 
 
 #### Final view
@@ -76,8 +81,10 @@ A department is managed by one employee (Head of a department) at a time. This i
 
 ##### Cohorts
 
-| id | name | start_date | end_date |
-|----|------|------------|----------|
+The cohort table to represent the relationship between recruits and departments.
+
+| id | recruit_id | department_id | cohort_name |
+|----|------------|---------------|-------------|
 
 ##### Cohort leadership
 
@@ -86,7 +93,7 @@ This said to be a `one to many relationships`.
 from the cohort and Employees tables, we derive the following table.
 
 | id | `employee_id` | `cohort_id` |
-|----|-------------|-----------|
+|----|---------------|-------------|
 
 
 ##### Employees
