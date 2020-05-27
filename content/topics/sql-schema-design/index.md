@@ -79,12 +79,26 @@ A department is managed by one employee (Head of a department) at a time. This i
 | id | name | `employee_id` |
 |----|------|---------------|
 
+
+| id | name   |
+|----|--------|
+| 1  | Tech   |
+| 2  | Ui/Ux  |
+| 3  | Design |
+
 ##### Cohorts
 
 The cohort table to represent the relationship between recruits and departments.
 
 | id | recruit_id | department_id | cohort_name |
 |----|------------|---------------|-------------|
+
+
+| id | name | `manager_id` | `start_date` | `end_date` |
+|----|------|------------|------------|----------|
+| 1  | C22  | 1          | TBC        | TBC      |
+| 2  | C23  | 1          | TBC        | TBC      |
+| 3  | C24  | 2          | TBC        | TBC      |
 
 ##### Cohort leadership
 
@@ -102,11 +116,26 @@ from the cohort and Employees tables, we derive the following table.
 | id | f_name | l_name | dob | `department_id` | `role_id` |
 |----|--------|--------|-----|---------------|---------|
 
+
+| id | f_name       | l_name  | dob      | `department_id` |
+|----|--------------|---------|----------|---------------|
+| 1  | Vyachyeslahv | Bogdahn | 2/5/1987 | 1             |
+| 2  | Ahfahnahseey | Victor  | 5/1/1980 | 2             |
+
 ##### Recruits
 
 
 | id | f_name | l_name | dob | `department_id` | `cohort_id` |
 |----|--------|--------|-----|---------------|-----------|
+
+
+
+| id | f_name | l_name  | dob      | `dep_id` | `cohort_id` |
+|----|--------|---------|----------|--------|-----------|
+| 1  | Ahlyek | Vahlyen | 2/5/1987 | 1      | 1         |
+| 2  | Ahnton | Ahrtoor | 5/1/1980 | 2      | 3         |
+
+
 
 ##### Management
 
@@ -119,39 +148,18 @@ Compared to previous cases, `many to many` relations are a bit tricky to represe
 
 
 
+| id | `employee_id` | `department_id` | `role_id` |
+|----|-------------|---------------|---------|
+| 1  | 1           | 1             | 1       |
+| 2  | 2           | 1             | 2       |
+| 3  | 3           | 1             | 3       |
+
+
 ##### Management roles
 
 | id | name |
 |----|------|
 
-
-
-#### An example of few resulting tables
-
-##### Departments
-
-| id | name   |
-|----|--------|
-| 1  | Tech   |
-| 2  | Ui/Ux  |
-| 3  | Design |
-
-##### Cohorts
-
-| id | name | `manager_id` | `start_date` | `end_date` |
-|----|------|------------|------------|----------|
-| 1  | C22  | 1          | TBC        | TBC      |
-| 2  | C23  | 1          | TBC        | TBC      |
-| 3  | C24  | 2          | TBC        | TBC      |
-
-##### Employees
-
-| id | f_name       | l_name  | dob      | `department_id` |
-|----|--------------|---------|----------|---------------|
-| 1  | Vyachyeslahv | Bogdahn | 2/5/1987 | 1             |
-| 2  | Ahfahnahseey | Victor  | 5/1/1980 | 2             |
-
-##### Roles
 
 | id | name                   |
 |----|------------------------|
@@ -160,24 +168,6 @@ Compared to previous cases, `many to many` relations are a bit tricky to represe
 | 3  | Manager (Data science) |
 | 4  | Cohort leader          |
 
-
-##### Management
-
-
-| id | `employee_id` | `department_id` | `role_id` |
-|----|-------------|---------------|---------|
-| 1  | 1           | 1             | 1       |
-| 2  | 2           | 1             | 2       |
-| 3  | 3           | 1             | 3       |
-
-
-##### Recruits
-
-
-| id | f_name | l_name  | dob      | `dep_id` | `cohort_id` |
-|----|--------|---------|----------|--------|-----------|
-| 1  | Ahlyek | Vahlyen | 2/5/1987 | 1      | 1         |
-| 2  | Ahnton | Ahrtoor | 5/1/1980 | 2      | 3         |
 
 
 
