@@ -33,6 +33,12 @@ So far these are entities from which the management will require information
 
 It is important to uncover the relationship between entities, this will make sense later in this topic. Let examine a few of them for now.
 
+##### Cardinality
+
+[Astera](https://astera.zendesk.com/hc/en-us/articles/115000512603-Overview-of-Cardinality-in-Data-Modeling) defines cardinality as follow, "In data modeling, cardinality refers to the relationship of data in one database table with respect to another table. Two tables can be related as “one-to-one”, "one-to-many", or "many-to-many": 1:1. One row in table A relates to one row in table B."
+
+![cardinality](./img/cardinality.png)
+
 #### Cohorts and recruits
 
 On one hand, a cohort contains one or more recruits, on the other hand, a recruit can only belong to one cohort at a time.
@@ -79,12 +85,13 @@ A department is managed by one employee (Head of a department) at a time. This i
 | id | name | `employee_id` |
 |----|------|---------------|
 
+##### Example
 
-| id | name   |
-|----|--------|
-| 1  | Tech   |
-| 2  | Ui/Ux  |
-| 3  | Design |
+| id | name   | employee_id |
+|----|--------|-------------|
+| 1  | Tech   |      1      |
+| 2  | Ui/Ux  |      2      |
+| 3  | Design |      3      |
 
 ##### Cohorts
 
@@ -93,6 +100,7 @@ The cohort table to represent the relationship between recruits and departments.
 | id | recruit_id | department_id | cohort_name |
 |----|------------|---------------|-------------|
 
+##### Example
 
 | id | name | `manager_id` | `start_date` | `end_date` |
 |----|------|------------|------------|----------|
@@ -109,6 +117,13 @@ from the cohort and Employees tables, we derive the following table.
 | id | `employee_id` | `cohort_id` |
 |----|---------------|-------------|
 
+##### Example
+
+| id | employee_id  | cohort_id  |
+|----|--------------|------------|
+| 1  |      1       |     abc    |
+| 2  |      2       |     xyz    |
+
 
 ##### Employees
 
@@ -116,11 +131,12 @@ from the cohort and Employees tables, we derive the following table.
 | id | f_name | l_name | dob | `department_id` | `role_id` |
 |----|--------|--------|-----|---------------|---------|
 
+##### Example
 
 | id | f_name       | l_name  | dob      | `department_id` |
 |----|--------------|---------|----------|---------------|
-| 1  | Vyachyeslahv | Bogdahn | 2/5/1987 | 1             |
-| 2  | Ahfahnahseey | Victor  | 5/1/1980 | 2             |
+| 1  | Vyachyeslahv | Bogdahn | 2/5/1987 |      1        |
+| 2  | Ahfahnahseey | Victor  | 5/1/1980 |      2        |
 
 ##### Recruits
 
