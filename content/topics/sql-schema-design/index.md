@@ -60,7 +60,7 @@ Each department has one or more employees, employees are part of one department 
 
 ![step 1 image](./img/department_and_employee.png)
 
-Let note that one department is managed by one manager who an employee him/herself hence the following diagram
+Let note that one department is managed by one manager who is an employee him/herself hence the following diagram:
 
 ![step 1 image](./img/department_management.png)
 
