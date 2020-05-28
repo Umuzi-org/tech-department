@@ -82,12 +82,9 @@ This relationship can best be represented when linking both entities through the
 
 A department is managed by one employee (Head of a department) at a time. This is also called a `one to one relationship`.
 
-| id | name | `employee_id` |
-|----|------|---------------|
-
 ##### Example
 
-| id | name   | employee_id |
+| id | name   | `employee_id` |
 |----|--------|-------------|
 | 1  | Tech   |      1      |
 | 2  | Ui/Ux  |      2      |
@@ -96,9 +93,6 @@ A department is managed by one employee (Head of a department) at a time. This i
 ##### Cohorts
 
 The cohort table to represent the relationship between recruits and departments.
-
-| id | recruit_id | department_id | cohort_name |
-|----|------------|---------------|-------------|
 
 ##### Example
 
@@ -114,9 +108,6 @@ A cohort at Umuzi.org can be managed by one or more employee from the same depar
 This said to be a `one to many relationships`.
 from the cohort and Employees tables, we derive the following table.
 
-| id | `employee_id` | `cohort_id` |
-|----|---------------|-------------|
-
 ##### Example
 
 | id | employee_id  | cohort_id  |
@@ -128,9 +119,6 @@ from the cohort and Employees tables, we derive the following table.
 ##### Employees
 
 
-| id | f_name | l_name | dob | `department_id` | `role_id` |
-|----|--------|--------|-----|---------------|---------|
-
 ##### Example
 
 | id | f_name       | l_name  | dob      | `department_id` |
@@ -139,11 +127,6 @@ from the cohort and Employees tables, we derive the following table.
 | 2  | Ahfahnahseey | Victor  | 5/1/1980 |      2        |
 
 ##### Recruits
-
-
-| id | f_name | l_name | dob | `department_id` | `cohort_id` |
-|----|--------|--------|-----|---------------|-----------|
-
 
 
 | id | f_name | l_name  | dob      | `dep_id` | `cohort_id` |
@@ -161,21 +144,12 @@ Compared to previous cases, `many to many` relations are a bit tricky to represe
 
 | id | `employee_id` | `department_id` | `role_id` |
 |----|-------------|---------------|---------|
-
-
-
-| id | `employee_id` | `department_id` | `role_id` |
-|----|-------------|---------------|---------|
 | 1  | 1           | 1             | 1       |
 | 2  | 2           | 1             | 2       |
 | 3  | 3           | 1             | 3       |
 
 
 ##### Management roles
-
-| id | name |
-|----|------|
-
 
 | id | name                   |
 |----|------------------------|
