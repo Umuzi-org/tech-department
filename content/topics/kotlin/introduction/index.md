@@ -1,9 +1,6 @@
 ---
 title: Kotlin Introduction
 ready: true
-prerequisites:
-  hard: ["topics/kotlin/basic-syntax-types"]
-  soft: []
 ---
 
 **Kotlin Introduction**

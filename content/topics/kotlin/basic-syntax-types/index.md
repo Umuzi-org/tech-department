@@ -2,7 +2,7 @@
 title: Basic Syntax & Types
 ready: true
 prerequisites:
-  hard: ["topics/kotlin/basic-control-flow"]
+  hard: ["topics/kotlin/set-up"]
   soft: []
 ---
 

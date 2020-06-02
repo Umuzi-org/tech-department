@@ -1,6 +1,9 @@
 ---
 title: Basic - Control Flow
 ready: true
+prerequisites:
+  hard: ["topics/kotlin/basic-syntax-types"]
+  soft: []
 ---
 
 **BASICS - Control Flow**
