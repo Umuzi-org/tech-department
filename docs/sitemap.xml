@@ -190,6 +190,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/syllabuses/andriod-kotlin/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/android/android-self-learning/</loc>
   </url>
   
@@ -198,12 +202,16 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/android/</loc>
-    <priority>0</priority>
+    <loc>/tech-department/topics/kotlin/</loc>
   </url>
   
   <url>
     <loc>/tech-department/topics/android/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/android/</loc>
     <priority>0</priority>
   </url>
   
@@ -276,7 +284,15 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/kotlin/basic-control-flow/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/python-specific/basic-intro-to-oop/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/kotlin/basic-syntax-types/</loc>
   </url>
   
   <url>
@@ -1036,6 +1052,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/kotlin/introduction/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/basic-flow-control-katas/</loc>
   </url>
   
@@ -1336,6 +1356,10 @@
   
   <url>
     <loc>/tech-department/projects/semitone-challenge/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/kotlin/set-up/</loc>
   </url>
   
   <url>
