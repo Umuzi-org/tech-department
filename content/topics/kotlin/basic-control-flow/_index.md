@@ -1,5 +1,5 @@
 ---
-title: Basic - Control Flow
+title: Basic Control Flow
 ready: true
 prerequisites:
   hard: ["topics/kotlin/basic-syntax-types"]
