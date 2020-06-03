@@ -2,7 +2,7 @@
 title: Interface 
 ready: true
 prerequisites:
-  hard: ["topics/kotlin/properties and fields"]
+  hard: ["topics/kotlin/properties-and-fields"]
   soft: []
 
 ---
