@@ -5,7 +5,6 @@ prerequisites:
   hard: ["topics/kotlin/classes"]
   soft: []
 ---
-## Properties and Fields
 ### Declaring Properties
 Classes in Kotlin can have properties. These can be declared as mutable, using the var keyword or read-only using the val keyword.
 ````

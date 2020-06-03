@@ -2,7 +2,6 @@
 title: Delegated Properties 
 ready: true
 ---
-## Delegated Properties
 There are certain common kinds of properties, that, though we can implement them manually every time we need them, would be very nice to implement once and for all, and put into a library. Examples include
 
 - lazy properties: the value gets computed only upon first access,

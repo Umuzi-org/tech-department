@@ -2,8 +2,6 @@
 title: Delegation 
 ready: true
 ---
-
-## Delegation
 ### Class Delegation
 The Delegation pattern has proven to be a good alternative to implementation inheritance, and Kotlin supports it natively requiring zero boilerplate code. A class Derived can inherit from an interface Base and delegate all of its public methods to a specified object:
 ````

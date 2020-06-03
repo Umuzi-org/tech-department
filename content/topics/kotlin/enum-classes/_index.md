@@ -5,7 +5,6 @@ prerequisites:
   hard: ["topics/kotlin/nested-classes"]
   soft: []
 ---
-### Enum Classes
 The most basic usage of enum classes is implementing type-safe enums
 ````
 enum class Direction {

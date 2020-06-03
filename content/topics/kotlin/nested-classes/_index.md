@@ -5,7 +5,6 @@ prerequisites:
   hard: ["topics/kotlin/generics"]
   soft: []
 ---
-## Nested Classes
 Classes can be nested in other classes
 ````
 class Outer {

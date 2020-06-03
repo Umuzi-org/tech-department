@@ -6,9 +6,7 @@ prerequisites:
   soft: []
 ---
 
-**BASICS - Control Flow**
-
-If Expression
+### If Expression
 
 In Kotlin, if is an expression, i.e. it returns a value. Therefore there is no ternary operator (condition ? then : else), because ordinary if works fine in this role.
 
@@ -59,7 +57,7 @@ val max = if (a > b) {
 
 If you&#39;re using if as an expression rather than a statement (for example, returning its value or assigning it to a variable), the expression is required to have an else branch.
 
-When Expression
+### When Expression
 
 when replaces the switch operator of C-like languages. In the simplest form it looks like this
 
@@ -135,7 +133,7 @@ when {
     else -> print("x is funny") 
 }
 ```
-For Loops
+### For Loops
 ```
 for loop iterates through anything that provides an iterator. The syntax is as follows:
 
@@ -179,7 +177,7 @@ for ((index, value) in array.withIndex()) {
 
 } 
 ```
-While Loops
+### While Loops
 
 while and do..while work as usual
 ```
@@ -195,7 +193,7 @@ val y = retrieveData()
 
 } while (y != null) // y is visible here!
 ```
-Break and continue in loops
+### Break and continue in loops
 
 Kotlin supports traditional break and continue operators in loops.
 
@@ -213,7 +211,7 @@ val s = person.name ?: return
 
 The type of these expressions is the Nothing type.
 
-Break and Continue Labels
+### Break and Continue Labels
 Any expression in Kotlin may be marked with a label. Labels have the form of an identifier followed by the @ sign, for example: abc@, fooBar@ are valid labels. To label an expression, we just put a label in front of it
 
 ```
@@ -235,7 +233,7 @@ loop@ for (i in 1..100) {
 
 A break qualified with a label jumps to the execution point right after the loop marked with that label. A continue proceeds to the next iteration of that loop.
 
-Return at Labels
+### Return at Labels
 With function literals, local functions and object expression, functions can be nested in Kotlin. Qualified returns allow us to return from an outer function. The most important use case is returning from a lambda expression. Recall that when we write this:
 
 ````

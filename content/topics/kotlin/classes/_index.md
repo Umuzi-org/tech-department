@@ -6,7 +6,6 @@ prerequisites:
   soft: []
 
 ---
-## Classes
 Classes in Kotlin are declared using the keyword class:
 
 ````
@@ -14,7 +13,7 @@ class Invoice {
     }
 ````
 
-Constructors
+### Constructors
 A class in Kotlin can have a primary constructor and one or more secondary constructors.
 
 
@@ -24,7 +23,7 @@ class Person constructor(firstName: String) {
 
 ````
 
-Secondary Constructors
+### Secondary Constructors
 The class can also declare secondary constructors, which are prefixed with constructor:
 
 ````
@@ -35,7 +34,7 @@ class Person {
     }
 ````
 
-Creating instances of classes
+### Creating instances of classes
 To create an instance of a class, we call the constructor as if it were a regular function:
 ````
  val invoice = Invoice()
@@ -45,7 +44,7 @@ To create an instance of a class, we call the constructor as if it were a regula
 
 Note: that Kotlin does not have a new keyword.
 
-Inheritance
+### Inheritance
 All classes in Kotlin have a common superclass Any, that is a default super for a class with no supertypes declared:
 
 
@@ -62,7 +61,7 @@ open class Base(p: Int)
     class Derived(p: Int) : Base(p)
 ````
 
-Overriding Methods
+### Overriding Methods
 Kotlin requires explicit annotations for overridable members (we call them open) and for overrides:
 
 ````
@@ -79,7 +78,7 @@ open class Base {
 The override annotation is required for Derived.v(). If it were missing, the compiler would complain.
 
 
-Abstract Classes
+### Abstract Classes
 A class and some of its members may be declared abstract. An abstract member does not have an implementation in its class.
 
 We can override a non-abstract open member with an abstract one

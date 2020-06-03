@@ -5,7 +5,6 @@ prerequisites:
   hard: ["topics/kotlin/sealed-classes"]
   soft: []
 ---
-## Generics
 As in Java, classes in Kotlin may have type parameters:
 ````
 class Box(t: T) {
