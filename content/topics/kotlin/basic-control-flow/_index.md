@@ -6,9 +6,9 @@ prerequisites:
   soft: []
 ---
 
-### If Expression
+### "If" Expression
 
-In Kotlin, if is an expression, i.e. it returns a value. Therefore there is no ternary operator (condition ? then : else), because ordinary if works fine in this role.
+In Kotlin, "if" is an expression, i.e. it returns a value. Therefore there is no ternary operator (condition ? then : else), because ordinary if works fine in this role.
 
 ```
 // Traditional usage
@@ -35,7 +35,7 @@ max = b
 
 val max = if (a > b) a else b 
 ```
-if branches can be blocks, and the last expression is the value of a block: 
+"if" branches can be blocks, and the last expression is the value of a block: 
 ```
 
 val max = if (a > b) { 
@@ -55,7 +55,7 @@ val max = if (a > b) {
 
 
 
-If you&#39;re using if as an expression rather than a statement (for example, returning its value or assigning it to a variable), the expression is required to have an else branch.
+If you're using "if" as an expression rather than a statement (for example, returning its value or assigning it to a variable), the expression is required to have an else branch.
 
 ### When Expression
 
