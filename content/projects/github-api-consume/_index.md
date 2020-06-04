@@ -5,6 +5,7 @@ prerequisites:
   hard: ["topics/apis/basics/"]
   soft: []
 tags: []
+story_points: 3
 ---
 
 In this project you'll make use of Github's awesome API. We chose Github for this project because:

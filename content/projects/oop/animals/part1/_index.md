@@ -5,6 +5,7 @@ prerequisites:
   hard: ["projects/oop/person"]
   soft: []
 tags: ["oop"]
+story_points: 3
 ---
 
 ## Project structure

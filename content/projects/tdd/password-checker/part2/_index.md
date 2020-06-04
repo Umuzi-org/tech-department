@@ -5,6 +5,7 @@ prerequisites:
   hard: ["projects/tdd/password-checker/part1"]
   soft: []
 tags: ["logging"]
+story_points: 3
 ---
 
 In part one of this excercise you created two functions. Now you are going to upgrade that program by adding some logging capabilities.
