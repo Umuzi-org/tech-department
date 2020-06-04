@@ -6,7 +6,7 @@ prerequisites:
   soft: []
 ---
 
-**Beginning Android Development**
+### Beginning Android Development
 
 There aren't any prerequisites for this tutorial, other than a willing mind and a Mac or PC. You can develop for Android on both a Mac or a PC. The instructions are similar but slightly different between macOS, Windows and Linux.
 
@@ -20,14 +20,13 @@ Please feel free to google a setup process for your specific OS or use the links
 
 Ask your senior for help if all else fails.
 
-Resources:
+### Resources:
 
 - [https://www.youtube.com/watch?v=rDqZgx21eH8](https://www.youtube.com/watch?v=rDqZgx21eH8)
 - [https://www.youtube.com/watch?v=i-GDpRzsMiU](https://www.youtube.com/watch?v=i-GDpRzsMiU)
 
-Configure Kotlin on older versions on Android Studio:
+### Configure Kotlin on older versions on Android Studio:
 
 - [https://www.youtube.com/watch?v=kEpVuKn1yT8](https://www.youtube.com/watch?v=kEpVuKn1yT8)
-
 Test your configuration with the &quot;Hello World&quot; application in the Kotlin Introduction topic.
 

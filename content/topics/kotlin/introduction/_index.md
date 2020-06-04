@@ -3,7 +3,7 @@ title: Kotlin Introduction
 ready: true
 ---
 
-**Kotlin Introduction**
+**Kotlin is a:**
 
 - [Statically](https://www.techopedia.com/definition/22321/statically-typed)[typed](https://en.wikipedia.org/wiki/Type_system) language.
 - Developed by [JetBrains](https://www.jetbrains.com/).
@@ -41,9 +41,9 @@ Hello World!
 
 Breakdown:
 
-fun Main(args : Array\&lt;String\&gt;){}
+fun Main(args : Array<<String>>){}
 
-  - &#39;fun&#39;, is the keyword in Kotlin for function.
+  - fun, is the keyword in Kotlin for function.
   - This is the main function, just as in java it serves as the entry point to the application.
   - Mandatory function of the Kotlin program.
   - Code should be written in curly brackets.
