@@ -5,10 +5,7 @@ prerequisites:
   hard: ["topics/kotlin/set-up"]
   soft: []
 ---
-
-**BASICS - Types**
-
-[**var us val:**](https://www.youtube.com/watch?v=Nz-lMqxfUUs)
+### [var us val:](https://www.youtube.com/watch?v=Nz-lMqxfUUs)
 
 - **val and var** both are used to declare a variable.
 - **var** is like general variable and it&#39;s known as a **mutable** variable in **Kotlin** and can be assigned multiple times.
@@ -17,7 +14,7 @@ prerequisites:
 
 Syntaxt : var book:String = &quot;Maths&quot; // This should only be used when necessary.
 
-**Numbers:**
+### Numbers:
 
 - Kotlin handles numbers in a way close to Java, but not exactly the same.
 - Kotlin provides the following built in types representing numbers (this is close to Java):
@@ -31,7 +28,7 @@ Syntaxt : var book:String = &quot;Maths&quot; // This should only be used when n
 | Short | 16 |
 | Byte | 8 |
 
-**Characters:**
+### Characters:
 
 - Note that characters are not numbers in Kotlin.
 - Characters are represented by the type Char.
@@ -53,7 +50,7 @@ If (c == 1) {
 ```
 
 
-**Booleans:**
+### Booleans:
 
 The type Boolean represents booleans, has a **true** or **false** value.
 
@@ -75,7 +72,7 @@ operator fun set(index : Int, value: T ) : Unit
 ```
 
 
-**Strings**
+### Strings
 
 Strings represented by the type String. Strings are immutable.
 
