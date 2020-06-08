@@ -325,6 +325,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/kotlin/classes/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/clean-code/</loc>
   </url>
   
@@ -420,6 +424,10 @@
   
   <url>
     <loc>/tech-department/projects/data-science-specific/dashboards/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/kotlin/data-classes/</loc>
   </url>
   
   <url>
@@ -528,6 +536,14 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/kotlin/delegated-properties/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/kotlin/delegation/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/oop/dice/</loc>
   </url>
   
@@ -555,6 +571,10 @@
   
   <url>
     <loc>/tech-department/projects/basic-unit-test-mocks-kata/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/kotlin/enum-classes/</loc>
   </url>
   
   <url>
@@ -623,6 +643,10 @@
   
   <url>
     <loc>/tech-department/topics/clean-code/general/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/kotlin/generics/</loc>
   </url>
   
   <url>
@@ -718,6 +742,10 @@
   
   <url>
     <loc>/tech-department/projects/android/information-page/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/kotlin/interface/</loc>
   </url>
   
   <url>
@@ -1166,6 +1194,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/kotlin/nested-classes/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/data-science-specific/challenges/network-intrusion/</loc>
   </url>
   
@@ -1264,6 +1296,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/kotlin/properties-and-fields/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/python-specific/oop-basics/</loc>
   </url>
   
@@ -1352,6 +1388,10 @@
   
   <url>
     <loc>/tech-department/department-processes/workshops_and_events/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/kotlin/sealed-classes/</loc>
   </url>
   
   <url>
