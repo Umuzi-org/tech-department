@@ -7,6 +7,8 @@ prerequisites:
     [
       "topics/web-frontend/intro-to-web-design/",
       "workshops/intro-to-css-architecture",
+      "topics/free-code-camp/responsive-web-design/basic-html-and-html-5",
+      "topics/free-code-camp/responsive-web-design/basic-css",
     ]
 
 tags: ["html", "css"]
