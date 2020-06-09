@@ -39,7 +39,7 @@
 	"title": "Syllabus",
 	"tags": [],
 	"description": "",
-	"content": " We support a few different technical learning paths. Data Science, Data Engineering, Web Dev, and Java sys dev. What follows below is a week-by-week breakdown of these courses. This is all on one page because our various courses have enough in common that it makes sense to keep them synchronized.\nA note on Umuzi’s formal qualification and accreditation Umuzi is a registered training provider with MICT SETA. Our National Certificate IT (Systems Development) (NCIT) qualification is a learnership requirement (i.e. Umuzi’s employer partners can therefore recognize their training and stipend spend as part of their skills development budgets). We work hard to both meet the National Certificate requirements and deliver a practical and relevant learning experience (which are not always well aligned) however, we firmly believe the most important part is the practical application of learning rather than merely meeting the unit standard requirements. Below we refer to the formal NCIT requirements e.g. NCIT01: Business and technology.\nTerminology This is a living document and there are a few things that need to be fleshed out:\n as far as possible each bullet point that describes a piece of our syllabus should be marked as a WORKSHOP, TOPIC or PROJECT. Or exercise??\n WORKSHOP == instructor led event. TOPIC == self study material PROJECT == you know  we need to make sure all the NCIT requirements have been dealt with before hitting the summative assessment\n the syllabus is really long. There is a lot to cover so that has effects on Product teams. There are decisions to be made there.\n  Week -1: Bootcamp This is the final step of our selection process. If applicants get through the bootcamp then they are accepted as Umuzi recruits and go on with the rest of the program.\nWe start off by introducing the applicants to the development environment and resources that they\u0026rsquo;ll be using. They are given various group an individual challenges throughout the week.\nWeek 0: Make Umuzi Better A recruit’s journey starts with a one week programme called #MakeUmuziBetter. Recruits from all departments form small cross-functional teams to tackle issues at Umuzi - anything from mental health to kitchen norms to the physical layout of our space. To accomplish this, they learn about and execute Human-Centered Design, a technique used throughout their time at Umuzi. Each team maps out user journeys, conducts interviews and surveys, designs a prototype of their solution, and presents it to the staff and external guests.\nNCIT assessments We get a few NCIT assessments out of the way during MUB.\n NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  Week 1: Linux and soft skills In this week, everyone gets to know their way around linux.\n ALL:\n Department ice-breaker  WORKSHOPS: How to be a professional   REMOTE-WORK: How recruits work remotely  Introduction to NCIT curriculum  WORKSHOPS: [TODO] Introduction to Linux: Live demo   TOPICS: Introduction to Linux   PROJECTS: [TODO] Beginner Linux challenges   TOPICS: Introduction to Bash and the terminal    Everyone is also given links to resources so that they can start reading ahead.\n JAVA:\n  TOPICS: Java Dev environment setup   TOPICS: Java learning materials   WEB_DEV:\n  TOPICS: Web Dev learning materials   DATA_ENG:\n  TOPICS: Python self-learning   DATA_SCI: please take note, you don\u0026rsquo;t need to go as deep into coding as others. But it is good to know your way around\n  TOPICS: Python self-learning   TOPICS: Clean Code    Week 2: Git and personal portfolio Recruits learn a bit about how to build an online presence. Recruits submit their work using Git from the very beginning of their course.\n ALL:\n  TOPICS: Git Basics  Q\u0026amp;A Git basics  PROJECTS: Git Basic Exercises   WORKSHOPS: What to Put On A CV   PROJECTS: Build your first personal website - Introduction  TOPICS: Clean Code  NCIT 04: Version control (GIT) for teamwork  WEB_DEV:\n  WORKSHOPS: Intro to CSS architecture   TOPICS: Introduction to web design    Week 3: Finish portfolio project The recruits finish off their portfolios. From this point forward they are expected to keep their portfolios up to date on their own time.\n ALL:\n  WORKSHOPS: [TODO] Big Picture of Web Dev   PROJECTS: Build your first personal website - Deadline NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)   DATA_SCI:\n  WORKSHOPS: Survey design   WORKSHOPS: Google forms like a boss    Week 4:   TOPICS: How to ask for help with your code  WEB_DEV:\n  TOPICS: [TODO] Super basic intro to Node  WORKSHOP: Live code. Super basic intro to node  PROJECTS: Level 1 programming katas do this in pairs  DATA_ENG:\n  PROJECTS: Level 1 programming katas do this in pairs  WORKSHOPS: [TODO] Basic Intro to OOP   TOPICS: [TODO] Python OOP basics   PROJECTS: Person do this in pairs  PROJECTS: Animals Part 1. OOP basics individual. Due towards the end of the week  DATA_SCI:\n  TOPICS: Unit testing (language agnostic concepts)   TOPICS: Automated Testing in Python   PROJECTS: Level 1 programming katas do this in pairs  PROJECTS: simple-calculator part 1 do this in pairs  JAVA:\n carry over any NCIT tasks from previous week  TOPICS: Introduction to Gradle   WORKSHOPS: Live coding: Introduction to Java Monday or Tuesday Recruits should be familiar with basic flow control, if, else, loops. It may be necessary to have another workshop on this  PROJECTS: Level 1 programming katas do this in pairs, they should use Gradle   Week 5: Some specific skills  DATA_SCI:\n  TOPICS: Introduction to assertive programming   TOPICS: [TODO] Assertive programming and Pandas   PROJECTS: Assertive programming kata do this in pairs  PROJECTS: Data Visualisation Projects   DATA_ENG:\n  TOPICS: Introduction to assertive programming   PROJECTS: Assertive programming kata   TOPICS: Unit testing (language agnostic concepts)   PROJECTS: Animals Part 2. Adding Tests : add some tests to existing code  TOPICS: Test Driven Development   TOPICS: Automated Testing in Python   PROJECTS: simple-calculator part 1   WEB_DEV:\n  WORKSHOPS: [TODO] OOP in JS   TOPICS: [TODO] OOP in JS and Node   PROJECTS: Person do this in pairs  PROJECTS: Animals Part 1. OOP basics individual. Due towards the end of the week  JAVA:\n  WORKSHOPS: Basic intro to oop with IntelliJ   TOPICS: Java OOP basics resources and readings   PROJECTS: Person do this in pairs  PROJECTS: Animals Part 1. OOP basics individual. Due towards the end of the week NCIT 08: Pseudocode and documentation NCIT 13: Object-oriented programming workshop: oop Q\u0026amp;A might be needed   Week 6  ALL:\n  TOPICS: How the internet works   TOPICS: Data Ethics and Privacy   DATA_SCI:\n  WORKSHOPS: Data Ethics   DATA_ENG:\n  PROJECTS: password-checker  logging with python add logging to password checker  WEB_DEV:\n  TOPICS: Introduction to assertive programming   PROJECTS: Assertive programming kata   TOPICS: Unit testing (language agnostic concepts)   PROJECTS: Animals Part 2. Adding Tests : add some tests to existing code  TOPICS: Test Driven Development   WORKSHOPS: Unit testing with Jasmine Introduction   PROJECTS: simple-calculator part 1   JAVA:\n  TOPICS: Introduction to assertive programming   PROJECTS: Assertive programming kata   TOPICS: Unit testing (language agnostic concepts)   TOPICS: Intro to JUnit  LIVE CODE WORKSHOP: demonstrate unit tests with intelliJ and JUnit.  PROJECTS: Animals Part 2. Adding Tests : add some tests to existing code  TOPICS: Test Driven Development   PROJECTS: simple-calculator part 1   TOPICS: Exception Handling   NCIT 05: History of the Internet\n NCIT 06: Web design for business\n NCIT 07: Building an online business\n NCIT 08: Pseudocode and documentation\n  Week 7  ALL:\n NCIT 09: Ethics and Professionalism in IT NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 11: Test-driven development  DATA_SCI:\n  TOPICS: Automated Testing pandas and numpy   PROJECTS: string-calculator   DATA_ENG:\n  PROJECTS: string-calculator   WEB_DEV:\n  PROJECTS: password-checker   TOPICS: Logging in Node and JS  add logging to password checker  JAVA:\n LIVE CODE WORKSHOP: Error Handling  PROJECTS: password-checker   TOPICS: Java Logging with Log4j   PROJECTS: Add logging to password checker   TOPICS: Java File IO    Week 8:  DATA_SCI:\n  PROJECTS: Statistical Thinking INTRODUCED  Java:\n  PROJECTS: File IO \u0026#43; Logging \u0026#43; Errors   TOPICS: Regular Expression Resources  NCIT 17: Search and sort techniques  DATA_ENG:\n  TOPICS: Unit testing with mocks and spies   PROJECTS: Email random inspirational quote   TOPICS: API basics   PROJECTS: Consume Github API - INTRODUCED  WEB_DEV\n  PROJECTS: string-calculator    Week 9:  DATA_SCI\n  PROJECTS: Data Wrangling   TOPICS: Intro to functional programming   DATA_ENG\n  PROJECTS: Consume Github API - DUE  TOPICS: Environmental Variables   TOPICS: [TODO] Virtual Environments   WEB_DEV:\n  TOPICS: Unit testing with mocks and spies   PROJECTS: Email random inspirational quote   TOPICS: API basics   PROJECTS: Consume Github API - INTRODUCED  JAVA\n  PROJECTS: string-calculator   TOPICS: Strings and numbers in Java    Week 10:  ALL\n  TOPICS: The Tech Landscape Terminology  NCIT 12: Business and technology  DATA_SCI:\n  PROJECTS: Data Wrangling - FINISH UP\n DATA_ENG:\n  TOPICS: Intro to Docker and Docker-compose   PROJECTS: SQL   WEB_DEV:\n  PROJECTS: Consume Github API - DUE  TOPICS: DOM manipulation with vanilla JavaScript   PROJECTS: Memory game in vanilla js INTRODUCED  JAVA:\n  PROJECTS: Java data structures   PROJECTS: Java collections   TOPICS: Java collections and data structures    Week 11  DATA_ENG\n  TOPICS: Sqlalchemy ORM   PROJECTS: create a REST api to interact with actual database   DATA_SCI:\n  PROJECTS: Cross-validation \u0026amp; Simple Linear Regression   WEB_DEV:\n  PROJECTS: Memory game in vanilla js DUE  JAVA:\n  PROJECTS: Dice INTRODUCED  PROJECTS: Java Generics   TOPICS: Java Generics   TOPICS: Introduction to Design Patterns    WEEK 12:  DATA_SCI:\n  PROJECTS: Multivariate Linear Regression  BONUS: Compare results using OOP principles in PROJECTS: Cross-validation \u0026amp; Simple Linear Regression   WEB_DEV\n  TOPICS: Node   PROJECTS: Node \u0026amp; File IO   DATA_ENG:\n  TOPICS: Sqlalchemy migrations with Alembic   PROJECTS: Database migrations with SQLAlchemy - INTRODUCTION  JAVA:\n  PROJECTS: Dice DUE  TOPICS: Intro to Docker and Docker-compose   PROJECTS: SQL INTRODUCED   Week 13  NCIT 13: Object-oriented programming\n DATA_SCI\n  TOPICS: Intro OOP(Object-oriented Programming) for Python   PROJECTS: [MISSING title or page]  DATA_ENG\n  TOPICS: Database Comparison   TOPICS: MongoDB and Python   TOPICS: optimizations and big-O   PROJECTS: Python and MongoDB - DUE  WEB_DEV:\n  TOPICS: Intro to Docker and Docker-compose   PROJECTS: SQL - INTRODUCTION  WORKSHOPS: [TODO] Introduction to Node and SQL   JAVA:\n  PROJECTS: SQL DUE  TOPICS: Environmental Variables   TOPICS: JDBC templates   TOPICS: Environmental variables and secrets with gradle   PROJECTS: [TODO] SQL Extended    Week 14  DATA_ENG\n  TOPICS: Sqlalchemy migrations with Alembic   PROJECTS: Database migrations with SQLAlchemy - DUE  TOPICS: Database Comparison   TOPICS: MongoDB and Python   PROJECTS: Python and MongoDB - INTRODUCTION  WEB_DEV:\n  PROJECTS: SQL - DUE  WORKSHOPS: [TODO] Introduction to Node and SQL   DATA_SCI\n  TOPICS: Intro to Docker and Docker-compose   TOPICS: [TODO] Virtual Environments   JAVA:\n NCIT 14: Database Development NCIT 15: Analytics, Surveys, and Reports / Input \u0026amp; Output  TOPICS: Introduction to Spring Boot - part 1   PROJECTS: Introduction to Spring Boot - part 1    Week 15  DATA_ENG:\n  PROJECTS: RabbitMQ   PROJECTS: DAGs with Airflow - INTRODUCED  DATA_SCI:\n  TOPICS: SQL and Python   WEB_DEV:\n  TOPICS: Environmental Variables   TOPICS: [TODO] The dotenv module   PROJECTS: Node \u0026amp; SQL assignment   Java :\n  TOPICS: Introduction to Spring Boot - part 2   PROJECTS: Introduction to Spring Boot - part 2   TOPICS: How the internet works  NCIT 05: History of the Internet   Week 16  DATA_ENG:\n  PROJECTS: DAGs with Airflow - DUE  DATA_SCI:\n  TOPICS: SQL and Python   TOPICS: Data validation and quality control   WEB_DEV:\n  PROJECTS: Express, forms and templates    ALL:\n NCIT 14: Database Development  JAVA:\n  TOPICS: Introduction to Spring Boot - part 3   PROJECTS: Introduction to Spring Boot - part 3   Week 17  JAVA:\n  TOPICS: [TODO] Kinds of web APIs REST versus SOAP and GraphQL(double check if std bank wants peeps to use soap bpm)  PROJECTS: Consume Github API   PROJECTS: [TODO] Consume own api using curl   TOPICS: Data Ethics and Privacy   WEB_DEV:\n  PROJECTS: Expose a JSON API   DATA_ENG:\n  TOPICS: [TODO] Python and Kafka   PROJECTS: [TODO] Python and Kafka - INTRODUCTION  DATA_SCI: BUFFER WEEK\n JAVA:\n  TOPICS: Introduction to Spring Boot - part 4   PROJECTS: Introduction to Spring Boot - part 4    Week 18  NCIT 15: Analytics, Surveys, and Reports / Input \u0026amp; Output\n DATA_SCI:\n  PROJECTS: Logistic regression   WEB_DEV:\n  PROJECTS: Add a little Ajax   DATA_ENG:\n  PROJECTS: [TODO] Python and Kafka - DUE  TOPICS: [TODO] ZeroMQ versus RabbitMQ versus Kafka   JAVA:\n  Week 19  WEB_DEV:\n  TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum   TOPICS: optimizations and big-O   DATA_ENG:\n  PROJECTS: [TODO] Python and Spark - INTRODUCED  TOPICS: Python and Spark   DATA_SCI:\n  PROJECTS: Decision Trees   JAVA:\n  TOPICS: Introduction to Spring Boot - part 3   PROJECTS: Introduction to Spring Boot - part 3    Week 20  ALL:\n  TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum   TOPICS: optimizations and big-O   NCIT 16: Thinking like a machine / Boolean algebra, logic\n NCIT 17: Search and sort techniques\n NCIT 18: Agile project management\n NCIT 19: Agile meetings\n NCIT 20: Managing the Software Development Process\n  Week 21: NCIT bits and pieces MUB must happen before this point.\n DATA_ENG:   PROJECTS: [TODO] Python and Spark - DUE   ALL:\n NCIT Summative assessment\n DATA_SCI: PRODUCT TEAM ONBOARDING\n  WORKSHOPS: Git for Teamwork    Week 22:  DATA_SCI: PRODUCT TEAM WORK\n  PROJECTS: K-Means Clustering Assignment   ALL:\n  TOPICS: Database Comparison    Week 23  DATA_SCI:   TOPICS: Natural Language Processing   PROJECTS: Natural language processing    Week 24 DATA_SCI: PRODUCT TEAM WORK\nWeek 25 DATA_SCI: PRODUCT TEAM WORK\nWeek 26 DATA_SCI: PRODUCT TEAM WORK\n ALL:   WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap    Optional Extras If recruits want/need to go a little further with their learning then here are a few useful resources.\n WEB_DEV:\n  TOPICS: Intro to Angular   TOPICS: Intro to React   TOPICS: Intro to Vue   WORKSHOPS: [TODO] Nodejs intro to socketIO   WORKSHOPS: [TODO] Basic introduction to Redux   WORKSHOPS: [TODO] Node Sync/Async   TOPICS: MongoDB and JavaScript   DATA_ENG:\n postgres stored procedures sql index optimisations Entity Relationship Diagrams (ERD) Data warehousing with Hive Overview of the Hadoop ecosystem Linear regressions   Optional Projects The projects listed below are not necessary but could be used to re-enforce certain learnings\n  PROJECTS: Semitone Challenge   "
+	"content": " We support a few different technical learning paths. Data Science, Data Engineering, Web Dev, and Java sys dev. What follows below is a week-by-week breakdown of these courses. This is all on one page because our various courses have enough in common that it makes sense to keep them synchronized.\nA note on Umuzi’s formal qualification and accreditation Umuzi is a registered training provider with MICT SETA. Our National Certificate IT (Systems Development) (NCIT) qualification is a learnership requirement (i.e. Umuzi’s employer partners can therefore recognize their training and stipend spend as part of their skills development budgets). We work hard to both meet the National Certificate requirements and deliver a practical and relevant learning experience (which are not always well aligned) however, we firmly believe the most important part is the practical application of learning rather than merely meeting the unit standard requirements. Below we refer to the formal NCIT requirements e.g. NCIT01: Business and technology.\nTerminology This is a living document and there are a few things that need to be fleshed out:\n as far as possible each bullet point that describes a piece of our syllabus should be marked as a WORKSHOP, TOPIC or PROJECT. Or exercise??\n WORKSHOP == instructor led event. TOPIC == self study material PROJECT == you know  we need to make sure all the NCIT requirements have been dealt with before hitting the summative assessment\n the syllabus is really long. There is a lot to cover so that has effects on Product teams. There are decisions to be made there.\n  Week -1: Bootcamp This is the final step of our selection process. If applicants get through the bootcamp then they are accepted as Umuzi recruits and go on with the rest of the program.\nWe start off by introducing the applicants to the development environment and resources that they\u0026rsquo;ll be using. They are given various group an individual challenges throughout the week.\nWeek 0: Make Umuzi Better A recruit’s journey starts with a one week programme called #MakeUmuziBetter. Recruits from all departments form small cross-functional teams to tackle issues at Umuzi - anything from mental health to kitchen norms to the physical layout of our space. To accomplish this, they learn about and execute Human-Centered Design, a technique used throughout their time at Umuzi. Each team maps out user journeys, conducts interviews and surveys, designs a prototype of their solution, and presents it to the staff and external guests.\nNCIT assessments We get a few NCIT assessments out of the way during MUB.\n NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  Week 1: Linux and soft skills In this week, everyone gets to know their way around linux.\n ALL:\n Department ice-breaker  WORKSHOPS: How to be a professional   REMOTE-WORK: How recruits work remotely  Introduction to NCIT curriculum  WORKSHOPS: [TODO] Introduction to Linux: Live demo   TOPICS: Introduction to Linux   PROJECTS: [TODO] Beginner Linux challenges   TOPICS: Introduction to Bash and the terminal    Everyone is also given links to resources so that they can start reading ahead.\n JAVA:\n  TOPICS: Java Dev environment setup   TOPICS: Java learning materials   WEB_DEV:\n  TOPICS: Web Dev learning materials   DATA_ENG:\n  TOPICS: Python self-learning   DATA_SCI: please take note, you don\u0026rsquo;t need to go as deep into coding as others. But it is good to know your way around\n  TOPICS: Python self-learning   TOPICS: Clean Code    Week 2: Git and personal portfolio Recruits learn a bit about how to build an online presence. Recruits submit their work using Git from the very beginning of their course.\n ALL:\n  TOPICS: Git Basics  Q\u0026amp;A Git basics  PROJECTS: Git Basic Exercises   WORKSHOPS: What to Put On A CV   PROJECTS: Build your first personal website - Introduction  TOPICS: Clean Code  NCIT 04: Version control (GIT) for teamwork  WEB_DEV:\n  WORKSHOPS: Intro to CSS architecture   TOPICS: Introduction to web design    Week 3: Finish portfolio project The recruits finish off their portfolios. From this point forward they are expected to keep their portfolios up to date on their own time.\n ALL:\n  WORKSHOPS: [TODO] Big Picture of Web Dev   PROJECTS: Build your first personal website - Deadline NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)   DATA_SCI:\n  WORKSHOPS: Survey design   WORKSHOPS: Google forms like a boss    Week 4:   TOPICS: How to ask for help with your code  WEB_DEV:\n  TOPICS: [TODO] Super basic intro to Node  WORKSHOP: Live code. Super basic intro to node  PROJECTS: Level 1 programming katas do this in pairs  DATA_ENG:\n  PROJECTS: Level 1 programming katas do this in pairs  WORKSHOPS: [TODO] Basic Intro to OOP   TOPICS: [TODO] Python OOP basics   PROJECTS: Person do this in pairs  PROJECTS: Animals Part 1. OOP basics individual. Due towards the end of the week  DATA_SCI:\n  TOPICS: Unit testing (language agnostic concepts)   TOPICS: Automated Testing in Python   PROJECTS: Level 1 programming katas do this in pairs  PROJECTS: simple-calculator part 1 do this in pairs  JAVA:\n carry over any NCIT tasks from previous week  TOPICS: Introduction to Gradle   WORKSHOPS: Live coding: Introduction to Java Monday or Tuesday Recruits should be familiar with basic flow control, if, else, loops. It may be necessary to have another workshop on this  PROJECTS: Level 1 programming katas do this in pairs, they should use Gradle   Week 5: Some specific skills  DATA_SCI:\n  TOPICS: Introduction to assertive programming   TOPICS: [TODO] Assertive programming and Pandas   PROJECTS: Assertive programming kata do this in pairs  PROJECTS: Data Visualisation Projects   DATA_ENG:\n  TOPICS: Introduction to assertive programming   PROJECTS: Assertive programming kata   TOPICS: Unit testing (language agnostic concepts)   PROJECTS: Animals Part 2. Adding Tests : add some tests to existing code  TOPICS: Test Driven Development   TOPICS: Automated Testing in Python   PROJECTS: simple-calculator part 1   WEB_DEV:\n  WORKSHOPS: [TODO] OOP in JS   TOPICS: [TODO] OOP in JS and Node   PROJECTS: Person do this in pairs  PROJECTS: Animals Part 1. OOP basics individual. Due towards the end of the week  JAVA:\n  WORKSHOPS: Basic intro to oop with IntelliJ   TOPICS: Java OOP basics resources and readings   PROJECTS: Person do this in pairs  PROJECTS: Animals Part 1. OOP basics individual. Due towards the end of the week NCIT 08: Pseudocode and documentation NCIT 13: Object-oriented programming workshop: oop Q\u0026amp;A might be needed   Week 6  ALL:\n  TOPICS: How the internet works   TOPICS: Data Ethics and Privacy   DATA_SCI:\n  WORKSHOPS: Data Ethics   DATA_ENG:\n  PROJECTS: password-checker  logging with python add logging to password checker  WEB_DEV:\n  TOPICS: Introduction to assertive programming   PROJECTS: Assertive programming kata   TOPICS: Unit testing (language agnostic concepts)   PROJECTS: Animals Part 2. Adding Tests : add some tests to existing code  TOPICS: Test Driven Development   WORKSHOPS: Unit testing with Jasmine Introduction   PROJECTS: simple-calculator part 1   JAVA:\n  TOPICS: Introduction to assertive programming   PROJECTS: Assertive programming kata   TOPICS: Unit testing (language agnostic concepts)   TOPICS: Intro to JUnit  LIVE CODE WORKSHOP: demonstrate unit tests with intelliJ and JUnit.  PROJECTS: Animals Part 2. Adding Tests : add some tests to existing code  TOPICS: Test Driven Development   PROJECTS: simple-calculator part 1   TOPICS: Exception Handling   NCIT 05: History of the Internet\n NCIT 06: Web design for business\n NCIT 07: Building an online business\n NCIT 08: Pseudocode and documentation\n  Week 7  ALL:\n NCIT 09: Ethics and Professionalism in IT NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 11: Test-driven development  DATA_SCI:\n  TOPICS: Automated Testing pandas and numpy   PROJECTS: string-calculator   DATA_ENG:\n  PROJECTS: string-calculator   WEB_DEV:\n  PROJECTS: password-checker   TOPICS: Logging in Node and JS  add logging to password checker  JAVA:\n LIVE CODE WORKSHOP: Error Handling  PROJECTS: password-checker   TOPICS: Java Logging with Log4j   PROJECTS: Add logging to password checker   TOPICS: Java File IO    Week 8:  DATA_SCI:\n  PROJECTS: Statistical Thinking INTRODUCED  Java:\n  PROJECTS: File IO \u0026#43; Logging \u0026#43; Errors   TOPICS: Regular Expression Resources  NCIT 17: Search and sort techniques  DATA_ENG:\n  TOPICS: Unit testing with mocks and spies   PROJECTS: Email random inspirational quote   TOPICS: API basics   PROJECTS: Consume Github API - INTRODUCED  WEB_DEV\n  PROJECTS: string-calculator    Week 9:  DATA_SCI\n  PROJECTS: Data Wrangling   TOPICS: Intro to functional programming   DATA_ENG\n  PROJECTS: Consume Github API - DUE  TOPICS: Environmental Variables   TOPICS: [TODO] Virtual Environments   WEB_DEV:\n  TOPICS: Unit testing with mocks and spies   PROJECTS: Email random inspirational quote   TOPICS: API basics   PROJECTS: Consume Github API - INTRODUCED  JAVA\n  PROJECTS: string-calculator   TOPICS: Strings and numbers in Java    Week 10:  ALL\n  TOPICS: The Tech Landscape Terminology  NCIT 12: Business and technology  DATA_SCI:\n  PROJECTS: Data Wrangling - FINISH UP\n DATA_ENG:\n  TOPICS: Intro to Docker and Docker-compose   PROJECTS: SQL   WEB_DEV:\n  PROJECTS: Consume Github API - DUE  TOPICS: DOM manipulation with vanilla JavaScript   PROJECTS: Memory game in vanilla js INTRODUCED  JAVA:\n  PROJECTS: Java data structures   PROJECTS: Java collections   TOPICS: Java collections and data structures    Week 11  DATA_ENG\n  TOPICS: Sqlalchemy ORM   PROJECTS: create a REST api to interact with actual database   DATA_SCI:\n  PROJECTS: Cross-validation \u0026amp; Simple Linear Regression   WEB_DEV:\n  PROJECTS: Memory game in vanilla js DUE  JAVA:\n  PROJECTS: Dice INTRODUCED  PROJECTS: Java Generics   TOPICS: Java Generics   TOPICS: Introduction to Design Patterns    WEEK 12:  DATA_SCI:\n  PROJECTS: Multivariate Linear Regression  BONUS: Compare results using OOP principles in PROJECTS: Cross-validation \u0026amp; Simple Linear Regression   WEB_DEV\n  TOPICS: Node   PROJECTS: Node \u0026amp; File IO   DATA_ENG:\n  TOPICS: Sqlalchemy migrations with Alembic   PROJECTS: Database migrations with SQLAlchemy - INTRODUCTION  JAVA:\n  PROJECTS: Dice DUE  TOPICS: Intro to Docker and Docker-compose   PROJECTS: SQL INTRODUCED   Week 13  NCIT 13: Object-oriented programming\n DATA_SCI\n  TOPICS: Intro OOP(Object-oriented Programming) for Python   PROJECTS: [MISSING title or page]  DATA_ENG\n  TOPICS: Database Comparison   TOPICS: MongoDB and Python   TOPICS: optimizations and big-O   PROJECTS: Python and MongoDB - DUE  WEB_DEV:\n  TOPICS: Intro to Docker and Docker-compose   PROJECTS: SQL - INTRODUCTION  WORKSHOPS: [TODO] Introduction to Node and SQL   JAVA:\n  PROJECTS: SQL DUE  TOPICS: Environmental Variables   TOPICS: JDBC templates   TOPICS: Environmental variables and secrets with gradle   PROJECTS: [TODO] SQL Extended    Week 14  DATA_ENG\n  TOPICS: Sqlalchemy migrations with Alembic   PROJECTS: Database migrations with SQLAlchemy - DUE  TOPICS: Database Comparison   TOPICS: MongoDB and Python   PROJECTS: Python and MongoDB - INTRODUCTION  WEB_DEV:\n  PROJECTS: SQL - DUE  WORKSHOPS: [TODO] Introduction to Node and SQL   DATA_SCI\n  TOPICS: Intro to Docker and Docker-compose   TOPICS: [TODO] Virtual Environments   JAVA:\n NCIT 14: Database Development NCIT 15: Analytics, Surveys, and Reports / Input \u0026amp; Output  TOPICS: Introduction to Spring Boot - part 1   PROJECTS: Introduction to Spring Boot - part 1    Week 15  DATA_ENG:\n  PROJECTS: RabbitMQ   PROJECTS: DAGs with Airflow - INTRODUCED  DATA_SCI:\n  TOPICS: SQL and Python   WEB_DEV:\n  TOPICS: Environmental Variables   TOPICS: [TODO] The dotenv module   PROJECTS: Node \u0026amp; SQL assignment   Java :\n  TOPICS: Introduction to Spring Boot - part 2   PROJECTS: Introduction to Spring Boot - part 2   TOPICS: How the internet works  NCIT 05: History of the Internet   Week 16  DATA_ENG:\n  PROJECTS: DAGs with Airflow - DUE  DATA_SCI:\n  TOPICS: SQL and Python   TOPICS: Data validation and quality control   WEB_DEV:\n  PROJECTS: Express, forms and templates    ALL:\n NCIT 14: Database Development  JAVA:\n  TOPICS: Introduction to Spring Boot - part 3   PROJECTS: Introduction to Spring Boot - part 3   Week 17  JAVA:\n  TOPICS: [TODO] Kinds of web APIs REST versus SOAP and GraphQL(double check if std bank wants peeps to use soap bpm)  PROJECTS: Consume Github API   PROJECTS: [TODO] Consume own api using curl   TOPICS: Data Ethics and Privacy   WEB_DEV:\n  PROJECTS: Expose a JSON API   DATA_ENG:\n  TOPICS: Python and Kafka   PROJECTS: Python and Kafka - INTRODUCTION  DATA_SCI: BUFFER WEEK\n JAVA:\n  TOPICS: Introduction to Spring Boot - part 4   PROJECTS: Introduction to Spring Boot - part 4    Week 18  NCIT 15: Analytics, Surveys, and Reports / Input \u0026amp; Output\n DATA_SCI:\n  PROJECTS: Logistic regression   WEB_DEV:\n  PROJECTS: Add a little Ajax   DATA_ENG:\n  PROJECTS: Python and Kafka - DUE  TOPICS: [TODO] ZeroMQ versus RabbitMQ versus Kafka   JAVA:\n  Week 19  WEB_DEV:\n  TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum   TOPICS: optimizations and big-O   DATA_ENG:\n  PROJECTS: [TODO] Python and Spark - INTRODUCED  TOPICS: Python and Spark   DATA_SCI:\n  PROJECTS: Decision Trees   JAVA:\n  TOPICS: Introduction to Spring Boot - part 3   PROJECTS: Introduction to Spring Boot - part 3    Week 20  ALL:\n  TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum   TOPICS: optimizations and big-O   NCIT 16: Thinking like a machine / Boolean algebra, logic\n NCIT 17: Search and sort techniques\n NCIT 18: Agile project management\n NCIT 19: Agile meetings\n NCIT 20: Managing the Software Development Process\n  Week 21: NCIT bits and pieces MUB must happen before this point.\n DATA_ENG:   PROJECTS: [TODO] Python and Spark - DUE   ALL:\n NCIT Summative assessment\n DATA_SCI: PRODUCT TEAM ONBOARDING\n  WORKSHOPS: Git for Teamwork    Week 22:  DATA_SCI: PRODUCT TEAM WORK\n  PROJECTS: K-Means Clustering Assignment   ALL:\n  TOPICS: Database Comparison    Week 23  DATA_SCI:   TOPICS: Natural Language Processing   PROJECTS: Natural language processing    Week 24 DATA_SCI: PRODUCT TEAM WORK\nWeek 25 DATA_SCI: PRODUCT TEAM WORK\nWeek 26 DATA_SCI: PRODUCT TEAM WORK\n ALL:   WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap    Optional Extras If recruits want/need to go a little further with their learning then here are a few useful resources.\n WEB_DEV:\n  TOPICS: Intro to Angular   TOPICS: Intro to React   TOPICS: Intro to Vue   WORKSHOPS: [TODO] Nodejs intro to socketIO   WORKSHOPS: [TODO] Basic introduction to Redux   WORKSHOPS: [TODO] Node Sync/Async   TOPICS: MongoDB and JavaScript   DATA_ENG:\n postgres stored procedures sql index optimisations Entity Relationship Diagrams (ERD) Data warehousing with Hive Overview of the Hadoop ecosystem Linear regressions   Optional Projects The projects listed below are not necessary but could be used to re-enforce certain learnings\n  PROJECTS: Semitone Challenge   "
 },
 {
 	"uri": "/tech-department/topics/",
@@ -336,14 +336,14 @@
 	"content": ""
 },
 {
-	"uri": "/tech-department/topics/android/",
+	"uri": "/tech-department/projects/android/",
 	"title": "Androids",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/tech-department/projects/android/",
+	"uri": "/tech-department/topics/android/",
 	"title": "Androids",
 	"tags": [],
 	"description": "",
@@ -420,6 +420,20 @@
 	"content": ""
 },
 {
+	"uri": "/tech-department/topics/free-code-camp/responsive-web-design/applied-accessability/",
+	"title": "Applied Accessability",
+	"tags": [],
+	"description": "",
+	"content": "Make an account here if you haven\u0026rsquo;t already: https://www.freecodecamp.org/learn\nLook under \u0026ldquo;Responsive Web Design\u0026rdquo;\nYou\u0026rsquo;ll be hitting \u0026ldquo;Applied Accessability\u0026rdquo;\n"
+},
+{
+	"uri": "/tech-department/topics/free-code-camp/responsive-web-design/applied-visual-design/",
+	"title": "Applied Visual Design",
+	"tags": [],
+	"description": "",
+	"content": "Make an account here if you haven\u0026rsquo;t already: https://www.freecodecamp.org/learn\nLook under \u0026ldquo;Responsive Web Design\u0026rdquo;\nYou\u0026rsquo;ll be hitting \u0026ldquo;Applied Visual Design\u0026rdquo;\n"
+},
+{
 	"uri": "/tech-department/topics/asserive-programming-tricks-for-pandas/",
 	"title": "Assertive programming and Pandas",
 	"tags": [],
@@ -432,6 +446,160 @@
 	"tags": [],
 	"description": "",
 	"content": " These katas are a bit harder than the last bunch. Make use of assertions to help make sure that your code is doing the right thing, and to add readability.\nExercise: Morse code Create two functions:\nlettersToMorseCode morseCodeToLetters  eg:\nlettersToMoreseCode(\u0026quot;Hi there\u0026quot;) // should return // \u0026quot;.... .. / - .... . .-. .\u0026quot;  Include the following assertions in your code:\n assert that the output and input both have the same number of characters represented assert that there are the right number of spaces represented in the output  Make sure that when you do this, your code remains clean and DRY. DRY - it\u0026rsquo;s a thing. Google it.\nResources  https://en.wikipedia.org/wiki/Morse_code https://morsecode.scphillips.com/translator.html  Remarks Admittedly this kata is a little bit contrived. Assertions are great for adding runtime checks to values and adding documentation as code.\nFor a problem like this one, unit tests are more appropriate.\nUp for a challenge? Add unit tests to your code. Leave the asserions in there just so that we can see that you know how to hit the requirements we laid out. But if you have some passing tests as well that would be sweet.\n"
+},
+{
+	"uri": "/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-0-introduction/",
+	"title": "Automate the boring stuff: Chapter 0 – Introduction",
+	"tags": [],
+	"description": "",
+	"content": " This is a great book. Lots of amazing coders started out with it. You don\u0026rsquo;t need to read the whole thing, but it is generally very very useful.\nhttps://automatetheboringstuff.com/2e/chapter0/\nIMPORTANT We follow PEP8 naming conventions. Automate the boaring stuff DOES NOT. All of your projects need to follow this naming convention:\nhttps://www.python.org/dev/peps/pep-0008/#prescriptive-naming-conventions\n"
+},
+{
+	"uri": "/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-1-basics/",
+	"title": "Automate the boring stuff: Chapter 1 – Python Basics",
+	"tags": [],
+	"description": "",
+	"content": "This is a great book. Lots of amazing coders started out with it. You don\u0026rsquo;t need to read the whole thing, but it is generally very very useful.\nhttps://automatetheboringstuff.com/2e/chapter1/\n"
+},
+{
+	"uri": "/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-10-organising-files/",
+	"title": "Automate the boring stuff: Chapter 10 – Organizing Files",
+	"tags": [],
+	"description": "",
+	"content": "This is a great book. Lots of amazing coders started out with it. You don\u0026rsquo;t need to read the whole thing, but it is generally very very useful.\nhttps://automatetheboringstuff.com/2e/chapter10/\n"
+},
+{
+	"uri": "/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-11-debugging/",
+	"title": "Automate the boring stuff: Chapter 11 – Debugging",
+	"tags": [],
+	"description": "",
+	"content": "This is a great book. Lots of amazing coders started out with it. You don\u0026rsquo;t need to read the whole thing, but it is generally very very useful.\nhttps://automatetheboringstuff.com/2e/chapter11/\n"
+},
+{
+	"uri": "/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-12-web-scraping/",
+	"title": "Automate the boring stuff: Chapter 12 – Web Scraping",
+	"tags": [],
+	"description": "",
+	"content": "This is a great book. Lots of amazing coders started out with it. You don\u0026rsquo;t need to read the whole thing, but it is generally very very useful.\nhttps://automatetheboringstuff.com/2e/chapter12/\n"
+},
+{
+	"uri": "/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-13-working-with-excel-spreadsheets/",
+	"title": "Automate the boring stuff: Chapter 13 – Working with Excel Spreadsheets",
+	"tags": [],
+	"description": "",
+	"content": "This is a great book. Lots of amazing coders started out with it. You don\u0026rsquo;t need to read the whole thing, but it is generally very very useful.\nhttps://automatetheboringstuff.com/2e/chapter13/\n"
+},
+{
+	"uri": "/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-14-working-with-google-spreadsheets/",
+	"title": "Automate the boring stuff: Chapter 14 – Working with Google Spreadsheets",
+	"tags": [],
+	"description": "",
+	"content": "This is a great book. Lots of amazing coders started out with it. You don\u0026rsquo;t need to read the whole thing, but it is generally very very useful.\nhttps://automatetheboringstuff.com/2e/chapter14/\n"
+},
+{
+	"uri": "/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-15-working-with-pdf-and-word-docs/",
+	"title": "Automate the boring stuff: Chapter 15 – Working with PDF and Word docs",
+	"tags": [],
+	"description": "",
+	"content": "This is a great book. Lots of amazing coders started out with it. You don\u0026rsquo;t need to read the whole thing, but it is generally very very useful.\nhttps://automatetheboringstuff.com/2e/chapter15/\n"
+},
+{
+	"uri": "/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-16-working-with-csv-and-json-data/",
+	"title": "Automate the boring stuff: Chapter 16 – Working with CSV Files and JSON Data",
+	"tags": [],
+	"description": "",
+	"content": "This is a great book. Lots of amazing coders started out with it. You don\u0026rsquo;t need to read the whole thing, but it is generally very very useful.\nhttps://automatetheboringstuff.com/2e/chapter16/\n"
+},
+{
+	"uri": "/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-17-time-and-scheduling/",
+	"title": "Automate the boring stuff: Chapter 17 – Keeping Time, Scheduling Tasks, and Launching Programs",
+	"tags": [],
+	"description": "",
+	"content": "This is a great book. Lots of amazing coders started out with it. You don\u0026rsquo;t need to read the whole thing, but it is generally very very useful.\nhttps://automatetheboringstuff.com/2e/chapter17/\n"
+},
+{
+	"uri": "/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-20-automating-keyboard-and-mouse/",
+	"title": "Automate the boring stuff: Chapter 18 – Controlling the Keyboard and Mouse with GUI Automation",
+	"tags": [],
+	"description": "",
+	"content": "This is a great book. Lots of amazing coders started out with it. You don\u0026rsquo;t need to read the whole thing, but it is generally very very useful.\nhttps://automatetheboringstuff.com/2e/chapter20/\n"
+},
+{
+	"uri": "/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-19-image-manipulation/",
+	"title": "Automate the boring stuff: Chapter 18 – Manipulating Images",
+	"tags": [],
+	"description": "",
+	"content": "This is a great book. Lots of amazing coders started out with it. You don\u0026rsquo;t need to read the whole thing, but it is generally very very useful.\nhttps://automatetheboringstuff.com/2e/chapter19/\n"
+},
+{
+	"uri": "/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-18-email-and-text/",
+	"title": "Automate the boring stuff: Chapter 18 – Sending Email and Text Messages",
+	"tags": [],
+	"description": "",
+	"content": "This is a great book. Lots of amazing coders started out with it. You don\u0026rsquo;t need to read the whole thing, but it is generally very very useful.\nhttps://automatetheboringstuff.com/2e/chapter18/\n"
+},
+{
+	"uri": "/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-2-flow-control/",
+	"title": "Automate the boring stuff: Chapter 2 – Flow Control",
+	"tags": [],
+	"description": "",
+	"content": "This is a great book. Lots of amazing coders started out with it. You don\u0026rsquo;t need to read the whole thing, but it is generally very very useful.\nhttps://automatetheboringstuff.com/2e/chapter2/\n"
+},
+{
+	"uri": "/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-3-functions/",
+	"title": "Automate the boring stuff: Chapter 3 – Functions",
+	"tags": [],
+	"description": "",
+	"content": "This is a great book. Lots of amazing coders started out with it. You don\u0026rsquo;t need to read the whole thing, but it is generally very very useful.\nhttps://automatetheboringstuff.com/2e/chapter3/\n"
+},
+{
+	"uri": "/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-4-lists/",
+	"title": "Automate the boring stuff: Chapter 4 – Lists",
+	"tags": [],
+	"description": "",
+	"content": "This is a great book. Lots of amazing coders started out with it. You don\u0026rsquo;t need to read the whole thing, but it is generally very very useful.\nhttps://automatetheboringstuff.com/2e/chapter4/\n"
+},
+{
+	"uri": "/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-5-dictionaries-and-structuring-data/",
+	"title": "Automate the boring stuff: Chapter 5 – Dictionaries and Structuring Data",
+	"tags": [],
+	"description": "",
+	"content": "This is a great book. Lots of amazing coders started out with it. You don\u0026rsquo;t need to read the whole thing, but it is generally very very useful.\nhttps://automatetheboringstuff.com/2e/chapter5/\n"
+},
+{
+	"uri": "/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-6-manipulating-strings/",
+	"title": "Automate the boring stuff: Chapter 6 – Manipulating Strings",
+	"tags": [],
+	"description": "",
+	"content": "This is a great book. Lots of amazing coders started out with it. You don\u0026rsquo;t need to read the whole thing, but it is generally very very useful.\nhttps://automatetheboringstuff.com/2e/chapter6/\n"
+},
+{
+	"uri": "/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-7-pattern-matching-with-regular-expressions/",
+	"title": "Automate the boring stuff: Chapter 7 – Pattern Matching with Regular Expressions",
+	"tags": [],
+	"description": "",
+	"content": "This is a great book. Lots of amazing coders started out with it. You don\u0026rsquo;t need to read the whole thing, but it is generally very very useful.\nhttps://automatetheboringstuff.com/2e/chapter7/\n"
+},
+{
+	"uri": "/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-8-input-validation/",
+	"title": "Automate the boring stuff: Chapter 8 – Input Validation",
+	"tags": [],
+	"description": "",
+	"content": "This is a great book. Lots of amazing coders started out with it. You don\u0026rsquo;t need to read the whole thing, but it is generally very very useful.\nhttps://automatetheboringstuff.com/2e/chapter8/\n"
+},
+{
+	"uri": "/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-9-reading-and-writing-files/",
+	"title": "Automate the boring stuff: Chapter 9 – Reading and Writing Files",
+	"tags": [],
+	"description": "",
+	"content": "This is a great book. Lots of amazing coders started out with it. You don\u0026rsquo;t need to read the whole thing, but it is generally very very useful.\nhttps://automatetheboringstuff.com/2e/chapter9/\n"
+},
+{
+	"uri": "/tech-department/topics/python-specific/automate-the-boring-stuff-book/",
+	"title": "Automate-the-boring-stuff-books",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "/tech-department/topics/python-specific/automated-testing-with-pytest/",
@@ -462,6 +630,20 @@
 	"content": ""
 },
 {
+	"uri": "/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/basic-algorithmic-scripting/",
+	"title": "Basic Algorithm Scripting",
+	"tags": [],
+	"description": "",
+	"content": "Make an account here if you haven\u0026rsquo;t already: https://www.freecodecamp.org/learn\nUnder \u0026ldquo;JavaScript Algorithms and Data Structures\u0026rdquo;, do the section entitled \u0026ldquo;Basic Algorithm Scripting \u0026ldquo;.\nTry not to ask for too many hints. Do your best to understand everything.\n"
+},
+{
+	"uri": "/tech-department/topics/free-code-camp/responsive-web-design/basic-css/",
+	"title": "Basic CSS",
+	"tags": [],
+	"description": "",
+	"content": "Make an account here if you haven\u0026rsquo;t already: https://www.freecodecamp.org/learn\nLook under \u0026ldquo;Responsive Web Design\u0026rdquo;\nYou\u0026rsquo;ll be hitting \u0026ldquo;Basic CSS\u0026rdquo;\n"
+},
+{
 	"uri": "/tech-department/topics/kotlin/basic-control-flow/",
 	"title": "Basic Control Flow",
 	"tags": [],
@@ -469,11 +651,32 @@
 	"content": " \u0026ldquo;If\u0026rdquo; Expression In Kotlin, \u0026ldquo;if\u0026rdquo; is an expression, i.e. it returns a value. Therefore there is no ternary operator (condition ? then : else), because ordinary if works fine in this role.\n// Traditional usage var max = a if (a \\\u0026amp;lt; b) max = b // With else var max: Int if (a \u0026gt;; b) { max = a } else { max = b } // As expression val max = if (a \u0026gt; b) a else b  \u0026ldquo;if\u0026rdquo; branches can be blocks, and the last expression is the value of a block:\n val max = if (a \u0026gt; b) { print(\u0026quot;Choose a\u0026quot;) a } else { print(\u0026quot;Choose b\u0026quot;) b }  If you\u0026rsquo;re using \u0026ldquo;if\u0026rdquo; as an expression rather than a statement (for example, returning its value or assigning it to a variable), the expression is required to have an else branch.\nWhen Expression when replaces the switch operator of C-like languages. In the simplest form it looks like this\nwhen (x) { 1 -\u0026gt; print(\u0026quot;x == 1\u0026quot;) 2 -\u0026gt; print(\u0026quot;x == 2\u0026quot;) else -\u0026gt; { // Note the block print(\u0026quot;x is neither 1 nor 2\u0026quot;) } }  when matches its argument against all branches sequentially until some branch condition is satisfied. when can be used either as an expression or as a statement. If it is used as an expression, the value of the satisfied branch becomes the value of the overall expression. If it is used as a statement, the values of individual branches are ignored. (Just like with if, each branch can be a block, and its value is the value of the last expression in the block.)\nThe else branch is evaluated if none of the other branch conditions are satisfied. If when is used as an expression, the else branch is mandatory, unless the compiler can prove that all possible cases are covered with branch conditions.\nIf many cases should be handled in the same way, the branch conditions may be combined with a comma:\nwhen (x) { 0, 1 -\u0026gt; print(\u0026quot;x == 0 or x == 1\u0026quot;) else -\u0026gt; print(\u0026quot;otherwise\u0026quot;) }  We can use arbitrary expressions (not only constants) as branch conditions\nwhen (x) { arseInt(s) -\u0026gt; print(\u0026quot;s encodes x\u0026quot;) else -\u0026gt; print(\u0026quot;s does not encode x\u0026quot;) }  We can also check a value for being in or !in a range or a collection:\nwhen (x) { in 1..10 -\u0026gt; print(\u0026quot;x is in the range\u0026quot;) in validNumbers -\u0026gt; print(\u0026quot;x is valid\u0026quot;) !in 10..20 -\u0026gt; print(\u0026quot;x is outside the range\u0026quot;) else -\u0026gt; print(\u0026quot;none of the above\u0026quot;) }  Another possibility is to check that a value is or !is of a particular type. Note that, due to smart casts, you can access the methods and properties of the type without any extra checks.\nfun hasPrefix(x: Any) = when(x) { is String -\u0026gt; x.startsWith(\u0026quot;prefix\u0026quot;) else -\u0026gt; false }  when can also be used as a replacement for an if-else if chain. If no argument is supplied, the branch conditions are simply boolean expressions, and a branch is executed when its condition is true:\nwhen { x.isOdd() -\u0026gt; print(\u0026quot;x is odd\u0026quot;) x.isEven() -\u0026gt; print(\u0026quot;x is even\u0026quot;) else -\u0026gt; print(\u0026quot;x is funny\u0026quot;) }  For Loops for loop iterates through anything that provides an iterator. The syntax is as follows: for (item in collection) print(item) The body can be a block. for (item: Int in ints) { // ... }  As mentioned before, for iterates through anything that provides an iterator, i.e.\nhas a member- or extension-function iterator(), whose return type\nhas a member- or extension-function next(), and\nhas a member- or extension-function hasNext() that returns Boolean.\nAll of these three functions need to be marked as operator.\nA for loop over an array compiled to an index-based loop that does not create an iterator object.\nIf you want to iterate through an array or a list with an index, you can do it this way:\nfor (i in array.indices) { print(array[i]) }  Note that this \u0026quot;iteration through a range\u0026quot; is compiled down to optimal implementation with no extra objects created.\nAlternatively, you can use the withIndex library function:\nfor ((index, value) in array.withIndex()) { println(\u0026quot;the element at $index is $value\u0026quot;) }  While Loops while and do..while work as usual\nwhile (x \u0026gt; 0) { x-- } do { val y = retrieveData() } while (y != null) // y is visible here!  Break and continue in loops Kotlin supports traditional break and continue operators in loops.\nReturns and Jumps Kotlin has three structural jump expressions:\nreturn. By default returns from the nearest enclosing function or anonymous function. break. Terminates the nearest enclosing loop. continue. Proceeds to the next step of the nearest enclosing loop. All of these expressions can be used as part of larger expressions:\nval s = person.name ?: return  The type of these expressions is the Nothing type.\nBreak and Continue Labels Any expression in Kotlin may be marked with a label. Labels have the form of an identifier followed by the @ sign, for example: abc@, fooBar@ are valid labels. To label an expression, we just put a label in front of it\nloop@ for (i in 1..100) { // ... }  Now, we can qualify a break or a continue with a label:\nloop@ for (i in 1..100) { for (j in 1..100) { if (...) break@loop } }  A break qualified with a label jumps to the execution point right after the loop marked with that label. A continue proceeds to the next iteration of that loop.\nReturn at Labels With function literals, local functions and object expression, functions can be nested in Kotlin. Qualified returns allow us to return from an outer function. The most important use case is returning from a lambda expression. Recall that when we write this:\nfun foo() { ints.forEach { if (it == 0) return print(it) } }  The return-expression returns from the nearest enclosing function, i.e. foo. (Note that such non-local returns are supported only for lambda expressions passed to inline functions.) If we need to return from a lambda expression, we have to label it and qualify the return:\nfun foo() { ints.forEach lit@ { if (it == 0) return@lit print(it) } }  Now, it returns only from the lambda expression. Oftentimes it is more convenient to use implicits labels: such a label has the same name as the function to which the lambda is passed.\nfun foo() { ints.forEach { if (it == 0) return@forEach print(it) } }  Alternatively, we can replace the lambda expression with an anonymous function. A return statement in an anomymous function will return from the anonymous function itself.\nfun foo() { ints.forEach(fun(value: Int) { if (value == 0) return print(value) }) }  When returning a value, the parser gives preference to the qualified return, i.e.\nreturn@a 1 means \u0026ldquo;return 1 at label @a\u0026rdquo; and not \u0026ldquo;return a labeled expression (@a 1)\u0026rdquo;.\n"
 },
 {
+	"uri": "/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/basic-data-structures/",
+	"title": "Basic Data Structures",
+	"tags": [],
+	"description": "",
+	"content": "Make an account here if you haven\u0026rsquo;t already: https://www.freecodecamp.org/learn\nUnder \u0026ldquo;JavaScript Algorithms and Data Structures\u0026rdquo;, do the section entitled \u0026ldquo;Basic Data Structures \u0026ldquo;.\nTry not to ask for too many hints. Do your best to understand everything.\n"
+},
+{
+	"uri": "/tech-department/topics/free-code-camp/responsive-web-design/basic-html-and-html-5/",
+	"title": "Basic HTML and HTM5",
+	"tags": [],
+	"description": "",
+	"content": "Make an account here if you haven\u0026rsquo;t already: https://www.freecodecamp.org/learn\nLook under \u0026ldquo;Responsive Web Design\u0026rdquo;\nYou\u0026rsquo;ll be hitting \u0026ldquo;Basic HTML and HTM5\u0026rdquo;\n"
+},
+{
 	"uri": "/tech-department/workshops/python-specific/basic-intro-to-oop/",
 	"title": "Basic Intro to OOP",
 	"tags": [],
 	"description": "",
 	"content": ""
+},
+{
+	"uri": "/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/basic-javascript/",
+	"title": "Basic Javascript",
+	"tags": [],
+	"description": "",
+	"content": "Make an account here if you haven\u0026rsquo;t already: https://www.freecodecamp.org/learn\nUnder \u0026ldquo;JavaScript Algorithms and Data Structures\u0026rdquo;, do the section entitled \u0026ldquo;Basic JavaScript\u0026rdquo;.\nTry not to ask for too many hints. Do your best to understand everything.\n"
 },
 {
 	"uri": "/tech-department/topics/kotlin/basic-syntax-types/",
@@ -523,6 +726,20 @@
 	"tags": [],
 	"description": "",
 	"content": "Slides\n"
+},
+{
+	"uri": "/tech-department/topics/free-code-camp/responsive-web-design/css-flexbox/",
+	"title": "CSS Flexbox",
+	"tags": [],
+	"description": "",
+	"content": "Make an account here if you haven\u0026rsquo;t already: https://www.freecodecamp.org/learn\nLook under \u0026ldquo;Responsive Web Design\u0026rdquo;\nYou\u0026rsquo;ll be hitting \u0026ldquo;CSS Flexbox\u0026rdquo;\n"
+},
+{
+	"uri": "/tech-department/topics/free-code-camp/responsive-web-design/css-grid/",
+	"title": "CSS Grid",
+	"tags": [],
+	"description": "",
+	"content": "Make an account here if you haven\u0026rsquo;t already: https://www.freecodecamp.org/learn\nLook under \u0026ldquo;Responsive Web Design\u0026rdquo;\nYou\u0026rsquo;ll be hitting \u0026ldquo;CSS Grid\u0026rdquo;\n"
 },
 {
 	"uri": "/tech-department/categories/",
@@ -718,7 +935,7 @@
 	"title": "Data Engineering",
 	"tags": [],
 	"description": "",
-	"content": " Introduction to NCIT curriculum NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   PROJECTS: [TODO] Beginner Linux challenges   TOPICS: Python self-learning   TOPICS: Clean Code for Python   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  PROJECTS: Level 1 programming katas   PROJECTS: Build your first personal website   TOPICS: How to ask for help with your code   WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)   TOPICS: [TODO] Python OOP basics   TOPICS: Automated Testing in Python   TOPICS: [TODO] Virtual Environments   PROJECTS: Animals Part 2. Adding Tests  NCIT 13: Object-oriented programming  TOPICS: How the internet works   TOPICS: Data Ethics and Privacy  NCIT 05: History of the Internet NCIT 08: Pseudocode and documentation  PROJECTS: Add logging to password checker  NCIT 11: Test-driven development  TOPICS: Intro to Docker and Docker-compose   PROJECTS: string-calculator   PROJECTS: Email random inspirational quote   PROJECTS: Consume Github API   PROJECTS: SQL  NCIT 14: Database Development  TOPICS: The Tech Landscape Terminology   TOPICS: Database Comparison   PROJECTS: Database migrations with SQLAlchemy   PROJECTS: create a REST api to interact with actual database   PROJECTS: Python and MongoDB   PROJECTS: RabbitMQ   PROJECTS: DAGs with Airflow   PROJECTS: [TODO] Python and Kafka  NCIT 15: Analytics, Surveys, and Reports / Input \u0026amp; Output  PROJECTS: [TODO] Python and Spark   TOPICS: [TODO] ZeroMQ versus RabbitMQ versus Kafka   TOPICS: optimizations and big-O   PROJECTS: Data Wrangling  NCIT 16: Thinking like a machine / Boolean algebra, logic NCIT 17: Search and sort techniques  WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap  NCIT 20: Managing the Software Development Process\n DATA_ENG:\n postgres stored procedures sql index optimisations Entity Relationship Diagrams (ERD) Data warehousing with Hive Overview of the Hadoop ecosystem Linear regressions   "
+	"content": " Introduction to NCIT curriculum NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   PROJECTS: [TODO] Beginner Linux challenges   TOPICS: Python self-learning   TOPICS: Clean Code for Python   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  TOPICS: Automate the boring stuff: Chapter 0 – Introduction   TOPICS: Automate the boring stuff: Chapter 1 – Python Basics   TOPICS: Automate the boring stuff: Chapter 2 – Flow Control   TOPICS: Automate the boring stuff: Chapter 3 – Functions   PROJECTS: Level 1 programming katas   PROJECTS: Build your first personal website   TOPICS: How to ask for help with your code   WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)   TOPICS: Automate the boring stuff: Chapter 4 – Lists   TOPICS: Python Lists in depth   TOPICS: Automate the boring stuff: Chapter 5 – Dictionaries and Structuring Data   TOPICS: Automate the boring stuff: Chapter 6 – Manipulating Strings   TOPICS: Automate the boring stuff: Chapter 7 – Pattern Matching with Regular Expressions   TOPICS: [TODO] Python OOP basics   TOPICS: Automated Testing in Python   TOPICS: [TODO] Virtual Environments   PROJECTS: Animals Part 2. Adding Tests  NCIT 13: Object-oriented programming\n  TOPICS: How the internet works   TOPICS: Data Ethics and Privacy  NCIT 05: History of the Internet\n NCIT 08: Pseudocode and documentation\n  TOPICS: Automate the boring stuff: Chapter 8 – Input Validation   TOPICS: Automate the boring stuff: Chapter 9 – Reading and Writing Files   TOPICS: Automate the boring stuff: Chapter 10 – Organizing Files   TOPICS: Automate the boring stuff: Chapter 11 – Debugging   PROJECTS: Add logging to password checker  NCIT 11: Test-driven development\n  TOPICS: Intro to Docker and Docker-compose   PROJECTS: string-calculator   TOPICS: Python Exception handling   TOPICS: Python Exception handling   TOPICS: Automate the boring stuff: Chapter 13 – Working with Excel Spreadsheets   TOPICS: Automate the boring stuff: Chapter 14 – Working with Google Spreadsheets   TOPICS: Automate the boring stuff: Chapter 16 – Working with CSV Files and JSON Data   TOPICS: Automate the boring stuff: Chapter 17 – Keeping Time, Scheduling Tasks, and Launching Programs   TOPICS: Automate the boring stuff: Chapter 18 – Sending Email and Text Messages   TOPICS: Python Decorators   TOPICS: Python Decorators - Intro   PROJECTS: Email random inspirational quote   PROJECTS: Consume Github API   TOPICS: Python Recursion by example   TOPICS: Python Iterators and Generators   TOPICS: Automate the boring stuff: Chapter 12 – Web Scraping   PROJECTS: SQL  NCIT 14: Database Development\n  TOPICS: The Tech Landscape Terminology   TOPICS: Database Comparison   PROJECTS: Database migrations with SQLAlchemy   PROJECTS: create a REST api to interact with actual database   PROJECTS: Python and MongoDB   PROJECTS: RabbitMQ   PROJECTS: DAGs with Airflow   PROJECTS: Python and Kafka  NCIT 15: Analytics, Surveys, and Reports / Input \u0026amp; Output\n  PROJECTS: [TODO] Python and Spark   TOPICS: [TODO] ZeroMQ versus RabbitMQ versus Kafka   TOPICS: optimizations and big-O   PROJECTS: Data Wrangling  NCIT 16: Thinking like a machine / Boolean algebra, logic\n NCIT 17: Search and sort techniques\n  WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap  NCIT 20: Managing the Software Development Process\n DATA_ENG:\n postgres stored procedures sql index optimisations Entity Relationship Diagrams (ERD) Data warehousing with Hive Overview of the Hadoop ecosystem Linear regressions   "
 },
 {
 	"uri": "/tech-department/tags/data-ethics/",
@@ -868,6 +1085,13 @@
 	"content": " If there is a deadline for any cohort then that deadline should be shared in the \u0026ldquo;tech deadlines\u0026rdquo; calender. To do this:\n create an event in your own calendar. name it in an informative way (name the assignment, name the part of the assignment, who is the deadline for? eg: C13 web) in the description of the event add any links, descriptions or requirements that might be useful invite the deadline calender to the event  Note: For the event to be accepted by the deadlines calender it has to have a duration. If your event is eg from 8:00 to 8:00 then it will be automatically rejected.\nClear instructions on how to submit the event should be included on the event. For example if it is a gnomio assignment then that should be stated. If the assignment makes use of the code submission form then a link to the form should be included.\nLate submissions The person who sets a deadline will check who submitted and who is outstanding.\nIf a recruit is then:\n send a slack message to each recruit who is late share a list of all late people with the rest of the tech team on slack? Or email? (should we have a specific channel?)  In the next cohort standup meeting:\n the recruits who submitted late will be verbally warned. They will need to submit their work by the next morning  If the recruit does not submit their work after being verbally warned then a senior tech manager will personally:\n email all the recruits who have missed their deadline (other managers should be CC\u0026rsquo;d). This counts as a WRITTEN WARNING have a meeting with the offending recruits. This can be a short meeting, and it can be a group meeting.  repeat offenders If a recruit gets 3 written warnings or 9 verbal warnings (or a combination, eg 1 written warning and 6 verbal warnings) then there will be a formal disciplinary hearing held by an HR representative. A senior tech manager will provide HR with all evidence.\n"
 },
 {
+	"uri": "/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/debugging/",
+	"title": "Debugging",
+	"tags": [],
+	"description": "",
+	"content": "Make an account here if you haven\u0026rsquo;t already: https://www.freecodecamp.org/learn\nUnder \u0026ldquo;JavaScript Algorithms and Data Structures\u0026rdquo;, do the section entitled \u0026ldquo;Debugging\u0026rdquo;.\nTry not to ask for too many hints. Do your best to understand everything.\n"
+},
+{
 	"uri": "/tech-department/tags/decision-trees/",
 	"title": "Decision Trees",
 	"tags": [],
@@ -880,6 +1104,13 @@
 	"tags": ["decision-trees"],
 	"description": "",
 	"content": " Background material  Walk through the machine learning Kaggle tutorial Complete the DataCamp tutorial on Tree-Based Models  Assignment Use a decision tree model to predict whether mushrooms are poisonous or edible.\n Split your data into train and test sets. Get basic descriptive statistics for the training data and check for missing and incorrect or extreme values. Get scatterplots or heatmaps showing the relationship between the variables. What are the factors that predict whether a mushroom is poisonous? Report the accuracy of your model on the training set and on the test set. How successful is the model - what is its precision and recall? What is the prevalence of poisonous mushrooms in the dataset? How might prevalence affect the positive and negative predictive values of a test/model?  Find the data here.\nMore information on decision trees Coursera: Decision Trees\nDescription of the dataset This dataset includes descriptions of 23 species of gilled mushrooms in the Agaricus and Lepiota Family. Each species is identified as either edible or poisonous.\n   Variable Description     classes edible=e, poisonous=p   cap-shape bell=b, conical=c, convex=x, flat=f, knobbed=k, sunken=s   cap-surface fibrous=f, grooves=g, scaly=y, smooth=s   cap-color brown=n, buff=b, cinnamon=c, gray=g, green=r, pink=p, purple=u, red=e, white=w, yellow=y   bruises? bruises=t, no=f   odor almond=a, anise=l, creosote=c, fishy=y, foul=f, musty=m, none=n, pungent=p, spicy=s   gill-attachment attached=a, descending=d, free=f, notched=n   gill-spacing close=c, crowded=w, distant=d   gill-size broad=b, narrow=n   gill-color black=k, brown=n, buff=b, chocolate=h, gray=g, green=r, orange=o, pink=p, purple=u, red=e, white=w, yellow=y   stalk-shape enlarging=e, tapering=t   stalk-root bulbous=b, club=c, cup=u, equal=e, rhizomorphs=z, rooted=r, missing=?   stalk-surface-above-ring fibrous=f, scaly=y, silky=k, smooth=s   stalk-surface-below-ring fibrous=f, scaly=y, silky=k, smooth=s   stalk-color-above-ring brown=n, buff=b, cinnamon=c, gray=g, orange=o, pink=p, red=e, white=w, yellow=y   stalk-color-below-ring brown=n, buff=b, cinnamon=c, gray=g, orange=o, ink=p, red=e, white=w, yellow=y   veil-type partial=p, universal=u   veil-color brown=n, orange=o, white=w, yellow=y   ring-number none=n, one=o, two=t   ring-type cobwebby=c, evanescent=e, flaring=f, large=l, none=n, pendant=p, sheathing=s, zone=z   spore-print-color black=k, brown=n, buff=b, chocolate=h, green=r, orange=o, purple=u, white=w, yellow=y   population abundant=a, clustered=c, numerous=n, scattered=s, several=v, solitary=y   habitat grasses=g, leaves=l, meadows=m, paths=p, urban=u, waste=w, woods=d    "
+},
+{
+	"uri": "/tech-department/tags/decorators/",
+	"title": "Decorators",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "/tech-department/topics/kotlin/delegated-properties/",
@@ -929,6 +1160,13 @@
 	"tags": [],
 	"description": "",
 	"content": ""
+},
+{
+	"uri": "/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/es6/",
+	"title": "ES6",
+	"tags": [],
+	"description": "",
+	"content": "Make an account here if you haven\u0026rsquo;t already: https://www.freecodecamp.org/learn\nUnder \u0026ldquo;JavaScript Algorithms and Data Structures\u0026rdquo;, do the section entitled \u0026ldquo;ES6\u0026rdquo;.\nTry not to ask for too many hints. Do your best to understand everything.\n"
 },
 {
 	"uri": "/tech-department/topics/elastic-search/",
@@ -1048,6 +1286,20 @@
 	"tags": ["data-visualisation-mobile-money"],
 	"description": "",
 	"content": " Background The training dataset contains demographic information and what financial services are used by approximately 10,000 individuals across Tanzania. This data was extracted from the FSDT Finscope 2017 survey and prepared specifically for this challenge.\nEach individual is classified into four mutually exclusive categories:\n No_financial_services: Individuals who do not use mobile money, do not save, do not have credit, and do not have insurance Other_only: Individuals who do not use mobile money, but do use at least one of the other financial services (savings, credit, insurance) Mm_only: Individuals who use mobile money only Mm_plus: Individuals who use mobile money and also use at least one of the other financial services (savings, credit, insurance)  This dataset is the geospatial mapping of all cash outlets in Tanzania in 2012. Cash outlets in this case included commercial banks, community banks, ATMs, microfinance institutions, mobile money agents, bus stations and post offices. This data was collected by FSDT.\nInstructions:  Examine the dataset. Are there any missing observations or columns where the data do not seem valid?\n Get basic descriptive statistics for the dataset.\n Create appropriate graphs to visually represent the relationship between financial services accessed (non-mobile, mobile, both) and age, gender, marital status, land ownership and type of income.\n Create appropriate graphs to visually represent the relationship between how often mobile services are used and age, gender, marital status, land ownership and type of income.\n Create a map to visually explore geographic distribution of mobile services coverage with respect to type of income.\n What can you conclude about use of financial services in Tanzania? Which demographic and geographic factors are associated with mobile money use?\n  Variables The table below gives the variable names in the mobile money data file, with a description of the questions and a key to the answer values.\n   Variable ID Question Values     ID Unique respondent ID String   Q1 Age Number   Q2 Gender 1 Male     2 Female   Q3 Marital status 1 Married     2 Divorced     3 Widowed     4 Single/never married   Q4 Highest level of education completed? 1 No formal education     2 Some primary     3 Primary completed     4 Post primary technical training     5 Some secondary     6 University or other higher education     7 Don’t know   Q5 Which of the following applies to you? Read out; Single response 1 You personally own the land/plot where you live     2 You own the land/plot together with someone else     3 A household member owns the land/plot     4 The land/plot is rented     5 You don’t own or rent the land     6 Don’t know   Q6 Do you personally own land (other than the land you live on) that you have land certificates of ownership for? 1 Yes     2 No   Q7 Do you personally own a mobile phone? 1 Yes     2 No   Q8_1 through Q8_11 Different people have different ways of getting money, please tell me how you get the money you spend?    Multiple mention possible     Q8_1 Salaries/wages 1 Yes     0 No   Q8_2 Money from trading/selling Anything you produce/grow/raise/make/collect with the intention of selling 1 Yes     0 No   Q8_3 Money from providing a service – i.e. such as transport, hairdressing, processing, hospitality services (food \u0026amp; accommodation) 1 Yes     0 No   Q8_4 Piece work/Casual labor/Occasional jobs 1 Yes     0 No   Q8_5 Rental income 1 Yes     0 No   Q8_6 Interest from savings, investments, stocks, unit trusts etc. 1 Yes     0 No   Q8_7 Pension 1 Yes     0 No   Q8_8 Social welfare money/grant from Government 1 Yes     0 No   Q8_9 Rely on someone else/others to give/send me money 1 Yes     0 No   Q8_10 Don’t get money – someone else pays my expenses 1 Yes     0 No   Q8_11 Other 1 Yes     0 No   Q9 Only for those who said they get a salary/wages. Who do you work for? -1 not applicable     1 Government     2 Private company/business     3 Individual who owns his own business     4 Small scale farmer     5 Commercial farmer     6 Work for individual/household e.g. security guard, maid etc.     7 Other   Q10 Only for those who said they get money from selling things – what kind of things do you MAINLY sell (get most money from)? -1 not applicable     1 Crops/produce I grow     2 Products I get from livestock     3 Livestock     4 Fish you catch yourself/aquaculture     5 Things you buy from others – agricultural products     6 Things you buy from others – non-agricultural products     7 Things you make (clothes, art, crafts)     8 Things you collect from nature (stones, sand, thatch, herbs)     9 Things you process (honey, dairy products, flour)     10 Other   Q11 Only for those who said they get money from providing a service – what kind of services do you MAINLY provide (get most money from)? -1 not applicable     1 Personal services (hairdressers, massage, etc.)     2 Telecommunications/IT     3 Financial services     4 Transport     5 Hospitality – Accommodation, restaurants, etc.     6 Information/research     7 Technical – mechanic, etc.     8 Educational/child care     9 Health services – traditional healer etc.     10 Legal services     11 Security     12 Other, specify   Q12 In the past 12 months, have you sent money to someone in a different place within the country or outside of Tanzania? 1 Yes     2 No   Q13 When did you last send money? -1 not applicable     1 Yesterday/today     2 In the past 7 days     3 In the past 30 days     4 In the past 90 days     5 More than 90 days ago but less than 6 months ago     6 6 months or longer ago   Q14 In the past 12 months, have you received money from someone in a different place within the country or from outside the country? 1 Yes     2 No   Q15 When did you last receive money? -1 not applicable     1 Yesterday/today     2 In the past 7 days     3 In the past 30 days     4 In the past 90 days     5 More than 90 days ago but less than 6 months ago     6 6 months or longer ago   Q16 In the past 12 months, how often did you use mobile money for purchases of goods and/or services? -1 not applicable     1 Never     2 Daily     3 Weekly     4 Monthly     5 Less often than monthly   Q17 In the past 12 months, how often did you use mobile money for paying your bills? -1 not applicable     1 Never     2 Daily     3 Weekly     4 Monthly     5 Less often than monthly   Q18 Literacy in Kiswhahili 1 Can read and write     2 Can read only     3 Can write only     4 Can neither read nor write     5 Refused to read   Q19 Literacy in English 1 Can read and write     2 Can read only     3 Can write only     4 Can neither read nor write     5 Refused to read   Latitude Approximate latitude Number   Longitude Approximate longitude Number   Mobile_money Do you use mobile money? 1 Yes     0 No   Savings Do you save? 1 Yes     0 No   Borrowing Do you borrow? 1 Yes     0 No   Insurance Do you have insurance? 1 Yes     0 No   Mobile_money_classification  0 no mobile money and no other financial service (saving, borrowing, insurance)     1 no mobile money, but at least one other financial service     2 mobile money only     3 mobile money and at least one other financial service    "
+},
+{
+	"uri": "/tech-department/topics/free-code-camp/",
+	"title": "Free Code Camp",
+	"tags": [],
+	"description": "",
+	"content": "This wonderful resource will teach you a lot about web development. There are a few pieces that will be especially helpful to you during your stay at Umuzi. Please go through all this stuff.\nTry not to ask for any hints ;)\n"
+},
+{
+	"uri": "/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/functional-programming/",
+	"title": "Functional Programming",
+	"tags": [],
+	"description": "",
+	"content": "Make an account here if you haven\u0026rsquo;t already: https://www.freecodecamp.org/learn\nUnder \u0026ldquo;JavaScript Algorithms and Data Structures\u0026rdquo;, do the section entitled \u0026ldquo;Functional Programming \u0026ldquo;.\nTry not to ask for too many hints. Do your best to understand everything.\n"
 },
 {
 	"uri": "/tech-department/projects/game-of-life-angular-elements/",
@@ -1239,6 +1491,13 @@
 	"content": " Interfaces in Kotlin are very similar to Java 8. An interface is defined using the keyword interface\ninterface MyInterface { fun bar() fun foo() { // optional body } }  Implementing Interfaces A class or object can implement one or more interfaces\nclass Child : MyInterface { override fun bar() { // body } }  "
 },
 {
+	"uri": "/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/intermediate-algorithmic-scripting/",
+	"title": "Intermediate Algorithm Scripting",
+	"tags": [],
+	"description": "",
+	"content": "Make an account here if you haven\u0026rsquo;t already: https://www.freecodecamp.org/learn\nUnder \u0026ldquo;JavaScript Algorithms and Data Structures\u0026rdquo;, do the section entitled \u0026ldquo;Intermediate Algorithm Scripting \u0026ldquo;.\nTry not to ask for too many hints. Do your best to understand everything.\n"
+},
+{
 	"uri": "/tech-department/topics/python-specific/oop-for-python/",
 	"title": "Intro OOP(Object-oriented Programming) for Python",
 	"tags": [],
@@ -1271,7 +1530,7 @@
 	"title": "Intro to Docker and Docker-compose",
 	"tags": ["docker-compose", "postgres"],
 	"description": "",
-	"content": " What is Docker\nSet up In this section we\u0026rsquo;ll get docker set up on your computer. Then we\u0026rsquo;ll use it to run a mysql server. This is cool because:\n you can use mysql without having to actually install mysql the same technique will work for running any other database (or many other applications) once docker is installed. This means you can play and experiement with different tools without much of a fuss  Install docker For Ubuntu:\n https://docs.docker.com/install/linux/docker-ce/ubuntu/ https://docs.docker.com/install/linux/linux-postinstall/  For Mint:\n follow these instructions https://docs.docker.com/install/linux/docker-ce/ubuntu/ then when it is time to call add-apt-repository rather do this: sudo add-apt-repository \u0026quot;deb [arch=amd64] https://download.docker.com/linux/ubuntu $(. /etc/os-release; echo \u0026quot;$UBUNTU_CODENAME\u0026quot;) stable\u0026quot; https://docs.docker.com/install/linux/linux-postinstall/  For Mac:\nhttps://docs.docker.com/docker-for-mac/install/\nNow install docker-compose https://docs.docker.com/compose/install/\nCreate a docker-composition file Make a file called docker-compose.yaml. This is where you specify what containers you want to run and how you want them \u0026ldquo;constructed\u0026rdquo;. Paste the following into the file:\n version: \u0026#34;3.3\u0026#34; services: postgres: image: postgres:9.6 environment: - POSTGRES_USER=user - POSTGRES_PASSWORD=pass - POSTGRES_DB=db volumes: - ./gitignore/postgresql:/var/lib/postgresql/data ports: - 5432:5432 adminer: image: adminer restart: always ports: - 8080:8080  Now open up a terminal and cd into the directory containing the docker compose file then say docker-compose up\nThis launches two containers. One for postgresql, and one for adminer. Adminer is a simple web based gui that you can use to interact with different databases. You\u0026rsquo;ll be able to see this UI at http://localhost:8080\nAlternatively: Mysql composition You can run a mysql composition like this one\n version: \u0026#34;3.1\u0026#34; services: db: image: mysql command: --default-authentication-plugin=mysql_native_password restart: always environment: MYSQL_ROOT_PASSWORD: rootpass MYSQL_USER: user MYSQL_PASSWORD: pass MYSQL_DATABASE: db adminer: image: adminer restart: always ports: - 8080:8080  What\u0026rsquo;s the difference? Postgresql is more of an industry standard than Mysql. But they are both great tools.\nAdvanced topics If you want to use Docker containers in production then there are a bunch of extra things you need to know about. Some of these concepts are pretty deep but you don\u0026rsquo;t need to be an expert in order to use them.\nVolumes If you are running a container that needs to store data (like a database) and you want to make sure that you don\u0026rsquo;t lose that data if the container dies (or gets explicitly killed) then you need to use volumnes. Basically a volume is like a linux \u0026ldquo;link\u0026rdquo; or windows \u0026ldquo;shortcut\u0026rdquo;. It maps a totally normal directory/folder on your computer (your computer is the host) to a directory within the container. When the container tries to store something in the directory then that data appears in the host directory.\nNow if the container completely disappears the data still exists.\nOne use case for this behavior is upgrading. Let\u0026rsquo;s say you are running mysql:8.0. Your compose file will initially contain something like this\n db: image: mysql:8.0 volumes: /my/own/datadir:/var/lib/mysql  To upgrade, you can simply do the following:\n kill the docker composition Edit the compose file to say something like this:   db: image: mysql:8.0.17 volumes: /my/own/datadir:/var/lib/mysql  Now just docker-compose up and you have upgraded your mysql version. Easy peasy. And the same thing can be done for many other applications.\nAnother use case of volumes is of course backing up your data or movving your database to a new computer. Can you figure out how?\nports I\u0026rsquo;m not going to get into the definition of a port here. We\u0026rsquo;ll just talk about how to configure them. Remember how we accessed the adminer gui on port 8080 a second ago? Adminer exposes port 8080 by default.\nTry editing your docker compose file to contain this:\n adminer: image: adminer restart: always ports: - 9090:8080 ###### see how this line changed?  Now restart your composition.\nTry out these links:\n http://localhost:8080 http://localhost:9090  creating your own docker images Prerequisites: It would be really useful if you were comfortable with Bash.\nhttps://docs.docker.com/get-started/part2/\n"
+	"content": " What is Docker\nWhy is docker cool? Here\u0026rsquo;s the first part of a three part tutorial on microservices. You don\u0026rsquo;t need to read all three parts. Basically it illustrates how docker revolutionised our industry. Here you go\nSet up In this section we\u0026rsquo;ll get docker set up on your computer. Then we\u0026rsquo;ll use it to run a mysql server. This is cool because:\n you can use mysql without having to actually install mysql the same technique will work for running any other database (or many other applications) once docker is installed. This means you can play and experiement with different tools without much of a fuss  Install docker For Ubuntu:\n https://docs.docker.com/install/linux/docker-ce/ubuntu/ https://docs.docker.com/install/linux/linux-postinstall/  For Mint:\n follow these instructions https://docs.docker.com/install/linux/docker-ce/ubuntu/ then when it is time to call add-apt-repository rather do this: sudo add-apt-repository \u0026quot;deb [arch=amd64] https://download.docker.com/linux/ubuntu $(. /etc/os-release; echo \u0026quot;$UBUNTU_CODENAME\u0026quot;) stable\u0026quot; https://docs.docker.com/install/linux/linux-postinstall/  For Mac:\nhttps://docs.docker.com/docker-for-mac/install/\nSuper important For some reason most people don\u0026rsquo;t follow ALL the installation instructions.\nPlease do this:\nhttps://docs.docker.com/engine/install/linux-postinstall/\nNow install docker-compose https://docs.docker.com/compose/install/\nCreate a docker-composition file Make a file called docker-compose.yaml. This is where you specify what containers you want to run and how you want them \u0026ldquo;constructed\u0026rdquo;. Paste the following into the file:\n version: \u0026#34;3.3\u0026#34; services: postgres: image: postgres:9.6 environment: - POSTGRES_USER=user - POSTGRES_PASSWORD=pass - POSTGRES_DB=db volumes: - ./gitignore/postgresql:/var/lib/postgresql/data ports: - 5432:5432 adminer: image: adminer restart: always ports: - 8080:8080  Now open up a terminal and cd into the directory containing the docker compose file then say docker-compose up\nThis launches two containers. One for postgresql, and one for adminer. Adminer is a simple web based gui that you can use to interact with different databases. You\u0026rsquo;ll be able to see this UI at http://localhost:8080\nAlternatively: Mysql composition You can run a mysql composition like this one\n version: \u0026#34;3.1\u0026#34; services: db: image: mysql command: --default-authentication-plugin=mysql_native_password restart: always environment: MYSQL_ROOT_PASSWORD: rootpass MYSQL_USER: user MYSQL_PASSWORD: pass MYSQL_DATABASE: db adminer: image: adminer restart: always ports: - 8080:8080  What\u0026rsquo;s the difference? Postgresql is more of an industry standard than Mysql. But they are both great tools.\nAdvanced topics If you want to use Docker containers in production then there are a bunch of extra things you need to know about. Some of these concepts are pretty deep but you don\u0026rsquo;t need to be an expert in order to use them.\nVolumes If you are running a container that needs to store data (like a database) and you want to make sure that you don\u0026rsquo;t lose that data if the container dies (or gets explicitly killed) then you need to use volumnes. Basically a volume is like a linux \u0026ldquo;link\u0026rdquo; or windows \u0026ldquo;shortcut\u0026rdquo;. It maps a totally normal directory/folder on your computer (your computer is the host) to a directory within the container. When the container tries to store something in the directory then that data appears in the host directory.\nNow if the container completely disappears the data still exists.\nOne use case for this behavior is upgrading. Let\u0026rsquo;s say you are running mysql:8.0. Your compose file will initially contain something like this\n db: image: mysql:8.0 volumes: /my/own/datadir:/var/lib/mysql  To upgrade, you can simply do the following:\n kill the docker composition Edit the compose file to say something like this:   db: image: mysql:8.0.17 volumes: /my/own/datadir:/var/lib/mysql  Now just docker-compose up and you have upgraded your mysql version. Easy peasy. And the same thing can be done for many other applications.\nAnother use case of volumes is of course backing up your data or movving your database to a new computer. Can you figure out how?\nports I\u0026rsquo;m not going to get into the definition of a port here. We\u0026rsquo;ll just talk about how to configure them. Remember how we accessed the adminer gui on port 8080 a second ago? Adminer exposes port 8080 by default.\nTry editing your docker compose file to contain this:\n adminer: image: adminer restart: always ports: - 9090:8080 ###### see how this line changed?  Now restart your composition.\nTry out these links:\n http://localhost:8080 http://localhost:9090  Creating your own docker images Prerequisites: It would be really useful if you were comfortable with Bash.\nhttps://docs.docker.com/get-started/part2/\n"
 },
 {
 	"uri": "/tech-department/topics/java-specific/intro-to-junit/",
@@ -1397,7 +1656,7 @@
 	"title": "Introduction to GraphQL",
 	"tags": [],
 	"description": "",
-	"content": ""
+	"content": " https://www.codementor.io/@sheena/graphql-versus-rest-pp19tr6zk https://graphql.org/learn/  "
 },
 {
 	"uri": "/tech-department/projects/data-science-specific/intro-to-jupyter-notebook/",
@@ -1757,6 +2016,13 @@
 	"content": " As a junior developer working on a team of professionas, your code will always have to conform to a certain shape. You will always need to write code that plays nicely with the code and mechanisms that are in place.\nFor all your Java projects you will need to make sure that your code conforms to the following:\nBuild.Gradle We are using JUnit 5. And some of our automations depend on how JUnit 5 logs its successes.\nPlease open up your build.gradle. Make sure that you have the JUnit5 dependencies listed below.\ndependencies { testImplementation 'org.junit.jupiter:junit-jupiter-api:5.3.1' testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.3.1' // your project dependencies }  Then paste this into your build.gradle file.\ntest { useJUnitPlatform( testLogging { events \u0026quot;passed\u0026quot;, \u0026quot;skipped\u0026quot;, \u0026quot;failed\u0026quot; } ) }  Now if you run your unit tests and everything passes (which they should before you submit your work) then you will get a bit of extra output about your passing tests.\nDirectory structure Please see this: TOPICS: Gradle and IntelliJ project submission structure "
 },
 {
+	"uri": "/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/",
+	"title": "JavaScript Algorithms and Data Structures",
+	"tags": [],
+	"description": "",
+	"content": "Make an account here if you haven\u0026rsquo;t already: https://www.freecodecamp.org/learn\nYou\u0026rsquo;ll be hitting \u0026ldquo;JavaScript Algorithms and Data Structures\u0026rdquo;\n"
+},
+{
 	"uri": "/tech-department/topics/js-and-node-specific/template-engines/",
 	"title": "JavaScript template engines",
 	"tags": [],
@@ -1797,6 +2063,13 @@
 	"tags": ["kmeans"],
 	"description": "",
 	"content": " Pre-requisites Read through the K-Means Tutorials at TOPICS: K-Means Clustering before starting this project.\nClustering whisky distilleries according to tasting Profiles Data: Whisky Tasting Profiles\nUse K-Means clustering to cluster whisky distilleries by their tasting profile. Use the elbow or silhouette method to find the optimal number of clusters.\nTo see how successful clustering was, report relevant metrics (e.g. silhouette, adjusted rand index, etc.) and create a plot showing the different distilleries, their classes according to the k-Means clustering, and the distance between points. You can use sklearn.manifold to get Euclidean distances between points.\nDescribe the main differences between the cluster - what are the factors that differ between classes?\n"
+},
+{
+	"uri": "/tech-department/tags/kafka/",
+	"title": "Kafka",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "/tech-department/topics/kinds-of-web-apis/",
@@ -2093,6 +2366,13 @@
 	"content": ""
 },
 {
+	"uri": "/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/object-orientated-programming/",
+	"title": "Object Orientated Programming",
+	"tags": [],
+	"description": "",
+	"content": "Make an account here if you haven\u0026rsquo;t already: https://www.freecodecamp.org/learn\nUnder \u0026ldquo;JavaScript Algorithms and Data Structures\u0026rdquo;, do the section entitled \u0026ldquo;Object Orientated Programming \u0026ldquo;.\nTry not to ask for too many hints. Do your best to understand everything.\n"
+},
+{
 	"uri": "/tech-department/department-processes/team-onboarding/",
 	"title": "Onboarding - What the team needs to know and access",
 	"tags": [],
@@ -2177,11 +2457,67 @@
 	"content": " Declaring Properties Classes in Kotlin can have properties. These can be declared as mutable, using the var keyword or read-only using the val keyword.\nclass Address { var name: String = ... var street: String = ... var city: String = ... var state: String? = ... var zip: String = ... }  To use a property, we simply refer to it by name, as if it were a field in Java:\nfun copyAddress(address: Address): Address { val result = Address() // there's no 'new' keyword in Kotlin result.name = address.name // accessors are called result.street = address.street // ... return result }  ###Getters and Setters The full syntax for declaring a property is\nvar \u0026lt;propertyName\u0026gt;[: \u0026lt;PropertyType\u0026gt;] [= \u0026lt;property_initializer\u0026gt;] [\u0026lt;getter\u0026gt;] [\u0026lt;setter\u0026gt;]  The initializer, getter and setter are optional. Property type is optional if it can be inferred from the initializer (or from the getter return type, as shown below).\nExamples:\nvar allByDefault: Int? // error: explicit initializer required, default getter and setter implied var initialized = 1 // has type Int, default getter and setter  The full syntax of a read-only property declaration differs from a mutable one in two ways: it starts with val instead of var and does not allow a setter:\nval simple: Int? // has type Int, default getter, must be initialized in constructor val inferredType = 1 // has type Int and a default getter  We can write custom accessors, very much like ordinary functions, right inside a property declaration. Here\u0026rsquo;s an example of a custom getter:\nval isEmpty: Boolean get() = this.size == 0  A custom setter looks like this:\nvar stringRepresentation: String get() = this.toString() set(value) { setDataFromString(value) // parses the string and assigns values to other properties }  By convention, the name of the setter parameter is value, but you can choose a different name if you prefer.\nSince Kotlin 1.1, you can omit the property type if it can be inferred from the getter:\nval isEmpty get() = this.size == 0 // has type Boolean  If you need to change the visibility of an accessor or to annotate it, but don\u0026rsquo;t need to change the default implementation, you can define the accessor without defining its body:\nvar setterVisibility: String = \u0026quot;abc\u0026quot; private set // the setter is private and has the default implementation var setterWithAnnotation: Any? = null @Inject set // annotate the setter with Inject  Backing Fields Classes in Kotlin cannot have fields. However, sometimes it is necessary to have a backing field when using custom accessors. For these purposes, Kotlin provides an automatic backing field which can be accessed using the field identifier:\nvar counter = 0 // the initializer value is written directly to the backing field set(value) { if (value \u0026gt;= 0) field = value }  The field identifier can only be used in the accessors of the property.\nA backing field will be generated for a property if it uses the default implementation of at least one of the accessors, or if a custom accessor references it through the field identifier.\nFor example, in the following case there will be no backing field:\nval isEmpty: Boolean get() = this.size == 0  Backing Properties If you want to do something that does not fit into this \u0026ldquo;implicit backing field\u0026rdquo; scheme, you can always fall back to having a backing property:\nprivate var _table: Map\u0026lt;String, Int\u0026gt;? = null public val table: Map\u0026lt;String, Int\u0026gt; get() { if (_table == null) { _table = HashMap() // Type parameters are inferred } return _table ?: throw AssertionError(\u0026quot;Set to null by another thread\u0026quot;) }  In all respects, this is just the same as in Java since access to private properties with default getters and setters is optimized so that no function call overhead is introduced.\nCompile-Time Constants Properties the value of which is known at compile time can be marked as compile time constants using the const modifier. Such properties need to fulfil the following requirements:\nTop-level or member of an object Initialized with a value of type String or a primitive type No custom getter Such properties can be used in annotations:\nconst val SUBSYSTEM_DEPRECATED: String = \u0026quot;This subsystem is deprecated\u0026quot; @Deprecated(SUBSYSTEM_DEPRECATED) fun foo() { ... }  Late-Initialized Properties Normally, properties declared as having a non-null type must be initialized in the constructor. However, fairly often this is not convenient. For example, properties can be initialized through dependency injection, or in the setup method of a unit test. In this case, you cannot supply a non-null initializer in the constructor, but you still want to avoid null checks when referencing the property inside the body of a class.\nTo handle this case, you can mark the property with the lateinit modifier:\npublic class MyTest { lateinit var subject: TestSubject @SetUp fun setup() { subject = TestSubject() } @Test fun test() { subject.method() // dereference directly } }  The modifier can only be used on var properties declared inside the body of a class (not in the primary constructor), and only when the property does not have a custom getter or setter. The type of the property must be non-null, and it must not be a primitive type.\nAccessing a lateinit property before it has been initialized throws a special exception that clearly identifies the property being accessed and the fact that it hasn\u0026rsquo;t been initialized.\nDelegated Properties The most common kind of properties simply reads from (and maybe writes to) a backing field. On the other hand, with custom getters and setters one can implement any behaviour of a property. Somewhere in between, there are certain common patterns of how a property may work. A few examples: lazy values, reading from a map by a given key, accessing a database, notifying listener on access, etc.\nSuch common behaviours can be implemented as libraries using delegated properties.\n"
 },
 {
+	"uri": "/tech-department/tags/python/",
+	"title": "Python",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/topics/python-specific/decorators-intro/",
+	"title": "Python Decorators",
+	"tags": ["python", "decorators"],
+	"description": "",
+	"content": "https://www.codementor.io/@sheena/introduction-to-decorators-du107vo5c\n"
+},
+{
+	"uri": "/tech-department/topics/python-specific/decorators-advanced/",
+	"title": "Python Decorators - Intro",
+	"tags": ["python", "decorators"],
+	"description": "",
+	"content": "https://www.codementor.io/@sheena/advanced-use-python-decorators-class-function-du107nxsv\n"
+},
+{
+	"uri": "/tech-department/topics/python-specific/custom-exceptions/",
+	"title": "Python Exception handling",
+	"tags": [],
+	"description": "",
+	"content": "https://www.codementor.io/@sheena/how-to-write-python-custom-exceptions-du107ufv9\n"
+},
+{
+	"uri": "/tech-department/topics/python-specific/exception-handling/",
+	"title": "Python Exception handling",
+	"tags": [],
+	"description": "",
+	"content": "https://www.codementor.io/@sheena/python-exception-handling-ogr0a41t7\n"
+},
+{
+	"uri": "/tech-department/topics/python-specific/iterators/",
+	"title": "Python Iterators and Generators",
+	"tags": [],
+	"description": "",
+	"content": "Why? This stuff will give you superpowers. Well, it already does. Iterators are part of the beating heart of Python. If you know how they really work you\u0026rsquo;ll be able to do some pretty cool stuff.\nhttps://www.codementor.io/@sheena/python-generators-and-iterators-du1082iua\n"
+},
+{
+	"uri": "/tech-department/topics/python-specific/lists-in-depth/",
+	"title": "Python Lists in depth",
+	"tags": ["python"],
+	"description": "",
+	"content": "https://www.codementor.io/@sheena/python-lists-in-depth-lrtmk7w4q\n"
+},
+{
 	"uri": "/tech-department/topics/python-specific/oop-basics/",
 	"title": "Python OOP basics",
 	"tags": ["oop"],
 	"description": "",
 	"content": ""
+},
+{
+	"uri": "/tech-department/topics/python-specific/recursion/",
+	"title": "Python Recursion by example",
+	"tags": [],
+	"description": "",
+	"content": "I heart recursion you guys.\nhttps://www.codementor.io/@sheena/python-recursion-by-example-n8v9zlans\n"
 },
 {
 	"uri": "/tech-department/topics/unit-testing/mocks-and-spies/",
@@ -2193,16 +2529,16 @@
 {
 	"uri": "/tech-department/projects/python-specific/kafka/",
 	"title": "Python and Kafka",
-	"tags": [],
+	"tags": ["python", "kafka"],
 	"description": "",
-	"content": ""
+	"content": "The first step is to create an \u0026ldquo;app\u0026rdquo; on twitter. https://developer.twitter.com/en/apps\nAnd then in your virtualenv, install these dependencies:\npip install kafka-python pip install python-twitter pip install tweepy  Create a topic. Pick something you are interested in. For example you might want to collect tweets about data-engineering, covid-19, or space travel. Whatever you want :)\nWrite a script that will print tweets to standard out, and also publish them to kafka.\nMake sure that you follow good practices - don\u0026rsquo;t hard-code any secret information (like your passwords) and don\u0026rsquo;t hard-code configuration either (it should come from your environmental variables)\n"
 },
 {
 	"uri": "/tech-department/topics/python-specific/kafka/",
 	"title": "Python and Kafka",
 	"tags": [],
 	"description": "",
-	"content": ""
+	"content": "Read the offial introduction here: https://kafka.apache.org/intro\nIf you understood your RabbitMQ stuff then this should feel pretty familiar to you.\nWhat can you use it for? Check this out: https://kafka.apache.org/uses\nNow this little tutorial will help you get started. Can you get it to run? https://towardsdatascience.com/kafka-python-explained-in-10-lines-of-code-800e3e07dad1\nThis one is more thorough. So long as you are comfortable with the Kafka concepts in here you are good to go.\nhttps://towardsdatascience.com/getting-started-with-apache-kafka-in-python-604b3250aa05\nPlease note Exception handling is important. The above tutorials are not about exception handling and the authors did some things that are really terrible from an engineering prespective. When reading tutorials you always need to think about what\u0026rsquo;s wrong with the code. There is a lot wrong here. But the Kafka parts are good.\n"
 },
 {
 	"uri": "/tech-department/projects/python-specific/mongo/",
@@ -2284,6 +2620,27 @@
 {
 	"uri": "/tech-department/tags/regular-expressions/",
 	"title": "Regular Expressions",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/regular-expressions/",
+	"title": "Regular Expressions",
+	"tags": [],
+	"description": "",
+	"content": "Make an account here if you haven\u0026rsquo;t already: https://www.freecodecamp.org/learn\nUnder \u0026ldquo;JavaScript Algorithms and Data Structures\u0026rdquo;, do the section entitled \u0026ldquo;Regular Expressions\u0026rdquo;.\nTry not to ask for too many hints. Do your best to understand everything.\n"
+},
+{
+	"uri": "/tech-department/topics/free-code-camp/responsive-web-design/responsive-web-design-principles/",
+	"title": "Responsive Web Design Principles",
+	"tags": [],
+	"description": "",
+	"content": "Make an account here if you haven\u0026rsquo;t already: https://www.freecodecamp.org/learn\nLook under \u0026ldquo;Responsive Web Design\u0026rdquo;\nYou\u0026rsquo;ll be hitting \u0026ldquo;Responsive Web Design Principles\u0026rdquo;\n"
+},
+{
+	"uri": "/tech-department/topics/free-code-camp/responsive-web-design/",
+	"title": "Responsive-web-designs",
 	"tags": [],
 	"description": "",
 	"content": ""
@@ -2573,7 +2930,7 @@
 	"title": "Web Development",
 	"tags": [],
 	"description": "",
-	"content": " Introduction to NCIT curriculum NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum   WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   PROJECTS: [TODO] Beginner Linux challenges   TOPICS: Web Dev learning materials   TOPICS: Clean Code   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  TOPICS: [TODO] Super basic intro to Node   TOPICS: How to ask for help with your code   PROJECTS: Level 1 programming katas   WORKSHOPS: Intro to CSS architecture   TOPICS: Introduction to web design   PROJECTS: Build your first personal website  NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 08: Pseudocode and documentation NCIT 10: Workshop: Giving and receiving constructive feedback  WORKSHOPS: Clean Code (language agnostic)   TOPICS: [TODO] OOP in JS and Node   TOPICS: Jasmine Unit testing   PROJECTS: Animals Part 2. Adding Tests  NCIT 13: Object-oriented programming  PROJECTS: Semitone Challenge   TOPICS: Logging in Node and JS  NCIT 11: Test-driven development  PROJECTS: Add logging to password checker   PROJECTS: string-calculator   TOPICS: How the internet works   TOPICS: Data Ethics and Privacy  NCIT 05: History of the Internet NCIT 09: Ethics and Professionalism in IT  PROJECTS: Email random inspirational quote   PROJECTS: Consume Github API   TOPICS: The Tech Landscape Terminology   PROJECTS: Memory game in vanilla js   TOPICS: Node   PROJECTS: Node \u0026amp; File IO   PROJECTS: Node \u0026amp; SQL assignment  NCIT 14: Database Development\n NCIT 15: Analytics, Surveys, and Reports / Input \u0026amp; Output\n NCIT 16: Thinking like a machine / Boolean algebra, logic\n NCIT 17: Search and sort techniques\n  TOPICS: Database Comparison   PROJECTS: Add a little Ajax   WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap  NCIT 20: Managing the Software Development Process\n NCIT Summative assessment\n  TOPICS: Intro to Angular   TOPICS: Intro to React   TOPICS: Intro to Vue   WORKSHOPS: [TODO] Nodejs intro to socketIO   WORKSHOPS: [TODO] Basic introduction to Redux   WORKSHOPS: [TODO] Node Sync/Async   TOPICS: MongoDB and JavaScript   TOPICS: [TODO] The dotenv module   prerequisites: hard: [\u0026ldquo;projects/sql\u0026rdquo;, \u0026ldquo;workshops/node-and-sql/\u0026rdquo;] soft: [] tags: [\u0026ldquo;node\u0026rdquo;, \u0026ldquo;sql\u0026rdquo;]\n"
+	"content": " Introduction to NCIT curriculum3vil1337\n NCIT 01: Conducting research and user interviews\n NCIT 02: Reporting\n NCIT 03: Research presentation\n  TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum   TOPICS: Basic Javascript   WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 18: Agile project management\n NCIT 19: Agile meetings\n  WORKSHOPS: How to be a professional   PROJECTS: [TODO] Beginner Linux challenges   TOPICS: ES6   TOPICS: Debugging   TOPICS: Web Dev learning materials   TOPICS: Clean Code   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork\n  TOPICS: [TODO] Super basic intro to Node   TOPICS: How to ask for help with your code   PROJECTS: Level 1 programming katas   TOPICS: Basic HTML and HTM5   TOPICS: Basic CSS   TOPICS: Applied Visual Design   WORKSHOPS: Intro to CSS architecture   TOPICS: Introduction to web design   PROJECTS: Build your first personal website  NCIT 06: Web design for business\n NCIT 07: Building an online business\n NCIT 12: Business and technology\n NCIT 08: Pseudocode and documentation\n NCIT 10: Workshop: Giving and receiving constructive feedback\n  WORKSHOPS: Clean Code (language agnostic)   TOPICS: [TODO] OOP in JS and Node   TOPICS: Object Orientated Programming   TOPICS: Jasmine Unit testing   PROJECTS: Animals Part 2. Adding Tests  NCIT 13: Object-oriented programming\n  TOPICS: Basic Data Structures   TOPICS: Basic Algorithm Scripting   TOPICS: Applied Accessability   TOPICS: Responsive Web Design Principles   TOPICS: CSS Flexbox   PROJECTS: Semitone Challenge   TOPICS: Logging in Node and JS  NCIT 11: Test-driven development\n  TOPICS: Regular Expressions   PROJECTS: Add logging to password checker   PROJECTS: string-calculator   TOPICS: How the internet works   TOPICS: Data Ethics and Privacy  NCIT 05: History of the Internet\n NCIT 09: Ethics and Professionalism in IT\n  PROJECTS: Email random inspirational quote   PROJECTS: Consume Github API   TOPICS: The Tech Landscape Terminology   TOPICS: Functional Programming   TOPICS: Intermediate Algorithm Scripting   TOPICS: CSS Grid   PROJECTS: Memory game in vanilla js   TOPICS: Node   PROJECTS: Node \u0026amp; File IO   PROJECTS: Node \u0026amp; SQL assignment  NCIT 14: Database Development\n NCIT 15: Analytics, Surveys, and Reports / Input \u0026amp; Output\n NCIT 16: Thinking like a machine / Boolean algebra, logic\n NCIT 17: Search and sort techniques\n  TOPICS: Database Comparison   PROJECTS: Add a little Ajax   WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap  NCIT 20: Managing the Software Development Process\n NCIT Summative assessment\n  TOPICS: Intro to Angular   TOPICS: Intro to React   TOPICS: Intro to Vue   WORKSHOPS: [TODO] Nodejs intro to socketIO   WORKSHOPS: [TODO] Basic introduction to Redux   WORKSHOPS: [TODO] Node Sync/Async   TOPICS: MongoDB and JavaScript   TOPICS: [TODO] The dotenv module   "
 },
 {
 	"uri": "/tech-department/topics/web-frontend/",

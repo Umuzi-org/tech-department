@@ -206,12 +206,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/android/</loc>
+    <loc>/tech-department/projects/android/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/projects/android/</loc>
+    <loc>/tech-department/topics/android/</loc>
     <priority>0</priority>
   </url>
   
@@ -259,11 +259,108 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/free-code-camp/responsive-web-design/applied-accessability/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/free-code-camp/responsive-web-design/applied-visual-design/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/asserive-programming-tricks-for-pandas/</loc>
   </url>
   
   <url>
     <loc>/tech-department/projects/basic-flow-control-katas-assertive/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-0-introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-1-basics/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-10-organising-files/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-11-debugging/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-12-web-scraping/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-13-working-with-excel-spreadsheets/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-14-working-with-google-spreadsheets/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-15-working-with-pdf-and-word-docs/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-16-working-with-csv-and-json-data/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-17-time-and-scheduling/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-20-automating-keyboard-and-mouse/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-19-image-manipulation/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-18-email-and-text/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-2-flow-control/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-3-functions/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-4-lists/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-5-dictionaries-and-structuring-data/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-6-manipulating-strings/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-7-pattern-matching-with-regular-expressions/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-8-input-validation/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/automate-the-boring-stuff-book/chapter-9-reading-and-writing-files/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/automate-the-boring-stuff-book/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -284,11 +381,31 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/basic-algorithmic-scripting/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/free-code-camp/responsive-web-design/basic-css/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/kotlin/basic-control-flow/</loc>
   </url>
   
   <url>
+    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/basic-data-structures/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/free-code-camp/responsive-web-design/basic-html-and-html-5/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/python-specific/basic-intro-to-oop/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/basic-javascript/</loc>
   </url>
   
   <url>
@@ -317,6 +434,14 @@
   
   <url>
     <loc>/tech-department/workshops/business-intelligence-tools/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/free-code-camp/responsive-web-design/css-flexbox/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/free-code-camp/responsive-web-design/css-grid/</loc>
   </url>
   
   <url>
@@ -527,12 +652,21 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/debugging/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/tags/decision-trees/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tech-department/projects/data-science-specific/decision-trees/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/decorators/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -563,6 +697,10 @@
   <url>
     <loc>/tech-department/tags/dom-manipulation/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/es6/</loc>
   </url>
   
   <url>
@@ -635,6 +773,14 @@
   
   <url>
     <loc>/tech-department/projects/data-science-specific/data-visualisation/mobile-money-viz/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/free-code-camp/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/functional-programming/</loc>
   </url>
   
   <url>
@@ -746,6 +892,10 @@
   
   <url>
     <loc>/tech-department/topics/kotlin/interface/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/intermediate-algorithmic-scripting/</loc>
   </url>
   
   <url>
@@ -1045,6 +1195,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/js-and-node-specific/template-engines/</loc>
   </url>
   
@@ -1068,6 +1222,11 @@
   
   <url>
     <loc>/tech-department/projects/data-science-specific/k-means-clustering/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/kafka/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -1248,6 +1407,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/object-orientated-programming/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/department-processes/team-onboarding/</loc>
   </url>
   
@@ -1300,7 +1463,40 @@
   </url>
   
   <url>
+    <loc>/tech-department/tags/python/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/decorators-intro/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/decorators-advanced/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/custom-exceptions/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/exception-handling/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/iterators/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/lists-in-depth/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/python-specific/oop-basics/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/recursion/</loc>
   </url>
   
   <url>
@@ -1363,6 +1559,19 @@
   
   <url>
     <loc>/tech-department/tags/regular-expressions/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/regular-expressions/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/free-code-camp/responsive-web-design/responsive-web-design-principles/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/free-code-camp/responsive-web-design/</loc>
     <priority>0</priority>
   </url>
   
