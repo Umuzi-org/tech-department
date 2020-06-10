@@ -336,14 +336,14 @@
 	"content": ""
 },
 {
-	"uri": "/tech-department/projects/android/",
+	"uri": "/tech-department/topics/android/",
 	"title": "Androids",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/tech-department/topics/android/",
+	"uri": "/tech-department/projects/android/",
 	"title": "Androids",
 	"tags": [],
 	"description": "",
@@ -935,7 +935,7 @@
 	"title": "Data Engineering",
 	"tags": [],
 	"description": "",
-	"content": " Introduction to NCIT curriculum NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   PROJECTS: [TODO] Beginner Linux challenges   TOPICS: Python self-learning   TOPICS: Clean Code for Python   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  TOPICS: Automate the boring stuff: Chapter 0 – Introduction   TOPICS: Automate the boring stuff: Chapter 1 – Python Basics   TOPICS: Automate the boring stuff: Chapter 2 – Flow Control   TOPICS: Automate the boring stuff: Chapter 3 – Functions   PROJECTS: Level 1 programming katas   PROJECTS: Build your first personal website   TOPICS: How to ask for help with your code   WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)   TOPICS: Automate the boring stuff: Chapter 4 – Lists   TOPICS: Python Lists in depth   TOPICS: Automate the boring stuff: Chapter 5 – Dictionaries and Structuring Data   TOPICS: Automate the boring stuff: Chapter 6 – Manipulating Strings   TOPICS: Automate the boring stuff: Chapter 7 – Pattern Matching with Regular Expressions   TOPICS: [TODO] Python OOP basics   TOPICS: Automated Testing in Python   TOPICS: [TODO] Virtual Environments   PROJECTS: Animals Part 2. Adding Tests  NCIT 13: Object-oriented programming\n  TOPICS: How the internet works   TOPICS: Data Ethics and Privacy  NCIT 05: History of the Internet\n NCIT 08: Pseudocode and documentation\n  TOPICS: Automate the boring stuff: Chapter 8 – Input Validation   TOPICS: Automate the boring stuff: Chapter 9 – Reading and Writing Files   TOPICS: Automate the boring stuff: Chapter 10 – Organizing Files   TOPICS: Automate the boring stuff: Chapter 11 – Debugging   PROJECTS: Add logging to password checker  NCIT 11: Test-driven development\n  TOPICS: Intro to Docker and Docker-compose   PROJECTS: string-calculator   TOPICS: Python Exception handling   TOPICS: Python Exception handling   TOPICS: Automate the boring stuff: Chapter 13 – Working with Excel Spreadsheets   TOPICS: Automate the boring stuff: Chapter 14 – Working with Google Spreadsheets   TOPICS: Automate the boring stuff: Chapter 16 – Working with CSV Files and JSON Data   TOPICS: Automate the boring stuff: Chapter 17 – Keeping Time, Scheduling Tasks, and Launching Programs   TOPICS: Automate the boring stuff: Chapter 18 – Sending Email and Text Messages   TOPICS: Python Decorators   TOPICS: Python Decorators - Intro   PROJECTS: Email random inspirational quote   PROJECTS: Consume Github API   TOPICS: Python Recursion by example   TOPICS: Python Iterators and Generators   TOPICS: Automate the boring stuff: Chapter 12 – Web Scraping   PROJECTS: SQL  NCIT 14: Database Development\n  TOPICS: The Tech Landscape Terminology   TOPICS: Database Comparison   PROJECTS: Database migrations with SQLAlchemy   PROJECTS: create a REST api to interact with actual database   PROJECTS: Python and MongoDB   PROJECTS: RabbitMQ   PROJECTS: DAGs with Airflow   PROJECTS: Python and Kafka  NCIT 15: Analytics, Surveys, and Reports / Input \u0026amp; Output\n  PROJECTS: [TODO] Python and Spark   TOPICS: [TODO] ZeroMQ versus RabbitMQ versus Kafka   TOPICS: optimizations and big-O   PROJECTS: Data Wrangling  NCIT 16: Thinking like a machine / Boolean algebra, logic\n NCIT 17: Search and sort techniques\n  WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap  NCIT 20: Managing the Software Development Process\n DATA_ENG:\n postgres stored procedures sql index optimisations Entity Relationship Diagrams (ERD) Data warehousing with Hive Overview of the Hadoop ecosystem Linear regressions   "
+	"content": " Introduction to NCIT curriculum NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   PROJECTS: [TODO] Beginner Linux challenges   TOPICS: Python self-learning   TOPICS: Clean Code for Python   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  TOPICS: Automate the boring stuff: Chapter 0 – Introduction   TOPICS: Automate the boring stuff: Chapter 1 – Python Basics   TOPICS: Automate the boring stuff: Chapter 2 – Flow Control   TOPICS: Automate the boring stuff: Chapter 3 – Functions   PROJECTS: Level 1 programming katas   PROJECTS: Build your first personal website   TOPICS: How to ask for help with your code   WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)   TOPICS: Automate the boring stuff: Chapter 4 – Lists   TOPICS: Python Lists in depth   TOPICS: Automate the boring stuff: Chapter 5 – Dictionaries and Structuring Data   TOPICS: Automate the boring stuff: Chapter 6 – Manipulating Strings   TOPICS: Automate the boring stuff: Chapter 7 – Pattern Matching with Regular Expressions   TOPICS: [TODO] Python OOP basics   TOPICS: Automated Testing in Python   TOPICS: [TODO] Virtual Environments   PROJECTS: Animals Part 2. Adding Tests  NCIT 13: Object-oriented programming\n  TOPICS: How the internet works   TOPICS: Data Ethics and Privacy  NCIT 05: History of the Internet\n NCIT 08: Pseudocode and documentation\n  TOPICS: Automate the boring stuff: Chapter 8 – Input Validation   TOPICS: Automate the boring stuff: Chapter 9 – Reading and Writing Files   TOPICS: Automate the boring stuff: Chapter 10 – Organizing Files   TOPICS: Automate the boring stuff: Chapter 11 – Debugging   PROJECTS: Add logging to password checker  NCIT 11: Test-driven development\n  TOPICS: Intro to Docker and Docker-compose   PROJECTS: string-calculator   TOPICS: Python Exception handling   TOPICS: Python Custom Exception   TOPICS: Automate the boring stuff: Chapter 13 – Working with Excel Spreadsheets   TOPICS: Automate the boring stuff: Chapter 14 – Working with Google Spreadsheets   TOPICS: Automate the boring stuff: Chapter 16 – Working with CSV Files and JSON Data   TOPICS: Automate the boring stuff: Chapter 17 – Keeping Time, Scheduling Tasks, and Launching Programs   TOPICS: Automate the boring stuff: Chapter 18 – Sending Email and Text Messages   TOPICS: Python Decorators   TOPICS: Python Decorators - Intro   PROJECTS: Email random inspirational quote   PROJECTS: Consume Github API   TOPICS: Python Recursion by example   TOPICS: Python Iterators and Generators   TOPICS: Automate the boring stuff: Chapter 12 – Web Scraping   PROJECTS: SQL  NCIT 14: Database Development\n  TOPICS: The Tech Landscape Terminology   TOPICS: Database Comparison   PROJECTS: Database migrations with SQLAlchemy   PROJECTS: create a REST api to interact with actual database   PROJECTS: Python and MongoDB   PROJECTS: RabbitMQ   PROJECTS: DAGs with Airflow   PROJECTS: Python and Kafka  NCIT 15: Analytics, Surveys, and Reports / Input \u0026amp; Output\n  PROJECTS: [TODO] Python and Spark   TOPICS: [TODO] ZeroMQ versus RabbitMQ versus Kafka   TOPICS: optimizations and big-O   PROJECTS: Data Wrangling  NCIT 16: Thinking like a machine / Boolean algebra, logic\n NCIT 17: Search and sort techniques\n  WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap  NCIT 20: Managing the Software Development Process\n DATA_ENG:\n postgres stored procedures sql index optimisations Entity Relationship Diagrams (ERD) Data warehousing with Hive Overview of the Hadoop ecosystem Linear regressions   "
 },
 {
 	"uri": "/tech-department/tags/data-ethics/",
@@ -1043,14 +1043,14 @@
 	"content": ""
 },
 {
-	"uri": "/tech-department/projects/data-science-specific/",
+	"uri": "/tech-department/topics/data-science-specific/",
 	"title": "Data-science-specifics",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/tech-department/topics/data-science-specific/",
+	"uri": "/tech-department/projects/data-science-specific/",
 	"title": "Data-science-specifics",
 	"tags": [],
 	"description": "",
@@ -2464,6 +2464,13 @@
 	"content": ""
 },
 {
+	"uri": "/tech-department/topics/python-specific/custom-exceptions/",
+	"title": "Python Custom Exception",
+	"tags": [],
+	"description": "",
+	"content": "https://www.codementor.io/@sheena/how-to-write-python-custom-exceptions-du107ufv9\n"
+},
+{
 	"uri": "/tech-department/topics/python-specific/decorators-intro/",
 	"title": "Python Decorators",
 	"tags": ["python", "decorators"],
@@ -2476,13 +2483,6 @@
 	"tags": ["python", "decorators"],
 	"description": "",
 	"content": "https://www.codementor.io/@sheena/advanced-use-python-decorators-class-function-du107nxsv\n"
-},
-{
-	"uri": "/tech-department/topics/python-specific/custom-exceptions/",
-	"title": "Python Exception handling",
-	"tags": [],
-	"description": "",
-	"content": "https://www.codementor.io/@sheena/how-to-write-python-custom-exceptions-du107ufv9\n"
 },
 {
 	"uri": "/tech-department/topics/python-specific/exception-handling/",
@@ -2930,7 +2930,7 @@
 	"title": "Web Development",
 	"tags": [],
 	"description": "",
-	"content": " Introduction to NCIT curriculum3vil1337\n NCIT 01: Conducting research and user interviews\n NCIT 02: Reporting\n NCIT 03: Research presentation\n  TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum   TOPICS: Basic Javascript   WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 18: Agile project management\n NCIT 19: Agile meetings\n  WORKSHOPS: How to be a professional   PROJECTS: [TODO] Beginner Linux challenges   TOPICS: ES6   TOPICS: Debugging   TOPICS: Web Dev learning materials   TOPICS: Clean Code   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork\n  TOPICS: [TODO] Super basic intro to Node   TOPICS: How to ask for help with your code   PROJECTS: Level 1 programming katas   TOPICS: Basic HTML and HTM5   TOPICS: Basic CSS   TOPICS: Applied Visual Design   WORKSHOPS: Intro to CSS architecture   TOPICS: Introduction to web design   PROJECTS: Build your first personal website  NCIT 06: Web design for business\n NCIT 07: Building an online business\n NCIT 12: Business and technology\n NCIT 08: Pseudocode and documentation\n NCIT 10: Workshop: Giving and receiving constructive feedback\n  WORKSHOPS: Clean Code (language agnostic)   TOPICS: [TODO] OOP in JS and Node   TOPICS: Object Orientated Programming   TOPICS: Jasmine Unit testing   PROJECTS: Animals Part 2. Adding Tests  NCIT 13: Object-oriented programming\n  TOPICS: Basic Data Structures   TOPICS: Basic Algorithm Scripting   TOPICS: Applied Accessability   TOPICS: Responsive Web Design Principles   TOPICS: CSS Flexbox   PROJECTS: Semitone Challenge   TOPICS: Logging in Node and JS  NCIT 11: Test-driven development\n  TOPICS: Regular Expressions   PROJECTS: Add logging to password checker   PROJECTS: string-calculator   TOPICS: How the internet works   TOPICS: Data Ethics and Privacy  NCIT 05: History of the Internet\n NCIT 09: Ethics and Professionalism in IT\n  PROJECTS: Email random inspirational quote   PROJECTS: Consume Github API   TOPICS: The Tech Landscape Terminology   TOPICS: Functional Programming   TOPICS: Intermediate Algorithm Scripting   TOPICS: CSS Grid   PROJECTS: Memory game in vanilla js   TOPICS: Node   PROJECTS: Node \u0026amp; File IO   PROJECTS: Node \u0026amp; SQL assignment  NCIT 14: Database Development\n NCIT 15: Analytics, Surveys, and Reports / Input \u0026amp; Output\n NCIT 16: Thinking like a machine / Boolean algebra, logic\n NCIT 17: Search and sort techniques\n  TOPICS: Database Comparison   PROJECTS: Add a little Ajax   WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap  NCIT 20: Managing the Software Development Process\n NCIT Summative assessment\n  TOPICS: Intro to Angular   TOPICS: Intro to React   TOPICS: Intro to Vue   WORKSHOPS: [TODO] Nodejs intro to socketIO   WORKSHOPS: [TODO] Basic introduction to Redux   WORKSHOPS: [TODO] Node Sync/Async   TOPICS: MongoDB and JavaScript   TOPICS: [TODO] The dotenv module   "
+	"content": " Introduction to NCIT curriculum\n NCIT 01: Conducting research and user interviews\n NCIT 02: Reporting\n NCIT 03: Research presentation\n  TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum   TOPICS: Basic Javascript   WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 18: Agile project management\n NCIT 19: Agile meetings\n  WORKSHOPS: How to be a professional   PROJECTS: [TODO] Beginner Linux challenges   TOPICS: ES6   TOPICS: Debugging   TOPICS: Web Dev learning materials   TOPICS: Clean Code   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork\n  TOPICS: [TODO] Super basic intro to Node   TOPICS: How to ask for help with your code   PROJECTS: Level 1 programming katas   TOPICS: Basic HTML and HTM5   TOPICS: Basic CSS   TOPICS: Applied Visual Design   WORKSHOPS: Intro to CSS architecture   TOPICS: Introduction to web design   PROJECTS: Build your first personal website  NCIT 06: Web design for business\n NCIT 07: Building an online business\n NCIT 12: Business and technology\n NCIT 08: Pseudocode and documentation\n NCIT 10: Workshop: Giving and receiving constructive feedback\n  WORKSHOPS: Clean Code (language agnostic)   TOPICS: [TODO] OOP in JS and Node   TOPICS: Object Orientated Programming   TOPICS: Jasmine Unit testing   PROJECTS: Animals Part 2. Adding Tests  NCIT 13: Object-oriented programming\n  TOPICS: Basic Data Structures   TOPICS: Basic Algorithm Scripting   TOPICS: Applied Accessability   TOPICS: Responsive Web Design Principles   TOPICS: CSS Flexbox   PROJECTS: Semitone Challenge   TOPICS: Logging in Node and JS  NCIT 11: Test-driven development\n  TOPICS: Regular Expressions   PROJECTS: Add logging to password checker   PROJECTS: string-calculator   TOPICS: How the internet works   TOPICS: Data Ethics and Privacy  NCIT 05: History of the Internet\n NCIT 09: Ethics and Professionalism in IT\n  PROJECTS: Email random inspirational quote   PROJECTS: Consume Github API   TOPICS: The Tech Landscape Terminology   TOPICS: Functional Programming   TOPICS: Intermediate Algorithm Scripting   TOPICS: CSS Grid   PROJECTS: Memory game in vanilla js   TOPICS: Node   PROJECTS: Node \u0026amp; File IO   PROJECTS: Node \u0026amp; SQL assignment  NCIT 14: Database Development\n NCIT 15: Analytics, Surveys, and Reports / Input \u0026amp; Output\n NCIT 16: Thinking like a machine / Boolean algebra, logic\n NCIT 17: Search and sort techniques\n  TOPICS: Database Comparison   PROJECTS: Add a little Ajax   WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap  NCIT 20: Managing the Software Development Process\n NCIT Summative assessment\n  TOPICS: Intro to Angular   TOPICS: Intro to React   TOPICS: Intro to Vue   WORKSHOPS: [TODO] Nodejs intro to socketIO   WORKSHOPS: [TODO] Basic introduction to Redux   WORKSHOPS: [TODO] Node Sync/Async   TOPICS: MongoDB and JavaScript   TOPICS: [TODO] The dotenv module   "
 },
 {
 	"uri": "/tech-department/topics/web-frontend/",
