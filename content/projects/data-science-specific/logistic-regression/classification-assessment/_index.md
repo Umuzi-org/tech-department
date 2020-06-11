@@ -1,5 +1,5 @@
 ---
-title: Predict credit card approvals
+title: Classification metrics assessment
 pre: "<b>MEDIUM: </b>"
 ready: True
 prerequisites:
@@ -12,9 +12,9 @@ prerequisites:
     ]
   soft:
     ["topics/python-self-learning", "topics/jupyter-notebooks-best-practices"]
-tags: ["datacamp-logistic-regression"]
+tags: ["assessment-classification"]
 ---
 
 ## Instructions
 
-Complete and submit the DataCamp project [Predicting credit card approvals](https://www.datacamp.com/projects/558).
+Complete and submit the [classification assessment](classification_metrics_notebook.ipynb).
