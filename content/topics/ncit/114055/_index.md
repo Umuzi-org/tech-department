@@ -1,278 +1,195 @@
 ---
-Title: Business and Technology (114055)
+Title: Ethics and Professionalism in Online Gaming (114055)
 ---
 
-## Fundamental business concepts
+1. Professionalism in the IT industry in South Africa
 
-### Business Types
-To make the most of your business goals and for legal purposes it is important to understand the different types of businesses you can be registered as. Depending on the nature of your software company and the game you will be designing you might consider the following 5:
+Professional Practices in the Computer Industry
+Professional Ethics concerns one's conduct of behaviour and practice when carrying out professional work. Such work may include consulting, researching, teaching and writing. The institutionalisation of Codes of Conduct and Codes of Practice is common with many professional bodies for their members to observe.
 
 
-1. Sole Proprietorship
+A code of conduct governs the behaviour of professionals. In other words, it deals with issues such as integrity, loyalty, impartiality, responsibility, and discrimination.
 
-2. Partnerships
 
-3. Corporation
+A code of practice deals with the ways in which a professional is expected to exercise their responsibilities, or how they carry out their duties. This includes keeping up-to-date with new technologies and legal requirements, being aware of security or privacy issues, and applying sound management practices.
 
-4. Nonprofit
 
-5. Cooperative
+Any code may be considered to be a formalisation of experience into a set of rules. A code is adopted by a community because its members accept the adherence to these rules, including the restrictions that apply.
 
+Examples
+Not Acceptable
 
-#### 1. Sole Proprietorship
-A sole proprietorship is the simplest of business types and therefore also the most popular. It is a business that's owned by just one person where there isn't any legal or financial distinction between the business and the business owner.
+Acceptable
 
+Saving Personal and Confidential information (PCi) on a personal device.
 
-**The Positives**
+Saving PCi on official and authorised devices
 
- - Minimal forms and legal procedures to declare this type of business
+Using unauthorised copies of software.
 
- - Low start-up costs
+Researching and using alternative open source software that provides similar functionality
 
- - Greatest freedom from regulation
+Convincing a client to buy a computer system or IT equipment that far exceeds their needs.
 
- - Owner in direct control of decision making
+Identifying customer needs before offering solutions .
 
- - Tax advantages to owner
 
- - All profits to owner
+Professional Bodies in South Africa
+Institute of Information Technology Professionals South Africa (IITPSA)
+https://www.iitpsa.org.za/
 
 
-**The Negatives**
+ITPSA, established in 1957, is a professional body serving and representing South Africa’s Information and Communications Technology (ICT) professionals and practitioners. They engage with Industry and Government on ICT policy as well as the wider community with the aim to :
 
- - Unlimited liability: owner is fully accountable for all of the profits, liabilities and legal issues that the business may encounter
+further the study, science and application of ICT
 
- - Limited access to specific licenses and other documents
+maintain and promote Codes of Conduct and Ethics for our members
 
- - Difficult to raise capital
+define and promote standards of ICT knowledge
 
- - No continuity if anything happens to the owner
+promote the formulation of effective policies on ICT and related matters
 
+and extend the knowledge and understanding and usage of ICTs in the community.
 
-#### 2. Partnerships (General and Limited)
-A partnership is appropriate if your business is owned by two or more people. In a general partnership all members share the management of the business and each is personally liable for all the debts and obligations of the business. A limited partnership, or LP, is an off-shoot version of a general partnership, and is the most common for those looking for investment.
 
 
-With an LP, there are two sets of partners:
+Institute of Chartered IT Professionals
+http://www.icitp.org.za/
 
 
-1. 3 General partners: usually involved in the everyday business decisions, and have personal liability.
+The Institute of Chartered IT Professionals is the only ICT professional body that awards the Certified & Chartered Professional Status to IT Practitioners in South Africa. The objective of ICITP is to promote Continuing Professional Development (CPD), leading to employability, economic development/sector development & preparing citizens in every sector towards the 4th Industrial Revolution.
 
-2. Limited partners: typically investors. Not liable for debts and don't partake in regular business management.
 
+ISACA
+http://www.isaca.org/
 
-In either type of partnership, you will be required to:
 
+ISACA works in the areas of Information Technology (IT), IT Risk, IT Governance and IT Security in South Africa. Their vision is to be the leading sponsor of local educational seminars and workshops, through conducting regular networking events and supporting professional and academic community with research material and to elevate the visibility and effectiveness of the profession as a whole locally and globally.
 
-1. register your business with your state and establish an official business name.
 
-2. obtain a business license, along with any other documentation that your state office can help you with
+Interactive Entertainment South Africa (IESA)
+http://www.iesa.org.za/
 
-3. register your business for tax
 
+IESA supports interactive entertainment companies and affiliate organisations through research grants, bursary programmes, trade missions and lobbying of government for better legislation and support around video games.
 
-**The Positives**
+2. Codes of practice in the IT industry
 
- - Additional sources of investment capital
+Codes of Practice
 
- - Low start-up costs
 
- - Possible tax advantages
+1. Act at all times with professionalism and integrity
 
- - Limited regulation
+Present your skills and yourself accurately
 
- - Broader management base
+Honour intellectual property and credit work and contributions when due
 
+Comply with legislation and legal agreements
 
-**The Negatives**
+Respect your colleagues, your workplace and the equipment you use
 
- - More legal documentation required
 
- - Unlimited liability: general partners are fully accountable
+2. Act with complete loyalty towards a client when entrusted with confidential information
 
- - Lack of continuity because business is attached to owners
+Don’t disclose or authorise to be disclosed confidential information to a third party except with the permission of your relevant authority or as required by legislation
 
- - Divided authority
+Don’t misrepresent or withhold information or take advantage of the lack of relevant knowledge or inexperience of others
 
- - Hard to find suitable partners
+Recommend appropriate levels of security when necessary; apply, monitor and report on these
 
- - Possibility for conflict between partners
 
+3. Act with impartiality when purporting to give independent advice and must disclose any relevant interests
 
-#### 3. Corporation
-A corporation, is a fully independent business (when public) that's made up of multiple shareholders who are provided with stock in a new business. The corporation is a legal entity that is separate from its owners, the shareholders. Most common is what's known as a "C Corporation," and if you currently work for a company with multiple employees, that's likely the business structure they're using. Most likely, if you're starting off as a smaller business, particularly one that only operates online, declaring yourself as a corporation wouldn't be appropriate. But if you truly are a corporation, you'll need to file very specific documents with the state, followed by obtaining the appropriate business licenses and permits.
+Be accurate and honest about your competence
 
+Make stakeholders aware of any conflicts of interest
 
-**The Positives**
+Involve colleagues or relevant organisations in order to make informed decisions
 
- - Limited liability: owners are not accountable for the business, it a separate legal entity
 
- - Ownership is transferable and therefore the business has continuity
+4. Accept full responsibility for any work undertaken and deliver accordingly
 
- - Possible tax advantages
+Be realistic and honour agreements
 
- - Easier to raise capital
+Communicate honestly and effectively
 
-**The Negatives**
+Accept additional expertise from qualified individuals if necessary
 
- - Closely regulated
+Ascertain and evaluate all potential risks in a particular project with regard to the cost, and effectiveness.
 
- - Most expensive to set up
+5. Don’t engage in discriminatory practices on any basis whatsoever
 
- - Extensive record keeping necessary
+Be equal in your professional conduct and in employment agreements
 
- - Double taxation of profits (eg. corporate tax and personal income tax)
+Undergo regular and relevant training for you and your staff in this area where possible and when necessary
 
- - Potential conflict between shareholders and executives
+Ensure that effective standard procedures and documentation are available and used
 
 
-#### 4. Nonprofit
-As the name suggests, this is an organization that's not seeking a financial profit, but promotes educational or charitable purposes. Money earned must be kept by the organization to pay for its expenses. There are several types of nonprofits available, many of which can receive "tax exempt" status. This process requires filing paperwork, including an application, with the government for them to recognize you as a nonprofit organization.
+6. Don’t seek personal advantage to the detriment of your work, and actively seek to enhance the image of your industry
 
-#### 5. Cooperative
-This is a business that's fully owned and operated for the benefit of the members of the organization that use its services. Cooperatives sell shares to cooperative "members," who then have a say in the operations and direction of the cooperative itself and whatever is earned by the cooperative is then distributed among the members themselves. The main difference in the process of becoming a cooperative, as opposed to the other types of businesses listed, is that your organization must create bylaws, have a membership application and have a board of directors with a charter member meeting.
+Make conflicts of interest known
 
+Strive to promote public knowledge of technology and art
 
-Some basic questions to help you define your business type:
+Strive to share knowledge for the growth of peers as professional craftspeople and the industry
 
+Ensure a positive workplace environment
 
- - How many people are in your software company?
 
- - Do you plan to hire people in the future?
+Protection of Personal Information
+In 2014, the South African Parliament passed the Protection of Personal Information Act (PoPIA) to protect the data and privacy of consumers. As you develop your game it is important that you remain in compliance with this act. Respecting your users’ data and keeping it secure is especially important to maintain trust with your users.
 
- - Is your game for profit or does it a have a purely social objective?
 
- - Do you feel comfortable accepting full responsibility for the success or failure of the game?
+To read more about the purpose of the Act and what is included as “personal information,” take a look at this article:
 
+http://www.banking.org.za/what-we-do/market-conduct/regulatory-framework/popia
 
-### Business Aims & Objectives
-All businesses have aims or objectives. It can be useful to be clear about what these are from the beginning. They will help determine the type of business you create and structure its growth and development. In a real life situation knowing these aims and objectives will help you do the following: find partners, create a budget, apply for funding and outside investment.
+3. Codes of ethics and piracy
 
-### Common Business Objectives
-#### Survival
-A short term objective, probably for small business just starting out, or when a new firm enters the market or at a time of crisis
+Equality of Opportunity
+Equal opportunity broadly speaking describes fair and equal treatment of colleagues and employees. It has come to mean much more in recent decades and now includes the promotion of historically oppressed and discriminated groups eg. women, people with disabilities etc. In South Africa it also includes Black Economic Empowerment.
 
-Example: Pay yourself a salary
 
-#### Increase Profitability
-This could be for the owners and shareholders or it could also be to increase the financial resources of your company for future expansion
+The computer industry in South Africa supports the Equality of Opportunity. The IITPSA’s (see previous sections) Code of Conduct clearly states:
 
-Example: Save profits to invest in future game improvements
+Do not engage in discriminatory practices in professional activities on any basis whatsoever.
 
-#### Customer Satisfaction
-Ensure that the users of your product or service are happy with what you are providing. This can create loyalty and lead to a more successful product in the future
 
-Example: Increase user membership
+Moreover there are specific organisations working towards creating more diversity in the industry:
 
-#### Increase Market Share
-This is often done in order to allow a company to grow and therefore increase profits and influence in the market. Increasing market share can be achieved through advertising, researching target markets, analysing competition, then strategically placing, pricing and promoting the company’s product or service.
 
-#### Optimising Productivity
-This could be for future expansion or to improve your product and services. This might be achieved by: expanding and improving resources eg. office space, computer equipment; or making sure staff are happy; or employing more skilled staff.
+The Black Information Technology Forum - www.bitf.org.za
 
-Example: Add a new feature every 6 months
+Women in IT - www.womeninit.co.za
 
 
+Digital Piracy
+Digital piracy is an ongoing worldwide issue preventing the IT industry from reaching its full potential. Digital piracy includes computer software but also extends to digital entertainment, particularly music and movies. Many local and international organisations are trying to control and stop this phenomenon.
 
-### Pro-Social Objectives
-Since the company you are creating will have a positive social impact it is worth also thinking about objectives that are not only concerned with profit and growth:
 
-#### Innovation
-Placing resources into research and development to create a new product, or into offering a better service. Innovation also helps a business stay ahead of the competition.
+South Africa is no exception to this problem; a survey by MyBroadband revealed that 53% of respondents pirated content online and another report showed South Africa in a top 10 list of nations which illegally downloaded the first episode of the latest season of Game of Thrones via BitTorrent, the most popular tool to do this.
 
-Example: Conduct a customer survey and respond to results
 
-#### Ethical Values
-You might choose objectives which are based on how one should treat the environment or animals.
+There are two organisations in South Africa backed by the government that committed to stopping piracy and can report on it:
 
-Example: Source your materials locally to reduce carbon footprint
 
-#### Public Services
-This could be about ensuring the well being of less fortunate people or groups without access to a particular service.
+1. The Business Software Alliance (BSA) is an international association founded by software producers to help combat software piracy. They aim to:
 
-Example: Develop initiatives to create a broad and diverse user base
+Bring South Africa’s copyright laws in line with the standards set by the World Intellectual Property Organisation.
 
+Create a government-backed enforcement policy and to lobby for tougher anti-piracy laws.
 
-TODO: Provide a real world example
+Encourage government to dedicate more resources to combating piracy through training for law enforcement.
 
-### Effective Business Objectives
-The most effective business objectives meet the following criteria:
+Improve public education and awareness.
 
+Lead by example by encouraging government departments to use only legitimate software, whether it is open-source or purchased from private suppliers.
 
-**S - Specific -** objectives are aimed at what the business does, e.g. a hotel might have an objective of filling 60% of its beds a night during October, an objective specific to that business.
 
-**M - Measurable -** the business can put a value to the objective, e.g. €10,000 in sales in the next half year of trading.
+2. The Southern African Federation Against Copyright Theft (SAFACT) is a local organisation which works not only against software piracy but also music and film copyright infringements.  SAFACT in particular is trying to tackle the problem through:
 
-**A - Agreed -** by all those concerned in trying to achieve the objective.
+engaging and collaborating with local Internet service providers.
 
-**R - Realistic -** the objective should be challenging, but it should also be able to be achieved by the resources available.
-
-**T- Time -** specific They have a time limit of when the objective should be achieved, e.g. by the end of the year.
-
-
-Remember business objectives can change over time. For example:
-
-
- - Survival in the first year may lead to an objective of increasing profit in the second year.
-
- - The competitive environment might change, with the launch of new products from competitors.
-
- - Technology might change product designs, so sales and production targets might need to change.
-
-
-
-
-#### Creating Your Aims & Objectives:
-
-
-**What is your aim?**
-
-Where will this business go in the future, what are its goals. It is a statement of purpose.
-
-What are your objectives?
-
-These are stated, measurable targets of how to achieve business aims.
-
-
-**What is your mission statement?**
-
-This sets out the business vision and values that enables employees, managers, customers and even suppliers to understand the underlying basis for the actions of the business.
-
-
-### Business Environments
-
-A business environment is the combination of internal and external factors that influence a company's operating situation. The business environment can include factors such as: clients and suppliers; its competition and owners; improvements in technology; laws and government activities; and market, social and economic trends.
-
-#### Internal vs External Environment
-While the internal environment is usually under the control of the business and will include: objectives, policies, production methods, organisational structure etc. The external environment includes all those factors which exist outside and aren’t in direct control of the business. These include: customers, suppliers, competitors, the public, and trends.
-
-
-#### Online Gaming Industry
-You will need to research the online gaming industry in order to understand the external environment you are working in and design your business accordingly so it will succeed. You might consider some of the following factors which were taken from market research done in 2017:
-
-
-**Mobile Gaming**
-
-“Mobile games currently hold the largest segment of the industry’s revenue. By the end of 2017, they are expected to have generated $46B, which makes up 42% of the global market for game products. For comparison, console games will make up 31%, and PC/Desktop games only 27%.”
-
-
-**Virtual Reality**
-
-“Virtual Reality is another promising stream of revenue, with analysts predicting a growth of 104% from 2016 to 2017. In fact, by the year 2020, the annual worldwide revenue for VR is expected to reach $28B, which is 6 times more than what it’s expected to be this year. Granted, only about $4.5B will come from actual VR games, but that’s still more than 20 times what gamers spent by the end of 2016.”
-
-
-If you’re interested, read more here: https://plarium.com/en/mmo-games/trends-online-gaming-2017/
-
-
-
-Some starter questions to help you understand your business environment:
-
-
- - Who is your target audience? What kind of games are they playing? What devices do they have access to?
-
- - What kind of games are successful software companies making?
-
- - What resources do you have to create your game and will they limit you?
-
- - How will you distribute your game, will there be limitations?
+a mandate granted by the Motion Picture Association to act against local copyright-infringing parties and sites; penalties include jail for up to five years and can result in a fine of up to R10,000.
 
