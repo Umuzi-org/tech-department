@@ -17,4 +17,4 @@ tags: ["assessment-classification"]
 
 ## Instructions
 
-Complete and submit the [classification assessment](classification_metrics_notebook.ipynb).
+Complete and subbmit the [classification metrics assessment notebook](classification_metrics_notebook.ipynb).

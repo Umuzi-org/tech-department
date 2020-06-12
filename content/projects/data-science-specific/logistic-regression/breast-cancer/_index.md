@@ -5,14 +5,14 @@ ready: True
 prerequisites:
   hard:
     [
-      "projects/data-science-specific/logistic-regression/classification-assessment",
+      "projects/data-science-specific/logistic-regression/classification-assessment"
     ]
   soft:
     [
       "topics/python-self-learning",
       "topics/jupyter-notebooks-best-practices",
       "topics/data-science-specific/data-science-methodology",
-      "projects/data-science-specific/logistic-regression/credit-card-approvals
+      "projects/data-science-specific/logistic-regression/credit-card-approvals"
     ]
 tags: ["logistic-regression"]
 ---
