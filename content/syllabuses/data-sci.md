@@ -51,7 +51,7 @@ title: "Data Science"
 - NCIT 14: Database Development
 - {{% contentlink "projects/sql/" %}}
 - NCIT 15: Analytics, Surveys, and Reports / Input & Output
-- {{% contentlink content/projects/data-science-specific/logistic-regression/classification-assessment %}}
+- {{% contentlink "projects/data-science-specific/logistic-regression/classification-assessment" %}}
 - {{% contentlink "projects/data-science-specific/logistic-regression" %}}
 - {{% contentlink "workshops/agile-scrum/" %}}
 - {{% contentlink "projects/data-science-specific/decision-trees" %}}
