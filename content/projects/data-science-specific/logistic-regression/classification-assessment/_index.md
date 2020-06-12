@@ -13,6 +13,7 @@ prerequisites:
   soft:
     ["topics/python-self-learning", "topics/jupyter-notebooks-best-practices"]
 tags: ["assessment-classification"]
+story_points: 3
 ---
 
 ## Instructions
