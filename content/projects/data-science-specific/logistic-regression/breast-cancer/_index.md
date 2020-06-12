@@ -12,6 +12,7 @@ prerequisites:
       "topics/python-self-learning",
       "topics/jupyter-notebooks-best-practices",
       "topics/data-science-specific/data-science-methodology",
+      "projects/data-science-specific/logistic-regression/credit-card-approvals
     ]
 tags: ["logistic-regression"]
 ---
