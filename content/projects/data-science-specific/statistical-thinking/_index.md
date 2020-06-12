@@ -11,6 +11,7 @@ prerequisites:
     ]
   soft: []
 tags: ["stats"]
+story_points: 13
 ---
 
 ## Objectives

@@ -11,6 +11,7 @@ prerequisites:
     ]
   soft: ["topics/python-specific/oop-basics"]
 tags: ["oop-data-sci"]
+story_points: 5
 ---
 
 ## Prerequisite
