@@ -6,6 +6,7 @@ prerequisites:
   hard: ["topics/python-self-learning"]
   soft: ["projects/tdd/simple-calculator-part1"]
 tags: ["data-visualisation-datacamp"]
+story_points: 3
 ---
 
 Complete the DataCamp project

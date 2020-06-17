@@ -8,6 +8,7 @@ prerequisites:
   soft:
     ["projects/data-science-specific/data-wrangling"]
 tags: ["plotly"]    
+story_points: 8
 ---
 
 ## Tutorials

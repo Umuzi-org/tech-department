@@ -15,6 +15,7 @@ prerequisites:
       "projects/tdd/simple-calculator-part1",
     ]
 tags: ["data-wrangling"]
+story_points: 5
 ---
 
 ## Key concepts
