@@ -478,7 +478,7 @@ Revisit the following two videos from the Systems theory section for more inform
 
 {{< youtube 1L1c-EKOY-w >}}
 
-5. Data Science for Business (Data Track Only)
+## 5. Data Science for Business (Data Track Only)
 This material is best viewed at this website:
 
 https://data36.com/data-science-for-business/
@@ -502,8 +502,8 @@ The order is important.
 
 Your number one priority should be to help your users. As a consequence of that, your product or service will flourish. And that better product or service will bring you more users, more returning users and eventually more revenue.
 
-business data science the mindset
-the business data science mindset
+<iframe src="https://drive.google.com/file/d/160rBjXzoQXOnYOLz-jF4hbDEs27A3pmT/preview" width="640" height="480"></iframe> the business data science mindset
+
 If you like this mindset, you will like this article. If not, then maybe it’s not for you.
 
 Note: I wrote this article mostly for online businesses. If you are not running an online business, you can still make the analogies and apply the things you learn here to your own specific use case.
@@ -522,8 +522,8 @@ Data Cleaning
 Data Analysis
 Communication, data visualization
 Data-driven Decision
-business data science
-the typical six steps of a data science project
+<iframe src="https://drive.google.com/file/d/1JjXBTJ8tSnDezLn2Y_SHBpWmYevOuKj4/preview" width="640" height="480"></iframe> the typical six steps of a data science project
+
 Every step has its own challenges. Let’s go through them one by one so I can show you the major challenges you should be aware of at each step – to prevent or solve them.
 
 (1) Data Collection – where many businesses fail already
@@ -548,8 +548,8 @@ At the companies I’m working with, we almost always do workshops to figure out
 
 The general idea is to collect everything you can – because data storage is relatively cheap nowadays.
 
-business data science data collection example
-v0.1 draft from a data collection specification
+<iframe src="https://drive.google.com/file/d/1vhm9od64GT0OGUGyD9uN0yXKPMsdiJG8/preview" width="640" height="480"></iframe> v0.1 draft from a data collection specification
+
 But you have to keep in mind that the more things you track on your website:
 
 the more engineering time you should allocate to implement and maintain tracking
@@ -596,8 +596,8 @@ Until one day, we got to the office and our new daily numbers didn’t show up o
 
 And that’s when big data technologies come into play. The concept of big data is to connect more than one computer to manage all these computations. Depending on your company (and data) size, it can easily be a cluster of 10, 100 or even 1000 computers. Sounds easy, but under the hood, using big data can be very challenging from a technical standpoint. 
 
-business data science - hadoop architecture
-Example: an older version of a popular big data solution (Hadoop HDFS) explained visually.
+<iframe src="https://drive.google.com/file/d/1Smh-5a0KtoJwOcfUoflweC7iQE4cxewi/preview" width="640" height="480"></iframe> Example: an older version of a popular big data solution (Hadoop HDFS) explained visually.
+
 Anyway, that’s what big data is in a nutshell.
 
 Again: it’s highly technical and if you hire good (big) data engineers, they will know what to do. 
@@ -673,8 +673,7 @@ Of course, it’s revenue! Why? Because it’s simple. (Profit, for instance, wo
 
 The situation is simple for mature e-commerce businesses. At other businesses (e.g. early phase startups, more complex business models, etc.), it can be much harder to figure it out. For many of my clients, finding the single most important metric takes multi-hour-long internal workshops.
 
-
-workshop time – figuring out most important metrics
+<iframe src="https://drive.google.com/file/d/158v8e5AAffhQzHkx8OKcLL71pEuE_eYC/preview" width="640" height="480"></iframe> workshop time – figuring out most important metrics
 But so far everyone has been able to find it. So can you!
 
 (5) Data Communication – data and information translated for business people
