@@ -1,6 +1,6 @@
 ---
 title: Pseudocode and documentation (US 115388)
-ready: true
+ready: false
 tags: ["ncit"]
 ---
 
