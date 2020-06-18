@@ -1,6 +1,6 @@
 ---
-title: Business and Technology (114050)
-ready: true
+title: Business and Technology (US 114050)
+ready: false
 tags: ["ncit"]
 ---
 

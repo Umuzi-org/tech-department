@@ -1,6 +1,6 @@
 ---
 title: Presenting your findings  (US 13925)
-ready: true
+ready: false
 tags: ["ncit"]
 ---
 
