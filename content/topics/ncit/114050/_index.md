@@ -502,7 +502,9 @@ The order is important.
 
 Your number one priority should be to help your users. As a consequence of that, your product or service will flourish. And that better product or service will bring you more users, more returning users and eventually more revenue.
 
-<iframe src="https://drive.google.com/file/d/160rBjXzoQXOnYOLz-jF4hbDEs27A3pmT/preview" width="640" height="480"></iframe> the business data science mindset
+<iframe src="https://drive.google.com/file/d/160rBjXzoQXOnYOLz-jF4hbDEs27A3pmT/preview" width="640" height="115"></iframe> 
+
+*the business data science mindset*
 
 If you like this mindset, you will like this article. If not, then maybe it’s not for you.
 
@@ -522,7 +524,9 @@ Data Cleaning
 Data Analysis
 Communication, data visualization
 Data-driven Decision
-<iframe src="https://drive.google.com/file/d/1JjXBTJ8tSnDezLn2Y_SHBpWmYevOuKj4/preview" width="640" height="480"></iframe> the typical six steps of a data science project
+<iframe src="https://drive.google.com/file/d/1JjXBTJ8tSnDezLn2Y_SHBpWmYevOuKj4/preview" width="640" height="245"></iframe> 
+
+*the typical six steps of a data science project*
 
 Every step has its own challenges. Let’s go through them one by one so I can show you the major challenges you should be aware of at each step – to prevent or solve them.
 
@@ -548,7 +552,9 @@ At the companies I’m working with, we almost always do workshops to figure out
 
 The general idea is to collect everything you can – because data storage is relatively cheap nowadays.
 
-<iframe src="https://drive.google.com/file/d/1vhm9od64GT0OGUGyD9uN0yXKPMsdiJG8/preview" width="640" height="480"></iframe> v0.1 draft from a data collection specification
+<iframe src="https://drive.google.com/file/d/1vhm9od64GT0OGUGyD9uN0yXKPMsdiJG8/preview" width="633" height="480"></iframe> 
+
+*v0.1 draft from a data collection specification*
 
 But you have to keep in mind that the more things you track on your website:
 
@@ -596,7 +602,8 @@ Until one day, we got to the office and our new daily numbers didn’t show up o
 
 And that’s when big data technologies come into play. The concept of big data is to connect more than one computer to manage all these computations. Depending on your company (and data) size, it can easily be a cluster of 10, 100 or even 1000 computers. Sounds easy, but under the hood, using big data can be very challenging from a technical standpoint. 
 
-<iframe src="https://drive.google.com/file/d/1Smh-5a0KtoJwOcfUoflweC7iQE4cxewi/preview" width="640" height="480"></iframe> Example: an older version of a popular big data solution (Hadoop HDFS) explained visually.
+<iframe src="https://drive.google.com/file/d/1Smh-5a0KtoJwOcfUoflweC7iQE4cxewi/preview" width="640" height="400"></iframe> 
+*Example: an older version of a popular big data solution (Hadoop HDFS) explained visually.*
 
 Anyway, that’s what big data is in a nutshell.
 
