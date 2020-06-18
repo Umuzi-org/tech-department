@@ -38,7 +38,7 @@ Any code may be considered to be a formalisation of experience into a set of rul
 
 #### Professional Bodies in South Africa
 
-#### Institute of Information Technology Professionals South Africa (IITPSA)
+**Institute of Information Technology Professionals South Africa (IITPSA)**
 
 https://www.iitpsa.org.za/
 
@@ -57,7 +57,7 @@ ITPSA, established in 1957, is a professional body serving and representing Sout
 
 
 
-#### Institute of Chartered IT Professionals
+**Institute of Chartered IT Professionals**
 
 http://www.icitp.org.za/
 
@@ -65,7 +65,7 @@ http://www.icitp.org.za/
 The Institute of Chartered IT Professionals is the only ICT professional body that awards the Certified & Chartered Professional Status to IT Practitioners in South Africa. The objective of ICITP is to promote Continuing Professional Development (CPD), leading to employability, economic development/sector development & preparing citizens in every sector towards the 4th Industrial Revolution.
 
 
-#### ISACA
+**ISACA**
 
 http://www.isaca.org/
 
@@ -73,7 +73,7 @@ http://www.isaca.org/
 ISACA works in the areas of Information Technology (IT), IT Risk, IT Governance and IT Security in South Africa. Their vision is to be the leading sponsor of local educational seminars and workshops, through conducting regular networking events and supporting professional and academic community with research material and to elevate the visibility and effectiveness of the profession as a whole locally and globally.
 
 
-#### Interactive Entertainment South Africa (IESA)
+**Interactive Entertainment South Africa (IESA)**
 
 http://www.iesa.org.za/
 
