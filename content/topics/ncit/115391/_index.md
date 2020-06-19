@@ -1,5 +1,7 @@
 ---
-title: The Internet and World Wide Web (US 115391)
+title: The Internet and World Wide Web
 ready: false
-tags: ["ncit"]
+tags: []
+nqf: ncit
+unit_standards: [115391]
 ---

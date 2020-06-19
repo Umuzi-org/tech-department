@@ -1,5 +1,7 @@
 ---
-title: Conducting Research and User Interviews (US 114076 & 115358)
+title: Conducting Research and User Interviews
 ready: false
-tags: ["ncit"]
+tags: []
+nqf: ncit
+unit_standards: [114076, 115358]
 ---

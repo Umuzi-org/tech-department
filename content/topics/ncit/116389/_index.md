@@ -1,5 +1,7 @@
 ---
-title: Write a report (US 116389)
+title: Write a report
 ready: false
-tags: ["ncit"]
+tags: []
+nqf: ncit
+unit_standards: [116389]
 ---

@@ -1,7 +1,9 @@
 ---
-title: Presenting your findings  (US 13925)
+title: Presenting your findings
 ready: false
-tags: ["ncit"]
+tags: []
+nqf: ncit
+unit_standards: [13925]
 ---
 
 ### 1. Introduction to presentations

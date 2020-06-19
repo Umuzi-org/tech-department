@@ -1,5 +1,7 @@
 ---
-Title: Agile Meetings (US 114051)
+Title: Agile Meetings
 ready: false
-tags: ["ncit"]
+tags: ["agile", "scrum"]
+nqf: ncit
+unit_standards: [114051]
 ---

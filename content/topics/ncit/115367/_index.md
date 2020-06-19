@@ -1,5 +1,7 @@
 ---
-title: Thinking like a machine (US 115367)
+title: Thinking like a machine
 ready: false
-tags: ["ncit"]
+tags: []
+nqf: ncit
+unit_standards: [115367]
 ---

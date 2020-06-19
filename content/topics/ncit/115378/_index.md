@@ -1,5 +1,7 @@
 ---
-title: Object-Oriented Programming (US 115378)
+title: Object-Oriented Programming
 ready: false
-tags: ["ncit", "oop"]
+tags: ["oop"]
+nqf: ncit
+unit_standards: [115378]
 ---

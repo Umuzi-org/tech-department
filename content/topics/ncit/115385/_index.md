@@ -1,5 +1,7 @@
 ---
-title: Building an online business (US 115385)
+title: Building an online business
 ready: false
-tags: ["ncit"]
+tags: []
+nqf: ncit
+unit_standards: [115385]
 ---

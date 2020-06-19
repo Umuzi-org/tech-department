@@ -1,5 +1,7 @@
 ---
-title: Web Design for Business (US 115374)
+title: Web Design for Business
 ready: false
-tags: ["ncit"]
+tags: []
+nqf: ncit
+unit_standards: [115374]
 ---

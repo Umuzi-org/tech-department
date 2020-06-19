@@ -1,7 +1,9 @@
 ---
-Title: Ethics and Professionalism in Online Gaming (US 114055)
+Title: Ethics and Professionalism in Online Gaming
 ready: false
-tags: ["ncit"]
+tags: []
+nqf: ncit
+unit_standards: [114055]
 ---
 
 ### 1. Professionalism in the IT industry in South Africa

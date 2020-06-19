@@ -1,7 +1,9 @@
 ---
-title: Database Development  (US 114048 & 114049)
-ready: true
-tags: ["ncit", "sql"]
+title: Database Development
+ready: false
+tags: ["sql"]
+nqf: ncit
+unit_standards: [114048, 114049]
 ---
 
 ### 1. Database management systems

@@ -1,5 +1,7 @@
 ---
-title: Analytics, Surveys, and Reports (US 115365)
+title: Analytics, Surveys, and Reports
 ready: false
-tags: ["ncit"]
+tags: []
+nqf: ncit
+unit_standards: [115365]
 ---

@@ -1,7 +1,9 @@
 ---
-title: Pseudocode and documentation (US 115388)
+title: Pseudocode and documentation
 ready: false
-tags: ["ncit"]
+tags: []
+nqf: ncit
+unit_standards: [115388]
 ---
 
 

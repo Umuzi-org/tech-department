@@ -1,5 +1,7 @@
 ---
-title: Version Control (US 115362)
+title: Version Control
 ready: false
-tags: ["ncit", "git"]
+tags: ["git"]
+nqf: ncit
+unit_standards: [115362]
 ---

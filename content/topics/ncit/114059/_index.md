@@ -1,5 +1,6 @@
 ---
-Title: Agile Project Management (US 114059)
-ready: false
-tags: ["ncit"]
+Title: Agile Project Management
+tags: ["agile", "scrum"]
+nqf: ncit
+unit_standards: [114059]
 ---

@@ -1,7 +1,9 @@
 ---
-title: Business and Technology (US 114050)
+title: Business and Technology
 ready: false
-tags: ["ncit"]
+tags: []
+nqf: ncit
+unit_standards: [114050]
 ---
 
 ## 1. Fundamental business concepts

@@ -1,5 +1,7 @@
 ---
-title: Search and Sort Techniques (US 115373)
+title: Search and Sort Techniques
 ready: false
-tags: ["ncit"]
+tags: []
+nqf: ncit
+unit_standards: [115373]
 ---

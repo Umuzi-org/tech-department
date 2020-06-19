@@ -1,5 +1,7 @@
 ---
-Title: Managing the Software Development Process (US 115392)
+Title: Managing the Software Development Process
 ready: false
-tags: ["ncit"]
+tags: ["agile"]
+nqf: ncit
+unit_standards: [115392]
 ---
