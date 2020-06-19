@@ -5,6 +5,7 @@ prerequisites:
   hard: []
   soft: []
 tags: ["oop"]
+story_points: 2
 ---
 
 ## Project structure

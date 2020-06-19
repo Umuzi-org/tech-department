@@ -5,6 +5,7 @@ prerequisites:
   hard: ["projects/oop/animals/part1"]
   soft: []
 tags: ["unit-testing", "oop"]
+story_points: 3
 ---
 
 In this challenge you will update your current Animals project and add unit tests to the project

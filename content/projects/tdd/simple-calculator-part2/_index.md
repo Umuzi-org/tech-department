@@ -6,7 +6,7 @@ prerequisites:
   hard: ["projects/tdd/simple-calculator-part1"]
   soft: []
 tags: ["tdd"]
-# story_points: 8
+story_points: 8
 ---
 
 This a continuation of {{% contentlink "projects/tdd/simple-calculator-part1" %}}. If you haven't done that yet then please do. At this point you should have a well tested `add` and `multiply` function.

@@ -12,6 +12,7 @@ prerequisites:
     ]
   soft: []
 tags: ["node", "ajax"]
+story_points: 8
 ---
 
 There is no need to create a new git repo for this code submission. This is a continuation of your previous work.
