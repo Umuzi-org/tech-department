@@ -11,6 +11,7 @@ prerequisites:
   soft:
     ["topics/python-self-learning", "topics/jupyter-notebooks-best-practices"]
 tags: ["simple-linear-regression"]
+story_points: 13
 ---
 
 ## Key topics
