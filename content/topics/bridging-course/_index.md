@@ -49,6 +49,8 @@ Thingie Explainer: once per week you will take part in a workshop in which verba
 
 Professionalism workshops: These will be organised by your cohort leadership.
 
+##### Note: Before jumping on the Hard skill you will do a presentation on the Soft skills and what you have learnt.
+
 ### Hard Skill Content
 
 1. Maths for Programmers
