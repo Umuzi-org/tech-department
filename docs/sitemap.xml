@@ -173,6 +173,19 @@
   </url>
   
   <url>
+    <loc>/tech-department/tags/agile/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/ncit/114051/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/ncit/114059/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/agile-recap/</loc>
   </url>
   
@@ -187,6 +200,10 @@
   <url>
     <loc>/tech-department/tags/ajax/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/ncit/115365/</loc>
   </url>
   
   <url>
@@ -437,6 +454,14 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/ncit/115385/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/ncit/114050/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/business-intelligence-tools/</loc>
   </url>
   
@@ -503,6 +528,14 @@
   
   <url>
     <loc>/tech-department/department-processes/cohort_standups/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/ncit/114076-and-115358/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/ncit/115431/</loc>
   </url>
   
   <url>
@@ -643,6 +676,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/ncit/114048-and-114049/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/python-specific/sqlalchemy-migrations/</loc>
   </url>
   
@@ -735,6 +772,10 @@
   <url>
     <loc>/tech-department/tags/error-checking/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/ncit/114055/</loc>
   </url>
   
   <url>
@@ -846,6 +887,11 @@
   </url>
   
   <url>
+    <loc>/tech-department/tags/hcd/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/how-to-be-a-great-mentor/</loc>
   </url>
   
@@ -879,6 +925,11 @@
   
   <url>
     <loc>/tech-department/tags/html/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/human-centered-design/</loc>
     <priority>0</priority>
   </url>
   
@@ -923,7 +974,15 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/ncit/intro-to-hcd/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/java-specific/intro-to-junit/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/ncit/intro-to-ncit/</loc>
   </url>
   
   <url>
@@ -1104,6 +1163,10 @@
   
   <url>
     <loc>/tech-department/topics/intro-to-asserive-programming/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/ncit/intro-to-gnomio/</loc>
   </url>
   
   <url>
@@ -1306,6 +1369,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/ncit/115392/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/memory-game-modern/</loc>
   </url>
   
@@ -1354,6 +1421,16 @@
   
   <url>
     <loc>/tech-department/projects/data-science-specific/natural-language-processing/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/ncit/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/ncit/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -1415,6 +1492,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/ncit/115378/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/department-processes/team-onboarding/</loc>
   </url>
   
@@ -1463,7 +1544,15 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/ncit/13925/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/kotlin/properties-and-fields/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/ncit/115388/</loc>
   </url>
   
   <url>
@@ -1604,7 +1693,16 @@
   </url>
   
   <url>
+    <loc>/tech-department/tags/scrum/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/kotlin/sealed-classes/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/ncit/115373/</loc>
   </url>
   
   <url>
@@ -1686,11 +1784,23 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/ncit/115359-and-115384/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/ncit/115391/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/tech-terminology/</loc>
   </url>
   
   <url>
     <loc>/tech-department/topics/js-and-node-specific/dotenv/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/ncit/115367/</loc>
   </url>
   
   <url>
@@ -1740,7 +1850,15 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/ncit/115362/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/python-specific/virtual-envs/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/ncit/115374/</loc>
   </url>
   
   <url>
@@ -1798,6 +1916,10 @@
   
   <url>
     <loc>/tech-department/topics/android/video-assets/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/ncit/116389/</loc>
   </url>
   
   <url>

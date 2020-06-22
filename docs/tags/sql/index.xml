@@ -11,6 +11,21 @@
     
     
     <item>
+      <title>Database Development</title>
+      <link>/tech-department/topics/ncit/114048-and-114049/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/topics/ncit/114048-and-114049/</guid>
+      <description>1. Database management systems 
+Watch this video for an intro to relationship databases (databases that use SQL)
+   
+For a second introduction to RDMS watch this video
+   
+Please visit this link to find the reading material for this section. 
+2. Introduction to SQL For a basic intro to SQL commands, watch this video:    Please find here the reading material for this section</description>
+    </item>
+    
+    <item>
       <title>Node &amp; SQL assignment</title>
       <link>/tech-department/projects/nodejs/sql/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
