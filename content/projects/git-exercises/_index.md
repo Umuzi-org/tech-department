@@ -5,6 +5,7 @@ prerequisites:
   hard: ["topics/git"]
   soft: []
 tags: ["git"]
+story_points: 1
 ---
 
 ## Introduction

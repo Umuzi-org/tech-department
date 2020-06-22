@@ -18,6 +18,7 @@ prerequisites:
       "topics/data-science-specific/data-science-methodology",
     ]
 tags: ["logistic-regression"]
+story_points: 8
 ---
 
 ## Assignment

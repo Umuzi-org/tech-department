@@ -12,7 +12,7 @@ prerequisites:
 #   "topics/jasmine-unit-tests",
 #   "topics/python-specific/automated-testing-with-pytest",
 tags: ["tdd"]
-story_points: 1
+story_points: 2
 ---
 
 The objective of this project is to build a calulator that can perform multiplication and addition on multiple integers. Do not build a front-end (UI). Complete this project by using a TDD approach.

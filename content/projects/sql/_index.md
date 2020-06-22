@@ -6,6 +6,7 @@ prerequisites:
   hard: ["topics/intro-to-relational-databases", "topics/intro-to-docker/"]
   soft: []
 tags: []
+story_points: 3
 ## NCIT Units 114048 & 114049
 ---
 

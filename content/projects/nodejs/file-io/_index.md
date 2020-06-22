@@ -7,6 +7,7 @@ prerequisites:
   hard: ["topics/js-and-node-specific/node"]
   soft: []
 tags: ["Node", "FileIO"]
+story_points: 3
 ---
 
 You are required to create a back-end service that will help capture basic information about prospective students who come to inquire here at Umuzi. In this project you'll just be storing and retrieving information from plain old json files.

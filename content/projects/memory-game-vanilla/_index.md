@@ -11,6 +11,7 @@ prerequisites:
     ]
   soft: []
 tags: ["TDD", "Dom Manipulation", "Mocks and spies"]
+story_points: 5
 ---
 
 Here is an example of a memory game: http://dkmgames.com/memory/pairsrun.php

@@ -5,6 +5,7 @@ prerequisites:
   hard: ["projects/tdd/simple-calculator-part1"]
   soft: []
 tags: ["tdd", "error-checking"]
+story_points: 3
 ---
 
 ## Set up your environment
