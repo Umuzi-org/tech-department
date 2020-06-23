@@ -18,8 +18,6 @@ Open Android Studio and start a new Android Studio Project.
   
  ![](1.png)
  
-How To Load The ImageURL To carousel View Like E-commerce App Using Picasso In Kotlin
- 
 ### Step 2
  
 Now, add an activity and click the "Next" button.
