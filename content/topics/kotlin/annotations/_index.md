@@ -24,7 +24,7 @@ Additional attributes of the annotation can be specified by annotating the annot
  @MustBeDocumented
  annotation class Fancy
 ```
-###Usage
+### Usage
 ```
 @Fancy class Foo {
     @Fancy fun baz(@Fancy foo: Int): Int {
@@ -43,7 +43,7 @@ class Foo {
         @Inject set
 }
 ```
-###Constructors
+### Constructors
 Annotations may have constructors that take parameters.
 
 annotation class Special(val why: String)
@@ -78,7 +78,7 @@ annotation class Ann(val arg1: KClass<*>, val arg2: KClass<out Any>)
 ​
 @Ann(String::class, Int::class) class MyClass
 ```
-###Lambdas
+### Lambdas
 Annotations can also be used on lambdas. They will be applied to the invoke() method into which the body of the lambda is generated. This is useful for frameworks like Quasar, which uses annotations for concurrency control.
 ```
 annotation class Suspendable
@@ -125,7 +125,7 @@ If you don't specify a use-site target, the target is chosen according to the @T
 - param;
 - property;
 - field.
-###Java Annotations
+### Java Annotations
 Java annotations are 100% compatible with Kotlin:
 ```
 import org.junit.Test
@@ -195,7 +195,7 @@ class C
 @AnnWithArrayMethod(names = arrayOf("abc", "foo", "bar")) 
 class D
 ```
-###Accessing properties of an annotation instance
+### Accessing properties of an annotation instance
 Values of an annotation instance are exposed as properties to Kotlin code:
 ```
 // Java

@@ -5,7 +5,7 @@ prerequisites:
   hard: ["topics/kotlin/annotations"]
   soft: []
 ---
-###Kotlin has three structural jump expressions:
+### Kotlin has three structural jump expressions:
 
 return. By default returns from the nearest enclosing function or anonymous function.
 break. Terminates the nearest enclosing loop.
@@ -16,7 +16,7 @@ val s = person.name ?: return
 ```
 The type of these expressions is the __Nothing type.__
 
-###Break and Continue Labels
+### Break and Continue Labels
 Any expression in Kotlin may be marked with a label. Labels have the form of an identifier followed by the @ sign, for example: abc@, fooBar@ are valid labels (see the grammar). To label an expression, we just put a label in front of it
 ```
 loop@ for (i in 1..100) {
@@ -33,7 +33,7 @@ loop@ for (i in 1..100) {
 ```
 A break qualified with a label jumps to the execution point right after the loop marked with that label. A continue proceeds to the next iteration of that loop.
 
-###Return at Labels
+### Return at Labels
 With function literals, local functions and object expression, functions can be nested in Kotlin. Qualified returns allow us to return from an outer function. The most important use case is returning from a lambda expression. Recall that when we write this:
 ```
 fun foo() {

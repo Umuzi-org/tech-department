@@ -26,7 +26,7 @@ As the font and the text of the “Email address” label change, we want the la
 
 These problems aren’t new to Android, or UI toolkits in general, but we’ve used them to drive our work in enriching platform support for flatter hierarchies.
 
-###GridLayout
+### GridLayout
 To provide better support for layouts like these we have added a new layout to the Android framework: GridLayout, which can be used to solve the above problems by dividing the container’s real estate into rows and columns:
 
 ![](milne-2.png)
@@ -35,10 +35,10 @@ Now the “Email address” label can belong both to a row that is baseline-alig
 
 GridLayout uses a grid of infinitely-thin lines to separate its drawing area into: rows, columns, and cells. It supports both row and column spanning, which together allow a widget to occupy a rectangular range of cells that are next to each other. We’ll use the words row, column, and cell in the text below as shorthand for row group, column group and cell group respectively, where groups have one or more contiguous elements.
 
-####Similarities with LinearLayout
+#### Similarities with LinearLayout
 Wherever possible, GridLayout uses the same conventions as LinearLayout for all its XML API — so it should be easy to start using GridLayout if you’ve already used LinearLayout. In fact, the APIs are so similar that changing a tag name from LinearLayout to GridLayout in an XML file that uses LinearLayout will often produce a similar UI without requiring any other changes. When it doesn’t, you’ll still generally end up with a good starting point for a two-dimensional layout.
 
-###Getting Started
+### Getting Started
 Two examples in the samples area of the Android 4.0 SDK show typical use of the programmatic and XML APIs respectively:
 
 - https://samples/ApiDemos/src/com/example/android/apis/view/GridLayout0.java
@@ -117,10 +117,10 @@ Here’s a slightly simpler version of the above XML layout.
 ```
 The first difference you’ll notice in these examples is the absence of the WRAP_CONTENT and MATCH_PARENT constants that normally adorn Android layout resources. You don’t normally need to use these with GridLayout, for reasons that are described in the API doc for __GridLayout.LayoutParams__.
 
-###Row and Column Indices
+### Row and Column Indices
 The second thing you may notice in the XML resources is that widgets don’t always explicitly define which cells they are to be placed in. Each widget’s layout parameters have row and column indices that together define where the widget should be placed but when either or both of these values are not specified, GridLayout supplies default values rather than throwing an exception.
 
-###Automatic Index Allocation
+### Automatic Index Allocation
 As children are added to a GridLayout, it maintains a cursor position and a “high-water mark” that it uses to place widgets in cells that don’t yet have anything in them.
 
 ![](milne-3.png)
@@ -131,15 +131,15 @@ When GridLayout’s orientation is vertical, all of the same principles apply, e
 
 If you want multiple views to be placed in the same cell, you have to define the indices explicitly, as the default allocation procedure above is designed to place widgets in separate cells.
 
-###Sizes, Margins and Alignment/Gravity
+### Sizes, Margins and Alignment/Gravity
 In GridLayout, specifying sizes and margins is done just as with a LinearLayout. Alignment/gravity also works just like gravity in LinearLayout and uses the same constants: left, top, right, bottom, center_horizontal, center_vertical, center, fill_horizontal, fill_vertical and fill.
 
-###Flexibility
+### Flexibility
 Unlike most grids in other toolkits, GridLayout does not associate data with rows or columns. Instead, everything to do with alignment and flexibility is associated with the components themselves. GridLayout departs from the norm here to provide a more general system that allows subtle relationships between ancestors in deeply nested layouts to be accommodated in a single layout configuration.
 
 The flexibility of columns is inferred from the gravity of the components inside the column. If every component defines a gravity, the column is taken as flexible, otherwise the column is considered inflexible. Full details are in GridLayout’s API docs.
 
-###Emulating Features from other Layouts
+### Emulating Features from other Layouts
 GridLayout does not incorporate all of the features of every layout in the Android platform but it has a rich enough feature set that idiomatic use of other layouts can normally be emulated from inside a single GridLayout.
 
 Although __LinearLayout__ can be considered a special case of a GridLayout, for the degenerate case when a set of views are aligned in a single row or column, LinearLayout is the better choice when this is all that is required as it clarifies the purpose of the container and may have some (relatively small) performance advantages.
@@ -152,7 +152,7 @@ Simple __FrameLayout__ configurations can be accommodated within the cells of a 
 
 One key feature that GridLayout lacks is the ability to distribute excess space between rows or columns in specified proportions — a feature that LinearLayout provides by supporting the principle of __weight__. This omission and possible ways around it are discussed in GridLayout’s API docs.
 
-###The Phases of the Layout Operation
+### The Phases of the Layout Operation
 It’s useful to distinguish the allocation phase for cell indices discussed above from the layout operation itself. Normally the phase that allocates indices happens once, if at all, when a UI is initialized. The index-allocation phase only applies when indices have been left unspecified, and is responsible for ensuring that all views have a defined set of cells in which they are to be placed at layout time.
 
 The layout operation happens after this and is recalculated each time a view changes size. GridLayout measures the size of each child during the layout operation so it can calcuate the heights and widths of the rows and columns in the grid. The layout phase completes by using gravity to place each of the components in its cell.
@@ -161,7 +161,7 @@ Although index allocation normally only happens once, GridLayout is technically 
 
 From a performance standpoint, it is worth knowing that the GridLayout implementation has been optimized for the common case, when initialization happens once and layout happens frequently. As a result, the initialization step sets up internal data structures so that the layout operation can complete quickly and without allocating memory. Put another way, changes either to GridLayout’s orientation or the number of children it has are much more expensive than an ordinary layout operation.
 
-###Conclusion
+### Conclusion
 GridLayout’s feature set incorporates much of the functionality of the Android framework’s existing general-purpose layouts: LinearLayout, FrameLayout, TableLayout and RelativeLayout. As such, it provides a way to replace many deeply nested view hierarchies with a single highly optimized layout implementation.
 
 If you are starting a UI from scratch and are not familiar with Android layouts, use a GridLayout — it supports most of the features of the other layouts and has a simpler and more general API than either TableLayout or RelativeLayout.

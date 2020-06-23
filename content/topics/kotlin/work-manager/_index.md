@@ -6,12 +6,12 @@ prerequisites:
   soft: []
 ---
 
-###Working With Android WorkManager Using Kotlin
+### Working With Android WorkManager Using Kotlin
 An ideal way of scheduling future tasks with backward compatibilit
 
 The __WorkManager__ is an API which can schedule your future asynchronous tasks and can run them in the background. The tasks assigned to the WorkManager are executed even if the user is outside the app or app is closed. WorkManager can run your task(s) for one time only as well as many times or periodically.
 
-###Features of WorkManager
+### Features of WorkManager
 
 - It provides backward compatibility up to API level 14
 - You can add one or many constraints, such as execute tasks only when phone is charging or phone is restarted etc.
@@ -21,7 +21,7 @@ The __WorkManager__ is an API which can schedule your future asynchronous tasks 
 
 __Note:__ WorkManager is not intended for in-process background work that can safely be terminated if the app process goes away or for tasks that require immediate execution.
 
-###The classes
+### The classes
 
 - __Worker:__ The work needed to be done is defined here.
 - __WorkRequest:__ It decides which worker class is going to be executed. It's an abstract class, so we’re going to use its direct classes, and they’re OneTimeWorkRequest and PeriodWorkRequest.
@@ -30,7 +30,7 @@ __Note:__ WorkManager is not intended for in-process background work that can sa
 
 Let’s start coding now…
 
-###What we’ll create?
+### What we’ll create?
 We’re going to create a notification in the background and this notification can be created only once because we’re using the OneTimeWorkRequest class. Later on, We’ll use some constraints to generate the notification on the basis of events.
 
 First of all, add the following dependency.
@@ -153,5 +153,5 @@ If you click on the button and your phone is not charging, then you’ll see a s
 
 If you’re facing any problem running the code, then you can download this project from this [Github](https://github.com/himanshujbd/WorkManager) account.
 
-###Conclusion
+### Conclusion
 We’ve seen how we can use WorkManager class to perform some background processing.

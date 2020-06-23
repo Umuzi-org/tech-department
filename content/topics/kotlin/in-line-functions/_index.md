@@ -34,7 +34,7 @@ The __inline__ modifier affects both the function itself and the lambdas passed 
 
 Inlining may cause the generated code to grow, but if we do it in a reasonable way (do not inline big functions) it will pay off in performance, especially at "megamorphic" call-sites inside loops.
 
-###noinline
+### noinline
 In case you want only some of the lambdas passed to an inline function to be inlined, you can mark some of your function parameters with the __noinline__ modifier:
 ```
 inline fun foo(inlined: () -> Unit, noinline notInlined: () -> Unit) {
@@ -45,7 +45,7 @@ Inlinable lambdas can only be called inside the inline functions or passed as in
 
 Note that if an inline function has no inlinable function parameters and no reified type parameters, the compiler will issue a warning, since inlining such functions is very unlikely to be beneficial (you can suppress the warning if you are sure the inlining is needed).
 
-###Non-local returns
+### Non-local returns
 In Kotlin, we can only use a normal, unqualified return to exit a named function or an anonymous function. This means that to exit a lambda, we have to use a label, and a bare return is forbidden inside a lambda, because a lambda can not make the enclosing function return:
 ```
 fun foo() {
@@ -82,7 +82,7 @@ inline fun f(crossinline body: () -> Unit) {
 ```
 __break__ and __continue__ are not yet available in inlined lambdas, but we are planning to support them too
 
-###Reified type parameters
+### Reified type parameters
 Sometimes we need to access a type passed to us as a parameter:
 ```
 fun <T> TreeNode.findParentOfType(clazz: Class<T>): T? {
@@ -124,7 +124,7 @@ fun main(s: Array<String>) {
 ```
 Normal functions (not marked as inline) can not have reified parameters. A type that does not have a run-time representation (e.g. a non-reified type parameter or a fictitious type like Nothing) can not be used as an argument for a reified type parameter.
 
-###Inline properties (since 1.1)
+### Inline properties (since 1.1)
 The inline modifier can be used on accessors of properties that don't have a backing field. You can annotate individual property accessors:
 ```
 val foo: Foo

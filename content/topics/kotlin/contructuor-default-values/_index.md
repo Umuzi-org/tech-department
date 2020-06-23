@@ -6,12 +6,12 @@ prerequisites:
   soft: []
 ---
 
-###Kotlin has two nice features that you’ll also find in Scala:
+### Kotlin has two nice features that you’ll also find in Scala:
 
 You can supply default values for constructor parameters
 You can use named arguments when calling a constructor
 
-###Default values for constructor parameters
+### Default values for constructor parameters
 
 A convenient Kotlin feature is that you can supply default values for constructor parameters. For example, you could define a Socket class like this:
 ```
@@ -49,7 +49,7 @@ If you supply one value, it’s used for the first named parameter
 You can override the default values with your own values
 An important implication of this is that default values have the effect of letting consumers consumers create instances of your class in a variety of ways — in a sense they work just as though you had created multiple, different constructors for your class.
 
-###When you don’t provide defaults for all parameters
+### When you don’t provide defaults for all parameters
 As a word of caution, it generally doesn’t make any sense to provide a default value for an early parameter without providing a default for subsequent parameters.
 ```
 // don't do this

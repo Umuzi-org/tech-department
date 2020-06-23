@@ -12,7 +12,7 @@ Functions in Kotlin are declared using the fun keyword
 fun double(x: Int): Int {
 }
 ```
-###Function Usage
+### Function Usage
 Calling functions uses the traditional approach
 ```
 val result = double(2)
@@ -21,7 +21,7 @@ Calling member functions uses the dot notation
 ```
 Sample().foo() // create instance of class Sample and calls foo
 ```
-##Infix notation
+## Infix notation
 Functions can also be called using infix notations when
 
 - They are member functions or extension functions
@@ -41,7 +41,7 @@ infix fun Int.shl(x: Int): Int {
 
 1.shl(2)
 ```
-##Parameters
+## Parameters
 Function parameters are defined using Pascal notation, i.e. name: type. Parameters are separated using commas. Each parameter must be explicitly typed.
 ```
 fun powerOf(number: Int, exponent: Int) {

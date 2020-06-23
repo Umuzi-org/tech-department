@@ -74,7 +74,7 @@ In our activity_main.xml we can do something like this:
 ```
 Remember to always set your usual xml view inside the <layout> tag and attach all the “xmlns:” properties to it. Otherwise it will throw a compilation error, since the generated files will have duplicated properties.
 
-###And here comes the Binding:
+### And here comes the Binding:
 ```
 package com.kuma.sample
 
@@ -104,7 +104,7 @@ In that code snippet there are somethings to be noticed:
 
 After compiling this you’ll be able to see that the Data has been set to your view without the necessity of writing any textView.text = user.name
 
-###Two-way data binding
+### Two-way data binding
 Using one-way data binding, you can set a value on an attribute and set a listener that reacts to a change in that attribute:
 ```
 <CheckBox
@@ -148,7 +148,7 @@ class LoginViewModel : BaseObservable {
 ```
 Because the bindable property's getter method is called getRememberMe(), the property's corresponding setter method automatically uses the name setRememberMe().
 
-###Two-way data binding using custom attributes
+### Two-way data binding using custom attributes
 
 The platform provides two-way data binding implementations for the most common two-way attributes and change listeners, which you can use as part of your app. If you want to use two-way data binding with custom attributes, you need to work with the @InverseBindingAdapter and @InverseBindingMethod annotations.
 
@@ -191,7 +191,7 @@ The listener includes an InverseBindingListener as a parameter. You use the Inve
 Note: Every two-way binding generates a synthetic event attribute. This attribute has the same name as the base attribute, but it includes the suffix "AttrChanged". The synthetic event attribute allows the library to create a method annotated using @BindingAdapter to associate the event listener to the appropriate instance of View.
 In practice, this listener includes some non-trivial logic, including listeners for one-way data binding. For an example, see the adapter for the text attribute change, TextViewBindingAdapter.
 
-###Converters
+### Converters
 If the variable that's bound to a View object needs to be formatted, translated, or changed somehow before being displayed, it's possible to use a Converter object.
 
 For example, take an EditText object that shows a date:
@@ -223,22 +223,22 @@ object Converter {
     }
 }
 ```
-###Infinite loops using two-way data binding
+### Infinite loops using two-way data binding
 Be careful not to introduce infinite loops when using two-way data binding. When the user changes an attribute, the method annotated using @InverseBindingAdapter is called, and the value is assigned to the backing property. This, in turn, would call the method annotated using @BindingAdapter, which would trigger another call to the method annotated using @InverseBindingAdapter, and so on.
 
 For this reason, it's important to break possible infinite loops by comparing new and old values in the methods annotated using @BindingAdapter.
 
-###Two-way attributes
+### Two-way attributes
 The platform provides built-in support for two-way data binding when you use the attributes in the following table. For details on how the platform provides this support, see the implementations for the corresponding binding adapters:
 
 - https://developer.android.com/topic/libraries/data-binding/two-way
 
-###Bind layout views to Architecture Components
+### Bind layout views to Architecture Components
 The AndroidX library includes the __Architecture Components__, which you can use to design robust, testable, and maintainable apps. The Data Binding Library works seamlessly with the Architecture Components to further simplify the development of your UI. The layouts in your app can bind to the data in the Architecture Components, which already help you manage the UI controllers lifecycle and notify about changes in the data.
 
 This page shows how to incorporate the Architecture Components to your app to further enhance the benefits of using the Data Binding Library.
 
-###Use LiveData to notify the UI about data changes
+### Use LiveData to notify the UI about data changes
 You can use LiveData objects as the data binding source to automatically notify the UI about changes in the data. For more information about this Architecture Component, see LiveData Overview.
 
 Unlike objects that implement Observable—such as observable fields—LiveData objects know about the lifecycle of the observers subscribed to the data changes. This knowledge enables many benefits, which are explained in The advantages of using LiveData. In Android Studio version 3.1 and higher, you can replace observable fields with LiveData objects in your data binding code.
@@ -301,7 +301,7 @@ In your layout, assign the properties and methods of your ViewModel component to
     android:onCheckedChanged="@{() -> viewmodel.rememberMeChanged()}" />
 
 ```
-###Use an Observable ViewModel for more control over binding adapters
+### Use an Observable ViewModel for more control over binding adapters
 You can use a ViewModel component that implements the Observable to notify other app components about changes in the data, similar to how you would use a LiveData object.
 
 There are situations where you might prefer to use a ViewModel component that implements the Observable interface over using LiveData objects, even if you lose the lifecycle management capabilities of LiveData. Using a ViewModel component that implements Observable gives you more control over the binding adapters in your app. For example, this pattern gives you more control over the notifications when data changes, it also allows you to specify a custom method to set the value of an attribute in two-way data binding.

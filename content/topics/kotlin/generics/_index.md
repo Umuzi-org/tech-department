@@ -228,7 +228,7 @@ These __unchecked casts__ can be used when type safety is implied by the high-le
 
 The type arguments of generic function calls are also only checked at compile time. Inside the function bodies, the type parameters cannot be used for type checks, and type casts to type parameters __(foo as T)__ are unchecked. However, __reified type parameters__ of inline functions are substituted by the actual type arguments in the inlined function body at the call sites and thus can be used for type checks and casts, with the same restrictions for instances of generic types as described above.
 
-###Reification
+### Reification
 Reification allows you to preserve the generic type in runtime. Kotlin supports reification of parameter types in a function under a certain condition, that being the function is an inline function. Let’s see why.
 ```
 inline fun <reified T> doSomethingWithType(obj: T) {

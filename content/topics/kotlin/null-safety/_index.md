@@ -5,7 +5,7 @@ prerequisites:
   hard: ["topics/kotlin/delegated-properties"]
   soft: []
 ---
-###Nullable types and Non-Null Types
+### Nullable types and Non-Null Types
 Kotlin's type system is aimed at eliminating the danger of null references from code, also known as the The Billion Dollar Mistake.
 
 One of the most common pitfalls in many programming languages, including Java, is that of accessing a member of a null reference, resulting in a null reference exception. In Java this would be the equivalent of a NullPointerException or NPE for short.
@@ -42,7 +42,7 @@ val l = b.length // error: variable 'b' can be null
 
 But we still need to access that property, right? There are a few ways of doing that.
 
-###Checking for null in conditions
+### Checking for null in conditions
 First, you can explicitly check if b is null, and handle the two options separately:
 ```
 val l = if (b != null) b.length else -1
@@ -58,7 +58,7 @@ if (b != null && b.length > 0) {
 
 Note that this only works where b is immutable (i.e. a local variable which is not modified between the check and the usage or a member val which has a backing field and is not overridable), because otherwise it might happen that b changes to null after the check.
 
-###Safe Calls
+### Safe Calls
 Your second option is the safe call operator, written ?.:
 ```
 b?.length
@@ -78,7 +78,7 @@ for (item in listWithNulls) {
      item?.let { println(it) } // prints A and ignores null
 }
 ```
-###Elvis Operator
+### Elvis Operator
 When we have a nullable reference r, we can say "if r is not null, use it, otherwise use some non-null value x":
 ```
 val l: Int = if (b != null) b.length else -1
@@ -97,19 +97,19 @@ fun foo(node: Node): String? {
     // ...
 }
 ```
-###The !! Operator
+### The !! Operator
 The third option is for NPE-lovers. We can write b!!, and this will return a non-null value of b (e.g., a String in our example) or throw an NPE if b is null:
 ```
 val l = b!!.length
 ```
 Thus, if you want an NPE, you can have it, but you have to ask for it explicitly, and it does not appear out of the blue.
 
-###Safe Casts
+### Safe Casts
 Regular casts may result into a ClassCastException if the object is not of the target type. Another option is to use safe casts that return null if the attempt was not successful:
 ```
 val aInt: Int? = a as? Int
 ```
-###Collections of Nullable Type
+### Collections of Nullable Type
 
 If you have a collection of elements of a nullable type and want to filter non-null elements, you can do so by using filterNotNull.
 ```

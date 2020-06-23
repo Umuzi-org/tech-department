@@ -5,14 +5,14 @@ prerequisites:
   hard: ["topics/kotlin/grid-layout"]
   soft: []
 ---
-##How to Load an Image URL to Carousel View Using Picasso in Kotlin
-###Introduction
+## How to Load an Image URL to Carousel View Using Picasso in Kotlin
+### Introduction
  
 Android is an open-source operating system based on Linux with a Java programming interface for mobile devices such as a smartphones and tablets. With over 85% market share worldwide, Android Operating System dominates the mobile platform market. Today, I will show you how to load an image URL to Carousel view, like in an e-commerce app, using Picasso In Kotlin.
  
 Follow these steps to load the image URL to Imageview using Glide In Kotlin. I have included the source code in the attachment.
 
-###Step 1
+### Step 1
  
 Open Android Studio and start a new Android Studio Project.
   
@@ -20,13 +20,13 @@ Open Android Studio and start a new Android Studio Project.
  
 How To Load The ImageURL To carousel View Like E-commerce App Using Picasso In Kotlin
  
-###Step 2
+### Step 2
  
 Now, add an activity and click the "Next" button.
    
  ![](1.png)
  
-###Step 3
+### Step 3
  
 You can choose your application name and choose where your project is to be stored. Choose Kotlin language for coding the project. Now, select the version of Android and select the target Android devices, then click the "Finish" button. 
  
@@ -34,7 +34,7 @@ You can choose your application name and choose where your project is to be stor
  ![](carouselview.png)
  
  
-###Step 4
+### Step 4
  
 Go to the build.grade file. Add third party dependencies for carouselview and Picasso.
  
@@ -45,7 +45,7 @@ The third party dependencies are given below:
 implementation"com.synnapps:carouselview:0.1.5"  
 implementation 'com.squareup.picasso:picasso:2.71828'  
 ```
-###Step 5
+### Step 5
  
 Go to the manifest file and add the dependency for an internet connection.
   
@@ -57,7 +57,7 @@ The manifest code is given below.
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>  
 <uses-permission android:name="android.permission.INTERNET" />  
 ```
-###Step 6
+### Step 6
  
 Go to the activity_main.xml. This XML file contains the design code for your Android app.
  
@@ -88,7 +88,7 @@ The XML code is given below.
    app:layout_constraintTop_toTopOf="parent" />  
 </androidx.constraintlayout.widget.ConstraintLayout>  
 ```
-###Step 7
+### Step 7
  
 Go to Main Activity.kt. This Kotlin program is the back-end language for your app.
  
@@ -124,11 +124,11 @@ var imageListener: ImageListener = object : ImageListener {
    }  
 }  
 ```
-###Step 8
+### Step 8
  
 click the "Run" button, or press Shift+F10 to finally run the project. Choose the "virtual machine" option and click OK.
  
-####Conclusion
+#### Conclusion
  
  ![](carouselviewop.png)
  
