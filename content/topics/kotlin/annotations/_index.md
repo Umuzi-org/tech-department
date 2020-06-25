@@ -45,10 +45,12 @@ class Foo {
 ```
 ### Constructors
 Annotations may have constructors that take parameters.
-
+```
 annotation class Special(val why: String)
-​
+
 @Special("example") class Foo {}
+```
+
 Allowed parameter types are:
 
 - types that correspond to Java primitive types (Int, Long etc.);

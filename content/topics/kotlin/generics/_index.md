@@ -20,15 +20,27 @@ But if the parameters may be inferred, e.g. from the constructor arguments or by
 val box = Box(1) // 1 has type Int, so the compiler figures out that we are talking about Box<Int>
 
 ``` 
-Variance
+### Variance
 
 One of the most tricky parts of Java's type system is wildcard types (see Java Generics FAQ). And Kotlin doesn't have any. Instead, it has two other things: declaration-site variance and type projections.
 
-First, let's think about why Java needs those mysterious wildcards. The problem is explained in Effective Java, 3rd Edition, Item 31: Use bounded wildcards to increase API flexibility. First, generic types in Java are invariant, meaning that List<String> is not a subtype of List<Object>. Why so? If List was not invariant, it would have been no better than Java's arrays, since the following code would have compiled and caused an exception at runtime:
+First, let's think about why Java needs those mysterious wildcards. The problem is explained in Effective Java, 3rd Edition, Item 31: Use bounded wildcards to increase API flexibility. First, generic types in Java are invariant, meaning that 
+
+```
+List<String>
+```
+
+is not a subtype of 
+
+```
+List<Object>
+```
+Why so? If List was not invariant, it would have been no better than Java's arrays, since the following code would have compiled and caused an exception at runtime:
+
 ```
 // Java
-List<String> strs = new ArrayList<String>();
-List<Object> objs = strs; // !!! The cause of the upcoming problem sits here. Java prohibits this!
+List < String > strs = new ArrayList < String >();
+List < Object > objs = strs; // !!! The cause of the upcoming problem sits here. Java prohibits this!
 objs.add(1); // Here we put an Integer into a list of Strings
 String s = strs.get(0); // !!! ClassCastException: Cannot cast Integer to String
 ```
@@ -57,17 +69,40 @@ interface Collection<E> ... {
   void addAll(Collection<? extends E> items);
 }
 ```
-The **wildcard type argument** ? extends E--- indicates that this method accepts a collection of objects of E or some subtype of E, not just E itself. This means that we can safely read E's from items (elements of this collection are instances of a subclass of E), but cannot write to it since we do not know what objects comply to that unknown subtype of E. In return for this limitation, we have the desired behaviour: Collection<String> is a subtype of Collection<? extends Object>. In "clever words", the wildcard with an extends-bound (upper bound) makes the type covariant.
+The
+ 
+```
+**wildcard type argument** ? extends E--- 
+```
 
-The key to understanding why this trick works is rather simple: if you can only take items from a collection, then using a collection of Strings and reading Objects from it is fine. Conversely, if you can only put items into the collection, it's OK to take a collection of Objects and put Strings into it: in Java we have List<? super String> a supertype of List<Object>.
+indicates that this method accepts a collection of objects of E or some subtype of E, not just E itself. This means that we can safely read E's from items (elements of this collection are instances of a subclass of E), but cannot write to it since we do not know what objects comply to that unknown subtype of E. In return for this limitation, we have the desired behaviour: Collection<String> is a subtype of Collection<? extends Object>. In "clever words", the wildcard with an extends-bound (upper bound) makes the type covariant.
 
-The latter is called contravariance, and you can only call methods that take String as an argument on List<? super String> (e.g., you can call add(String) or set(int, String)), while if you call something that returns T in List<T>, you don't get a String, but an Object.
+The key to understanding why this trick works is rather simple: if you can only take items from a collection, then using a collection of Strings and reading Objects from it is fine. Conversely, if you can only put items into the collection, it's OK to take a collection of Objects and put Strings into it: in Java we have 
+
+```
+List<? super String> a supertype of List<Object>.
+```
+
+The latter is called contravariance, and you can only call methods that take String as an argument on 
+
+```
+List<? super String> 
+```
+
+(e.g., you can call add(String) or set(int, String)), while if you call something that returns T in List<T>, you don't get a String, but an Object.
+
 
 Joshua Bloch calls those objects you only read from Producers, and those you only write to Consumers. He recommends: "For maximum flexibility, use wildcard types on input parameters that represent producers or consumers", and proposes the following mnemonic:
 
 PECS stands for Producer-Extends, Consumer-Super.
 
-NOTE: if you use a producer-object, say, List<? extends Foo>, you are not allowed to call add() or set() on this object, but this does not mean that this object is immutable: for example, nothing prevents you from calling clear() to remove all items from the list, since clear() does not take any parameters at all. The only thing guaranteed by wildcards (or other types of variance) is type safety. Immutability is a completely different story.
+NOTE: if you use a producer-object, say, 
+
+```
+List<? extends Foo>
+```
+
+-you are not allowed to call add() or set() on this object, but this does not mean that this object is immutable: for example, nothing prevents you from calling clear() to remove all items from the list, since clear() does not take any parameters at all. The only thing guaranteed by wildcards (or other types of variance) is type safety. Immutability is a completely different story.
 
 ### Declaration-site variance
 Suppose we have a generic interface Source<T> that does not have any methods that take T as a parameter, only methods that return T:
@@ -85,7 +120,12 @@ void demo(Source<String> strs) {
   // ...
 }
 ```
-To fix this, we have to declare objects of type Source<? extends Object>, which is sort of meaningless, because we can call all the same methods on such a variable as before, so there's no value added by the more complex type. But the compiler does not know that.
+To fix this, we have to declare objects of type 
+
+```
+Source<? extends Object>
+```
+which is sort of meaningless, because we can call all the same methods on such a variable as before, so there's no value added by the more complex type. But the compiler does not know that.
 
 In Kotlin, there is a way to explain this sort of thing to the compiler. This is called declaration-site variance: we can annotate the type parameter T of Source to make sure that it is only returned (produced) from members of Source<T>, and never consumed. To do this we provide the out modifier:
 ```
@@ -150,7 +190,13 @@ Then, the only thing we want to ensure is that copy() does not do any bad things
 ```
 fun copy(from: Array<out Any>, to: Array<Any>) { ... }
 ```
-What has happened here is called type projection: we said that from is not simply an array, but a restricted (projected) one: we can only call those methods that return the type parameter T, in this case it means that we can only call get(). This is our approach to use-site variance, and corresponds to Java's Array<? extends Object>, but in a slightly simpler way.
+What has happened here is called type projection: we said that from is not simply an array, but a restricted (projected) one: we can only call those methods that return the type parameter T, in this case it means that we can only call get(). This is our approach to use-site variance, and corresponds to Java's 
+
+```
+Array<? extends Object>
+```
+but in a slightly simpler way.
+
 
 You can project a type with in as well:
 ```
@@ -163,15 +209,67 @@ Sometimes you want to say that you know nothing about the type argument, but sti
 
 Kotlin provides so called star-projection syntax for this:
 
-- For Foo<out T : TUpper>, where T is a covariant type parameter with the upper bound TUpper, Foo<*> is equivalent to Foo<out TUpper>. It means that when the T is unknown you can safely read values of TUpper from Foo<*>.
-- For Foo<in T>, where T is a contravariant type parameter, Foo<*> is equivalent to Foo<in Nothing>. It means there is nothing you can write to Foo<*> in a safe way when T is unknown.
-- For Foo<T : TUpper>, where T is an invariant type parameter with the upper bound TUpper, Foo<*> is equivalent to Foo<out TUpper> for reading values and to Foo<in Nothing> for writing values.
+- For 
 
-If a generic type has several type parameters each of them can be projected independently. For example, if the type is declared as interface Function<in T, out U> we can imagine the following star-projections:
+```
+Foo<out T : TUpper>
+```
+where T is a covariant type parameter with the upper bound TUpper, 
 
+```
+Foo<*> is equivalent to Foo<out TUpper>. 
+```
+
+It means that when the T is unknown you can safely read values of 
+
+```
+TUpper from Foo<*>.
+```
+
+- For 
+
+```
+Foo<in T>
+```
+
+where T is a contravariant type parameter, 
+
+```
+Foo<*> is equivalent to Foo<in Nothing>
+```
+It means there is nothing you can write to 
+
+```
+Foo<*> //in a safe way when T is unknown.
+```
+
+- For 
+
+```
+Foo<T : TUpper>
+```
+
+where T is an invariant type parameter with the upper bound TUpper, 
+
+```
+Foo<*>
+```
+
+ is equivalent to Foo<out TUpper> for reading values and to Foo<in Nothing> for writing values.
+
+If a generic type has several type parameters each of them can be projected independently. For example, if the type is declared as 
+
+```
+interface Function<in T, out U> 
+```
+
+we can imagine the following star-projections:
+
+```
 - Function<*, String> means Function<in Nothing, String>;
 - Function<Int, *> means Function<Int, out Any?>;
 - Function<*, *> means Function<in Nothing, out Any?>.
+```
 
 Note: star-projections are very much like Java's raw types, but safe.
 

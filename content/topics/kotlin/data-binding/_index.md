@@ -102,8 +102,10 @@ In that code snippet there are somethings to be noticed:
 - There is also a new BR class which is some kind of secondary R class used to store the variables declared on the data tag of the xml.
 - After setting the variable to the binding object, it is necessary to call the executePendingBindings() in order to set the user variable attributes to the marked views.
 
-After compiling this you’ll be able to see that the Data has been set to your view without the necessity of writing any textView.text = user.name
-
+After compiling this you’ll be able to see that the Data has been set to your view without the necessity of writing any 
+```
+textView.text = user.name
+```
 ### Two-way data binding
 Using one-way data binding, you can set a value on an attribute and set a listener that reacts to a change in that attribute:
 ```
@@ -271,7 +273,7 @@ class ScheduleViewModel : ViewModel() {
 }
 
 ```
-###Use ViewModel to manage UI-related data
+### Use ViewModel to manage UI-related data
 The Data Binding Library works seamlessly with ViewModel components, which expose the data that the layout observes and reacts to its changes. Using ViewModel components with the Data Binding Library allows you to move UI logic out of the layouts and into the components, which are easier to test. The Data Binding Library ensures that the views are bound and unbound from the data source when needed. Most of the remaining work consists in making sure that you're exposing the correct data. For more information about this Architecture Component, see ViewModel Overview.
 
 To use the ViewModel component with the Data Binding Library, you must instantiate your component, which inherits from the ViewModel class, obtain an instance of your binding class, and assign your ViewModel component to a property in the binding class. The following example shows how to use the component with the library:

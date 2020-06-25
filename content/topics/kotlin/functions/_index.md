@@ -27,6 +27,7 @@ Functions can also be called using infix notations when
 - They are member functions or extension functions
 - They have a single parameter
 - They are marked with the infix keyword
+
 ```
 // Define extension to Int
 infix fun Int.shl(x: Int): Int {
@@ -41,6 +42,7 @@ infix fun Int.shl(x: Int): Int {
 
 1.shl(2)
 ```
+
 ## Parameters
 Function parameters are defined using Pascal notation, i.e. name: type. Parameters are separated using commas. Each parameter must be explicitly typed.
 ```

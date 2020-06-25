@@ -43,6 +43,7 @@ The third party dependencies are given below:
 implementation"com.synnapps:carouselview:0.1.5"  
 implementation 'com.squareup.picasso:picasso:2.71828'  
 ```
+Please note that package versions vary depending on the latest versions available.
 ### Step 5
  
 Go to the manifest file and add the dependency for an internet connection.
