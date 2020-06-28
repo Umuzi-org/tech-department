@@ -1,6 +1,20 @@
 ---
 title: Java Basics 
 ---
+- Introduction to NCIT curriculum
+- NCIT 01: Conducting research and user interviews
+- NCIT 02: Reporting
+- NCIT 03: Research presentation
+- {{% contentlink "topics/agile-scrum" %}}
+- {{% contentlink "workshops/agile-scrum/" %}}
+- NCIT 18: Agile project management
+- NCIT 19: Agile meetings
+- {{% contentlink "workshops/how-to-be-a-professional" %}}
+- {{% contentlink "projects/git-exercises" %}}
+- NCIT 04: Version control (GIT) for teamwork
+- {{% contentlink "projects/basic-flow-control-katas" %}}
+- {{% contentlink "projects/first-personal-website" %}}
+- {{% contentlink "topics/how-to-ask-for-help-with-your-code" %}}
 
 - Java Collections
 - {{% contentlink "projects/java-specific/collections" %}}

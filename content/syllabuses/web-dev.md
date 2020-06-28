@@ -3,7 +3,6 @@ title: Web Development
 ---
 
 - Introduction to NCIT curriculum
-
 - NCIT 01: Conducting research and user interviews
 - NCIT 02: Reporting
 - NCIT 03: Research presentation
