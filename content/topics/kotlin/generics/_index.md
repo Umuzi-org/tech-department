@@ -24,17 +24,8 @@ val box = Box(1) // 1 has type Int, so the compiler figures out that we are talk
 
 One of the most tricky parts of Java's type system is wildcard types (see Java Generics FAQ). And Kotlin doesn't have any. Instead, it has two other things: declaration-site variance and type projections.
 
-First, let's think about why Java needs those mysterious wildcards. The problem is explained in Effective Java, 3rd Edition, Item 31: Use bounded wildcards to increase API flexibility. First, generic types in Java are invariant, meaning that 
+First, let's think about why Java needs those mysterious wildcards. The problem is explained in Effective Java, 3rd Edition, Item 31: Use bounded wildcards to increase API flexibility. First, generic types in Java are invariant, meaning that `List<String>` is not a subtype of `List<Object>`
 
-```
-List<String>
-```
-
-is not a subtype of 
-
-```
-List<Object>
-```
 Why so? If List was not invariant, it would have been no better than Java's arrays, since the following code would have compiled and caused an exception at runtime:
 
 ```
