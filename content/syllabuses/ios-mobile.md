@@ -4,7 +4,7 @@ title: iOS Mobile Development
 
 ## Course Content Link
 
-[Stanford CS193P iOS11 Swift4]("https://drive.google.com/drive/folders/1-TWZDChwwzkiGzt78QlPZDzN-j82JfR6")
+[Stanford CS193P iOS11 Swift4](https://drive.google.com/drive/folders/1-TWZDChwwzkiGzt78QlPZDzN-j82JfR6)
 
 ## Part 1
 
