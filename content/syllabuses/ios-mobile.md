@@ -10,6 +10,7 @@ title: iOS Mobile Development
 - Topic : iOS Overview (Lecture 1)
 - Topic : MVC (Lecture 2)
 - Topic : Swift Development and other Tools (Lecture 3)
-- Project : Assignment 1 : Concentration
+- {{% contentlink "projects/ios-mobile/swift-and-more" %}}
+
 
 ## Part 2 [ToDo]
