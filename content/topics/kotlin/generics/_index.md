@@ -168,7 +168,7 @@ The Existential Transformation: Consumer in, Producer out! :-)
 
 ### Type projections
 
-####Use-site variance: Type projections
+#### Use-site variance: Type projections
 
 It is very convenient to declare a type parameter T as out and avoid trouble with subtyping on the use site, but some classes can't actually be restricted to only return T's! A good example of this is Array:
 
@@ -223,42 +223,13 @@ Sometimes you want to say that you know nothing about the type argument, but sti
 Kotlin provides so called star-projection syntax for this:
 
 - For `Foo<out T : TUpper>` where T is a covariant type parameter with the upper bound TUpper, `Foo<*>` is equivalent to Foo<out TUpper>. 
+
 It means that when the T is unknown you can safely read values of 
 
-```
-TUpper from Foo<*>.
-```
+`
+TUpper from Foo<*>.` - For `Foo<in T>` where T is a contravariant type parameter, `Foo<*> is equivalent to Foo<in Nothing>` It means there is nothing you can write to `Foo<*> //in a safe way when T is unknown.`
 
-- For 
-
-```
-Foo<in T>
-```
-
-where T is a contravariant type parameter, 
-
-```
-Foo<*> is equivalent to Foo<in Nothing>
-```
-It means there is nothing you can write to 
-
-```
-Foo<*> //in a safe way when T is unknown.
-```
-
-- For 
-
-```
-Foo<T : TUpper>
-```
-
-where T is an invariant type parameter with the upper bound TUpper, 
-
-```
-Foo<*>
-```
-
- is equivalent to Foo<out TUpper> for reading values and to Foo<in Nothing> for writing values.
+- For `Foo<T : TUpper>`where T is an invariant type parameter with the upper bound TUpper, `Foo<*>` is equivalent to Foo<out TUpper> for reading values and to Foo<in Nothing> for writing values.
 
 If a generic type has several type parameters each of them can be projected independently. For example, if the type is declared as 
 
