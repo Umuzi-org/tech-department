@@ -5,6 +5,7 @@ title: Android Development With Kotlin
 ## Part 1
 - Basic Introduction and Control Flow.
 - {{% contentlink "topics/kotlin/basic-control-flow" %}}
+- {{% contentlink "projects/kotlin/liner-layout-using-the-layout-editor" %}}
 
 ## Part 2
 - Classes and Objects
