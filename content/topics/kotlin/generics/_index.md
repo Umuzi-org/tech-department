@@ -222,12 +222,9 @@ Sometimes you want to say that you know nothing about the type argument, but sti
 
 Kotlin provides so called star-projection syntax for this:
 
-- For `Foo<out T : TUpper>` where T is a covariant type parameter with the upper bound TUpper, `Foo<*>` is equivalent to Foo<out TUpper>. 
+- For `Foo<out T : TUpper>` where T is a covariant type parameter with the upper bound TUpper, `Foo<*>` is equivalent to Foo<out TUpper>. It means that when the T is unknown you can safely read values of `TUpper from Foo<*>.` 
 
-It means that when the T is unknown you can safely read values of 
-
-`
-TUpper from Foo<*>.` - For `Foo<in T>` where T is a contravariant type parameter, `Foo<*> is equivalent to Foo<in Nothing>` It means there is nothing you can write to `Foo<*> //in a safe way when T is unknown.`
+- For `Foo<in T>` where T is a contravariant type parameter, `Foo<*> is equivalent to Foo<in Nothing>` It means there is nothing you can write to `Foo<*> //in a safe way when T is unknown.`
 
 - For `Foo<T : TUpper>`where T is an invariant type parameter with the upper bound TUpper, `Foo<*>` is equivalent to Foo<out TUpper> for reading values and to Foo<in Nothing> for writing values.
 
