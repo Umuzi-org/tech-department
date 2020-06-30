@@ -37,11 +37,11 @@ title: Java Basics
 - Password Checker 
 - {{% contentlink "projects/tdd/password-checker/part2" %}}
 - Simple Calculator
-- {{% "projects/tdd/simple-calculator-part2" %}}
+- {{% contentlink "projects/tdd/simple-calculator-part2" %}}
 - String Calculator
-- {{% "projects/tdd/string-calculator" %}}
+- {{% contentlink "projects/tdd/string-calculator" %}}
 - SQL
-- {{% "projects/sql" %}}
+- {{% contentlink "projects/sql" %}}
 
 
 
