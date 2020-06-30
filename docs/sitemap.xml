@@ -223,6 +223,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/kotlin/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/kotlin/</loc>
   </url>
   
@@ -1314,6 +1318,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/kotlin/liner-layout-using-the-layout-editor/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/department-processes/linkz/</loc>
   </url>
   
@@ -1758,6 +1766,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/ios-mobile/swift-and-more/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/unit-testing/tdd-horrors/</loc>
   </url>
   
@@ -1947,7 +1959,15 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/iphone-content/</loc>
+    <loc>/tech-department/projects/ios-mobile/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/ios-mobile/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/syllabuses/ios-mobile/</loc>
   </url>
   
   <url>
