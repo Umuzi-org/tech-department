@@ -19,6 +19,9 @@ You are expected to be online most of the time between _9am and 5pm (barring lun
 - Don't be late for workshops.
 - Don't be late for standup.
 - Don't be disruptive and noisy during workshops and meetings.
+- Check your calendars daily. This includes the calendars mentioned below.
+- Check your Rocket Chat at lease 3 times daily (Morning, Midday, and before you log off).
+- Check your email  at lease 3 times daily (Morning, Midday, and before you log off).
 - Submit your projects on time via Tilde.
 - Submit high quality work and do your best.
 - Communicate problems to the staff (you are not in this alone but we cannot help you if you don't communicate)
@@ -81,9 +84,6 @@ As you will be doing assessments for your National Certificate in Information Te
 The material and assessments are found on [Gnomio](http://umuzi.gnomio.com/). This is where you will also submit these assessments
 
 ### Important Spreadsheets, Forms and Calendars (I suggest you bookmark these)
-
-- [Deadline Calendar](https://calendar.google.com/calendar/b/3?cid=dW11emkub3JnXzdtN3ZwOXQ1M2VubGk3YTVuODNtOWdpOWNvQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
-  This is where every date for submission is posted. It corresponds with the dates that are in the Program Outline.
 
 - [Tech Events Calendar](https://calendar.google.com/calendar/b/3?cid=dW11emkub3JnXzF1dGs1OWJuc2RqMDNpZDI3ZzlzZGJmb2EwQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
   That all tech events are scheduled on. This is where you will find dates for Workshops, Talks and Meetups. Check this everyday.
