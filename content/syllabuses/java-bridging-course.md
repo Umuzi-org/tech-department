@@ -29,6 +29,18 @@ You’ll notice that the content below is divided up into 2 major sections. Soft
 ## Hard Skills 
 
 ### 1. Maths for programmers
-
+{{% contentlink "topics/bridging-course-hard-skills/maths-for-programmers" %}}
 
 ### 2. Solo Learn 
+{{% contentlink "topics/bridging-course-hard-skills/maths-for-programmers" %}}
+
+### 3. Codewars
+{{% contentlink "topics/bridging-course-hard-skills/maths-for-programmers" %}}
+
+### 4. OOP Concepts
+{{% contentlink "topics/bridging-course-hard-skills/maths-for-programmers" %}}
+
+### 5. Advanced OOP Concepts
+
+{{% contentlink "topics/bridging-course-hard-skills/maths-for-programmers" %}}
+ 
