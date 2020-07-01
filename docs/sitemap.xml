@@ -215,6 +215,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/kotlin/grid-layout/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/android/android-self-learning/</loc>
   </url>
   
@@ -231,12 +235,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/android/</loc>
+    <loc>/tech-department/topics/android/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/topics/android/</loc>
+    <loc>/tech-department/projects/android/</loc>
     <priority>0</priority>
   </url>
   
@@ -1577,10 +1581,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/python-specific/custom-exceptions/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/python-specific/exception-handling/</loc>
   </url>
   
@@ -1634,6 +1634,10 @@
   
   <url>
     <loc>/tech-department/topics/python-self-learning/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/python-specific/custom-exceptions/</loc>
   </url>
   
   <url>
