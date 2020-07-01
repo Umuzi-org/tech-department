@@ -19,7 +19,7 @@ You are expected to be online most of the time between _9am and 5pm (barring lun
 - Don't be late for workshops.
 - Don't be late for standup.
 - Don't be disruptive and noisy during workshops and meetings.
-- Submit your projects on time via Tilde. And follow
+- Submit your projects on time via Tilde.
 - Submit high quality work and do your best.
 - Communicate problems to the staff (you are not in this alone but we cannot help you if you don't communicate)
 - Always complete your attendance check here for details: {{% contentlink "remote-work"  %}}
