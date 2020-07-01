@@ -120,6 +120,10 @@ The material and assessments are found on [Gnomio](http://umuzi.gnomio.com/). Th
  - Ryan O'Connell - ryan.oconnell@umuzi.org
  - Lindelani Mbatha - lindelani.mbatha@umuzi.org
 
+ **Java**
+
+  - Bentley Ritson - joshua.ritson@umuzi.org
+
 **Web Development:**
 
 - Dibwe Kalangu - dibwe.kalangu@umuzi.org
