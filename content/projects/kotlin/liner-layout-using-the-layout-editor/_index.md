@@ -1,10 +1,21 @@
 ---
-title:  Linear layout using the Layout Editor
+title: Linear layout using the Layout Editor
 ready: True
 prerequisites:
-  hard: ["topics/kotlin/grid-layout", "topics/kotlin/basic-control-flow", "topics/kotlin/basic-syntax-types"]
-  soft: ["topics/kotlin/introduction", "topics/kotlin/set-up", "topics/kotlin/properties-and-fields"]
+  hard:
+    [
+      "topics/kotlin/grid-layout",
+      "topics/kotlin/basic-control-flow",
+      "topics/kotlin/basic-syntax-types",
+    ]
+  soft:
+    [
+      "topics/kotlin/introduction",
+      "topics/kotlin/set-up",
+      "topics/kotlin/properties-and-fields",
+    ]
 ---
+
 ## Task 1: Create the AboutMe Project
 
 1 - Open Android Studio, if it's not already open.
@@ -21,7 +32,7 @@ prerequisites:
 
 ![](3.png)
 
-5 -  In the next Create New Project dialog, set the following parameters and click Finish.
+5 - In the next Create New Project dialog, set the following parameters and click Finish.
 
 Use this details below as a guideline and not the actual data for your settings:
 ![](4.png)
@@ -47,9 +58,9 @@ In a LinearLayout view group, the UI elements are arranged either horizontally o
 
 Change the root layout so that it uses a LinearLayout view group:
 
- 1. Select the Project > Android pane. In the app/res/layout folder, open the activity_main.xml file.
- 2. Select the Text tab and change the root view group from ConstraintLayout to LinearLayout.
- 3. Remove the TextView. In the LinearLayout element, add the android:orientation attribute and set it to vertical.
+1.  Select the Project > Android pane. In the app/res/layout folder, open the activity_main.xml file.
+2.  Select the Text tab and change the root view group from ConstraintLayout to LinearLayout.
+3.  Remove the TextView. In the LinearLayout element, add the android:orientation attribute and set it to vertical.
 
 Before:
 
@@ -87,6 +98,7 @@ Back
 ```
 
 After:
+
 ```
 <LinearLayout
        xmlns:android="http://schemas.android.com/apk/res/android"
@@ -110,19 +122,19 @@ To see the Layout Editor, click the Design tab. The screenshot below shows the p
 
 #### Key
 
- 1 - __Design editor:__ Displays a visual representation of your screen layout in design view, blueprint view, or both. The design editor is the main part of the Layout Editor.
+1 - **Design editor:** Displays a visual representation of your screen layout in design view, blueprint view, or both. The design editor is the main part of the Layout Editor.
 
- 2 - __Toolbar:__ Provides buttons to configure your layout's appearance in the design editor, and to change some layout attributes. For example, to change the display of your layout in the design editor, use the Select Design Surface  drop-down menu:
+2 - **Toolbar:** Provides buttons to configure your layout's appearance in the design editor, and to change some layout attributes. For example, to change the display of your layout in the design editor, use the Select Design Surface drop-down menu:
 
-- Use __Design__ for a real-world preview of your layout.
-- Use __Blueprint__ to see only outlines for each view.
-- Use __Design__ + Blueprint to see both displays side by side.
- 
- 3 - __Palette:__ Provides a list of views and view groups that you can drag into your layout or into the Component Tree pane.
+- Use **Design** for a real-world preview of your layout.
+- Use **Blueprint** to see only outlines for each view.
+- Use **Design** + Blueprint to see both displays side by side.
 
- 4 - __Attributes:__ Shows attributes for the currently selected view or view group. To toggle between a complete list of attributes and commonly used attributes, use the  icon at the top of the pane.
+3 - **Palette:** Provides a list of views and view groups that you can drag into your layout or into the Component Tree pane.
 
- 5 - __Component Tree:__ Displays the layout hierarchy as a tree of views. The Component Tree is useful when you have small, hidden, or overlapping views that you could not otherwise select in the design editor.
+4 - **Attributes:** Shows attributes for the currently selected view or view group. To toggle between a complete list of attributes and commonly used attributes, use the icon at the top of the pane.
+
+5 - **Component Tree:** Displays the layout hierarchy as a tree of views. The Component Tree is useful when you have small, hidden, or overlapping views that you could not otherwise select in the design editor.
 
 #### Step 1: Add a TextView
 
@@ -134,8 +146,7 @@ The `LinearLayout` has the required attributes `layout_height`, `layout_width`, 
 
 3 - Switch to the **Design** tab to open the Layout Editor.
 
-
-***Note:** The **Design** tab and the **Text** tab shows the same layout, just in a different way. Changes you make in one tab are reflected in the other.*
+**\*Note:** The **Design** tab and the **Text** tab shows the same layout, just in a different way. Changes you make in one tab are reflected in the other.\*
 
 4 - Drag a text view from the **Palette** pane onto the design editor.
 
@@ -149,31 +160,31 @@ The `LinearLayout` has the required attributes `layout_height`, `layout_width`, 
 
 7 - Set the following attributes in the `Attributes` pane:
 
-| **Attribute**     | **Value** |
-| ----------- | ----------- |
-| ID      | name_text      |
-| text   | Set it to your name. (One of the text fields shows a wrench icon to indicate that it's for the `tools` namespace. The one without the wrench is for the `android` namespace—this is the text field you want.)      |
-| textAppearance > textSize   | 20sp       |
-| textAppearance > textColor   | @android:color/black        |
-| textAppearance > textAlignment   | Center    ![](c.png)     |
+| **Attribute**                  | **Value**                                                                                                                                                                                                     |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ID                             | name_text                                                                                                                                                                                                     |
+| text                           | Set it to your name. (One of the text fields shows a wrench icon to indicate that it's for the `tools` namespace. The one without the wrench is for the `android` namespace—this is the text field you want.) |
+| textAppearance > textSize      | 20sp                                                                                                                                                                                                          |
+| textAppearance > textColor     | @android:color/black                                                                                                                                                                                          |
+| textAppearance > textAlignment | Center ![](c.png)                                                                                                                                                                                             |
 
 ### Step 2: Create a string resource
 
 In the **Component Tree**, next to the `TextView`, you will notice a warning icon ![](w.png) . To see the warning text, click the icon or point to it, as shown in the screenshot below.
 
-![](11.png) 
+![](11.png)
 
 To resolve the warning, create a string resource:
 
 1 - In the **Attributes** pane, click the three dots next to the **text** attribute that you set to your name. The resource editor opens.
 
-![](12.png) 
+![](12.png)
 
 2 - In the **Resources** dialog, select **Add new resource > New string Value**.
 
 3 - In the **New String Value Resource** dialog, set the **Resource name** field to `name`. Set the **Resource value** field to your own name. Click **OK**. Notice that the warning is gone.
 
-![](13.png) 
+![](13.png)
 
 4 - Open the `res/values/strings.xml` file and look for the newly created string resource called `name`.
 
@@ -185,13 +196,13 @@ To resolve the warning, create a string resource:
 
 You just added a resource using the resource editor. You can also extract resources in the XML code editor to create new resources:
 
-1. In the `activity_main.xml` file, switch to the **Text* tab.
+1. In the `activity_main.xml` file, switch to the \*_Text_ tab.
 
 2. On the `textSize` line, click on the number (`20sp`) and type `Alt+Enter` (`Option+Enter` on a Mac). Select **Extract dimension** resource from the popup menu.
 
 3. In the **Extract Resource** dialog, enter `text_size` in the **Resource name** field. Click **OK**.
 
-![](14.png) 
+![](14.png)
 
 4 - Open the `res/values/dimens.xml` file to see the following generated code:
 
@@ -199,7 +210,7 @@ You just added a resource using the resource editor. You can also extract resour
 <dimen name="text_size">20sp</dimen>
 ```
 
-*Note: If the dimens.xml file was not already present inside your res/values folder, Android Studio creates it.*
+_Note: If the dimens.xml file was not already present inside your res/values folder, Android Studio creates it._
 
 5 - Open `MainActivity.kt` file, and look for the following code at the end of the `onCreate()` function:
 
@@ -236,7 +247,7 @@ A view's size includes its padding. The following are commonly used padding attr
 - **android:paddingEnd** specifies padding for the "ending" edge of the view.
 - **android:paddingLeft** specifies padding for the left edge.
 - **android:paddingRight** specifies padding for the right edge.
- 
+
 **Margin** is the space added outside of the view's borders. It is the space from the edge of the view to its parent, as shown in the figure above. The following are commonly used margin attributes:
 
 - **android:layout_margin** specifies a margin for all four sides of the view.
@@ -264,13 +275,14 @@ For example, use both android:paddingLeft and android:paddingStart.
 ```
 
 ### Step 1: Add padding
+
 To put space between your `name` and the top edge of the name text view, add top padding.
 
 1. Open `activity_main.xml` file in the **Design** tab.
 
 2. In the **Component Tree** or in the design editor, click the text view to open its **Attributes** pane.
 
-3. At the top of the **Attributes** pane, click the double-arrow ![](17.png) icon  to see all the available attributes.
+3. At the top of the **Attributes** pane, click the double-arrow ![](17.png) icon to see all the available attributes.
 
 4. Search for **Padding**, expand it, and click the three dots ... next to the **top** attribute. The **Resources** dialog appears.
 
@@ -278,7 +290,7 @@ To put space between your `name` and the top edge of the name text view, add top
 
 6. In the **New Dimension Value Resource** dialog, create a new `dimen` resource called `small_padding` with a value of `8dp`.
 
-The *dp* abbreviation stands for *density-independent*. If you want a UI element to look the same size on screens with different densities, use dp as your unit of measurement. When specifying text size, however, always use sp (scalable pixels).
+The _dp_ abbreviation stands for _density-independent_. If you want a UI element to look the same size on screens with different densities, use dp as your unit of measurement. When specifying text size, however, always use sp (scalable pixels).
 Click **OK**.
 
 ### Step 2: Add a margin
@@ -311,7 +323,7 @@ The `res` folder now has a `font` folder that contains a `roboto.ttf` font file.
 
 ### Step 4: Extract the style
 
-A *style* is a collection of attributes that specify the appearance and format for a view. A style can include font color, font size, background color, padding, margin, and other common attributes.
+A _style_ is a collection of attributes that specify the appearance and format for a view. A style can include font color, font size, background color, padding, margin, and other common attributes.
 
 You can extract the `name` text view's formatting into a style and reuse the style for any number of views in your app. Reusing a style gives your app a consistent look when you have multiple views. Using styles also allows you to keep these common attributes in one location.
 
@@ -319,7 +331,7 @@ You can extract the `name` text view's formatting into a style and reuse the sty
 
 2 - In the **Extract Android Style** dialog, clear the `layout_width` checkbox, the `layout_height` checkbox, and the `textAlignment` checkbox. These attributes are usually different for each view, so you don't want them to be part of the style.
 
-3 -  In the **Style name** field, enter `NameStyle`.
+3 - In the **Style name** field, enter `NameStyle`.
 
 4 - Click **OK**.
 
@@ -381,7 +393,7 @@ The star image is added to the layout below your name. Because you have a vertic
 
 ![](24.png)
 
-*Tip: Refactor > Rename renames all the occurrences of an attribute or variable name in your app project.*
+_Tip: Refactor > Rename renames all the occurrences of an attribute or variable name in your app project._
 
 8 - In the **Design** tab, in the **Component Tree**, click the warning icon ![](25.png) next to `star_image`. The warning is for a missing `contentDescription`, which screen readers use to describe images to the user.
 
@@ -450,25 +462,25 @@ The height and width of the `ScrollView` match the parent element. Once the `nam
 
 Open `strings.xml`, create a string resource called `bio`, and put in some long text about yourself, or about anything that you want.
 
-*Use \n to indicate a line break.
- If you use an apostrophe, you must escape it with a backslash. For example:
- "You mustn\'t forget the backslash."
- For bold text use <b>...</b>, and for italicized text use <i>...</i>. For example:
- "This text is <b>bold</b> and this text is <i>italics</i>."*
- 
- Here is a sample biography:
- 
- ```
- <string name="bio">Hi, my name is Aleks.
- \n\nI love fish.
- \n\nThe kind that is alive and swims around in an aquarium or river, or a lake, and definitely the ocean.
- \nFun fact is that I have several aquariums and also a river.
- \n\nI like eating fish, too. Raw fish. Grilled fish. Smoked fish. Poached fish - not so much.
- \nAnd sometimes I even go fishing.
- \nAnd even less sometimes, I actually catch something.
- \n\nOnce, when I was camping in Canada, and very hungry, I even caught a large salmon with my hands.
- \n\nI\'ll be happy to teach you how to make your own aquarium.
- \nYou should ask someone else about fishing, though.\n\n</string>
+_Use \n to indicate a line break.
+If you use an apostrophe, you must escape it with a backslash. For example:
+"You mustn\'t forget the backslash."
+For bold text use <b>...</b>, and for italicized text use <i>...</i>. For example:
+"This text is <b>bold</b> and this text is <i>italics</i>."_
+
+Here is a sample biography:
+
+```
+<string name="bio">Hi, my name is Aleks.
+\n\nI love fish.
+\n\nThe kind that is alive and swims around in an aquarium or river, or a lake, and definitely the ocean.
+\nFun fact is that I have several aquariums and also a river.
+\n\nI like eating fish, too. Raw fish. Grilled fish. Smoked fish. Poached fish - not so much.
+\nAnd sometimes I even go fishing.
+\nAnd even less sometimes, I actually catch something.
+\n\nOnce, when I was camping in Canada, and very hungry, I even caught a large salmon with my hands.
+\n\nI\'ll be happy to teach you how to make your own aquarium.
+\nYou should ask someone else about fishing, though.\n\n</string>
 ```
 
 2 - In the `bio_text` text view, set the value of the `text` attribute to the `bio` string resource that contains your biography.
@@ -485,11 +497,12 @@ Notice how in the design editor, the **bio** text runs all the way to the side e
 
 ![](32.png)
 
-*Note: Starting from API level 17, use "start" and "end" instead of "left" and "right" for padding and margin to adapt your app for RTL languages like Arabic.*
+_Note: Starting from API level 17, use "start" and "end" instead of "left" and "right" for padding and margin to adapt your app for RTL languages like Arabic._
 
 6 - Run your app and scroll through the text.
 
 ![](33.gif)
 
 ## Congratulations!
+
 ## You have created a complete app from scratch, and it looks great!
