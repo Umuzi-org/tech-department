@@ -32,15 +32,17 @@ You’ll notice that the content below is divided up into 2 major sections. Soft
 {{% contentlink "topics/bridging-course-hard-skills/maths-for-programmers" %}}
 
 ### 2. Solo Learn 
-{{% contentlink "topics/bridging-course-hard-skills/maths-for-programmers" %}}
+{{% contentlink "topics/bridging-course-hard-skills/solo-learn" %}}
 
 ### 3. Codewars
-{{% contentlink "topics/bridging-course-hard-skills/maths-for-programmers" %}}
+{{% contentlink "topics/bridging-course-hard-skills/code-wars" %}}
 
 ### 4. OOP Concepts
-{{% contentlink "topics/bridging-course-hard-skills/maths-for-programmers" %}}
+{{% contentlink "topics/bridging-course-hard-skills/oop-concepts" %}}
 
 ### 5. Advanced OOP Concepts
 
-{{% contentlink "topics/bridging-course-hard-skills/maths-for-programmers" %}}
+{{% contentlink "topics/bridging-course-hard-skills/advanced-oop-design-patters" %}}
+
+
  
