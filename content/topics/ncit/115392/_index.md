@@ -1,5 +1,5 @@
 ---
-Title: Managing the Software Development Process
+title: Managing the Software Development Process
 ready: false
 tags: ["agile"]
 nqf: ncit

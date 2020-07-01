@@ -1,5 +1,5 @@
 ---
-Title: Agile Meetings
+title: Agile Meetings
 ready: false
 tags: ["agile", "scrum"]
 nqf: ncit

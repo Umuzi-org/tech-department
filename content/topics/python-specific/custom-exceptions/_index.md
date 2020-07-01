@@ -1,5 +1,5 @@
 ---
-title: Python Exception handling
+title: Python writing custom exceptions
 ready: True
 prerequisites:
   hard: ["topics/python-specific/exception-handling"]
