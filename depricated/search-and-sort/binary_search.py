@@ -4,15 +4,15 @@ def bsearch(list, val):
 
     idx0 = 0
     idxn = list_size
-# Find the middle most value
+    # Find the middle most value
 
     while idx0 <= idxn:
-        midval = (idx0 + idxn)// 2
+        midval = (idx0 + idxn) // 2
 
         if list[midval] == val:
             return midval
 
-# Compare the value the middle most value
+        # Compare the value the middle most value
         if val > list[midval]:
             idx0 = midval + 1
         else:
@@ -20,9 +20,11 @@ def bsearch(list, val):
 
     if idx0 > idxn:
         return "Not in list"
+
+
 # Initialize the sorted list
-list = [2,7,19,34,53,72]
+list = [2, 7, 19, 34, 53, 72]
 
 # Print the search result
-print(bsearch(list,72)) #should return index 5
-print(bsearch(list,11)) #should return Not in list
+print(bsearch(list, 72))  # should return index 5
+print(bsearch(list, 11))  # should return Not in list

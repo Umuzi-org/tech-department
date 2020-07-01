@@ -16,6 +16,10 @@ title: Data Engineering
 - {{% contentlink "topics/clean-code/python" %}}
 - {{% contentlink "projects/git-exercises" %}}
 - NCIT 04: Version control (GIT) for teamwork
+- {{% contentlink "topics/python-specific/automate-the-boring-stuff-book/chapter-0-introduction" %}}
+- {{% contentlink "topics/python-specific/automate-the-boring-stuff-book/chapter-1-basics" %}}
+- {{% contentlink "topics/python-specific/automate-the-boring-stuff-book/chapter-2-flow-control" %}}
+- {{% contentlink "topics/python-specific/automate-the-boring-stuff-book/chapter-3-functions" %}}
 - {{% contentlink "projects/basic-flow-control-katas" %}}
 - {{% contentlink "projects/first-personal-website" %}}
 - {{% contentlink "topics/how-to-ask-for-help-with-your-code" %}}
@@ -26,6 +30,13 @@ title: Data Engineering
 - NCIT 12: Business and technology
 - NCIT 09: Ethics and Professionalism in IT
 - {{% contentlink "workshops/general-coding-best-practices" %}}
+- {{% contentlink "topics/python-specific/automate-the-boring-stuff-book/chapter-4-lists" %}}
+- {{% contentlink "topics/python-specific/lists-in-depth" "optional" %}}
+
+- {{% contentlink "topics/python-specific/automate-the-boring-stuff-book/chapter-5-dictionaries-and-structuring-data" %}}
+- {{% contentlink "topics/python-specific/automate-the-boring-stuff-book/chapter-6-manipulating-strings" %}}
+- {{% contentlink "topics/python-specific/automate-the-boring-stuff-book/chapter-7-pattern-matching-with-regular-expressions" %}}
+
 - {{% contentlink "topics/python-specific/oop-basics" %}}
 - {{% contentlink "topics/python-specific/automated-testing-with-pytest"%}}
 - {{% contentlink "topics/python-specific/virtual-envs/" %}}
@@ -35,12 +46,29 @@ title: Data Engineering
 - {{% contentlink "topics/data-ethics-and-privacy" %}}
 - NCIT 05: History of the Internet
 - NCIT 08: Pseudocode and documentation
+- {{% contentlink "topics/python-specific/automate-the-boring-stuff-book/chapter-8-input-validation" %}}
+- {{% contentlink "topics/python-specific/automate-the-boring-stuff-book/chapter-9-reading-and-writing-files" %}}
+- {{% contentlink "topics/python-specific/automate-the-boring-stuff-book/chapter-10-organising-files" %}}
+- {{% contentlink "topics/python-specific/automate-the-boring-stuff-book/chapter-11-debugging" %}}
 - {{% contentlink "projects/tdd/password-checker/part2" %}}
 - NCIT 11: Test-driven development
 - {{% contentlink "topics/intro-to-docker/" %}}
 - {{% contentlink "projects/tdd/string-calculator" %}}
+- {{% contentlink "topics/python-specific/exception-handling" %}}
+- {{% contentlink "topics/python-specific/custom-exceptions" "optional" %}}
+- {{% contentlink "topics/python-specific/automate-the-boring-stuff-book/chapter-13-working-with-excel-spreadsheets" %}}
+- {{% contentlink "topics/python-specific/automate-the-boring-stuff-book/chapter-14-working-with-google-spreadsheets" %}}
+- {{% contentlink "topics/python-specific/automate-the-boring-stuff-book/chapter-16-working-with-csv-and-json-data" %}}
+- {{% contentlink "topics/python-specific/automate-the-boring-stuff-book/chapter-17-time-and-scheduling" %}}
+- {{% contentlink "topics/python-specific/automate-the-boring-stuff-book/chapter-18-email-and-text" %}}
+- {{% contentlink "topics/python-specific/decorators-intro" %}}
+- {{% contentlink "topics/python-specific/decorators-advanced" "optional" %}}
 - {{% contentlink "projects/basic-unit-test-mocks-kata" %}}
 - {{% contentlink "projects/github-api-consume" %}}
+- {{% contentlink "topics/python-specific/recursion" %}}
+- {{% contentlink "topics/python-specific/iterators" "optional" %}}
+- {{% contentlink "topics/python-specific/automate-the-boring-stuff-book/chapter-12-web-scraping" %}}
+
 - {{% contentlink "projects/sql/" %}}
 - NCIT 14: Database Development
 - {{% contentlink "topics/tech-terminology" %}}

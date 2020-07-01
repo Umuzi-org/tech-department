@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plotly on Documentation for Umuzi Tech Department</title>
+    <link>/tech-department/tags/plotly/</link>
+    <description>Recent content in Plotly on Documentation for Umuzi Tech Department</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="/tech-department/tags/plotly/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Plotly Dashboard Assignment</title>
+      <link>/tech-department/projects/data-science-specific/dashboards/plotly_dashboards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/projects/data-science-specific/dashboards/plotly_dashboards/</guid>
+      <description>Tutorials  Create a Plotly Dashboard in under 10 minutes (Easy) Create a dashboard with Pusher and Flask (Advanced)  Assignment In the Mobile Money Data Visualisation Assignment, you created graphs to display the relationship between the type of financial services accessed (non-mobile, mobile, both), how frequently these services were accessed, and socio-demographic information about the users (gender, land ownership type of income, and so forth). Create a Plotly dashboard of the 3-5 most informative graphs from this assignment.</description>
+    </item>
+    
+  </channel>
+</rss>

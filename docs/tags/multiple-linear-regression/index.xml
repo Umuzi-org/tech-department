@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multiple Linear Regression on Documentation for Umuzi Tech Department</title>
+    <link>/tech-department/tags/multiple-linear-regression/</link>
+    <description>Recent content in Multiple Linear Regression on Documentation for Umuzi Tech Department</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="/tech-department/tags/multiple-linear-regression/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Multivariate Linear Regression</title>
+      <link>/tech-department/projects/data-science-specific/multivariate-linear-regression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/projects/data-science-specific/multivariate-linear-regression/</guid>
+      <description>This week is all about one-hot encoding and multiple regression.
+Background materials  Robust One-Hot Encoding in Python Feature Engineering and Selection ebook One-hot encoding multicollinearity and the dummy variable trap Emulating R Regression Plots in Python Statsmodels Regression Plot Building and evaluating models. Test/Train Splits and Crossvalidation Interpreting residuals plot Stattrek and Statwing  Assignment We will predict employee salaries from different employee characteristics (or features). Import the data salary.</description>
+    </item>
+    
+  </channel>
+</rss>

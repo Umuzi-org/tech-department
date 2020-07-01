@@ -5,6 +5,7 @@ ready: True
 prerequisites:
   hard: ["topics/intro-to-asserive-programming"]
   soft: []
+  story_points: 3
 ---
 
 These katas are a bit harder than the last bunch. Make use of assertions to help make sure that your code is doing the right thing, and to add readability.

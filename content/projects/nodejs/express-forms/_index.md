@@ -3,6 +3,17 @@ title: Express, forms and templates
 ready: true
 weight: 3
 pre: "<b>3: </b>"
+
+prerequisites:
+  hard:
+    [
+      "projects/nodejs/sql",
+      "topics/js-and-node-specific/expressjs",
+      "workshops/intro-to-express",
+    ]
+  soft: []
+tags: ["node", "express"]
+story_points: 3
 ---
 
 There is no need to create a new git repo for this code submission. This is a continuation of your previous work.

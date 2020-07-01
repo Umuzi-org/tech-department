@@ -1,0 +1,68 @@
+---
+title: "Data Science"
+---
+
+- Introduction to NCIT curriculum
+- NCIT 01: Conducting research and user interviews
+- NCIT 02: Reporting
+- NCIT 03: Research presentation
+- {{% contentlink "topics/agile-scrum" %}}
+- {{% contentlink "workshops/agile-scrum/" %}}
+- NCIT 18: Agile project management
+- NCIT 19: Agile meetings
+- {{% contentlink "workshops/how-to-be-a-professional" %}}
+- {{% contentlink "projects/linux/beginner" %}}
+- {{% contentlink "topics/python-self-learning" %}}
+- {{% contentlink "topics/clean-code/python" %}}
+- {{% contentlink "projects/git-exercises" %}}
+- NCIT 04: Version control (GIT) for teamwork
+- {{% contentlink "projects/basic-flow-control-katas" %}}
+- {{% contentlink "projects/first-personal-website" %}}
+- {{% contentlink "topics/how-to-ask-for-help-with-your-code" %}}
+- NCIT 10: Workshop: Giving and receiving constructive feedback
+- NCIT 06: Web design for business
+- NCIT 07: Building an online business
+- NCIT 12: Business and technology
+- NCIT 09: Ethics and Professionalism in IT
+- {{% contentlink "workshops/general-coding-best-practices" %}}
+- {{% contentlink "topics/python-specific/oop-basics" %}}
+- {{% contentlink "topics/python-specific/automated-testing-with-pytest"%}}
+- {{% contentlink "topics/python-specific/virtual-envs/" %}}
+- {{% contentlink "workshops/survey-design" %}}
+- {{% contentlink "workshops/google-forms-like-a-boss" %}}
+- {{% contentlink "projects/basic-flow-control-katas-assertive" %}}
+- {{% contentlink "projects/data-science-specific/data-visualisation" %}}
+- {{% contentlink "workshops/intro-to-data-ethics" %}}
+- NCIT 11: Test-driven development
+- {{% contentlink "projects/tdd/string-calculator" %}}
+- {{% contentlink "projects/data-science-specific/statistical-thinking" %}}
+- {{% contentlink "topics/tech-terminology" %}}
+- NCIT 12: Business and technology
+- {{% contentlink "projects/data-science-specific/data-wrangling" %}}
+- {{% contentlink "projects/data-science-specific/cross-validation-and-simple-linear-regression/" %}}
+- {{% contentlink "projects/data-science-specific/multivariate-linear-regression" %}}
+- NCIT 13: Object-oriented programming
+- {{% contentlink "topics/how-the-internet-works" %}}
+- {{% contentlink "topics/data-ethics-and-privacy" %}}
+- NCIT 05: History of the Internet
+- NCIT 08: Pseudocode and documentation
+- {{% contentlink "projects/data-science-specific/oop-for-data-science" %}}
+- {{% contentlink "projects/data-science-specific/dashboards/plotly_dashboards" %}} 
+- NCIT 14: Database Development
+- {{% contentlink "projects/sql/" %}}
+- NCIT 15: Analytics, Surveys, and Reports / Input & Output
+- {{% contentlink "projects/data-science-specific/logistic-regression" %}}
+- {{% contentlink "workshops/agile-scrum/" %}}
+- {{% contentlink "projects/data-science-specific/decision-trees" %}}
+- NCIT 16: Thinking like a machine / Boolean algebra, logic
+- NCIT 17: Search and sort techniques
+- NCIT 18: Agile project management
+- NCIT 19: Agile meetings
+- NCIT 20: Managing the Software Development Process
+- {{% contentlink "topics/optimizations-and-big-o/" %}}
+- NCIT Summative assessment
+- {{% contentlink "workshops/git-for-teamwork/" %}}
+- {{% contentlink "workshops/agile-recap/" %}}
+- {{% contentlink "topics/data-infrastructure/database-comparison/" %}}
+- {{% contentlink "projects/data-science-specific/k-means-clustering" %}}
+- {{% contentlink "projects/data-science-specific/natural-language-processing" %}}

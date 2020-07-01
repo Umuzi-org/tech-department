@@ -56,7 +56,21 @@ def check_one_file_frontmatter(file_path):
     post = frontmatter.load(file_path)
 
     required = ["title"]
-    allowed = ["pre", "weight", "ready", "date", "disableToc", "todo", "attn","noform","ncit_unit_standard","ncit_specific_outcomes"]
+    allowed = [
+        "pre",
+        "weight",
+        "ready",
+        "date",
+        "disableToc",
+        "todo",
+        "attn",
+        "noform",
+        "ncit_unit_standard",
+        "ncit_specific_outcomes",
+        "prerequisites",
+        "tags",
+        "story_points",
+    ]
 
     for key in post.keys():
         if key not in required + allowed:
@@ -70,6 +84,7 @@ def check_one_file_frontmatter(file_path):
 
 def check_contentlinks_ok():
     import os
+
     os.system("hugo")
     os.system('grep -r "contentlink-missing" public')  # TODO
     os.system('grep -r "contentlink-todo" public')  # TODO
@@ -77,5 +92,3 @@ def check_contentlinks_ok():
 
 if __name__ == "__main__":
     check_all_frontmatter("content")
-
-

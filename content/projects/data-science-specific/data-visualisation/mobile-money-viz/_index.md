@@ -1,6 +1,17 @@
 ---
 title: Financial Services Use in Tanzania
-ready: True
+pre: "<b>MEDIUM: </b>"
+ready: true
+prerequisites:
+  hard: 
+    [
+      "projects/data-science-specific/data-visualisation/linux-evolution",
+      "topics/jupyter-notebooks-best-practices",
+      "topics/python-self-learning",
+    ]
+  soft: ["projects/tdd/simple-calculator-part1"]
+tags: ["data-visualisation-mobile-money"]
+story_points: 8
 ---
 
 ## Background

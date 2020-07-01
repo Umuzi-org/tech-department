@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Documentation for Umuzi Tech Department</title>
+    <link>/tech-department/tags/linux/</link>
+    <description>Recent content in Linux on Documentation for Umuzi Tech Department</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="/tech-department/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction to Bash and the terminal</title>
+      <link>/tech-department/topics/linux/intro-to-bash/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/topics/linux/intro-to-bash/</guid>
+      <description>Knowing a bit about the terminal will help you a lot in your learning journey. If you haven&amp;rsquo;t met th command line before then this is probably going to seem a little strange at first. But when you get used to it it&amp;rsquo;s really useful.
+Why is it useful?  It will speed you up. Interacting with your computer via the keyboard can be very quick compared to using the mouse.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Linux</title>
+      <link>/tech-department/topics/linux/intro-to-linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/topics/linux/intro-to-linux/</guid>
+      <description>Linux is an operating system (much like windows is an operating system). Linux started of as one nerd&amp;rsquo;s hobby but quickly grew in fame. Linux is free, it&amp;rsquo;s source code is freely available, and it is created, developed and used by a large community
+ Intro to linux mint: https://www.youtube.com/watch?v=HhHu-1glWps post install guide 1: https://gitlab.com/prelude-open-source/mint-post-install-guide post install guide 2: https://fossbytes.com/things-to-do-after-installing-linux-mint  If you are one of our Python cohorts you&amp;rsquo;ll need to get Python 3.</description>
+    </item>
+    
+  </channel>
+</rss>

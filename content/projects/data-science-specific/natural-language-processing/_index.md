@@ -1,6 +1,14 @@
 ---
 title: Natural language processing
 ready: True
+ready: True
+pre: "<b>MEDIUM: </b>"
+ready: True
+prerequisites:
+  hard: ["topics/data-science-specific/natural-language-processing"]
+  soft: ["topics/python-self-learning","topics/jupyter-notebooks-best-practices",]
+tags: ["nlp"]
+story_points: 21
 ---
 
 The contents of the State of the Nation Address (SONA) for every year dating back to 1990 is available on the [South African Government website](https://www.gov.za/state-nation-address). This gives us a great opportunity to look at the priorities and challenges have faced over time, and the focus points for the various presidents over this time.
@@ -8,6 +16,7 @@ The contents of the State of the Nation Address (SONA) for every year dating bac
 1. Create a corpus from the English-language text for the SONAs dating back to 2000. Save them with the speaker information and date for later analysis. Where there is more than one SONA per year, get both.
 
 2. Use `NLTK` to create a document-term matrix from the text. To do this, the text should be:
+
 - in lowercase with punctuation and numbers removed (tip: use regular expressions)
 - tokenized and lemmatized
 - without stop words

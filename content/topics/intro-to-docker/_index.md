@@ -9,6 +9,8 @@ tags: ["docker-compose", "postgres"]
 
 [What is Docker](https://opensource.com/resources/what-docker)
 
+Why is docker cool? Here's the first part of a three part tutorial on microservices. You don't need to read all three parts. Basically it illustrates how docker revolutionised our industry. [Here you go](https://www.codementor.io/@sheena/hello-microservice-deployment-part-1-docker-kw9ejpd9o)
+
 ## Set up
 
 In this section we'll get docker set up on your computer. Then we'll use it to run a mysql server. This is cool because:
@@ -32,6 +34,14 @@ For Mint:
 For Mac:
 
 https://docs.docker.com/docker-for-mac/install/
+
+### Super important
+
+For some reason most people don't follow ALL the installation instructions.
+
+Please do this:
+
+https://docs.docker.com/engine/install/linux-postinstall/
 
 ### Now install docker-compose
 
@@ -109,7 +119,7 @@ Try out these links:
 - [http://localhost:8080](http://localhost:8080)
 - [http://localhost:9090](http://localhost:9090)
 
-### creating your own docker images
+### Creating your own docker images
 
 Prerequisites: It would be really useful if you were comfortable with Bash.
 

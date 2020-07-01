@@ -1,7 +1,14 @@
 ---
 title: Plotly Dashboard Assignment
 pre: "<b> EASY: </b>"
-ready: True
+ready: true
+prerequisites:
+  hard:
+    ["projects/data-science-specific/data-visualisation"]
+  soft:
+    ["projects/data-science-specific/data-wrangling"]
+tags: ["plotly"]    
+story_points: 8
 ---
 
 ## Tutorials

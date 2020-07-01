@@ -1,8 +1,11 @@
 ---
 title: Node & SQL assignment
 ready: true
-weight: 2
-pre: "<b>2 (alt): </b>"
+prerequisites:
+  hard: ["projects/sql", "workshops/node-and-sql/"]
+  soft: []
+tags: ["node", "sql"]
+story_points: 5
 ---
 
 You are required to create a back-end service that will help capture basic information about prospective students who come to inquire here at Umuzi.
