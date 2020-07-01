@@ -1,5 +1,5 @@
 ---
-title: Learning How To Learn
+title: Java Bridging Course 
 ready: True
 ---
 
@@ -26,3 +26,9 @@ You’ll notice that the content below is divided up into 2 major sections. Soft
 {{% contentlink "topics/bridging-course-soft-skills/developer-habits" %}}
 
 
+## Hard Skills 
+
+### 1. Maths for programmers
+
+
+### 2. Solo Learn 
