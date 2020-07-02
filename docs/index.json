@@ -805,6 +805,13 @@
 	"content": "Make an account here if you haven\u0026rsquo;t already: https://www.freecodecamp.org/learn\nLook under \u0026ldquo;Responsive Web Design\u0026rdquo;\nYou\u0026rsquo;ll be hitting \u0026ldquo;CSS Grid\u0026rdquo;\n"
 },
 {
+	"uri": "/tech-department/projects/capstone-projects/",
+	"title": "Capstone project",
+	"tags": [],
+	"description": "",
+	"content": " The projects in this section are designed to really test your skills. You need to talk to your manager before moving forward with this project.\nYou get to choose which project you want to do, but your manager has to be ok with your choice. If you choose a project that is inappropriate for whatever reason then your manager will be allowed to tell you to do a different one. Your manager might even insist that you do two projects. Consider yourself warned ;)\nPlease look over all the available projects and see what looks most interesting, then set up a discussion with your manager.\nBefore you begin coding Write out a markdown file that will explain your architectural decisions and your plan of action for how you will achieve this task.\nFor example if you need to write a full stack app then maybe you need to design a database, develop some apis, design a cool looking button for your frontend. What specific tasks do you think you\u0026rsquo;ll need to do?\nCommit your markown file to your repo and get it reviewed and merged in the normal way.\nIf everyone is efficient with their code review then this will go quickly.\nYour manager will also need to review your plan of action once it is merged. Please poke them if needed. It\u0026rsquo;s very important that a senior person looks at your plan. Because good planning is a superpower.\nProjects   PROJECTS: build a Chrome Extension that measures time spent in meetings   PROJECTS: Spaced Repitition machine to help you remember what you read   PROJECTS: The Quizmaster   PROJECTS: Pair Stairs   PROJECTS: Gmail Text Scraper   "
+},
+{
 	"uri": "/tech-department/categories/",
 	"title": "Categories",
 	"tags": [],
@@ -1120,14 +1127,14 @@
 	"content": ""
 },
 {
-	"uri": "/tech-department/projects/data-science-specific/",
+	"uri": "/tech-department/topics/data-science-specific/",
 	"title": "Data-science-specifics",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/tech-department/topics/data-science-specific/",
+	"uri": "/tech-department/projects/data-science-specific/",
 	"title": "Data-science-specifics",
 	"tags": [],
 	"description": "",
@@ -1454,6 +1461,13 @@
 	"tags": [],
 	"description": "",
 	"content": " "
+},
+{
+	"uri": "/tech-department/projects/capstone-projects/gmail-text-scraper/",
+	"title": "Gmail Text Scraper",
+	"tags": [],
+	"description": "",
+	"content": " Who should do this? Anyone interested in backend logic and scripting, and accessing external apis. This isn’t specific to one of our product teams, but the skills you prove here will be useful for the rest of your life.\nSpec Write a script in Python or Node (or whatever really) that:\n Uses the gmail api to access all emails tagged with a specific tag for a specific person Reads the text inside each email and used regular expressions to extract useful data Takes all the data and saves it to a csv file  The data we are interested in seeing in the csv:\n Podcast title Episode title Duration Email data/time Link to episode  Lindelani/Sheena will send you a few emails that you can use\nResources https://developers.google.com/gmail/api/guides\nFirst get the “quickstart” to run using your chosen language. Then make it work for your problem.\nEmail sample Text Far Away \u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt; this is a link Episode: \u0026quot;Mjolnir\u0026quot; | Podcast: Star Wars Minute | 24m31s \u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt; these are episode details Daily conversational podcast that analyses the Star Wars films minute by minute. This episode is devoted to minute 114 of Revenge of the Sith, in which Yoda is mid battle with the Sith Lord. Although it's supposed to be a climactic point of the film, the quartet of reviewers here actually consider this dialogue-less sliver of a fight scene to be one of the most boring minutes of footage they have talked about. The discussion, though, is good natured and well structured, easily transcending the sub par material and adding intriguing tangents (24m31s) True Crime Episode: \u0026quot;The Murder Ballad Of Spade Cooley\u0026quot; | Podcast: Cocaine \u0026amp; Rhinestones | 60m16s Country music history podcast hosted by the son of well known singer David Allan Coe. This episode comes with warnings for violent content, because it describes how musician Spade Cooley violently murdered his wife in 1961. But although this piece has that horrifying destination in mind throughout, the journey there through Cooley's musical career is worth the time. His role in popularising the country-jazz fusion known as \u0026quot;western swing\u0026quot; and the hustling he did to build a Hollywood profile in the 1940s is well covered (60m16s) Hang Up Episode: \u0026quot;Not A Phone Person\u0026quot; | Podcast: Anxious Machine | 24m56s Moving, funny interview with a women who hated talking on the phone, yet has managed to maintain a long distance relationship over several decades. Andrea and Dave met in high school and then attended separate colleges. They are now married with three children but are still regularly parted for months at a time when Dave is deployed overseas as a naval officer. To avoid phone calls they have written thousands of letters, sent photographs, recorded cassettes and now have moved into video chats (24m56s) This post is only for paying subscribers of The Listener, but it’s ok to forward every once in a while. Caroline Crampton, Editor Lindelani Mbatha, International Editor Uri Bram, CEO [uri@thelistener.co] Get The Listener's recommendations straight into your podcast app. Just copy this RSS feed and add it manually to your app: https://www.listennotes.com/listen/the-listener-members-feed--oO1FZKwx6e/rss/ Further instructions here. The Listener © 2020 – Unsubscribe  "
 },
 {
 	"uri": "/tech-department/topics/data-science-specific/google-data-studio/",
@@ -2562,6 +2576,13 @@
 	"content": ""
 },
 {
+	"uri": "/tech-department/projects/capstone-projects/pair-stairs/",
+	"title": "Pair Stairs",
+	"tags": [],
+	"description": "",
+	"content": " Who should do this? We have some options.\n It could be fully implemented as a React frontend-only app BUT this would then just be a proof of concept, it wouldn’t be practically useful without a database It could be fully implemented using only Django. This would be a useful thing A full stack app would also work - a React frontend dev working with a Django dev. This would be the most awesome but also the most difficult because teamwork is hard. If you go this route then use Django Rest Framework to expose apis from Django.  Spec Create an application that keeps track of pair programming sessions between people. Take a look at this: https://tanzu.vmware.com/content/blog/pair-programming-matrix\nData Entry Basically what you would need to do is record pairing sessions like this\n Allow the user to enter/select 2 names The user can say what the pairing session was about. Eg: Factoryboy on Tilde attendance app Specify date and time that the session happened  Every time the form is submitted then the data is saved. If you are doing a pure React implementation then you can just put it in your app state or, preferably, in a redux store.\nDisplay the stairs The other piece of functionality is of course drawing the stairs graphic to display how many times people paired together.\nStep 1: Draw all the sessions\nStep 2: Add a date filter so we can see how many sessions happened between two dates\nStep 3: If the user clicks on a person’s name then your application must display all the things that were covered in pairing sessions for that user.\nEg:\n Tshepo paired with Boitumelo and they worked on \u0026ldquo;Factoryboy on Tilde attendance app\u0026rdquo; Thsepo paired with Margaret and they worked on \u0026ldquo;writing selenium tests for user registration on the recruitment portal\u0026rdquo;  If only those 2 sessions have been recorded then we can say that\n Tshepo worked on:  \u0026ldquo;Factoryboy on Tilde attendance app\u0026rdquo; \u0026ldquo;writing selenium tests for user registration on the recruitment portal\u0026rdquo;  Boitumelo worked on:  \u0026ldquo;Factoryboy on Tilde attendance app\u0026rdquo;  And Margaret worked on:  \u0026ldquo;writing selenium tests for user registration on the recruitment portal\u0026rdquo;   Resources "
+},
+{
 	"uri": "/tech-department/projects/tdd/password-checker/",
 	"title": "Password Checker",
 	"tags": [],
@@ -2912,6 +2933,13 @@
 	"content": ""
 },
 {
+	"uri": "/tech-department/projects/capstone-projects/spaced-repitition-machine/",
+	"title": "Spaced Repitition machine to help you remember what you read",
+	"tags": [],
+	"description": "",
+	"content": " Who should do this? This is a pretty fun and generally awesome scripting problem to be done in any old langage. It’s for anyone who likes books, and likes to remember what they read.\nThis will seem more awesome to you if you know a little bit about the science of learning. https://collegeinfogeek.com/spaced-repetition-memory-technique/\nSpec Google Books is pretty cool. You can upload or buy books and then read them on your computer or mobile device. You can highlight and add notes to parts of the text that you want to remember.\nWhen you do this then Google saves the highlights and notes in your Google Drive in the form of a Google doc (one doc per book). You can see what text you highlighted, what you said about it and when you highlighted it.\nTry it. It’s pretty easy and useful.\nYour mission is to write an app that has only one page. Whenever you refresh your page it should display a random note. Your app should be fast enough to be user-friendly.\nResources https://developers.google.com/docs/api/samples/extract-text\n"
+},
+{
 	"uri": "/tech-department/tags/sql/",
 	"title": "Sql",
 	"tags": [],
@@ -3029,6 +3057,13 @@
 	"tags": [],
 	"description": "",
 	"content": ""
+},
+{
+	"uri": "/tech-department/projects/capstone-projects/quizmaster/",
+	"title": "The Quizmaster",
+	"tags": [],
+	"description": "",
+	"content": " Who should do this? This will work best as a Django application.\nSpec Admin interface Create an app where an administrator can set up multiple choice quizzes. Create database models for Quiz, Question and Choice. Questions and choices should be able to contain rich text and even images. These should be fully defined using Markdown. Questions should also have another field called “explanation” that also contains markdown text.\nRecruit Interface Recruits can test their skills by answering the questions. They can navigate to a quiz and then they will get shown one question at a time. They will get to choose between the answers. Once they have finished the quiz they will be told their mark and a summary of what they got right and wrong. If a question was wrong then the recruit should be shown the “explanation” associated with the question.\nResources "
 },
 {
 	"uri": "/tech-department/topics/tech-terminology/",
@@ -3260,6 +3295,13 @@
 	"tags": [],
 	"description": "",
 	"content": ""
+},
+{
+	"uri": "/tech-department/projects/capstone-projects/chrome-extension-tie-spent-in-hangouts/",
+	"title": "build a Chrome Extension that measures time spent in meetings",
+	"tags": [],
+	"description": "",
+	"content": " Who should do this? This project doesn’t have a lot to do with Tilde or the Recruitment Portal just yet. It’s just a cool fun thing. Note, I’ve personally never done this kind of thing so it should be for someone who is up for a challenge.\nChrome extensions make heavy use of JS\nSpec Part 1 Create a chrome extension that monitors the time you spend in any Google meetings. You can tell if a tab is relevant by looking at the url.\nThe extension should record:\n Start-time End-time Full url For each meeting.  See what other info you can grab. Eg, can you record who else is in the meeting?\nFor now you can just store your data using the Storage api (linked to at the end of this document)\nCreate a mechanism for displaying the data you collected. You can just put the data in a \u0026lt;table\u0026gt; for display, or you can draw it some other way\nPart 2 Get the chrome extension to also measure your internet connection strength during meetings.\nResources  https://developer.chrome.com/extensions/devguide https://developer.chrome.com/extensions/tabs https://developer.chrome.com/extensions/storage  "
 },
 {
 	"uri": "/tech-department/department-processes/code-review/",

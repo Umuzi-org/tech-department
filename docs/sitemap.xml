@@ -482,6 +482,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/capstone-projects/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/categories/</loc>
     <priority>0</priority>
   </url>
@@ -670,12 +674,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/data-science-specific/</loc>
+    <loc>/tech-department/topics/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/</loc>
+    <loc>/tech-department/projects/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
@@ -871,6 +875,10 @@
   
   <url>
     <loc>/tech-department/workshops/git-for-teamwork/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/capstone-projects/gmail-text-scraper/</loc>
   </url>
   
   <url>
@@ -1526,6 +1534,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/capstone-projects/pair-stairs/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/tdd/password-checker/</loc>
   </url>
   
@@ -1736,6 +1748,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/capstone-projects/spaced-repitition-machine/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/tags/sql/</loc>
     <priority>0</priority>
   </url>
@@ -1805,6 +1821,10 @@
   
   <url>
     <loc>/tech-department/topics/ncit/115391/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/capstone-projects/quizmaster/</loc>
   </url>
   
   <url>
@@ -1940,6 +1960,10 @@
   
   <url>
     <loc>/tech-department/topics/data-infrastructure/choosing-a-task-queue/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/capstone-projects/chrome-extension-tie-spent-in-hangouts/</loc>
   </url>
   
   <url>
