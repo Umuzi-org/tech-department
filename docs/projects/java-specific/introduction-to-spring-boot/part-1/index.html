@@ -12,19 +12,19 @@
     <title>Introduction to Spring Boot - part 1 :: Documentation for Umuzi Tech Department</title>
 
     
-    <link href="/tech-department/css/nucleus.css?1593664281" rel="stylesheet">
-    <link href="/tech-department/css/fontawesome-all.min.css?1593664281" rel="stylesheet">
-    <link href="/tech-department/css/hybrid.css?1593664281" rel="stylesheet">
-    <link href="/tech-department/css/featherlight.min.css?1593664281" rel="stylesheet">
-    <link href="/tech-department/css/perfect-scrollbar.min.css?1593664281" rel="stylesheet">
-    <link href="/tech-department/css/auto-complete.css?1593664281" rel="stylesheet">
-    <link href="/tech-department/css/theme.css?1593664281" rel="stylesheet">
-    <link href="/tech-department/css/hugo-theme.css?1593664281" rel="stylesheet">
+    <link href="/tech-department/css/nucleus.css?1593671422" rel="stylesheet">
+    <link href="/tech-department/css/fontawesome-all.min.css?1593671422" rel="stylesheet">
+    <link href="/tech-department/css/hybrid.css?1593671422" rel="stylesheet">
+    <link href="/tech-department/css/featherlight.min.css?1593671422" rel="stylesheet">
+    <link href="/tech-department/css/perfect-scrollbar.min.css?1593671422" rel="stylesheet">
+    <link href="/tech-department/css/auto-complete.css?1593671422" rel="stylesheet">
+    <link href="/tech-department/css/theme.css?1593671422" rel="stylesheet">
+    <link href="/tech-department/css/hugo-theme.css?1593671422" rel="stylesheet">
     
-      <link href="/tech-department/css/theme-green.css?1593664281" rel="stylesheet">
+      <link href="/tech-department/css/theme-green.css?1593671422" rel="stylesheet">
     
 
-    <script src="/tech-department/js/jquery-2.x.min.js?1593664281"></script>
+    <script src="/tech-department/js/jquery-2.x.min.js?1593671422"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/tech-department/js/lunr.min.js?1593664281"></script>
-<script type="text/javascript" src="/tech-department/js/auto-complete.js?1593664281"></script>
+<script type="text/javascript" src="/tech-department/js/lunr.min.js?1593671422"></script>
+<script type="text/javascript" src="/tech-department/js/auto-complete.js?1593671422"></script>
 <script type="text/javascript">
     
         var baseurl = "\/tech-department\/";
     
 </script>
-<script type="text/javascript" src="/tech-department/js/search.js?1593664281"></script>
+<script type="text/javascript" src="/tech-department/js/search.js?1593671422"></script>
 
     
   </div>
@@ -11319,9 +11319,9 @@
 
 <p>We covered a very large part of the Spring Boot framework at a high level on the reading material but I hope you went through the resource as well. This project will be very simple but focusing on all the building blocks. <strong>HAVE FUN!!</strong></p>
 
-<p><strong>Step 1</strong> - Create a java application and import &lsquo;org.springframework.boot:spring-boot-starter-web&rsquo; into your build.gradle file to convert it to a Spring Boot application</p>
+<p><strong>Step 1</strong> - Create a java application and import &lsquo;org.springframework.boot:spring-boot-starter-web&rsquo; into your build.gradle file to convert it to a Web Spring Boot application</p>
 
-<p><strong>Step 2</strong> - Ensure that your Main class is configure correctly for a Spring Boot application. Hint: @SpringBootApplication</p>
+<p><strong>Step 2</strong> - Ensure that your Main class is configured correctly for a Spring Boot application. Hint: @SpringBootApplication</p>
 
 <p><strong>Step 3</strong> - Create a Model called User</p>
 
@@ -11344,16 +11344,16 @@ deleteUser(id)
 
 </code></pre>
 
-<p><strong>Step 5</strong> - Create a class called FakeRepo wrap it with the @Repository annotation which implements the FakeRepoInterface, in this class you will mimic an actual repository by provide implementation
+<p><strong>Step 5</strong> - Create a class called FakeRepo wrap it with the @Repository annotation and implement the FakeRepoInterface, in this class you will mimic an actual repository by provide implementation
 for the following methods</p>
 
 <pre><code>Create an object array of type User
 
-insertUser(id, name, surname) // should store the name and surname in the 'User' Object Array
+insertUser(id, name, surname) // should store the name, surname and id in the 'User' Object Array, return the name added
 
-findUserById(id) // returns name and surname of the specified id from the 'User' Object Array
+findUserById(id) // returns name and surname of the specified id from the 'User' Object Array, return the name
 
-deleteUser(id) // remove the object with id from the User Object Array
+deleteUser(id) // remove the object with id from the User Object Array, return deleted user name
 </code></pre>
 
 <p><strong>Step 6</strong> - Create an Interface called (UserService) with the following methods they can be type void for now</p>
@@ -11365,17 +11365,17 @@ removeUser(Id)
 getUser(Id)
 </code></pre>
 
-<p><strong>Step 7</strong> - Create a class called UserServiceImpl which implements the interface in [step 4] and must do the following</p>
+<p><strong>Step 7</strong> - Create a class called UserServiceImpl which implements the interface in [step 6] and must do the following</p>
 
 <p>Use (dependency injection) for including FakeRepo inside UserServiceImpl <strong>DO NOT USE THE NEW KEYWORD</strong></p>
 
-<pre><code>addUser(name, surname) // should call insert(name, surname) from FakeRepo and print to console '[name] entered'
+<pre><code>addUser(name, surname) // should call insertUser(id, name, surname), from FakeRepo and print to console '[name] entered', (generate/hardcode the id)
 
-removeUser(Id) // should call delete(id) from FakeRepo and print to console '[name] removed'
+removeUser(Id) // should call deleteUser(id) from FakeRepo and print to console '[name] removed'
 
-getUser(Id) // should call find(id) from FakeRepo and print to console 'hello [name]'
+getUser(Id) // should call findUserById(id) from FakeRepo and print to console 'hello [name]'
 
-[name] - replaced with actual name
+[name] - replaced with actual name return from the FakeRepo
 </code></pre>
 
 <p><strong>Step 8</strong> - Write tests for</p>
@@ -18536,20 +18536,20 @@ getUser(Id) // should call find(id) from FakeRepo and print to console 'hello [n
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/tech-department/js/clipboard.min.js?1593664281"></script>
-    <script src="/tech-department/js/perfect-scrollbar.min.js?1593664281"></script>
-    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1593664281"></script>
-    <script src="/tech-department/js/jquery.sticky.js?1593664281"></script>
-    <script src="/tech-department/js/featherlight.min.js?1593664281"></script>
-    <script src="/tech-department/js/html5shiv-printshiv.min.js?1593664281"></script>
-    <script src="/tech-department/js/highlight.pack.js?1593664281"></script>
+    <script src="/tech-department/js/clipboard.min.js?1593671422"></script>
+    <script src="/tech-department/js/perfect-scrollbar.min.js?1593671422"></script>
+    <script src="/tech-department/js/perfect-scrollbar.jquery.min.js?1593671422"></script>
+    <script src="/tech-department/js/jquery.sticky.js?1593671422"></script>
+    <script src="/tech-department/js/featherlight.min.js?1593671422"></script>
+    <script src="/tech-department/js/html5shiv-printshiv.min.js?1593671422"></script>
+    <script src="/tech-department/js/highlight.pack.js?1593671422"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/tech-department/js/modernizr.custom.71422.js?1593664281"></script>
-    <script src="/tech-department/js/learn.js?1593664281"></script>
-    <script src="/tech-department/js/hugo-learn.js?1593664281"></script>
+    <script src="/tech-department/js/modernizr.custom.71422.js?1593671422"></script>
+    <script src="/tech-department/js/learn.js?1593671422"></script>
+    <script src="/tech-department/js/hugo-learn.js?1593671422"></script>
 
-    <link href="/tech-department/mermaid/mermaid.css?1593664281" type="text/css" rel="stylesheet" />
-    <script src="/tech-department/mermaid/mermaid.js?1593664281"></script>
+    <link href="/tech-department/mermaid/mermaid.css?1593671422" type="text/css" rel="stylesheet" />
+    <script src="/tech-department/mermaid/mermaid.js?1593671422"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
