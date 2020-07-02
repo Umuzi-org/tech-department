@@ -19,7 +19,7 @@ Familiarize yourself with the git api found here https://developer.github.com/v3
 
 Now we are going to consume the api in our spring boot application using restTemplates as per topic work. I would like to se
 
-1. I would like you to specifically return the v3 version of the api
+1. I would like you to specifically return the v3 version of the api **(Hint: Read more on how to set headers in RestTemplate)**
 2. A list of all your repos - output on the console
 3. A list of commits in 1 repo of your choice - output on teh console
 
@@ -27,7 +27,7 @@ Now we are going to consume the api in our spring boot application using restTem
 
 **Step 1**
 
-Clone the repo found here https://github.com/spring-guides/gs-producing-web-service and open the `complete` folder as your project not the entire repo. Review it on a high level this will be the wsdl project we are going to use to learn how to consume a wsdl application.
+Clone the repo found here https://github.com/spring-guides/gs-producing-web-service and open the `complete` folder not the entire repo. Review it on a high level this will be the wsdl project we are going to use to learn how to consume a wsdl application. **DO NOT ADD THIS PROJECT AS PART OF YOUR SUBMISSION(this is so that you can generate the files)**
 
 Change the application to sun on port 9090 by adding this to the properties file
 
@@ -60,7 +60,7 @@ and see this
 keep this project running in the background
 
 **Step 2**
-Got back to your UserService repo and in your terminal navigate to `src/main/java` and run this command
+In your terminal navigate to `YourUserServiceRepo/src/main/java` and run this command
 
 ```
 wsimport -keep -p com.nameOfYourPackage.wsdl http://localhost:9090/ws/countries.wsdl
