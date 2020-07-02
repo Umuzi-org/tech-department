@@ -17,6 +17,7 @@ prerequisites:
       "topics/data-science-specific/data-science-methodology"
     ]
 tags: ["decision-trees"]
+story_points: 8
 ---
 
 ## Background material

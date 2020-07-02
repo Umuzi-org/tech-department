@@ -10,6 +10,7 @@ prerequisites:
     ]
   soft: []
 tags: ["tdd", "mocks", "environmental variables", "smtp"]
+story_points: 8
 ---
 
 This basic project should demonstrate your understanding of mocks/spies.

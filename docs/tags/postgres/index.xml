@@ -17,8 +17,9 @@
       
       <guid>/tech-department/topics/intro-to-docker/</guid>
       <description>What is Docker
+Why is docker cool? Here&amp;rsquo;s the first part of a three part tutorial on microservices. You don&amp;rsquo;t need to read all three parts. Basically it illustrates how docker revolutionised our industry. Here you go
 Set up In this section we&amp;rsquo;ll get docker set up on your computer. Then we&amp;rsquo;ll use it to run a mysql server. This is cool because:
- you can use mysql without having to actually install mysql the same technique will work for running any other database (or many other applications) once docker is installed. This means you can play and experiement with different tools without much of a fuss  Install docker For Ubuntu:</description>
+ you can use mysql without having to actually install mysql the same technique will work for running any other database (or many other applications) once docker is installed.</description>
     </item>
     
   </channel>

@@ -16,7 +16,6 @@ Continuing with {{% contentlink "projects/java-specific/introduction-to-spring-b
 **Step 1**
 
 Create a Controller Class based on the spring MVC infrastructure. This will be used to expose the endpoint.
-Remember to create your Controller Class inside a "Controller" package.
 
 ```
 package controller;
@@ -91,7 +90,7 @@ Example
 
 **Step 5**
 
-Do not forget to test to write unit tests for the methods in your application.
+Do not forget to write integration tests for the endpoints(addUser, getUserById, removeUser) in your controller using MockMVC or TestRestTemplate.
 
 - All CRUD operations defined in your services should be accompanied by corresponding unit test,
   using the relevant spring annotations as in {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-1" %}}.

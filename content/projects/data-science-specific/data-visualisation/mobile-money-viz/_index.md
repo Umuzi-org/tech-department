@@ -11,6 +11,7 @@ prerequisites:
     ]
   soft: ["projects/tdd/simple-calculator-part1"]
 tags: ["data-visualisation-mobile-money"]
+story_points: 8
 ---
 
 ## Background

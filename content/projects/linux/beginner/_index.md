@@ -4,6 +4,7 @@ prerequisites:
   hard: ["topics/linux/intro-to-linux", "topics/linux/intro-to-bash"]
   soft: ["workshops/intro-to-linux"]
 tags: ["bash"]
+story_points: 1
 ---
 
 ### Submission guidelines

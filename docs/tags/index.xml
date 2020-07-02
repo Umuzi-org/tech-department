@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>Agile</title>
+      <link>/tech-department/tags/agile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/agile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Ajax</title>
       <link>/tech-department/tags/ajax/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -119,6 +128,15 @@
     </item>
     
     <item>
+      <title>Decorators</title>
+      <link>/tech-department/tags/decorators/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/decorators/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Docker Compose</title>
       <link>/tech-department/tags/docker-compose/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -191,11 +209,38 @@
     </item>
     
     <item>
+      <title>Hcd</title>
+      <link>/tech-department/tags/hcd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/hcd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Html</title>
       <link>/tech-department/tags/html/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human Centered Design</title>
+      <link>/tech-department/tags/human-centered-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/human-centered-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kafka</title>
+      <link>/tech-department/tags/kafka/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/kafka/</guid>
       <description></description>
     </item>
     
@@ -263,6 +308,15 @@
     </item>
     
     <item>
+      <title>Ncit</title>
+      <link>/tech-department/tags/ncit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/ncit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Nlp</title>
       <link>/tech-department/tags/nlp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -317,6 +371,15 @@
     </item>
     
     <item>
+      <title>Python</title>
+      <link>/tech-department/tags/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Rabbit Mq</title>
       <link>/tech-department/tags/rabbit-mq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -331,6 +394,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/tags/regular-expressions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scrum</title>
+      <link>/tech-department/tags/scrum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/scrum/</guid>
       <description></description>
     </item>
     

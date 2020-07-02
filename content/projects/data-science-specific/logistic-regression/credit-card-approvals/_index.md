@@ -13,6 +13,7 @@ prerequisites:
   soft:
     ["topics/python-self-learning", "topics/jupyter-notebooks-best-practices"]
 tags: ["datacamp-logistic-regression"]
+story_points: 2
 ---
 
 ## Instructions

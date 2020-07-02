@@ -7,9 +7,12 @@ prerequisites:
     [
       "topics/web-frontend/intro-to-web-design/",
       "workshops/intro-to-css-architecture",
+      "topics/free-code-camp/responsive-web-design/basic-html-and-html-5",
+      "topics/free-code-camp/responsive-web-design/basic-css",
     ]
 
 tags: ["html", "css"]
+story_points: 3
 ---
 
 For the learnership you will create a website with your CV and a portfolio of your work. Create the website and host it on Github. You will be expected to keep your portfolio up to date throughout the learnership.
