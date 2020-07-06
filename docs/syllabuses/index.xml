@@ -71,6 +71,24 @@
     </item>
     
     <item>
+      <title>Web development boot camp</title>
+      <link>/tech-department/syllabuses/web-dev-boot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/syllabuses/web-dev-boot/</guid>
+      <description>  TOPICS: [TODO] Success in bootcamp   TOPICS: [TODO] Introduction to gnomio   TOPICS: [TODO] Introduction to Tilde TODO: Create Content (Multiple instruction videos)  TOPICS: [TODO] Pseudocode and documentation   PROJECTS: Level 1 programming katas   PROJECTS: Bootcamp Writing Assignment   PROJECTS: Assertive programming kata   </description>
+    </item>
+    
+    <item>
+      <title>Web development boot camp pre-learning</title>
+      <link>/tech-department/syllabuses/web-dev-pre-boot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/syllabuses/web-dev-pre-boot/</guid>
+      <description>  TOPICS: Introduction to Bootcamp Preparation phase   TOPICS: Extra bootcamp preparation instructions for web devs   TOPICS: Web dev bootcamp setup   TOPICS: Basic Javascript   TOPICS: Bash for bootcamp   PROJECTS: Git Basic Exercises   TOPICS: Useful Git commands   PROJECTS: Pre bootcamp challenges   </description>
+    </item>
+    
+    <item>
       <title>iOS Mobile Development</title>
       <link>/tech-department/syllabuses/ios-mobile/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

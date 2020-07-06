@@ -153,6 +153,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/workshops/bootcamp/interview-culture/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/apis/basics/</loc>
   </url>
   
@@ -215,10 +219,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/kotlin/grid-layout/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/android/android-self-learning/</loc>
   </url>
   
@@ -235,12 +235,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/android/</loc>
+    <loc>/tech-department/projects/android/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/projects/android/</loc>
+    <loc>/tech-department/topics/android/</loc>
     <priority>0</priority>
   </url>
   
@@ -270,6 +270,10 @@
   
   <url>
     <loc>/tech-department/projects/oop/animals/part2/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/kotlin/annotations/</loc>
   </url>
   
   <url>
@@ -410,6 +414,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/bootcamp/bash-for-bootcamp/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/basic-algorithmic-scripting/</loc>
   </url>
   
@@ -455,6 +463,20 @@
   
   <url>
     <loc>/tech-department/workshops/big-picture-web-dev/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/bootcamp-writing-assignment/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/bootcamp/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/bootcamp/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -551,6 +573,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/kotlin/contructuor-default-values/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/github-api-consume/</loc>
   </url>
   
@@ -598,6 +624,10 @@
   
   <url>
     <loc>/tech-department/projects/data-science-specific/dashboards/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/kotlin/data-binding/</loc>
   </url>
   
   <url>
@@ -820,6 +850,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/messaging/pre-bootcamp-intro-web-dev/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/java-specific/java-fileio-logging-errors/</loc>
   </url>
   
@@ -838,6 +872,10 @@
   
   <url>
     <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/functional-programming/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/kotlin/functions/</loc>
   </url>
   
   <url>
@@ -899,7 +937,15 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/kotlin/gradle/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/java-specific/gradle-and-intellij-project-structure/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/kotlin/grid-layout/</loc>
   </url>
   
   <url>
@@ -954,6 +1000,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/kotlin/in-line-functions/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/android/incremental-counter/</loc>
   </url>
   
@@ -967,6 +1017,10 @@
   
   <url>
     <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/intermediate-algorithmic-scripting/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/kotlin/internet-data-and-images/</loc>
   </url>
   
   <url>
@@ -1039,6 +1093,10 @@
   
   <url>
     <loc>/tech-department/topics/linux/intro-to-bash/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/messaging/pre-bootcamp-intro/</loc>
   </url>
   
   <url>
@@ -1171,6 +1229,10 @@
   
   <url>
     <loc>/tech-department/workshops/java-specific/introduction-to-spring-infrastructure/part-3/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/intro-to-tilde/</loc>
   </url>
   
   <url>
@@ -1389,6 +1451,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/workshops/bootcamp/interview-low-code/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/ncit/115392/</loc>
   </url>
   
@@ -1402,6 +1468,11 @@
   
   <url>
     <loc>/tech-department/projects/memory-game-angular-material/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/messaging/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -1492,6 +1563,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/kotlin/null-safety/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/oop/</loc>
   </url>
   
@@ -1557,6 +1632,10 @@
   <url>
     <loc>/tech-department/tags/postgres/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/pre-bootcamp-challenges/</loc>
   </url>
   
   <url>
@@ -1697,6 +1776,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/kotlin/returns-and-jumps/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/sql/</loc>
   </url>
   
@@ -1779,6 +1862,10 @@
   
   <url>
     <loc>/tech-department/topics/java-specific/string-and-number-manipulation/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/bootcamp/success-in-bootcamp/</loc>
   </url>
   
   <url>
@@ -1878,6 +1965,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/bootcamp/git-for-bootcamp/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/js-and-node-specific/fetch/</loc>
   </url>
   
@@ -1907,6 +1998,18 @@
   
   <url>
     <loc>/tech-department/topics/web-frontend/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/bootcamp/web-dev-enviroment-setup/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/syllabuses/web-dev-boot/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/syllabuses/web-dev-pre-boot/</loc>
   </url>
   
   <url>
@@ -1940,6 +2043,10 @@
   
   <url>
     <loc>/tech-department/workshops/what-to-put-in-your-cv/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/kotlin/work-manager/</loc>
   </url>
   
   <url>
