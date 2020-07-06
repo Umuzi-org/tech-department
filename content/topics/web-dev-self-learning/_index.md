@@ -5,13 +5,15 @@ ready: true
 
 You are expected to spend your free time learning and practicing your web development skills. Here are some resources for you. Different people tend to prefer different resources because they support different styles of learning.
 
-You should know HTML, CSS and JavaScript (including ES6 syntax).
+You should know HTML, CSS and JavaScript (including ES6 syntax). 
+
+If you are prepping to attend the Umuzi bootcamp we suggest you concentrate on the first 2 links below and concentrate on the JavaScript language.
 
 ## Basics
 
 - [FreeCodeCamp](https://www.freecodecamp.org/): This one is great if you've never coded before. It holds your hand through the whole process
-- [W3Schools](https://www.w3schools.com/): This is also very friendly for beginners but teaches things in a more exploratory way
 - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide) - Most comprehensive javascript reference guide on the internet. 
+- [W3Schools](https://www.w3schools.com/): This is also very friendly for beginners but teaches things in a more exploratory way
 - [CodeWars](https://www.codewars.com/): Practice makes perfect
 - [JS re-introduction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript) - Compact introduction covering types, variables, operators, control structures, functions and closures.
 - [Hacker Rank](https://www.hackerrank.com/) - Practice coding, prepare for interviews, and get hired.

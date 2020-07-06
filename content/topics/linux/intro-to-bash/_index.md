@@ -4,7 +4,7 @@ ready: true
 tags: ["bash", "linux"]
 ---
 
-Knowing a bit about the terminal will help you a lot in your learning journey. If you haven't met th command line before then this is probably going to seem a little strange at first. But when you get used to it it's really useful.
+Knowing a bit about the terminal will help you a lot in your learning journey. If you haven't met the command line before then this is probably going to seem a little strange at first. But when you get used to it it's really useful.
 
 ## Why is it useful?
 
