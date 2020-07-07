@@ -9,7 +9,7 @@ A big part of learning to be a programmer of any kind is knowing how to get help
 
 #### Where to ask good questions
 
- - [Stackoverflow](https://stackoverflow.com/help/how-to-ask) == TRUELY **AMAZING**
+ - [Stackoverflow - How to ask for help](https://stackoverflow.com/help/how-to-ask) == TRUELY **AMAZING** 
  - [Google](https://www.google.com)
  - RocketChat - All RocketChat questions should be addressed on the RocketChat `#tech-assist` channel. If your issues are not addressed on the `#tech-assist` Channel, then run your issue with your specific department channel, then if it doesn't help then run to your **cohort mentors**.
 
