@@ -4,14 +4,32 @@ title: Version Control & Scrum using Trello & Github
 weight: 15
 ---
 
+## Definition of Scrum
+
+A framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value.
+
+## The Scrum Team
+
+The Scrum Team consists of a Product Owner, the Development Team, and a Scrum Master. Scrum Teams are self-organizing and cross-functional. Self-organizing teams choose how best to accomplish their work, rather than being directed by others outside the team. Cross-functional teams have all competencies needed to accomplish the work without depending on others not part of the team.
+
+Scrum Teams deliver products iteratively and incrementally, maximizing opportunities for feedback. Incremental deliveries of "Done" product ensure a potentially useful version of working product is always available.
+
 ## Scrum roles
 
-- Team Member
-  Developers, designers, and anyone who's doing that actual production of work. Responsible for working with the Product Owner to break down tasks & reach completion on different ticket items.
-- Scrum Master
-  The facilitator of the scrum process. If this person is doing their job right, the team becomes independent over time.
-- Product Owner
-  The stakeholder for the product. This person is in charge of deciding what the MVP, and different versions of the product look like. They are also responsible for ensuring the backlog is in correct order.
+- ##### This is how it works in the industry:
+    - The Product Owner is responsible for maximizing the value of the product resulting from work of the Development Team. How this is done may vary widely across organizations, Scrum Teams, and individuals.
+
+    - The Development Team consists of professionals who do the work of delivering a potentially releasable Increment of "Done" product at the end of each Sprint. A "Done" increment is required at the Sprint Review. Only members of the Development Team create the Increment. Optimal Development Team is allowed to have not less than 3 and not more than 9 team members to be able to execute tasks efficiently.
+
+    - The Scrum Master is responsible for promoting and supporting Scrum as defined in the Scrum Guide. Scrum Masters do this by helping everyone understand Scrum theory, practices, rules, and values.The Scrum Master is a servant-leader for the Scrum Team.
+
+- ##### This is how we follow Scrum at Umuzi:
+    - Product Owner also acts as a stakeholder for the product. This person is in charge of deciding what the MVP, and different versions of the product look like. They are also responsible for ensuring the backlog is in correct order. 
+
+    - Team Members consist of developers, designers, and anyone who's doing that actual production of work. Responsible for working with the Product Owner to break down tasks & reach completion on different ticket items.
+
+    - Scrum Master is the facilitator of the scrum process. Helps the team to be productive and acheive their goal by making sure that the resources are available and there are no blockers in acheiving the goal, the team becomes independent over time.
+
 
 ## Scrum Meetings
 
@@ -66,45 +84,29 @@ weight: 15
 
 ## General issue board procedure
 
-Every time you move a ticket from one column to another, you are unassigning yourself. A ticket in the done column is reassigned to the person who did the development work on it.
-Comment on the tickets as a form of taking notes & passing on explanations from one person to another.
-Attach all resources to the ticket whether they are points of reference, design documents, etc.
-Name the tickets so there is no confusion as to what is being accomplished.
-Add every requirement to the checklist, and be specific. Check off requirements as you finish work on them in development.
+#### Common 'column labels' found in product teams at Umuzi: 
 
-### Backlog
+  - **Backlog:** items in the backlog represent the conceived work for the team over the next 2-3+ sprints. Tickets need to be looked over by the team during the "Storytime" meeting to make sure that the objectives are clear. Attach all resources to the ticket whether they are points of reference, design documents, etc. Name the tickets so there is no confusion as to what is being accomplished. Add every requirement to the checklist and be specific.
+  - **This Sprint:** here tickets are in the queue for the team's current sprint.
+  The team commits to completing a given amount of tickets in the coming sprint during the "Planning" meeting.
+  - **In Progress:** in this column tickets are assigned to individuals who will be actively workeing on them.
+  - **Code Review:** tickets here are reviewed by team mates first. If the pull request is approved by a team member, it can either be merged straight away or given a final review by a senior member. If not, changes will be requested and the procedure will continue until the code is ready to be merged.
+  - **Staging/Prototyping:** Tickets here are being checked to make sure that the user experiences what the ticket was set out to accomplish. If there's bugs or missing functionality, send it back to development.
+  - **Done/Complete:** This column is for complete work. Issues cannot be moved to the Done/Complete column until the code is at least merged into the master branch.
 
-Items in the backlog represent the conceived work for the team over the next 2-3+ sprints.
-Before items are able to be moved into the "To Do" column, they need to be looked over by the team during the "Storytime" meeting to make sure that the objectives are clear.
-Various labeling/measuring can take place on these tickets, like adding the feature they're associated with, the estimated work hours to complete the feature, and more.
+  **Please note:** The columns described here are useful for this discussion, columns in project boards tend to be named differently and if you are new to Scrum then these columns will work well for you. Please make sure you understand the general procedure outlined here, then adapt it for your team.
 
-### To Do
+#### GIT Feature Branching
 
-Tickets in to-do are in the queue for the team's current sprint.
-The team commits to completing a given amount of tickets in the coming sprint during the "Planning" meeting.
+We follow feature branching when working in a team. This basically means that:
 
-### Developing
+- before any coding occurs, pull down the latest version from "origin/master".
+- when a dev starts working on a new issue, they should make a new branch. The branch should have a sensible name
+- if the dev is writing code, they should be committing and pushing code. They should push every day that they made progress! Please insist on this,you will meet resistence and you will need to stand your ground.
+- Once the developer has made some changes worth committing then they make a PR.
 
-Tickets moved to developing are being actively worked on by the person assigned to them.
+PRs should:
 
-#### Git Action
-
-Before any coding occurs, pull down the latest version from "origin/master". Then, after coding is finished, create a new branch with a name corresponding to your ticket. Commit, push to origin, and create a pull request in Github.
-
-### Code Review
-
-Tickets in code review are having their associated code (or design) reviewed. A team member will look at the pull request on Github and see that the code is well formed, doesn't have obvious bugs, and accomplishes what it set out to do. If necessary, changes are suggested, and the ticket is sent back to development.
-
-#### Git Action
-
-If the code passes review, the pull request is approved and the branch is merged into master.
-
-### Quality Assurance
-
-Tickets in quality assurance are being checked to make sure the user experiences what the ticket was set out to accomplish. If there's bugs or missing functionality, send it back to development.
-####Git Action
-Pull the merge commit from origin/master for testing.
-
-### Done:
-
-Tickets here are done.
+- have meaningful names
+- be as small as possible so that whoever is doing the review can do a good job
+- PRs are created when there is code to be merged.
