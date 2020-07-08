@@ -22,9 +22,9 @@ prerequisites:
 
 ## Video Lectures:
 
-### [ecture 9: View Controller Lifecycle and Scroll View](https://www.youtube.com/watch?v=tLsPoVDXDG8&list=PLPA-ayBrweUzGFmkT_W65z64MoGnKRZMq&index=10)
+### [Lecture 9: View Controller Lifecycle and Scroll View](https://www.youtube.com/watch?v=tLsPoVDXDG8&list=PLPA-ayBrweUzGFmkT_W65z64MoGnKRZMq&index=10)
 
-### [Lecture 10: Multithreading and Autolayout](https://www.youtube.com/watch?v=kl2bDYiSgoc&list=PLPA-ayBrweUzGFmkT_W65z64MoGnKRZMq&index=11)
+### [Lecture 10: Multithreading and Auto-layout](https://www.youtube.com/watch?v=kl2bDYiSgoc&list=PLPA-ayBrweUzGFmkT_W65z64MoGnKRZMq&index=11)
 
 ### [Lecture 11: Drag and Drop, Table View and Collection View](https://www.youtube.com/watch?v=M3X9o9wbn9o&list=PLPA-ayBrweUzGFmkT_W65z64MoGnKRZMq&index=13)
 
