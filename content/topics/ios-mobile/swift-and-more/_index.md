@@ -1,7 +1,9 @@
 ---
 title: Swift and More
 ready: True
-hard: ["syllabuses/hybrid-mobile-short"]
+prerequisites:
+ hard: ["topics/ios-mobile/swift-and-more"]
+ soft: []
 ---
 
 ## Slides:

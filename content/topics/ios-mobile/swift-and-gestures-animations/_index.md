@@ -1,7 +1,9 @@
 ---
 title: More Swift, Gestures and Animations
 ready: True
-hard: ["content/topics/ios-mobile/swift-and-more"]
+prerequisites:
+ hard: ["topics/ios-mobile/swift-and-more"]
+ soft: []
 ---
 
 ## Slides
@@ -22,7 +24,7 @@ hard: ["content/topics/ios-mobile/swift-and-more"]
 
 ### [Lecture 5: Drawing](https://www.youtube.com/watch?v=h2hm2AtanRU&list=PLPA-ayBrweUzGFmkT_W65z64MoGnKRZMq&index=6)
 
-### [LLecture 6: Multitouch](https://www.youtube.com/watch?v=_a0X5J3M2I8&list=PLPA-ayBrweUzGFmkT_W65z64MoGnKRZMq&index=7)
+### [Lecture 6: Multitouch](https://www.youtube.com/watch?v=_a0X5J3M2I8&list=PLPA-ayBrweUzGFmkT_W65z64MoGnKRZMq&index=7)
 
 ### [Lecture 7: Multiple MVCs, Timer and Animation](https://www.youtube.com/watch?v=5B5IRK9wYjI&list=PLPA-ayBrweUzGFmkT_W65z64MoGnKRZMq&index=8)
 
