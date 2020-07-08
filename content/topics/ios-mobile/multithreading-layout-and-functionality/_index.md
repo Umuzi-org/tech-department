@@ -38,4 +38,4 @@ prerequisites:
 
 ### [Friday Session 2: Github and Source Control Workflow](https://www.youtube.com/watch?v=LvhXql24EOs&list=PLPA-ayBrweUzGFmkT_W65z64MoGnKRZMq&index=12)
 
-### [Reading Assignment 1: Intro to Swift](Reading%201_%20Intro%20to%20Swift.pdf)
+### [Reading Assignment 2: Intro to Swift](Reading%202_%20Intro%20to%20Swift.pdf)
