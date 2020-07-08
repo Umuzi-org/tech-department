@@ -8,10 +8,53 @@ title: iOS Mobile Development
 
 ## Swift and More
 
-- Topic : iOS Overview (Lecture 1)
-- Topic : MVC (Lecture 2)
-- Topic : Swift Development and other Tools (Lecture 3)
+- Topic : iOS Overview 
+- Topic : MVC 
+- Topic : Swift Development and other Tools 
 - {{% contentlink "projects/ios-mobile/swift-and-more" %}}
 
 
-## Part 2 [ToDo]
+## More Swift and Gestures
+
+- Topic : Data Structures, Protocols, Delegation, Strings, Function Types, Closure
+
+- Topic : Miscellaneous, Views, Demo (enum)
+ 
+- Topic : Views continued, Gestures
+ 
+- Topic : Multiple MVCs, Timer, Animation
+ 
+- Topic : Animation
+
+- {{% contentlink "projects/ios-mobile/swift-and-gestures-animations" %}}
+
+
+## Multithreading Layout and Functionality 
+
+- Topic : View Controller Life Cycle, Scroll View
+ 
+- Topic : Multithreading, Auto-Layout
+ 
+- Topic : Drag and Drop UI Views
+ 
+- Topic : Emoji Art (demo) UI Text Field
+ 
+- Topic : Emoji Art, Persistence, Archiving, File System, URL, Core Data, Cloud Kit
+ 
+- Topic : More about Documents and Persistence Demo
+
+- {{% contentlink "projects/ios-mobile/multithreading-layout-and-functionality" %}}
+
+
+## Multithreading Layout and Other Functionality
+- {{% contentlink "projects/ios-mobile/timer-segues-autolayout" %}}
+
+
+## Drag and Drop, Multithreading and Delegation
+
+- {{% contentlink "projects/ios-mobile/drag-and-drop-multithreading-delegation" %}}
+
+
+## Codable, File Manager, URL
+
+- {{% contentlink "projects/ios-mobile/codable-file-manager-url" %}}

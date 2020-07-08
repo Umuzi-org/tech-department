@@ -1,5 +1,5 @@
 ---
-title: Multithreading Layout and Other Functionality
+title: Drag and Drop, Multithreading and Delegation
 ready: True
 prerequisites:
   hard: ["projects/ios-mobile/timer-segues-autolayout"]

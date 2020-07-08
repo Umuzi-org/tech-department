@@ -1,5 +1,5 @@
 ---
-title: Codable, File Manager, URL etc.
+title: Codable, File Manager, URL
 ready: True
 prerequisites:
   hard: ["projects/ios-mobile/timer-segues-autolayout"]
