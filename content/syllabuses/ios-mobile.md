@@ -6,7 +6,7 @@ title: iOS Mobile Development
 
 [Stanford CS193P iOS11 Swift4](https://drive.google.com/drive/folders/1-TWZDChwwzkiGzt78QlPZDzN-j82JfR6)
 
-## Part 1
+## Swift and More
 
 - Topic : iOS Overview (Lecture 1)
 - Topic : MVC (Lecture 2)
