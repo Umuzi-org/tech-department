@@ -1,0 +1,8 @@
+---
+title: Solo Learn - More on Classes (includes encapsulation)
+ready: True
+---
+
+Complete the above mentioned module on Solo Learn
+
+https://www.sololearn.com/Course/Java/
