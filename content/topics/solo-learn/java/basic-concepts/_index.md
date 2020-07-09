@@ -1,5 +1,5 @@
 ---
-title: title: Solo Learn - Basic Concepts  
+title:  Solo Learn - Basic Concepts  
 ready: True
 ---
 
