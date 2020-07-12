@@ -3,11 +3,12 @@ title: Constraint Layout Using Layout Editor
 ready: True
 prerequisites:
   hard:
-    []
-  soft:
     [
       "projects/kotlin/user-activity"
+      "topics/kotlin/grid-layout"
     ]
+  soft:
+    []
 ---
 
 ## App overview

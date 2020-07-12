@@ -3,11 +3,11 @@ title: User Activity
 ready: True
 prerequisites:
   hard:
-    []
-  soft:
     [
       "projects/kotlin/liner-layout-using-the-layout-editor"
     ]
+  soft:
+    []
 ---
 
 ## App overview
