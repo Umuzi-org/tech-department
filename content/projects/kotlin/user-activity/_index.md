@@ -3,11 +3,7 @@ title: User Activity
 ready: True
 prerequisites:
   hard:
-    [
-      "topics/kotlin/grid-layout",
-      "topics/kotlin/basic-control-flow",
-      "topics/kotlin/basic-syntax-types",
-    ]
+    []
   soft:
     [
       "projects/kotlin/liner-layout-using-the-layout-editor"
