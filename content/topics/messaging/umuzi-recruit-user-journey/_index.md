@@ -72,7 +72,7 @@ Once you've signed your contract, you'll be an Umuzi recruit.
 
 The next phase is learning. You'll be familiar with how we do things from going through our bootcamp. We'll give you a whole lot of learning to do, and lots of projects and assessments to hone your skillz.
 
-You'll be expected to work like a real professional. You will be emerced in modern agile development practices from day 1. You'll learn hard skills, interact with your peers and overcome challenges you never thought you could.
+You'll be expected to work like a real professional. You will be immersed in modern agile development practices from day 1. You'll learn hard skills, interact with your peers and overcome challenges you never thought you could.
 
 At the end of this you'll have an NQF level 5 National Certificate in IT, and some solid, proven skills, and a network of high potential indviduals who know what you are about.
 
@@ -86,7 +86,7 @@ This is different for everyone. You and your manager will decide on a project to
 
 ### 7. Product team!
 
-As mentioned before, our recruitment portal was built by Umuzi recruits. Tilde also a project that recruits helped build. We even use machine learning pipelines built by recruits in different parts of our organisation, and all sorts of little automations that help with our day to day work.
+As mentioned before, our recruitment portal was built by Umuzi recruits. Tilde also a project that recruits helped build - you'll get to work on that pretty soon. We even use machine learning pipelines built by recruits in different parts of our organisation, and all sorts of little automations that help with our day to day work.
 
 Umuzi is a growing, evolving, innovative organisation and we have a bunch of awesome projects underway.
 
@@ -104,30 +104,34 @@ If we believe that you are work-ready then we hustle to get you an internship at
 
 Also, VERY IMPORTANT, if you don't go out for work experience for any reason at all, then you will NOT be given the top up. Umuzi will pay your R3500 per month until your contract is concluded. Unless, of course, if a new contract is signed by all parties.
 
+Historically, in pre-covid conditions, about 80% of our recruits on work experience ended up staying at the hosting companies for longer than 3 months, many of them even got offers for perminant employment.
+
 ### 9. Job time! But it's not the end...
 
-Your 12 months are up! Time to get hired.
+Your 12 months are up! Time to get hired. If your work experience hosting company didn't hire you, then we work to find you another oppertunity.
 
 We have a team of recruitment ninjas and a large network of employer partnerts. So we're pretty good at placing people.
 
 And if your job doesn't last for whatever reason then you can get in touch with us and we'll hook you up again.
 
-Of course you need to be "work ready" for us to do this.
+Of course you need to be a "work ready" professional for us to do this.
 
-### 10. Ongoing access to our services and syllabus
+### 10. Alumni Program
 
-Once you have gone through our program you are one of the family and we'll continue supporting your career.
+Once you have gone through our program you are one of the family and we'll continue supporting your career. You will have ongoing access to our services and syllabus.
 
 If you are ever in need of a job, let us know and we'll try find you a spot with one of our partners. Our recruitment ninjas are always happy to assist, and our network of employer organisations keeps growing.
 
-And we will support your continued learning by keeping our platform and syllabus open to you. You'll be able to register for other courses that we run, some of those courses will be advanced specialisations. When you complete these courses we'll be able to give you our stamp of approval.
+On top of that, we will support your continued learning by keeping our platform and syllabus open to you. You'll be able to register for other courses that we run, some of those courses will be advanced specialisations. When you complete these courses we'll be able to give you our stamp of approval.
 
 Our course offerings grow all the time. Maybe you are a web dev who wants to learn about cross platform mobile development, we'll hook you up! Maybe you are a data-scientist and you want to learn about productionising your pipelines, we got you!
 
 ### 11. Pay it forward
 
-Umuzi is dedicated to opening doors for you! After you get your first real job, we'll need you to help us open doors for other high potential people like you. Basically, all the stuff we do is quite expensive and we need to stay afloat. So our graduates help out by giving back a small portion of their salary for a little while. In total the required pay-it-forward amount is R34500, although some people choose to give more.
+Umuzi is dedicated to opening doors for you! After you get your first real job, we'll need you to help us open doors for other high potential people like you. Basically, all the stuff we do is quite expensive and we need to stay afloat. So our graduates help out by giving back a small portion of their salary for a little while.
 
-Umuzi will work out a repayment plan that works for you.
+Umuzi will work out a repayment plan that works for your pocket. Basically how it works is that you wont need to pay unless you are earning enough to do so. And payments will be calculated as a portion of your paycheck. We want to make sure that we don't put you into a tough position so we stretch this out a bit instead of expecting all the money at once.
+
+In total the required pay-it-forward amount is R34500, although some people choose to give more.
 
 All funds paid back to Umuzi from recruits goes into an to supporting the next generation of talent.
