@@ -1,5 +1,5 @@
 ---
-title: Maths for Programmers 
+title: Pre-Algebra
 ready: True
 prerequisites:
   hard: ["topics/khan-academy/cc-seventh-grade-math"]

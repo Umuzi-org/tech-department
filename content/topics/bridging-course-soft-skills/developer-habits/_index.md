@@ -7,5 +7,4 @@ The desire for success is, arguably, part of our genetic make-up. Being successf
 
 But how does a developer do this? Some people think developers are magicians and by pressing some buttons they let the computer do the magic. The reality is far more complex; we have to write solid code by following certain principles, test our work, and keep up to date with the latest techniques.
 
-### Watch
 https://www.youtube.com/watch?v=DwQ7psiU23I&list=PL0zVEGEvSaeGY3RMjGo4CgMPN42_U9Glu
