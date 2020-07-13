@@ -2,11 +2,10 @@
 title: iOS Mobile Development
 ---
 
-## Course Content Link
 
 [Stanford CS193P iOS11 Swift4](https://drive.google.com/drive/folders/1-TWZDChwwzkiGzt78QlPZDzN-j82JfR6)
 
-## Swift and More
+### Swift and More
 
 - Topic : iOS Overview 
 - Topic : MVC 
@@ -14,7 +13,7 @@ title: iOS Mobile Development
 - {{% contentlink "projects/ios-mobile/swift-and-more" %}}
 
 
-## More Swift and Gestures
+### More Swift and Gestures
 
 - Topic : Data Structures, Protocols, Delegation, Strings, Function Types, Closure
 
@@ -29,7 +28,7 @@ title: iOS Mobile Development
 - {{% contentlink "projects/ios-mobile/swift-and-gestures-animations" %}}
 
 
-## Multithreading Layout and Functionality 
+### Multithreading Layout and Functionality 
 
 - Topic : View Controller Life Cycle, Scroll View
  
@@ -43,18 +42,15 @@ title: iOS Mobile Development
  
 - Topic : More about Documents and Persistence Demo
 
+### Topic related projects
+
 - {{% contentlink "projects/ios-mobile/multithreading-layout-and-functionality" %}}
 
 
-## Multithreading Layout and Other Functionality
 - {{% contentlink "projects/ios-mobile/timer-segues-autolayout" %}}
 
 
-## Drag and Drop, Multithreading and Delegation
-
 - {{% contentlink "projects/ios-mobile/drag-and-drop-multithreading-delegation" %}}
 
-
-## Codable, File Manager, URL
 
 - {{% contentlink "projects/ios-mobile/codable-file-manager-url" %}}
