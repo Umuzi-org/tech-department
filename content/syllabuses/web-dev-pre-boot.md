@@ -2,6 +2,7 @@
 title: Web development boot camp pre-learning
 ---
 
+- {{% contentlink "topics/messaging/umuzi-recruit-user-journey" %}}
 - {{% contentlink "topics/messaging/pre-bootcamp-intro" %}}
 - {{% contentlink "topics/messaging/pre-bootcamp-intro-web-dev" %}}
 - {{% contentlink "topics/bootcamp/web-dev-enviroment-setup" %}}
