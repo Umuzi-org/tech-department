@@ -29,9 +29,9 @@ Although paintings are static, your app will be interactive! The app consists of
   
 ### ConstraintLayout
 
-A `ConstraintLayou`t is a `ViewGroup` that allows you to position and size child views in a flexible way. A constraint layout allows you to create large, complex layouts with flat view hierarchies (no nested view groups). To build a constraint layout, you can use the Layout Editor to add constraints, and to drag-and-drop views. You don't need to edit the XML.   
+A `ConstraintLayout`t is a `ViewGroup` that allows you to position and size child views in a flexible way. A constraint layout allows you to create large, complex layouts with flat view hierarchies (no nested view groups). To build a constraint layout, you can use the Layout Editor to add constraints, and to drag-and-drop views. You don't need to edit the XML.   
 
-`Note: ConstraintLayout is available as a support library, which is available in API level 9 and higher.`
+Note: `ConstraintLayout` is available as a support library, which is available in API level 9 and higher.
 
 ### Constraints
 
@@ -100,7 +100,7 @@ The view inspector, shown in the screenshot below, is a part of the Attributes p
 
 ![](fd4bb323c90d70ea.png)
 
-`Tip: The view inspector is available only for views that are inside a `ConstraintLayout`.`
+Tip: The view inspector is available only for views that are inside a `ConstraintLayout`.
 
 ### Constraint bias
 
@@ -126,7 +126,7 @@ To adjust the bias, you can drag the bias sliders ![](14f369688bbc92a0.png) in t
 
 - ![](9ca6bced19ddc559.png) **Match Constraints**: The view expands as much as possible to meet the constraints on each side, after accounting for the view's own margins. This constraint is very flexible, because it allows the layout to adapt to different screen sizes and orientations. By letting the view match the constraints, you need fewer layouts for the app you're building.
 
-1 - In the view inspector, change the left and right constraints to **Match Constraints** ![](9ca6bced19ddc559.png). (Click the arrow symbol to toggle between the constraint types.)
+1 - In the view inspector, change the left and right constraints to **Match Constraints** ![](9ca6bced19ddc559.png) (Click the arrow symbol to toggle between the constraint types.)
 
 ![](cee5c4478192c328.png)
 
@@ -283,7 +283,7 @@ When you create a constraint this way, the constraint is attached to the parent 
 
 In this case, you're assigning fixed sizes for the height and width of the text view. Assign fixed sizes for height and width only if your view should always have a fixed size on all devices and layouts.
 
-`Important: When developing real-world apps, use flexible constraints for the height and width of your UI elements, whenever possible. For example, use `match_constraint` or `wrap_content`. The more fixed-size UI elements you have in your app, the less adaptive your layout is for different screen configurations.`
+Important: When developing real-world apps, use flexible constraints for the height and width of your UI elements, whenever possible. For example, use `match_constraint` or `wrap_content`. The more fixed-size UI elements you have in your app, the less adaptive your layout is for different screen configurations.
 
 3 - Run your app. You should see two green `TextView` views, one above the other, similar to the following screenshot:
 
