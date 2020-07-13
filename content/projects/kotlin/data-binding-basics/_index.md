@@ -2,14 +2,8 @@
 title: Data Binding Basics
 ready: True
 prerequisites:
-  hard:
-    [
-      "topics/kotlin/data-binding" 
-      "topics/kotlin/data-classes"  
-      "projects/kotlin/constraint-layout-using-layout-editor" 
-    ]
-  soft:
-    []
+  hard: ["topics/kotlin/data-binding", "topics/kotlin/data-classes", "projects/kotlin/constraint-layout-using-layout-editor"]
+  soft: []
 ---
 
 ## App overview

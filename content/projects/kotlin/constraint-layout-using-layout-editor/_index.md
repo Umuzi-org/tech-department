@@ -4,8 +4,8 @@ ready: True
 prerequisites:
   hard:
     [
-      "projects/kotlin/user-activity"
-      "topics/kotlin/grid-layout"
+      "projects/kotlin/user-activity",
+      "topics/kotlin/grid-layout",
     ]
   soft:
     []

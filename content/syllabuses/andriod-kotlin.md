@@ -13,7 +13,7 @@ title: Android Development With Kotlin
 - {{% contentlink "topics/kotlin/grid-layout" %}}
 - {{% contentlink "topics/kotlin/data-binding" %}}
 - {{% contentlink "topics/kotlin/data-classes" %}}
-- {{% contentlink "projects/kotlin/data-binding-basics"}}
+- {{% contentlink "projects/kotlin/data-binding-basics" %}}
 
 ## Part 3
 
