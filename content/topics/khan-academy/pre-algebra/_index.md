@@ -1,6 +1,9 @@
 ---
 title: Maths for Programmers 
 ready: True
+prerequisites:
+  hard: ["topics/khan-academy/cc-seventh-grade-math"]
+  soft: []
 tags: ["Maths"]
 ---
 

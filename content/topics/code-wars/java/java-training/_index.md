@@ -1,6 +1,9 @@
 ---
-title: Code wars - Java 
+title: Code wars - Java Training
 ready: True
+prerequisites:
+  hard: ["topics/code-wars/java/java-beginner"]
+  soft: []
 ---
 
 Note, the following links are Java specific, but codewars content exists for many other languages. 

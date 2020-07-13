@@ -1,6 +1,9 @@
 ---
 title: Advanced OOP - Design Patterns
 ready: True
+prerequisites:
+  hard: ["topics/bridging-course-hard-skills/oop-concepts"]
+  soft: []
 tags: ["OOP"]
 ---
 
