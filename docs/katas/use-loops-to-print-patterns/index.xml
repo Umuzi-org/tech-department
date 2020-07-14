@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>use loops to print-patterns on Documentation for Umuzi Tech Department</title>
+    <link>/tech-department/katas/use-loops-to-print-patterns/</link>
+    <description>Recent content in use loops to print-patterns on Documentation for Umuzi Tech Department</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="/tech-department/katas/use-loops-to-print-patterns/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>C shape</title>
+      <link>/tech-department/katas/use-loops-to-print-patterns/c-shape/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/katas/use-loops-to-print-patterns/c-shape/</guid>
+      <description> C SHAPE Write a function that takes in number as argument and draws the C pattern/shape Input
+let cPattern(5) =&amp;gt; Expected output:  def cPattern(5):  Input
+***** * * * *****  </description>
+    </item>
+    
+    <item>
+      <title>Squares</title>
+      <link>/tech-department/katas/use-loops-to-print-patterns/squares/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/katas/use-loops-to-print-patterns/squares/</guid>
+      <description> Print (triangles &amp;amp; squares) using loops 1. Write a function that takes in number as argument and prints a square
+Input
+let square(n) =&amp;gt;  def square(n):  Output
+expected output: remember to use &amp;quot;*&amp;quot; ##### ##### ##### ##### #####  2 Write a function that takes in number as argument and prints a hollow square in the center
+Input
+let square(n) =&amp;gt;  def square(n):  Output
+expected output: remember to use &amp;quot;*&amp;quot; ##### # # # # # # #####  </description>
+    </item>
+    
+    <item>
+      <title>Triangles</title>
+      <link>/tech-department/katas/use-loops-to-print-patterns/triangles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/katas/use-loops-to-print-patterns/triangles/</guid>
+      <description>Print (triangles &amp;amp; squares) using loops 1. Write a function that takes in number as argument and draws a right angled triangle using the &amp;ldquo; * &amp;ldquo; characters. If the input is 4, then the output is a traingle with height 4
+Input
+let triangle(4) =&amp;gt;  def triangle(n):  Output
+expected output: RIGHT ANGLE TRIANGLE * ** *** ****  2. Write a function that takes in number as argument and draws a reflection/mirror of right angled triangle above using the &amp;ldquo; * &amp;ldquo; characters .</description>
+    </item>
+    
+  </channel>
+</rss>

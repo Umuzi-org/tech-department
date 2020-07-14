@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Umuzi Tech Department on Documentation for Umuzi Tech Department</title>
+    <link>/tech-department/</link>
+    <description>Recent content in Umuzi Tech Department on Documentation for Umuzi Tech Department</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="/tech-department/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>C shape</title>
+      <link>/tech-department/katas/use-loops-to-print-patterns/c-shape/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/katas/use-loops-to-print-patterns/c-shape/</guid>
+      <description> C SHAPE Write a function that takes in number as argument and draws the C pattern/shape Input
+let cPattern(5) =&amp;gt; Expected output:  def cPattern(5):  Input
+***** * * * *****  </description>
+    </item>
+    
+    <item>
+      <title>Ceasar cipher</title>
+      <link>/tech-department/katas/ceasar-cipher/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/katas/ceasar-cipher/</guid>
+      <description>What is ceasar cipher?
+ Caesar Cipher:
+Is a type of substitution cipher encryption in which each letter in the plaintext is &amp;lsquo;shifted&amp;rsquo; a certain number of places down the alphabet. For example, with a shift of 1, A would be replaced by B, B would become C, and so on. The method is named after Julius Caesar, who apparently used it to communicate with his generals.
+ Example
+ To pass an encrypted message from one person to another, it is first necessary that both parties have the &amp;lsquo;key&amp;rsquo; for the cipher, so that the sender may encrypt it and the receiver may decrypt it.</description>
+    </item>
+    
+    <item>
+      <title>Compound interest</title>
+      <link>/tech-department/katas/compound-interest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/katas/compound-interest/</guid>
+      <description>compound Interest 1. Write a function that calculates compount interest. It should return a number.
+Eg if I have R100 in a bank account and I get 1% interest every month, I can see how much money I will have in my account at the end of each month like so:
+Try it with a loop. Try it with recursion.
+// JavaScript function finalAmount(startAmount,interest,iterations){ // clever things } finalAmount(100,0.01,1) // 101.</description>
+    </item>
+    
+    <item>
+      <title>Fibonacci sequence</title>
+      <link>/tech-department/katas/fibonacci-sequence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/katas/fibonacci-sequence/</guid>
+      <description>What is fibonacci sequence?
+ Fibonacci Sequence: is the series of numbers where the next number is found by adding up the 2 numbers before it.
+ TASK
+1. Write a function, fibonacci(n) that takes in a number/int argument (n) and returns the first nth terms of the sequence.
+Input
+fibonacci(12)  Output
+Expected output: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89 in this case n = 2:  </description>
+    </item>
+    
+    <item>
+      <title>Palindrome</title>
+      <link>/tech-department/katas/palindrome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/katas/palindrome/</guid>
+      <description>Palindromes Write a function that detects if an inputted string is a palindrome or not. It should return a boolean result.
+// JavaScript isPalindrome(&amp;quot;mom&amp;quot;) // returns true isPalindrome(&amp;quot;Mom&amp;quot;) // returns false isPalindrome(&amp;quot;rats live on no evil star&amp;quot;) // returns true isPalindrome(&amp;quot;rats live on no evil star.&amp;quot;) // returns false  //Py def is_palindrome(&amp;quot;mom&amp;quot;): # returns True def is_palindrome(&amp;quot;Mom&amp;quot;): # returns False def is_palindrome(&amp;quot;rats live on no evil star&amp;quot;): # returns True def is_palindrome(&amp;quot;rats live on no evil star.</description>
+    </item>
+    
+    <item>
+      <title>Squares</title>
+      <link>/tech-department/katas/use-loops-to-print-patterns/squares/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/katas/use-loops-to-print-patterns/squares/</guid>
+      <description> Print (triangles &amp;amp; squares) using loops 1. Write a function that takes in number as argument and prints a square
+Input
+let square(n) =&amp;gt;  def square(n):  Output
+expected output: remember to use &amp;quot;*&amp;quot; ##### ##### ##### ##### #####  2 Write a function that takes in number as argument and prints a hollow square in the center
+Input
+let square(n) =&amp;gt;  def square(n):  Output
+expected output: remember to use &amp;quot;*&amp;quot; ##### # # # # # # #####  </description>
+    </item>
+    
+    <item>
+      <title>String reverse</title>
+      <link>/tech-department/katas/string-reverse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/katas/string-reverse/</guid>
+      <description> String reverse Make a function that can reverse a string
+//javascript reverse(&amp;quot;hello&amp;quot;) =&amp;gt; // Expected output olleh  //py def reverse(&amp;quot;hello&amp;quot;): # Expected output =&amp;gt; olleh  </description>
+    </item>
+    
+    <item>
+      <title>String rotate</title>
+      <link>/tech-department/katas/string-rotate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/katas/string-rotate/</guid>
+      <description> String rotate forward/backwards Write a function that takes in string argument and n (number) argument and the rotate the given string to nth position
+//javascript rotate(&amp;quot;hello&amp;quot;,1) =&amp;gt; // Expected output: elloh rotate(&amp;quot;hello&amp;quot;,2) =&amp;gt; // Expected output: llohe rotate(&amp;quot;hello&amp;quot;,3) =&amp;gt; // Expected output: lohel rotate(&amp;quot;hello&amp;quot;,-1) =&amp;gt; // Expected output: ohell rotate(&amp;quot;hello&amp;quot;,-2) =&amp;gt; // Expected output: lohel rotate(&amp;quot;hello&amp;quot;,-3) =&amp;gt; // Expected output: llohe  //py def rotate(&amp;quot;hello&amp;quot;,1) # Expected output: elloh def rotate(&amp;quot;hello&amp;quot;,2) # Expected output: llohe def rotate(&amp;quot;hello&amp;quot;,3) # Expected output: lohel def rotate(&amp;quot;hello&amp;quot;,-1): # Expected output: ohell def rotate(&amp;quot;hello&amp;quot;,-2): # Expected output: lohel def rotate(&amp;quot;hello&amp;quot;,-3): # Expected output: llohe  </description>
+    </item>
+    
+    <item>
+      <title>Triangles</title>
+      <link>/tech-department/katas/use-loops-to-print-patterns/triangles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/katas/use-loops-to-print-patterns/triangles/</guid>
+      <description>Print (triangles &amp;amp; squares) using loops 1. Write a function that takes in number as argument and draws a right angled triangle using the &amp;ldquo; * &amp;ldquo; characters. If the input is 4, then the output is a traingle with height 4
+Input
+let triangle(4) =&amp;gt;  def triangle(n):  Output
+expected output: RIGHT ANGLE TRIANGLE * ** *** ****  2. Write a function that takes in number as argument and draws a reflection/mirror of right angled triangle above using the &amp;ldquo; * &amp;ldquo; characters .</description>
+    </item>
+    
+    <item>
+      <title>Android Development With Kotlin</title>
+      <link>/tech-department/syllabuses/andriod-kotlin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/syllabuses/andriod-kotlin/</guid>
+      <description> Part 1  Basic Introduction and Control Flow.  TOPICS: Basic Control Flow   PROJECTS: Linear layout using the Layout Editor   Part 2  Classes and Objects  TOPICS: Sealed Classes   Part 3  Generics, nested and enum classes.  TOPICS: Enum Classes   Part 4  Delegation and delegated properties.  TOPICS: Delegated Properties   </description>
+    </item>
+    
+    <item>
+      <title>Data Engineering</title>
+      <link>/tech-department/syllabuses/data-eng/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/syllabuses/data-eng/</guid>
+      <description>Introduction to NCIT curriculum NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile &amp;amp; Scrum   WORKSHOPS: Agile and Scrum  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   PROJECTS: [TODO] Beginner Linux challenges   TOPICS: Python self-learning   TOPICS: Clean Code for Python   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  TOPICS: Automate the boring stuff: Chapter 0 – Introduction   TOPICS: Automate the boring stuff: Chapter 1 – Python Basics   TOPICS: Automate the boring stuff: Chapter 2 – Flow Control   TOPICS: Automate the boring stuff: Chapter 3 – Functions   PROJECTS: Level 1 programming katas   PROJECTS: Build your first personal website   TOPICS: How to ask for help with your code   WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)   TOPICS: Automate the boring stuff: Chapter 4 – Lists   TOPICS: Python Lists in depth   TOPICS: Automate the boring stuff: Chapter 5 – Dictionaries and Structuring Data   TOPICS: Automate the boring stuff: Chapter 6 – Manipulating Strings   TOPICS: Automate the boring stuff: Chapter 7 – Pattern Matching with Regular Expressions   TOPICS: [TODO] Python OOP basics   TOPICS: Automated Testing in Python   TOPICS: [TODO] Virtual Environments   PROJECTS: Animals Part 2.</description>
+    </item>
+    
+    <item>
+      <title>Data Science</title>
+      <link>/tech-department/syllabuses/data-sci/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/syllabuses/data-sci/</guid>
+      <description> Introduction to NCIT curriculum NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile &amp;amp; Scrum   WORKSHOPS: Agile and Scrum  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   PROJECTS: [TODO] Beginner Linux challenges   TOPICS: Python self-learning   TOPICS: Clean Code for Python   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  PROJECTS: Level 1 programming katas   PROJECTS: Build your first personal website   TOPICS: How to ask for help with your code  NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)   TOPICS: [TODO] Python OOP basics   TOPICS: Automated Testing in Python   TOPICS: [TODO] Virtual Environments   WORKSHOPS: Survey design   WORKSHOPS: Google forms like a boss   PROJECTS: Assertive programming kata   PROJECTS: Data Visualisation Projects   WORKSHOPS: Data Ethics  NCIT 11: Test-driven development  PROJECTS: string-calculator   PROJECTS: Statistical Thinking   TOPICS: The Tech Landscape Terminology  NCIT 12: Business and technology  PROJECTS: Data Wrangling   PROJECTS: Cross-validation &amp;amp; Simple Linear Regression   PROJECTS: Multivariate Linear Regression  NCIT 13: Object-oriented programming  TOPICS: How the internet works   TOPICS: Data Ethics and Privacy  NCIT 05: History of the Internet NCIT 08: Pseudocode and documentation  PROJECTS: OOP for data science   PROJECTS: Plotly Dashboard Assignment  NCIT 14: Database Development  PROJECTS: SQL  NCIT 15: Analytics, Surveys, and Reports / Input &amp;amp; Output  PROJECTS: Logistic regression   WORKSHOPS: Agile and Scrum   PROJECTS: Decision Trees  NCIT 16: Thinking like a machine / Boolean algebra, logic NCIT 17: Search and sort techniques NCIT 18: Agile project management NCIT 19: Agile meetings NCIT 20: Managing the Software Development Process  TOPICS: optimizations and big-O  NCIT Summative assessment  WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap   TOPICS: Database Comparison   PROJECTS: K-Means Clustering Assignment   PROJECTS: Natural language processing   </description>
+    </item>
+    
+    <item>
+      <title>Data Science boot camp pre-learning</title>
+      <link>/tech-department/syllabuses/data-sci-prebootcamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/syllabuses/data-sci-prebootcamp/</guid>
+      <description>  TOPICS: Introduction to Bootcamp Preparation phase   TOPICS: The journey of an Umuzi recruit   TOPICS: Extra bootcamp preparation instructions for data science   TOPICS: Statistics and Probability - Quantitative data analysis   TOPICS: Data Science bootcamp setup   TOPICS: Bash for bootcamp   PROJECTS: Git Basic Exercises   TOPICS: Useful Git commands   TOPICS: Scientific Computing with Python   TOPICS: Data Analysis with Python   PROJECTS: Pre bootcamp challenges   </description>
+    </item>
+    
+    <item>
+      <title>Hybrid mobile dev short course</title>
+      <link>/tech-department/syllabuses/hybrid-mobile-short/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/syllabuses/hybrid-mobile-short/</guid>
+      <description>Part 1   TOPICS: Intro to hybrid mobile   TOPICS: Introduction to Typescript   TOPICS: Introduction to web design   PROJECTS: Level 1 programming katas   Part 2   TOPICS: Jasmine Unit testing   PROJECTS: Animals Part 2. Adding Tests   PROJECTS: Add logging to password checker   Part 3   TOPICS: Intro to Angular   PROJECTS: Angular Tutorial   PROJECTS: Add Redux to your semitone game   Part 4   TOPICS: Angular Elements   PROJECTS: Memory game using Angular Material   PROJECTS: [TODO] Game of life: Angular elements   TODO: Wiremock Connecting to mock services Connecting to Java backend services Unit testing.</description>
+    </item>
+    
+    <item>
+      <title>Java Basics</title>
+      <link>/tech-department/syllabuses/java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/syllabuses/java/</guid>
+      <description>Introduction to NCIT curriculum - NCIT 01: Conducting research and user interviews - NCIT 02: Reporting - NCIT 03: Research presentation - TOPICS: Agile &amp;amp; Scrum - WORKSHOPS: Agile and Scrum - NCIT 18: Agile project management - NCIT 19: Agile meetings - WORKSHOPS: How to be a professional - PROJECTS: [TODO] Beginner Linux challenges - TOPICS: Python self-learning - TOPICS: Clean Code for Python - PROJECTS: Git Basic Exercises - NCIT 04: Version control (GIT) for teamwork - PROJECTS: Level 1 programming katas - PROJECTS: Build your first personal website - TOPICS: How to ask for help with your code - WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)  OOP</description>
+    </item>
+    
+    <item>
+      <title>Web Development</title>
+      <link>/tech-department/syllabuses/web-dev/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/syllabuses/web-dev/</guid>
+      <description>Introduction to NCIT curriculum
+ NCIT 01: Conducting research and user interviews
+ NCIT 02: Reporting
+ NCIT 03: Research presentation
+  TOPICS: Agile &amp;amp; Scrum   WORKSHOPS: Agile and Scrum   TOPICS: Basic Javascript   WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 18: Agile project management
+ NCIT 19: Agile meetings
+  WORKSHOPS: How to be a professional   PROJECTS: [TODO] Beginner Linux challenges   TOPICS: ES6   TOPICS: Debugging   TOPICS: Web Dev learning materials   TOPICS: Clean Code   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork</description>
+    </item>
+    
+    <item>
+      <title>Web development boot camp</title>
+      <link>/tech-department/syllabuses/web-dev-boot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/syllabuses/web-dev-boot/</guid>
+      <description>  TOPICS: [TODO] Success in bootcamp   TOPICS: [TODO] Introduction to gnomio   TOPICS: [TODO] Introduction to Tilde TODO: Create Content (Multiple instruction videos)  TOPICS: [TODO] Pseudocode and documentation   PROJECTS: Level 1 programming katas   PROJECTS: Bootcamp Writing Assignment   PROJECTS: Assertive programming kata   </description>
+    </item>
+    
+    <item>
+      <title>Web development boot camp pre-learning</title>
+      <link>/tech-department/syllabuses/web-dev-pre-boot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/syllabuses/web-dev-pre-boot/</guid>
+      <description>  TOPICS: The journey of an Umuzi recruit   TOPICS: Introduction to Bootcamp Preparation phase   TOPICS: Extra bootcamp preparation instructions for web devs   TOPICS: Web dev bootcamp setup   TOPICS: Basic Javascript   TOPICS: Bash for bootcamp   PROJECTS: Git Basic Exercises   TOPICS: Useful Git commands   PROJECTS: Pre bootcamp challenges   </description>
+    </item>
+    
+    <item>
+      <title>iOS Mobile Development</title>
+      <link>/tech-department/syllabuses/ios-mobile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/syllabuses/ios-mobile/</guid>
+      <description>Course Content Link Stanford CS193P iOS11 Swift4
+Swift and More  Topic : iOS Overview Topic : MVC Topic : Swift Development and other Tools  PROJECTS: Swift and More   More Swift and Gestures  Topic : Data Structures, Protocols, Delegation, Strings, Function Types, Closure
+ Topic : Miscellaneous, Views, Demo (enum)
+ Topic : Views continued, Gestures
+ Topic : Multiple MVCs, Timer, Animation
+ Topic : Animation</description>
+    </item>
+    
+  </channel>
+</rss>
