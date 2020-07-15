@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dom Manipulation on Documentation for Umuzi Tech Department</title>
+    <link>/tech-department/tags/dom-manipulation/</link>
+    <description>Recent content in Dom Manipulation on Documentation for Umuzi Tech Department</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="/tech-department/tags/dom-manipulation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Memory game in vanilla js</title>
+      <link>/tech-department/projects/memory-game-vanilla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/projects/memory-game-vanilla/</guid>
+      <description>Here is an example of a memory game: http://dkmgames.com/memory/pairsrun.php
+Instructions Create a Memory game MVP. Requirements:
+ Take a moment to google MVP. If you add unnecessary features we&amp;rsquo;ll ask you to remove them make use of simple dom elements, no fancy graphics needed or canvas stuff a single player can play the game board is a pre-defined size board allows one set of symbols or images to be randomly hidden  Build your game in a TDD manner.</description>
+    </item>
+    
+  </channel>
+</rss>

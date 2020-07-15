@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kafka on Documentation for Umuzi Tech Department</title>
+    <link>/tech-department/tags/kafka/</link>
+    <description>Recent content in Kafka on Documentation for Umuzi Tech Department</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="/tech-department/tags/kafka/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python and Kafka</title>
+      <link>/tech-department/projects/python-specific/kafka/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/projects/python-specific/kafka/</guid>
+      <description>The first step is to create an &amp;ldquo;app&amp;rdquo; on twitter. https://developer.twitter.com/en/apps
+And then in your virtualenv, install these dependencies:
+pip install kafka-python pip install python-twitter pip install tweepy  Create a topic. Pick something you are interested in. For example you might want to collect tweets about data-engineering, covid-19, or space travel. Whatever you want :)
+Write a script that will print tweets to standard out, and also publish them to kafka.</description>
+    </item>
+    
+  </channel>
+</rss>

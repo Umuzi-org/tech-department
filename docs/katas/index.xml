@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Katas on Documentation for Umuzi Tech Department</title>
+    <link>/tech-department/katas/</link>
+    <description>Recent content in Katas on Documentation for Umuzi Tech Department</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="/tech-department/katas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ceasar cipher</title>
+      <link>/tech-department/katas/ceasar-cipher/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/katas/ceasar-cipher/</guid>
+      <description>What is ceasar cipher?
+ Caesar Cipher:
+Is a type of substitution cipher encryption in which each letter in the plaintext is &amp;lsquo;shifted&amp;rsquo; a certain number of places down the alphabet. For example, with a shift of 1, A would be replaced by B, B would become C, and so on. The method is named after Julius Caesar, who apparently used it to communicate with his generals.
+ Example
+ To pass an encrypted message from one person to another, it is first necessary that both parties have the &amp;lsquo;key&amp;rsquo; for the cipher, so that the sender may encrypt it and the receiver may decrypt it.</description>
+    </item>
+    
+    <item>
+      <title>Compound interest</title>
+      <link>/tech-department/katas/compound-interest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/katas/compound-interest/</guid>
+      <description>compound Interest 1. Write a function that calculates compount interest. It should return a number.
+Eg if I have R100 in a bank account and I get 1% interest every month, I can see how much money I will have in my account at the end of each month like so:
+Try it with a loop. Try it with recursion.
+// JavaScript function finalAmount(startAmount,interest,iterations){ // clever things } finalAmount(100,0.01,1) // 101.</description>
+    </item>
+    
+    <item>
+      <title>Fibonacci sequence</title>
+      <link>/tech-department/katas/fibonacci-sequence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/katas/fibonacci-sequence/</guid>
+      <description>What is fibonacci sequence?
+ Fibonacci Sequence: is the series of numbers where the next number is found by adding up the 2 numbers before it.
+ TASK
+1. Write a function, fibonacci(n) that takes in a number/int argument (n) and returns the first nth terms of the sequence.
+Input
+fibonacci(12)  Output
+Expected output: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89 in this case n = 2:  </description>
+    </item>
+    
+    <item>
+      <title>Palindrome</title>
+      <link>/tech-department/katas/palindrome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/katas/palindrome/</guid>
+      <description>Palindromes Write a function that detects if an inputted string is a palindrome or not. It should return a boolean result.
+// JavaScript isPalindrome(&amp;quot;mom&amp;quot;) // returns true isPalindrome(&amp;quot;Mom&amp;quot;) // returns false isPalindrome(&amp;quot;rats live on no evil star&amp;quot;) // returns true isPalindrome(&amp;quot;rats live on no evil star.&amp;quot;) // returns false  //Py def is_palindrome(&amp;quot;mom&amp;quot;): # returns True def is_palindrome(&amp;quot;Mom&amp;quot;): # returns False def is_palindrome(&amp;quot;rats live on no evil star&amp;quot;): # returns True def is_palindrome(&amp;quot;rats live on no evil star.</description>
+    </item>
+    
+    <item>
+      <title>String reverse</title>
+      <link>/tech-department/katas/string-reverse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/katas/string-reverse/</guid>
+      <description> String reverse Make a function that can reverse a string
+//javascript reverse(&amp;quot;hello&amp;quot;) =&amp;gt; // Expected output olleh  //py def reverse(&amp;quot;hello&amp;quot;): # Expected output =&amp;gt; olleh  </description>
+    </item>
+    
+    <item>
+      <title>String rotate</title>
+      <link>/tech-department/katas/string-rotate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/katas/string-rotate/</guid>
+      <description> String rotate forward/backwards Write a function that takes in string argument and n (number) argument and the rotate the given string to nth position
+//javascript rotate(&amp;quot;hello&amp;quot;,1) =&amp;gt; // Expected output: elloh rotate(&amp;quot;hello&amp;quot;,2) =&amp;gt; // Expected output: llohe rotate(&amp;quot;hello&amp;quot;,3) =&amp;gt; // Expected output: lohel rotate(&amp;quot;hello&amp;quot;,-1) =&amp;gt; // Expected output: ohell rotate(&amp;quot;hello&amp;quot;,-2) =&amp;gt; // Expected output: lohel rotate(&amp;quot;hello&amp;quot;,-3) =&amp;gt; // Expected output: llohe  //py def rotate(&amp;quot;hello&amp;quot;,1) # Expected output: elloh def rotate(&amp;quot;hello&amp;quot;,2) # Expected output: llohe def rotate(&amp;quot;hello&amp;quot;,3) # Expected output: lohel def rotate(&amp;quot;hello&amp;quot;,-1): # Expected output: ohell def rotate(&amp;quot;hello&amp;quot;,-2): # Expected output: lohel def rotate(&amp;quot;hello&amp;quot;,-3): # Expected output: llohe  </description>
+    </item>
+    
+  </channel>
+</rss>

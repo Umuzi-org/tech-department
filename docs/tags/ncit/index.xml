@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ncit on Documentation for Umuzi Tech Department</title>
+    <link>/tech-department/tags/ncit/</link>
+    <description>Recent content in Ncit on Documentation for Umuzi Tech Department</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="/tech-department/tags/ncit/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction to gnomio</title>
+      <link>/tech-department/topics/ncit/intro-to-gnomio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/topics/ncit/intro-to-gnomio/</guid>
+      <description>   </description>
+    </item>
+    
+  </channel>
+</rss>

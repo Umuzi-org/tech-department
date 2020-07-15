@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Human Centered Design on Documentation for Umuzi Tech Department</title>
+    <link>/tech-department/tags/human-centered-design/</link>
+    <description>Recent content in Human Centered Design on Documentation for Umuzi Tech Department</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="/tech-department/tags/human-centered-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Intro to Human Centered Design</title>
+      <link>/tech-department/topics/ncit/intro-to-hcd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/topics/ncit/intro-to-hcd/</guid>
+      <description>Please read through this document, it is quite extensive but essential to your ncit curriculum.
+https://drive.google.com/file/d/1lkatAwTazX9RX7wSZ-BK4AXq6D-ruwOu/view?usp=sharing</description>
+    </item>
+    
+    <item>
+      <title>Intro to NCIT Curriculum</title>
+      <link>/tech-department/topics/ncit/intro-to-ncit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/topics/ncit/intro-to-ncit/</guid>
+      <description>Please read through this document, about the basics of human centered design as well as how we are approaching your NCIT curriculum:
+https://drive.google.com/file/d/1lkatAwTazX9RX7wSZ-BK4AXq6D-ruwOu/view?usp=sharing</description>
+    </item>
+    
+  </channel>
+</rss>
