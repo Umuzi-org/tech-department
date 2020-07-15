@@ -153,10 +153,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/workshops/bootcamp/interview-culture/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/apis/basics/</loc>
   </url>
   
@@ -239,12 +235,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/android/</loc>
+    <loc>/tech-department/topics/android/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/topics/android/</loc>
+    <loc>/tech-department/projects/android/</loc>
     <priority>0</priority>
   </url>
   
@@ -471,11 +467,6 @@
   
   <url>
     <loc>/tech-department/projects/bootcamp-writing-assignment/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/workshops/bootcamp/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -736,12 +727,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/</loc>
+    <loc>/tech-department/projects/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/projects/data-science-specific/</loc>
+    <loc>/tech-department/topics/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
@@ -1499,10 +1490,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/workshops/bootcamp/interview-low-code/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/ncit/115392/</loc>
   </url>
   
@@ -1563,11 +1550,11 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/ios-mobile/multithreading-layout-and-functionality/</loc>
+    <loc>/tech-department/projects/ios-mobile/timer-segues-autolayout/</loc>
   </url>
   
   <url>
-    <loc>/tech-department/projects/ios-mobile/timer-segues-autolayout/</loc>
+    <loc>/tech-department/projects/ios-mobile/multithreading-layout-and-functionality/</loc>
   </url>
   
   <url>
