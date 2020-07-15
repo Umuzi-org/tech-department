@@ -1,3 +1,3 @@
 ---
-Title: Introduction to Tilde
+title: Introduction to Tilde
 ---
