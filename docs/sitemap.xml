@@ -576,7 +576,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/kotlin/contructor-default-values/</loc>
+    <loc>/tech-department/topics/kotlin/constructor-default-values/</loc>
   </url>
   
   <url>
@@ -727,12 +727,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/data-science-specific/</loc>
+    <loc>/tech-department/topics/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/</loc>
+    <loc>/tech-department/projects/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
