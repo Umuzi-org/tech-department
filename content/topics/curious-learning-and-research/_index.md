@@ -1,5 +1,5 @@
 ---
-Title: Curious learning and research strategy
+title: Curious learning and research strategy
 ready: true
 ---
 
