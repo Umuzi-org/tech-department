@@ -609,6 +609,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/curious-learning-and-research/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/dags-with-airflow/</loc>
   </url>
   
@@ -727,12 +731,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/</loc>
+    <loc>/tech-department/projects/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/projects/data-science-specific/</loc>
+    <loc>/tech-department/topics/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   

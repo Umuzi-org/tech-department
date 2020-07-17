@@ -1022,6 +1022,13 @@
 	"content": ""
 },
 {
+	"uri": "/tech-department/topics/curious-learning-and-research/",
+	"title": "Curious learning and research strategy",
+	"tags": [],
+	"description": "",
+	"content": "   Presentation Slides\n"
+},
+{
 	"uri": "/tech-department/projects/dags-with-airflow/",
 	"title": "DAGs with Airflow",
 	"tags": ["apache-airflow"],
@@ -1218,14 +1225,14 @@
 	"content": ""
 },
 {
-	"uri": "/tech-department/topics/data-science-specific/",
+	"uri": "/tech-department/projects/data-science-specific/",
 	"title": "Data-science-specifics",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/tech-department/projects/data-science-specific/",
+	"uri": "/tech-department/topics/data-science-specific/",
 	"title": "Data-science-specifics",
 	"tags": [],
 	"description": "",
