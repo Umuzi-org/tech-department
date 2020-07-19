@@ -5,17 +5,14 @@ ready: True
 prerequisites:
   hard:
     [
-      "projects/data-science-specific/statistical-thinking",
-      "projects/data-science-specific/data-visualisation",
-      "projects/data-science-specific/cross-validation-and-simple-linear-regression",
-      "projects/data-science-specific/multivariate-linear-regression",
-      "projects/data-science-specific/logistic-regression/credit-card-approvals",
+      "projects/data-science-specific/logistic-regression/classification-assessment"
     ]
   soft:
     [
       "topics/python-self-learning",
       "topics/jupyter-notebooks-best-practices",
       "topics/data-science-specific/data-science-methodology",
+      "projects/data-science-specific/logistic-regression/credit-card-approvals"
     ]
 tags: ["logistic-regression"]
 story_points: 8
