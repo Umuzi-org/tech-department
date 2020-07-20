@@ -19,12 +19,29 @@ title: Hybrid mobile dev short course
 - {{% contentlink "projects/semitone-challenge/add-redux" %}}
 
 ## Part 4
+
 - {{% contentlink "topics/angular-elements" %}}
 - {{% contentlink "projects/memory-game-angular-material" %}}
 - {{% contentlink "projects/game-of-life-angular-elements" %}}
+- {{% contentlink "topics/redux-with-angular" %}}
+- {{% contentlink "projects/redux-with-angular" %}}
+
+## Part 5
+
+- {{% contentlink "topics/angular-testing-cucumber" %}}
+- {{% contentlink "topics/angular-mocking" %}}
+- {{% contentlink "projects/angular-testing-with-cucumber" %}}
+- {{% contentlink "projects/angular-mocking" %}}
+
+## Part 6 
+
+- {{% contentlink "topics/angular-testing-cucumber" %}}
+- {{% contentlink "projects/angular-testing-with-cucumber" %}}
+
+
+
+
 
 TODO:
-Wiremock
-Connecting to mock services
 Connecting to Java backend services
-Unit testing. Karma, Protractor, Cucumber
+
