@@ -11,6 +11,9 @@ import frontmatter
 def check_all_frontmatter(path):
     location = Path(path)
     assert location.is_dir(), location
+    assert (
+        str(location) == str(location).lower()
+    ), f"location has uppercase letters: {location}"
     for child in location.iterdir():
         if child.is_dir():
             check_all_frontmatter(child)
@@ -67,6 +70,8 @@ def check_one_file_frontmatter(file_path):
         "noform",
         "ncit_unit_standard",
         "ncit_specific_outcomes",
+        "nqf",
+        "unit_standards",
         "prerequisites",
         "tags",
         "story_points",

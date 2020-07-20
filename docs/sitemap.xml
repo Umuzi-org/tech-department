@@ -153,10 +153,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/workshops/bootcamp/interview-culture/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/apis/basics/</loc>
   </url>
   
@@ -207,6 +203,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/ios-mobile/alerts-notifications-application-life-cycle/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/ncit/115365/</loc>
   </url>
   
@@ -235,12 +235,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/android/</loc>
+    <loc>/tech-department/topics/android/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/topics/android/</loc>
+    <loc>/tech-department/projects/android/</loc>
     <priority>0</priority>
   </url>
   
@@ -475,11 +475,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/workshops/bootcamp/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tech-department/projects/first-personal-website/</loc>
   </url>
   
@@ -557,6 +552,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/ios-mobile/codable-file-manager-url/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/code-review/</loc>
   </url>
   
@@ -569,11 +568,15 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/kotlin/constraint-layout-using-layout-editor/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/ncit/115431/</loc>
   </url>
   
   <url>
-    <loc>/tech-department/topics/kotlin/contructuor-default-values/</loc>
+    <loc>/tech-department/topics/kotlin/constructor-default-values/</loc>
   </url>
   
   <url>
@@ -589,6 +592,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/ios-mobile/core-motion-and-camera/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/credits/</loc>
   </url>
   
@@ -599,6 +606,10 @@
   <url>
     <loc>/tech-department/tags/css/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/curious-learning-and-research/</loc>
   </url>
   
   <url>
@@ -627,7 +638,15 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/free-code-camp/data-analysis-with-python/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/kotlin/data-binding/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/kotlin/data-binding-basics/</loc>
   </url>
   
   <url>
@@ -661,6 +680,14 @@
   
   <url>
     <loc>/tech-department/topics/data-science-specific/data-science-methodology/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/syllabuses/data-sci-prebootcamp/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/bootcamp/data-sci-environment-setup/</loc>
   </url>
   
   <url>
@@ -783,6 +810,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/ios-mobile/drag-and-drop-multithreading-delegation/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/es6/</loc>
   </url>
   
@@ -847,6 +878,10 @@
   
   <url>
     <loc>/tech-department/topics/js-and-node-specific/expressjs/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/messaging/pre-bootcamp-intro-data-sci/</loc>
   </url>
   
   <url>
@@ -1375,6 +1410,14 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/khan-academy/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/khan-academy/statistics-and-probability/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/kinds-of-web-apis/</loc>
   </url>
   
@@ -1451,10 +1494,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/workshops/bootcamp/interview-low-code/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/ncit/115392/</loc>
   </url>
   
@@ -1498,8 +1537,32 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/ios-mobile/more-segues/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/ios-mobile/swift-and-gestures-animations/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/ios-mobile/swift-and-gestures-animations/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/tags/multiple-linear-regression/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/ios-mobile/timer-segues-autolayout/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/ios-mobile/multithreading-layout-and-functionality/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/ios-mobile/multithreading-layout-and-functionality/</loc>
   </url>
   
   <url>
@@ -1595,7 +1658,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/makeumuzibetter/</loc>
+    <loc>/tech-department/make-umuzi-better/</loc>
   </url>
   
   <url>
@@ -1800,6 +1863,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/free-code-camp/scientific-computing-with-python/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/tags/scrum/</loc>
     <priority>0</priority>
   </url>
@@ -1856,6 +1923,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/khan-academy/quantitative-data-analysis/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/tags/stats/</loc>
     <priority>0</priority>
   </url>
@@ -1874,6 +1945,10 @@
   
   <url>
     <loc>/tech-department/projects/ios-mobile/swift-and-more/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/ios-mobile/swift-and-more/</loc>
   </url>
   
   <url>
@@ -1923,6 +1998,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/messaging/umuzi-recruit-user-journey/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/ncit/115367/</loc>
   </url>
   
@@ -1966,6 +2045,10 @@
   
   <url>
     <loc>/tech-department/topics/bootcamp/git-for-bootcamp/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/kotlin/user-activity/</loc>
   </url>
   
   <url>

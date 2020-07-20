@@ -1,5 +1,5 @@
 ---
-Title: Success in bootcamp
+title: Success in bootcamp
 ready: false
 ---
 
