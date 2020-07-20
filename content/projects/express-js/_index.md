@@ -1,6 +1,8 @@
 ---
 title: "ExpressJS"
 ready: true
+submission_type: "repo"
+available_options: ["javascript"]
 ---
 
 ### Instructions

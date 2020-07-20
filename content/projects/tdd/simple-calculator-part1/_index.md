@@ -13,6 +13,8 @@ prerequisites:
 #   "topics/python-specific/automated-testing-with-pytest",
 tags: ["tdd"]
 story_points: 2
+available_options: ["any_language"]
+submission_type: repo
 ---
 
 The objective of this project is to build a calulator that can perform multiplication and addition on multiple integers. Do not build a front-end (UI). Complete this project by using a TDD approach.
@@ -31,7 +33,7 @@ Remember to make sure your tests still pass after refactoring it.
 
 Use Jasmine to test your code. _Please do not use the SpecRunner html file_ to test your code. Run Jasmine on the terminal.
 
-- {{% contentlink "topics/jasmine-unit-tests" %}} . Look under the heading: _Getting set up (like a boss)_ for instructions to set up.
+- {{% contentlink path="topics/jasmine-unit-tests" %}} . Look under the heading: _Getting set up (like a boss)_ for instructions to set up.
 
 After setting up Jasmine on the terminal, please ensure that your directory has the following:
 
@@ -101,7 +103,7 @@ Please make sure that you make proper use of gitignore. We don't want your junk 
             └── CalculatorTest.java   <-------- names are important
 ```
 
-Please refer to the following to find out more: {{% contentlink "topics/java-specific/gradle-and-intellij-project-structure" %}}
+Please refer to the following to find out more: {{% contentlink path="topics/java-specific/gradle-and-intellij-project-structure" %}}
 
 ## 1. Create an add function that can add two integers
 

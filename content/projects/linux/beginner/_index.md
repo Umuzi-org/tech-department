@@ -5,6 +5,8 @@ prerequisites:
   soft: ["workshops/intro-to-linux"]
 tags: ["bash"]
 story_points: 1
+submission_type: repo
+available_options: ["none"]
 ---
 
 ### Submission guidelines

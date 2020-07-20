@@ -19,6 +19,8 @@ prerequisites:
     ]
 tags: ["logistic-regression"]
 story_points: 8
+submission_type: "repo"
+available_options: ["python"]
 ---
 
 ## Assignment

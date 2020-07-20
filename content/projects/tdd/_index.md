@@ -1,5 +1,6 @@
 ---
 title: Test Driven Development
+submission_type: nosubmit
 ---
 
 The exercises in this section can be done in any language. The aim is to have working logic, not a beautiful user interface. You will be expected to demonstrate your working code and also to build on lessons you have already learned.
@@ -12,4 +13,5 @@ The exercises in this section can be done in any language. The aim is to have wo
 There are a few exercises here. Try the ones marked as easy first.
 
 ## Reads
-  - Here is a quick read on the most common TDD pitfalls: {{% contentlink "topics/unit-testing/tdd-horrors" %}}
+
+- Here is a quick read on the most common TDD pitfalls: {{% contentlink path="topics/unit-testing/tdd-horrors" %}}

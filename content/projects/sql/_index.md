@@ -8,6 +8,8 @@ prerequisites:
 tags: []
 story_points: 3
 ## NCIT Units 114048 & 114049
+submission_type: repo
+available_options: ["none"]
 ---
 
 ## Installation:

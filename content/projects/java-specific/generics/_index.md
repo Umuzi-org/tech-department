@@ -2,9 +2,11 @@
 title: Java Generics
 ready: true
 prerequisites:
-  hard: ["projects/java-specific/data-structures",
-         "topics/java-specific/generics"]
+  hard:
+    ["projects/java-specific/data-structures", "topics/java-specific/generics"]
   soft: []
+submission_type: repo
+available_options: ["java"]
 ---
 
 ## Generic method

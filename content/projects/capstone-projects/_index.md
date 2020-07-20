@@ -1,6 +1,9 @@
 ---
 title: Capstone project
 ready: True
+submission_type: "repo"
+available_options: ["none"]
+submission_type: repo
 ---
 
 The projects in this section are designed to really test your skills. You need to talk to your manager before moving forward with this project.
@@ -23,8 +26,8 @@ Your manager will also need to review your plan of action once it is merged. Ple
 
 ## Projects
 
-- {{% contentlink "projects/capstone-projects/chrome-extension-tie-spent-in-hangouts" %}}
-- {{% contentlink "projects/capstone-projects/spaced-repitition-machine" %}}
-- {{% contentlink "projects/capstone-projects/quizmaster" %}}
-- {{% contentlink "projects/capstone-projects/pair-stairs" %}}
-- {{% contentlink "projects/capstone-projects/gmail-text-scraper" %}}
+- {{% contentlink path="projects/capstone-projects/chrome-extension-tie-spent-in-hangouts" %}}
+- {{% contentlink path="projects/capstone-projects/spaced-repitition-machine" %}}
+- {{% contentlink path="projects/capstone-projects/quizmaster" %}}
+- {{% contentlink path="projects/capstone-projects/pair-stairs" %}}
+- {{% contentlink path="projects/capstone-projects/gmail-text-scraper" %}}

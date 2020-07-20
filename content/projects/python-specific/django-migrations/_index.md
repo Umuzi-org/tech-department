@@ -1,6 +1,8 @@
 ---
 title: Django - exposing a REST api with a real database
 ready: True
+available_options: ["python"]
+submission_type: repo
 ---
 
 Expose a simple TODO list api using Django. Take a look at this first:

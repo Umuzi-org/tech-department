@@ -6,6 +6,8 @@ prerequisites:
   soft: []
 tags: ["oop"]
 story_points: 3
+available_options: ["any_language"]
+submission_type: repo
 ---
 
 ## Project structure
@@ -34,7 +36,7 @@ The code you push to git should have the following structure:
 
 ```
 
-Please refer to the following to find out more: {{% contentlink "topics/java-specific/project-submission-requirements" %}}
+Please refer to the following to find out more: {{% contentlink path="topics/java-specific/project-submission-requirements" %}}
 
 ## Instructions
 

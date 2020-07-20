@@ -62,4 +62,4 @@ Differnt languages and tools have different ways to do this stuff. But you can o
 
 ## JS Resources
 
-{{% contentlink "topics/jasmine-spies" %}}
+{{% contentlink path="topics/jasmine-spies" %}}

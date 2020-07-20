@@ -3,15 +3,15 @@ title: Google Data Studio Assignment
 pre: "<b> EASY: </b>"
 ready: True
 prerequisites:
-  hard: 
-    ["projects/data-science-specific/dashboards/plotly_dashboards"]
-  soft:
-    ["projects/data-science-specific/data-wrangling"]
+  hard: ["projects/data-science-specific/dashboards/plotly_dashboards"]
+  soft: ["projects/data-science-specific/data-wrangling"]
 tags: ["google-datastudio"]
+submission_type: "repo"
+available_options: ["python"]
 ---
 
-
 ## South African Open Cities
+
 The South African Cities Open Data Almanac has great data, but it is mostly sitting within pdfs and spreadsheets. We can visualise it!
 
 - Choose at least 4 datasets to download from the [State of Cities Report page](http://scoda.opendata.durban/dataset/state-of-cities-report-data-2016). You can choose what information you would like to focus on (employment, energy, etc.).

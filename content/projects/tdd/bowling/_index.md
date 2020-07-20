@@ -2,6 +2,8 @@
 title: ten-pin bowling scoring system
 pre: "<b>HARD: </b>"
 ready: true
+available_options: ["any_language"]
+submission_type: repo
 ---
 
 ## Take Note
@@ -16,7 +18,7 @@ In a professional setting, untested code is incomplete code.
 
 In general: Follow recognized best practices around whatever language and test framework you are using. Eg: consistent naming conventions of functions, test files and literally everything else. Literally.
 
-Also this is a team project. Do this in groups of two following a TDD ping-pong approach as described here: {{% contentlink "workshops/intro-to-pair-programming/" %}}
+Also this is a team project. Do this in groups of two following a TDD ping-pong approach as described here: {{% contentlink path="workshops/intro-to-pair-programming/" %}}
 
 ## Instructions
 
@@ -63,4 +65,4 @@ PLEASE DO NOT IMPLEMENT A FANCY GUI. We don't care to see the bowling pins or th
 
 This is not a simple project. To build something awesome you should be aware of a few architectural concepts.
 
-- {{% contentlink "topics/basic-architecture-concepts" %}}
+- {{% contentlink path="topics/basic-architecture-concepts" %}}

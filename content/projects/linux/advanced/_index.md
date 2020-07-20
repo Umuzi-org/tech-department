@@ -2,6 +2,8 @@
 title: Advanced Linux challenges
 ready: false
 todo: 2.4 doesn't make sense
+submission_type: repo
+available_options: ["none"]
 ---
 
 ## Task 1 User environment

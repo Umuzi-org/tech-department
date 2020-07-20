@@ -6,6 +6,8 @@ prerequisites:
   soft: []
 tags: []
 story_points: 3
+submission_type: repo
+available_options: ["any_language"]
 ---
 
 In this project you'll make use of Github's awesome API. We chose Github for this project because:

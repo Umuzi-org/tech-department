@@ -1,6 +1,5 @@
 ---
 title: Java project submission requirements
-noform: True
 ---
 
 As a junior developer working on a team of professionas, your code will always have to conform to a certain shape. You will always need to write code that plays nicely with the code and mechanisms that are in place.
@@ -37,4 +36,4 @@ Now if you run your unit tests and everything passes (which they should before y
 
 ## Directory structure
 
-Please see this: {{% contentlink "topics/java-specific/gradle-and-intellij-project-structure" %}}
+Please see this: {{% contentlink path="topics/java-specific/gradle-and-intellij-project-structure" %}}

@@ -3,6 +3,17 @@ title: A gui that is more...awesome
 pre: "<b>4. </b>"
 weight: 4
 ready: true
+prerequisites:
+  hard:
+    [
+      "projects/semitone-challenge/basic-algorithm",
+      "projects/semitone-challenge/gui-part-1",
+      "projects/semitone-challenge/advanced-algorithm",
+    ]
+  soft: []
+available_options: ["javascript", "any_frontend_framework"]
+submission_type: continue_repo
+from_repo: "projects/semitone-challenge/basic-algorithm"
 ---
 
 Extend your simple gui with the following behavior:

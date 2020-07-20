@@ -11,6 +11,8 @@ prerequisites:
     ]
   soft: []
 tags: ["rabbit-mq"]
+submission_type: repo
+available_options: ["python"]
 ---
 
 RabbitMQ, despite its funny name, is a seriously useful piece of software.

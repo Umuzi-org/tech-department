@@ -8,12 +8,17 @@ prerequisites:
   hard:
     [
       "projects/nodejs/sql",
+      "projects/nodejs/file-io",
       "topics/js-and-node-specific/expressjs",
       "workshops/intro-to-express",
     ]
   soft: []
 tags: ["node", "express"]
 story_points: 3
+
+available_options: ["javascript"]
+submission_type: continue_repo
+from_repo: projects/nodejs/file-io
 ---
 
 There is no need to create a new git repo for this code submission. This is a continuation of your previous work.
@@ -46,6 +51,6 @@ Make use of the pug template engine to render the "Thank you" page
 
 ### Resources
 
-- {{% contentlink "topics/js-and-node-specific/expressjs/" %}}
-- {{% contentlink "topics/js-and-node-specific/template-engines" %}}
-- {{% contentlink "topics/js-and-node-specific/fetch" %}}
+- {{% contentlink path="topics/js-and-node-specific/expressjs/" %}}
+- {{% contentlink path="topics/js-and-node-specific/template-engines" %}}
+- {{% contentlink path="topics/js-and-node-specific/fetch" %}}

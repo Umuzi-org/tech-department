@@ -4,6 +4,8 @@ ready: True
 prerequisites:
   hard: ["projects/ios-mobile/multithreading-layout-and-functionality"]
   soft: ["topics/ios-mobile/multithreading-layout-and-functionality"]
+submission_type: repo
+available_options: ["swift"]
 ---
 
 ## Project

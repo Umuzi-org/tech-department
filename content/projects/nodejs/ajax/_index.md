@@ -9,10 +9,15 @@ prerequisites:
       "topics/intro-to-ajax",
       "projects/nodejs/express-forms",
       "projects/nodejs/api",
+      "projects/nodejs/file-io",
     ]
   soft: []
 tags: ["node", "ajax"]
 story_points: 8
+
+available_options: ["javascript"]
+submission_type: continue_repo
+from_repo: projects/nodejs/file-io
 ---
 
 There is no need to create a new git repo for this code submission. This is a continuation of your previous work.
@@ -43,4 +48,4 @@ Also make sure that if you create any new visitors then they are visible in the 
 
 ## Resources
 
-- {{% contentlink "topics/intro-to-ajax" %}}
+- {{% contentlink path="topics/intro-to-ajax" %}}

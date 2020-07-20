@@ -13,11 +13,11 @@ prerequisites:
 
 tags: ["html", "css"]
 story_points: 3
+submission_type: "link"
+available_options: ["none"]
 ---
 
 For the learnership you will create a website with your CV and a portfolio of your work. Create the website and host it on Github. You will be expected to keep your portfolio up to date throughout the learnership.
-
-This portfolio is important because the Umuzi Plug team will make use of it when finding you work-experience gigs and/or full time employment. Please take your professional image seriously now.
 
 ## Instructions
 
@@ -36,19 +36,26 @@ Requirements:
 - Website can be a single page or have multiple pages (the structure is up to you), but it must contain the following information:
   - About me
   - Skills (Your tech stack: the languages and tools you use)
-  - Projects/Portfolio
+  - Projects/Portfolio (for now this might be a bit empty, but if you've worked on anything cool then tell us about it)
   - Contact (social media, email, phone, etc)
 - Website must be responsive to different screen sizes - use a mobile-first approach!
   - Use CSS Grid (see tutorials below) to design your site and make it responsive
 - Website must be developed using HTML and CSS Grid with a logical structure and naming conventions in your code
-- Some basic JavaScript/Jquery should be integrated into the site in some way to make it more interactive and user-friendly
+- You can also add some Javascript to make things more interactive
 - Feel free to use icons, colours, pictures or organograms if you need to
-- Create a board and make use of Trello which will assist you in breaking down your tasks
+- Host your site as a Github Page. In your README file include a link to your github page for easy navigation
+
+## Some advice
+
+Start small and simple. Get the basic structure in first. Don't sit and obsess over choosing the right shade of green, or the perfect font.
+
+Also, we'll be looking out for good developer habits. Please make sure you push your code often and your git commit messages actually make sense!
 
 ### Links
 
 - How to make a GitHub Page : https://pages.github.com/
 - CSS Grid: https://scrimba.com/g/gR8PTE (Screencast tutorials)
 - https://css-tricks.com/snippets/css/complete-guide-grid/ (more info)
-- Building a Data Science Portfolio (https://www.dataquest.io/blog/build-a-data-science-portfolio/)
 - Web Developer Portfolios to inspire you (https://medium.freecodecamp.org/15-web-developer-portfolios-to-inspire-you-137fb1743cae)
+
+* Building a Data Science Portfolio (https://www.dataquest.io/blog/build-a-data-science-portfolio/)

@@ -5,6 +5,8 @@ prerequisites:
   hard: ["topics/python-specific/kafka"]
   soft: []
 tags: ["python", "kafka"]
+available_options: ["python"]
+submission_type: repo
 ---
 
 The first step is to create an "app" on twitter. https://developer.twitter.com/en/apps

@@ -8,6 +8,8 @@ prerequisites:
       "projects/ios-mobile/swift-and-gestures-animations",
     ]
   soft: []
+submission_type: repo
+available_options: ["swift"]
 ---
 
 ## Project

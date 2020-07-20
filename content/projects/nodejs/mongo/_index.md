@@ -3,6 +3,14 @@ title: Node & mongoDB assignment
 ready: true
 weight: 2
 pre: "<b>2 (alt): </b>"
+
+prerequisites:
+  hard: ["projects/nodejs/file-io"]
+  soft: []
+
+available_options: ["javascript"]
+submission_type: continue_repo
+from_repo: projects/nodejs/file-io
 ---
 
 You are required to create a back-end service that will help capture basic information about prospective students who come to inquire here at Umuzi.
@@ -38,4 +46,4 @@ You will be expected to properly test your code. You can use whatever testing fr
 
 ## Resources
 
-{{% contentlink "topics/js-and-node-specific/mongodb" %}}
+{{% contentlink path="topics/js-and-node-specific/mongodb" %}}

@@ -19,4 +19,4 @@ Build your game in a TDD manner. If you don't include tests in your final submis
 
 ## Resources
 
-- {{% contentlink "topics/basic-architecture-concepts" %}}
+- {{% contentlink path="topics/basic-architecture-concepts" %}}

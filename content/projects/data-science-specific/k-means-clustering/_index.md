@@ -8,11 +8,13 @@ prerequisites:
   soft: ["topics/python-self-learning","topics/jupyter-notebooks-best-practices","topics/data-science-specific/data-science-methodology"]
 tags: ["kmeans"]
 story_points: 8
+submission_type: "repo"
+available_options: ["python"]
 ---
 
 ## Pre-requisites
 
-Read through the K-Means Tutorials at {{% contentlink "topics/data-science-specific/clustering" %}} before starting this project.
+Read through the K-Means Tutorials at {{% contentlink path="topics/data-science-specific/clustering" %}} before starting this project.
 
 ## Clustering whisky distilleries according to tasting Profiles
 

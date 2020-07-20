@@ -8,13 +8,13 @@ prerequisites:
   soft: []
 tags: ["Node", "FileIO"]
 story_points: 3
+submission_type: repo
+available_options: ["javascript"]
 ---
 
 You are required to create a back-end service that will help capture basic information about prospective students who come to inquire here at Umuzi. In this project you'll just be storing and retrieving information from plain old json files.
 
 ## Instructions
-
-Create the following functionality in a TDD way.
 
 1. Create a class called Visitor. Instances of this class should have the following properties:
 

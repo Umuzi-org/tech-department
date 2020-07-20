@@ -1,5 +1,6 @@
 ---
 title: Python projects
+submission_type: nosubmit
 ---
 
 The projects in this folder are specific to the Python programming language.

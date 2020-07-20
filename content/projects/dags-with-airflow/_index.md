@@ -5,6 +5,8 @@ prerequisites:
   hard: ["projects/rabbitmq"]
   soft: []
 tags: ["apache-airflow"]
+submission_type: "repo"
+available_options: ["python"]
 ---
 
 Create a dag that does the following:

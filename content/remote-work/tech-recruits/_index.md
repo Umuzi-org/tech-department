@@ -35,7 +35,7 @@ Here are a few professional behaviors you should start practicing today:
 - Always submit your work on time
 - When you get feedback about your work, implement it
 
-Talking about submissint work... {{% contentlink "projects/how-to-submit-your-project" %}}
+Talking about submissint work... {{% contentlink path="projects/how-to-submit-your-project" %}}
 
 ## Workshops
 

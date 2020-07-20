@@ -7,9 +7,12 @@ prerequisites:
   soft: []
 tags: ["tdd"]
 story_points: 8
+available_options: ["any_language"]
+submission_type: continue_repo
+from_repo: projects/tdd/simple-calculator-part1
 ---
 
-This a continuation of {{% contentlink "projects/tdd/simple-calculator-part1" %}}. If you haven't done that yet then please do. At this point you should have a well tested `add` and `multiply` function.
+This a continuation of {{% contentlink path="projects/tdd/simple-calculator-part1" %}}. If you haven't done that yet then please do. At this point you should have a well tested `add` and `multiply` function.
 
 This exercise will require a little OOP knowledge. Brace yourself.
 
@@ -56,7 +59,7 @@ For now on this document will just describe the features we need the Calculator 
 
 ## Note
 
-This is an extension of {{% contentlink "projects/tdd/simple-calculator-part1" %}}. In other words, previously implemented functionality should still work.
+This is an extension of {{% contentlink path="projects/tdd/simple-calculator-part1" %}}. In other words, previously implemented functionality should still work.
 
 ```
 # this should still work

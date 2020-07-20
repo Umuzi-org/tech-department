@@ -2,6 +2,8 @@
 title: factorials
 pre: "<b>EASY: </b>"
 ready: True
+available_options: ["any_language"]
+submission_type: repo
 ---
 
 Write a script with a function called `calculate_factorial` that takes a number and returns its factorial.

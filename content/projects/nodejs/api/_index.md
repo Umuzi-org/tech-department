@@ -5,10 +5,19 @@ weight: 4
 pre: "<b>4: </b>"
 
 prerequisites:
-  hard: ["projects/nodejs/sql", topics/js-and-node-specific/apis-with-node]
+  hard:
+    [
+      "projects/nodejs/sql",
+      "topics/js-and-node-specific/apis-with-node",
+      "projects/nodejs/file-io",
+    ]
   soft: []
 tags: ["node", "api", "express"]
 story_points: 5
+
+available_options: ["javascript"]
+submission_type: continue_repo
+from_repo: projects/nodejs/file-io
 ---
 
 There is no need to create a new git repo for this code submission. This is a continuation of your previous work.
@@ -26,5 +35,5 @@ Use Express to expose the following JSON endpoints.
 
 ### Resources
 
-- {{% contentlink "topics/apis/basics" %}}
-- {{% contentlink "topics/js-and-node-specific/apis-with-node" %}}
+- {{% contentlink path="topics/apis/basics" %}}
+- {{% contentlink path="topics/js-and-node-specific/apis-with-node" %}}

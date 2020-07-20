@@ -6,6 +6,9 @@ prerequisites:
   soft: []
 tags: ["unit-testing", "oop"]
 story_points: 3
+available_options: ["any_language"]
+submission_type: continue_repo
+from_repo: projects/oop/animals/part1
 ---
 
 In this challenge you will update your current Animals project and add unit tests to the project
@@ -40,7 +43,7 @@ The code you push to git should have the following structure:
             ... other logical things
 ```
 
-Please refer to the following to find out more: {{% contentlink "topics/java-specific/project-submission-requirements" %}}
+Please refer to the following to find out more: {{% contentlink path="topics/java-specific/project-submission-requirements" %}}
 
 ## Instructions
 

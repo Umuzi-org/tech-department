@@ -2,6 +2,8 @@
 title: Squares
 pre: "<b>3. </b>"
 weight: 5
+# available_options: ["any_language"]
+# submission_type: repo
 ---
 
 ## Print (triangles & squares) using loops
@@ -10,23 +12,25 @@ weight: 5
 Write a function that takes in number as argument and prints a square
 
 **Input**
+
 ```js
-let square(n) => 
+let square(n) =>
 ```
+
 ```py
 def square(n):
 ```
 
 **Output**
-```
-expected output: remember to use "*" 
-#####
-#####
-#####
-#####
-#####
-```
 
+```
+expected output: remember to use "*"
+#####
+#####
+#####
+#####
+#####
+```
 
 **2**
 Write a function that takes in number as argument and prints a hollow square in the center
@@ -35,14 +39,17 @@ Write a function that takes in number as argument and prints a hollow square in 
 
 ```js
 
-let square(n) => 
+let square(n) =>
 ```
+
 ```py
 def square(n):
 ```
+
 **Output**
+
 ```
-expected output: remember to use "*" 
+expected output: remember to use "*"
 #####
 #   #
 #   #

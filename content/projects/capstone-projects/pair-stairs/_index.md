@@ -1,6 +1,7 @@
 ---
 title: Pair Stairs
 ready: True
+submission_type: nosubmit
 ---
 
 ## Who should do this?

@@ -1,6 +1,8 @@
 ---
 title: expose a simple JSON rest api
 ready: True
+available_options: ["python"]
+submission_type: repo
 ---
 
 ## Instructions

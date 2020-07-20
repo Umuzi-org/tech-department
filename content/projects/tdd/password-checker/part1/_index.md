@@ -6,6 +6,8 @@ prerequisites:
   soft: []
 tags: ["tdd", "error-checking"]
 story_points: 3
+available_options: ["any_language"]
+submission_type: repo
 ---
 
 ## Set up your environment
@@ -67,7 +69,7 @@ The code you push to git should have the following structure:
             └── ???.java             <-------- names are important
 ```
 
-Please refer to the following to find out more: {{% contentlink "topics/java-specific/project-submission-requirements" %}}
+Please refer to the following to find out more: {{% contentlink path="topics/java-specific/project-submission-requirements" %}}
 
 ## Instructions
 

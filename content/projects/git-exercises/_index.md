@@ -6,6 +6,8 @@ prerequisites:
   soft: []
 tags: ["git"]
 story_points: 1
+submission_type: repo
+available_options: ["none"]
 ---
 
 ## Introduction

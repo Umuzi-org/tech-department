@@ -2,16 +2,23 @@
 title: Introduction to Spring Boot - part 3
 ready: true
 prerequisites:
-  hard: ["projects/java-specific/introduction-to-spring-boot/part-2",
-         "topics/java-specific/introduction-to-spring-boot/part-3"]
+  hard:
+    [
+      "projects/java-specific/introduction-to-spring-boot/part-1",
+      "projects/java-specific/introduction-to-spring-boot/part-2",
+      "topics/java-specific/introduction-to-spring-boot/part-3",
+    ]
   soft: []
+submission_type: continue_repo
+from_repo: "projects/java-specific/introduction-to-spring-boot/part-1"
+available_options: ["java"]
 ---
 
 We are going to focus on creating a REST api that will serve as a end point to our sping boot java application.
 
 ## Service
 
-Continuing with {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-1" %}} for the **User** we are going to expose a **REST endpoint** to the application and we will use test to see if the application does what we want it to.
+Continuing with {{% contentlink path="projects/java-specific/introduction-to-spring-boot/part-1" %}} for the **User** we are going to expose a **REST endpoint** to the application and we will use test to see if the application does what we want it to.
 
 **Step 1**
 
@@ -41,7 +48,7 @@ public class UserController {
 
 **Step 3**
 
-Add the annotation to your UserServiceImpl that indicated class previously created in {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-1" %}} is a service.
+Add the annotation to your UserServiceImpl that indicated class previously created in {{% contentlink path="projects/java-specific/introduction-to-spring-boot/part-1" %}} is a service.
 
 ```
 //add annotation here.
@@ -93,7 +100,7 @@ Example
 Do not forget to write integration tests for the endpoints(addUser, getUserById, removeUser) in your controller using MockMVC or TestRestTemplate.
 
 - All CRUD operations defined in your services should be accompanied by corresponding unit test,
-  using the relevant spring annotations as in {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-1" %}}.
+  using the relevant spring annotations as in {{% contentlink path="projects/java-specific/introduction-to-spring-boot/part-1" %}}.
 
 **Side Notes**
 1 - Please remember to test your end points using postman. If you need help with using postman access the using postman link.

@@ -1,6 +1,8 @@
 ---
 title: Information Page
 ready: true
+submission_type: repo
+available_options: ["kotlin"]
 ---
 
 The goal of this project is to create a page containing multiple forms of media that has to do with a place
@@ -28,5 +30,3 @@ If you feel up to the task, add media control functionality to the audio clip an
 
 - Allow a user to play and pause the media with a button click.
 - Allow the user to skip to a time of their choice in the audio clip.
-
-

@@ -1,8 +1,8 @@
 ---
-date: 2016-04-09T16:50:16+02:00
 title: Projects
 weight: 4
 pre: "<b>4. </b>"
+submission_type: nosubmit
 ---
 
 Units of work with strict deadlines to be completed alone or in groups

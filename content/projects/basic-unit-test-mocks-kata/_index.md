@@ -10,6 +10,9 @@ prerequisites:
     ]
   soft: []
 tags: ["tdd", "mocks", "environmental variables", "smtp"]
+available_options: ["any_language"]
+submission_type: repo
+
 story_points: 8
 ---
 
@@ -91,7 +94,7 @@ So when we call `source smtp_secrets.sh`, bash makes a few variables and makes s
 
 Cool eh?
 
-If you want some further reading check this out: {{% contentlink "topics/linux/os-environmental-variables" %}}
+If you want some further reading check this out: {{% contentlink path="topics/linux/os-environmental-variables" %}}
 
 ## The actual project
 

@@ -1,19 +1,21 @@
 ---
 title: Bootcamp Writing Assignment
 ready: true
+available_options: ["none"]
+submission_type: "link"
 ---
 
-### We would like to get to know you better.
+### We would like to get to know you better
 
 In this assignment you are going to create a text file with essays on the below questions, please keep each essay between 150 and 200 words.
 
 - Your personal history, where you come from, feel free to include some interesting facts about yourself.
 
-- Why you would like to become a coder.
+- Why you would like to become a coder?
 
-- Why you decided on this particular department at Umuzi.
+- Why you decided on this particular department at Umuzi (Web development versus Data Science)
 
-- Your past extracurricular activities or work experiences.
+- Your past extracurricular activities or work experiences
 
 - Why do you think you will succeed at Umuzi?
 

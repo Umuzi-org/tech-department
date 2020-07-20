@@ -2,9 +2,14 @@
 title: Java data structures
 ready: true
 prerequisites:
-  hard: ["projects/java-specific/collections",
-         "topics/java-specific/collections-and-datastructures"]
+  hard:
+    [
+      "projects/java-specific/collections",
+      "topics/java-specific/collections-and-datastructures",
+    ]
   soft: []
+submission_type: repo
+available_options: ["java"]
 ---
 
 **Game Time**

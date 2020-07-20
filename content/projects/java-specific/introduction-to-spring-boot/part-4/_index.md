@@ -2,9 +2,16 @@
 title: Introduction to Spring Boot - part 4
 ready: true
 prerequisites:
-  hard: ["projects/java-specific/introduction-to-spring-boot/part-3",
-         "topics/java-specific/introduction-to-spring-boot/part-4"]
+  hard:
+    [
+      "projects/java-specific/introduction-to-spring-boot/part-1",
+      "projects/java-specific/introduction-to-spring-boot/part-3",
+      "topics/java-specific/introduction-to-spring-boot/part-4",
+    ]
   soft: []
+submission_type: continue_repo
+from_repo: "projects/java-specific/introduction-to-spring-boot/part-1"
+available_options: ["java"]
 ---
 
 In this project we will consume a REST API and a SOAP web service in our User service repository.

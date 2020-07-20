@@ -2,8 +2,11 @@
 title: Java collections
 ready: true
 prerequisites:
-  hard: ["projects/oop/animals",
-        "topics/java-specific/collections-and-datastructures"]
+  hard:
+    [
+      "projects/oop/animals",
+      "topics/java-specific/collections-and-datastructures",
+    ]
   soft:
     [
       "topics/intro-to-docker",
@@ -12,6 +15,8 @@ prerequisites:
       "projects/oop/dice",
       "projects/oop/person",
     ]
+submission_type: repo
+available_options: ["java"]
 ---
 
 This project assumes you have gone through the reading for both data structures as well as collection, but for a quick recap for the purpose of this project:

@@ -1,6 +1,8 @@
 ---
 title: Bank Accounts
 ready: True
+available_options: ["any_language"]
+submission_type: repo
 ---
 
 As usual: TDD please

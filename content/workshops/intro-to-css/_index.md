@@ -7,4 +7,4 @@ ready: true
 >
 > - the day they are born and the day they discover why.
 
-Topics to be discussed in this workshop can be found here {{% contentlink "topics/web-frontend/intro-to-css" %}}
+Topics to be discussed in this workshop can be found here {{% contentlink path="topics/web-frontend/intro-to-css" %}}

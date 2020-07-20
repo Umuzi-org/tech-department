@@ -1,6 +1,8 @@
 ---
 title: Webscraping Assignment
 ready: True
+submission_type: "repo"
+available_options: ["python"]
 ---
 
 1. Use the packages [requests](https://2.python-requests.org/en/master/) and [beautifulsoup](https://pypi.org/project/beautifulsoup4/) to get the text from the Wikipedia page on [Energy in South Africa](https://en.wikipedia.org/wiki/Energy_in_South_Africa).

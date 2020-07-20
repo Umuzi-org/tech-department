@@ -1,8 +1,8 @@
 ---
 title: Animals
 ready: True
-noform: True
+submission_type: nosubmit
 ---
 
-- {{% contentlink "projects/oop/animals/part1" %}}
-- {{% contentlink "projects/oop/animals/part2" %}}
+- {{% contentlink path="projects/oop/animals/part1" %}}
+- {{% contentlink path="projects/oop/animals/part2" %}}

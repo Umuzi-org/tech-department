@@ -1,8 +1,8 @@
 ---
 title: Password Checker
 ready: true
-noform: true
+submission_type: nosubmit
 ---
 
-- {{% contentlink "projects/tdd/password-checker/part1" %}}
-- {{% contentlink "projects/tdd/password-checker/part2" %}}
+- {{% contentlink path="projects/tdd/password-checker/part1" %}}
+- {{% contentlink path="projects/tdd/password-checker/part2" %}}

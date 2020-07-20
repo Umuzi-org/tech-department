@@ -1,6 +1,7 @@
 ---
 title: Gmail Text Scraper
 ready: True
+submission_type: nosubmit
 ---
 
 ## Who should do this?

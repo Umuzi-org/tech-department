@@ -14,6 +14,8 @@ prerequisites:
       "topics/kotlin/set-up",
       "topics/kotlin/properties-and-fields",
     ]
+submission_type: repo
+available_options: ["kotlin"]
 ---
 
 ## Task 1: Create the AboutMe Project

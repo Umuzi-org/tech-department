@@ -1,6 +1,7 @@
 ---
 title: build a Chrome Extension that measures time spent in meetings
 ready: True
+submission_type: nosubmit
 ---
 
 ## Who should do this?

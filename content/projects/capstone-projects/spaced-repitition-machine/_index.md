@@ -1,6 +1,7 @@
 ---
 title: Spaced Repitition machine to help you remember what you read
 ready: True
+submission_type: nosubmit
 ---
 
 ## Who should do this?

@@ -48,31 +48,31 @@ In this week, everyone gets to know their way around linux.
 - ALL:
 
   - Department ice-breaker
-  - {{% contentlink "workshops/how-to-be-a-professional" %}}
-  - {{% contentlink "remote-work/tech-recruits" %}}
+  - {{% contentlink path="workshops/how-to-be-a-professional" %}}
+  - {{% contentlink path="remote-work/tech-recruits" %}}
   - Introduction to NCIT curriculum
-  - {{% contentlink "workshops/intro-to-linux" %}}
-  - {{% contentlink "topics/linux/intro-to-linux" %}}
-  - {{% contentlink "projects/linux/beginner" %}}
-  - {{% contentlink "topics/linux/intro-to-bash" %}}
+  - {{% contentlink path="workshops/intro-to-linux" %}}
+  - {{% contentlink path="topics/linux/intro-to-linux" %}}
+  - {{% contentlink path="projects/linux/beginner" %}}
+  - {{% contentlink path="topics/linux/intro-to-bash" %}}
 
 Everyone is also given links to resources so that they can start reading ahead.
 
 - JAVA:
 
-  - {{% contentlink "topics/java-specific/java-dev-environment-setup"%}}
-  - {{% contentlink "topics/java-specific/java-self-learning" %}}
+  - {{% contentlink path="topics/java-specific/java-dev-environment-setup"%}}
+  - {{% contentlink path="topics/java-specific/java-self-learning" %}}
 
 - WEB_DEV:
 
-  - {{% contentlink "topics/web-dev-self-learning" %}}
+  - {{% contentlink path="topics/web-dev-self-learning" %}}
 
 * DATA_ENG:
-  - {{% contentlink "topics/python-self-learning" %}}
+  - {{% contentlink path="topics/python-self-learning" %}}
 
 - DATA_SCI: please take note, you don't need to go as deep into coding as others. But it is good to know your way around
-  - {{% contentlink "topics/python-self-learning" %}}
-  - {{% contentlink "topics/clean-code" %}}
+  - {{% contentlink path="topics/python-self-learning" %}}
+  - {{% contentlink path="topics/clean-code" %}}
 
 ## Week 2: Git and personal portfolio
 
@@ -80,17 +80,17 @@ Recruits learn a bit about how to build an online presence. Recruits submit thei
 
 - ALL:
 
-  - {{% contentlink "topics/git" %}}
+  - {{% contentlink path="topics/git" %}}
   - Q&A Git basics
-  - {{% contentlink "projects/git-exercises" %}}
-  - {{% contentlink "workshops/what-to-put-on-a-cv" %}}
-  - {{% contentlink "projects/first-personal-website" %}} - Introduction
-  - {{% contentlink "topics/clean-code" %}}
+  - {{% contentlink path="projects/git-exercises" %}}
+  - {{% contentlink path="workshops/what-to-put-on-a-cv" %}}
+  - {{% contentlink path="projects/first-personal-website" %}} - Introduction
+  - {{% contentlink path="topics/clean-code" %}}
   - NCIT 04: Version control (GIT) for teamwork
 
 - WEB_DEV:
-  - {{% contentlink "workshops/intro-to-css-architecture" %}}
-  - {{% contentlink "topics/web-frontend/intro-to-web-design/" %}}
+  - {{% contentlink path="workshops/intro-to-css-architecture" %}}
+  - {{% contentlink path="topics/web-frontend/intro-to-web-design/" %}}
 
 ## Week 3: Finish portfolio project
 
@@ -98,83 +98,83 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - ALL:
 
-  - {{% contentlink "workshops/big-picture-web-dev" %}}
-  - {{% contentlink "projects/first-personal-website" %}} - Deadline
+  - {{% contentlink path="workshops/big-picture-web-dev" %}}
+  - {{% contentlink path="projects/first-personal-website" %}} - Deadline
   - NCIT 10: Workshop: Giving and receiving constructive feedback
   - NCIT 06: Web design for business
   - NCIT 07: Building an online business
   - NCIT 12: Business and technology
   - NCIT 09: Ethics and Professionalism in IT
-  - {{% contentlink "workshops/general-coding-best-practices" %}}
+  - {{% contentlink path="workshops/general-coding-best-practices" %}}
 
 - DATA_SCI:
 
-  - {{% contentlink "workshops/survey-design" %}}
-  - {{% contentlink "workshops/google-forms-like-a-boss" %}}
+  - {{% contentlink path="workshops/survey-design" %}}
+  - {{% contentlink path="workshops/google-forms-like-a-boss" %}}
 
 ## Week 4:
 
-- {{% contentlink "topics/how-to-ask-for-help-with-your-code" %}}
+- {{% contentlink path="topics/how-to-ask-for-help-with-your-code" %}}
 
 - WEB_DEV:
 
-  - {{% contentlink "topics/js-and-node-specific/super-basic-intro-to-node" %}}
+  - {{% contentlink path="topics/js-and-node-specific/super-basic-intro-to-node" %}}
   - WORKSHOP: Live code. Super basic intro to node
-  - {{% contentlink "projects/basic-flow-control-katas" %}} do this in pairs
+  - {{% contentlink path="projects/basic-flow-control-katas" %}} do this in pairs
 
 - DATA_ENG:
 
-  - {{% contentlink "projects/basic-flow-control-katas" %}} do this in pairs
-  - {{% contentlink "workshops/python-specific/basic-intro-to-oop" %}}
-  - {{% contentlink "topics/python-specific/oop-basics"%}}
-  - {{% contentlink "projects/oop/person" %}} do this in pairs
-  - {{% contentlink "projects/oop/animals/part1" %}} individual. Due towards the end of the week
+  - {{% contentlink path="projects/basic-flow-control-katas" %}} do this in pairs
+  - {{% contentlink path="workshops/python-specific/basic-intro-to-oop" %}}
+  - {{% contentlink path="topics/python-specific/oop-basics"%}}
+  - {{% contentlink path="projects/oop/person" %}} do this in pairs
+  - {{% contentlink path="projects/oop/animals/part1" %}} individual. Due towards the end of the week
 
 - DATA_SCI:
 
-  - {{% contentlink "topics/unit-testing" %}}
-  - {{% contentlink "topics/python-specific/automated-testing-with-pytest" %}}
-  - {{% contentlink "projects/basic-flow-control-katas" %}} do this in pairs
-  - {{% contentlink "projects/tdd/simple-calculator-part1/" %}} do this in pairs
+  - {{% contentlink path="topics/unit-testing" %}}
+  - {{% contentlink path="topics/python-specific/automated-testing-with-pytest" %}}
+  - {{% contentlink path="projects/basic-flow-control-katas" %}} do this in pairs
+  - {{% contentlink path="projects/tdd/simple-calculator-part1/" %}} do this in pairs
 
 * JAVA:
   - carry over any NCIT tasks from previous week
-  - {{% contentlink "topics/java-specific/intro-to-gradle-with-intellij" %}}
-  - {{% contentlink "workshops/java-specific/live-code-java-intro" %}} Monday or Tuesday
+  - {{% contentlink path="topics/java-specific/intro-to-gradle-with-intellij" %}}
+  - {{% contentlink path="workshops/java-specific/live-code-java-intro" %}} Monday or Tuesday
   - Recruits should be familiar with basic flow control, if, else, loops. It may be necessary to have another workshop on this
-  - {{% contentlink "projects/basic-flow-control-katas" %}} do this in pairs, they should use Gradle
+  - {{% contentlink path="projects/basic-flow-control-katas" %}} do this in pairs, they should use Gradle
 
 ## Week 5: Some specific skills
 
 - DATA_SCI:
 
-  - {{% contentlink "topics/intro-to-asserive-programming" %}}
-  - {{% contentlink "topics/asserive-programming-tricks-for-pandas" %}}
-  - {{% contentlink "projects/basic-flow-control-katas-assertive" %}} do this in pairs
-  - {{% contentlink "projects/data-science-specific/data-visualisation" %}}
+  - {{% contentlink path="topics/intro-to-asserive-programming" %}}
+  - {{% contentlink path="topics/asserive-programming-tricks-for-pandas" %}}
+  - {{% contentlink path="projects/basic-flow-control-katas-assertive" %}} do this in pairs
+  - {{% contentlink path="projects/data-science-specific/data-visualisation" %}}
 
 - DATA_ENG:
 
-  - {{% contentlink "topics/intro-to-asserive-programming" %}}
-  - {{% contentlink "projects/basic-flow-control-katas-assertive" %}}
-  - {{% contentlink "topics/unit-testing" %}}
-  - {{% contentlink "projects/oop/animals/part2" %}}: add some tests to existing code
-  - {{% contentlink "topics/test-driven-development" %}}
-  - {{% contentlink "topics/python-specific/automated-testing-with-pytest" %}}
-  - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
+  - {{% contentlink path="topics/intro-to-asserive-programming" %}}
+  - {{% contentlink path="projects/basic-flow-control-katas-assertive" %}}
+  - {{% contentlink path="topics/unit-testing" %}}
+  - {{% contentlink path="projects/oop/animals/part2" %}}: add some tests to existing code
+  - {{% contentlink path="topics/test-driven-development" %}}
+  - {{% contentlink path="topics/python-specific/automated-testing-with-pytest" %}}
+  - {{% contentlink path="projects/tdd/simple-calculator-part1" %}}
 
 * WEB_DEV:
 
-  - {{% contentlink "workshops/js-and-node-specific/basic-intro-to-oop" %}}
-  - {{% contentlink "topics/js-and-node-specific/oop-basics"%}}
-  - {{% contentlink "projects/oop/person" %}} do this in pairs
-  - {{% contentlink "projects/oop/animals/part1" %}} individual. Due towards the end of the week
+  - {{% contentlink path="workshops/js-and-node-specific/basic-intro-to-oop" %}}
+  - {{% contentlink path="topics/js-and-node-specific/oop-basics"%}}
+  - {{% contentlink path="projects/oop/person" %}} do this in pairs
+  - {{% contentlink path="projects/oop/animals/part1" %}} individual. Due towards the end of the week
 
 * JAVA:
-  - {{% contentlink "workshops/java-specific/basic-intro-to-oop" %}}
-  - {{% contentlink "topics/java-specific/oop-basics"%}}
-  - {{% contentlink "projects/oop/person" %}} do this in pairs
-  - {{% contentlink "projects/oop/animals/part1" %}} individual. Due towards the end of the week
+  - {{% contentlink path="workshops/java-specific/basic-intro-to-oop" %}}
+  - {{% contentlink path="topics/java-specific/oop-basics"%}}
+  - {{% contentlink path="projects/oop/person" %}} do this in pairs
+  - {{% contentlink path="projects/oop/animals/part1" %}} individual. Due towards the end of the week
   - NCIT 08: Pseudocode and documentation
   - NCIT 13: Object-oriented programming
   - workshop: oop Q&A might be needed
@@ -183,40 +183,40 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - ALL:
 
-  - {{% contentlink "topics/how-the-internet-works" %}}
-  - {{% contentlink "topics/data-ethics-and-privacy" %}}
+  - {{% contentlink path="topics/how-the-internet-works" %}}
+  - {{% contentlink path="topics/data-ethics-and-privacy" %}}
 
 - DATA_SCI:
 
-  - {{% contentlink "workshops/intro-to-data-ethics" %}}
+  - {{% contentlink path="workshops/intro-to-data-ethics" %}}
 
 * DATA_ENG:
-  - {{% contentlink "projects/tdd/password-checker/part1" %}}
+  - {{% contentlink path="projects/tdd/password-checker/part1" %}}
   - logging with python
   - add logging to password checker
 
 - WEB_DEV:
 
-  - {{% contentlink "topics/intro-to-asserive-programming" %}}
-  - {{% contentlink "projects/basic-flow-control-katas-assertive" %}}
-  - {{% contentlink "topics/unit-testing" %}}
-  - {{% contentlink "projects/oop/animals/part2" %}}: add some tests to existing code
-  - {{% contentlink "topics/test-driven-development" %}}
-  - {{% contentlink "workshops/intro-to-unit-testing-with-jasmine" %}}
-  - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
+  - {{% contentlink path="topics/intro-to-asserive-programming" %}}
+  - {{% contentlink path="projects/basic-flow-control-katas-assertive" %}}
+  - {{% contentlink path="topics/unit-testing" %}}
+  - {{% contentlink path="projects/oop/animals/part2" %}}: add some tests to existing code
+  - {{% contentlink path="topics/test-driven-development" %}}
+  - {{% contentlink path="workshops/intro-to-unit-testing-with-jasmine" %}}
+  - {{% contentlink path="projects/tdd/simple-calculator-part1" %}}
 
 * JAVA:
 
-  - {{% contentlink "topics/intro-to-asserive-programming" %}}
-  - {{% contentlink "projects/basic-flow-control-katas-assertive" %}}
-  - {{% contentlink "topics/unit-testing" %}}
-  - {{% contentlink "topics/java-specific/intro-to-junit" %}}
+  - {{% contentlink path="topics/intro-to-asserive-programming" %}}
+  - {{% contentlink path="projects/basic-flow-control-katas-assertive" %}}
+  - {{% contentlink path="topics/unit-testing" %}}
+  - {{% contentlink path="topics/java-specific/intro-to-junit" %}}
   - LIVE CODE WORKSHOP: demonstrate unit tests with intelliJ and JUnit.
-  - {{% contentlink "projects/oop/animals/part2" %}}: add some tests to existing code
-  - {{% contentlink "topics/test-driven-development" %}}
-  - {{% contentlink "projects/tdd/simple-calculator-part1" %}}
+  - {{% contentlink path="projects/oop/animals/part2" %}}: add some tests to existing code
+  - {{% contentlink path="topics/test-driven-development" %}}
+  - {{% contentlink path="projects/tdd/simple-calculator-part1" %}}
 
-  - {{% contentlink "topics/java-specific/exception-handling/" %}}
+  - {{% contentlink path="topics/java-specific/exception-handling/" %}}
 
 - NCIT 05: History of the Internet
 - NCIT 06: Web design for business
@@ -233,135 +233,135 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - DATA_SCI:
 
-  - {{% contentlink "topics/python-specific/unit-testing/automated-testing-pandas-and-numpy" %}}
-  - {{% contentlink "projects/tdd/string-calculator" %}}
+  - {{% contentlink path="topics/python-specific/unit-testing/automated-testing-pandas-and-numpy" %}}
+  - {{% contentlink path="projects/tdd/string-calculator" %}}
 
 - DATA_ENG:
-  - {{% contentlink "projects/tdd/string-calculator" %}}
+  - {{% contentlink path="projects/tdd/string-calculator" %}}
 
 * WEB_DEV:
-  - {{% contentlink "projects/tdd/password-checker/part1" %}}
-  - {{% contentlink "topics/js-and-node-specific/logging" %}}
+  - {{% contentlink path="projects/tdd/password-checker/part1" %}}
+  - {{% contentlink path="topics/js-and-node-specific/logging" %}}
   - add logging to password checker
 
 - JAVA:
   - LIVE CODE WORKSHOP: Error Handling
-  - {{% contentlink "projects/tdd/password-checker/part1" %}}
-  - {{% contentlink "topics/java-specific/logging" %}}
-  - {{% contentlink "projects/tdd/password-checker/part2" %}}
-  - {{% contentlink "topics/java-specific/file-io" %}}
+  - {{% contentlink path="projects/tdd/password-checker/part1" %}}
+  - {{% contentlink path="topics/java-specific/logging" %}}
+  - {{% contentlink path="projects/tdd/password-checker/part2" %}}
+  - {{% contentlink path="topics/java-specific/file-io" %}}
 
 ## Week 8:
 
 - DATA_SCI:
 
-  - {{% contentlink "projects/data-science-specific/statistical-thinking/" %}} INTRODUCED
+  - {{% contentlink path="projects/data-science-specific/statistical-thinking/" %}} INTRODUCED
 
 - Java:
 
-  - {{% contentlink "projects/java-specific/java-fileio-logging-errors" %}}
-  - {{% contentlink "topics/regular-expressions" %}}
+  - {{% contentlink path="projects/java-specific/java-fileio-logging-errors" %}}
+  - {{% contentlink path="topics/regular-expressions" %}}
   - NCIT 17: Search and sort techniques
 
 * DATA_ENG:
 
-  - {{% contentlink "topics/unit-testing-mocks-and-spies" %}}
-  - {{% contentlink "projects/basic-unit-test-mocks-kata" %}}
-  - {{% contentlink "topics/apis/basics/" %}}
-  - {{% contentlink "projects/github-api-consume" %}} - INTRODUCED
+  - {{% contentlink path="topics/unit-testing-mocks-and-spies" %}}
+  - {{% contentlink path="projects/basic-unit-test-mocks-kata" %}}
+  - {{% contentlink path="topics/apis/basics/" %}}
+  - {{% contentlink path="projects/github-api-consume" %}} - INTRODUCED
 
 - WEB_DEV
-  - {{% contentlink "projects/tdd/string-calculator" %}}
+  - {{% contentlink path="projects/tdd/string-calculator" %}}
 
 ## Week 9:
 
 - DATA_SCI
-  - {{% contentlink "projects/data-science-specific/data-wrangling" %}}
-  - {{% contentlink "topics/functional-programming-intro" %}}
+  - {{% contentlink path="projects/data-science-specific/data-wrangling" %}}
+  - {{% contentlink path="topics/functional-programming-intro" %}}
 
 * DATA_ENG
-  - {{% contentlink "projects/github-api-consume" %}} - DUE
-  - {{% contentlink "topics/linux/os-environmental-variables/" %}}
-  - {{% contentlink "topics/python-specific/virtual-envs/" %}}
+  - {{% contentlink path="projects/github-api-consume" %}} - DUE
+  - {{% contentlink path="topics/linux/os-environmental-variables/" %}}
+  - {{% contentlink path="topics/python-specific/virtual-envs/" %}}
 
 - WEB_DEV:
 
-  - {{% contentlink "topics/unit-testing-mocks-and-spies" %}}
-  - {{% contentlink "projects/basic-unit-test-mocks-kata" %}}
-  - {{% contentlink "topics/apis/basics/" %}}
-  - {{% contentlink "projects/github-api-consume" %}} - INTRODUCED
+  - {{% contentlink path="topics/unit-testing-mocks-and-spies" %}}
+  - {{% contentlink path="projects/basic-unit-test-mocks-kata" %}}
+  - {{% contentlink path="topics/apis/basics/" %}}
+  - {{% contentlink path="projects/github-api-consume" %}} - INTRODUCED
 
 * JAVA
-  - {{% contentlink "projects/tdd/string-calculator" %}}
-  - {{% contentlink "topics/java-specific/string-and-number-manipulation" %}}
+  - {{% contentlink path="projects/tdd/string-calculator" %}}
+  - {{% contentlink path="topics/java-specific/string-and-number-manipulation" %}}
 
 ## Week 10:
 
 - ALL
 
-  - {{% contentlink "topics/tech-terminology" %}}
+  - {{% contentlink path="topics/tech-terminology" %}}
   - NCIT 12: Business and technology
 
 - DATA_SCI:
-- {{% contentlink "projects/data-science-specific/data-wrangling" %}} - FINISH UP
+- {{% contentlink path="projects/data-science-specific/data-wrangling" %}} - FINISH UP
 
 * DATA_ENG:
-  - {{% contentlink "topics/intro-to-docker/" %}}
-  - {{% contentlink "projects/sql/" %}}
+  - {{% contentlink path="topics/intro-to-docker/" %}}
+  - {{% contentlink path="projects/sql/" %}}
 
 - WEB_DEV:
 
-  - {{% contentlink "projects/github-api-consume" %}} - DUE
-  - {{% contentlink "topics/js-and-node-specific/dom-manipulation-with-vanilla-js" %}}
-  - {{% contentlink "projects/memory-game-vanilla" %}} INTRODUCED
+  - {{% contentlink path="projects/github-api-consume" %}} - DUE
+  - {{% contentlink path="topics/js-and-node-specific/dom-manipulation-with-vanilla-js" %}}
+  - {{% contentlink path="projects/memory-game-vanilla" %}} INTRODUCED
 
 - JAVA:
-  - {{% contentlink "projects/java-specific/data-structures" %}}
-  - {{% contentlink "projects/java-specific/collections" %}}
-  - {{% contentlink "topics/java-specific/collections-and-datastructures" %}}
+  - {{% contentlink path="projects/java-specific/data-structures" %}}
+  - {{% contentlink path="projects/java-specific/collections" %}}
+  - {{% contentlink path="topics/java-specific/collections-and-datastructures" %}}
 
 ## Week 11
 
 - DATA_ENG
 
-  - {{% contentlink "topics/python-specific/sqlalchemy" %}}
-  - {{% contentlink "projects/python-specific/build-rest-api-with-db" %}}
+  - {{% contentlink path="topics/python-specific/sqlalchemy" %}}
+  - {{% contentlink path="projects/python-specific/build-rest-api-with-db" %}}
 
 - DATA_SCI:
 
-  - {{% contentlink "projects/data-science-specific/cross-validation-and-simple-linear-regression/" %}}
+  - {{% contentlink path="projects/data-science-specific/cross-validation-and-simple-linear-regression/" %}}
 
 - WEB_DEV:
 
-  - {{% contentlink "projects/memory-game-vanilla" %}} DUE
+  - {{% contentlink path="projects/memory-game-vanilla" %}} DUE
 
 - JAVA:
 
-  - {{% contentlink "projects/oop/dice" %}} INTRODUCED
-  - {{% contentlink "projects/java-specific/generics" %}}
-  - {{% contentlink "topics/java-specific/generics" %}}
-  - {{% contentlink "topics/design-patterns" %}}
+  - {{% contentlink path="projects/oop/dice" %}} INTRODUCED
+  - {{% contentlink path="projects/java-specific/generics" %}}
+  - {{% contentlink path="topics/java-specific/generics" %}}
+  - {{% contentlink path="topics/design-patterns" %}}
 
 ## WEEK 12:
 
 - DATA_SCI:
-  - {{% contentlink "projects/data-science-specific/multivariate-linear-regression" %}}
-  - BONUS: Compare results using OOP principles in {{% contentlink "projects/data-science-specific/cross-validation-and-simple-linear-regression/" %}}
+  - {{% contentlink path="projects/data-science-specific/multivariate-linear-regression" %}}
+  - BONUS: Compare results using OOP principles in {{% contentlink path="projects/data-science-specific/cross-validation-and-simple-linear-regression/" %}}
 
 * WEB_DEV
 
-  - {{% contentlink "topics/js-and-node-specific/node/" %}}
-  - {{% contentlink "projects/nodejs/file-io" %}}
+  - {{% contentlink path="topics/js-and-node-specific/node/" %}}
+  - {{% contentlink path="projects/nodejs/file-io" %}}
 
 * DATA_ENG:
 
-  - {{% contentlink "topics/python-specific/sqlalchemy/migrations" %}}
-  - {{% contentlink "projects/python-specific/sqlalchemy-migrations" %}} - INTRODUCTION
+  - {{% contentlink path="topics/python-specific/sqlalchemy/migrations" %}}
+  - {{% contentlink path="projects/python-specific/sqlalchemy-migrations" %}} - INTRODUCTION
 
 * JAVA:
-  - {{% contentlink "projects/oop/dice" %}} DUE
-  - {{% contentlink "topics/intro-to-docker/" %}}
-  - {{% contentlink "projects/sql/" %}} INTRODUCED
+  - {{% contentlink path="projects/oop/dice" %}} DUE
+  - {{% contentlink path="topics/intro-to-docker/" %}}
+  - {{% contentlink path="projects/sql/" %}} INTRODUCED
 
 ## Week 13
 
@@ -369,86 +369,86 @@ The recruits finish off their portfolios. From this point forward they are expec
 
 - DATA_SCI
 
-  - {{% contentlink "topics/python-specific/oop-for-python" %}}
-  - {{% contentlink "projects/oop-for-data-science" %}}
+  - {{% contentlink path="topics/python-specific/oop-for-python" %}}
+  - {{% contentlink path="projects/oop-for-data-science" %}}
 
 - DATA_ENG
-  - {{% contentlink "topics/data-infrastructure/database-comparison/" %}}
-  - {{% contentlink "topics/python-specific/mongodb/" %}}
-  - {{% contentlink "topics/optimizations-and-big-o/" %}}
-  - {{% contentlink "projects/python-specific/mongo" %}} - DUE
+  - {{% contentlink path="topics/data-infrastructure/database-comparison/" %}}
+  - {{% contentlink path="topics/python-specific/mongodb/" %}}
+  - {{% contentlink path="topics/optimizations-and-big-o/" %}}
+  - {{% contentlink path="projects/python-specific/mongo" %}} - DUE
 
 * WEB_DEV:
-  - {{% contentlink "topics/intro-to-docker/" %}}
-  - {{% contentlink "projects/sql/" %}} - INTRODUCTION
-  - {{% contentlink "workshops/node-and-sql/" %}}
+  - {{% contentlink path="topics/intro-to-docker/" %}}
+  - {{% contentlink path="projects/sql/" %}} - INTRODUCTION
+  - {{% contentlink path="workshops/node-and-sql/" %}}
 
 - JAVA:
 
-  - {{% contentlink "projects/sql/" %}} DUE
-  - {{% contentlink "topics/linux/os-environmental-variables/" %}}
-  - {{% contentlink "topics/java-specific/jdbc-templates" %}}
-  - {{% contentlink "topics/java-specific/gradle-env-config" %}}
-  - {{% contentlink "projects/java-specific/hello-sql-and-java" %}}
+  - {{% contentlink path="projects/sql/" %}} DUE
+  - {{% contentlink path="topics/linux/os-environmental-variables/" %}}
+  - {{% contentlink path="topics/java-specific/jdbc-templates" %}}
+  - {{% contentlink path="topics/java-specific/gradle-env-config" %}}
+  - {{% contentlink path="projects/java-specific/hello-sql-and-java" %}}
 
 ## Week 14
 
 - DATA_ENG
-  - {{% contentlink "topics/python-specific/sqlalchemy/migrations" %}}
-  - {{% contentlink "projects/python-specific/sqlalchemy-migrations" %}} - DUE
-  - {{% contentlink "topics/data-infrastructure/database-comparison/" %}}
-  - {{% contentlink "topics/python-specific/mongodb/" %}}
-  - {{% contentlink "projects/python-specific/mongo" %}} - INTRODUCTION
+  - {{% contentlink path="topics/python-specific/sqlalchemy/migrations" %}}
+  - {{% contentlink path="projects/python-specific/sqlalchemy-migrations" %}} - DUE
+  - {{% contentlink path="topics/data-infrastructure/database-comparison/" %}}
+  - {{% contentlink path="topics/python-specific/mongodb/" %}}
+  - {{% contentlink path="projects/python-specific/mongo" %}} - INTRODUCTION
 
 * WEB_DEV:
-  - {{% contentlink "projects/sql/" %}} - DUE
-  - {{% contentlink "workshops/node-and-sql/" %}}
+  - {{% contentlink path="projects/sql/" %}} - DUE
+  - {{% contentlink path="workshops/node-and-sql/" %}}
 
 - DATA_SCI
 
-  - {{% contentlink "topics/intro-to-docker/" %}}
-  - {{% contentlink "topics/python-specific/virtual-envs/" %}}
+  - {{% contentlink path="topics/intro-to-docker/" %}}
+  - {{% contentlink path="topics/python-specific/virtual-envs/" %}}
 
 - JAVA:
   - NCIT 14: Database Development
   - NCIT 15: Analytics, Surveys, and Reports / Input & Output
-  - {{% contentlink "topics/java-specific/introduction-to-spring-boot/part-1" %}}
-  - {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-1" %}}
+  - {{% contentlink path="topics/java-specific/introduction-to-spring-boot/part-1" %}}
+  - {{% contentlink path="projects/java-specific/introduction-to-spring-boot/part-1" %}}
 
 ## Week 15
 
 - DATA_ENG:
-  - {{% contentlink "projects/rabbitmq" %}}
-  - {{% contentlink "projects/dags-with-airflow" %}} - INTRODUCED
+  - {{% contentlink path="projects/rabbitmq" %}}
+  - {{% contentlink path="projects/dags-with-airflow" %}} - INTRODUCED
 
 * DATA_SCI:
-  - {{% contentlink "topics/python-specific/sql-and-python/" %}}
+  - {{% contentlink path="topics/python-specific/sql-and-python/" %}}
 
 - WEB_DEV:
 
-  - {{% contentlink "topics/linux/os-environmental-variables/" %}}
-  - {{% contentlink "topics/js-and-node-specific/dotenv/" %}}
-  - {{% contentlink "projects/nodejs/sql" %}}
+  - {{% contentlink path="topics/linux/os-environmental-variables/" %}}
+  - {{% contentlink path="topics/js-and-node-specific/dotenv/" %}}
+  - {{% contentlink path="projects/nodejs/sql" %}}
 
 - Java :
-  - {{% contentlink "topics/java-specific/introduction-to-spring-boot/part-2" %}}
-  - {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-2" %}}
-  - {{% contentlink "topics/how-the-internet-works" %}}
+  - {{% contentlink path="topics/java-specific/introduction-to-spring-boot/part-2" %}}
+  - {{% contentlink path="projects/java-specific/introduction-to-spring-boot/part-2" %}}
+  - {{% contentlink path="topics/how-the-internet-works" %}}
   * NCIT 05: History of the Internet
 
 ## Week 16
 
 - DATA_ENG:
-  - {{% contentlink "projects/dags-with-airflow" %}} - DUE
+  - {{% contentlink path="projects/dags-with-airflow" %}} - DUE
 
 * DATA_SCI:
 
-  - {{% contentlink "topics/python-specific/sql-and-python/" %}}
-  - {{% contentlink "topics/data-validation-and-quality-control/" %}}
+  - {{% contentlink path="topics/python-specific/sql-and-python/" %}}
+  - {{% contentlink path="topics/data-validation-and-quality-control/" %}}
 
 * WEB_DEV:
 
-  - {{% contentlink "projects/nodejs/express-forms" %}}
+  - {{% contentlink path="projects/nodejs/express-forms" %}}
 
 ALL:
 
@@ -456,45 +456,45 @@ ALL:
 
 JAVA:
 
-- {{% contentlink "topics/java-specific/introduction-to-spring-boot/part-3" %}}
-- {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-3" %}}
+- {{% contentlink path="topics/java-specific/introduction-to-spring-boot/part-3" %}}
+- {{% contentlink path="projects/java-specific/introduction-to-spring-boot/part-3" %}}
 
 ## Week 17
 
 - JAVA:
-  - {{% contentlink "topics/kinds-of-web-apis" %}} REST versus SOAP and GraphQL(double check if std bank wants peeps to use soap bpm)
-  - {{% contentlink "projects/github-api-consume" %}}
-  - {{% contentlink "projects/java-specific/consume-own-api-using-curl" %}}
-  - {{% contentlink "topics/data-ethics-and-privacy" %}}
+  - {{% contentlink path="topics/kinds-of-web-apis" %}} REST versus SOAP and GraphQL(double check if std bank wants peeps to use soap bpm)
+  - {{% contentlink path="projects/github-api-consume" %}}
+  - {{% contentlink path="projects/java-specific/consume-own-api-using-curl" %}}
+  - {{% contentlink path="topics/data-ethics-and-privacy" %}}
 
 * WEB_DEV:
 
-  - {{% contentlink "projects/nodejs/api" %}}
+  - {{% contentlink path="projects/nodejs/api" %}}
 
 - DATA_ENG:
-  - {{% contentlink "topics/python-specific/kafka" %}}
-  - {{% contentlink "projects/python-specific/kafka" %}} - INTRODUCTION
+  - {{% contentlink path="topics/python-specific/kafka" %}}
+  - {{% contentlink path="projects/python-specific/kafka" %}} - INTRODUCTION
 
 * DATA_SCI: BUFFER WEEK
 
 - JAVA:
-  - {{% contentlink "topics/java-specific/introduction-to-spring-boot/part-4" %}}
-  - {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-4" %}}
+  - {{% contentlink path="topics/java-specific/introduction-to-spring-boot/part-4" %}}
+  - {{% contentlink path="projects/java-specific/introduction-to-spring-boot/part-4" %}}
 
 ## Week 18
 
 - NCIT 15: Analytics, Surveys, and Reports / Input & Output
 
 - DATA_SCI:
-  - {{% contentlink "projects/data-science-specific/logistic-regression" %}}
+  - {{% contentlink path="projects/data-science-specific/logistic-regression" %}}
 
 * WEB_DEV:
-  - {{% contentlink "projects/nodejs/ajax" %}}
+  - {{% contentlink path="projects/nodejs/ajax" %}}
 
 - DATA_ENG:
 
-  - {{% contentlink "projects/python-specific/kafka" %}} - DUE
-  - {{% contentlink "topics/data-infrastructure/choosing-a-task-queue" %}}
+  - {{% contentlink path="projects/python-specific/kafka" %}} - DUE
+  - {{% contentlink path="topics/data-infrastructure/choosing-a-task-queue" %}}
 
 - JAVA:
 
@@ -502,30 +502,30 @@ JAVA:
 
 - WEB_DEV:
 
-  - {{% contentlink "topics/agile-scrum" %}}
-  - {{% contentlink "workshops/agile-scrum/" %}}
-  - {{% contentlink "topics/optimizations-and-big-o/" %}}
+  - {{% contentlink path="topics/agile-scrum" %}}
+  - {{% contentlink path="workshops/agile-scrum/" %}}
+  - {{% contentlink path="topics/optimizations-and-big-o/" %}}
 
 - DATA_ENG:
 
-  - {{% contentlink "projects/python-specific/spark" %}} - INTRODUCED
-  - {{% contentlink "topics/python-specific/spark" %}}
+  - {{% contentlink path="projects/python-specific/spark" %}} - INTRODUCED
+  - {{% contentlink path="topics/python-specific/spark" %}}
 
 - DATA_SCI:
 
-  - {{% contentlink "projects/data-science-specific/decision-trees" %}}
+  - {{% contentlink path="projects/data-science-specific/decision-trees" %}}
 
 - JAVA:
-  - {{% contentlink "topics/java-specific/introduction-to-spring-boot/part-3" %}}
-  - {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-3" %}}
+  - {{% contentlink path="topics/java-specific/introduction-to-spring-boot/part-3" %}}
+  - {{% contentlink path="projects/java-specific/introduction-to-spring-boot/part-3" %}}
 
 ## Week 20
 
 - ALL:
 
-  - {{% contentlink "topics/agile-scrum" %}}
-  - {{% contentlink "workshops/agile-scrum/" %}}
-  - {{% contentlink "topics/optimizations-and-big-o/" %}}
+  - {{% contentlink path="topics/agile-scrum" %}}
+  - {{% contentlink path="workshops/agile-scrum/" %}}
+  - {{% contentlink path="topics/optimizations-and-big-o/" %}}
 
 - NCIT 16: Thinking like a machine / Boolean algebra, logic
 - NCIT 17: Search and sort techniques
@@ -538,28 +538,28 @@ JAVA:
 MUB must happen before this point.
 
 - DATA_ENG:
-  - {{% contentlink "projects/python-specific/spark" %}} - DUE
+  - {{% contentlink path="projects/python-specific/spark" %}} - DUE
 
 ALL:
 
 - NCIT Summative assessment
 
 - DATA_SCI: PRODUCT TEAM ONBOARDING
-  - {{% contentlink "workshops/git-for-teamwork/" %}}
+  - {{% contentlink path="workshops/git-for-teamwork/" %}}
 
 ## Week 22:
 
 - DATA_SCI: PRODUCT TEAM WORK
-  - {{% contentlink "projects/data-science-specific/k-means-clustering" %}}
+  - {{% contentlink path="projects/data-science-specific/k-means-clustering" %}}
 
 * ALL:
-  - {{% contentlink "topics/data-infrastructure/database-comparison/" %}}
+  - {{% contentlink path="topics/data-infrastructure/database-comparison/" %}}
 
 ## Week 23
 
 - DATA_SCI:
-  - {{% contentlink "topics/data-science-specific/natural-language-processing" %}}
-  - {{% contentlink "projects/data-science-specific/natural-language-processing" %}}
+  - {{% contentlink path="topics/data-science-specific/natural-language-processing" %}}
+  - {{% contentlink path="projects/data-science-specific/natural-language-processing" %}}
 
 ## Week 24
 
@@ -574,8 +574,8 @@ DATA_SCI: PRODUCT TEAM WORK
 DATA_SCI: PRODUCT TEAM WORK
 
 - ALL:
-  - {{% contentlink "workshops/git-for-teamwork/" %}}
-  - {{% contentlink "workshops/agile-recap/" %}}
+  - {{% contentlink path="workshops/git-for-teamwork/" %}}
+  - {{% contentlink path="workshops/agile-recap/" %}}
 
 ## Optional Extras
 
@@ -583,13 +583,13 @@ If recruits want/need to go a little further with their learning then here are a
 
 - WEB_DEV:
 
-  - {{% contentlink "topics/web-frontend/intro-to-angular/" %}}
-  - {{% contentlink "topics/web-frontend/intro-to-react/" %}}
-  - {{% contentlink "topics/web-frontend/intro-to-vue/" %}}
-  - {{% contentlink "workshops/nodejs-intro-to-socketio/" %}}
-  - {{% contentlink "workshops/redux_intro/" %}}
-  - {{% contentlink "workshops/nodejs-async-vs-sync" %}}
-  - {{% contentlink "topics/js-and-node-specific/mongodb/" %}}
+  - {{% contentlink path="topics/web-frontend/intro-to-angular/" %}}
+  - {{% contentlink path="topics/web-frontend/intro-to-react/" %}}
+  - {{% contentlink path="topics/web-frontend/intro-to-vue/" %}}
+  - {{% contentlink path="workshops/nodejs-intro-to-socketio/" %}}
+  - {{% contentlink path="workshops/redux_intro/" %}}
+  - {{% contentlink path="workshops/nodejs-async-vs-sync" %}}
+  - {{% contentlink path="topics/js-and-node-specific/mongodb/" %}}
 
 - DATA_ENG:
   - postgres stored procedures
@@ -603,4 +603,4 @@ If recruits want/need to go a little further with their learning then here are a
 
 The projects listed below are not necessary but could be used to re-enforce certain learnings
 
-- {{% contentlink "projects/semitone-challenge" %}}
+- {{% contentlink path="projects/semitone-challenge" %}}

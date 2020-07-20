@@ -1,6 +1,7 @@
 ---
 title: The Quizmaster
 ready: True
+submission_type: nosubmit
 ---
 
 ## Who should do this?

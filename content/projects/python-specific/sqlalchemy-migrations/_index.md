@@ -5,6 +5,8 @@ prerequisites:
   hard: ["topics/python-specific/sqlalchemy/migrations"]
   soft: []
 tags: []
+available_options: ["python"]
+submission_type: repo
 ---
 
 In this project you will practice the basics of alembic based migrations. A lot of this stuff might seem quite straight-forward now, but focus! When mygrations go wrong in production then life gets way too hard, and real user data can be put at serious risk!

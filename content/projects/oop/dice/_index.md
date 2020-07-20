@@ -1,6 +1,8 @@
 ---
 title: Dice
 ready: True
+available_options: ["any_language"]
+submission_type: repo
 ---
 
 Please follow TDD when implementing this code.

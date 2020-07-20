@@ -12,6 +12,8 @@ prerequisites:
     ["topics/python-self-learning", "topics/jupyter-notebooks-best-practices"]
 tags: ["multiple-linear-regression"]
 story_points: 3
+submission_type: "repo"
+available_options: ["python"]
 ---
 
 This week is all about one-hot encoding and multiple regression.

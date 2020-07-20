@@ -12,6 +12,8 @@ prerequisites:
     ["topics/python-self-learning", "topics/jupyter-notebooks-best-practices"]
 tags: ["simple-linear-regression"]
 story_points: 13
+submission_type: "repo"
+available_options: ["python"]
 ---
 
 ## Key topics

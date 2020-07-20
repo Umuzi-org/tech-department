@@ -2,7 +2,13 @@
 title: Advanced algorithm
 pre: "<b>3. </b>"
 weight: 3
+prerequisites:
+  hard: ["projects/semitone-challenge/basic-algorithm"]
+  soft: []
 ready: true
+available_options: ["javascript"]
+submission_type: continue_repo
+from_repo: "projects/semitone-challenge/basic-algorithm"
 ---
 
 Adjust your `JamBuddy` class so that it can handle flats and sharps.

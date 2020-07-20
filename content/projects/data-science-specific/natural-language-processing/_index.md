@@ -9,6 +9,8 @@ prerequisites:
   soft: ["topics/python-self-learning","topics/jupyter-notebooks-best-practices",]
 tags: ["nlp"]
 story_points: 21
+submission_type: "repo"
+available_options: ["python"]
 ---
 
 The contents of the State of the Nation Address (SONA) for every year dating back to 1990 is available on the [South African Government website](https://www.gov.za/state-nation-address). This gives us a great opportunity to look at the priorities and challenges have faced over time, and the focus points for the various presidents over this time.
