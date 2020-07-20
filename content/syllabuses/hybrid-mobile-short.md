@@ -22,7 +22,6 @@ title: Hybrid mobile dev short course
 
 - {{% contentlink "topics/angular-elements" %}}
 - {{% contentlink "projects/memory-game-angular-material" %}}
-- {{% contentlink "projects/game-of-life-angular-elements" %}}
 - {{% contentlink "topics/redux-with-angular" %}}
 - {{% contentlink "projects/redux-with-angular" %}}
 
@@ -35,13 +34,16 @@ title: Hybrid mobile dev short course
 
 ## Part 6 
 
-- {{% contentlink "topics/angular-testing-cucumber" %}}
-- {{% contentlink "projects/angular-testing-with-cucumber" %}}
+- {{% contentlink "topics/ionic/introduction-to-ionic" %}}
+- {{% contentlink "projects/ionic/ionic-angular-typescript" %}}
 
+## Part 7
 
+- {{% contentlink "topics/ionic/ionic-tools-and-patterns" %}}
+- {{% contentlink "topics/ionic/progressive-web-apps" %}}
+- {{% contentlink "projects/ionic/news-app/_index.md" %}}
 
 
 
 TODO:
-Connecting to Java backend services
-
+- Summary project.
