@@ -1,12 +1,15 @@
 ---
-title: "Introduction to Linux: Live demo"
+_db_id: 17
+content_type: workshop
+title: 'Introduction to Linux: Live demo'
 todo:
-  - "these all seem bad in different ways: Some aren't in depth, some go into too much detail on irrelevent things. Signal to noise ratio matters"
-  - https://docs.google.com/presentation/d/1dhj1-p9Ufl4ilSy_Nu8sw-kuNVWkSvhp0dn5KGo9TyY
-  - https://docs.google.com/presentation/d/1VKLYGckrf6GVlZ4CkK9t1O6rA_OkAkt9XQ5TmHynKXg/  edit#slide=id.gc6f889893_0_0
-  - https://docs.google.com/presentation/d/1VKLYGckrf6GVlZ4CkK9t1O6rA_OkAkt9XQ5TmHynKXg/  edit#slide=id.gc6f889893_0_0
-  - https://docs.google.com/presentation/d/1JDHBfcISYGLKdcCF6MrRXs9fzIdkyb8YngE8EZjhI48/edit#slide=id.p
-  - https://docs.google.com/presentation/d/1E5ef9FtcQExlMVeKIhXHsG59w78GMIz_Q3zdWBWUdac/edit#slide=id.p
+- 'these all seem bad in different ways: Some aren''t in depth, some go into too much
+  detail on irrelevent things. Signal to noise ratio matters'
+- https://docs.google.com/presentation/d/1dhj1-p9Ufl4ilSy_Nu8sw-kuNVWkSvhp0dn5KGo9TyY
+- https://docs.google.com/presentation/d/1VKLYGckrf6GVlZ4CkK9t1O6rA_OkAkt9XQ5TmHynKXg/  edit#slide=id.gc6f889893_0_0
+- https://docs.google.com/presentation/d/1VKLYGckrf6GVlZ4CkK9t1O6rA_OkAkt9XQ5TmHynKXg/  edit#slide=id.gc6f889893_0_0
+- https://docs.google.com/presentation/d/1JDHBfcISYGLKdcCF6MrRXs9fzIdkyb8YngE8EZjhI48/edit#slide=id.p
+- https://docs.google.com/presentation/d/1E5ef9FtcQExlMVeKIhXHsG59w78GMIz_Q3zdWBWUdac/edit#slide=id.p
 ---
 
 Linux Ubuntu or Mint will be demonstrated to the recruits. Demonstrate:

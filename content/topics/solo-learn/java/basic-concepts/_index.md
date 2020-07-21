@@ -1,6 +1,7 @@
 ---
-title:  Solo Learn - Basic Concepts  
+title: Solo Learn - Java - Module 1 - Basic Concepts
 ready: True
+needs_review: True
 ---
 
 Complete the above mentioned module on Solo Learn

@@ -1,6 +1,8 @@
 ---
-title: "How to be a professional"
+_db_id: 11
+content_type: workshop
 ready: true
+title: How to be a professional
 ---
 
 This is a run down of what it means to be a professional and how we expect you to behave within the tech department.
