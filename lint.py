@@ -147,6 +147,5 @@ def check_contentlinks_ok():
 
 if __name__ == "__main__":
     check_all_frontmatter_and_directory_names("content")
-
-    print("TODO: nosubmit projects cant be in syllabus")
+    check_contentlinks_ok()
 

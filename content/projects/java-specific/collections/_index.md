@@ -11,7 +11,6 @@ prerequisites:
     [
       "topics/intro-to-docker",
       "topics/java-specific/intro-to-gradle-with-intellij",
-      "projects/how-to-submit-your-project",
       "projects/oop/dice",
       "projects/oop/person",
     ]

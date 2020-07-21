@@ -35,8 +35,6 @@ Here are a few professional behaviors you should start practicing today:
 - Always submit your work on time
 - When you get feedback about your work, implement it
 
-Talking about submissint work... {{% contentlink path="projects/how-to-submit-your-project" %}}
-
 ## Workshops
 
 We run a bunch of workshops for a bunch of reasons. Sometimes the workshops are about demonstrating some code things, sometimes they are about you demonstrating your understanding of concepts.

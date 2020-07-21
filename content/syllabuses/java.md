@@ -48,8 +48,7 @@ title: Java Basics
 * {{% contentlink path="projects/java-specific/data-structures" %}}
 * Java Generics
 * {{% contentlink path="projects/java-specific/generics" %}}
-* Spring Infrastructure
-* {{% contentlink path="projects/java-specific/introduction-to-spring-infrastructure/part-3" %}}
+
 * Spring Boot Introduction
 * {{% contentlink path="projects/java-specific/introduction-to-spring-boot/part-4" %}}
 * SQL and Java

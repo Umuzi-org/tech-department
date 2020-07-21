@@ -94,7 +94,7 @@ title: Web Development
 * {{% contentlink path="topics/web-frontend/intro-to-react/" optional="1" %}}
 * {{% contentlink path="topics/web-frontend/intro-to-vue/" optional="1" %}}
 * {{% contentlink path="workshops/nodejs-intro-to-socketio/" optional="1" %}}
-* {{% contentlink path="workshops/redux_intro/" optional="1" %}}
+* {{% contentlink path="workshops/redux-intro/" optional="1" %}}
 * {{% contentlink path="workshops/nodejs-async-vs-sync" optional="1" %}}
 * {{% contentlink path="topics/js-and-node-specific/mongodb/" optional="1" %}}
 * {{% contentlink path="topics/js-and-node-specific/dotenv/" optional="1" %}}

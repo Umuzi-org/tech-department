@@ -171,8 +171,6 @@ Once you have saved your file then you should be able to see it in the it in the
 
 And you can make a content link to your new file like this:
 
-Use content-link will look like this: {{% contentlink path="topics/python-specific/intro-to-beautifulsoup" %}}
-
 ## Advanced frontmatter
 
 So you know how to specify a title in your frontmatter, there are a few more things to know about.

@@ -21,7 +21,7 @@ The projects that are worth reviewing first are these (in order).
 - {{% contentlink path="projects/tdd/simple-calculator-part2" %}}
 - {{% contentlink path="projects/oop/person" %}}
 - {{% contentlink path="projects/oop/dice" %}}
-- {{% contentlink path="projects/oop/bank_accounts" %}}
+- {{% contentlink path="projects/oop/bank-accounts" %}}
 
 Also, be a perfectionist. We want our recruits to write beautiful code
 
