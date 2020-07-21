@@ -78,6 +78,8 @@ def check_one_file_frontmatter(file_path):
 
     required = ["title"]
     allowed = [
+        "_db_id",
+        "content_type",
         "pre",
         "weight",
         "ready",
@@ -92,6 +94,7 @@ def check_one_file_frontmatter(file_path):
         "tags",
         "story_points",
         "available_options",
+        "needs_review"
         # "from_repo",
     ]
 
@@ -147,5 +150,5 @@ def check_contentlinks_ok():
 
 if __name__ == "__main__":
     check_all_frontmatter_and_directory_names("content")
-    check_contentlinks_ok()
+    # check_contentlinks_ok()
 

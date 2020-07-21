@@ -13,4 +13,4 @@ The followings are to be demonstrated and addressed during the workshop
 
 ## Resources
 
-1. {{% contentlink path="topics/intro-to-css-architecture" %}}
+{{% contentlink path="topics/intro-to-css-architecture" %}}
