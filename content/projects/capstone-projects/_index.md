@@ -1,9 +1,11 @@
 ---
-title: Capstone project
-ready: True
-submission_type: "repo"
-available_options: ["none"]
+_db_id: 421
+available_options:
+- none
+content_type: project
+ready: true
 submission_type: repo
+title: Capstone project
 ---
 
 The projects in this section are designed to really test your skills. You need to talk to your manager before moving forward with this project.

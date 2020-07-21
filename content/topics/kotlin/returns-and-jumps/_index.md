@@ -1,10 +1,14 @@
 ---
-title: Returns and Jumps
-ready: true
+_db_id: 382
+content_type: topic
 prerequisites:
-  hard: ["topics/kotlin/annotations"]
+  hard:
+  - topics/kotlin/annotations
   soft: []
+ready: true
+title: Returns and Jumps
 ---
+
 ### Kotlin has three structural jump expressions:
 
 return. By default returns from the nearest enclosing function or anonymous function.

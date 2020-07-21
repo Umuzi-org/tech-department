@@ -1,6 +1,8 @@
 ---
-title: Web dev bootcamp setup
+_db_id: 395
+content_type: topic
 ready: true
+title: Web dev bootcamp setup
 ---
 
 You'll need to be set up so that you can write and run code on your own device.

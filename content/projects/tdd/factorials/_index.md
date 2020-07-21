@@ -1,9 +1,12 @@
 ---
-title: factorials
-pre: "<b>EASY: </b>"
-ready: True
-available_options: ["any_language"]
+_db_id: 267
+available_options:
+- any_language
+content_type: project
+pre: '<b>EASY: </b>'
+ready: true
 submission_type: repo
+title: factorials
 ---
 
 Write a script with a function called `calculate_factorial` that takes a number and returns its factorial.

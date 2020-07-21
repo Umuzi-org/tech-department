@@ -1,13 +1,20 @@
 ---
-title: Webscraping and Live Dashboard Assignment
-pre: "<b> HARD: </b>"
-ready: True
+_db_id: 242
+available_options:
+- python
+content_type: project
+pre: '<b> HARD: </b>'
 prerequisites:
-  hard: ["projects/data-science-specific/dashboards/plotly_dashboards"]
-  soft: ["projects/data-science-specific/data-wrangling"]
-tags: ["webscraping", "dashboard"]
-submission_type: "repo"
-available_options: ["python"]
+  hard:
+  - projects/data-science-specific/dashboards/plotly_dashboards
+  soft:
+  - projects/data-science-specific/data-wrangling
+ready: true
+submission_type: repo
+tags:
+- webscraping
+- dashboard
+title: Webscraping and Live Dashboard Assignment
 ---
 
 ## Assignment

@@ -1,13 +1,19 @@
 ---
-title: password-checker
-ready: true
+_db_id: 269
+available_options:
+- any_language
+content_type: project
 prerequisites:
-  hard: ["projects/tdd/simple-calculator-part1"]
+  hard:
+  - projects/tdd/simple-calculator-part1
   soft: []
-tags: ["tdd", "error-checking"]
+ready: true
 story_points: 3
-available_options: ["any_language"]
 submission_type: repo
+tags:
+- tdd
+- error-checking
+title: password-checker
 ---
 
 ## Set up your environment

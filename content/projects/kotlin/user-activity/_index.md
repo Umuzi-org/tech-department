@@ -1,11 +1,15 @@
 ---
-title: User Activity
-ready: True
+_db_id: 414
+available_options:
+- kotlin
+content_type: project
 prerequisites:
-  hard: ["projects/kotlin/liner-layout-using-the-layout-editor"]
+  hard:
+  - projects/kotlin/liner-layout-using-the-layout-editor
   soft: []
+ready: true
 submission_type: repo
-available_options: ["kotlin"]
+title: User Activity
 ---
 
 ## App overview

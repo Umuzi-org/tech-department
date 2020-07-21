@@ -1,8 +1,11 @@
 ---
-title: Pre bootcamp challenges
-ready: True
+_db_id: 416
+available_options:
+- any_language
+content_type: project
+ready: true
 submission_type: link
-available_options: ["any_language"]
+title: Pre bootcamp challenges
 ---
 
 Complete these tasks in the correct language. If you are here to learn JavaScript, do them in JavaScript. If you have been told to use Python then use Python.

@@ -1,25 +1,24 @@
 ---
-title: Decision Trees
-ready: True
-pre: "<b>MEDIUM: </b>"
-ready: True
+_db_id: 236
+available_options:
+- python
+content_type: project
+pre: '<b>MEDIUM: </b>'
 prerequisites:
   hard:
-    [
-      "projects/data-science-specific/statistical-thinking",
-      "projects/data-science-specific/data-visualisation",
-      "projects/data-science-specific/logistic-regression"     
-    ]
+  - projects/data-science-specific/statistical-thinking
+  - projects/data-science-specific/data-visualisation
+  - projects/data-science-specific/logistic-regression
   soft:
-    [
-      "topics/python-self-learning",
-      "topics/jupyter-notebooks-best-practices",
-      "topics/data-science-specific/data-science-methodology"
-    ]
-tags: ["decision-trees"]
+  - topics/python-self-learning
+  - topics/jupyter-notebooks-best-practices
+  - topics/data-science-specific/data-science-methodology
+ready: true
 story_points: 8
-submission_type: "repo"
-available_options: ["python"]
+submission_type: repo
+tags:
+- decision-trees
+title: Decision Trees
 ---
 
 ## Background material

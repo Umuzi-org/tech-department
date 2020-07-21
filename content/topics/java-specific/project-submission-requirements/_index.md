@@ -1,4 +1,6 @@
 ---
+_db_id: 123
+content_type: topic
 title: Java project submission requirements
 ---
 

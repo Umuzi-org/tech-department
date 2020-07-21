@@ -1,8 +1,11 @@
 ---
-title: Dice
-ready: True
-available_options: ["any_language"]
+_db_id: 227
+available_options:
+- any_language
+content_type: project
+ready: true
 submission_type: repo
+title: Dice
 ---
 
 Please follow TDD when implementing this code.

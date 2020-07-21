@@ -1,6 +1,8 @@
 ---
-title: How to download youtube videos from the terminal
+_db_id: 436
+content_type: topic
 ready: true
+title: How to download youtube videos from the terminal
 ---
 
 If you have night-time data to use up, and you want to conserve your day-time data then it would be wise to download all your youtube videos at night.

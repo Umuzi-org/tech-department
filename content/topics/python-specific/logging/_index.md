@@ -1,4 +1,6 @@
 ---
+_db_id: 155
+content_type: topic
 title: Logging in Python
 ---
 

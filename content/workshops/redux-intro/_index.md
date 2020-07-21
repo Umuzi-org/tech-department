@@ -1,4 +1,6 @@
 ---
+_db_id: 18
+content_type: workshop
 title: Basic introduction to Redux
 ---
 

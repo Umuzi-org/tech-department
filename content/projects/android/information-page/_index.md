@@ -1,8 +1,11 @@
 ---
-title: Information Page
+_db_id: 202
+available_options:
+- kotlin
+content_type: project
 ready: true
 submission_type: repo
-available_options: ["kotlin"]
+title: Information Page
 ---
 
 The goal of this project is to create a page containing multiple forms of media that has to do with a place

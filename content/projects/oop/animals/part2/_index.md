@@ -1,14 +1,20 @@
 ---
-title: Animals Part 2. Adding Tests
-ready: true
-prerequisites:
-  hard: ["projects/oop/animals/part1"]
-  soft: []
-tags: ["unit-testing", "oop"]
-story_points: 3
-available_options: ["any_language"]
-submission_type: continue_repo
+_db_id: 225
+available_options:
+- any_language
+content_type: project
 from_repo: projects/oop/animals/part1
+prerequisites:
+  hard:
+  - projects/oop/animals/part1
+  soft: []
+ready: true
+story_points: 3
+submission_type: continue_repo
+tags:
+- unit-testing
+- oop
+title: Animals Part 2. Adding Tests
 ---
 
 In this challenge you will update your current Animals project and add unit tests to the project

@@ -1,6 +1,8 @@
 ---
-title: Git Basics
+_db_id: 143
+content_type: topic
 ready: true
+title: Git Basics
 todo: link to some videos?
 ---
 

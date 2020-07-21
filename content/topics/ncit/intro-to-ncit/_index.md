@@ -1,8 +1,12 @@
 ---
-title: Intro to NCIT Curriculum
-ready: false
-tags: ["hcd", "human centered design"]
+_db_id: 354
+content_type: topic
 nqf: ncit
+ready: false
+tags:
+- hcd
+- human centered design
+title: Intro to NCIT Curriculum
 ---
 
 Please read through this document, about the basics of human centered design as well as how we are approaching your NCIT curriculum:

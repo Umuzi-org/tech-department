@@ -1,8 +1,11 @@
 ---
-title: "Memory game using Angular Material"
-ready: True
+_db_id: 231
+available_options:
+- none
+content_type: project
+ready: true
 submission_type: repo
-available_options: ["none"]
+title: Memory game using Angular Material
 ---
 
 Take a look at this: {{% contentlink path="projects/memory-game-vanilla" %}}

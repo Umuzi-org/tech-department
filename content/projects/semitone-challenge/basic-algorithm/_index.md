@@ -1,10 +1,13 @@
 ---
-title: semitone difference - basic algorithm
-pre: "<b>1. </b>"
-weight: 1
-ready: True
-available_options: ["javascript"]
+_db_id: 199
+available_options:
+- javascript
+content_type: project
+pre: <b>1. </b>
+ready: true
 submission_type: repo
+title: semitone difference - basic algorithm
+weight: 1
 ---
 
 This is a multi-step project designed to level up many different skills.

@@ -1,10 +1,14 @@
 ---
-title: Delegation 
-ready: true
+_db_id: 298
+content_type: topic
 prerequisites:
-  hard: ["topics/kotlin/sealed-classes"]
+  hard:
+  - topics/kotlin/sealed-classes
   soft: []
+ready: true
+title: Delegation
 ---
+
 ### Class Delegation
 The Delegation pattern has proven to be a good alternative to implementation inheritance, and Kotlin supports it natively requiring zero boilerplate code. A class Derived can inherit from an interface Base and delegate all of its public methods to a specified object:
 ````

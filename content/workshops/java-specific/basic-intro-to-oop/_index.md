@@ -1,6 +1,8 @@
 ---
-title: Basic intro to oop with IntelliJ
+_db_id: 27
+content_type: workshop
 ready: true
+title: Basic intro to oop with IntelliJ
 ---
 
 This is a live coding workshop. To pull it off you need a computer with intelliJ installed. Ideally you should have already started a gradle project before the workshop begins because it takes a little bit of time.
@@ -31,4 +33,3 @@ Also be sure to cover clean coding best practices, there is a lot of kak on the 
 - dont put your main method inside a class that you intend to instantiate
 - dont put Bakkie inside the Car or RaceCar class. It gets its own file
 - use sensible names. names matter
-

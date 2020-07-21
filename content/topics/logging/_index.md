@@ -1,6 +1,8 @@
 ---
-title: Logging
+_db_id: 48
+content_type: topic
 ready: true
+title: Logging
 ---
 
 Through the development process logging helps us evaluate computation which we might be uncertain about, or show us what is happening during runtime where we have little control. Its like a third eye helping us see things that we might otherwise finding very difficult to see.

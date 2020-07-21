@@ -1,18 +1,20 @@
 ---
-title: RabbitMQ
-ready: True
+_db_id: 190
+available_options:
+- python
+content_type: project
 prerequisites:
   hard:
-    [
-      "topics/clean-code/python",
-      "topics/linux/os-environmental-variables",
-      "topics/how-the-internet-works",
-      "projects/github-api-consume",
-    ]
+  - topics/clean-code/python
+  - topics/linux/os-environmental-variables
+  - topics/how-the-internet-works
+  - projects/github-api-consume
   soft: []
-tags: ["rabbit-mq"]
+ready: true
 submission_type: repo
-available_options: ["python"]
+tags:
+- rabbit-mq
+title: RabbitMQ
 ---
 
 RabbitMQ, despite its funny name, is a seriously useful piece of software.

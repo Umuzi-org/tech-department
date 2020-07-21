@@ -1,7 +1,11 @@
 ---
-title: Introduction to Bash and the terminal
+_db_id: 60
+content_type: topic
 ready: true
-tags: ["bash", "linux"]
+tags:
+- bash
+- linux
+title: Introduction to Bash and the terminal
 ---
 
 Knowing a bit about the terminal will help you a lot in your learning journey. If you haven't met the command line before then this is probably going to seem a little strange at first. But when you get used to it it's really useful.

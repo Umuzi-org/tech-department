@@ -1,6 +1,8 @@
 ---
+_db_id: 324
+content_type: topic
+ready: true
 title: Python Recursion by example
-ready: True
 ---
 
 I heart recursion you guys.

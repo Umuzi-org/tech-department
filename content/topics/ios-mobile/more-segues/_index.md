@@ -1,9 +1,12 @@
 ---
-title: More Segues
-ready: True
+_db_id: 401
+content_type: topic
 prerequisites:
- hard: ["topics/ios-mobile/alerts-notifications-application-life-cycle"]
- soft: []
+  hard:
+  - topics/ios-mobile/alerts-notifications-application-life-cycle
+  soft: []
+ready: true
+title: More Segues
 ---
 
 ## Slides
@@ -13,5 +16,3 @@ prerequisites:
 ## Video Lectures:
 
 ### [Lecture 16: More Segues](https://www.youtube.com/watch?v=ke9fzOdg5Pk&list=PLPA-ayBrweUzGFmkT_W65z64MoGnKRZMq&index=18)
-
-

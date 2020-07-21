@@ -1,17 +1,18 @@
 ---
-title: Introduction to Spring Boot - part 3
-ready: true
+_db_id: 214
+available_options:
+- java
+content_type: project
+from_repo: projects/java-specific/introduction-to-spring-boot/part-1
 prerequisites:
   hard:
-    [
-      "projects/java-specific/introduction-to-spring-boot/part-1",
-      "projects/java-specific/introduction-to-spring-boot/part-2",
-      "topics/java-specific/introduction-to-spring-boot/part-3",
-    ]
+  - projects/java-specific/introduction-to-spring-boot/part-1
+  - projects/java-specific/introduction-to-spring-boot/part-2
+  - topics/java-specific/introduction-to-spring-boot/part-3
   soft: []
+ready: true
 submission_type: continue_repo
-from_repo: "projects/java-specific/introduction-to-spring-boot/part-1"
-available_options: ["java"]
+title: Introduction to Spring Boot - part 3
 ---
 
 We are going to focus on creating a REST api that will serve as a end point to our sping boot java application.

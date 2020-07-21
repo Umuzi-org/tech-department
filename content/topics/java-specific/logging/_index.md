@@ -1,6 +1,8 @@
 ---
-title: Java Logging with Log4j
+_db_id: 101
+content_type: topic
 ready: true
+title: Java Logging with Log4j
 ---
 
 Please make sure you read and understand this before moving forward: {{% contentlink path="/topics/logging" %}}

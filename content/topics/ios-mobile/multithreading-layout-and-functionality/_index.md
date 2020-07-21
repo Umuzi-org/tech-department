@@ -1,9 +1,12 @@
 ---
-title: Multithreading, Auto-Layout and Other Functionality
-ready: True
+_db_id: 400
+content_type: topic
 prerequisites:
- hard: ["topics/ios-mobile/swift-and-gestures-animations"]
- soft: []
+  hard:
+  - topics/ios-mobile/swift-and-gestures-animations
+  soft: []
+ready: true
+title: Multithreading, Auto-Layout and Other Functionality
 ---
 
 ## Slides

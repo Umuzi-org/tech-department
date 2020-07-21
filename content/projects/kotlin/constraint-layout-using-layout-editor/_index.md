@@ -1,11 +1,16 @@
 ---
-title: Constraint Layout Using Layout Editor
-ready: True
+_db_id: 415
+available_options:
+- kotlin
+content_type: project
 prerequisites:
-  hard: ["projects/kotlin/user-activity", "topics/kotlin/grid-layout"]
+  hard:
+  - projects/kotlin/user-activity
+  - topics/kotlin/grid-layout
   soft: []
+ready: true
 submission_type: repo
-available_options: ["kotlin"]
+title: Constraint Layout Using Layout Editor
 ---
 
 ## App overview

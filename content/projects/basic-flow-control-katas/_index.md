@@ -1,9 +1,12 @@
 ---
-title: Level 1 programming katas
+_db_id: 219
+available_options:
+- any_language
+content_type: project
 ready: true
 story_points: 3
-available_options: ["any_language"]
 submission_type: repo
+title: Level 1 programming katas
 ---
 
 These Exercises are here to help you test out and demonstrate your knowledge of the basic flow control mechanisms and syntax for your language. These Exercises are relevent whether you are doing Java, JavaScrupt, Python, Kotlin or any other modern language.

@@ -1,14 +1,19 @@
 ---
-title: Make a simple GUI
-pre: "<b>1. </b>"
-weight: 2
-ready: True
+_db_id: 196
+available_options:
+- javascript
+- any_frontend_framework
+content_type: project
+from_repo: projects/semitone-challenge/basic-algorithm
+pre: <b>1. </b>
 prerequisites:
-  hard: ["projects/semitone-challenge/basic-algorithm"]
+  hard:
+  - projects/semitone-challenge/basic-algorithm
   soft: []
-available_options: ["javascript", "any_frontend_framework"]
+ready: true
 submission_type: continue_repo
-from_repo: "projects/semitone-challenge/basic-algorithm"
+title: Make a simple GUI
+weight: 2
 ---
 
 Create a basic web site that a user can use to interact with the JamBuddy class.

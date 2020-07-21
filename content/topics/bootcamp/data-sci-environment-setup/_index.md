@@ -1,6 +1,8 @@
 ---
-title: Data Science bootcamp setup
+_db_id: 396
+content_type: topic
 ready: true
+title: Data Science bootcamp setup
 ---
 
 You'll need to be set up so that you can write and run code on your own device.

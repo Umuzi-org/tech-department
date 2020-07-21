@@ -1,6 +1,8 @@
 ---
-title: Success in bootcamp
+_db_id: 392
+content_type: topic
 ready: false
+title: Success in bootcamp
 ---
 
 Welcome to the final selection phase! If you made it this far, well done! You're a star.

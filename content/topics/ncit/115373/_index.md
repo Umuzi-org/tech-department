@@ -1,7 +1,10 @@
 ---
-title: Search and Sort Techniques
+_db_id: 376
+content_type: topic
+nqf: ncit
 ready: false
 tags: []
-nqf: ncit
-unit_standards: [115373]
+title: Search and Sort Techniques
+unit_standards:
+- 115373
 ---

@@ -1,9 +1,12 @@
 ---
-title: Grid Layout
-ready: true
+_db_id: 352
+content_type: topic
 prerequisites:
-  hard: ["topics/kotlin/data-binding"]
+  hard:
+  - topics/kotlin/data-binding
   soft: []
+ready: true
+title: Grid Layout
 ---
 
 Ice Cream Sandwich (ICS) sports two new widgets that have been designed to support the richer user interfaces made possible by larger displays: Space and GridLayout.

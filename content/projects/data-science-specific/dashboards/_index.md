@@ -1,7 +1,9 @@
 ---
-title: Dashboard Assignment
+_db_id: 241
+content_type: project
 ready: true
 submission_type: nosubmit
+title: Dashboard Assignment
 ---
 
 ## Assignments

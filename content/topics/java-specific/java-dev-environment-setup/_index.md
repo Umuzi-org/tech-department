@@ -1,6 +1,8 @@
 ---
-title: Java Dev environment setup
+_db_id: 111
+content_type: topic
 ready: true
+title: Java Dev environment setup
 ---
 
 In this little tutorial we'll walk through the process of getting your dev environment ready for Java. We use a number of different tools, you'll need to get them all set up.

@@ -1,7 +1,9 @@
 ---
-title: Android with Kotlin Projects
-ready: True
+_db_id: 379
+content_type: project
+ready: true
 submission_type: nosubmit
+title: Android with Kotlin Projects
 ---
 
 ### What you should already know

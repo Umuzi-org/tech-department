@@ -1,10 +1,14 @@
 ---
-title: Nested Classes 
-ready: true
+_db_id: 295
+content_type: topic
 prerequisites:
-  hard: ["topics/kotlin/generics"]
+  hard:
+  - topics/kotlin/generics
   soft: []
+ready: true
+title: Nested Classes
 ---
+
 Classes can be nested in other classes
 ````
 class Outer {

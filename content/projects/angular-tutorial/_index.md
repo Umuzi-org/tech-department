@@ -1,8 +1,11 @@
 ---
-title: Angular Tutorial
-ready: True
+_db_id: 221
+available_options:
+- angular
+content_type: project
+ready: true
 submission_type: repo
-available_options: ["angular"]
+title: Angular Tutorial
 ---
 
 The official Angular tutorial is great. It'll give you a solid foundation from which to work.

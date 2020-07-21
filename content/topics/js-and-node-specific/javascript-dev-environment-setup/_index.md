@@ -1,6 +1,8 @@
 ---
-title: Node setup
+_db_id: 135
+content_type: topic
 ready: true
+title: Node setup
 ---
 
 This is a guide to help lab assistants setup a local JavaScript environment.

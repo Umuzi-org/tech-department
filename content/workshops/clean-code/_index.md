@@ -1,4 +1,6 @@
 ---
+_db_id: 14
+content_type: workshop
 title: Clean Code
 ---
 

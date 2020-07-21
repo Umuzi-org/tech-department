@@ -1,7 +1,9 @@
 ---
-date: 2019-03-19T16:50:16+02:00
-title: Agile & Scrum
+_db_id: 175
+content_type: topic
+date: 2019-03-19 16:50:16+02:00
 ready: true
+title: Agile & Scrum
 ---
 
 ## NCIT Units 114059 & 114051

@@ -1,5 +1,9 @@
 ---
-title: Validating user input for web
+_db_id: 193
+available_options:
+- javascript
+- any_frontend_framework
+content_type: project
 submission_type: repo
-available_options: ["javascript", "any_frontend_framework"]
+title: Validating user input for web
 ---

@@ -1,9 +1,12 @@
 ---
-title: Functions
-ready: true
+_db_id: 386
+content_type: topic
 prerequisites:
-  hard: ["topics/kotlin/constructor-default-values"]
+  hard:
+  - topics/kotlin/constructor-default-values
   soft: []
+ready: true
+title: Functions
 ---
 
 ### Function Declarations

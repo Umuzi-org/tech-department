@@ -1,12 +1,18 @@
 ---
-title: string-calculator
-ready: true
+_db_id: 266
+available_options:
+- any_language
+content_type: project
 prerequisites:
-  hard: ["projects/tdd/simple-calculator-part1"]
+  hard:
+  - projects/tdd/simple-calculator-part1
   soft: []
-tags: ["tdd", "regular-expressions"]
-available_options: ["any_language"]
+ready: true
 submission_type: repo
+tags:
+- tdd
+- regular-expressions
+title: string-calculator
 ---
 
 ## Set up your environment

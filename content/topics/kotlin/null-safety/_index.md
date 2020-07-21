@@ -1,10 +1,14 @@
 ---
-title:  Null Safety
-ready: true
+_db_id: 387
+content_type: topic
 prerequisites:
-  hard: ["topics/kotlin/delegated-properties"]
+  hard:
+  - topics/kotlin/delegated-properties
   soft: []
+ready: true
+title: Null Safety
 ---
+
 ### Nullable types and Non-Null Types
 Kotlin's type system is aimed at eliminating the danger of null references from code, also known as the The Billion Dollar Mistake.
 

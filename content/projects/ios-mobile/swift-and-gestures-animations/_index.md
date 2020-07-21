@@ -1,15 +1,17 @@
 ---
-title: More Swift, Gestures and Animations
-ready: True
+_db_id: 427
+available_options:
+- swift
+content_type: project
 prerequisites:
   hard:
-    [
-      "projects/ios-mobile/swift-and-more",
-      "topics/ios-mobile/swift-and-gestures-animations",
-    ]
-  soft: ["topics/ios-mobile/swift-and-more"]
+  - projects/ios-mobile/swift-and-more
+  - topics/ios-mobile/swift-and-gestures-animations
+  soft:
+  - topics/ios-mobile/swift-and-more
+ready: true
 submission_type: repo
-available_options: ["swift"]
+title: More Swift, Gestures and Animations
 ---
 
 ## Project

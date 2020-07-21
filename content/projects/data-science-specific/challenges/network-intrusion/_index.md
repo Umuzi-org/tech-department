@@ -1,9 +1,12 @@
 ---
-title: Network Intrusion
-pre: "<b> HARD: </b>"
+_db_id: 250
+available_options:
+- python
+content_type: project
+pre: '<b> HARD: </b>'
 ready: true
-submission_type: "repo"
-available_options: ["python"]
+submission_type: repo
+title: Network Intrusion
 ---
 
 Software to detect network intrusions protects a computer network from unauthorized users, including perhaps insiders. The intrusion detector learning task is to build a predictive model (i.e. a classifier) capable of distinguishing between "bad" connections, called intrusions or attacks, and "good" normal connections.

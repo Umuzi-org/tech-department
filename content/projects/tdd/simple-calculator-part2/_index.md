@@ -1,15 +1,20 @@
 ---
-title: simple-calculator part 2
-pre: "<b>MEDIUM: </b>"
-ready: true
-prerequisites:
-  hard: ["projects/tdd/simple-calculator-part1"]
-  soft: []
-tags: ["tdd"]
-story_points: 8
-available_options: ["any_language"]
-submission_type: continue_repo
+_db_id: 268
+available_options:
+- any_language
+content_type: project
 from_repo: projects/tdd/simple-calculator-part1
+pre: '<b>MEDIUM: </b>'
+prerequisites:
+  hard:
+  - projects/tdd/simple-calculator-part1
+  soft: []
+ready: true
+story_points: 8
+submission_type: continue_repo
+tags:
+- tdd
+title: simple-calculator part 2
 ---
 
 This a continuation of {{% contentlink path="projects/tdd/simple-calculator-part1" %}}. If you haven't done that yet then please do. At this point you should have a well tested `add` and `multiply` function.

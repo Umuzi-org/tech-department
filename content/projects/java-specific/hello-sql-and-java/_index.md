@@ -1,14 +1,16 @@
 ---
-title: SQL Extended
+_db_id: 204
+available_options:
+- java
+content_type: project
 prerequisites:
   hard:
-    [
-      "projects/java-specific/introduction-to-spring-boot/part-4",
-      "topics/java-specific/jdbc-templates",
-    ]
-  soft: ["projects/sql"]
+  - projects/java-specific/introduction-to-spring-boot/part-4
+  - topics/java-specific/jdbc-templates
+  soft:
+  - projects/sql
 submission_type: repo
-available_options: ["java"]
+title: SQL Extended
 ---
 
 I hope at this point you should have already read up on JDBC templates, JPA and Hibernate from the topic resources. In this project we wil re-visit you SQl project. Instead of only using scripts to create and interact with your database you are doing to do this using java + scripts. You will be using dataSources to configured your connection to your database and query your tables.

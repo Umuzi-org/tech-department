@@ -1,13 +1,18 @@
 ---
-title: Git Basic Exercises
-ready: true
+_db_id: 288
+available_options:
+- none
+content_type: project
 prerequisites:
-  hard: ["topics/git"]
+  hard:
+  - topics/git
   soft: []
-tags: ["git"]
+ready: true
 story_points: 1
 submission_type: repo
-available_options: ["none"]
+tags:
+- git
+title: Git Basic Exercises
 ---
 
 ## Introduction

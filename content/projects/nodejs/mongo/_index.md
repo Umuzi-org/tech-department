@@ -1,16 +1,18 @@
 ---
-title: Node & mongoDB assignment
-ready: true
-weight: 2
-pre: "<b>2 (alt): </b>"
-
-prerequisites:
-  hard: ["projects/nodejs/file-io"]
-  soft: []
-
-available_options: ["javascript"]
-submission_type: continue_repo
+_db_id: 281
+available_options:
+- javascript
+content_type: project
 from_repo: projects/nodejs/file-io
+pre: '<b>2 (alt): </b>'
+prerequisites:
+  hard:
+  - projects/nodejs/file-io
+  soft: []
+ready: true
+submission_type: continue_repo
+title: Node & mongoDB assignment
+weight: 2
 ---
 
 You are required to create a back-end service that will help capture basic information about prospective students who come to inquire here at Umuzi.

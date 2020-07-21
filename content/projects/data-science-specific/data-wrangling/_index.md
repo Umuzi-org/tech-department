@@ -1,24 +1,23 @@
 ---
-title: Data Wrangling
-pre: "<b>MEDIUM: </b>"
-ready: true
+_db_id: 247
+available_options:
+- python
+content_type: project
+pre: '<b>MEDIUM: </b>'
 prerequisites:
   hard:
-    [
-      "topics/data-validation-and-quality-control",
-      "topics/jupyter-notebooks-best-practices",
-      "topics/python-self-learning",
-    ]
-  soft: 
-    [
-      "topics/data-ethics-and-privacy",
-      "projects/tdd/simple-calculator-part1",
-    ]
-tags: ["data-wrangling"]
+  - topics/data-validation-and-quality-control
+  - topics/jupyter-notebooks-best-practices
+  - topics/python-self-learning
+  soft:
+  - topics/data-ethics-and-privacy
+  - projects/tdd/simple-calculator-part1
+ready: true
 story_points: 5
-ready: True
-submission_type: "repo"
-available_options: ["python"]
+submission_type: repo
+tags:
+- data-wrangling
+title: Data Wrangling
 ---
 
 ## Key concepts

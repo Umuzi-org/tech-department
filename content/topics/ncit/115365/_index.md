@@ -1,7 +1,10 @@
 ---
-title: Analytics, Surveys, and Reports
+_db_id: 372
+content_type: topic
+nqf: ncit
 ready: false
 tags: []
-nqf: ncit
-unit_standards: [115365]
+title: Analytics, Surveys, and Reports
+unit_standards:
+- 115365
 ---

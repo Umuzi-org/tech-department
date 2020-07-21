@@ -1,7 +1,10 @@
 ---
-title: Getting to know Python
-available_options: ["python"]
+_db_id: 255
+available_options:
+- python
+content_type: project
 submission_type: repo
+title: Getting to know Python
 ---
 
 This little project aims to introduce you to some of the most important aspects of Python.

@@ -1,7 +1,9 @@
 ---
-title: Nodejs Challenges
+_db_id: 284
+content_type: project
 ready: true
 submission_type: nosubmit
+title: Nodejs Challenges
 ---
 
 These are NodeJS challenges. Your main focus here is to make sure your Node code is good. You will not be evaluated on the prettiness of your frontend. Your frontend just needs to work.

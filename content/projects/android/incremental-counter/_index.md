@@ -1,8 +1,11 @@
 ---
-title: Incremental Counter
+_db_id: 201
+available_options:
+- kotlin
+content_type: project
 ready: true
 submission_type: repo
-available_options: ["kotlin"]
+title: Incremental Counter
 ---
 
 This project is an introduction to how the ui of an app communicates with the code in the associated activity.

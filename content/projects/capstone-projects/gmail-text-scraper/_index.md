@@ -1,7 +1,9 @@
 ---
-title: Gmail Text Scraper
-ready: True
+_db_id: 418
+content_type: project
+ready: true
 submission_type: nosubmit
+title: Gmail Text Scraper
 ---
 
 ## Who should do this?

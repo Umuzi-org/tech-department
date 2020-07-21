@@ -1,16 +1,17 @@
 ---
-title: Introduction to Spring Boot - part 2
-ready: true
+_db_id: 218
+available_options:
+- java
+content_type: project
+from_repo: projects/java-specific/introduction-to-spring-boot/part-1
 prerequisites:
   hard:
-    [
-      "projects/java-specific/introduction-to-spring-boot/part-1",
-      "topics/java-specific/introduction-to-spring-boot/part-2",
-    ]
+  - projects/java-specific/introduction-to-spring-boot/part-1
+  - topics/java-specific/introduction-to-spring-boot/part-2
   soft: []
+ready: true
 submission_type: continue_repo
-from_repo: "projects/java-specific/introduction-to-spring-boot/part-1"
-available_options: ["java"]
+title: Introduction to Spring Boot - part 2
 ---
 
 We are going to work on Spring boot **Caching** and **Security** for this project

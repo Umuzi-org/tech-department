@@ -1,6 +1,8 @@
 ---
+_db_id: 246
+content_type: project
+submission_type: nosubmit
 title: Data Visualisation Projects
-submission_type: "nosubmit"
 ---
 
 ## Background

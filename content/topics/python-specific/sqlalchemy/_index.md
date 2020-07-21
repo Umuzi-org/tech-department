@@ -1,6 +1,8 @@
 ---
+_db_id: 159
+content_type: topic
+ready: true
 title: Sqlalchemy ORM
-ready: True
 ---
 
 Sqlalchemy is the most popular Python ORM (Object Relational Mapper). It is highly legit. Lit even (am I using that right?)

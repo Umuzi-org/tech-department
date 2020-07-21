@@ -1,11 +1,14 @@
 ---
-title:  Sealed Classes
-ready: true
+_db_id: 299
+content_type: topic
 prerequisites:
-  hard: ["topics/kotlin/data-classes"]
+  hard:
+  - topics/kotlin/data-classes
   soft: []
-
+ready: true
+title: Sealed Classes
 ---
+
 Sealed classes are used for representing restricted class hierarchies, when a value can have one of the types from a limited set, but cannot have any other type. They are, in a sense, an extension of enum classes: the set of values for an enum type is also restricted, but each enum constant exists only as a single instance, whereas a subclass of a sealed class can have multiple instances which can contain state.
 
 To declare a sealed class, you put the sealed modifier before the name of the class. A sealed class can have subclasses, but all of them must be declared in the same file as the sealed class itself. (Before Kotlin 1.1, the rules were even more strict: classes had to be nested inside the declaration of the sealed class).

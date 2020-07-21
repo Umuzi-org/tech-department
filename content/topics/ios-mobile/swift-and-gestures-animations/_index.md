@@ -1,9 +1,12 @@
 ---
-title: More Swift, Gestures and Animations
-ready: True
+_db_id: 405
+content_type: topic
 prerequisites:
- hard: ["topics/ios-mobile/swift-and-more"]
- soft: []
+  hard:
+  - topics/ios-mobile/swift-and-more
+  soft: []
+ready: true
+title: More Swift, Gestures and Animations
 ---
 
 ## Slides

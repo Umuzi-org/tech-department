@@ -1,19 +1,22 @@
 ---
-title: Email random inspirational quote
-ready: True
-
+_db_id: 230
+available_options:
+- any_language
+content_type: project
 prerequisites:
   hard:
-    [
-      "topics/unit-testing-mocks-and-spies",
-      "topics/linux/os-environmental-variables/",
-    ]
+  - topics/unit-testing-mocks-and-spies
+  - topics/linux/os-environmental-variables/
   soft: []
-tags: ["tdd", "mocks", "environmental variables", "smtp"]
-available_options: ["any_language"]
-submission_type: repo
-
+ready: true
 story_points: 8
+submission_type: repo
+tags:
+- tdd
+- mocks
+- environmental variables
+- smtp
+title: Email random inspirational quote
 ---
 
 This basic project should demonstrate your understanding of mocks/spies.

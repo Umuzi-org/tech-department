@@ -1,23 +1,25 @@
 ---
-title: Expose a JSON API
-ready: true
-weight: 4
-pre: "<b>4: </b>"
-
+_db_id: 278
+available_options:
+- javascript
+content_type: project
+from_repo: projects/nodejs/file-io
+pre: '<b>4: </b>'
 prerequisites:
   hard:
-    [
-      "projects/nodejs/sql",
-      "topics/js-and-node-specific/apis-with-node",
-      "projects/nodejs/file-io",
-    ]
+  - projects/nodejs/sql
+  - topics/js-and-node-specific/apis-with-node
+  - projects/nodejs/file-io
   soft: []
-tags: ["node", "api", "express"]
+ready: true
 story_points: 5
-
-available_options: ["javascript"]
 submission_type: continue_repo
-from_repo: projects/nodejs/file-io
+tags:
+- node
+- api
+- express
+title: Expose a JSON API
+weight: 4
 ---
 
 There is no need to create a new git repo for this code submission. This is a continuation of your previous work.

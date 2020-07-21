@@ -1,6 +1,8 @@
 ---
+_db_id: 180
+content_type: topic
+ready: true
 title: SQL
-ready: True
 ---
 
 Complete the DataCamp Intro and Intermediate SQL courses:

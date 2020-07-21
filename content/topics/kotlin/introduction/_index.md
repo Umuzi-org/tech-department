@@ -1,6 +1,8 @@
 ---
-title: Kotlin Introduction
+_db_id: 303
+content_type: topic
 ready: true
+title: Kotlin Introduction
 ---
 
 **Kotlin is a:**

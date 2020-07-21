@@ -1,6 +1,8 @@
 ---
-title: TDD Horrors
+_db_id: 53
+content_type: topic
 ready: true
+title: TDD Horrors
 ---
 
 These are all the most common TDD problems recruits tend to come across, read and make sure you didn't make any of these or any mistakes at all.

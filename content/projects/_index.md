@@ -1,8 +1,10 @@
 ---
+_db_id: 264
+content_type: project
+pre: <b>4. </b>
+submission_type: nosubmit
 title: Projects
 weight: 4
-pre: "<b>4. </b>"
-submission_type: nosubmit
 ---
 
 Units of work with strict deadlines to be completed alone or in groups

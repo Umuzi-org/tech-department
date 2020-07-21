@@ -1,9 +1,12 @@
 ---
-title: Gradle
-ready: true
+_db_id: 391
+content_type: topic
 prerequisites:
-  hard: ["topics/kotlin/in-line-functions"]
+  hard:
+  - topics/kotlin/in-line-functions
   soft: []
+ready: true
+title: Gradle
 ---
 
 ### Using Gradle

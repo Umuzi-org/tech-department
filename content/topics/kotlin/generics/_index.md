@@ -1,10 +1,14 @@
 ---
-title: Generics 
-ready: true
+_db_id: 290
+content_type: topic
 prerequisites:
-  hard: ["topics/kotlin/sealed-classes"]
+  hard:
+  - topics/kotlin/sealed-classes
   soft: []
+ready: true
+title: Generics
 ---
+
 As in Java, classes in Kotlin may have type parameters:
 
 ```

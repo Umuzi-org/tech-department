@@ -1,7 +1,9 @@
 ---
-title: The Quizmaster
-ready: True
+_db_id: 422
+content_type: project
+ready: true
 submission_type: nosubmit
+title: The Quizmaster
 ---
 
 ## Who should do this?

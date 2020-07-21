@@ -1,15 +1,22 @@
 ---
-title: Node & SQL assignment
-ready: true
-prerequisites:
-  hard: ["projects/sql", "workshops/node-and-sql/", "projects/nodejs/file-io"]
-  soft: []
-tags: ["node", "sql"]
-story_points: 5
-
-available_options: ["javascript"]
-submission_type: continue_repo
+_db_id: 282
+available_options:
+- javascript
+content_type: project
 from_repo: projects/nodejs/file-io
+prerequisites:
+  hard:
+  - projects/sql
+  - workshops/node-and-sql/
+  - projects/nodejs/file-io
+  soft: []
+ready: true
+story_points: 5
+submission_type: continue_repo
+tags:
+- node
+- sql
+title: Node & SQL assignment
 ---
 
 You are required to create a back-end service that will help capture basic information about prospective students who come to inquire here at Umuzi.

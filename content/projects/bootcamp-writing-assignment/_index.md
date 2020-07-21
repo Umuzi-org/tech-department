@@ -1,8 +1,11 @@
 ---
-title: Bootcamp Writing Assignment
+_db_id: 429
+available_options:
+- none
+content_type: project
 ready: true
-available_options: ["none"]
-submission_type: "link"
+submission_type: link
+title: Bootcamp Writing Assignment
 ---
 
 ### We would like to get to know you better

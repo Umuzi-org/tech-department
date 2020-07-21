@@ -1,7 +1,9 @@
 ---
-title: Spaced Repitition machine to help you remember what you read
-ready: True
+_db_id: 417
+content_type: project
+ready: true
 submission_type: nosubmit
+title: Spaced Repitition machine to help you remember what you read
 ---
 
 ## Who should do this?

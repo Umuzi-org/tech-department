@@ -1,6 +1,8 @@
 ---
+_db_id: 150
+content_type: topic
+ready: true
 title: Google Data Studio
-ready: True
 ---
 
 ## Introduction

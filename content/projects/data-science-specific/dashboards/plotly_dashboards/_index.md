@@ -1,14 +1,20 @@
 ---
-title: Plotly Dashboard Assignment
-pre: "<b> EASY: </b>"
-ready: true
+_db_id: 240
+available_options:
+- python
+content_type: project
+pre: '<b> EASY: </b>'
 prerequisites:
-  hard: ["projects/data-science-specific/data-visualisation"]
-  soft: ["projects/data-science-specific/data-wrangling"]
-tags: ["plotly"]
+  hard:
+  - projects/data-science-specific/data-visualisation
+  soft:
+  - projects/data-science-specific/data-wrangling
+ready: true
 story_points: 8
-submission_type: "repo"
-available_options: ["python"]
+submission_type: repo
+tags:
+- plotly
+title: Plotly Dashboard Assignment
 ---
 
 ## Tutorials

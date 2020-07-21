@@ -1,11 +1,16 @@
 ---
-title: Multithreading Layout and Other Functionality - Animated Set
-ready: True
+_db_id: 425
+available_options:
+- swift
+content_type: project
 prerequisites:
-  hard: ["projects/ios-mobile/multithreading-layout-and-functionality"]
-  soft: ["topics/ios-mobile/multithreading-layout-and-functionality"]
+  hard:
+  - projects/ios-mobile/multithreading-layout-and-functionality
+  soft:
+  - topics/ios-mobile/multithreading-layout-and-functionality
+ready: true
 submission_type: repo
-available_options: ["swift"]
+title: Multithreading Layout and Other Functionality - Animated Set
 ---
 
 ## Project

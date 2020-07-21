@@ -1,9 +1,12 @@
 ---
-title: Resturaunt menu system
-pre: "<b>MEDIUM: </b>"
+_db_id: 276
+available_options:
+- any_language
+content_type: project
+pre: '<b>MEDIUM: </b>'
 ready: true
-available_options: ["any_language"]
 submission_type: repo
+title: Resturaunt menu system
 ---
 
 Create an OOP program that can be used to represent and manage a resturaunt's menu.

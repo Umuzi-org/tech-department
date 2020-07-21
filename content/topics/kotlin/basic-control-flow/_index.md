@@ -1,9 +1,12 @@
 ---
-title: Basic Control Flow
-ready: true
+_db_id: 291
+content_type: topic
 prerequisites:
-  hard: ["topics/kotlin/basic-syntax-types"]
+  hard:
+  - topics/kotlin/basic-syntax-types
   soft: []
+ready: true
+title: Basic Control Flow
 ---
 
 ### "If" Expression

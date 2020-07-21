@@ -1,7 +1,9 @@
 ---
-title: build a Chrome Extension that measures time spent in meetings
-ready: True
+_db_id: 420
+content_type: project
+ready: true
 submission_type: nosubmit
+title: build a Chrome Extension that measures time spent in meetings
 ---
 
 ## Who should do this?

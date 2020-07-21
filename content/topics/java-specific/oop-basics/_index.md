@@ -1,6 +1,8 @@
 ---
-title: Java OOP basics resources and readings
+_db_id: 116
+content_type: topic
 ready: true
+title: Java OOP basics resources and readings
 ---
 
 [What is Object Oriented Programming?](https://medium.com/learn-how-to-program/chapter-3-what-is-object-oriented-programming-d0a6ec0a7615)

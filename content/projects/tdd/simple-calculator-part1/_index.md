@@ -1,20 +1,20 @@
 ---
-title: simple-calculator part 1
-pre: "<b>EASY: </b>"
-ready: true
+_db_id: 273
+available_options:
+- any_language
+content_type: project
+pre: '<b>EASY: </b>'
 prerequisites:
   hard:
-    [
-      "projects/basic-flow-control-katas-assertive",
-      "topics/test-driven-development",
-    ]
+  - projects/basic-flow-control-katas-assertive
+  - topics/test-driven-development
   soft: []
-#   "topics/jasmine-unit-tests",
-#   "topics/python-specific/automated-testing-with-pytest",
-tags: ["tdd"]
+ready: true
 story_points: 2
-available_options: ["any_language"]
 submission_type: repo
+tags:
+- tdd
+title: simple-calculator part 1
 ---
 
 The objective of this project is to build a calulator that can perform multiplication and addition on multiple integers. Do not build a front-end (UI). Complete this project by using a TDD approach.

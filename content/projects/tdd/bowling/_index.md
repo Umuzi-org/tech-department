@@ -1,9 +1,12 @@
 ---
-title: ten-pin bowling scoring system
-pre: "<b>HARD: </b>"
+_db_id: 272
+available_options:
+- any_language
+content_type: project
+pre: '<b>HARD: </b>'
 ready: true
-available_options: ["any_language"]
 submission_type: repo
+title: ten-pin bowling scoring system
 ---
 
 ## Take Note

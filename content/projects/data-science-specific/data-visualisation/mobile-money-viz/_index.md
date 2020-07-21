@@ -1,19 +1,22 @@
 ---
-title: Financial Services Use in Tanzania
-pre: "<b>MEDIUM: </b>"
-ready: true
+_db_id: 244
+available_options:
+- python
+content_type: project
+pre: '<b>MEDIUM: </b>'
 prerequisites:
   hard:
-    [
-      "projects/data-science-specific/data-visualisation/linux-evolution",
-      "topics/jupyter-notebooks-best-practices",
-      "topics/python-self-learning",
-    ]
-  soft: ["projects/tdd/simple-calculator-part1"]
-tags: ["data-visualisation-mobile-money"]
+  - projects/data-science-specific/data-visualisation/linux-evolution
+  - topics/jupyter-notebooks-best-practices
+  - topics/python-self-learning
+  soft:
+  - projects/tdd/simple-calculator-part1
+ready: true
 story_points: 8
-submission_type: "repo"
-available_options: ["python"]
+submission_type: repo
+tags:
+- data-visualisation-mobile-money
+title: Financial Services Use in Tanzania
 ---
 
 ## Background

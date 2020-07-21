@@ -1,9 +1,12 @@
 ---
-title: Advanced Linux challenges
+_db_id: 187
+available_options:
+- none
+content_type: project
 ready: false
-todo: 2.4 doesn't make sense
 submission_type: repo
-available_options: ["none"]
+title: Advanced Linux challenges
+todo: 2.4 doesn't make sense
 ---
 
 ## Task 1 User environment

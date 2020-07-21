@@ -1,7 +1,9 @@
 ---
-title: Data Modelling Challenges
+_db_id: 251
+content_type: project
 ready: true
 submission_type: nosubmit
+title: Data Modelling Challenges
 ---
 
 Here are some harder, open-ended modelling challenges. The goal is stated, but you have to decide

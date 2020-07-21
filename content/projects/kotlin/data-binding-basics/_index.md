@@ -1,16 +1,17 @@
 ---
-title: Data Binding Basics
-ready: True
+_db_id: 413
+available_options:
+- kotlin
+content_type: project
 prerequisites:
   hard:
-    [
-      "topics/kotlin/data-binding",
-      "topics/kotlin/data-classes",
-      "projects/kotlin/constraint-layout-using-layout-editor",
-    ]
+  - topics/kotlin/data-binding
+  - topics/kotlin/data-classes
+  - projects/kotlin/constraint-layout-using-layout-editor
   soft: []
+ready: true
 submission_type: repo
-available_options: ["kotlin"]
+title: Data Binding Basics
 ---
 
 ## App overview

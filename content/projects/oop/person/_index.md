@@ -1,13 +1,17 @@
 ---
-title: Person
-ready: true
+_db_id: 223
+available_options:
+- any_language
+content_type: project
 prerequisites:
   hard: []
   soft: []
-tags: ["oop"]
+ready: true
 story_points: 2
-available_options: ["any_language"]
 submission_type: repo
+tags:
+- oop
+title: Person
 ---
 
 ## Project structure

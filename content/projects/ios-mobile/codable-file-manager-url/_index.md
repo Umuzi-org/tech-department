@@ -1,17 +1,18 @@
 ---
-title: Codable, File Manager, URL
-ready: True
+_db_id: 426
+available_options:
+- swift
+content_type: project
 prerequisites:
-  hard: ["projects/ios-mobile/timer-segues-autolayout"]
+  hard:
+  - projects/ios-mobile/timer-segues-autolayout
   soft:
-    [
-      "topics/ios-mobile/more-segues",
-      "topics/ios-mobile/alerts-notifications-application-life-cycle",
-      "topics/ios-mobile/core-motion-and-camera",
-    ]
-
+  - topics/ios-mobile/more-segues
+  - topics/ios-mobile/alerts-notifications-application-life-cycle
+  - topics/ios-mobile/core-motion-and-camera
+ready: true
 submission_type: repo
-available_options: ["swift"]
+title: Codable, File Manager, URL
 ---
 
 ## Project

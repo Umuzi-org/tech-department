@@ -1,6 +1,8 @@
 ---
-title: API basics
+_db_id: 70
+content_type: topic
 ready: true
+title: API basics
 ---
 
 Please read the following content:

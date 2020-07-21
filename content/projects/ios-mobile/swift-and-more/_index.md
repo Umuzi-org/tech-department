@@ -1,11 +1,15 @@
 ---
-title: Swift and More
-ready: True
+_db_id: 380
+available_options:
+- swift
+content_type: project
 prerequisites:
-  hard: ["topics/ios-mobile/swift-and-more"]
+  hard:
+  - topics/ios-mobile/swift-and-more
   soft: []
+ready: true
 submission_type: repo
-available_options: ["swift"]
+title: Swift and More
 ---
 
 ## Project

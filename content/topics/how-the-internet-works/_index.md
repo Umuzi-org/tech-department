@@ -1,21 +1,26 @@
 ---
-title: How the internet works
-ready: True
-ncit_unit_standard: 115391
+_db_id: 93
+content_type: topic
 ncit_specific_outcomes:
-  - outcome: 1
-    title: "Explain the principles of the internet and the world-wide-web"
-    assessment_criteria:
-      - The explanation outlines the origins and history of the internet
-      - The explanation identifies the major applications of the internet
-      - The explanation demonstrates the use of major internet applications
-      - The explanation describes the history and development of the world-wide-web
-  - outcome: 2
-    title: "Explain how the world-wide-web incorporates the various internet applications"
-    assessment_criteria:
-      - The explanation provides a comprehensive understanding of the physical context of web pages
-      - The explanation identifies how the world-wide-web can be applied in an intranet and extranet
-      - The explanation describes the latest internet applications, including web-based email, instant messaging and Voice-over-IP (VoIP)
+- assessment_criteria:
+  - The explanation outlines the origins and history of the internet
+  - The explanation identifies the major applications of the internet
+  - The explanation demonstrates the use of major internet applications
+  - The explanation describes the history and development of the world-wide-web
+  outcome: 1
+  title: Explain the principles of the internet and the world-wide-web
+- assessment_criteria:
+  - The explanation provides a comprehensive understanding of the physical context
+    of web pages
+  - The explanation identifies how the world-wide-web can be applied in an intranet
+    and extranet
+  - The explanation describes the latest internet applications, including web-based
+    email, instant messaging and Voice-over-IP (VoIP)
+  outcome: 2
+  title: Explain how the world-wide-web incorporates the various internet applications
+ncit_unit_standard: 115391
+ready: true
+title: How the internet works
 ---
 
 ## What is The Internet?

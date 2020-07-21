@@ -1,8 +1,11 @@
 ---
+_db_id: 249
+available_options:
+- python
+content_type: project
+ready: true
+submission_type: repo
 title: Introduction to Jupyter Notebooks
-ready: True
-submission_type: "repo"
-available_options: ["python"]
 ---
 
 ## Setting Up Your Environment

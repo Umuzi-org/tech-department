@@ -1,6 +1,8 @@
 ---
+_db_id: 145
+content_type: topic
+ready: true
 title: Introduction to assertive programming
-ready: True
 ---
 
 You've all heard of "defensive driving", right? When driving a car you do certain things if you want to stay alive. You maintain a safe following distance, you check your mirrors and blind spot, you watch your speed. And why do you do that?

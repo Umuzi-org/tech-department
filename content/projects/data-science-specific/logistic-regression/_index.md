@@ -1,7 +1,9 @@
 ---
-title: Logistic regression
-ready: True
+_db_id: 254
+content_type: project
+ready: true
 submission_type: nosubmit
+title: Logistic regression
 ---
 
 ## Background material

@@ -1,6 +1,8 @@
 ---
+_db_id: 73
+content_type: topic
+ready: true
 title: Introduction to web design
-ready: True
 ---
 
 There is a lot to be said about web design. Before you can get into it you need some basic tools.

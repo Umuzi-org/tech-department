@@ -1,9 +1,12 @@
 ---
-title: recursive search
-pre: "<b>MEDIUM: </b>"
+_db_id: 265
+available_options:
+- any_language
+content_type: project
+pre: '<b>MEDIUM: </b>'
 ready: true
-available_options: ["any_language"]
 submission_type: repo
+title: recursive search
 ---
 
 This should be written following a TDD process. Remember that this means: RED, GREEN, REFACTOR. The refactor part of this is very very important.

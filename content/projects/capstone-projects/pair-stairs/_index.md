@@ -1,7 +1,9 @@
 ---
-title: Pair Stairs
-ready: True
+_db_id: 419
+content_type: project
+ready: true
 submission_type: nosubmit
+title: Pair Stairs
 ---
 
 ## Who should do this?

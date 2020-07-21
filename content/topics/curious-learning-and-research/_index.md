@@ -1,6 +1,8 @@
 ---
-title: Curious learning and research strategy
+_db_id: 433
+content_type: topic
 ready: true
+title: Curious learning and research strategy
 ---
 
 {{% youtube 7C6TCfsjytc %}}

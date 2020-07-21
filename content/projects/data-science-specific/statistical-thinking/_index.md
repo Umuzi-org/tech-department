@@ -1,19 +1,21 @@
 ---
-title: Statistical Thinking
-pre: "<b>MEDIUM: </b>"
-ready: true
+_db_id: 248
+available_options:
+- python
+content_type: project
+pre: '<b>MEDIUM: </b>'
 prerequisites:
   hard:
-    [
-      "projects/data-science-specific/data-visualisation/mobile-money-viz",
-      "topics/jupyter-notebooks-best-practices",
-      "topics/python-self-learning",
-    ]
+  - projects/data-science-specific/data-visualisation/mobile-money-viz
+  - topics/jupyter-notebooks-best-practices
+  - topics/python-self-learning
   soft: []
-tags: ["stats"]
+ready: true
 story_points: 13
-submission_type: "repo"
-available_options: ["python"]
+submission_type: repo
+tags:
+- stats
+title: Statistical Thinking
 ---
 
 ## Objectives

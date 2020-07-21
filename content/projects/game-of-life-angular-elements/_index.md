@@ -1,5 +1,8 @@
 ---
-title: "Game of life: Angular elements"
+_db_id: 289
+available_options:
+- angular
+content_type: project
 submission_type: repo
-available_options: ["angular"]
+title: 'Game of life: Angular elements'
 ---

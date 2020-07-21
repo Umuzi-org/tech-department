@@ -1,6 +1,8 @@
 ---
-title: Logging in Node and JS
+_db_id: 128
+content_type: topic
 ready: true
+title: Logging in Node and JS
 ---
 
 Please make sure you read and understand this before moving forward: {{% contentlink path="topics/logging" %}}

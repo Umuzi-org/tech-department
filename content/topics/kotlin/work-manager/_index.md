@@ -1,9 +1,12 @@
 ---
-title: Work Manager
-ready: true
+_db_id: 389
+content_type: topic
 prerequisites:
-  hard: ["topics/kotlin/internet-data-and-images"]
+  hard:
+  - topics/kotlin/internet-data-and-images
   soft: []
+ready: true
+title: Work Manager
 ---
 
 ### Working With Android WorkManager Using Kotlin

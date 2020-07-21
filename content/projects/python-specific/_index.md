@@ -1,6 +1,8 @@
 ---
-title: Python projects
+_db_id: 262
+content_type: project
 submission_type: nosubmit
+title: Python projects
 ---
 
 The projects in this folder are specific to the Python programming language.
