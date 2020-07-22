@@ -5,14 +5,16 @@ title: Android Development With Kotlin
 ## Basic Introduction and Control Flow.
 
 - {{% contentlink "topics/kotlin/basic-control-flow" %}}
-- {{% contentlink "projects/kotlin/liner-layout-using-the-layout-editor" %}}
+- Project : Liner Layout using the Layout Editor (prerequisite)
+- {{% contentlink "projects/kotlin/project-1/user-activity" %}}
 
 ## Layouts and Data Binding
 
 - {{% contentlink "topics/kotlin/grid-layout" %}}
 - {{% contentlink "topics/kotlin/data-binding" %}}
 - {{% contentlink "topics/kotlin/data-classes" %}}
-- {{% contentlink "projects/kotlin/data-binding-basics" %}}
+- Project : Constraint Layout using Layout Editor (prerequisite)
+- {{% contentlink "projects/kotlin/project-2/data-binding-basics" %}}
 
 ## Classes and Objects
 
@@ -21,8 +23,6 @@ title: Android Development With Kotlin
 - Topic : Interface
 - Topic : Data Classes (Review)
 - {{% contentlink "topics/kotlin/sealed-classes" %}}
-- Project : User-Activity (prerequisite)
-- {{% contentlink "projects/kotlin/constraint-layout-using-layout-editor" %}}
 
 ## Delegation, Generics and Classes.
 
@@ -46,6 +46,5 @@ title: Android Development With Kotlin
 - Topic : Functions
 - {{% contentlink "topics/kotlin/in-line-functions" %}}
 
-## Testing [ToDo]
-
-- Topic : Unit testing
+## Testing
+- Topic - Unit Testing
