@@ -2,30 +2,50 @@
 title: Android Development With Kotlin
 ---
 
-## Part 1
+## Basic Introduction and Control Flow.
 
-- Basic Introduction and Control Flow.
 - {{% contentlink "topics/kotlin/basic-control-flow" %}}
 - {{% contentlink "projects/kotlin/liner-layout-using-the-layout-editor" %}}
 
-## Part 2
-- Layouts and Data Binding
+## Layouts and Data Binding
+
 - {{% contentlink "topics/kotlin/grid-layout" %}}
 - {{% contentlink "topics/kotlin/data-binding" %}}
 - {{% contentlink "topics/kotlin/data-classes" %}}
 - {{% contentlink "projects/kotlin/data-binding-basics" %}}
 
-## Part 3
+## Classes and Objects
 
-- Classes and Objects
+- Topic : Classes
+- Topic : Properties and Fields
+- Topic : Interface
+- Topic : Data Classes (Review)
 - {{% contentlink "topics/kotlin/sealed-classes" %}}
+- Project : User-Activity (prerequisite)
+- {{% contentlink "projects/kotlin/constraint-layout-using-layout-editor" %}}
 
-## Part 4
+## Delegation, Generics and Classes.
 
-- Generics, nested and enum classes.
+- Topic : Delegation
+- Topic : Delegated Properties
+- Topic : Generics
+- Topic : Nested Classes
 - {{% contentlink "topics/kotlin/enum-classes" %}}
 
-## Part 5
+##  Null Safety, Annotations, Constructor, Returns and Jumps.
 
-- Delegation and delegated properties.
-- {{% contentlink "topics/kotlin/delegated-properties" %}}
+- Topic : Null Safety
+- Topic : Annotations
+- Topic : Constructor Default Values
+- {{% contentlink "topics/kotlin/returns-and-jumps" %}}
+
+## Null Safety, Annotations, Constructor, Returns and Jumps.
+
+- Topic : Internet and Data Images.
+- Topic : Work Manager
+- Topic : Functions
+- {{% contentlink "topics/kotlin/in-line-functions" %}}
+
+## Testing [ToDo]
+
+- Topic : Unit testing
