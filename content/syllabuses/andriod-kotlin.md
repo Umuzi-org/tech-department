@@ -23,6 +23,10 @@ title: Android Development With Kotlin
 - Topic : Interface
 - Topic : Data Classes (Review)
 - {{% contentlink "topics/kotlin/sealed-classes" %}}
+- Project : Create a Fragment (prerequisite)
+- Project : Define Navigation Paths (prerequisite)
+- 
+- {{% contentlink "projects/kotlin/project-3/external-activity" %}}
 
 ## Delegation, Generics and Classes.
 
