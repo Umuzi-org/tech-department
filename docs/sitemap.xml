@@ -45,16 +45,15 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/</loc>
-    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tech-department/projects/semitone-challenge/gui-part-2/</loc>
   </url>
   
   <url>
     <loc>/tech-department/projects/nodejs/api/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/</loc>
   </url>
   
   <url>
@@ -150,6 +149,10 @@
   <url>
     <loc>/tech-department/topics/agile-scrum/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tech-department/syllabuses/web-dev-boot/</loc>
   </url>
   
   <url>
@@ -405,7 +408,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/oop/bank_accounts/</loc>
+    <loc>/tech-department/projects/oop/bank-accounts/</loc>
   </url>
   
   <url>
@@ -454,7 +457,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/workshops/redux_intro/</loc>
+    <loc>/tech-department/workshops/redux-intro/</loc>
   </url>
   
   <url>
@@ -581,10 +584,6 @@
   
   <url>
     <loc>/tech-department/projects/github-api-consume/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/projects/java-specific/consume-own-api-using-curl/</loc>
   </url>
   
   <url>
@@ -860,10 +859,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/expose-a-simple-rest-api-for-game/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/tags/express/</loc>
     <priority>0</priority>
   </url>
@@ -1014,10 +1009,6 @@
   
   <url>
     <loc>/tech-department/topics/how-to-download-youtube-videos-from-the-terminal/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/projects/how-to-submit-your-project/</loc>
   </url>
   
   <url>
@@ -1219,19 +1210,11 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/java-specific/introduction-to-spring-infrastructure/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/java-specific/introduction-to-spring-infrastructure/</loc>
   </url>
   
   <url>
     <loc>/tech-department/workshops/java-specific/introduction-to-spring-infrastructure/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/projects/java-specific/introduction-to-spring-infrastructure/part-1/</loc>
   </url>
   
   <url>
@@ -1243,19 +1226,11 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/java-specific/introduction-to-spring-infrastructure/part-2/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/java-specific/introduction-to-spring-infrastructure/part-2/</loc>
   </url>
   
   <url>
     <loc>/tech-department/workshops/java-specific/introduction-to-spring-infrastructure/part-2/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/projects/java-specific/introduction-to-spring-infrastructure/part-3/</loc>
   </url>
   
   <url>
@@ -2085,10 +2060,6 @@
   
   <url>
     <loc>/tech-department/topics/bootcamp/web-dev-enviroment-setup/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/syllabuses/web-dev-boot/</loc>
   </url>
   
   <url>

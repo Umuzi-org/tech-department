@@ -1,19 +1,20 @@
 ---
-title: Linear layout using the Layout Editor
-ready: True
+_db_id: 378
+available_options:
+- kotlin
+content_type: project
 prerequisites:
   hard:
-    [
-      "topics/kotlin/grid-layout",
-      "topics/kotlin/basic-control-flow",
-      "topics/kotlin/basic-syntax-types",
-    ]
+  - topics/kotlin/grid-layout
+  - topics/kotlin/basic-control-flow
+  - topics/kotlin/basic-syntax-types
   soft:
-    [
-      "topics/kotlin/introduction",
-      "topics/kotlin/set-up",
-      "topics/kotlin/properties-and-fields",
-    ]
+  - topics/kotlin/introduction
+  - topics/kotlin/set-up
+  - topics/kotlin/properties-and-fields
+ready: true
+submission_type: repo
+title: Linear layout using the Layout Editor
 ---
 
 ## Task 1: Create the AboutMe Project

@@ -1,6 +1,8 @@
 ---
-title: Unit testing (language agnostic concepts)
+_db_id: 54
+content_type: topic
 ready: true
+title: Unit testing (language agnostic concepts)
 ---
 
 The following videos use JavaScript to demonstrate and explain some key concepts around unit testing. Even if JS is not your vibe these are worth watching.

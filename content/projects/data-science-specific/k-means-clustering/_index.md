@@ -1,18 +1,30 @@
 ---
-title: K-Means Clustering Assignment
-ready: True
-pre: "<b>MEDIUM: </b>"
-ready: True
+_db_id: 235
+available_options:
+- python
+content_type: project
+pre: '<b>MEDIUM: </b>'
 prerequisites:
-  hard: ["projects/data-science-specific/statistical-thinking","projects/data-science-specific/data-visualisation","projects/data-science-specific/logistic-regression","topics/data-science-specific/clustering"]
-  soft: ["topics/python-self-learning","topics/jupyter-notebooks-best-practices","topics/data-science-specific/data-science-methodology"]
-tags: ["kmeans"]
+  hard:
+  - projects/data-science-specific/statistical-thinking
+  - projects/data-science-specific/data-visualisation
+  - projects/data-science-specific/logistic-regression
+  - topics/data-science-specific/clustering
+  soft:
+  - topics/python-self-learning
+  - topics/jupyter-notebooks-best-practices
+  - topics/data-science-specific/data-science-methodology
+ready: true
 story_points: 8
+submission_type: repo
+tags:
+- kmeans
+title: K-Means Clustering Assignment
 ---
 
 ## Pre-requisites
 
-Read through the K-Means Tutorials at {{% contentlink "topics/data-science-specific/clustering" %}} before starting this project.
+Read through the K-Means Tutorials at {{% contentlink path="topics/data-science-specific/clustering" %}} before starting this project.
 
 ## Clustering whisky distilleries according to tasting Profiles
 

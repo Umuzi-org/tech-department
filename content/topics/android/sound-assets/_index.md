@@ -1,6 +1,8 @@
 ---
-title: Working with sound assets
+_db_id: 94
+content_type: topic
 ready: true
+title: Working with sound assets
 ---
 
 Sound can be used for various things in an Android application. From streaming music to acting as 

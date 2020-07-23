@@ -1,19 +1,21 @@
 ---
-title: User Activity
-ready: True
+_db_id: 414
+available_options:
+- kotlin
+content_type: project
 prerequisites:
   hard:
-    [
-      "projects/kotlin/liner-layout-using-the-layout-editor"
-    ]
-  soft:
-    []
+  - projects/kotlin/liner-layout-using-the-layout-editor
+  soft: []
+ready: true
+submission_type: repo
+title: User Activity
 ---
 
 ## App overview
 
-In this project, you extend the AboutMe app to add user interaction. 
-You add a nickname field, a DONE button, and a text view to display the nickname. 
+In this project, you extend the AboutMe app to add user interaction.
+You add a nickname field, a DONE button, and a text view to display the nickname.
 Once the user enters a nickname and taps the DONE button, the text view updates to show the entered nickname. The user can update the nickname again by tapping the text view.
 
 ![](1.png) ![](2.png)
@@ -28,6 +30,7 @@ Apps are more interesting if the user can interact with the app, for example if 
 ![](90cfcfb4fe33ae64.png)
 
 ### Step 1 : Add an EditText
+
 In Android Studio, open the activity_main.xml layout file in the Design tab.
 In the Palette pane, click Text.
 
@@ -44,17 +47,18 @@ Drag a PlainText edit text into the Component Tree and place it below the `name_
 
 Use the Attributes pane to set the following attributes on the EditText view.
 
-|  Attribute 	|   Value	|
-|---	|---	|	
-|  id 	|   nickname_edit	|   
-|  layout_width 	|   match_parent (default)	|
-|  layout_height 	|   wrap_content (default)	|
+| Attribute     | Value                  |
+| ------------- | ---------------------- |
+| id            | nickname_edit          |
+| layout_width  | match_parent (default) |
+| layout_height | wrap_content (default) |
 
 Run your app. Above the star image, you see an edit text with default text "Name".
 
 ![](f7536a227c211045.png)
 
 ## Task: Style your EditText
+
 In this task, you style your EditText view by adding a hint, changing the text alignment, changing the style to the NameStyle, and setting the input type.
 
 ### Step 1: Add hint text
@@ -69,15 +73,16 @@ In this task, you style your EditText view by adding a hint, changing the text a
 
 2 - Use the Attributes pane to set the following attributes to the EditText view:
 
-|  Attribute 	|   Value	|
-|---	|---	|	
-|  style 	|   NameStyle	|   
-|  textAlignment 	|    (center)	|
-|  hint	|   @string/what_is_your_nickname	|
+| Attribute     | Value                         |
+| ------------- | ----------------------------- |
+| style         | NameStyle                     |
+| textAlignment | (center)                      |
+| hint          | @string/what_is_your_nickname |
 
 3 - In the Attributes pane, remove the Name value from the text attribute. The text attribute value needs to be empty so that the hint is displayed.
 
 ### Step 2 : Set the inputType attribute
+
 The `inputType` attribute specifies the type of input users can enter in the `EditText` view. The Android system displays the appropriate input field and on-screen keyboard, depending on the input type set.
 
 To see all the possible input types, in the Attributes pane, click the `inputType` field, or click the three dots ... next to the field. A list opens that shows all the types of input you can use, with the currently active input type checked. You can select more than one input type.
@@ -102,16 +107,15 @@ Set the input type for the nickname field:
 
 3 - In the Attributes pane, verify the values for the following attributes of the EditText view:
 
-|  Attribute 	|   Value	|
-|---	|---	|	
-| id  | nickname_edit |
-|layout_width | match_parent (default)|
-|layout_height|wrap_content (default)|
-|style|@style/NameStyle|
-|inputType|textPersonName|
-|hint|"@string/what_is_your_nickname"|
-|text|(empty)|
-
+| Attribute     | Value                           |
+| ------------- | ------------------------------- |
+| id            | nickname_edit                   |
+| layout_width  | match_parent (default)          |
+| layout_height | wrap_content (default)          |
+| style         | @style/NameStyle                |
+| inputType     | textPersonName                  |
+| hint          | "@string/what_is_your_nickname" |
+| text          | (empty)                         |
 
 ## Task: Add a button and style it.
 
@@ -122,6 +126,7 @@ A `Button` is a UI element that the user can tap to perform an action. A button 
 In this task, you add a DONE button, which the user taps after they enter a nickname. The button swaps the `EditText` view with a `TextView` view that displays the nickname. To update the nickname, the user can tap the `TextView` view.
 
 ### Step 1: Add a DONE button
+
 1 - Drag a button from the Palette pane into the Component Tree. Place the button below the `nickname_edit` edit text.
 
 ![](381f11c0b89265b5.png)![](648fe1dad3f95a44.png)
@@ -132,13 +137,13 @@ In this task, you add a DONE button, which the user taps after they enter a nick
 
 3 - Use the Attributes pane to set the following attributes on the newly added Button view:
 
-|  Attribute 	|   Value	|
-|---	|---	|	
-|id | done_button|
-|text | @string/done|
-|layout_gravity | center_horizontal |
-|layout_width |wrap_content|
- 
+| Attribute      | Value             |
+| -------------- | ----------------- |
+| id             | done_button       |
+| text           | @string/done      |
+| layout_gravity | center_horizontal |
+| layout_width   | wrap_content      |
+
 The `layout_gravity` attribute centers the view in its parent layout, `LinearLayout`.
 
 4 - Change the style to `Widget.AppCompat.Button.Colored`, which is one of the predefined styles that Android provides. You can select the style from either the drop-down or from the Resources window.
@@ -153,14 +158,14 @@ The `colors.xml` file contains the default colors for your app. You can add new 
 
 Sample `colors.xml` file:
 
-````
+```
 <?xml version="1.0" encoding="utf-8"?>
   <resources>
      <color name="colorPrimary">#008577</color>
      <color name="colorPrimaryDark">#00574B</color>
      <color name="colorAccent">#D81B60</color>
   </resources>
-````
+```
 
 ### Step 2: Style the DONE button
 
@@ -185,10 +190,11 @@ Sample `colors.xml` file:
    android:fontFamily="@font/roboto"
    android:text="@string/done" />
 ```
+
 ### Step 3: Change the color resource
 
 In this step, you change the button's accent color to match your activity's app bar.
-    
+  
 1 - Open `res/values/colors.xml` and change the value of the `colorAccent` to `#76bf5e`.
 
 `<color name="colorAccent">#76bf5e</color>`
@@ -215,11 +221,11 @@ Drag a text view from the Palette pane into the Component Tree. Place the text v
 
 2 - Use the Attributes pane to set the following attributes for the new TextView view:
 
-|  Attribute 	|   Value	|
-|---	|---	|	
-|id|nickname_test|
-|  style 	|   NameStyle	|   
-|  textAlignment 	|    (center)	|
+| Attribute     | Value         |
+| ------------- | ------------- |
+| id            | nickname_test |
+| style         | NameStyle     |
+| textAlignment | (center)      |
 
 ### Step 2: Change the visibility of the TextView
 
@@ -306,7 +312,7 @@ Display the nickname `TextView`.
 ```
 private fun addNickname(view: View) {
  }
- ```
+```
 
 3 - Inside the `addNickname` function, use `findViewById()` to get a reference to the `nickname_edit` edit text and the `nickname_text` text view.
 
@@ -332,7 +338,7 @@ editText.visibility = View.GONE
 ```
    view.visibility = View.GONE
 ```
- 
+
 7 - At the end of the `addNickname` function, make the nickname `TextView` view visible by setting its `visibility` property to `View.VISIBLE`.
 
 `nicknameTextView.visibility = View.VISIBLE`
@@ -343,11 +349,11 @@ Now that you have a function that defines the action to be performed when the DO
 
 1 - In `MainActivity.kt`, at the end of the `onCreate()` function, get a reference to the DONE Button view. Use the `findViewById()` function and call `setOnClickListener`. Pass in a reference to the click-listener function, `addNickname()`.
 
-````
+```
 findViewById<Button>(R.id.done_button).setOnClickListener {
             addNickname(it)
         }
-````
+```
 
 In the above code, `it` refers to the `done_button`, which is the view passed as the argument.
 
@@ -403,7 +409,7 @@ doneButton.visibility = View.VISIBLE
 view.visibility = View.GONE
 ```
 
- 4 - In `MainActivity.kt`, at the end of the `onCreate()` function, call `setOnClickListener` on the `nickname_text` text view. Pass in a reference to the click-listener function, which is `updateNickname()`.
+4 - In `MainActivity.kt`, at the end of the `onCreate()` function, call `setOnClickListener` on the `nickname_text` text view. Pass in a reference to the click-listener function, which is `updateNickname()`.
 
 ```
 findViewById<TextView>(R.id.nickname_text).setOnClickListener {
@@ -448,17 +454,3 @@ android:paddingBottom="@dimen/small_padding"
 ![](57b7ec8a70a12721.png) ![](aba4ee518b4ac836.png)
 
 Now go show your interactive AboutMe app to a friend!
-
-
-
-
-
-
-
-
-
-
-
-
-
-

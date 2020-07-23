@@ -1,13 +1,18 @@
 ---
-title: SQL
-ready: True
-
+_db_id: 200
+available_options:
+- none
+content_type: project
 prerequisites:
-  hard: ["topics/intro-to-relational-databases", "topics/intro-to-docker/"]
+  hard:
+  - topics/intro-to-relational-databases
+  - topics/intro-to-docker/
   soft: []
-tags: []
+ready: true
 story_points: 3
-## NCIT Units 114048 & 114049
+submission_type: repo
+tags: []
+title: SQL
 ---
 
 ## Installation:

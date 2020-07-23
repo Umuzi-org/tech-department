@@ -1,9 +1,12 @@
 ---
-title: In Line Functions
-ready: true
+_db_id: 385
+content_type: topic
 prerequisites:
-  hard: ["topics/kotlin/functions"]
+  hard:
+  - topics/kotlin/functions
   soft: []
+ready: true
+title: In Line Functions
 ---
 
 Using __higher-order functions__ imposes certain runtime penalties: each function is an object, and it captures a closure, i.e. those variables that are accessed in the body of the function. Memory allocations (both for function objects and classes) and virtual calls introduce runtime overhead.

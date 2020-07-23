@@ -1,11 +1,13 @@
 ---
-title: Pseudocode and documentation
+_db_id: 363
+content_type: topic
+nqf: ncit
 ready: false
 tags: []
-nqf: ncit
-unit_standards: [115388]
+title: Pseudocode and documentation
+unit_standards:
+- 115388
 ---
-
 
 ### 1. Why document?
 
@@ -88,6 +90,3 @@ A quick summary (halfway down the page) with examples: http://userpages.wittenbe
 
 
 A quick video description is [here](https://www.khanacademy.org/computing/computer-programming/programming/good-practices/p/lanning-with-pseudo-code)
-
-
-

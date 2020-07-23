@@ -1,10 +1,14 @@
 ---
-title: Internet Data and Images
-ready: true
+_db_id: 432
+content_type: topic
 prerequisites:
-  hard: ["topics/kotlin/grid-layout"]
+  hard:
+  - topics/kotlin/grid-layout
   soft: []
+ready: true
+title: Internet Data and Images
 ---
+
 ## How to Load an Image URL to Carousel View Using Picasso in Kotlin
 ### Introduction
  

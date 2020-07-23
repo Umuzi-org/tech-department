@@ -1,14 +1,21 @@
 ---
-title: Natural language processing
-ready: True
-ready: True
-pre: "<b>MEDIUM: </b>"
-ready: True
+_db_id: 237
+available_options:
+- python
+content_type: project
+pre: '<b>MEDIUM: </b>'
 prerequisites:
-  hard: ["topics/data-science-specific/natural-language-processing"]
-  soft: ["topics/python-self-learning","topics/jupyter-notebooks-best-practices",]
-tags: ["nlp"]
+  hard:
+  - topics/data-science-specific/natural-language-processing
+  soft:
+  - topics/python-self-learning
+  - topics/jupyter-notebooks-best-practices
+ready: true
 story_points: 21
+submission_type: repo
+tags:
+- nlp
+title: Natural language processing
 ---
 
 The contents of the State of the Nation Address (SONA) for every year dating back to 1990 is available on the [South African Government website](https://www.gov.za/state-nation-address). This gives us a great opportunity to look at the priorities and challenges have faced over time, and the focus points for the various presidents over this time.

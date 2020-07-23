@@ -1,10 +1,18 @@
 ---
-title: Python and Kafka
-ready: True
+_db_id: 258
+available_options:
+- python
+content_type: project
 prerequisites:
-  hard: ["topics/python-specific/kafka"]
+  hard:
+  - topics/python-specific/kafka
   soft: []
-tags: ["python", "kafka"]
+ready: true
+submission_type: repo
+tags:
+- python
+- kafka
+title: Python and Kafka
 ---
 
 The first step is to create an "app" on twitter. https://developer.twitter.com/en/apps

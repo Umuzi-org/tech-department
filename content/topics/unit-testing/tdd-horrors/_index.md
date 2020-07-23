@@ -1,6 +1,8 @@
 ---
-title: TDD Horrors
+_db_id: 53
+content_type: topic
 ready: true
+title: TDD Horrors
 ---
 
 These are all the most common TDD problems recruits tend to come across, read and make sure you didn't make any of these or any mistakes at all.
@@ -16,17 +18,19 @@ These are all the most common TDD problems recruits tend to come across, read an
 - Avoid messy indentation (install prettier).
 - Test for errors/exception, sometimes code is supposed to throw an error or raise an exception. In these cases your tests should make sure that the error happens as it should, your tests need to use the following syntax:
 
-    Javascript:
-    ```js
-    expect(...).toThrow()
-    ```
+  Javascript:
 
-    Python:
-    ```py
-    with pytest.raises([ErrorType])...
-    ```
+  ```js
+  expect(...).toThrow()
+  ```
 
-- *Python peeps* DO NOT Define a test case(testing function) inside a function.
+  Python:
+
+  ```py
+  with pytest.raises([ErrorType])...
+  ```
+
+- _Python peeps_ DO NOT Define a test case(testing function) inside a function.
 
 ```py
 def test_something():
@@ -38,8 +42,10 @@ def test_something():
     assert add(1,23,5) == 29
 
 ```
-*Note:*
+
+_Note:_
 Nice thing about the `pytest` module is that it removes the need for boilerplate code. so the following code would work:
+
 ```py
   from module import add
 
@@ -50,6 +56,7 @@ Nice thing about the `pytest` module is that it removes the need for boilerplate
   def test_add_multiple_values():
     assert add(1,2,3,4) == 10
 ```
+
 ---
 
 - Test cases should focus on one functionality and one functionality only.
@@ -57,12 +64,15 @@ Nice thing about the `pytest` module is that it removes the need for boilerplate
 **Python example:**
 
 Do not do this:
+
 ```py
     def test(self):
       assert add(1,2,3,4) == 10
       assert multiply(1,2,3) == 6
 ```
+
 Do this instead:
+
 ```py
 # test add function.
   def test_add_two_values(self):
@@ -82,100 +92,104 @@ Do this instead:
 **Javascript example:**
 
 Don't do this:
+
 ```js
-  describe('Test one', () => {
-    it('Should add', () => {
-      let sum = add(1, 23, 5);
-      expect(sum).toBe(29);
-    })
-    it('Should multiply', () => {
-      let prod = multiply(1, 23);
-      expect(prod).toBe(23);
-    })
-  })
+describe("Test one", () => {
+  it("Should add", () => {
+    let sum = add(1, 23, 5);
+    expect(sum).toBe(29);
+  });
+  it("Should multiply", () => {
+    let prod = multiply(1, 23);
+    expect(prod).toBe(23);
+  });
+});
 ```
 
-Each Function should have it's own describe object_
+Each Function should have it's own describe object\_
 
 Do this:
+
 ```js
-  describe('add()', () => {
-    it('Should add [what exactly?]', () => {
-      let sum = add(1, 23, 5);
-      expect(sum).toBe(29);
-    })
-  })
-  describe('multiply()', () => {
-    it('Should multiply [what exactly?]', () => {
-      let prod = multiply(1, 23);
-      expect(prod).toBe(23);
-    })
-  })
+describe("add()", () => {
+  it("Should add [what exactly?]", () => {
+    let sum = add(1, 23, 5);
+    expect(sum).toBe(29);
+  });
+});
+describe("multiply()", () => {
+  it("Should multiply [what exactly?]", () => {
+    let prod = multiply(1, 23);
+    expect(prod).toBe(23);
+  });
+});
 ```
+
 ---
+
 - Javascript: Test strings are there to be descriptive:
+
   - eg:
 
-      Do: `it("can/should multiply [what exactly?]")`
+    Do: `it("can/should multiply [what exactly?]")`
 
-      Don't: `it("multiply")`
+    Don't: `it("multiply")`
 
 - Incomplete projects:
+
   - Always make sure that your projects are complete. Submitting Incomplete projects looks, BAD! to both an employer and Code reviewers, so don't submit incomplete projects, it's bad for your reputation. If you do not have tests, for your TDD project, then your project is incomplete.
 
 - TDD tests fail:
+
   - Failing tests aren't bad during development, but make sure your **all** tests pass when you submit your project.
 
 - Documentation on how to setup and test the code:
+
   - Make use of README.md, requirements.txt files, collaborators shouldn't guess/remember how to setup all the dependencies for your project, document all the necessary processes please.
 
 - Clean code base. Need I say more?
 
   1. Dirty.
 
-    Javascript:
+  Javascript:
 
-    ```js
-      // Testing if the Error Checks throw
-      //var sixSided = new Dice(6,[1,"gdfdf"]);
-      var sixSided = new Dice(6,[1,6,5,-16]);
-      //console.log(sixSided.rollDice());
-    ```
+  ```js
+  // Testing if the Error Checks throw
+  //var sixSided = new Dice(6,[1,"gdfdf"]);
+  var sixSided = new Dice(6, [1, 6, 5, -16]);
+  //console.log(sixSided.rollDice());
+  ```
 
-    Python:
+  Python:
 
-    ```py
-      # I was thinnking about This
-      # Then I did this but it didn't work. so I left
-      # And then, it came to me, eureka!
-      die6 = Dice(6)
-      # Since it works, there's no need to clean it.
-    ```
+  ```py
+    # I was thinnking about This
+    # Then I did this but it didn't work. so I left
+    # And then, it came to me, eureka!
+    die6 = Dice(6)
+    # Since it works, there's no need to clean it.
+  ```
 
+2. Clean.
 
-  2. Clean.
+   Javascript:
 
-      Javascript:
+   ```js
+   var sixSided = new Dice(6, [1, 6, 5, -16]);
+   ```
 
-      ```js
-        var sixSided = new Dice(6,[1,6,5,-16]);
-      ```
+   Python:
 
-      Python:
+   ```py
+     die6 = Dice(6)
+   ```
 
-      ```py
-        die6 = Dice(6)
-      ```
-
-  Remove useless stuff, it serves no purpose. so get rid of it.
+Remove useless stuff, it serves no purpose. so get rid of it.
 
 - One test: writing one test to test everything is a bad idea, you need to separate it into multiple tests that test one and thing only.
 
-
-
-
-
 ### Some useful Readings
-  1. [Common mistakes in TDD](https://cmatskas.com/common-mistakes-in-tdd/)
-  2. {{% contentlink "/topics/unit-testing/" %}}
-  3. {{% contentlink "/topics/clean-code/" %}}
+
+1. [Common mistakes in TDD](https://cmatskas.com/common-mistakes-in-tdd/)
+2. {{% contentlink path="/topics/unit-testing/" %}}
+3. {{% contentlink path="/topics/clean-code/" %}}

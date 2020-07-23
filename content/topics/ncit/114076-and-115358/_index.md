@@ -1,7 +1,11 @@
 ---
-title: Conducting Research and User Interviews
+_db_id: 368
+content_type: topic
+nqf: ncit
 ready: false
 tags: []
-nqf: ncit
-unit_standards: [114076, 115358]
+title: Conducting Research and User Interviews
+unit_standards:
+- 114076
+- 115358
 ---

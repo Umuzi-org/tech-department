@@ -1,6 +1,8 @@
 ---
+_db_id: 406
+content_type: topic
+ready: true
 title: The journey of an Umuzi recruit
-ready: True
 ---
 
 This might be your first real introduction to what we at Umuzi are all about. All this stuff will be covered in detail in one of our introductry conversations, so this page will be brief.

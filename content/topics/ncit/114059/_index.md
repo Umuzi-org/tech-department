@@ -1,6 +1,11 @@
 ---
-title: Agile Project Management
-tags: ["agile", "scrum"]
+_db_id: 370
+content_type: topic
 nqf: ncit
-unit_standards: [114059]
+tags:
+- agile
+- scrum
+title: Agile Project Management
+unit_standards:
+- 114059
 ---

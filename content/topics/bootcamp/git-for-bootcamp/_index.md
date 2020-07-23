@@ -1,6 +1,8 @@
 ---
-title: Useful Git commands
+_db_id: 393
+content_type: topic
 ready: true
+title: Useful Git commands
 ---
 
 You're going to need to execute a few git commands in order to succeed at bootcamp. Here's a bit of a cheat-sheet. Make sure you can use all this stuff!

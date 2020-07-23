@@ -1,6 +1,8 @@
 ---
-title: Java File IO
+_db_id: 104
+content_type: topic
 ready: true
+title: Java File IO
 ---
 
 It's all good and well writing programs that a user can interact with, and programs that print stuff out to the screen. But that has limited usefulness. Serious programs generally have some form of data persistence.

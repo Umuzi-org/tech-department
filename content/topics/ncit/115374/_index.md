@@ -1,7 +1,10 @@
 ---
-title: Web Design for Business
+_db_id: 367
+content_type: topic
+nqf: ncit
 ready: false
 tags: []
-nqf: ncit
-unit_standards: [115374]
+title: Web Design for Business
+unit_standards:
+- 115374
 ---

@@ -1,11 +1,14 @@
 ---
-title: Classes 
-ready: true
+_db_id: 293
+content_type: topic
 prerequisites:
-  hard: ["topics/kotlin/basic-control-flow"]
+  hard:
+  - topics/kotlin/basic-control-flow
   soft: []
-
+ready: true
+title: Classes
 ---
+
 Classes in Kotlin are declared using the keyword class:
 
 ````

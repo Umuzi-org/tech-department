@@ -1,6 +1,8 @@
 ---
-title: Introduction to CSS
+_db_id: 72
+content_type: topic
 ready: true
+title: Introduction to CSS
 ---
 
 CSS is defined by [w3schools](https://www.w3schools.com/css/default.asp) as a language that describes style of an HTML document.

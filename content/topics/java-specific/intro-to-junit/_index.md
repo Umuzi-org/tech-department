@@ -1,6 +1,8 @@
 ---
+_db_id: 103
+content_type: topic
+ready: true
 title: Intro to JUnit
-ready: True
 ---
 
 Unit testing is hella important. Basically if your code doesn't have a solid suite of tests that run and pass then it won't be accepted into a larget codebase. This becomes important if you ever want to work productively on a team. Seriously, the only people who don't have tests on their code are dinosaurs and noobs.

@@ -1,11 +1,19 @@
 ---
-title: password-checker
-ready: true
+_db_id: 269
+available_options:
+- any_language
+content_type: project
 prerequisites:
-  hard: ["projects/tdd/simple-calculator-part1"]
+  hard:
+  - projects/tdd/simple-calculator-part1
   soft: []
-tags: ["tdd", "error-checking"]
+ready: true
 story_points: 3
+submission_type: repo
+tags:
+- tdd
+- error-checking
+title: password-checker
 ---
 
 ## Set up your environment
@@ -67,7 +75,7 @@ The code you push to git should have the following structure:
             └── ???.java             <-------- names are important
 ```
 
-Please refer to the following to find out more: {{% contentlink "topics/java-specific/project-submission-requirements" %}}
+Please refer to the following to find out more: {{% contentlink path="topics/java-specific/project-submission-requirements" %}}
 
 ## Instructions
 

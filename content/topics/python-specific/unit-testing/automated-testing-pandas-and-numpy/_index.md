@@ -1,6 +1,8 @@
 ---
-title: Automated Testing pandas and numpy
+_db_id: 156
+content_type: topic
 ready: true
+title: Automated Testing pandas and numpy
 ---
 
 Testing and data can get a little tricky. Check these out:

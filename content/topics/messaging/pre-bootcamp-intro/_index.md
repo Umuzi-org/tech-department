@@ -1,6 +1,8 @@
 ---
+_db_id: 409
+content_type: topic
+ready: true
 title: Introduction to Bootcamp Preparation phase
-ready: True
 ---
 
 Hello and welcome to the next phase of your Umuzi journey :) You are reading this because we believe that you have the potential to have a high value career in tech, and we want to help you get there. Congrats for making it this far!
@@ -103,4 +105,4 @@ The bootcamp will be a 2 week process. We'll introduce that to you seperately. T
 
 Take a look at the following link. It'll tell you a bit more about what you are signing up for :)
 
-{{% contentlink "topics/messaging/umuzi-recruit-user-journey" %}}
+{{% contentlink path="topics/messaging/umuzi-recruit-user-journey" %}}

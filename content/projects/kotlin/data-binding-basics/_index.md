@@ -1,9 +1,17 @@
 ---
-title: Data Binding Basics
-ready: True
+_db_id: 413
+available_options:
+- kotlin
+content_type: project
 prerequisites:
-  hard: ["topics/kotlin/data-binding", "topics/kotlin/data-classes", "projects/kotlin/constraint-layout-using-layout-editor"]
+  hard:
+  - topics/kotlin/data-binding
+  - topics/kotlin/data-classes
+  - projects/kotlin/constraint-layout-using-layout-editor
   soft: []
+ready: true
+submission_type: repo
+title: Data Binding Basics
 ---
 
 ## App overview
@@ -16,12 +24,11 @@ In this project, you start with the AboutMe app and change the app to use data b
 
 - The user can enter a nickname and tap the Done button. The editable field and button are replaced by a text view that shows the entered nickname.
 
-**Please use a clone of your app, submit it under this project repo and do not alter the code of the AboutMe project.** 
+**Please use a clone of your app, submit it under this project repo and do not alter the code of the AboutMe project.**
 
 ![](8f072e88b4ce64fd.png)
 
-
-###  Task: Use data binding to eliminate findViewById()
+### Task: Use data binding to eliminate findViewById()
 
 The code you wrote in previous project uses the `findViewById()` function to obtain references to views.
 
@@ -45,7 +52,7 @@ Data binding has the following benefits:
 
 In this task, you set up data binding, and you use data binding to replace calls to `findViewById()` with calls to the binding object.
 
-1 - Clone / Fork (copy) your previous about me project and opened it in Android Studio. 
+1 - Clone / Fork (copy) your previous about me project and opened it in Android Studio.
 
 2 - Open the `build.gradle (Module: app)` file.
 
@@ -126,10 +133,9 @@ Next, you replace the current `setContentView()` function with an instruction th
 
 ### Step 4: Use the binding object to replace all calls to findViewById()
 
-You can now replace all calls to `findViewById()` with references to the views that are in the binding object. When the binding object is created, the compiler generates the names of the views in the binding object from the IDs of the views in the layout, converting them to camel case. So, for example,` done_button` is `doneButton` in the binding object, `nickname_edit` becomes becomes `nicknameEdit`, and `nickname_text` becomes `nicknameText`.
+You can now replace all calls to `findViewById()` with references to the views that are in the binding object. When the binding object is created, the compiler generates the names of the views in the binding object from the IDs of the views in the layout, converting them to camel case. So, for example,`done_button` is `doneButton` in the binding object, `nickname_edit` becomes becomes `nicknameEdit`, and `nickname_text` becomes `nicknameText`.
 
 1 - In `onCreate()`, replace the code that uses `findViewById()` to find the `done_button` with code that references the button in the binding object.
-
 
 Replace this code: `findViewById<Button>`(`R.id.done_button`)
 with: `binding.doneButton`
@@ -143,9 +149,9 @@ binding.doneButton.setOnClickListener {
 ```
 
 2 - Do the same for all calls to `findViewById()` in the `addNickname()` function.
-    
+  
 Replace all occurrences of `findViewById<View>(R.id.id_view)` with binding.idView. Do this in the following way:
-    
+
 - Delete the definitions for the `editText` and `nicknameTextView` variables along with their calls to `findViewById()`. This will give you errors.
 
 - Fix the errors by getting the `nicknameText`, `nicknameEdit`, and `doneButton` views from the binding object instead of the (deleted) variables.
@@ -186,7 +192,6 @@ binding.apply {
 
 **Tip: You previously learned about the Resources object that holds references to all resources in the app. You can think of the Binding object in a similar fashion when referencing views; however, the Binding object is a lot more sophisticated.**
 
-
 ## Task: Use data binding to display data
 
 You can take advantage of data binding to make a data class directly available to a view. This technique simplifies the code, and is extremely valuable for handling more complex cases.
@@ -211,7 +216,7 @@ In the `activity_main.xml` file, the name is currently set in a `TextView` from 
 
 ```
 <data>
-  
+
 </data>
 ```
 
@@ -228,7 +233,6 @@ Inside the data tags, you can declare named variables that hold a reference to a
 ```
 
 Now, instead of using the string resource for the name, you can reference the `myName` variable.
-
 
 5 - Replace `android:text="@string/name"` with the code below.
 
@@ -253,7 +257,6 @@ You now have a reference to the data in your layout file. Next, you create the a
 `binding.myName = myName`
 
 4 - This may show an error, because you need to refresh the binding object after making changes. Build your app, and the error should go away.
-
 
 ### Step 4: Use the data class for the nickname in the TextView
 
@@ -286,4 +289,3 @@ binding.apply {
 ```
 
 5 - Build and run your app, and it should work exactly the same as before.
-

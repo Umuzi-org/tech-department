@@ -17,8 +17,7 @@
       
       <guid>/tech-department/projects/nodejs/file-io/</guid>
       <description>You are required to create a back-end service that will help capture basic information about prospective students who come to inquire here at Umuzi. In this project you&amp;rsquo;ll just be storing and retrieving information from plain old json files.
-Instructions Create the following functionality in a TDD way.
- Create a class called Visitor. Instances of this class should have the following properties:   full name age date of visit time of visit comments name of the person who assisted the visitor   Create a function called save that saves the visitor&amp;rsquo;s data to a JSON file.</description>
+Instructions  Create a class called Visitor. Instances of this class should have the following properties:   full name age date of visit time of visit comments name of the person who assisted the visitor   Create a function called save that saves the visitor&amp;rsquo;s data to a JSON file.</description>
     </item>
     
   </channel>

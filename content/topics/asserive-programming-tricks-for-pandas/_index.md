@@ -1,4 +1,6 @@
 ---
+_db_id: 147
+content_type: topic
 title: Assertive programming and Pandas
 ---
 

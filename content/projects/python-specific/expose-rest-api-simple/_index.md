@@ -1,6 +1,11 @@
 ---
+_db_id: 260
+available_options:
+- python
+content_type: project
+ready: true
+submission_type: repo
 title: expose a simple JSON rest api
-ready: True
 ---
 
 ## Instructions

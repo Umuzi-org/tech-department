@@ -1,6 +1,8 @@
 ---
+_db_id: 408
+content_type: topic
+ready: true
 title: Extra bootcamp preparation instructions for data science
-ready: True
 ---
 
 Data science is a profession that requires three basic skills encompassing Statistics, Programming and Communication. Some of these skills such as Programming and Communication can only be developed through practice, while Statistics requires the ability to conduct well-structured scientific research, analytical and critical thinking, in addition to practice. The pre-bootcamp care package will help you develop some of these foundational skills like programming, data analysis, analytical thinking and statistics.
