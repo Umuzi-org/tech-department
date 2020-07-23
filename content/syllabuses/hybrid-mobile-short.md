@@ -10,9 +10,9 @@ title: Hybrid mobile dev short course
 ## Part 2
 - {{% contentlink "topics/jasmine-unit-tests" %}}
 - Project: Animal Part 1 (Prerequisite)
-- {{% contentlink "projects/oop/animals/part2" %}}
+- {{% contentlink "projects/oop/animals/part2" option="typescript" %}}
 - Project : Password-Checker (Prerequisite)
-- {{% contentlink "projects/tdd/password-checker/part2" %}}
+- {{% contentlink "projects/tdd/password-checker/part2" option="typescript" %}}
 
 ## Part 3
 
@@ -20,7 +20,7 @@ title: Hybrid mobile dev short course
 - {{% contentlink "projects/angular-tutorial" %}}
 - Project : semitone difference - basic algorithm (Prerequisite)
 - Project : make a simple GUI (Prerequisite)
-- {{% contentlink "projects/semitone-challenge/add-redux" %}}
+- {{% contentlink "projects/semitone-challenge/add-redux" option="typescript,angular" %}}
 
 ## Part 4
 
