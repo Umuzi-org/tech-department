@@ -1,10 +1,18 @@
 ---
-title: string-calculator
-ready: true
+_db_id: 266
+available_options:
+- any_language
+content_type: project
 prerequisites:
-  hard: ["projects/tdd/simple-calculator-part1"]
+  hard:
+  - projects/tdd/simple-calculator-part1
   soft: []
-tags: ["tdd", "regular-expressions"]
+ready: true
+submission_type: repo
+tags:
+- tdd
+- regular-expressions
+title: string-calculator
 ---
 
 ## Set up your environment
@@ -44,7 +52,7 @@ Please take a look at this topic to see an explanation of the required directory
 
 ## Instructions
 
-Before you commence, first read through {{% contentlink "/topics/data_validation_and_verification/" %}}. Upon completion, read through {{% contentlink "/topics/regular-expressions/" %}}.
+Before you commence, first read through {{% contentlink path="/topics/data_validation_and_verification/" %}}. Upon completion, read through {{% contentlink path="/topics/regular-expressions/" %}}.
 
 Please note that this project should be done in a TDD manner.
 
@@ -197,4 +205,4 @@ add("1,2,3//;\n1000,1;2")
 
 ### why is this important?
 
-- If you're wondering to yourself, "Why is this sooo important!?" take a look at {{% contentlink "/topics/data_validation_and_verification/" %}}
+- If you're wondering to yourself, "Why is this sooo important!?" take a look at {{% contentlink path="/topics/data_validation_and_verification/" %}}

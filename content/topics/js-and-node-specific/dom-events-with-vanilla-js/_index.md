@@ -1,6 +1,8 @@
 ---
-title: DOM events with vanilla JavaScript
+_db_id: 136
+content_type: topic
 ready: true
+title: DOM events with vanilla JavaScript
 ---
 
 To see a basic demo of various event handlers take a look [here](https://github.com/Umuzi-org/demo-vanilla-dom-evens). This demo has three different `index.html` pages. Each of them attach event handlers to the different DOM elements in different ways.

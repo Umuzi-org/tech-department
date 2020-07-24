@@ -1,6 +1,8 @@
 ---
-title: Intro to CSS architecture
+_db_id: 7
+content_type: workshop
 ready: true
+title: Intro to CSS architecture
 ---
 
 The followings are to be demonstrated and addressed during the workshop
@@ -11,4 +13,4 @@ The followings are to be demonstrated and addressed during the workshop
 
 ## Resources
 
-1. {{% contentlink "topics/intro-to-css-architecture" %}}
+{{% contentlink path="topics/intro-to-css-architecture" %}}

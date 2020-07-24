@@ -1,6 +1,8 @@
 ---
+_db_id: 69
+content_type: topic
+ready: true
 title: Jasmine Spies
-ready: True
 ---
 
 ### Spying on JavaScirpt Methods using Jasmine

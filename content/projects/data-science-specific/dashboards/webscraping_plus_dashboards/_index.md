@@ -1,15 +1,21 @@
 ---
-title: Webscraping and Live Dashboard Assignment
-pre: "<b> HARD: </b>"
-ready: True
+_db_id: 242
+available_options:
+- python
+content_type: project
+pre: '<b> HARD: </b>'
 prerequisites:
   hard:
-    ["projects/data-science-specific/dashboards/plotly_dashboards"]
+  - projects/data-science-specific/dashboards/plotly_dashboards
   soft:
-    ["projects/data-science-specific/data-wrangling"]
-tags: ["webscraping","dashboard"]    
+  - projects/data-science-specific/data-wrangling
+ready: true
+submission_type: repo
+tags:
+- webscraping
+- dashboard
+title: Webscraping and Live Dashboard Assignment
 ---
-
 
 ## Assignment
 
@@ -18,5 +24,6 @@ Use [beautifulsoup](https://pypi.org/project/beautifulsoup4/) and regular expres
 Create a dashboard with graphs showing the current and previous week's dam levels by province, and compare it to the water levels from the previous year. Your dashboard should update weekly (in other words, you can't just copy and paste this week's data to your notebook).
 
 ### Think about
+
 - What type of graph will show this information best?
 - Do all graphs have clearly understandable headings, axis labels and (if applicable) legends?

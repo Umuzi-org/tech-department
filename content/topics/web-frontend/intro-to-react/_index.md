@@ -1,7 +1,8 @@
 ---
-title: Intro to React
+_db_id: 75
+content_type: topic
 ready: true
-
+title: Intro to React
 ---
 
 - [Official Intro](https://reactjs.org/tutorial/tutorial.html) - This tutorial doesn’t assume any existing React knowledge. 
@@ -10,4 +11,4 @@ ready: true
 > Other useful links
 
 - [Intro to Redux](https://medium.com/javascript-in-plain-english/the-only-introduction-to-redux-and-react-redux-youll-ever-need-8ce5da9e53c6) - The only introduction to Redux (and React-Redux) you’ll ever need
-- [All things React](https://medium.mybridge.co/learn-react-js-from-top-50-articles-for-the-past-year-v-2019-baaacfc521c) - Top 50 React Articles for the Past Year (v.2019) 
+- [All things React](https://medium.mybridge.co/learn-react-js-from-top-50-articles-for-the-past-year-v-2019-baaacfc521c) - Top 50 React Articles for the Past Year (v.2019)

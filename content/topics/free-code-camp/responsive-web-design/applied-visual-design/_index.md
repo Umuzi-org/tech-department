@@ -1,6 +1,8 @@
 ---
+_db_id: 309
+content_type: topic
+ready: true
 title: Applied Visual Design
-ready: True
 ---
 
 Make an account here if you haven't already: https://www.freecodecamp.org/learn

@@ -1,6 +1,8 @@
 ---
-title: Unit testing with Jasmine Introduction
+_db_id: 47
+content_type: workshop
 ready: true
+title: Unit testing with Jasmine Introduction
 ---
 
 ..\* (A brief introduction to unit testing.)

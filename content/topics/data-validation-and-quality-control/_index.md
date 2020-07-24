@@ -1,6 +1,8 @@
 ---
+_db_id: 174
+content_type: topic
+ready: true
 title: Data validation and quality control
-ready: True
 ---
 
 ## Prevention first!
@@ -50,4 +52,4 @@ the process problems may have crept in.
 ## References
 
 [Data quality assurance in data warehousing](https://www.blue-granite.com/blog/overview-of-data-quality-assurance-in-data-warehousing)  
-[The Challenges of Data Quality and Data Quality Assessment in the Big Data Era](https://datascience.codata.org/articles/10.5334/dsj-2015-002/)  
+[The Challenges of Data Quality and Data Quality Assessment in the Big Data Era](https://datascience.codata.org/articles/10.5334/dsj-2015-002/)

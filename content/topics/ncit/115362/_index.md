@@ -1,7 +1,11 @@
 ---
-title: Version Control
-ready: false
-tags: ["git"]
+_db_id: 366
+content_type: topic
 nqf: ncit
-unit_standards: [115362]
+ready: false
+tags:
+- git
+title: Version Control
+unit_standards:
+- 115362
 ---

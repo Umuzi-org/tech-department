@@ -1,6 +1,8 @@
 ---
+_db_id: 85
+content_type: topic
+ready: true
 title: Clean Code for Python
-ready: True
 ---
 
 ## Tabs or Spaces

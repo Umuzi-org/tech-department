@@ -1,48 +1,54 @@
 ---
-title: Data Wrangling
-pre: "<b>MEDIUM: </b>"
-ready: true
+_db_id: 247
+available_options:
+- python
+content_type: project
+pre: '<b>MEDIUM: </b>'
 prerequisites:
   hard:
-    [
-      "topics/data-validation-and-quality-control",
-      "topics/jupyter-notebooks-best-practices",
-      "topics/python-self-learning",
-    ]
-  soft: 
-    [
-      "topics/data-ethics-and-privacy",
-      "projects/tdd/simple-calculator-part1",
-    ]
-tags: ["data-wrangling"]
+  - topics/data-validation-and-quality-control
+  - topics/jupyter-notebooks-best-practices
+  - topics/python-self-learning
+  soft:
+  - topics/data-ethics-and-privacy
+  - projects/tdd/simple-calculator-part1
+ready: true
 story_points: 5
+submission_type: repo
+tags:
+- data-wrangling
+title: Data Wrangling
 ---
 
 ## Key concepts
+
 - merging data frames
 - filtering data frames
 - manipulating rows and columns
 
 ## Tutorials
+
 - Intro to pandas and data manipulation [here](https://www.kaggle.com/learn/pandas)
 - If you'd like more, complete the DataCamp skills track [Data Manipulation with Python](https://www.datacamp.com/tracks/data-manipulation-with-python)
-
 
 ## Assignment
 
 ### Prerequisites
+
 You should be able to write basic functions and for loops for this assignment. You should also be familiar with merging, filtering and creating new columns in pandas.
 
-*Optional:*
+_Optional:_
 As far as possible, use functional programming techniques (map, reduce, apply) instead of loops when writing the functions below.
 
-For example, to modify every column in a data frame (to get a percentage in this case),  instead of writing:
+For example, to modify every column in a data frame (to get a percentage in this case), instead of writing:
+
 ```
 for column in df:
   column = column/10*100 #get percentage
 ```
 
 use:
+
 ```
 def get_percentage(score):
   score/10*100
@@ -62,11 +68,11 @@ Tip: An example assert statement is `assert 2*20=40` and it's a great way to che
 
 The new data frame will look something like this:
 
-|I am always prepared | I am easily disturbed | I am exacting (demanding) in my work | ... | Conscientiousness | Emotional Stability |
-| --- |  --- |  --- |  --- |  --- |  --- |  
-| (3, 5)	| (4, 5)	| (3, 5)  | ... | 10  | 5 |
-| (3, 5)	| (4, 1)	| (3, 1)	| ... | 6  | 1 |
-| (3, 5)	| (4, 3)	| (3, 3)	| ... | 8  | 3 |
+| I am always prepared | I am easily disturbed | I am exacting (demanding) in my work | ... | Conscientiousness | Emotional Stability |
+| -------------------- | --------------------- | ------------------------------------ | --- | ----------------- | ------------------- |
+| (3, 5)               | (4, 5)                | (3, 5)                               | ... | 10                | 5                   |
+| (3, 5)               | (4, 1)                | (3, 1)                               | ... | 6                 | 1                   |
+| (3, 5)               | (4, 3)                | (3, 3)                               | ... | 8                 | 3                   |
 
 3. Import the data in [departments.csv](departments.csv). Merge this data frame with the personality score data frame, keeping all applicants within the department data frame. Use an assert statement to check that the newly created merged data frame has the same amount of rows as the department data frame, and the expected number of columns.
 
@@ -74,7 +80,7 @@ The new data frame will look something like this:
 
 5. Create a new data frame with a count of the number of low and high risk applicants within each department. Let each department be a separate column. In other words, the data frame should look something like this:
 
-| Risk | Multimedia | Coding | Data |
-| --- | --- |  --- |  --- |
-| Low risk | 150 | 123 | 239 |
-| High risk | 40 | 15 | 22 |
+| Risk      | Multimedia | Coding | Data |
+| --------- | ---------- | ------ | ---- |
+| Low risk  | 150        | 123    | 239  |
+| High risk | 40         | 15     | 22   |

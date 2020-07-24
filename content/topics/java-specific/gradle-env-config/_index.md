@@ -1,6 +1,8 @@
 ---
-title: Environmental variables and secrets with gradle
+_db_id: 114
+content_type: topic
 ready: true
+title: Environmental variables and secrets with gradle
 ---
 
 Environment variables are global variables that are accessible from every system running in the OS (Operating System).
@@ -50,10 +52,3 @@ for different situations in an Android project.
 
 Android Apps can however be created using Java, so implementing gradle rules in a java application will follow the same format
 as the documentation above describes.
-
-
-
-
-
-
-

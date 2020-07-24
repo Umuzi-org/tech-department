@@ -1,35 +1,37 @@
 ---
-title: Constraint Layout Using Layout Editor
-ready: True
+_db_id: 415
+available_options:
+- kotlin
+content_type: project
 prerequisites:
   hard:
-    [
-      "projects/kotlin/user-activity",
-      "topics/kotlin/grid-layout",
-    ]
-  soft:
-    []
+  - projects/kotlin/user-activity
+  - topics/kotlin/grid-layout
+  soft: []
+ready: true
+submission_type: repo
+title: Constraint Layout Using Layout Editor
 ---
 
 ## App overview
 
 The ColorMyViews app is inspired by the Dutch artist, Piet Mondrian. He invented a style of painting style called neoplasticism, which uses only vertical and horizontal lines and rectangular shapes in black, white, gray, and primary colors.
-  
-![](7fdda7ddbbb92f51.png)  
+
+![](7fdda7ddbbb92f51.png)
 
 ![](957c810298666482.png)
-  
-Although paintings are static, your app will be interactive! The app consists of clickable text views that change color when tapped, and button views in a `constraintLayout`.  
 
-![](6978e2b5aad2536e.png)  
+Although paintings are static, your app will be interactive! The app consists of clickable text views that change color when tapped, and button views in a `constraintLayout`.
 
-![](2c563e2d49e54588.png)  
+![](6978e2b5aad2536e.png)
+
+![](2c563e2d49e54588.png)
 
 ![](41400880c88d3db7.png)
-  
+
 ### ConstraintLayout
 
-A `ConstraintLayout`t is a `ViewGroup` that allows you to position and size child views in a flexible way. A constraint layout allows you to create large, complex layouts with flat view hierarchies (no nested view groups). To build a constraint layout, you can use the Layout Editor to add constraints, and to drag-and-drop views. You don't need to edit the XML.   
+A `ConstraintLayout`t is a `ViewGroup` that allows you to position and size child views in a flexible way. A constraint layout allows you to create large, complex layouts with flat view hierarchies (no nested view groups). To build a constraint layout, you can use the Layout Editor to add constraints, and to drag-and-drop views. You don't need to edit the XML.
 
 Note: `ConstraintLayout` is available as a support library, which is available in API level 9 and higher.
 
@@ -47,15 +49,15 @@ A `constraint` is a connection or alignment between two UI elements. Each constr
 
 1 - Open Android Studio, if it's not already open, and create a new project with the following parameters:
 
-| Attribute | Value |
-|---    |---    |
-|Template | Empty Activity in the Phone and Tablet tab |
-|Application Name |ColorMyViews|
-|Company Name android |com.android.example.colormyviews (or your own domain)|
-|Language |Kotlin |
-|Minimum API level | API 19: Android 4.4 (KitKat) |
-|This project will support instant apps |(Leave this box cleared)|
-|Use AndroidX artifacts |  Select this box. |
+| Attribute                              | Value                                                 |
+| -------------------------------------- | ----------------------------------------------------- |
+| Template                               | Empty Activity in the Phone and Tablet tab            |
+| Application Name                       | ColorMyViews                                          |
+| Company Name android                   | com.android.example.colormyviews (or your own domain) |
+| Language                               | Kotlin                                                |
+| Minimum API level                      | API 19: Android 4.4 (KitKat)                          |
+| This project will support instant apps | (Leave this box cleared)                              |
+| Use AndroidX artifacts                 | Select this box.                                      |
 
 The Empty Activity template creates a single empty activity in the `Mainactivity.kt` file.
 
@@ -78,13 +80,11 @@ In this task, you use the Android Studio Layout Editor to build a constraint lay
 2 - You'll add constraints manually, so you want autoconnect turned off. In the toolbar, locate the **Turn Off/On Autoconnect** toggle button, which is shown below. (If you can't see the toolbar, click inside the design editor area of the Layout Editor.) Make sure autoconnect is off.
 
 ![](f66ff1b834a69947.png) Autoconnect is on.
-	
 ![](dd30e456c4858de3.png) Autoconnect is off—this is what you want for this project.
 
 3 - Use the toolbar to set the default margins to `16dp`. (The default is `8dp`.)
 
 ![](c7debadc31243335.png)
-
 
 When you set the default margin to `16dp`, new constraints are created with this margin, so you don't have to add the margin each time you add a constraint.
 
@@ -147,8 +147,8 @@ android:layout_marginEnd="@dimen/margin_wide"
 ## Task: Style the TextView
 
 ### Step 1: Add a font
-    
-1 - In the Attributes pane, search for `fontFamily` and select the drop-down arrow  next to it. Scroll down to More Fonts and select it. The Resources dialog opens.
+
+1 - In the Attributes pane, search for `fontFamily` and select the drop-down arrow next to it. Scroll down to More Fonts and select it. The Resources dialog opens.
 
 ![](bd10601e8201e4ea.png)
 
@@ -255,7 +255,6 @@ As you release the click, the constraint is created, and the new text view jumps
 
 ![](954c246ce6b8bd29.png)
 
-
 **Tip**: You can also create constraints using the view inspector. For example, to create a left constraint on the new text box:
 
 1 - In the preview, click the new text box to select it.
@@ -273,13 +272,13 @@ When you create a constraint this way, the constraint is attached to the parent 
 
 2 - Open `activity_main.xml` and click the Design tab. Use the Attributes pane to set the following attributes on the new text view:
 
-| Attribute | value |
-|--- |---|
-|id |box_two_text|
-|layout_height|130dp|
-|layout_width|130dp|
-|style|@style/whiteBox|
-|text|@string/box_two|
+| Attribute     | value           |
+| ------------- | --------------- |
+| id            | box_two_text    |
+| layout_height | 130dp           |
+| layout_width  | 130dp           |
+| style         | @style/whiteBox |
+| text          | @string/box_two |
 
 In this case, you're assigning fixed sizes for the height and width of the text view. Assign fixed sizes for height and width only if your view should always have a fixed size on all devices and layouts.
 
@@ -362,11 +361,11 @@ app:layout_constraintHorizontal_chainStyle="packed"
 
 3 - Set the following attributes for the new text views:
 
-| Attribute | Top text view |Middle text view |Bottom text view |
-|--- |--- |--- |---|
-|ID|box_three_text|box_four_text |box_five_text
-|text |@string/box_three|@string/box_four\@string/box_five
-|style|@style/whiteBox|@style/whiteBox|@style/whiteBox
+| Attribute | Top text view     | Middle text view                  | Bottom text view |
+| --------- | ----------------- | --------------------------------- | ---------------- |
+| ID        | box_three_text    | box_four_text                     | box_five_text    |
+| text      | @string/box_three | @string/box_four\@string/box_five |
+| style     | @style/whiteBox   | @style/whiteBox                   | @style/whiteBox  |
 
 ![](1a3dd819d3f985a5.png)
 
@@ -391,6 +390,7 @@ This creates a vertical chain that extends from Box One to the end of the layout
 Observe that the three text views are now constrained to the top and bottom of Box Two.
 
 ### Step 3: Add left and right constraints
+
 1 - Constrain the left side of Box Three to the right side of Box Two. Repeat for Box Four and Box Five, constraining the left side of each to the right side of Box Two.
 
 ![](f4864c716bf57f67.png)
@@ -402,7 +402,6 @@ Observe that the three text views are now constrained to the top and bottom of B
 3 - For each of the three text views, change the `layout_width` attribute `0dp`, which is equivalent to changing the constraint type to Match Constraints.
 
 ![](fa084fcb1c6cc47d.png)
-
 
 ### Step 4: Add margin
 
@@ -442,19 +441,19 @@ private fun makeColored(view: View) {
 Every view has a resource ID. The resource ID is the value assigned to the view's `id` attribute in the layout file, `activity_main.xml`. To set a color, the code will switch using a `when` statement on the view's resource ID. It's a common pattern to use one click-handler function for many views when the click action is the same.
 
 3 - Implement the `makeColored()` function: Add a `when` block to check the view's resource ID. Call the `setBackgroundColor()` function on each view's id to change the view's background color using the `Color` class **constants**.
-    
+  
 To fix the code indentation, choose **Code > Reformat code**.
 
 ```
 private fun makeColored(view: View) {
    when (view.id) {
-      
+
        // Boxes using Color class colors for the background
        R.id.box_one_text -> view.setBackgroundColor(Color.DKGRAY)
        R.id.box_two_text -> view.setBackgroundColor(Color.GRAY)
        R.id.box_three_text -> view.setBackgroundColor(Color.BLUE)
        R.id.box_four_text -> view.setBackgroundColor(Color.MAGENTA)
-       R.id.box_five_text -> view.setBackgroundColor(Color.BLUE) 
+       R.id.box_five_text -> view.setBackgroundColor(Color.BLUE)
    }
 }
 
@@ -547,7 +546,7 @@ Sample XML code for the baseline constraint:
 ```
 <Button
    android:id="@+id/buttonB"
-   ...   
+   ...
    android:text="B"
    app:layout_constraintBaseline_toBaselineOf="@+id/buttonA" />
 ```
@@ -566,13 +565,13 @@ In this task, you add instructions that tell the user how to use the app. You cr
 
 3 - Use the Attributes pane to set the following attributes to the newly added label `TextView`:
 
-| Attribute | Value |
-|--- |--- |
-|ID|label_text|
-|fontFamily|roboto|
-|text|@string/how_to_play|
-|textSize|24sp|
-|textStyle|B (bold)|
+| Attribute  | Value               |
+| ---------- | ------------------- |
+| ID         | label_text          |
+| fontFamily | roboto              |
+| text       | @string/how_to_play |
+| textSize   | 24sp                |
+| textStyle  | B (bold)            |
 
 Use the **Default Margins** ![](17b81722b8328eb8.png) icon in the toolbar to set the default margins to `16dp`.
 
@@ -615,7 +614,7 @@ Try experimenting with sample data:
 ![](376eb751498a02fa.png)
 
 3 - Select a type of the sample data from the drop-down list. For example, if you set text sample data to **date/mmddyy**, today's date is displayed in the design.
-    
+  
 4 - Delete the text view that you just created.
 
 ### Step 2: Add a text view for the info text
@@ -630,12 +629,12 @@ Try experimenting with sample data:
 
 Use the Attributes pane to set the following attributes to the new text view:
 
-| Attribute | Value |
-|--- |--- |
-|ID |info_text|
-|layout_width |0dp (which is equivalent to match_constraint)|
-|fontFamily |roboto|
-|text | @string/tap_the_boxes_and_button|
+| Attribute    | Value                                         |
+| ------------ | --------------------------------------------- |
+| ID           | info_text                                     |
+| layout_width | 0dp (which is equivalent to match_constraint) |
+| fontFamily   | roboto                                        |
+| text         | @string/tap_the_boxes_and_button              |
 
 4 - Constrain the right side of the `info_text` to the right edge of the parent element. Constrain the left side of the `info_text` to the right (end) of the `label_text`.
 
@@ -659,7 +658,7 @@ To delete all the constraints that are set on a view:
 
 1 - In the Design tab, click on the view.
 
-2 - Click the Delete Constraints icon  that appears below the view.
+2 - Click the Delete Constraints icon that appears below the view.
 
 To delete a particular constraint:
 
@@ -740,10 +739,10 @@ In this task, you add three Button views and chain them together.
 
 3 - Set the following attributes to the button views:
 
-| Attribute | Left button |Middle button | Right button |
-|--- |--- |--- |--- |
-|ID |red_button |yellow_button |green_button |
-|text |@string/button_red |@string/button_yellow |@string/button_green|
+| Attribute | Left button        | Middle button         | Right button         |
+| --------- | ------------------ | --------------------- | -------------------- |
+| ID        | red_button         | yellow_button         | green_button         |
+| text      | @string/button_red | @string/button_yellow | @string/button_green |
 
 4 - Align the button labels vertically with each other. To do this, constrain the baselines of `red_button` and `green_button` to the baseline of the `yellow_button`. (To add a baseline constraint to a view, click on the view and use the **Edit Baseline** icon ![](709b485353dff1c.png) that appears below the view.)
 
@@ -764,15 +763,15 @@ In this task, you add three Button views and chain them together.
 3 - Using the view inspector, set the left margin of the `red_button` to `16dp`. Set the right margin of the `green_button` to `16dp`.
 
 4 - Constrain the top of the `yellow_button` to the bottom of the `info_text`.
-   
-5 - Constrain the bottom of the `yellow_button` to the bottom of the layout. 
+
+5 - Constrain the bottom of the `yellow_button` to the bottom of the layout.
 
 ![](af1db48f24e2bcc2.png)
 
 6 - Change the vertical bias of the `yellow_button` to `100` (1.0 in the XML), to drop down the buttons to the bottom of the layout.
 
 7 - Test your layout for different devices and orientations. The layout may not work for all devices and orientations, but should work for most of them.
-    
+  
 The generated XML code for the `Button` views will be similar to the following:
 
 ```
@@ -820,7 +819,7 @@ The generated XML code for the `Button` views will be similar to the following:
 
 In this task, you add a click handler to each Button view. The click handler changes the color of the TextView views.
 
-1 -  Add the following colors to the `res/values/colors.xml` file:
+1 - Add the following colors to the `res/values/colors.xml` file:
 
 ```
 <color name="my_green">#12C700</color>
@@ -846,7 +845,7 @@ private fun setListeners() {
 boxFourText, boxFiveText, rootConstraintLayout,
 redButton, greenButton, yellowButton
 )
-   ... 
+   ...
 }
 ```
 
@@ -872,15 +871,8 @@ private fun makeColored(view: View) {
 
 ![](e98f4018d3b033a.png)
 
-
 ## Coding challenge (Important)
 
-Create a new View and then do what you did with text and buttons from your app and fill the entire layout with color boxes (`TextView` views). 
+Create a new View and then do what you did with text and buttons from your app and fill the entire layout with color boxes (`TextView` views).
 
 Your app should toggle or change the colors when the user taps on the screen.
-
-
-
-
-
-

@@ -1,11 +1,18 @@
 ---
-title: Animals Part 1. OOP basics
-ready: true
+_db_id: 224
+available_options:
+- any_language
+content_type: project
 prerequisites:
-  hard: ["projects/oop/person"]
+  hard:
+  - projects/oop/person
   soft: []
-tags: ["oop"]
+ready: true
 story_points: 3
+submission_type: repo
+tags:
+- oop
+title: Animals Part 1. OOP basics
 ---
 
 ## Project structure
@@ -34,7 +41,7 @@ The code you push to git should have the following structure:
 
 ```
 
-Please refer to the following to find out more: {{% contentlink "topics/java-specific/project-submission-requirements" %}}
+Please refer to the following to find out more: {{% contentlink path="topics/java-specific/project-submission-requirements" %}}
 
 ## Instructions
 

@@ -1,6 +1,8 @@
 ---
+_db_id: 153
+content_type: topic
+ready: true
 title: Regression
-ready: True
 ---
 
 Regression is all about finding relationships between variables.

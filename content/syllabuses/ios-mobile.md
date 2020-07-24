@@ -6,12 +6,51 @@ title: iOS Mobile Development
 
 [Stanford CS193P iOS11 Swift4](https://drive.google.com/drive/folders/1-TWZDChwwzkiGzt78QlPZDzN-j82JfR6)
 
-## Part 1
+## Swift and More
 
-- Topic : iOS Overview (Lecture 1)
-- Topic : MVC (Lecture 2)
-- Topic : Swift Development and other Tools (Lecture 3)
-- {{% contentlink "projects/ios-mobile/swift-and-more" %}}
+- Topic : iOS Overview
+- Topic : MVC
+- Topic : Swift Development and other Tools
+- {{% contentlink path="projects/ios-mobile/swift-and-more" %}}
 
+## More Swift and Gestures
 
-## Part 2 [ToDo]
+- Topic : Data Structures, Protocols, Delegation, Strings, Function Types, Closure
+
+- Topic : Miscellaneous, Views, Demo (enum)
+
+- Topic : Views continued, Gestures
+
+- Topic : Multiple MVCs, Timer, Animation
+
+- Topic : Animation
+
+- {{% contentlink path="projects/ios-mobile/swift-and-gestures-animations" %}}
+
+## Multithreading Layout and Functionality
+
+- Topic : View Controller Life Cycle, Scroll View
+
+- Topic : Multithreading, Auto-Layout
+
+- Topic : Drag and Drop UI Views
+
+- Topic : Emoji Art (demo) UI Text Field
+
+- Topic : Emoji Art, Persistence, Archiving, File System, URL, Core Data, Cloud Kit
+
+- Topic : More about Documents and Persistence Demo
+
+- {{% contentlink path="projects/ios-mobile/multithreading-layout-and-functionality" %}}
+
+## Multithreading Layout and Other Functionality
+
+- {{% contentlink path="projects/ios-mobile/timer-segues-autolayout" %}}
+
+## Drag and Drop, Multithreading and Delegation
+
+- {{% contentlink path="projects/ios-mobile/drag-and-drop-multithreading-delegation" %}}
+
+## Codable, File Manager, URL
+
+- {{% contentlink path="projects/ios-mobile/codable-file-manager-url" %}}

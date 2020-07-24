@@ -1,11 +1,19 @@
 ---
-title: "Add logging to password checker"
-ready: true
+_db_id: 270
+available_options:
+- any_language
+content_type: project
+from_repo: projects/tdd/password-checker/part1
 prerequisites:
-  hard: ["projects/tdd/password-checker/part1"]
+  hard:
+  - projects/tdd/password-checker/part1
   soft: []
-tags: ["logging"]
+ready: true
 story_points: 3
+submission_type: continue_repo
+tags:
+- logging
+title: Add logging to password checker
 ---
 
 In part one of this excercise you created two functions. Now you are going to upgrade that program by adding some logging capabilities.

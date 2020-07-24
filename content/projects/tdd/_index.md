@@ -1,4 +1,7 @@
 ---
+_db_id: 275
+content_type: project
+submission_type: nosubmit
 title: Test Driven Development
 ---
 
@@ -12,4 +15,5 @@ The exercises in this section can be done in any language. The aim is to have wo
 There are a few exercises here. Try the ones marked as easy first.
 
 ## Reads
-  - Here is a quick read on the most common TDD pitfalls: {{% contentlink "topics/unit-testing/tdd-horrors" %}}
+
+- Here is a quick read on the most common TDD pitfalls: {{% contentlink path="topics/unit-testing/tdd-horrors" %}}

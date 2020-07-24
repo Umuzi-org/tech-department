@@ -1,6 +1,8 @@
 ---
+_db_id: 158
+content_type: topic
+ready: true
 title: Sqlalchemy Basics
-ready: True
 ---
 
 There's more to Sqlalchemy that meets the eye. for this course we are most interested in the ORM: You can learn about it here:

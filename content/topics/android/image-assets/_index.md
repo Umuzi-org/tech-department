@@ -1,6 +1,8 @@
 ---
-title: Working with image assets
+_db_id: 98
+content_type: topic
 ready: true
+title: Working with image assets
 ---
 
 In every Android project there is a drawables folder. This folder is where image assets are uploaded to. The images in this folder are packaged with the
@@ -35,4 +37,3 @@ toyota_corolla.png
 Cars.png
 Toyotal Corolla.png
 Cars!.jpg
-

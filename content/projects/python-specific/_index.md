@@ -1,4 +1,7 @@
 ---
+_db_id: 262
+content_type: project
+submission_type: nosubmit
 title: Python projects
 ---
 

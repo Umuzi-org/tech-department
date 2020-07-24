@@ -1,6 +1,8 @@
 ---
-title: Logging
+_db_id: 48
+content_type: topic
 ready: true
+title: Logging
 ---
 
 Through the development process logging helps us evaluate computation which we might be uncertain about, or show us what is happening during runtime where we have little control. Its like a third eye helping us see things that we might otherwise finding very difficult to see.
@@ -40,6 +42,6 @@ Two major use cases for log levels are:
 
 Different languages have different tooling that you can use to manage logs. To continue learning about logs, please follow the appropriate link below:
 
-- {{% contentlink "topics/js-and-node-specific/logging" %}}
-- {{% contentlink "topics/java-specific/logging" %}}
-- {{% contentlink "topics/python-specific/logging" %}}
+- {{% contentlink path="topics/js-and-node-specific/logging" %}}
+- {{% contentlink path="topics/java-specific/logging" %}}
+- {{% contentlink path="topics/python-specific/logging" %}}

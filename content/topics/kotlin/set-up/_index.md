@@ -1,9 +1,12 @@
 ---
-title: Set Up
-ready: true
+_db_id: 296
+content_type: topic
 prerequisites:
-  hard: ["topics/kotlin/introduction"]
+  hard:
+  - topics/kotlin/introduction
   soft: []
+ready: true
+title: Set Up
 ---
 
 ### Beginning Android Development
@@ -29,4 +32,3 @@ Ask your senior for help if all else fails.
 
 - [https://www.youtube.com/watch?v=kEpVuKn1yT8](https://www.youtube.com/watch?v=kEpVuKn1yT8)
 Test your configuration with the &quot;Hello World&quot; application in the Kotlin Introduction topic.
-

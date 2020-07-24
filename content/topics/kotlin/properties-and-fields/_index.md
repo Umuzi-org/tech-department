@@ -1,10 +1,14 @@
 ---
-title:  Properties and Fields
-ready: true
+_db_id: 300
+content_type: topic
 prerequisites:
-  hard: ["topics/kotlin/classes"]
+  hard:
+  - topics/kotlin/classes
   soft: []
+ready: true
+title: Properties and Fields
 ---
+
 ### Declaring Properties
 Classes in Kotlin can have properties. These can be declared as mutable, using the var keyword or read-only using the val keyword.
 ````

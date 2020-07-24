@@ -6,14 +6,35 @@ import logging
 import os
 from pathlib import Path
 import frontmatter
+import yaml
+
+with open("options.yaml", "r") as f:
+    option_groups = yaml.load(f, Loader=yaml.FullLoader)
+l = [list(option_groups.keys())] + list(option_groups.values())
+flat_options = [s for sub in l for s in sub]
+
+allowed_submission_types = [
+    "repo",  # we create a repo and own it
+    "link",  # they give us a link to a document they own
+    "continue_repo",  # this is part of a multi part project. Use the repo that already exists. If this option is used then must include the 'from_repo' frontmatter key
+    "nosubmit",
+]
 
 
-def check_all_frontmatter(path):
+def check_all_frontmatter_and_directory_names(path):
     location = Path(path)
     assert location.is_dir(), location
+    assert (
+        str(location) == str(location).lower()
+    ), f"location has uppercase letters: {location}"
+
+    assert str(location) == str(location).replace(
+        " ", ""
+    ), f"location has illegal characters: {location}"
+
     for child in location.iterdir():
         if child.is_dir():
-            check_all_frontmatter(child)
+            check_all_frontmatter_and_directory_names(child)
         else:
             check_one_file_frontmatter(child)
 
@@ -53,33 +74,70 @@ def check_one_file_frontmatter(file_path):
     name = file_path.name
     if not name.endswith(".md"):
         return
-    post = frontmatter.load(file_path)
+    front = frontmatter.load(file_path)
 
     required = ["title"]
     allowed = [
+        "_db_id",
+        "content_type",
         "pre",
         "weight",
         "ready",
         "date",
         "disableToc",
         "todo",
-        "attn",
-        "noform",
         "ncit_unit_standard",
         "ncit_specific_outcomes",
+        "nqf",
+        "unit_standards",
         "prerequisites",
         "tags",
         "story_points",
+        "available_options",
+        "needs_review"
+        # "from_repo",
     ]
 
-    for key in post.keys():
+    if str(file_path).startswith("content/projects"):
+        required.append("submission_type")
+
+    if "submission_type" in front:
+        assert (
+            front["submission_type"] in allowed_submission_types
+        ), f"{file_path} invalid submission type: {front['submission_type']}"
+        if front["submission_type"] == "continue_repo":
+            required.append("from_repo")
+
+            assert (
+                front["from_repo"] in front["prerequisites"]["hard"]
+            ), f"{file_path}: expected hard prepreq: {front['from_repo']}"
+        if front["submission_type"] != "nosubmit":
+            required.append("available_options")
+
+    for key in front.keys():
         if key not in required + allowed:
             logger.warning(f"{file_path} has unrecognized frontmatter: {key}")
             continue
+
     for key in required:
-        if key not in post.keys():
+        if key not in front.keys():
             logger.error(f"{file_path} has MISSING frontmatter: {key}")
             continue
+
+    if "available_options" in front and front.get("submission_type") != "nosubmit":
+        for option in front["available_options"]:
+            assert option in flat_options, f"{option} not in {flat_options}"
+
+    #     options = front["available_options"]
+    #     if type(options) is str:
+    #         assert (
+    #             option in available_group_options
+    #         ), f"{option} not valid. Choose one of: {available_group_options}, or a list of {available_options}"
+    #     else:
+    #         for option in options:
+    #             assert (
+    #                 option in available_options
+    #             ), f"{option} not allowed. Choose one of: {available_options}"
 
 
 def check_contentlinks_ok():
@@ -91,4 +149,6 @@ def check_contentlinks_ok():
 
 
 if __name__ == "__main__":
-    check_all_frontmatter("content")
+    check_all_frontmatter_and_directory_names("content")
+    # check_contentlinks_ok()
+

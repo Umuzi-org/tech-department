@@ -1,5 +1,7 @@
 ---
-title: "Live code: introduction to JS"
+_db_id: 46
+content_type: workshop
+title: 'Live code: introduction to JS'
 ---
 
 Demonstrate:

@@ -1,6 +1,8 @@
 ---
-title : What to Put On A CV
-ready : True
+_db_id: 40
+content_type: workshop
+ready: true
+title: What to Put On A CV
 ---
 
 This is a rundown on how to make a proper CV.

@@ -1,4 +1,6 @@
 ---
+_db_id: 78
+content_type: topic
 title: Angular material
 ---
 
