@@ -1,6 +1,8 @@
 ---
-title: Android learning materials
+_db_id: 99
+content_type: topic
 ready: true
+title: Android learning materials
 ---
 
 You are expected to spend your free time learning and practicing your Android development skills. Here are some resources for you. Different people tend to prefer different resources because they support different styles of learning.

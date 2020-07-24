@@ -1,7 +1,10 @@
 ---
-title: Introduction to gnomio
+_db_id: 361
+content_type: topic
 ready: false
-tags: ["ncit"]
+tags:
+- ncit
+title: Introduction to gnomio
 ---
 
 {{< youtube VquMuvimtU8 >}}

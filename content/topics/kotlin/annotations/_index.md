@@ -1,10 +1,14 @@
 ---
-title: Annotations
-ready: true
+_db_id: 388
+content_type: topic
 prerequisites:
-  hard: ["topics/kotlin/null-safety"]
+  hard:
+  - topics/kotlin/null-safety
   soft: []
+ready: true
+title: Annotations
 ---
+
 ### Annotation Declaration
 Annotations are means of attaching metadata to code. To declare an annotation, put the annotation modifier in front of a class:
 I

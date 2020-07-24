@@ -1,7 +1,10 @@
 ---
-title: Thinking like a machine
+_db_id: 362
+content_type: topic
+nqf: ncit
 ready: false
 tags: []
-nqf: ncit
-unit_standards: [115367]
+title: Thinking like a machine
+unit_standards:
+- 115367
 ---

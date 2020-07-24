@@ -1,10 +1,14 @@
 ---
-title: Basic Syntax & Types
-ready: true
+_db_id: 302
+content_type: topic
 prerequisites:
-  hard: ["topics/kotlin/set-up"]
+  hard:
+  - topics/kotlin/set-up
   soft: []
+ready: true
+title: Basic Syntax & Types
 ---
+
 ### [var us val:](https://www.youtube.com/watch?v=Nz-lMqxfUUs)
 
 - **val and var** both are used to declare a variable.

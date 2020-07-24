@@ -1,6 +1,8 @@
 ---
+_db_id: 133
+content_type: topic
+ready: true
 title: MongoDB and JavaScript
-ready: True
 ---
 
 - https://goalkicker.com/MongoDBBook/

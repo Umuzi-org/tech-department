@@ -1,6 +1,8 @@
 ---
-title: Working with video assets
+_db_id: 95
+content_type: topic
 ready: true
+title: Working with video assets
 ---
 
 In Android when working with videos, you can either stream from a Url or you can add a video to your

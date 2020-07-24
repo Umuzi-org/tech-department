@@ -1,7 +1,11 @@
 ---
-title: Managing the Software Development Process
-ready: false
-tags: ["agile"]
+_db_id: 374
+content_type: topic
 nqf: ncit
-unit_standards: [115392]
+ready: false
+tags:
+- agile
+title: Managing the Software Development Process
+unit_standards:
+- 115392
 ---

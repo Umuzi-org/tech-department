@@ -1,9 +1,12 @@
 ---
-title: Presenting your findings
+_db_id: 375
+content_type: topic
+nqf: ncit
 ready: false
 tags: []
-nqf: ncit
-unit_standards: [13925]
+title: Presenting your findings
+unit_standards:
+- 13925
 ---
 
 ### 1. Introduction to presentations

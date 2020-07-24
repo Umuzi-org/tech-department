@@ -1,8 +1,10 @@
 ---
+_db_id: 226
+content_type: project
+ready: true
+submission_type: nosubmit
 title: Animals
-ready: True
-noform: True
 ---
 
-- {{% contentlink "projects/oop/animals/part1" %}}
-- {{% contentlink "projects/oop/animals/part2" %}}
+- {{% contentlink path="projects/oop/animals/part1" %}}
+- {{% contentlink path="projects/oop/animals/part2" %}}

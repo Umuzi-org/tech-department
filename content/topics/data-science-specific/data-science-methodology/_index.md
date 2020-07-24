@@ -1,6 +1,8 @@
 ---
+_db_id: 149
+content_type: topic
+ready: true
 title: Data Science Methodology
-ready: True
 ---
 
 Despite the recent increase in computing power and access to data over the last couple of decades, our ability to use the data within the decision making process is either lost or not maximized at all too often. We don't have a solid understanding of the questions being asked and how to apply the data correctly to the problem at hand.

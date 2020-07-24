@@ -1,7 +1,10 @@
 ---
-title: Write a report
+_db_id: 355
+content_type: topic
+nqf: ncit
 ready: false
 tags: []
-nqf: ncit
-unit_standards: [116389]
+title: Write a report
+unit_standards:
+- 116389
 ---

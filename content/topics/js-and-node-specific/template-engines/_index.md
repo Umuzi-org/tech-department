@@ -1,6 +1,8 @@
 ---
-title: JavaScript template engines
+_db_id: 134
+content_type: topic
 ready: true
+title: JavaScript template engines
 ---
 
 - [About javascript template engines (Short explanation)](https://stackoverflow.com/questions/9547028/what-is-a-template-engine)

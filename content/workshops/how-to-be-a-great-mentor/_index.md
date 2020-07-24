@@ -1,6 +1,8 @@
 ---
+_db_id: 39
+content_type: workshop
+ready: true
 title: How To Be A Great Mentor
-ready: true 
 ---
 
 This is a run down of what it means to be a mentor and what we expect from you as a mentor.

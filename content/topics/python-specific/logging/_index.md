@@ -1,8 +1,10 @@
 ---
+_db_id: 155
+content_type: topic
 title: Logging in Python
 ---
 
-Please make sure you read and understand this before moving forward: {{% contentlink "/topics/logging" %}}
+Please make sure you read and understand this before moving forward: {{% contentlink path="/topics/logging" %}}
 
 As you have read on the previous topic, Logging is really useful. in Python we use the `logging` module for that.
 

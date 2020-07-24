@@ -1,17 +1,22 @@
 ---
-title: Cross-validation & Simple Linear Regression
-pre: "<b>MEDIUM: </b>"
-ready: true
+_db_id: 234
+available_options:
+- python
+content_type: project
+pre: '<b>MEDIUM: </b>'
 prerequisites:
   hard:
-    [
-      "projects/data-science-specific/statistical-thinking",
-      "projects/data-science-specific/data-visualisation/mobile-money-viz",
-    ]
+  - projects/data-science-specific/statistical-thinking
+  - projects/data-science-specific/data-visualisation/mobile-money-viz
   soft:
-    ["topics/python-self-learning", "topics/jupyter-notebooks-best-practices"]
-tags: ["simple-linear-regression"]
+  - topics/python-self-learning
+  - topics/jupyter-notebooks-best-practices
+ready: true
 story_points: 13
+submission_type: repo
+tags:
+- simple-linear-regression
+title: Cross-validation & Simple Linear Regression
 ---
 
 ## Key topics

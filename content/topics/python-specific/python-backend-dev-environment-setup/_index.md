@@ -1,6 +1,8 @@
 ---
-title: Python backend dev environment setup
+_db_id: 170
+content_type: topic
 ready: true
+title: Python backend dev environment setup
 ---
 
 ### What you need

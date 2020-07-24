@@ -11,17 +11,6 @@
     
     
     <item>
-      <title>C shape</title>
-      <link>/tech-department/katas/use-loops-to-print-patterns/c-shape/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tech-department/katas/use-loops-to-print-patterns/c-shape/</guid>
-      <description> C SHAPE Write a function that takes in number as argument and draws the C pattern/shape Input
-let cPattern(5) =&amp;gt; Expected output:  def cPattern(5):  Input
-***** * * * *****  </description>
-    </item>
-    
-    <item>
       <title>Ceasar cipher</title>
       <link>/tech-department/katas/ceasar-cipher/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -72,21 +61,6 @@ Expected output: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89 in this case n = 2:  </
     </item>
     
     <item>
-      <title>Squares</title>
-      <link>/tech-department/katas/use-loops-to-print-patterns/squares/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tech-department/katas/use-loops-to-print-patterns/squares/</guid>
-      <description> Print (triangles &amp;amp; squares) using loops 1. Write a function that takes in number as argument and prints a square
-Input
-let square(n) =&amp;gt;  def square(n):  Output
-expected output: remember to use &amp;quot;*&amp;quot; ##### ##### ##### ##### #####  2 Write a function that takes in number as argument and prints a hollow square in the center
-Input
-let square(n) =&amp;gt;  def square(n):  Output
-expected output: remember to use &amp;quot;*&amp;quot; ##### # # # # # # #####  </description>
-    </item>
-    
-    <item>
       <title>String reverse</title>
       <link>/tech-department/katas/string-reverse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -107,15 +81,12 @@ expected output: remember to use &amp;quot;*&amp;quot; ##### # # # # # # #####  
     </item>
     
     <item>
-      <title>Triangles</title>
-      <link>/tech-department/katas/use-loops-to-print-patterns/triangles/</link>
+      <title></title>
+      <link>/tech-department/syllabuses/web-dev-boot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tech-department/katas/use-loops-to-print-patterns/triangles/</guid>
-      <description>Print (triangles &amp;amp; squares) using loops 1. Write a function that takes in number as argument and draws a right angled triangle using the &amp;ldquo; * &amp;ldquo; characters. If the input is 4, then the output is a traingle with height 4
-Input
-let triangle(4) =&amp;gt;  def triangle(n):  Output
-expected output: RIGHT ANGLE TRIANGLE * ** *** ****  2. Write a function that takes in number as argument and draws a reflection/mirror of right angled triangle above using the &amp;ldquo; * &amp;ldquo; characters .</description>
+      <guid>/tech-department/syllabuses/web-dev-boot/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -124,7 +95,7 @@ expected output: RIGHT ANGLE TRIANGLE * ** *** ****  2. Write a function that ta
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/syllabuses/andriod-kotlin/</guid>
-      <description> Part 1  Basic Introduction and Control Flow.  TOPICS: Basic Control Flow   PROJECTS: Linear layout using the Layout Editor   Part 2  Classes and Objects  TOPICS: Sealed Classes   Part 3  Generics, nested and enum classes.  TOPICS: Enum Classes   Part 4  Delegation and delegated properties.  TOPICS: Delegated Properties   </description>
+      <description>Part 1  Basic Introduction and Control Flow.  TOPICS: Basic Control Flow   PROJECTS: Linear layout using the Layout Editor   Part 2  Layouts and Data Binding  TOPICS: Grid Layout   TOPICS: Data Binding   TOPICS: Data Classes   PROJECTS: Data Binding Basics   Part 3  Classes and Objects  TOPICS: Sealed Classes   Part 4  Generics, nested and enum classes.</description>
     </item>
     
     <item>
@@ -133,7 +104,7 @@ expected output: RIGHT ANGLE TRIANGLE * ** *** ****  2. Write a function that ta
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/syllabuses/data-eng/</guid>
-      <description>Introduction to NCIT curriculum NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile &amp;amp; Scrum   WORKSHOPS: Agile and Scrum  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   PROJECTS: [TODO] Beginner Linux challenges   TOPICS: Python self-learning   TOPICS: Clean Code for Python   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  TOPICS: Automate the boring stuff: Chapter 0 – Introduction   TOPICS: Automate the boring stuff: Chapter 1 – Python Basics   TOPICS: Automate the boring stuff: Chapter 2 – Flow Control   TOPICS: Automate the boring stuff: Chapter 3 – Functions   PROJECTS: Level 1 programming katas   PROJECTS: Build your first personal website   TOPICS: How to ask for help with your code   WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)   TOPICS: Automate the boring stuff: Chapter 4 – Lists   TOPICS: Python Lists in depth   TOPICS: Automate the boring stuff: Chapter 5 – Dictionaries and Structuring Data   TOPICS: Automate the boring stuff: Chapter 6 – Manipulating Strings   TOPICS: Automate the boring stuff: Chapter 7 – Pattern Matching with Regular Expressions   TOPICS: [TODO] Python OOP basics   TOPICS: Automated Testing in Python   TOPICS: [TODO] Virtual Environments   PROJECTS: Animals Part 2.</description>
+      <description>Introduction to NCIT curriculum NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile &amp;amp; Scrum   WORKSHOPS: Agile and Scrum  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   PROJECTS: [TODO] Beginner Linux challenges   TOPICS: Python self-learning   TOPICS: Clean Code for Python   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  TOPICS: Automate the boring stuff: Chapter 0 – Introduction   TOPICS: Automate the boring stuff: Chapter 1 – Python Basics   TOPICS: Automate the boring stuff: Chapter 2 – Flow Control   TOPICS: Automate the boring stuff: Chapter 3 – Functions   PROJECTS: Level 1 programming katas (python)   PROJECTS: Build your first personal website   TOPICS: How to ask for help with your code   WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)   TOPICS: Automate the boring stuff: Chapter 4 – Lists   TOPICS: Python Lists in depth   TOPICS: Automate the boring stuff: Chapter 5 – Dictionaries and Structuring Data   TOPICS: Automate the boring stuff: Chapter 6 – Manipulating Strings   TOPICS: Automate the boring stuff: Chapter 7 – Pattern Matching with Regular Expressions   TOPICS: [TODO] Python OOP basics   TOPICS: Automated Testing in Python   TOPICS: [TODO] Virtual Environments   PROJECTS: Animals Part 2.</description>
     </item>
     
     <item>
@@ -142,7 +113,16 @@ expected output: RIGHT ANGLE TRIANGLE * ** *** ****  2. Write a function that ta
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/syllabuses/data-sci/</guid>
-      <description> Introduction to NCIT curriculum NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile &amp;amp; Scrum   WORKSHOPS: Agile and Scrum  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   PROJECTS: [TODO] Beginner Linux challenges   TOPICS: Python self-learning   TOPICS: Clean Code for Python   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  PROJECTS: Level 1 programming katas   PROJECTS: Build your first personal website   TOPICS: How to ask for help with your code  NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)   TOPICS: [TODO] Python OOP basics   TOPICS: Automated Testing in Python   TOPICS: [TODO] Virtual Environments   WORKSHOPS: Survey design   WORKSHOPS: Google forms like a boss   PROJECTS: Assertive programming kata   PROJECTS: Data Visualisation Projects   WORKSHOPS: Data Ethics  NCIT 11: Test-driven development  PROJECTS: string-calculator   PROJECTS: Statistical Thinking   TOPICS: The Tech Landscape Terminology  NCIT 12: Business and technology  PROJECTS: Data Wrangling   PROJECTS: Cross-validation &amp;amp; Simple Linear Regression   PROJECTS: Multivariate Linear Regression  NCIT 13: Object-oriented programming  TOPICS: How the internet works   TOPICS: Data Ethics and Privacy  NCIT 05: History of the Internet NCIT 08: Pseudocode and documentation  PROJECTS: OOP for data science   PROJECTS: Plotly Dashboard Assignment  NCIT 14: Database Development  PROJECTS: SQL  NCIT 15: Analytics, Surveys, and Reports / Input &amp;amp; Output  PROJECTS: Logistic regression   WORKSHOPS: Agile and Scrum   PROJECTS: Decision Trees  NCIT 16: Thinking like a machine / Boolean algebra, logic NCIT 17: Search and sort techniques NCIT 18: Agile project management NCIT 19: Agile meetings NCIT 20: Managing the Software Development Process  TOPICS: optimizations and big-O  NCIT Summative assessment  WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap   TOPICS: Database Comparison   PROJECTS: K-Means Clustering Assignment   PROJECTS: Natural language processing   </description>
+      <description> Introduction to NCIT curriculum NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile &amp;amp; Scrum   WORKSHOPS: Agile and Scrum  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   PROJECTS: [TODO] Beginner Linux challenges   TOPICS: Python self-learning   TOPICS: Clean Code for Python   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  PROJECTS: Level 1 programming katas (python)   PROJECTS: Build your first personal website   TOPICS: How to ask for help with your code  NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)   TOPICS: [TODO] Python OOP basics   TOPICS: Automated Testing in Python   TOPICS: [TODO] Virtual Environments   WORKSHOPS: Survey design   WORKSHOPS: Google forms like a boss   PROJECTS: Assertive programming kata (python)   PROJECTS: [TODO] Data Visualisation Projects   WORKSHOPS: Data Ethics  NCIT 11: Test-driven development  PROJECTS: string-calculator (python)   PROJECTS: Statistical Thinking   TOPICS: The Tech Landscape Terminology  NCIT 12: Business and technology  PROJECTS: Data Wrangling   PROJECTS: Cross-validation &amp;amp; Simple Linear Regression   PROJECTS: Multivariate Linear Regression  NCIT 13: Object-oriented programming  TOPICS: How the internet works   TOPICS: Data Ethics and Privacy  NCIT 05: History of the Internet NCIT 08: Pseudocode and documentation  PROJECTS: OOP for data science   PROJECTS: Plotly Dashboard Assignment  NCIT 14: Database Development  PROJECTS: SQL  NCIT 15: Analytics, Surveys, and Reports / Input &amp;amp; Output  PROJECTS: Logistic regression   WORKSHOPS: Agile and Scrum   PROJECTS: Decision Trees  NCIT 16: Thinking like a machine / Boolean algebra, logic NCIT 17: Search and sort techniques NCIT 18: Agile project management NCIT 19: Agile meetings NCIT 20: Managing the Software Development Process  TOPICS: optimizations and big-O  NCIT Summative assessment  WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap   TOPICS: Database Comparison   PROJECTS: K-Means Clustering Assignment   PROJECTS: Natural language processing   </description>
+    </item>
+    
+    <item>
+      <title>Data Science boot camp pre-learning</title>
+      <link>/tech-department/syllabuses/data-sci-prebootcamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/syllabuses/data-sci-prebootcamp/</guid>
+      <description>  TOPICS: Introduction to Bootcamp Preparation phase   TOPICS: The journey of an Umuzi recruit   TOPICS: Extra bootcamp preparation instructions for data science   TOPICS: Statistics and Probability - Quantitative data analysis   TOPICS: Data Science bootcamp setup   TOPICS: Bash for bootcamp   PROJECTS: Git Basic Exercises   TOPICS: Useful Git commands   TOPICS: Scientific Computing with Python   TOPICS: Data Analysis with Python   PROJECTS: Pre bootcamp challenges   </description>
     </item>
     
     <item>
@@ -151,7 +131,7 @@ expected output: RIGHT ANGLE TRIANGLE * ** *** ****  2. Write a function that ta
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/syllabuses/hybrid-mobile-short/</guid>
-      <description>Part 1   TOPICS: Intro to hybrid mobile   TOPICS: Introduction to Typescript   TOPICS: Introduction to web design   PROJECTS: Level 1 programming katas   Part 2   TOPICS: Jasmine Unit testing   PROJECTS: Animals Part 2. Adding Tests   PROJECTS: Add logging to password checker   Part 3   TOPICS: Intro to Angular   PROJECTS: Angular Tutorial   PROJECTS: Add Redux to your semitone game   Part 4   TOPICS: Angular Elements   PROJECTS: Memory game using Angular Material   PROJECTS: [TODO] Game of life: Angular elements   TODO: Wiremock Connecting to mock services Connecting to Java backend services Unit testing.</description>
+      <description>Part 1   TOPICS: Intro to hybrid mobile   TOPICS: Introduction to Typescript   TOPICS: Introduction to web design   PROJECTS: Level 1 programming katas (typescript)   Part 2   TOPICS: Jasmine Unit testing   PROJECTS: Animals Part 2. Adding Tests (typescript)   PROJECTS: Add logging to password checker (typescript)   Part 3   TOPICS: Intro to Angular   PROJECTS: Angular Tutorial   PROJECTS: Add Redux to your semitone game (typescript,angular)   Part 4   TOPICS: Angular Elements   PROJECTS: Memory game using Angular Material   PROJECTS: [TODO] Game of life: Angular elements   TODO: Wiremock Connecting to mock services Connecting to Java backend services Unit testing.</description>
     </item>
     
     <item>
@@ -160,7 +140,7 @@ expected output: RIGHT ANGLE TRIANGLE * ** *** ****  2. Write a function that ta
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/syllabuses/java/</guid>
-      <description>Introduction to NCIT curriculum - NCIT 01: Conducting research and user interviews - NCIT 02: Reporting - NCIT 03: Research presentation - TOPICS: Agile &amp;amp; Scrum - WORKSHOPS: Agile and Scrum - NCIT 18: Agile project management - NCIT 19: Agile meetings - WORKSHOPS: How to be a professional - PROJECTS: [TODO] Beginner Linux challenges - TOPICS: Python self-learning - TOPICS: Clean Code for Python - PROJECTS: Git Basic Exercises - NCIT 04: Version control (GIT) for teamwork - PROJECTS: Level 1 programming katas - PROJECTS: Build your first personal website - TOPICS: How to ask for help with your code - WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)  OOP</description>
+      <description>NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile &amp;amp; Scrum   WORKSHOPS: Agile and Scrum  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   PROJECTS: [TODO] Beginner Linux challenges   TOPICS: Python self-learning   TOPICS: Clean Code for Python   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  PROJECTS: Level 1 programming katas (java)   PROJECTS: Build your first personal website   TOPICS: How to ask for help with your code   WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 10: Workshop: Giving and receiving constructive feedback</description>
     </item>
     
     <item>
@@ -179,21 +159,12 @@ expected output: RIGHT ANGLE TRIANGLE * ** *** ****  2. Write a function that ta
     </item>
     
     <item>
-      <title>Web development boot camp</title>
-      <link>/tech-department/syllabuses/web-dev-boot/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tech-department/syllabuses/web-dev-boot/</guid>
-      <description>  TOPICS: [TODO] Success in bootcamp   TOPICS: [TODO] Introduction to gnomio   TOPICS: [TODO] Introduction to Tilde TODO: Create Content (Multiple instruction videos)  TOPICS: [TODO] Pseudocode and documentation   PROJECTS: Level 1 programming katas   PROJECTS: Bootcamp Writing Assignment   PROJECTS: Assertive programming kata   </description>
-    </item>
-    
-    <item>
       <title>Web development boot camp pre-learning</title>
       <link>/tech-department/syllabuses/web-dev-pre-boot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/syllabuses/web-dev-pre-boot/</guid>
-      <description>  TOPICS: Introduction to Bootcamp Preparation phase   TOPICS: Extra bootcamp preparation instructions for web devs   TOPICS: Web dev bootcamp setup   TOPICS: Basic Javascript   TOPICS: Bash for bootcamp   PROJECTS: Git Basic Exercises   TOPICS: Useful Git commands   PROJECTS: Pre bootcamp challenges   </description>
+      <description>  TOPICS: The journey of an Umuzi recruit   TOPICS: Introduction to Bootcamp Preparation phase   TOPICS: Extra bootcamp preparation instructions for web devs   TOPICS: Web dev bootcamp setup   TOPICS: Basic Javascript   TOPICS: Bash for bootcamp   PROJECTS: Git Basic Exercises   TOPICS: Useful Git commands   PROJECTS: Pre bootcamp challenges   </description>
     </item>
     
     <item>
@@ -202,8 +173,12 @@ expected output: RIGHT ANGLE TRIANGLE * ** *** ****  2. Write a function that ta
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/syllabuses/ios-mobile/</guid>
-      <description> Course Content Link Stanford CS193P iOS11 Swift4
-Part 1  Topic : iOS Overview (Lecture 1) Topic : MVC (Lecture 2) Topic : Swift Development and other Tools (Lecture 3)  PROJECTS: Swift and More   Part 2 [ToDo] </description>
+      <description>Course Content Link Stanford CS193P iOS11 Swift4
+Swift and More  Topic : iOS Overview Topic : MVC Topic : Swift Development and other Tools  PROJECTS: Swift and More   More Swift and Gestures  Topic : Data Structures, Protocols, Delegation, Strings, Function Types, Closure
+ Topic : Miscellaneous, Views, Demo (enum)
+ Topic : Views continued, Gestures
+ Topic : Multiple MVCs, Timer, Animation
+ Topic : Animation</description>
     </item>
     
   </channel>

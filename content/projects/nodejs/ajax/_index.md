@@ -1,18 +1,24 @@
 ---
-title: Add a little Ajax
-ready: true
-weight: 5
-
+_db_id: 283
+available_options:
+- javascript
+content_type: project
+from_repo: projects/nodejs/file-io
 prerequisites:
   hard:
-    [
-      "topics/intro-to-ajax",
-      "projects/nodejs/express-forms",
-      "projects/nodejs/api",
-    ]
+  - topics/intro-to-ajax
+  - projects/nodejs/express-forms
+  - projects/nodejs/api
+  - projects/nodejs/file-io
   soft: []
-tags: ["node", "ajax"]
+ready: true
 story_points: 8
+submission_type: continue_repo
+tags:
+- node
+- ajax
+title: Add a little Ajax
+weight: 5
 ---
 
 There is no need to create a new git repo for this code submission. This is a continuation of your previous work.
@@ -43,4 +49,4 @@ Also make sure that if you create any new visitors then they are visible in the 
 
 ## Resources
 
-- {{% contentlink "topics/intro-to-ajax" %}}
+- {{% contentlink path="topics/intro-to-ajax" %}}

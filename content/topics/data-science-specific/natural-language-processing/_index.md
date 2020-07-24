@@ -1,6 +1,8 @@
 ---
-title: Natural Language Processing
+_db_id: 151
+content_type: topic
 ready: true
+title: Natural Language Processing
 ---
 
 Natural Language Processing, or NLP, is used to analyse, visualise, and predict natural language. That is, languages that developed naturally, such as isiZulu, English or Spanish (but not Java or C#).

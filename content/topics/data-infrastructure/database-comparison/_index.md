@@ -1,6 +1,8 @@
 ---
+_db_id: 64
+content_type: topic
+ready: true
 title: Database Comparison
-ready: True
 ---
 
 SQL is great and all, and even though a lot of people think it's a lil old-school, it's here to stay. It is a robust and mature technology, the query language it defines can be used for all sorts of big data and analytic workloads, and it's easy to reason about.

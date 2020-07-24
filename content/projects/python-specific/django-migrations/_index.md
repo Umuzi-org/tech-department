@@ -1,6 +1,11 @@
 ---
+_db_id: 257
+available_options:
+- python
+content_type: project
+ready: true
+submission_type: repo
 title: Django - exposing a REST api with a real database
-ready: True
 ---
 
 Expose a simple TODO list api using Django. Take a look at this first:

@@ -1,6 +1,8 @@
 ---
+_db_id: 164
+content_type: topic
+ready: true
 title: Automated Testing in Python
-ready: True
 ---
 
 There are a many of different test frameworks and test runners that Python allows. The main ones people tend to use are

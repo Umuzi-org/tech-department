@@ -1,18 +1,19 @@
 ---
+_db_id: 150
+content_type: topic
+ready: true
 title: Google Data Studio
-ready: True
 ---
 
 ## Introduction
 
 Dashboarding is easy with Google Data Studio. Google Data Studio helps you import, manipulate and display your data in an easy to understand way. If you know Google Data Studio, you'll also find other popular data analytics tools such as Power BI (Microsoft), Tableau and Qlikview easy to learn.
 
-The slides for the data visualisation / business intelligence workshop can be found in:  {{% contentlink "workshops/business-intelligence-tools" %}}
+The slides for the data visualisation / business intelligence workshop can be found in: {{% contentlink path="workshops/business-intelligence-tools" %}}
 
 ## What to consider when doing BI
 
 A part of data analysis that must not be taken for granted is how to convey the content correctly. This is where BI tools become extremely powerful. They focus on creating interactive dashboards to convey the data in a report-type fashion. The use of various elements helps you not just show the data but gives focus to the report and ‘tell a story’. Making it interactive allows you to generate insight and allows the audience to interrogate the data easily.
-
 
 These a few things you should consider when making a dashboard:
 
@@ -29,4 +30,5 @@ These a few things you should consider when making a dashboard:
 These are just a few considerations when building a report and this list will grow as you gain more experience.
 
 ## Google Data Studio Documentation
+
 Documentation for using Google Data Studio can be found [here](https://drive.google.com/open?id=0Bw7K3CzEHr7bVGQwOUtnRVowWFlzcDFkNUQ3Q3JKWEJDaTRR). Thank you Darshik for providing this documentation!

@@ -1,10 +1,16 @@
 ---
-title: Java data structures
-ready: true
+_db_id: 209
+available_options:
+- java
+content_type: project
 prerequisites:
-  hard: ["projects/java-specific/collections",
-         "topics/java-specific/collections-and-datastructures"]
+  hard:
+  - projects/java-specific/collections
+  - topics/java-specific/collections-and-datastructures
   soft: []
+ready: true
+submission_type: repo
+title: Java data structures
 ---
 
 **Game Time**

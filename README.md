@@ -83,7 +83,7 @@ The `ready:true` part tells hugo that this is not a draft, it is ready for human
 If you add anything inside the `content/projects` directory then it will automatically get rendered with a link to a submission form at the top of the page. If you want to suppress this behavior then use the frontmatter:
 
 ```
-noform: true
+submission_type: nosubmit
 ```
 
 Take a look at http://localhost:1313/projects/nodejs/ to see this in action

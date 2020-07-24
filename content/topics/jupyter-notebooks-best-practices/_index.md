@@ -1,6 +1,8 @@
 ---
+_db_id: 51
+content_type: topic
+ready: true
 title: Jupyter notebooks best practices
-ready: True
 ---
 
 ## Why use a notebook?

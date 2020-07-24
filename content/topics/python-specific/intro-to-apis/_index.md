@@ -1,4 +1,6 @@
 ---
+_db_id: 160
+content_type: topic
 title: Introduction to APIs
 ---
 

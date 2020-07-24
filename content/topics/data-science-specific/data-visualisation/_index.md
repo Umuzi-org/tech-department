@@ -1,6 +1,8 @@
 ---
+_db_id: 152
+content_type: topic
+ready: true
 title: Data Visualisation
-ready: True
 ---
 
 Data visualisation is a great way to quickly see what is going on in the data. There are many different ways to visualise data, but some basic principles that always apply are:

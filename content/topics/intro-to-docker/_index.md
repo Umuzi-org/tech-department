@@ -1,10 +1,15 @@
 ---
-title: Intro to Docker and Docker-compose
-ready: True
+_db_id: 67
+content_type: topic
 prerequisites:
-  hard: ["topics/linux/os-environmental-variables"]
+  hard:
+  - topics/linux/os-environmental-variables
   soft: []
-tags: ["docker-compose", "postgres"]
+ready: true
+tags:
+- docker-compose
+- postgres
+title: Intro to Docker and Docker-compose
 ---
 
 [What is Docker](https://opensource.com/resources/what-docker)

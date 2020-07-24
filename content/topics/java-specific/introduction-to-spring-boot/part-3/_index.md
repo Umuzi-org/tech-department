@@ -1,6 +1,8 @@
 ---
-title: Introduction to Spring Boot - part 3
+_db_id: 118
+content_type: topic
 ready: true
+title: Introduction to Spring Boot - part 3
 ---
 
 Two of the most commonly used Api architectures currently in use are REST and SOAP.
@@ -137,4 +139,3 @@ https://www.javaguides.net/2018/09/spring-boot-2-hibernate-5-mysql-crud-rest-api
 http://zetcode.com/spring/deletemapping/
 https://www.concretepage.com/spring-boot/spring-boot-rest-example
 https://www.postman.com/
-

@@ -1,8 +1,13 @@
 ---
+_db_id: 379
+content_type: project
+ready: true
+submission_type: nosubmit
 title: Android with Kotlin Projects
-ready: True
 ---
+
 ### What you should already know
+
 #### You should be familiar with:
 
 - The basics of a modern, object-oriented, statically typed programming language such as Java or C#

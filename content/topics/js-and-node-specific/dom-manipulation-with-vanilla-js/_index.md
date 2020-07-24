@@ -1,6 +1,8 @@
 ---
-title: DOM manipulation with vanilla JavaScript
+_db_id: 132
+content_type: topic
 ready: true
+title: DOM manipulation with vanilla JavaScript
 ---
 
 Here are a few (maybe too many) good resources o DOM manipulation in vanilla JS. Learn enough to complete your excercises and please give us feedback (or pull requests) on this page if you think any improvements can be made.

@@ -1,14 +1,25 @@
 ---
-title: Expose a JSON API
-ready: true
-weight: 4
-pre: "<b>4: </b>"
-
+_db_id: 278
+available_options:
+- javascript
+content_type: project
+from_repo: projects/nodejs/file-io
+pre: '<b>4: </b>'
 prerequisites:
-  hard: ["projects/nodejs/sql", topics/js-and-node-specific/apis-with-node]
+  hard:
+  - projects/nodejs/sql
+  - topics/js-and-node-specific/apis-with-node
+  - projects/nodejs/file-io
   soft: []
-tags: ["node", "api", "express"]
+ready: true
 story_points: 5
+submission_type: continue_repo
+tags:
+- node
+- api
+- express
+title: Expose a JSON API
+weight: 4
 ---
 
 There is no need to create a new git repo for this code submission. This is a continuation of your previous work.
@@ -26,5 +37,5 @@ Use Express to expose the following JSON endpoints.
 
 ### Resources
 
-- {{% contentlink "topics/apis/basics" %}}
-- {{% contentlink "topics/js-and-node-specific/apis-with-node" %}}
+- {{% contentlink path="topics/apis/basics" %}}
+- {{% contentlink path="topics/js-and-node-specific/apis-with-node" %}}

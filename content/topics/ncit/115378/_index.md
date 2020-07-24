@@ -1,7 +1,11 @@
 ---
-title: Object-Oriented Programming
-ready: false
-tags: ["oop"]
+_db_id: 358
+content_type: topic
 nqf: ncit
-unit_standards: [115378]
+ready: false
+tags:
+- oop
+title: Object-Oriented Programming
+unit_standards:
+- 115378
 ---

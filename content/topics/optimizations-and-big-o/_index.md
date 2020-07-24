@@ -1,8 +1,11 @@
 ---
-title: optimizations and big-O
+_db_id: 100
+content_type: topic
 ready: true
+title: optimizations and big-O
 ---
- Here are a few good resources on Big O and optimization. Learn enough to understand what Big O is, when and why do we implement it and please give us feedback (or pull requests) on this page if you think any improvements can be made.
+
+Here are a few good resources on Big O and optimization. Learn enough to understand what Big O is, when and why do we implement it and please give us feedback (or pull requests) on this page if you think any improvements can be made.
 
 ### Readings
   - [Big O Notation](https://guide.freecodecamp.org/computer-science/notation/big-o-notation)
