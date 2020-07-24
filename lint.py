@@ -113,6 +113,8 @@ def check_one_file_frontmatter(file_path):
             ), f"{file_path}: expected hard prepreq: {front['from_repo']}"
         if front["submission_type"] != "nosubmit":
             required.append("available_options")
+        if front["submission_type"] == "repo":
+            allowed.append("template_repo")
 
     for key in front.keys():
         if key not in required + allowed:
