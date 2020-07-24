@@ -1,5 +1,5 @@
 ---
-title: Android Trivia Started Readme
+title: Android Trivia Starter Readme
 submission_type: nosubmit
 ---
 
