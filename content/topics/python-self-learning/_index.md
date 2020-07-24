@@ -1,6 +1,8 @@
 ---
+_db_id: 52
+content_type: topic
+ready: true
 title: Python self-learning
-ready: True
 ---
 
 You are expected to spend your free time upgrading your Python skills. Here are some resources for you:

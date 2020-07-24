@@ -1,6 +1,8 @@
 ---
+_db_id: 86
+content_type: topic
+ready: true
 title: Clean Code for Data Science
-ready: True
 ---
 
 Code is read more often than it is written. Notebooks, especially, are made to be looked at. Assist yourself and others by keeping your code and notebooks neat!
@@ -15,9 +17,3 @@ Also see these [code quality best practices](https://github.com/Umuzi-org/code-q
 
 For Data Science workflow best practices, please familiarise yourself with the [cookiecutter data science project](https://drivendata.github.io/cookiecutter-data-science/#why-use-this-project-structure)
 and read this description of how to organise your projects using atom and Jupyter on [Medium](https://medium.com/@rrfd/cookiecutter-data-science-organize-your-projects-atom-and-jupyter-2be7862f487e)
-
-## Advanced git for teams
-
-Here's a good conceptualisation of how git works in a development team. There are different ways for team to work, but this {{% contentlink "topics/git/git-basics" %}} gives you a great introduction.
-
-You can thank me later ;)

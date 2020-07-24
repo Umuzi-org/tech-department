@@ -1,7 +1,10 @@
 ---
-title: Building an online business
+_db_id: 360
+content_type: topic
+nqf: ncit
 ready: false
 tags: []
-nqf: ncit
-unit_standards: [115385]
+title: Building an online business
+unit_standards:
+- 115385
 ---

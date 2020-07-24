@@ -1,9 +1,12 @@
 ---
-title: Data Binding
-ready: true
+_db_id: 390
+content_type: topic
 prerequisites:
-  hard: ["topics/kotlin/in-line-functions"]
+  hard:
+  - topics/kotlin/in-line-functions
   soft: []
+ready: true
+title: Data Binding
 ---
 
 First of all, after having a created Android project in Android Studio, we need to add the Data Binding dependency and the ones of Kotlin to the build.gradle file of our app.

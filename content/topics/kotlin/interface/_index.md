@@ -1,11 +1,14 @@
 ---
-title: Interface 
-ready: true
+_db_id: 301
+content_type: topic
 prerequisites:
-  hard: ["topics/kotlin/properties-and-fields"]
+  hard:
+  - topics/kotlin/properties-and-fields
   soft: []
-
+ready: true
+title: Interface
 ---
+
 ### Interfaces in Kotlin are very similar to Java 8.
 
 An interface is defined using the keyword interface

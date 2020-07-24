@@ -1,6 +1,8 @@
 ---
-title: MongoDB and Python
+_db_id: 163
+content_type: topic
 ready: true
+title: MongoDB and Python
 ---
 
 - https://www.mongodb.com/blog/post/getting-started-with-python-and-mongodb: The official "getting started" guide

@@ -1,24 +1,26 @@
 ---
-title: Predict breast cancer
-pre: "<b>MEDIUM: </b>"
-ready: True
+_db_id: 253
+available_options:
+- python
+content_type: project
+pre: '<b>MEDIUM: </b>'
 prerequisites:
   hard:
-    [
-      "projects/data-science-specific/statistical-thinking",
-      "projects/data-science-specific/data-visualisation",
-      "projects/data-science-specific/cross-validation-and-simple-linear-regression",
-      "projects/data-science-specific/multivariate-linear-regression",
-      "projects/data-science-specific/logistic-regression/credit-card-approvals",
-    ]
+  - projects/data-science-specific/statistical-thinking
+  - projects/data-science-specific/data-visualisation
+  - projects/data-science-specific/cross-validation-and-simple-linear-regression
+  - projects/data-science-specific/multivariate-linear-regression
+  - projects/data-science-specific/logistic-regression/credit-card-approvals
   soft:
-    [
-      "topics/python-self-learning",
-      "topics/jupyter-notebooks-best-practices",
-      "topics/data-science-specific/data-science-methodology",
-    ]
-tags: ["logistic-regression"]
+  - topics/python-self-learning
+  - topics/jupyter-notebooks-best-practices
+  - topics/data-science-specific/data-science-methodology
+ready: true
 story_points: 8
+submission_type: repo
+tags:
+- logistic-regression
+title: Predict breast cancer
 ---
 
 ## Assignment

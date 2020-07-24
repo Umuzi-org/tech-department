@@ -1,6 +1,8 @@
 ---
+_db_id: 79
+content_type: topic
+ready: true
 title: Intro to hybrid mobile
-ready: True
 ---
 
 You've been coding for some time already so I'm just going to jump stright in.

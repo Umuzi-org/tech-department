@@ -1,13 +1,25 @@
 ---
+_db_id: 196
+available_options:
+- javascript
+- any_frontend_framework
+content_type: project
+from_repo: projects/semitone-challenge/basic-algorithm
+pre: <b>1. </b>
+prerequisites:
+  hard:
+  - projects/semitone-challenge/basic-algorithm
+  soft: []
+ready: true
+submission_type: continue_repo
 title: Make a simple GUI
-pre: "<b>1. </b>"
 weight: 2
-ready: True
 ---
 
 Create a basic web site that a user can use to interact with the JamBuddy class.
 
-- Make a page named index.html. To run the application the user will just need to open that page in their browser
+If you are required to do this ni a web framework then do so, otherwise create a simple `index.html` page that a user can just open in their browser.
+
 - Make a button with the text "Get random notes". If the user clicks on this button then the selectNotes function should be called and the notes should be displayed on the screen.
 - make an input box where the user can enter their answer.
 - create a button with the text "Submit answer". If the user clicks this button then the checkAnswer function should be called.

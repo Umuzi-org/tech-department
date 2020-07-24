@@ -1,6 +1,8 @@
 ---
+_db_id: 74
+content_type: topic
+ready: true
 title: Intro to Vue
-ready: True
 ---
 
 #### What is? ####

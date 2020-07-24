@@ -1,6 +1,8 @@
 ---
+_db_id: 115
+content_type: topic
+ready: true
 title: Gradle and IntelliJ project submission structure
-ready: True
 ---
 
 When pushing your work to git it's important to be intentional about what you are pushing. When you build your java project and/or run your tests then certain files get created automatically. We don't want those files. We should be able to generate them ourselves whenever we want to.

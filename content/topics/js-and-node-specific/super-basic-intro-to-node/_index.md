@@ -1,13 +1,14 @@
 ---
+_db_id: 141
+content_type: topic
 title: Super basic intro to Node
-
 todo:
-    - node is js on the backend
-    - npm init
-    - npm for installing packages
-    - .gitignore node_modules/
-    - running js from the command line
-    - debugging js from vscode
+- node is js on the backend
+- npm init
+- npm for installing packages
+- .gitignore node_modules/
+- running js from the command line
+- debugging js from vscode
 ---
 
 Most people are introduced to JavaScript in the context of a web browser. JS adds smarts to HTML and CSS.

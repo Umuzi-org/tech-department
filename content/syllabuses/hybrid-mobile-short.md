@@ -1,27 +1,31 @@
 ---
 title: Hybrid mobile dev short course
 ---
+
 ## Part 1
-- {{% contentlink "topics/intro-to-hybrid-mobile/" %}}
-- {{% contentlink "topics/intro-to-typescript/" %}}
-- {{% contentlink "topics/web-frontend/intro-to-web-design/" %}}
-- {{% contentlink "projects/basic-flow-control-katas" %}}
+
+- {{% contentlink path="topics/intro-to-hybrid-mobile/" %}}
+- {{% contentlink path="topics/intro-to-typescript/" %}}
+- {{% contentlink path="topics/web-frontend/intro-to-web-design/" %}}
+- {{% contentlink path="projects/basic-flow-control-katas" option="typescript" %}}
 
 ## Part 2
-- {{% contentlink "topics/jasmine-unit-tests" %}}
-- {{% contentlink "projects/oop/animals/part2" %}}
-- {{% contentlink "projects/tdd/password-checker/part2" %}}
+
+- {{% contentlink path="topics/jasmine-unit-tests" %}}
+- {{% contentlink path="projects/oop/animals/part2" option="typescript" %}}
+- {{% contentlink path="projects/tdd/password-checker/part2" option="typescript" %}}
 
 ## Part 3
 
-- {{% contentlink "topics/web-frontend/intro-to-angular" %}}
-- {{% contentlink "projects/angular-tutorial" %}}
-- {{% contentlink "projects/semitone-challenge/add-redux" %}}
+- {{% contentlink path="topics/web-frontend/intro-to-angular" %}}
+- {{% contentlink path="projects/angular-tutorial" %}}
+- {{% contentlink path="projects/semitone-challenge/add-redux" option="typescript,angular"%}}
 
 ## Part 4
-- {{% contentlink "topics/angular-elements" %}}
-- {{% contentlink "projects/memory-game-angular-material" %}}
-- {{% contentlink "projects/game-of-life-angular-elements" %}}
+
+- {{% contentlink path="topics/angular-elements" %}}
+- {{% contentlink path="projects/memory-game-angular-material" %}}
+- {{% contentlink path="projects/game-of-life-angular-elements" %}}
 
 TODO:
 Wiremock

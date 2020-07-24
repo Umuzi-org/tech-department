@@ -1,9 +1,12 @@
 ---
-title: Python and Kafka
+_db_id: 166
+content_type: topic
 prerequisites:
-  hard: ["projects/rabbitmq"]
+  hard:
+  - projects/rabbitmq
   soft: []
-ready: True
+ready: true
+title: Python and Kafka
 ---
 
 Read the offial introduction here: https://kafka.apache.org/intro

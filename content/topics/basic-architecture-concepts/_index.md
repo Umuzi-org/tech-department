@@ -1,6 +1,8 @@
 ---
-title: Intro to software architecture
+_db_id: 182
+content_type: topic
 ready: true
+title: Intro to software architecture
 ---
 
 Software architecture is a pretty vast topic. This here is just scratching the surface.

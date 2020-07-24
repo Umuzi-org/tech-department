@@ -1,6 +1,11 @@
 ---
+_db_id: 274
+available_options:
+- any_language
+content_type: project
+pre: '<b>MEDIUM: </b>'
+submission_type: nosubmit
 title: lots and lots of tdd katas
-pre: "<b>MEDIUM: </b>"
 ---
 
 http://codingdojo.org/kata/

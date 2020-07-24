@@ -1,10 +1,18 @@
 ---
-title: Introduction to Spring Boot - part 4
-ready: true
+_db_id: 215
+available_options:
+- java
+content_type: project
+from_repo: projects/java-specific/introduction-to-spring-boot/part-1
 prerequisites:
-  hard: ["projects/java-specific/introduction-to-spring-boot/part-3",
-         "topics/java-specific/introduction-to-spring-boot/part-4"]
+  hard:
+  - projects/java-specific/introduction-to-spring-boot/part-1
+  - projects/java-specific/introduction-to-spring-boot/part-3
+  - topics/java-specific/introduction-to-spring-boot/part-4
   soft: []
+ready: true
+submission_type: continue_repo
+title: Introduction to Spring Boot - part 4
 ---
 
 In this project we will consume a REST API and a SOAP web service in our User service repository.

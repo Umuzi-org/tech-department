@@ -1,6 +1,8 @@
 ---
+_db_id: 407
+content_type: topic
+ready: true
 title: Extra bootcamp preparation instructions for web devs
-ready: True
 ---
 
 Web technologies are increadibly powerful and we want to plug you into the best parts of it.

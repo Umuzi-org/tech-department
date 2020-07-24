@@ -1,6 +1,8 @@
 ---
-title: Regular Expression Resources
+_db_id: 177
+content_type: topic
 ready: true
+title: Regular Expression Resources
 ---
 
 A regular expression, regex or regexp (sometimes called a rational expression) is a sequence of characters that define a search pattern. Usually such patterns are used by string searching algorithms for "find" or "find and replace" operations on strings, or for input validation.

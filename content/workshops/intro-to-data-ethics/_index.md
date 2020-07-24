@@ -1,12 +1,15 @@
 ---
-title : Data Ethics
-pre: "<b>MEDIUM: </b>"
-ready: true
+_db_id: 43
+content_type: workshop
+pre: '<b>MEDIUM: </b>'
 prerequisites:
-  hard: ["topics/data-ethics-and-privacy"]
+  hard:
+  - topics/data-ethics-and-privacy
   soft: []
-tags: ["data-ethics"]
-ready : True
+ready: true
+tags:
+- data-ethics
+title: Data Ethics
 ---
 
 ### The slides to the workshop on Data Ethics

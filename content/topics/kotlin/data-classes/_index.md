@@ -1,11 +1,14 @@
 ---
-title: Data Classes 
-ready: true
+_db_id: 294
+content_type: topic
 prerequisites:
-  hard: ["topics/kotlin/interface"]
+  hard:
+  - topics/kotlin/interface
   soft: []
-
+ready: true
+title: Data Classes
 ---
+
 ## Data Classes
 We frequently create a class to do nothing but hold data. In such a class some standard functionality is often mechanically derivable from the data. In Kotlin, this is called a data class and is marked as data:
 ````

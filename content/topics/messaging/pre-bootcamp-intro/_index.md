@@ -1,6 +1,8 @@
 ---
+_db_id: 409
+content_type: topic
+ready: true
 title: Introduction to Bootcamp Preparation phase
-ready: True
 ---
 
 Hello and welcome to the next phase of your Umuzi journey :) You are reading this because we believe that you have the potential to have a high value career in tech, and we want to help you get there. Congrats for making it this far!
@@ -78,10 +80,6 @@ Again I'll say, please **focus on understanding!** Copy-pasting code you find on
 
 Once you have attempted to solve your own problems feel free to reach out. You will be connected with some staff members who will be able to support you.
 
-## Pay it forward
-
-TODO!!!!!!!!!!!!!!!!!!!!!
-
 ## What's next?
 
 Watch your inbox. You'll get a few invites.
@@ -102,3 +100,9 @@ It would be good for you to look at this content ahead of time so you can ask go
 ### Bootcamp
 
 The bootcamp will be a 2 week process. We'll introduce that to you seperately. Try to free up your time so that you can focus 100%. If you have a job, take some leave. During bootcamp we expect you to behave like this is your full-time gig.
+
+### What happens after bootcamp?
+
+Take a look at the following link. It'll tell you a bit more about what you are signing up for :)
+
+{{% contentlink path="topics/messaging/umuzi-recruit-user-journey" %}}

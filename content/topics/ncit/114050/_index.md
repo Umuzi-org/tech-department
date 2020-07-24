@@ -1,9 +1,12 @@
 ---
-title: Business and Technology
+_db_id: 364
+content_type: topic
+nqf: ncit
 ready: false
 tags: []
-nqf: ncit
-unit_standards: [114050]
+title: Business and Technology
+unit_standards:
+- 114050
 ---
 
 ## 1. Fundamental business concepts

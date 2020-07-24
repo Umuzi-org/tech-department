@@ -1,6 +1,8 @@
 ---
-title: Android user interface resources
+_db_id: 97
+content_type: topic
 ready: true
+title: Android user interface resources
 ---
 
 When creating an Android application, the user experience plays a big role in the way a user experiences the app. These resources are to describe the various

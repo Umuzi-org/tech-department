@@ -1,6 +1,8 @@
 ---
-title: Intro to Angular
+_db_id: 77
+content_type: topic
 ready: true
+title: Intro to Angular
 ---
 
 [Angular](https://angular.io/) is an opensource [Javascript Framework](https://en.wikipedia.org/wiki/JavaScript_framework) used to build [dynamic mobile and desktop web applications](https://en.wikipedia.org/wiki/Dynamic_web_page) using [TypeScript](https://en.wikipedia.org/wiki/TypeScript)/JavaScript and other languages.
