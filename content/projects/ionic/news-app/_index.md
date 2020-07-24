@@ -4,7 +4,11 @@ ready: True
 prerequisites:
   hard: ["topics/ionic/ionic-tools-and-patterns",
          "topics/ionic/progressive-web-apps"]
-  soft: []   
+  soft: []
+  available_options: 
+   - typescript
+   - ionic
+   submission_type: repo   
 ---
 
 - Although you are following the tutorial to build your app, please make sure you understand each and every line of code you write.
