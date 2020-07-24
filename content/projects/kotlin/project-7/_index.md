@@ -1,6 +1,6 @@
 ---
 submission_type: nosubmit
-title: Project 6
+title: Project 7
 ready: True
 ---
 
