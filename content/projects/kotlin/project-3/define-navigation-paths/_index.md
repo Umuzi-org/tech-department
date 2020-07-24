@@ -1,6 +1,10 @@
 ---
 title: Define navigation paths.
 ready: True
+available_options:
+- kotlin
+content_type: project
+submission_type: repo
 prerequisites:
   hard:
     [

@@ -1,4 +1,5 @@
 ---
+submission_type: nosubmit
 title: Project 1
 ready: True
 ---
