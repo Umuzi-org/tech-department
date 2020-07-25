@@ -7,12 +7,10 @@ content_type: project
 submission_type: repo
 prerequisites:
   hard:
-    [
-      "topics/kotlin/null-safety",
-      "topics/kotlin/annotations",
-      "topics/kotlin/constructor-default-values",
-      "topics/kotlin/returns-and-jumps"
-    ]
+    - topics/kotlin/null-safety
+    - topics/kotlin/annotations
+    - topics/kotlin/constructor-default-values
+    - topics/kotlin/returns-and-jumps
   soft:
     []
 ---

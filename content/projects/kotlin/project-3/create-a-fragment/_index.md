@@ -7,12 +7,10 @@ content_type: project
 submission_type: repo
 prerequisites:
   hard:
-    [
-      "topics/kotlin/delegation",
-      "topics/kotlin/delegated-properties",
-      "topics/kotlin/generics",
-      "topics/kotlin/nested-classes"
-    ]
+    - topics/kotlin/delegation
+    - topics/kotlin/delegated-properties
+    - topics/kotlin/generics
+    - topics/kotlin/nested-classes
   soft:
     []
 ---
