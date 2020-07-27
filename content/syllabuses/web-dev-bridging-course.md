@@ -1,26 +1,23 @@
 ---
-title: Java Bridging Course
+title: Web development Bridging Course
 ready: True
 ---
 
-You’ll notice that the content below is divided up into 2 major sections. Soft skills and Hard skills.
+In the Web development Bridging Course you will be mixing both soft skills and hard skills on a weekly basis. Try consume one soft skills item for every 2 modules of solo learn.
 
-## Soft Skills
-
-- {{% contentlink "topics/bridging-course-soft-skills/learning-how-to-learn" %}}
+- {{% contentlink path="topics/bridging-course-soft-skills/learning-how-to-learn" %}}
+- {{% contentlink path="topics/bridging-course-soft-skills/learning-how-to-learn" %}} - change to effective communication workshop
+- {{% contentlink path="topics/bridging-course-soft-skills/learning-how-to-learn" %}} - change to reasearch topic
 - {{% contentlink "topics/bridging-course-soft-skills/communication" %}}
-- {{% contentlink "topics/bridging-course-soft-skills/emotional-intelligence" %}}
-- {{% contentlink "topics/bridging-course-soft-skills/cognitive-biases" %}}
 - {{% contentlink "topics/bridging-course-soft-skills/developer-habits" %}}
-
-## Maths
-
-- {{% contentlink "topics/khan-academy/pre-algebra" %}}
-- {{% contentlink "topics/free-code-camp/maths-for-programmers" %}}
 
 ## Bring on the Java
 
-- {{% contentlink "topics/solo-learn/java/exceptions-lists-threads-files" %}}
-- {{% contentlink "topics/java-specific/oop-basics" %}}
-- {{% contentlink "topics/code-wars/java/java-training" %}}
-- {{% contentlink "topics/bridging-course-hard-skills/advanced-oop-design-patterns" %}}
+- {{% contentlink "topics/solo-learn/java/exceptions-lists-threads-files" %}} change to js
+- {{% contentlink "topics/java-specific/oop-basics" %}} change to js
+- {{% contentlink path="topics/bridging-course-hard-skills/advanced-oop-design-patterns" %}}
+
+### Extra Soft Skills
+
+- {{% contentlink "topics/bridging-course-soft-skills/emotional-intelligence" %}}
+- {{% contentlink "topics/bridging-course-soft-skills/cognitive-biases" %}}
