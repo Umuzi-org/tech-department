@@ -2,6 +2,7 @@
 _db_id: 221
 available_options:
 - angular
+- typescript
 content_type: project
 ready: true
 submission_type: repo

@@ -94,7 +94,7 @@ def check_one_file_frontmatter(file_path):
         "tags",
         "story_points",
         "available_options",
-        "needs_review"
+        "topic_needs_review"
         # "from_repo",
     ]
 

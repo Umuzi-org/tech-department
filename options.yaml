@@ -9,6 +9,7 @@ any_language:
 any_frontend_framework:
   - react
   - angular
+  - noframework
 
 none:
   - none

@@ -6,7 +6,7 @@ title: Android Development With Kotlin
 
 - Basic Introduction and Control Flow.
 - {{% contentlink path="topics/kotlin/basic-control-flow" %}}
-- {{% contentlink path="projects/kotlin/liner-layout-using-the-layout-editor" %}}
+- {{% contentlink path="projects/kotlin/liner-layout-using-the-layout-editor" option="kotlin" %}}
 
 ## Part 2
 
@@ -14,7 +14,7 @@ title: Android Development With Kotlin
 - {{% contentlink path="topics/kotlin/grid-layout" %}}
 - {{% contentlink path="topics/kotlin/data-binding" %}}
 - {{% contentlink path="topics/kotlin/data-classes" %}}
-- {{% contentlink path="projects/kotlin/data-binding-basics" %}}
+- {{% contentlink path="projects/kotlin/data-binding-basics" option="kotlin" %}}
 
 ## Part 3
 

@@ -18,14 +18,14 @@ title: Hybrid mobile dev short course
 ## Part 3
 
 - {{% contentlink path="topics/web-frontend/intro-to-angular" %}}
-- {{% contentlink path="projects/angular-tutorial" %}}
-- {{% contentlink path="projects/semitone-challenge/add-redux" option="typescript,angular"%}}
+- {{% contentlink path="projects/angular-tutorial" option="typescript,angular" %}}
+- {{% contentlink path="projects/semitone-challenge/add-redux" option="typescript,angular" %}}
 
 ## Part 4
 
 - {{% contentlink path="topics/angular-elements" %}}
-- {{% contentlink path="projects/memory-game-angular-material" %}}
-- {{% contentlink path="projects/game-of-life-angular-elements" %}}
+- {{% contentlink path="projects/memory-game-angular-material" option="typescript,angular" %}}
+- {{% contentlink path="projects/game-of-life-angular-elements" option="typescript,angular" %}}
 
 TODO:
 Wiremock

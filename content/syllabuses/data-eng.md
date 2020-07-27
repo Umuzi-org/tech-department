@@ -73,17 +73,17 @@ title: Data Engineering
 - NCIT 14: Database Development
 - {{% contentlink path="topics/tech-terminology" %}}
 - {{% contentlink path="topics/data-infrastructure/database-comparison/" %}}
-- {{% contentlink path="projects/python-specific/sqlalchemy-migrations" %}}
-- {{% contentlink path="projects/python-specific/build-rest-api-with-db" %}}
-- {{% contentlink path="projects/python-specific/mongo" %}}
-- {{% contentlink path="projects/rabbitmq" %}}
-- {{% contentlink path="projects/dags-with-airflow" %}}
-- {{% contentlink path="projects/python-specific/kafka" %}}
+- {{% contentlink path="projects/python-specific/sqlalchemy-migrations" option="python" %}}
+- {{% contentlink path="projects/python-specific/build-rest-api-with-db" option="python" %}}
+- {{% contentlink path="projects/python-specific/mongo" option="python" %}}
+- {{% contentlink path="projects/rabbitmq" option="python" %}}
+- {{% contentlink path="projects/dags-with-airflow" option="python" %}}
+- {{% contentlink path="projects/python-specific/kafka" option="python" %}}
 - NCIT 15: Analytics, Surveys, and Reports / Input & Output
-- {{% contentlink path="projects/python-specific/spark" %}}
+- {{% contentlink path="projects/python-specific/spark" option="python" %}}
 - {{% contentlink path="topics/data-infrastructure/choosing-a-task-queue" %}}
 - {{% contentlink path="topics/optimizations-and-big-o/" %}}
-- {{% contentlink path="projects/data-science-specific/data-wrangling" %}}
+- {{% contentlink path="projects/data-science-specific/data-wrangling" option="python" %}}
 - NCIT 16: Thinking like a machine / Boolean algebra, logic
 - NCIT 17: Search and sort techniques
 - {{% contentlink path="workshops/git-for-teamwork/" %}}

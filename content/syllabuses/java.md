@@ -43,15 +43,15 @@ title: Java Basics
 - {{% contentlink path="projects/sql" %}}
 
 * Java Collections
-* {{% contentlink path="projects/java-specific/collections" %}}
+* {{% contentlink path="projects/java-specific/collections" option="java" %}}
 * Java Data Structures
-* {{% contentlink path="projects/java-specific/data-structures" %}}
+* {{% contentlink path="projects/java-specific/data-structures" option="java" %}}
 * Java Generics
-* {{% contentlink path="projects/java-specific/generics" %}}
+* {{% contentlink path="projects/java-specific/generics" option="java" %}}
 
 * Spring Boot Introduction
-* {{% contentlink path="projects/java-specific/introduction-to-spring-boot/part-4" %}}
+* {{% contentlink path="projects/java-specific/introduction-to-spring-boot/part-4" option="java" %}}
 * SQL and Java
-* {{% contentlink path="projects/java-specific/hello-sql-and-java" %}}
+* {{% contentlink path="projects/java-specific/hello-sql-and-java" option="java" %}}
 * File - Input Output, Logging Errors.
-* {{% contentlink path="projects/java-specific/java-fileio-logging-errors" %}}
+* {{% contentlink path="projects/java-specific/java-fileio-logging-errors" option="java" %}}

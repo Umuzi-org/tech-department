@@ -52,7 +52,7 @@ title: Web Development
 * {{% contentlink path="topics/free-code-camp/responsive-web-design/responsive-web-design-principles" %}}
 * {{% contentlink path="topics/free-code-camp/responsive-web-design/css-flexbox" optional="1" %}}
 
-- {{% contentlink path="projects/semitone-challenge"  option="javascript" %}}
+- {{% contentlink path="projects/semitone-challenge/gui-part-2"  option="javascript,noframework" %}}
 - {{% contentlink path="topics/js-and-node-specific/logging" %}}
 - NCIT 11: Test-driven development
 - {{% contentlink path="topics/free-code-camp/javascript-data-structures-and-algorithms/regular-expressions" %}}
@@ -70,10 +70,10 @@ title: Web Development
 
 * {{% contentlink path="topics/free-code-camp/responsive-web-design/css-grid" %}}
 
-- {{% contentlink path="projects/memory-game-vanilla" %}}
+- {{% contentlink path="projects/memory-game-vanilla" option="javascript" %}}
 - {{% contentlink path="topics/js-and-node-specific/node" %}}
-- {{% contentlink path="projects/nodejs/file-io" %}}
-- {{% contentlink path="projects/nodejs/sql" %}}
+- {{% contentlink path="projects/nodejs/file-io" option="javascript" %}}
+- {{% contentlink path="projects/nodejs/sql" option="javascript" %}}
 
 - NCIT 14: Database Development
 - NCIT 15: Analytics, Surveys, and Reports / Input & Output
@@ -82,7 +82,7 @@ title: Web Development
 
 * {{% contentlink path="topics/data-infrastructure/database-comparison/" %}}
 
-- {{% contentlink path="projects/nodejs/ajax" %}}
+- {{% contentlink path="projects/nodejs/ajax" option="javascript" %}}
 
 - {{% contentlink path="workshops/git-for-teamwork/" %}}
 - {{% contentlink path="workshops/agile-recap/" %}}
@@ -94,7 +94,7 @@ title: Web Development
 * {{% contentlink path="topics/web-frontend/intro-to-react/" optional="1" %}}
 * {{% contentlink path="topics/web-frontend/intro-to-vue/" optional="1" %}}
 * {{% contentlink path="workshops/nodejs-intro-to-socketio/" optional="1" %}}
-* {{% contentlink path="workshops/redux-intro/" optional="1" %}}
+* {{% contentlink path="workshops/redux-intro/" optional="1" option="javascript" %}}
 * {{% contentlink path="workshops/nodejs-async-vs-sync" optional="1" %}}
-* {{% contentlink path="topics/js-and-node-specific/mongodb/" optional="1" %}}
-* {{% contentlink path="topics/js-and-node-specific/dotenv/" optional="1" %}}
+* {{% contentlink path="topics/js-and-node-specific/mongodb/" optional="1"  %}}
+* {{% contentlink path="topics/js-and-node-specific/dotenv/" optional="1"  %}}
