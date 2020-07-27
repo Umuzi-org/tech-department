@@ -13,16 +13,14 @@ You should be completeing one Sololearn Goal each week along with the soft skill
 - {{% contentlink path="workshops/effective-communication" %}} - create file
 - {{% contentlink path="topics/solo-learn/javascript/conditionals-and-loops" %}}
 - {{% contentlink path="topics/curious-learning-and-research" %}}
-- {{% contentlink "topics/bridging-course-soft-skills/developer-habits" %}}
-- {{% contentlink path="" %}} - module 5
-- {{% contentlink "topics/java-specific/oop-basics" %}} change to js
-edabit challenges x2
-- {{% contentlink path="" %}} - module 7
+- {{% contentlink path="topics/bridging-course-soft-skills/developer-habits" %}}
+- {{% contentlink path="topics/solo-learn/javascript/objects" %}}
+- {{% contentlink path="topics/javascript-specific/oop-basics" %}}
+- {{% contentlink path="topics/solo-learn/javascript/dom-and-events" %}}
 - {{% contentlink path="topics/bridging-course-hard-skills/advanced-oop-design-patterns" %}}
-https://scotch.io/bar-talk/4-javascript-design-patterns-you-should-know
-edabit challenges x2
+- {{% contentlink path="topics/javascript-specific/oop-design-patterns" %}}
 - {{% contentlink "topics/bridging-course-soft-skills/communication" %}}
-- {{% contentlink path="" %}} - module 8
+- {{% contentlink path="topics/solo-learn/javascript/emcascript-6" %}}
 
 ## Bring on the Java
 
