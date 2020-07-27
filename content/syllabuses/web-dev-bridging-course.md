@@ -8,9 +8,8 @@ In the Web development Bridging Course you will be mixing both soft skills and h
 You should be completeing one Sololearn Goal each week along with the soft skills items that come above said goal.
 
 - {{% contentlink path="topics/bridging-course-soft-skills/learning-how-to-learn" %}}
-- {{% contentlink path="topics/unit-testing" %}
-- {{% contentlink path="topics/test-driven-development " %}
-- {{% contentlink path="workshops/effective-communication" %}} - create file
+- {{% contentlink path="topics/test-driven-development" %}}
+- {{% contentlink path="workshops/effective-communication" %}}
 - {{% contentlink path="topics/solo-learn/javascript/conditionals-and-loops" %}}
 - {{% contentlink path="topics/curious-learning-and-research" %}}
 - {{% contentlink path="topics/bridging-course-soft-skills/developer-habits" %}}
@@ -25,5 +24,5 @@ You should be completeing one Sololearn Goal each week along with the soft skill
 
 ### Extra Soft Skills
 
-- {{% contentlink "topics/bridging-course-soft-skills/emotional-intelligence" %}}
-- {{% contentlink "topics/bridging-course-soft-skills/cognitive-biases" %}}
+- {{% contentlink path="topics/bridging-course-soft-skills/emotional-intelligence" %}}
+- {{% contentlink path="topics/bridging-course-soft-skills/cognitive-biases" %}}
