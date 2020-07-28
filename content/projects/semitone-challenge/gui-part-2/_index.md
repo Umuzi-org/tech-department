@@ -1,6 +1,6 @@
 ---
 _db_id: 194
-available_options:
+available_flavours:
 - javascript
 - typescript
 - any_frontend_framework

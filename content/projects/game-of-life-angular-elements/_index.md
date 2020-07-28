@@ -1,6 +1,6 @@
 ---
 _db_id: 289
-available_options:
+available_flavours:
 - angular
 - typescript
 content_type: project

@@ -1,6 +1,6 @@
 ---
 _db_id: 378
-available_options:
+available_flavours:
 - kotlin
 content_type: project
 prerequisites:

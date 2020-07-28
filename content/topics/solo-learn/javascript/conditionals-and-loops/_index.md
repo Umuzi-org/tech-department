@@ -1,12 +1,13 @@
 ---
+_db_id: 465
 content_type: topic
-needs_review: true
 prerequisites:
   hard:
   - topics/solo-learn/javascript/basic-concepts
   soft: []
 ready: true
 title: Solo Learn - JavaScript - Module 3 - Conditionals and Loops
+topic_needs_review: true
 ---
 
 Complete the above mentioned module on Solo Learn

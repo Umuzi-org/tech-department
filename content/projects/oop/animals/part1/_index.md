@@ -1,6 +1,6 @@
 ---
 _db_id: 224
-available_options:
+available_flavours:
 - any_language
 content_type: project
 prerequisites:

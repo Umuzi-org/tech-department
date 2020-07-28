@@ -1,6 +1,6 @@
 ---
 _db_id: 268
-available_options:
+available_flavours:
 - any_language
 content_type: project
 from_repo: projects/tdd/simple-calculator-part1

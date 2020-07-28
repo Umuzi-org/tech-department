@@ -1,6 +1,6 @@
 ---
 _db_id: 413
-available_options:
+available_flavours:
 - kotlin
 content_type: project
 prerequisites:
@@ -149,7 +149,7 @@ binding.doneButton.setOnClickListener {
 ```
 
 2 - Do the same for all calls to `findViewById()` in the `addNickname()` function.
-  
+
 Replace all occurrences of `findViewById<View>(R.id.id_view)` with binding.idView. Do this in the following way:
 
 - Delete the definitions for the `editText` and `nicknameTextView` variables along with their calls to `findViewById()`. This will give you errors.

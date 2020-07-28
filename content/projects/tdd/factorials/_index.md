@@ -1,6 +1,6 @@
 ---
 _db_id: 267
-available_options:
+available_flavours:
 - any_language
 content_type: project
 pre: '<b>EASY: </b>'

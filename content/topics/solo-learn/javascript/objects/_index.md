@@ -1,12 +1,13 @@
 ---
+_db_id: 461
 content_type: topic
-needs_review: true
 prerequisites:
   hard:
   - topics/solo-learn/javascript/functions
   soft: []
 ready: true
 title: Solo Learn - JavaScript - Module 5 - Objects
+topic_needs_review: true
 ---
 
 Complete the above mentioned module on Solo Learn

@@ -25,7 +25,7 @@ If something on this list isn't too detailed, please look for examples in the co
 - prerequisites: what should the student do before this content.
 - tags: sortof like how you tag your stackoverfow questions
 - story_points: agile weights
-- available_options: this one is a bit more involved. Some projects can be done in js or typescript. Some projects can be done in any language. Some projects can be done in
+- available_flavours: this one is a bit more involved. Some projects can be done in js or typescript. Some projects can be done in any language. Some projects can be done in
 
 ## First you need to get yourself set up
 

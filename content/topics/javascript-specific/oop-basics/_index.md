@@ -1,4 +1,5 @@
 ---
+_db_id: 467
 content_type: topic
 ready: true
 title: JavaScript OOP basics resources and readings

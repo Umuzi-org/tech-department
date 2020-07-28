@@ -1,6 +1,6 @@
 ---
 _db_id: 18
-available_options:
+available_flavours:
 - javascript
 content_type: workshop
 title: Basic introduction to Redux
