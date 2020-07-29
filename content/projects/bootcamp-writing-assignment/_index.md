@@ -1,29 +1,76 @@
 ---
 _db_id: 429
 available_flavours:
-- none
+  - none
 content_type: project
 ready: true
-submission_type: link
+submission_type: repo
 title: Bootcamp Writing Assignment
 ---
 
-### We would like to get to know you better
+## We would like to get to know you better
 
-In this assignment you are going to create a text file with essays on the below questions, please keep each essay between 150 and 200 words.
+We have a few questions for you. Please answer each of them in a seperate MARKDOWN file.
 
-- Your personal history, where you come from, feel free to include some interesting facts about yourself.
+### What is markdown?
 
-- Why you would like to become a coder?
+It's a seriously useful way of writing text files. A lot of software projects use it for documentation. It's built into Github as well.
 
-- Why you decided on this particular department at Umuzi (Web development versus Data Science)
+This website you are looking at is generated from markdown files. Now is a good time to get used to it.
 
-- Your past extracurricular activities or work experiences
+Have some links :)
 
-- Why do you think you will succeed at Umuzi?
+- https://www.ultraedit.com/company/blog/community/what-is-markdown-why-use-it.html
+- https://www.markdownguide.org/cheat-sheet/
 
-- The courses offered by Umuzi are hard - a lot of people struggle for lots of different reasons. It's our job to help you succeed so it's good for us to know what to expect so we can do a good job. What weaknesses do you have that might stand in the way of your success? And what strategies do you have for overcoming these challenges?
+To create a markdown file just create a file with the extension `.md`. That's it.
 
-- If you succeed at Umuzi and get a high value career in your chosen field, what do you think your life will look like? Do you have personal goals? How will this effect your family and your community? Anything else?
+If you are using ACode on your android device, you can press the "play" button in the editer and your markdown will get rendered as a website.
 
-Remember to pay attention to your sentence structure, spelling and grammar.
+If you are running vscode you can right click on a markdown file and select "open preview" to see what your work looks like.
+
+### The questions
+
+Please create a seperate file for each of these. Remember to pay attention to your sentence structure, spelling and grammar.
+
+#### 1. Your history [200 - 500 words]
+
+Tell us about your personal history. Who are you? Where do you come from? Feel free to include some interesting facts.
+
+#### 2. Why do you want to be a coder? [100 - 300 words]
+
+What is it about this career path that attracts you? What inspired this decision? Why did you apply for the specific course you applied for? Some of you applied for web development, some of you applied for data science - why did you choose what you chose?
+
+#### 3. Your free time [ <= 300 words]
+
+How do you spend your free time? You can just give us a list of things you like to do. Some people like to excercise, watch movies, read... what do you like to do?
+
+#### 4. Relevent experience [ <= 300 words]
+
+Do you have past experience that you think will be relevent? Maybe you learned to code in school, or built something cool already. Maybe you've even written code for money before. Maybe you taught yourself some stuff.
+
+If you haven't got relevent experience, don't worry! We're all about giving people oppertunities to gain experience.
+
+#### 5. What makes you think you'll succeed at Umuzi? [<= 300 words]
+
+What makes yuo think you have what it takes? What traits or attributes do you have that will be useful in this setting? Maybe it's past experience? Maybe you have an IQ of 203. Maybe you are good at asking questions.
+
+#### 6. What might get in the way of your success? [<= 300 words]
+
+The courses offered by Umuzi are hard - a lot of people struggle for lots of different reasons. It's our job to help you succeed so it's good for us to know what to expect so we can do a good job.
+
+What weaknesses do you have that might stand in the way of your success? And what strategies do you have for overcoming these challenges? And do you need help?
+
+#### 7. Your routine
+
+Pre-COVID, Umuzi recruits were expected to come to our offices every day. Learning was a 9-5 job. That's 40 hours of Umuzi work every week. Now that everything is remote and people all get to work from home things are a lot more flexible. Please tell us how you think you'll structure your days in order to get your work done.
+
+Also, the course is pretty much self-paced. So the faster you move the better things can be (so long as you understand)
+
+- Some people work best in the early hours of the morning. Some people work late at night.
+- Some people work on weekends
+- some people put in more than 40 hours per week because they just love this stuff, or because they want to get a job sooner
+
+#### 8. Your future
+
+If you succeed at Umuzi and get a high value career in your chosen field, what do you think your life will look like? Do you have personal goals? How will this effect your family and your community?

@@ -1,49 +1,19 @@
 ---
 _db_id: 224
 available_flavours:
-- any_language
+  - any_language
 content_type: project
 prerequisites:
   hard:
-  - projects/oop/person
+    - projects/oop/person
   soft: []
 ready: true
 story_points: 3
 submission_type: repo
 tags:
-- oop
+  - oop
 title: Animals Part 1. OOP basics
 ---
-
-## Project structure
-
-### Java
-
-The code you push to git should have the following structure:
-
-```
-├── build.gradle
-├── gradle
-│   └── wrapper
-│       ├── gradle-wrapper.jar
-│       └── gradle-wrapper.properties
-├── gradlew
-├── gradlew.bat
-├── settings.gradle
-└── src
-    ├── main
-        └── java
-            ├── Animal.java       <-------- names are important
-            ├── Cat.java          <-------- names are important
-            ├── Dog.java          <-------- names are important
-            ├── Home.java         <-------- names are important
-            └── MainProgram.java  <-------- names are important
-
-```
-
-Please refer to the following to find out more: {{% contentlink path="topics/java-specific/project-submission-requirements" %}}
-
-## Instructions
 
 This Challenge should test topics from your OOP knowledge
 

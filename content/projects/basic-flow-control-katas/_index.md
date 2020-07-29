@@ -1,7 +1,7 @@
 ---
 _db_id: 219
 available_flavours:
-- any_language
+  - any_language
 content_type: project
 ready: true
 story_points: 3
@@ -18,7 +18,33 @@ Please follow best practices when doing this work!
 
 ## Note
 
-The Exercises below are meant to be language-agnostic. If we use the word `print` in an Exercise description then we mean output it to the terminal/console/stdout. We dont mean print to a printer, and we dont want a gui. These Exercises just spit out some text.
+The Exercises below are meant to be language-agnostic. If we use the word `print` in an Exercise description then we mean output it to the terminal/console/stdout. We dont mean print to a printer, and we dont want a gui. These exercises just spit out some text.
+
+## What does success look like
+
+Katas are pretty common in coding (and martil arts). Katas are about practicing and perfecting fundamental skills. There are a few different skills we need to see here.
+
+The first thing is Git! It's seriously important so we want to see you developing good habits.
+
+For every excercise in this project you need to make a new Pull Request on github and a new branch.
+
+So if you are writing code for the first excerchise you can do this:
+
+```
+git checkout master
+git pull
+git checkout -b hello
+```
+
+Now you have branch for your hellp code to live in. Create a file for your hello function to live in. Commit and push. Then make a pull request. Make some noise about your PR so that we can take a look at it and give you feedback.
+
+While you wait for feedback, you can start the next excercise.
+
+```
+git checkout master  # Important: Check out the master branch and make sure it is up to date before making a new branch.
+git pull
+git checkout -b even_or_odd
+```
 
 ## Excercise: Hello
 
