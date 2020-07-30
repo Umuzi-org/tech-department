@@ -1,28 +1,32 @@
 ---
 _db_id: 18
 available_flavours:
-- javascript
-content_type: workshop
+  - javascript
+  - typescript
+content_type: topic
 title: Basic introduction to Redux
+ready: True
 ---
 
 ## Redux is
 
 - marketed as a state managment tool. It can be used to manage state an a whole lot more
 - usually used with React or other frontend web framework
-- concepts are similar to the Command Pattern. This is an OOP design pattern that unlocks a lot of stuff beyond simple state managment
+- concepts are similar to the Command Pattern. The command pattern is an OOP design pattern that unlocks a lot of stuff beyond simple state managment
 
 ## Resources
 
 The basics:
 
-- This tutorial is really good: https://redux.js.org/basics/basic-tutorial
-- This logger middleware helps: https://github.com/LogRocket/redux-logger
+- This tutorial is really good: https://redux.js.org/basics/basic-tutorial (the official docs are always a winner)
+- This logger middleware is really helpful: https://github.com/LogRocket/redux-logger
 
 If you want to start using redux with asyncronous code (eg ajax requests) then you'll need to use another tool:
 
 - for simple stuff: https://github.com/reduxjs/redux-thunk
 - for complicated side-effect models something like this is probably better: https://github.com/redux-saga/redux-saga
+
+If you are using Typescript then this is useful: https://redux.js.org/recipes/usage-with-typescript
 
 ## Concepts
 
@@ -131,14 +135,17 @@ We are using ES6 syntax
 
 KISS == Keep It Simple, Stupid
 
-This does seem like a complicated way to do a simple thing... Think about this:
+This does seem like a complicated way to do a simple thing...
+
+Here are some benefits:
 
 - actions are objects. That means we can store them and track them in different ways.
 - actions are executed in specific ways and have predictable results
 - the hard "thinking" of your application is all held in reducers so that makes testing easy and consistent
-- we have a history of every hange made to the state of an application
+- we have a history of every change made to the state of an application
+- since actions are just JSON objects they can be easily transmitted between applications. For example you could have one application generate actions that get sent to another application that then dispatches the actions
 
-Look up the "Command Pattern" . Redux isn't exactly the same but very similar. Therefore there are similar applications.
+Look up the "Command Pattern" . Redux isn't the same but it's super powers are very similar. Therefore there are similar applications.
 
 - Frontend development: different buttons, inputsand widgets dispatch different actions in a predictable way
 - Actions can be grouped. Meaning we can dispatch one action that dispatches a whole lot of different actions
