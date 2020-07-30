@@ -32,7 +32,7 @@ The top of the app displays a colored view called the app bar, which is also kno
 
 In this project, you work from a starter app that provides template code and fragment classes that you need as you complete the Trivia app.
 
-1 - Download the [AndroidTrivia-Starter](AndroidTrivia-Starter) Android Studio project.
+1 - Download the [AndroidTrivia-Starter](https://drive.google.com/drive/folders/1uPbefsr1NZ2deUPRLQLxMzz5k6OceTMU?usp=sharing) Android Studio project.
 
 2 - Open the project in Android Studio and run the app. When the app opens, it doesn't do anything other than display the app name and a blank screen.
 
