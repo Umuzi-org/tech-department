@@ -4,10 +4,10 @@ ready: True
 prerequisites:
  hard: ["topics/ionic/introduction-to-ionic"]
  soft: []
- available_options: 
+available_options: 
  - typescript
  - ionic
- submission_type: repo
+submission_type: repo
 ---
 
 - Follow the tutorial, understanding is essential. 
