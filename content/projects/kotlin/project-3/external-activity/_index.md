@@ -1,5 +1,9 @@
 ---
 title: Start an external activity.
+available_options:
+- kotlin
+content_type: project
+submission_type: repo
 ready: True
 prerequisites:
   hard:

@@ -1,3 +1,8 @@
+---
+title: Android Trivia Starter Readme
+submission_type: nosubmit
+---
+
 AndroidTrivia - starter code
 ============================
 
