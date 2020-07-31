@@ -40,7 +40,6 @@ title: Web Development
 - NCIT 08: Pseudocode and documentation
 - NCIT 10: Workshop: Giving and receiving constructive feedback
 - {{% contentlink path="workshops/general-coding-best-practices" %}}
-- {{% contentlink path="topics/js-and-node-specific/oop-basics" %}}
 - {{% contentlink path="topics/free-code-camp/javascript-data-structures-and-algorithms/object-orientated-programming" %}}
 - {{% contentlink path="topics/jasmine-unit-tests" %}}
 - {{% contentlink path="projects/oop/animals/part2"  flavour="javascript" %}}
@@ -94,7 +93,7 @@ title: Web Development
 * {{% contentlink path="topics/web-frontend/intro-to-react/" optional="1" %}}
 * {{% contentlink path="topics/web-frontend/intro-to-vue/" optional="1" %}}
 * {{% contentlink path="workshops/nodejs-intro-to-socketio/" optional="1" %}}
-* {{% contentlink path="workshops/redux-intro/" optional="1" flavour="javascript" %}}
+* {{% contentlink path="topics/redux-intro/" optional="1" flavour="javascript" %}}
 * {{% contentlink path="workshops/nodejs-async-vs-sync" optional="1" %}}
 * {{% contentlink path="topics/js-and-node-specific/mongodb/" optional="1"  %}}
 * {{% contentlink path="topics/js-and-node-specific/dotenv/" optional="1"  %}}

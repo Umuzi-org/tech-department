@@ -127,13 +127,9 @@ function theReducer(state = initialState, action){
 }
 ```
 
-## A helloworld example
-
-We are using ES6 syntax
-
 ## But what about KISS?
 
-KISS == Keep It Simple, Stupid
+KISS == Keep It Simple, Stupid - [wikipedia](https://en.wikipedia.org/wiki/KISS_principle)
 
 This does seem like a complicated way to do a simple thing...
 
