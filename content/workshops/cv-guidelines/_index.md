@@ -1,5 +1,4 @@
 ---
-prerequisites: Portfolio Must be Submittted and Complete
 content_type: workshop
 title: CV Guidlines
 ---

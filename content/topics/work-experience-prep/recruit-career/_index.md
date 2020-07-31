@@ -1,5 +1,4 @@
 ---
-content_type: topic
 ready: true
 title: Recruit Career Questionnaire
 ---
