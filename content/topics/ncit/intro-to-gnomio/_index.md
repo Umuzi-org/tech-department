@@ -3,7 +3,7 @@ _db_id: 361
 content_type: topic
 ready: false
 tags:
-  - ncit
+- ncit
 title: Introduction to gnomio and NQF
 ---
 

@@ -1,6 +1,8 @@
 ---
+_db_id: 468
+content_type: topic
+ready: true
 title: Pull Requests
-ready: True
 ---
 
 If any professional software development team, code review is very very important. It's part of the day-to-day life of a coder. The way a team generally works is something like this:

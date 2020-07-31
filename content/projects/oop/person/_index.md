@@ -1,7 +1,7 @@
 ---
 _db_id: 223
 available_flavours:
-  - any_language
+- any_language
 content_type: project
 prerequisites:
   hard: []
@@ -10,7 +10,7 @@ ready: true
 story_points: 2
 submission_type: repo
 tags:
-  - oop
+- oop
 title: Person
 ---
 

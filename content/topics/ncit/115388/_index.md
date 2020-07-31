@@ -6,7 +6,7 @@ ready: false
 tags: []
 title: Pseudocode and documentation
 unit_standards:
-  - 115388
+- 115388
 ---
 
 ### 1. Why document?

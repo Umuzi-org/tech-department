@@ -1,11 +1,11 @@
 ---
 _db_id: 18
 available_flavours:
-  - javascript
-  - typescript
+- javascript
+- typescript
 content_type: topic
+ready: true
 title: Basic introduction to Redux
-ready: True
 ---
 
 ## Redux is
