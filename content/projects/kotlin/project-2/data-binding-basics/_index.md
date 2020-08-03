@@ -7,7 +7,7 @@ prerequisites:
   hard:
   - topics/kotlin/data-binding
   - topics/kotlin/data-classes
-  - projects/kotlin/constraint-layout-using-layout-editor
+  - projects/kotlin/project-2/constraint-layout-using-layout-editor
   soft: []
 ready: true
 submission_type: repo

@@ -5,7 +5,7 @@ available_flavours:
 content_type: project
 prerequisites:
   hard:
-  - projects/kotlin/user-activity
+  - projects/kotlin/project-1/user-activity
   - topics/kotlin/grid-layout
   soft: []
 ready: true
