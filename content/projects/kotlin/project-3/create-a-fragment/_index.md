@@ -1,7 +1,7 @@
 ---
 title: Create a fragment.
 ready: True
-available_options:
+available_flavours:
 - kotlin
 content_type: project
 submission_type: repo

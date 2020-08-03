@@ -1,6 +1,6 @@
 ---
 title: Start an external activity.
-available_options:
+available_flavours:
 - kotlin
 content_type: project
 submission_type: repo
