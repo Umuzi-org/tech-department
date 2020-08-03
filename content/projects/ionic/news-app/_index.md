@@ -5,7 +5,7 @@ prerequisites:
   hard: ["topics/ionic/ionic-tools-and-patterns",
          "topics/ionic/progressive-web-apps"]
   soft: []
-available_options: 
+available_flavours: 
   - typescript
   - ionic
 submission_type: repo   

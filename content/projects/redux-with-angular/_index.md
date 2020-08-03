@@ -4,6 +4,10 @@ ready: true
 prerequisites:
   hard: ["topics/redux-with-angular"]
   soft: []
+submission_type: repo
+available_flavours: 
+  - javascript
+  - typescript
 ---
 Follow this tutorial using redux for state management with angular 4.
 
