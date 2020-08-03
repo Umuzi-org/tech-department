@@ -1,5 +1,5 @@
 ---
-title: Lifecycles-and logging.
+title: Lifecycles and logging.
 ready: True
 available_flavours:
 - kotlin
