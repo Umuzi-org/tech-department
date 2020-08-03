@@ -1,6 +1,6 @@
 ---
 _db_id: 282
-available_options:
+available_flavours:
 - javascript
 content_type: project
 from_repo: projects/nodejs/file-io

@@ -1,6 +1,6 @@
 ---
 _db_id: 212
-available_options:
+available_flavours:
 - java
 content_type: project
 prerequisites:

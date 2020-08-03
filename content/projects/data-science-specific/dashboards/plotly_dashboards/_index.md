@@ -1,6 +1,6 @@
 ---
 _db_id: 240
-available_options:
+available_flavours:
 - python
 content_type: project
 pre: '<b> EASY: </b>'

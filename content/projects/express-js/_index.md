@@ -1,6 +1,6 @@
 ---
 _db_id: 191
-available_options:
+available_flavours:
 - javascript
 content_type: project
 ready: true

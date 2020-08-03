@@ -1,7 +1,8 @@
 ---
 _db_id: 195
-available_options:
+available_flavours:
 - javascript
+- typescript
 - any_frontend_framework
 content_type: project
 from_repo: projects/semitone-challenge/basic-algorithm

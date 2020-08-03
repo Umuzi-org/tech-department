@@ -2,7 +2,7 @@
 title: Katas
 pre: "<b>5. </b>"
 weight: 5
-available_options: ["any_language"]
+available_flavours: ["any_language"]
 ---
 
 This section just has a bunch of little excersises. For the most part they are language agnostic puzzles that can be used in a bunch of different ways:

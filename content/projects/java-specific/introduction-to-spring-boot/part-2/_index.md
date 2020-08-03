@@ -1,6 +1,6 @@
 ---
 _db_id: 218
-available_options:
+available_flavours:
 - java
 content_type: project
 from_repo: projects/java-specific/introduction-to-spring-boot/part-1

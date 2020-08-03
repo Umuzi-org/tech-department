@@ -11,13 +11,25 @@
     
     
     <item>
+      <title>Advanced OOP - Design Patterns in Java</title>
+      <link>/tech-department/topics/bridging-course-hard-skills/advanced-oop-design-patterns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/topics/bridging-course-hard-skills/advanced-oop-design-patterns/</guid>
+      <description>If you understand this stuff you’ll do really well in industry. This book is both silly and really really good.
+https://www.pdf-archive.com/2018/02/13/head-first-design-patterns/head-first-design-patterns.pdf
+Read to understand, and go as far as you can.</description>
+    </item>
+    
+    <item>
       <title>Animals Part 1. OOP basics</title>
       <link>/tech-department/projects/oop/animals/part1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/projects/oop/animals/part1/</guid>
-      <description>Project structure Java The code you push to git should have the following structure:
-├── build.gradle ├── gradle │ └── wrapper │ ├── gradle-wrapper.jar │ └── gradle-wrapper.properties ├── gradlew ├── gradlew.bat ├── settings.gradle └── src ├── main └── java ├── Animal.java &amp;lt;-------- names are important ├── Cat.java &amp;lt;-------- names are important ├── Dog.java &amp;lt;-------- names are important ├── Home.java &amp;lt;-------- names are important └── MainProgram.java &amp;lt;-------- names are important  Please refer to the following to find out more: TOPICS: [TODO] Java project submission requirements Instructions This Challenge should test topics from your OOP knowledge</description>
+      <description>This Challenge should test topics from your OOP knowledge
+ Encapsulation Inheritance Polymophism Composition  In this challenge you will create 3 classes
+ Super class called Animal Dog and Cat class which both extends Animal class (a dog is an animal and a cat is an animal) Dog and Cat class should only have 1 function, which is their own implementation of the sound() function. This is polymorphism a Home class.</description>
     </item>
     
     <item>
@@ -46,8 +58,11 @@ Project structure Java The code you push to git should have the following struct
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/projects/oop/person/</guid>
-      <description>Project structure Java The code you push to git should have the following structure:
-├── build.gradle ├── gradle │ └── wrapper │ ├── gradle-wrapper.jar │ └── gradle-wrapper.properties ├── gradlew ├── gradlew.bat ├── settings.gradle └── src ├── main └── java ├── Person.java &amp;lt;-------- names are important └── MainProgram.java &amp;lt;-------- names are important  Please refer to the following to find out more: TOPICS: [TODO] Java project submission requirements Instructions Please follow TDD when implementing this code if you have covered TDD in your course.</description>
+      <description>Create a class called Person which defines the generic data and functionality of a human.
+A class is a collection of attributes and functions. Different languages use different terminology for these things, but the bacic concepts are the same.
+Give your Person class should have the following attributes:
+ name age gender interests. This is a list or array of strings  Give your Person class a hello function:
+Example usage:</description>
     </item>
     
     <item>

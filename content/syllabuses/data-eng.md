@@ -20,7 +20,7 @@ title: Data Engineering
 - {{% contentlink path="topics/python-specific/automate-the-boring-stuff-book/chapter-1-basics" %}}
 - {{% contentlink path="topics/python-specific/automate-the-boring-stuff-book/chapter-2-flow-control" %}}
 - {{% contentlink path="topics/python-specific/automate-the-boring-stuff-book/chapter-3-functions" %}}
-- {{% contentlink path="projects/basic-flow-control-katas" option="python" %}}
+- {{% contentlink path="projects/basic-flow-control-katas" flavour="python" %}}
 - {{% contentlink path="projects/first-personal-website" %}}
 - {{% contentlink path="topics/how-to-ask-for-help-with-your-code" %}}
 - {{% contentlink path="workshops/big-picture-web-dev" %}}
@@ -40,7 +40,7 @@ title: Data Engineering
 - {{% contentlink path="topics/python-specific/oop-basics" %}}
 - {{% contentlink path="topics/python-specific/automated-testing-with-pytest"%}}
 - {{% contentlink path="topics/python-specific/virtual-envs/" %}}
-- {{% contentlink path="projects/oop/animals/part2" option="python" %}}
+- {{% contentlink path="projects/oop/animals/part2" flavour="python" %}}
 - NCIT 13: Object-oriented programming
 - {{% contentlink path="topics/how-the-internet-works" %}}
 - {{% contentlink path="topics/data-ethics-and-privacy" %}}
@@ -50,10 +50,10 @@ title: Data Engineering
 - {{% contentlink path="topics/python-specific/automate-the-boring-stuff-book/chapter-9-reading-and-writing-files" %}}
 - {{% contentlink path="topics/python-specific/automate-the-boring-stuff-book/chapter-10-organising-files" %}}
 - {{% contentlink path="topics/python-specific/automate-the-boring-stuff-book/chapter-11-debugging" %}}
-- {{% contentlink path="projects/tdd/password-checker/part2" option="python" %}}
+- {{% contentlink path="projects/tdd/password-checker/part2" flavour="python" %}}
 - NCIT 11: Test-driven development
 - {{% contentlink path="topics/intro-to-docker/" %}}
-- {{% contentlink path="projects/tdd/string-calculator" option="python" %}}
+- {{% contentlink path="projects/tdd/string-calculator" flavour="python" %}}
 - {{% contentlink path="topics/python-specific/exception-handling" %}}
 - {{% contentlink path="topics/python-specific/custom-exceptions" optional="1" %}}
 - {{% contentlink path="topics/python-specific/automate-the-boring-stuff-book/chapter-13-working-with-excel-spreadsheets" %}}
@@ -63,8 +63,8 @@ title: Data Engineering
 - {{% contentlink path="topics/python-specific/automate-the-boring-stuff-book/chapter-18-email-and-text" %}}
 - {{% contentlink path="topics/python-specific/decorators-intro" %}}
 - {{% contentlink path="topics/python-specific/decorators-advanced" optional="1" %}}
-- {{% contentlink path="projects/basic-unit-test-mocks-kata" option="python" %}}
-- {{% contentlink path="projects/github-api-consume" option="python" %}}
+- {{% contentlink path="projects/basic-unit-test-mocks-kata" flavour="python" %}}
+- {{% contentlink path="projects/github-api-consume" flavour="python" %}}
 - {{% contentlink path="topics/python-specific/recursion" %}}
 - {{% contentlink path="topics/python-specific/iterators" optional="1" %}}
 - {{% contentlink path="topics/python-specific/automate-the-boring-stuff-book/chapter-12-web-scraping" %}}
@@ -73,17 +73,17 @@ title: Data Engineering
 - NCIT 14: Database Development
 - {{% contentlink path="topics/tech-terminology" %}}
 - {{% contentlink path="topics/data-infrastructure/database-comparison/" %}}
-- {{% contentlink path="projects/python-specific/sqlalchemy-migrations" %}}
-- {{% contentlink path="projects/python-specific/build-rest-api-with-db" %}}
-- {{% contentlink path="projects/python-specific/mongo" %}}
-- {{% contentlink path="projects/rabbitmq" %}}
-- {{% contentlink path="projects/dags-with-airflow" %}}
-- {{% contentlink path="projects/python-specific/kafka" %}}
+- {{% contentlink path="projects/python-specific/sqlalchemy-migrations" flavour="python" %}}
+- {{% contentlink path="projects/python-specific/build-rest-api-with-db" flavour="python" %}}
+- {{% contentlink path="projects/python-specific/mongo" flavour="python" %}}
+- {{% contentlink path="projects/rabbitmq" flavour="python" %}}
+- {{% contentlink path="projects/dags-with-airflow" flavour="python" %}}
+- {{% contentlink path="projects/python-specific/kafka" flavour="python" %}}
 - NCIT 15: Analytics, Surveys, and Reports / Input & Output
-- {{% contentlink path="projects/python-specific/spark" %}}
+- {{% contentlink path="projects/python-specific/spark" flavour="python" %}}
 - {{% contentlink path="topics/data-infrastructure/choosing-a-task-queue" %}}
 - {{% contentlink path="topics/optimizations-and-big-o/" %}}
-- {{% contentlink path="projects/data-science-specific/data-wrangling" %}}
+- {{% contentlink path="projects/data-science-specific/data-wrangling" flavour="python" %}}
 - NCIT 16: Thinking like a machine / Boolean algebra, logic
 - NCIT 17: Search and sort techniques
 - {{% contentlink path="workshops/git-for-teamwork/" %}}

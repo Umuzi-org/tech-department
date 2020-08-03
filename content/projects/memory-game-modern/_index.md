@@ -1,6 +1,6 @@
 ---
 _db_id: 287
-available_options:
+available_flavours:
 - any_frontend_framework
 content_type: project
 submission_type: repo

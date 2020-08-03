@@ -8,7 +8,7 @@ from pathlib import Path
 import frontmatter
 import yaml
 
-with open("options.yaml", "r") as f:
+with open("flavours.yaml", "r") as f:
     option_groups = yaml.load(f, Loader=yaml.FullLoader)
 l = [list(option_groups.keys())] + list(option_groups.values())
 flat_options = [s for sub in l for s in sub]
@@ -93,8 +93,8 @@ def check_one_file_frontmatter(file_path):
         "prerequisites",
         "tags",
         "story_points",
-        "available_options",
-        "needs_review"
+        "available_flavours",
+        "topic_needs_review"
         # "from_repo",
     ]
 
@@ -112,7 +112,9 @@ def check_one_file_frontmatter(file_path):
                 front["from_repo"] in front["prerequisites"]["hard"]
             ), f"{file_path}: expected hard prepreq: {front['from_repo']}"
         if front["submission_type"] != "nosubmit":
-            required.append("available_options")
+            required.append("available_flavours")
+        if front["submission_type"] == "repo":
+            allowed.append("template_repo")
 
     for key in front.keys():
         if key not in required + allowed:
@@ -124,20 +126,20 @@ def check_one_file_frontmatter(file_path):
             logger.error(f"{file_path} has MISSING frontmatter: {key}")
             continue
 
-    if "available_options" in front and front.get("submission_type") != "nosubmit":
-        for option in front["available_options"]:
+    if "available_flavours" in front and front.get("submission_type") != "nosubmit":
+        for option in front["available_flavours"]:
             assert option in flat_options, f"{option} not in {flat_options}"
 
-    #     options = front["available_options"]
+    #     options = front["available_flavours"]
     #     if type(options) is str:
     #         assert (
     #             option in available_group_options
-    #         ), f"{option} not valid. Choose one of: {available_group_options}, or a list of {available_options}"
+    #         ), f"{option} not valid. Choose one of: {available_group_options}, or a list of {available_flavours}"
     #     else:
     #         for option in options:
     #             assert (
-    #                 option in available_options
-    #             ), f"{option} not allowed. Choose one of: {available_options}"
+    #                 option in available_flavours
+    #             ), f"{option} not allowed. Choose one of: {available_flavours}"
 
 
 def check_contentlinks_ok():

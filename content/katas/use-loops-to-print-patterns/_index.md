@@ -2,7 +2,7 @@
 title: use loops to print-patterns
 pre: "<b>5. </b>"
 weight: 5
-# available_options: ["any_language"]
+# available_flavours: ["any_language"]
 # submission_type: nosubmit
 ---
 

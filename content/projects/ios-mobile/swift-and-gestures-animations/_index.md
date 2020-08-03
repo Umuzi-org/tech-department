@@ -1,6 +1,6 @@
 ---
 _db_id: 427
-available_options:
+available_flavours:
 - swift
 content_type: project
 prerequisites:

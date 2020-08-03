@@ -1,6 +1,6 @@
 ---
 _db_id: 270
-available_options:
+available_flavours:
 - any_language
 content_type: project
 from_repo: projects/tdd/password-checker/part1

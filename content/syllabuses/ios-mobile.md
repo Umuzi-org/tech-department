@@ -11,7 +11,7 @@ title: iOS Mobile Development
 - Topic : iOS Overview
 - Topic : MVC
 - Topic : Swift Development and other Tools
-- {{% contentlink path="projects/ios-mobile/swift-and-more" %}}
+- {{% contentlink path="projects/ios-mobile/swift-and-more" flavour="swift" %}}
 
 ## More Swift and Gestures
 
@@ -25,7 +25,7 @@ title: iOS Mobile Development
 
 - Topic : Animation
 
-- {{% contentlink path="projects/ios-mobile/swift-and-gestures-animations" %}}
+- {{% contentlink path="projects/ios-mobile/swift-and-gestures-animations" flavour="swift" %}}
 
 ## Multithreading Layout and Functionality
 
@@ -41,16 +41,16 @@ title: iOS Mobile Development
 
 - Topic : More about Documents and Persistence Demo
 
-- {{% contentlink path="projects/ios-mobile/multithreading-layout-and-functionality" %}}
+- {{% contentlink path="projects/ios-mobile/multithreading-layout-and-functionality" flavour="swift" %}}
 
 ## Multithreading Layout and Other Functionality
 
-- {{% contentlink path="projects/ios-mobile/timer-segues-autolayout" %}}
+- {{% contentlink path="projects/ios-mobile/timer-segues-autolayout" flavour="swift" %}}
 
 ## Drag and Drop, Multithreading and Delegation
 
-- {{% contentlink path="projects/ios-mobile/drag-and-drop-multithreading-delegation" %}}
+- {{% contentlink path="projects/ios-mobile/drag-and-drop-multithreading-delegation" flavour="swift" %}}
 
 ## Codable, File Manager, URL
 
-- {{% contentlink path="projects/ios-mobile/codable-file-manager-url" %}}
+- {{% contentlink path="projects/ios-mobile/codable-file-manager-url" flavour="swift" %}}

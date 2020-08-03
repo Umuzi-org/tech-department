@@ -2,7 +2,7 @@
 title: Squares
 pre: "<b>3. </b>"
 weight: 5
-# available_options: ["any_language"]
+# available_flavours: ["any_language"]
 # submission_type: repo
 ---
 

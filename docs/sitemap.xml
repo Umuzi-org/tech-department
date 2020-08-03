@@ -45,16 +45,15 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/</loc>
-    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tech-department/projects/semitone-challenge/gui-part-2/</loc>
   </url>
   
   <url>
     <loc>/tech-department/projects/nodejs/api/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/</loc>
   </url>
   
   <url>
@@ -124,11 +123,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/workshops/intro-to-node-and-friends/</loc>
-    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tech-department/workshops/intro-to-development-tools-and-environment-for-web/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
@@ -144,16 +138,16 @@
   </url>
   
   <url>
+    <loc>/tech-department/workshops/intro-to-node-and-friends/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/survey-design/</loc>
   </url>
   
   <url>
     <loc>/tech-department/topics/agile-scrum/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tech-department/workshops/bootcamp/interview-culture/</loc>
   </url>
   
   <url>
@@ -174,6 +168,10 @@
   
   <url>
     <loc>/tech-department/projects/linux/advanced/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/bridging-course-hard-skills/advanced-oop-design-patterns/</loc>
   </url>
   
   <url>
@@ -207,6 +205,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/ios-mobile/alerts-notifications-application-life-cycle/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/ncit/115365/</loc>
   </url>
   
@@ -235,12 +237,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/android/</loc>
+    <loc>/tech-department/topics/android/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/topics/android/</loc>
+    <loc>/tech-department/projects/android/</loc>
     <priority>0</priority>
   </url>
   
@@ -405,7 +407,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/oop/bank_accounts/</loc>
+    <loc>/tech-department/projects/oop/bank-accounts/</loc>
   </url>
   
   <url>
@@ -454,7 +456,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/workshops/redux_intro/</loc>
+    <loc>/tech-department/topics/redux-intro/</loc>
   </url>
   
   <url>
@@ -475,7 +477,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/workshops/bootcamp/</loc>
+    <loc>/tech-department/topics/bridging-course-hard-skills/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/bridging-course-soft-skills/</loc>
     <priority>0</priority>
   </url>
   
@@ -557,7 +564,32 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/ios-mobile/codable-file-manager-url/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/code-review/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/code-wars/java/java-basics/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/code-wars/java/java-beginner/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/code-wars/java/java-training/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/code-wars/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/bridging-course-soft-skills/cognitive-biases/</loc>
   </url>
   
   <url>
@@ -565,7 +597,20 @@
   </url>
   
   <url>
+    <loc>/tech-department/tags/combinereducers/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/bridging-course-soft-skills/communication/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/ncit/114076-and-115358/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/kotlin/constraint-layout-using-layout-editor/</loc>
   </url>
   
   <url>
@@ -573,7 +618,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/kotlin/contructuor-default-values/</loc>
+    <loc>/tech-department/topics/kotlin/constructor-default-values/</loc>
   </url>
   
   <url>
@@ -581,11 +626,11 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/java-specific/consume-own-api-using-curl/</loc>
+    <loc>/tech-department/contact-us/</loc>
   </url>
   
   <url>
-    <loc>/tech-department/contact-us/</loc>
+    <loc>/tech-department/topics/ios-mobile/core-motion-and-camera/</loc>
   </url>
   
   <url>
@@ -599,6 +644,10 @@
   <url>
     <loc>/tech-department/tags/css/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/curious-learning-and-research/</loc>
   </url>
   
   <url>
@@ -627,7 +676,15 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/free-code-camp/data-analysis-with-python/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/kotlin/data-binding/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/kotlin/data-binding-basics/</loc>
   </url>
   
   <url>
@@ -661,6 +718,14 @@
   
   <url>
     <loc>/tech-department/topics/data-science-specific/data-science-methodology/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/syllabuses/data-sci-prebootcamp/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/bootcamp/data-sci-environment-setup/</loc>
   </url>
   
   <url>
@@ -783,7 +848,15 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/ios-mobile/drag-and-drop-multithreading-delegation/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/es6/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/effective-communication/</loc>
   </url>
   
   <url>
@@ -792,6 +865,10 @@
   
   <url>
     <loc>/tech-department/projects/basic-unit-test-mocks-kata/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/bridging-course-soft-skills/emotional-intelligence/</loc>
   </url>
   
   <url>
@@ -829,10 +906,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/expose-a-simple-rest-api-for-game/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/tags/express/</loc>
     <priority>0</priority>
   </url>
@@ -847,6 +920,10 @@
   
   <url>
     <loc>/tech-department/topics/js-and-node-specific/expressjs/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/messaging/pre-bootcamp-intro-data-sci/</loc>
   </url>
   
   <url>
@@ -982,10 +1059,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/how-to-submit-your-project/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/tags/html/</loc>
     <priority>0</priority>
   </url>
@@ -1061,6 +1134,10 @@
   
   <url>
     <loc>/tech-department/topics/web-frontend/intro-to-react/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/redux-intro/</loc>
   </url>
   
   <url>
@@ -1184,19 +1261,11 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/java-specific/introduction-to-spring-infrastructure/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/java-specific/introduction-to-spring-infrastructure/</loc>
   </url>
   
   <url>
     <loc>/tech-department/workshops/java-specific/introduction-to-spring-infrastructure/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/projects/java-specific/introduction-to-spring-infrastructure/part-1/</loc>
   </url>
   
   <url>
@@ -1208,19 +1277,11 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/java-specific/introduction-to-spring-infrastructure/part-2/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/java-specific/introduction-to-spring-infrastructure/part-2/</loc>
   </url>
   
   <url>
     <loc>/tech-department/workshops/java-specific/introduction-to-spring-infrastructure/part-2/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/projects/java-specific/introduction-to-spring-infrastructure/part-3/</loc>
   </url>
   
   <url>
@@ -1288,6 +1349,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/syllabuses/java-bridging-course/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/java-specific/java-dev-environment-setup/</loc>
   </url>
   
@@ -1344,11 +1409,39 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/javascript-specific/oop-design-patterns/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/javascript-specific/oop-basics/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/js-and-node-specific/template-engines/</loc>
   </url>
   
   <url>
+    <loc>/tech-department/topics/code-wars/java/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/java/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/javascript-specific/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/javascript-specific/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/javascript/</loc>
     <priority>0</priority>
   </url>
   
@@ -1375,6 +1468,14 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/khan-academy/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/khan-academy/statistics-and-probability/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/kinds-of-web-apis/</loc>
   </url>
   
@@ -1385,6 +1486,10 @@
   
   <url>
     <loc>/tech-department/topics/kotlin/introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/bridging-course-soft-skills/learning-how-to-learn/</loc>
   </url>
   
   <url>
@@ -1451,11 +1556,16 @@
   </url>
   
   <url>
-    <loc>/tech-department/workshops/bootcamp/interview-low-code/</loc>
+    <loc>/tech-department/topics/ncit/115392/</loc>
   </url>
   
   <url>
-    <loc>/tech-department/topics/ncit/115392/</loc>
+    <loc>/tech-department/tags/maths/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/free-code-camp/maths-for-programmers/</loc>
   </url>
   
   <url>
@@ -1498,8 +1608,32 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/ios-mobile/more-segues/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/ios-mobile/swift-and-gestures-animations/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/ios-mobile/swift-and-gestures-animations/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/tags/multiple-linear-regression/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/ios-mobile/timer-segues-autolayout/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/ios-mobile/multithreading-layout-and-functionality/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/ios-mobile/multithreading-layout-and-functionality/</loc>
   </url>
   
   <url>
@@ -1579,10 +1713,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/js-and-node-specific/oop-basics/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/object-orientated-programming/</loc>
   </url>
   
@@ -1595,7 +1725,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/makeumuzibetter/</loc>
+    <loc>/tech-department/make-umuzi-better/</loc>
   </url>
   
   <url>
@@ -1639,6 +1769,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/khan-academy/pre-algebra/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/data-science-specific/logistic-regression/breast-cancer/</loc>
   </url>
   
@@ -1656,6 +1790,10 @@
   
   <url>
     <loc>/tech-department/topics/ncit/115388/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/pull-requests/</loc>
   </url>
   
   <url>
@@ -1746,6 +1884,11 @@
   </url>
   
   <url>
+    <loc>/tech-department/tags/redux/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/data-science-specific/regression/</loc>
   </url>
   
@@ -1800,6 +1943,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/free-code-camp/scientific-computing-with-python/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/tags/scrum/</loc>
     <priority>0</priority>
   </url>
@@ -1821,12 +1968,77 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/khan-academy/cc-seventh-grade-math/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/tags/simple-linear-regression/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tech-department/tags/smtp/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/java/basic-concepts/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/java/conditionals-and-loops/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/java/arrays/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/java/classes-and-objects/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/java/more-on-classes/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/java/exceptions-lists-threads-files/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/javascript/javascript-overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/javascript/basic-concepts/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/javascript/conditionals-and-loops/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/javascript/functions/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/javascript/objects/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/javascript/core-objects/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/javascript/dom-and-events/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/javascript/emcascript-6/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/</loc>
     <priority>0</priority>
   </url>
   
@@ -1856,6 +2068,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/khan-academy/quantitative-data-analysis/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/tags/stats/</loc>
     <priority>0</priority>
   </url>
@@ -1874,6 +2090,10 @@
   
   <url>
     <loc>/tech-department/projects/ios-mobile/swift-and-more/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/ios-mobile/swift-and-more/</loc>
   </url>
   
   <url>
@@ -1923,7 +2143,16 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/messaging/umuzi-recruit-user-journey/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/ncit/115367/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/thunks/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -1969,6 +2198,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/kotlin/user-activity/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/js-and-node-specific/fetch/</loc>
   </url>
   
@@ -2005,7 +2238,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/syllabuses/web-dev-boot/</loc>
+    <loc>/tech-department/syllabuses/web-dev-bridging/</loc>
   </url>
   
   <url>
@@ -2083,6 +2316,10 @@
   
   <url>
     <loc>/tech-department/projects/python-specific/build-rest-api-with-db/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/bridging-course-soft-skills/developer-habits/</loc>
   </url>
   
   <url>

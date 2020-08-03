@@ -1,6 +1,6 @@
 ---
 _db_id: 415
-available_options:
+available_flavours:
 - kotlin
 content_type: project
 prerequisites:
@@ -441,7 +441,7 @@ private fun makeColored(view: View) {
 Every view has a resource ID. The resource ID is the value assigned to the view's `id` attribute in the layout file, `activity_main.xml`. To set a color, the code will switch using a `when` statement on the view's resource ID. It's a common pattern to use one click-handler function for many views when the click action is the same.
 
 3 - Implement the `makeColored()` function: Add a `when` block to check the view's resource ID. Call the `setBackgroundColor()` function on each view's id to change the view's background color using the `Color` class **constants**.
-  
+
 To fix the code indentation, choose **Code > Reformat code**.
 
 ```
@@ -614,7 +614,7 @@ Try experimenting with sample data:
 ![](376eb751498a02fa.png)
 
 3 - Select a type of the sample data from the drop-down list. For example, if you set text sample data to **date/mmddyy**, today's date is displayed in the design.
-  
+
 4 - Delete the text view that you just created.
 
 ### Step 2: Add a text view for the info text
@@ -771,7 +771,7 @@ In this task, you add three Button views and chain them together.
 6 - Change the vertical bias of the `yellow_button` to `100` (1.0 in the XML), to drop down the buttons to the bottom of the layout.
 
 7 - Test your layout for different devices and orientations. The layout may not work for all devices and orientations, but should work for most of them.
-  
+
 The generated XML code for the `Button` views will be similar to the following:
 
 ```

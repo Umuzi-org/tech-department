@@ -2,7 +2,7 @@
 title: C shape
 pre: "<b>1. </b>"
 weight: 5
-# available_options: ["any_language"]
+# available_flavours: ["any_language"]
 # submission_type: repo
 ---
 

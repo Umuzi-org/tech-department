@@ -17,14 +17,14 @@ title: Android Development With Kotlin
 - {{% contentlink "projects/kotlin/project-2/data-binding-basics" %}}
 - Basic Introduction and Control Flow.
 - {{% contentlink path="topics/kotlin/basic-control-flow" %}}
-- {{% contentlink path="projects/kotlin/liner-layout-using-the-layout-editor" %}}
+- {{% contentlink path="projects/kotlin/liner-layout-using-the-layout-editor" flavour="kotlin" %}}
 
 ## Layouts and Data Binding
 
 - {{% contentlink path="topics/kotlin/grid-layout" %}}
 - {{% contentlink path="topics/kotlin/data-binding" %}}
 - {{% contentlink path="topics/kotlin/data-classes" %}}
-- {{% contentlink path="projects/kotlin/data-binding-basics" %}}
+- {{% contentlink path="projects/kotlin/data-binding-basics" flavour="kotlin" %}}
 
 
 ## Classes and Objects
