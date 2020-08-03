@@ -5,7 +5,7 @@ available_flavours:
 content_type: project
 prerequisites:
   hard:
-  - projects/kotlin/liner-layout-using-the-layout-editor
+  - projects/kotlin/project-1/liner-layout-using-the-layout-editor
   soft: []
 ready: true
 submission_type: repo
