@@ -1,6 +1,7 @@
 ---
 _db_id: 199
-available_options:
+available_flavours:
+- typescript
 - javascript
 content_type: project
 pre: <b>1. </b>

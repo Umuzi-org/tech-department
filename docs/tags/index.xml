@@ -56,6 +56,15 @@
     </item>
     
     <item>
+      <title>Combinereducers</title>
+      <link>/tech-department/tags/combinereducers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/combinereducers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Css</title>
       <link>/tech-department/tags/css/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -281,6 +290,15 @@
     </item>
     
     <item>
+      <title>Maths</title>
+      <link>/tech-department/tags/maths/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/maths/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Mocks</title>
       <link>/tech-department/tags/mocks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -389,6 +407,15 @@
     </item>
     
     <item>
+      <title>Redux</title>
+      <link>/tech-department/tags/redux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/redux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Regular Expressions</title>
       <link>/tech-department/tags/regular-expressions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -448,6 +475,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/tags/tdd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thunks</title>
+      <link>/tech-department/tags/thunks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/thunks/</guid>
       <description></description>
     </item>
     

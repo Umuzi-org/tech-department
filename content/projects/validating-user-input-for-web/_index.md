@@ -1,6 +1,6 @@
 ---
 _db_id: 193
-available_options:
+available_flavours:
 - javascript
 - any_frontend_framework
 content_type: project

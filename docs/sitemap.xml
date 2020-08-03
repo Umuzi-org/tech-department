@@ -123,11 +123,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/workshops/intro-to-node-and-friends/</loc>
-    <lastmod>2019-03-19T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tech-department/workshops/intro-to-development-tools-and-environment-for-web/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
   </url>
@@ -143,16 +138,16 @@
   </url>
   
   <url>
+    <loc>/tech-department/workshops/intro-to-node-and-friends/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/survey-design/</loc>
   </url>
   
   <url>
     <loc>/tech-department/topics/agile-scrum/</loc>
     <lastmod>2019-03-19T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tech-department/syllabuses/web-dev-boot/</loc>
   </url>
   
   <url>
@@ -173,6 +168,10 @@
   
   <url>
     <loc>/tech-department/projects/linux/advanced/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/bridging-course-hard-skills/advanced-oop-design-patterns/</loc>
   </url>
   
   <url>
@@ -457,7 +456,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/workshops/redux-intro/</loc>
+    <loc>/tech-department/topics/redux-intro/</loc>
   </url>
   
   <url>
@@ -474,6 +473,16 @@
   
   <url>
     <loc>/tech-department/topics/bootcamp/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/bridging-course-hard-skills/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/bridging-course-soft-skills/</loc>
     <priority>0</priority>
   </url>
   
@@ -563,7 +572,37 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/code-wars/java/java-basics/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/code-wars/java/java-beginner/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/code-wars/java/java-training/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/code-wars/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/bridging-course-soft-skills/cognitive-biases/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/department-processes/cohort_standups/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/combinereducers/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/bridging-course-soft-skills/communication/</loc>
   </url>
   
   <url>
@@ -817,11 +856,19 @@
   </url>
   
   <url>
+    <loc>/tech-department/workshops/effective-communication/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/elastic-search/</loc>
   </url>
   
   <url>
     <loc>/tech-department/projects/basic-unit-test-mocks-kata/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/bridging-course-soft-skills/emotional-intelligence/</loc>
   </url>
   
   <url>
@@ -1090,6 +1137,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/redux-intro/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/web-frontend/intro-to-vue/</loc>
   </url>
   
@@ -1298,6 +1349,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/syllabuses/java-bridging-course/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/java-specific/java-dev-environment-setup/</loc>
   </url>
   
@@ -1354,11 +1409,39 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/javascript-specific/oop-design-patterns/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/javascript-specific/oop-basics/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/js-and-node-specific/template-engines/</loc>
   </url>
   
   <url>
+    <loc>/tech-department/topics/code-wars/java/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/java/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/javascript-specific/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/javascript-specific/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/javascript/</loc>
     <priority>0</priority>
   </url>
   
@@ -1403,6 +1486,10 @@
   
   <url>
     <loc>/tech-department/topics/kotlin/introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/bridging-course-soft-skills/learning-how-to-learn/</loc>
   </url>
   
   <url>
@@ -1470,6 +1557,15 @@
   
   <url>
     <loc>/tech-department/topics/ncit/115392/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/maths/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/free-code-camp/maths-for-programmers/</loc>
   </url>
   
   <url>
@@ -1617,10 +1713,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/js-and-node-specific/oop-basics/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/object-orientated-programming/</loc>
   </url>
   
@@ -1677,6 +1769,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/khan-academy/pre-algebra/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/data-science-specific/logistic-regression/breast-cancer/</loc>
   </url>
   
@@ -1694,6 +1790,10 @@
   
   <url>
     <loc>/tech-department/topics/ncit/115388/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/pull-requests/</loc>
   </url>
   
   <url>
@@ -1784,6 +1884,11 @@
   </url>
   
   <url>
+    <loc>/tech-department/tags/redux/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/data-science-specific/regression/</loc>
   </url>
   
@@ -1863,12 +1968,77 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/khan-academy/cc-seventh-grade-math/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/tags/simple-linear-regression/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tech-department/tags/smtp/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/java/basic-concepts/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/java/conditionals-and-loops/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/java/arrays/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/java/classes-and-objects/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/java/more-on-classes/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/java/exceptions-lists-threads-files/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/javascript/javascript-overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/javascript/basic-concepts/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/javascript/conditionals-and-loops/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/javascript/functions/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/javascript/objects/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/javascript/core-objects/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/javascript/dom-and-events/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/javascript/emcascript-6/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/</loc>
     <priority>0</priority>
   </url>
   
@@ -1981,6 +2151,11 @@
   </url>
   
   <url>
+    <loc>/tech-department/tags/thunks/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/time-managment/</loc>
   </url>
   
@@ -2063,6 +2238,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/syllabuses/web-dev-bridging/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/syllabuses/web-dev-pre-boot/</loc>
   </url>
   
@@ -2137,6 +2316,10 @@
   
   <url>
     <loc>/tech-department/projects/python-specific/build-rest-api-with-db/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/bridging-course-soft-skills/developer-habits/</loc>
   </url>
   
   <url>

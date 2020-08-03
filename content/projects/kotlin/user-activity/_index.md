@@ -1,6 +1,6 @@
 ---
 _db_id: 414
-available_options:
+available_flavours:
 - kotlin
 content_type: project
 prerequisites:
@@ -194,7 +194,7 @@ Sample `colors.xml` file:
 ### Step 3: Change the color resource
 
 In this step, you change the button's accent color to match your activity's app bar.
-  
+
 1 - Open `res/values/colors.xml` and change the value of the `colorAccent` to `#76bf5e`.
 
 `<color name="colorAccent">#76bf5e</color>`

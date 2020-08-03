@@ -16,7 +16,7 @@ title: "Data Science"
 - {{% contentlink path="topics/clean-code/python" %}}
 - {{% contentlink path="projects/git-exercises" %}}
 - NCIT 04: Version control (GIT) for teamwork
-- {{% contentlink path="projects/basic-flow-control-katas" option="python" %}}
+- {{% contentlink path="projects/basic-flow-control-katas" flavour="python" %}}
 - {{% contentlink path="projects/first-personal-website" %}}
 - {{% contentlink path="topics/how-to-ask-for-help-with-your-code" %}}
 - NCIT 10: Workshop: Giving and receiving constructive feedback
@@ -30,30 +30,30 @@ title: "Data Science"
 - {{% contentlink path="topics/python-specific/virtual-envs/" %}}
 - {{% contentlink path="workshops/survey-design" %}}
 - {{% contentlink path="workshops/google-forms-like-a-boss" %}}
-- {{% contentlink path="projects/basic-flow-control-katas-assertive" option="python" %}}
+- {{% contentlink path="projects/basic-flow-control-katas-assertive" flavour="python" %}}
 - {{% contentlink path="projects/data-science-specific/data-visualisation" %}}
 - {{% contentlink path="workshops/intro-to-data-ethics" %}}
 - NCIT 11: Test-driven development
-- {{% contentlink path="projects/tdd/string-calculator" option="python" %}}
-- {{% contentlink path="projects/data-science-specific/statistical-thinking" %}}
+- {{% contentlink path="projects/tdd/string-calculator" flavour="python" %}}
+- {{% contentlink path="projects/data-science-specific/statistical-thinking" flavour="python" %}}
 - {{% contentlink path="topics/tech-terminology" %}}
 - NCIT 12: Business and technology
-- {{% contentlink path="projects/data-science-specific/data-wrangling" %}}
-- {{% contentlink path="projects/data-science-specific/cross-validation-and-simple-linear-regression/" %}}
-- {{% contentlink path="projects/data-science-specific/multivariate-linear-regression" %}}
+- {{% contentlink path="projects/data-science-specific/data-wrangling" flavour="python" %}}
+- {{% contentlink path="projects/data-science-specific/cross-validation-and-simple-linear-regression/" flavour="python" %}}
+- {{% contentlink path="projects/data-science-specific/multivariate-linear-regression" flavour="python" %}}
 - NCIT 13: Object-oriented programming
 - {{% contentlink path="topics/how-the-internet-works" %}}
 - {{% contentlink path="topics/data-ethics-and-privacy" %}}
 - NCIT 05: History of the Internet
 - NCIT 08: Pseudocode and documentation
-- {{% contentlink path="projects/data-science-specific/oop-for-data-science" %}}
-- {{% contentlink path="projects/data-science-specific/dashboards/plotly_dashboards" %}}
+- {{% contentlink path="projects/data-science-specific/oop-for-data-science" flavour="python" %}}
+- {{% contentlink path="projects/data-science-specific/dashboards/plotly_dashboards" flavour="python" %}}
 - NCIT 14: Database Development
 - {{% contentlink path="projects/sql/" %}}
 - NCIT 15: Analytics, Surveys, and Reports / Input & Output
 - {{% contentlink path="projects/data-science-specific/logistic-regression" %}}
 - {{% contentlink path="workshops/agile-scrum/" %}}
-- {{% contentlink path="projects/data-science-specific/decision-trees" %}}
+- {{% contentlink path="projects/data-science-specific/decision-trees" flavour="python"%}}
 - NCIT 16: Thinking like a machine / Boolean algebra, logic
 - NCIT 17: Search and sort techniques
 - NCIT 18: Agile project management
@@ -64,5 +64,5 @@ title: "Data Science"
 - {{% contentlink path="workshops/git-for-teamwork/" %}}
 - {{% contentlink path="workshops/agile-recap/" %}}
 - {{% contentlink path="topics/data-infrastructure/database-comparison/" %}}
-- {{% contentlink path="projects/data-science-specific/k-means-clustering" %}}
-- {{% contentlink path="projects/data-science-specific/natural-language-processing" %}}
+- {{% contentlink path="projects/data-science-specific/k-means-clustering" flavour="python"%}}
+- {{% contentlink path="projects/data-science-specific/natural-language-processing" flavour="python"%}}

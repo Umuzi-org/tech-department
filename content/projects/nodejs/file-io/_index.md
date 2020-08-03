@@ -1,6 +1,6 @@
 ---
 _db_id: 280
-available_options:
+available_flavours:
 - javascript
 content_type: project
 pre: '<b>1: </b>'

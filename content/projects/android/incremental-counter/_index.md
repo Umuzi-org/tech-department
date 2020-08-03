@@ -1,6 +1,6 @@
 ---
 _db_id: 201
-available_options:
+available_flavours:
 - kotlin
 content_type: project
 ready: true

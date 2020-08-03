@@ -11,19 +11,27 @@ For the next two weeks you are expected to behave like a full time Umuzi recruit
 
 And, it's going to be hard work!
 
-## If you don't finish everything, that's ok!
+## We don't expect you to finish everything, but try to stretch yourself!
 
-We've given you a lot of stuff to get through. For many of you it will be too much. Just do your best and focus on understanding! If you don't finish all the excercises it's alright. Just take them one at a time and do your best.
+We've given you a lot of stuff to get through. For most of you it will be WAY too much. Just do your best and focus on understanding. If you don't finish all the excercises it's alright. Just take them one at a time and do your best.
+
+There are three projects we really really need you to finish no matter what. That is:
+
+- the gnomio assessment
+- the first coding excercise
+- the writing excercise
+
+After those, just do as much as you can. The more you can show us the better. But please always remember to focus on understanding. The skills you are learning here will be the foundation of everything you do as a recruit.
 
 ## Intelligent things that you should do
 
-If you get into Umuzi you'll be expected to seek out help when you need it, and you'll be expected to help each other.
+If you get into Umuzi you'll be expected to seek out help when you need it, and you'll be expected to help each other. Practice that now.
 
 If you get stuck: Don't suffer in silence. Ask the other bootcampers, and ask the staff. Be a team player.
 
 If you help someone, don't just give them code to use. They need to understand how to solve the problems themselves.
 
-If you ask someone for help, don't just ask them for answers. YOU need to understand how to solve the problems yourself
+If you ask someone for help, don't just ask them for answers. You need to understand how to solve the problems yourself
 
 ## Silly things you really should avoid doing
 
@@ -45,7 +53,7 @@ We'll also be looking closely at the work you do of course. The code you write s
 
 We'll also be scheduling a few interviews with you where we'll test different things. So keep an eye on your Google calandar, and Gmail inbox!
 
-Once we have all the info we need to make our decisions, we'll start crunching the data. You'll get the results on the first workday after bootcamp. So if bootcamp finishes on Friday, you'll hear from us on Monday.
+Once we have all the info we need to make our decisions, we'll start crunching the data. You'll get the results within two working days of the end of bootcamp. So if Bootcamp ends on Friday, you'll hear back from us on Monday or Tuesday.
 
 ## What happens if you don't make it?
 

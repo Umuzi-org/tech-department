@@ -1,6 +1,6 @@
 ---
 _db_id: 225
-available_options:
+available_flavours:
 - any_language
 content_type: project
 from_repo: projects/oop/animals/part1

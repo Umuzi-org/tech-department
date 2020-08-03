@@ -1,6 +1,6 @@
 ---
 _db_id: 220
-available_options:
+available_flavours:
 - none
 content_type: project
 prerequisites:

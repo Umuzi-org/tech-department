@@ -1,6 +1,6 @@
 ---
 _db_id: 187
-available_options:
+available_flavours:
 - none
 content_type: project
 ready: false
