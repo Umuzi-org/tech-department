@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nlp on Documentation for Umuzi Tech Department</title>
+    <link>/tech-department/tags/nlp/</link>
+    <description>Recent content in Nlp on Documentation for Umuzi Tech Department</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="/tech-department/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Natural language processing</title>
+      <link>/tech-department/projects/data-science-specific/natural-language-processing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/projects/data-science-specific/natural-language-processing/</guid>
+      <description>The contents of the State of the Nation Address (SONA) for every year dating back to 1990 is available on the South African Government website. This gives us a great opportunity to look at the priorities and challenges have faced over time, and the focus points for the various presidents over this time.
+ Create a corpus from the English-language text for the SONAs dating back to 2000. Save them with the speaker information and date for later analysis.</description>
+    </item>
+    
+  </channel>
+</rss>
