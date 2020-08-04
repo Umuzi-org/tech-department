@@ -5,6 +5,7 @@ any_language:
   - kotlin
   - swift
   - typescript
+  - ionic
 
 any_frontend_framework:
   - react
