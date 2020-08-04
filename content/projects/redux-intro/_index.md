@@ -1,18 +1,19 @@
 ---
-title: Intro to Redux for home automation
+_db_id: 469
 available_flavours:
-  - javascript
-  - typescript
+- javascript
+- typescript
 content_type: project
-ready: true
 prerequisites:
   hard:
-    - topics/redux-intro
+  - topics/redux-intro
+ready: true
 submission_type: repo
 tags:
-  - redux
-  - thunks
-  - combineReducers
+- redux
+- thunks
+- combineReducers
+title: Intro to Redux for home automation
 ---
 
 Redux is generally explained in the context of frontend frameworks. Lots of people think that it is a React thing. Lots of people are wrong... Redux is quite a versatile tool. It can even be used in the absence of a frontend.
