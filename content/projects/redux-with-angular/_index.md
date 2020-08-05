@@ -1,14 +1,18 @@
 ---
-title: Redux with Angular
-ready: true
+_db_id: 491
+available_flavours:
+- javascript
+- typescript
+content_type: project
 prerequisites:
-  hard: ["topics/redux-with-angular"]
+  hard:
+  - topics/redux-with-angular
   soft: []
+ready: true
 submission_type: repo
-available_flavours: 
-  - javascript
-  - typescript
+title: Redux with Angular
 ---
+
 Follow this tutorial using redux for state management with angular 4.
 
 - This is a very small library but it has a lot of understanding to be grasped. 

@@ -1,18 +1,18 @@
 ---
-title: Create a fragment.
-ready: True
+_db_id: 482
 available_flavours:
 - kotlin
 content_type: project
-submission_type: repo
 prerequisites:
   hard:
-    - topics/kotlin/delegation
-    - topics/kotlin/delegated-properties
-    - topics/kotlin/generics
-    - topics/kotlin/nested-classes
-  soft:
-    []
+  - topics/kotlin/delegation
+  - topics/kotlin/delegated-properties
+  - topics/kotlin/generics
+  - topics/kotlin/nested-classes
+  soft: []
+ready: true
+submission_type: repo
+title: Create a fragment.
 ---
 
 ## App overview

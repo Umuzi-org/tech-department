@@ -1,18 +1,18 @@
 ---
-title: Lifecycles and logging.
-ready: True
+_db_id: 480
 available_flavours:
 - kotlin
 content_type: project
-submission_type: repo
 prerequisites:
   hard:
-    - topics/kotlin/null-safety
-    - topics/kotlin/annotations
-    - topics/kotlin/constructor-default-values
-    - topics/kotlin/returns-and-jumps
-  soft:
-    []
+  - topics/kotlin/null-safety
+  - topics/kotlin/annotations
+  - topics/kotlin/constructor-default-values
+  - topics/kotlin/returns-and-jumps
+  soft: []
+ready: true
+submission_type: repo
+title: Lifecycles and logging.
 ---
 
 ##  App overview
@@ -512,6 +512,3 @@ This time, `onAttach()` and `onCreate()` are probably not called to start the fr
 10 - Press the device's Home button. Notice in the Logcat that only `onPause()` and `onStop()` are called. This is the same behavior as for the activity: returning home puts the activity and the fragment into the background.
 
 11 - Use the recents screen to return to the app. Just as happened for the activity, the `onStart()` and `onResume()` methods are called to return the fragment to the foreground.
-
-
-

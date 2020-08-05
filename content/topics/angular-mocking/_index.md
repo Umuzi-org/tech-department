@@ -1,9 +1,12 @@
 ---
-title: Mocking with Angular
-ready: True
+_db_id: 475
+content_type: topic
 prerequisites:
-  hard: ["topics/angular-testing-cucumber"]
+  hard:
+  - topics/angular-testing-cucumber
   soft: []
+ready: true
+title: Mocking with Angular
 ---
 
 [Testing with Mocks and Spies](https://codecraft.tv/courses/angular/unit-testing/mocks-and-spies/)

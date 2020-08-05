@@ -3,6 +3,10 @@ _db_id: 118
 content_type: topic
 ready: true
 title: Introduction to Spring Boot - part 3
+prerequisites:
+  hard:
+    - topics/java-specific/introduction-to-spring-boot/part-2
+  soft: []
 ---
 
 Two of the most commonly used Api architectures currently in use are REST and SOAP.
@@ -25,16 +29,14 @@ DELETE - Used to remove a specific resource
 SOAP is an architecture that makes use of XML for queries. It was created before REST to replace systems at that time that made use of
 binary messaging.
 
-
-
-We'll focus on REST in the context of this document.
-------
+## We'll focus on REST in the context of this document.
 
 ## Here is a list of resources where you can find tutorials on the endpoint types.
 
 As part of the examples, let's assume the url to be `https://www.myapi.com`
 
 ## GetMapping
+
 - [GET Endpoint](http://zetcode.com/spring/getmapping/).
 
 ```
@@ -45,44 +47,51 @@ As part of the examples, let's assume the url to be `https://www.myapi.com`
 ```
 
 Here is a breakdown of the snippet above:
+
 - @GetMapping: Tells the API that this method is a Get Endpoint.
 - "/employees": Describes what is appended to the url in order to reach the endpoint. This endpoint is reached using the following url: https://www.myapi.com/employees.
 - The endpoint returns a List of Users.
-- item: The variable being passed into the method. 
+- item: The variable being passed into the method.
 
 ## PostMapping
+
 - [POST Endpoint](https://howtodoinjava.com/spring5/webmvc/controller-getmapping-postmapping/).
 
 ```
 @PostMapping(value = "/posts")
-public UserRest createUser(@RequestBody UserDetailsRequestModel requestUserDetails) 
+public UserRest createUser(@RequestBody UserDetailsRequestModel requestUserDetails)
 {
 	UserRest returnValue = new UserRest();
-				
+
 	UserDto userDto = new UserDto();
 	BeanUtils.copyProperties(requestUserDetails, userDto);
 	UserDto createdUser = userService.createUser(userDto);
 	BeanUtils.copyProperties(createdUser, returnValue);
 	return returnValue;
 ```
+
 Here is a breakdown of the snippet above:
+
 - @PostMapping: Tells the API that this method is a POST Endpoint.
 - "/posts": Describes what is appended to the url in order to reach the endpoint. This endpoint is reached using the following url: https://www.myapi.com/posts.
 - The endpoint returns a List of Users.
 - @RequestBody: The data model that was sent through the POST request. The requestbody is usually sent to the endpoint in a JSON string format.
 
 ## PutMapping
+
 - [PUT Endpoint](https://www.sourcecodeexamples.net/2019/10/putmapping-spring-boot-example.html).
 
 ```
 @PutMapping(value = "/contacts/{contactId}")
-public ResponseEntity<Contact> updateContact(@RequestBody Contact contact, 
+public ResponseEntity<Contact> updateContact(@RequestBody Contact contact,
 		@PathVariable long contactId) {
 	...
 	return ...
 }
 ```
+
 Here is a breakdown of the snippet above:
+
 - @PutMapping: Tells the API that this method is a PUT Endpoint.
 - "/contacts/{contactId}": Describes what is appended to the url in order to reach the endpoint. This endpoint is reached using the following url: https://www.myapi.com/posts/1234-1234-23432.
 - {} indicates that something in the path is a variable. So it's not a fied value.
@@ -90,6 +99,7 @@ Here is a breakdown of the snippet above:
 - @RequestBody: The data model that was sent through the POST request. The requestbody is usually sent to the endpoint in a JSON string format.
 
 ## PatchMapping
+
 - [PATCH Endpoint](https://www.sourcecodeexamples.net/2019/10/patchmapping-spring-boot-example.html).
 
 ```
@@ -98,11 +108,14 @@ public @ResponseBody ResponseEntity<String> patch() {
 	return new ResponseEntity<String>("PATCH Response", HttpStatus.OK);
 }
 ```
+
 Here is a breakdown of the snippet above:
+
 - @PatchMapping: Tells the API that this method is a PATCH Endpoint.
 - "/patch": Describes what is appended to the url in order to reach the endpoint. This endpoint is reached using the following url: https://www.myapi.com/patch.
 
 ## DeleteMapping
+
 - [DELETE Endpoint](http://zetcode.com/spring/deletemapping/).
 
 ```
@@ -114,7 +127,9 @@ public ResponseEntity<Long> deletePost(@PathVariable Long id) {
 	return new ResponseEntity<>(id, HttpStatus.OK);
 }
 ```
+
 Here is a breakdown of the snippet above:
+
 - @DeleteMapping: Tells the API that this method is a DELETE Endpoint.
 - "/contacts/{contactId}": Describes what is appended to the url in order to reach the endpoint. This endpoint is reached using the following url: https://www.myapi.com/posts/1234-1234-23432.
 - {} indicates that something in the path is a variable. So it's not a fied value.

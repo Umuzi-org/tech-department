@@ -1,9 +1,12 @@
 ---
-title: Progressive Web Apps.
-ready: True
+_db_id: 473
+content_type: topic
 prerequisites:
- hard: ["topics/ionic/ionic-tools-and-patterns"]
- soft: []
+  hard:
+  - topics/ionic/ionic-tools-and-patterns
+  soft: []
+ready: true
+title: Progressive Web Apps.
 ---
 
 ### A focus on PWA with Ionic.

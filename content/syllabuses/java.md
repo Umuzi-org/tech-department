@@ -11,8 +11,6 @@ title: Java Basics
 - NCIT 19: Agile meetings
 - {{% contentlink path="workshops/how-to-be-a-professional" %}}
 - {{% contentlink path="projects/linux/beginner" %}}
-- {{% contentlink path="topics/python-self-learning" %}}
-- {{% contentlink path="topics/clean-code/python" %}}
 - {{% contentlink path="projects/git-exercises" %}}
 - NCIT 04: Version control (GIT) for teamwork
 - {{% contentlink path="projects/basic-flow-control-katas" flavour="java" %}}

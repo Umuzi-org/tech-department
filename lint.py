@@ -147,10 +147,10 @@ def check_contentlinks_ok():
 
     os.system("hugo")
     os.system('grep -r "contentlink-missing" public')  # TODO
-    os.system('grep -r "contentlink-todo" public')  # TODO
+    # os.system('grep -r "contentlink-todo" public')  # TODO
 
 
 if __name__ == "__main__":
     check_all_frontmatter_and_directory_names("content")
-    # check_contentlinks_ok()
+    check_contentlinks_ok()
 

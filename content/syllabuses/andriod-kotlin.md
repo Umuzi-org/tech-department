@@ -6,7 +6,7 @@ title: Android Development With Kotlin
 
 - {{% contentlink path="topics/kotlin/basic-control-flow" %}}
 - Project : Liner Layout using the Layout Editor (prerequisite)
-- {{% contentlink path="projects/kotlin/project-1/user-activity" %}}
+- {{% contentlink path="projects/kotlin/project-1/user-activity" flavour="kotlin" %}}
 
 ## Layouts and Data Binding
 
@@ -14,7 +14,7 @@ title: Android Development With Kotlin
 - {{% contentlink path="topics/kotlin/data-binding" %}}
 - {{% contentlink path="topics/kotlin/data-classes" %}}
 - Project : Constraint Layout using Layout Editor (prerequisite)
-- {{% contentlink path="projects/kotlin/project-2/data-binding-basics" %}}
+- {{% contentlink path="projects/kotlin/project-2/data-binding-basics"  flavour="kotlin" %}}
 - Basic Introduction and Control Flow.
 - {{% contentlink path="topics/kotlin/basic-control-flow" %}}
 - {{% contentlink path="projects/kotlin/project-1/liner-layout-using-the-layout-editor" flavour="kotlin" %}}
@@ -35,7 +35,7 @@ title: Android Development With Kotlin
 - {{% contentlink path="topics/kotlin/sealed-classes" %}}
 - Project : Create a Fragment (prerequisite)
 - Project : Define Navigation Paths (prerequisite)
-- {{% contentlink path="projects/kotlin/project-3/external-activity" %}}
+- {{% contentlink path="projects/kotlin/project-3/external-activity"  flavour="kotlin" %}}
 - Classes and Objects
 - {{% contentlink path="topics/kotlin/sealed-classes" %}}
 

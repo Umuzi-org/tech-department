@@ -1,12 +1,11 @@
 ---
+_db_id: 490
+content_type: project
+ready: true
 submission_type: nosubmit
 title: Project 10
-ready: True
 ---
 
 - Styles and themes.
 - Material Design, dimens, and colors.
 - Design for everyone
-
-
-

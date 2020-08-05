@@ -1,11 +1,15 @@
 ---
-title: Redux
-ready: true
+_db_id: 470
+content_type: topic
 prerequisites:
-  hard: ["topics/web-frontend/intro-to-angular",
-         "topics/angular-elements"]
+  hard:
+  - topics/web-frontend/intro-to-angular
+  - topics/angular-elements
   soft: []
-tags: ["BDD"]
+ready: true
+tags:
+- BDD
+title: Redux
 ---
 
 ### Introduction to redux and the use of it with angular for state management.
@@ -17,4 +21,3 @@ tags: ["BDD"]
 [What is Thunk?](https://daveceddia.com/what-is-a-thunk/)
 
 [Thunk example with source code](https://github.com/reduxjs/redux-thunk)
-

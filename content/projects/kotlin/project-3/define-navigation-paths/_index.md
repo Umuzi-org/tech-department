@@ -1,17 +1,15 @@
 ---
-title: Define navigation paths.
-ready: True
+_db_id: 485
 available_flavours:
 - kotlin
 content_type: project
-submission_type: repo
 prerequisites:
   hard:
-    [
-      "projects/kotlin/project-3/create-a-fragment"
-    ]
-  soft:
-    []
+  - projects/kotlin/project-3/create-a-fragment
+  soft: []
+ready: true
+submission_type: repo
+title: Define navigation paths.
 ---
 
 ## App overview
@@ -669,17 +667,3 @@ You have now added several different navigation options to your app.
 The user can now progress through the app by playing the game. They can get back to the home screen at any time by using the Up button. They can get to the About screen either from the Options menu or from the navigation drawer. Pressing the Back button takes them back through previous screens in a way that makes sense for the app. The user can open the navigation drawer by swiping in from the left on any screen, or by tapping the drawer button in the app bar on the home screen.
 
 Your app includes robust, logical navigation paths that are intuitive for your user to use. Congratulations!
-
-
-
-
-
-
-
-
-
-
-
-
-
-

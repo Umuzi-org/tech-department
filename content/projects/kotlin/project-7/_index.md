@@ -1,7 +1,9 @@
 ---
+_db_id: 489
+content_type: project
+ready: true
 submission_type: nosubmit
 title: Project 7
-ready: True
 ---
 
 - RecyclerView fundamentals.

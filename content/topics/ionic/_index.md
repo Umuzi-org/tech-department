@@ -1,4 +1,6 @@
 ---
+_db_id: 474
+content_type: topic
 title: Ionic
 ---
 

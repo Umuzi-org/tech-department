@@ -1,17 +1,15 @@
 ---
-title: Start an external activity.
+_db_id: 483
 available_flavours:
 - kotlin
 content_type: project
-submission_type: repo
-ready: True
 prerequisites:
   hard:
-    [
-      "projects/kotlin/project-3/define-navigation-paths"
-    ]
-  soft:
-    []
+  - projects/kotlin/project-3/define-navigation-paths
+  soft: []
+ready: true
+submission_type: repo
+title: Start an external activity.
 ---
 
 ## App overview
@@ -319,8 +317,3 @@ override fun onOptionsItemSelected(item: MenuItem?): Boolean {
 5 - Now run your app. (You might need to import some packages into GameWonFragment.kt before the code will run.) After you win the game, notice the share icon that appears at the top right of the app bar. Click the share icon to share a message about your victory.
 
 ![](5ab64a083db8844e.png)
-
-
-
-
-

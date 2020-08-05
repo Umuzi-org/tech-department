@@ -1,7 +1,9 @@
 ---
+_db_id: 486
+content_type: project
+ready: true
 submission_type: nosubmit
 title: Project 5
-ready: True
 ---
 
 - ViewModel and ViewModelFactory.

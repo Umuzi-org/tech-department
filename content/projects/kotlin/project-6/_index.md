@@ -1,7 +1,9 @@
 ---
+_db_id: 478
+content_type: project
+ready: true
 submission_type: nosubmit
 title: Project 6
-ready: True
 ---
 
 - Create a Room database.
