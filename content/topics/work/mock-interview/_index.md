@@ -2,7 +2,7 @@
 ready: true
 title: Mock Interviews
 ---
-### Mock Interviews
+
 
 Mock Interviews are done so to give recruits a glimpse of what they can expect from a real
 life interview. This is a great way to prepare them of what is to come.
