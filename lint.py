@@ -70,6 +70,7 @@ def check_one_file_frontmatter(file_path):
     """ given the path to a markdown file, make sure that the frontmatter includes
     the required metadata
     """
+    print(file_path)
     logger = logging.getLogger(__name__)
     name = file_path.name
     if not name.endswith(".md"):

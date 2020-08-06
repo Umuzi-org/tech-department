@@ -7,10 +7,12 @@ any_language:
   - typescript
 
 any_frontend_framework:
-  #   - ionic
   - react
   - angular
   - noframework
+
+any_mobile_development_toolset:
+  - ionic
 
 none:
   - none
