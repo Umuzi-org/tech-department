@@ -2,7 +2,7 @@
 ready: true
 title: Work Place Stress Management
 ---
-### Workplace Stress Management
+
 
 
 This workshop is to be given in preparation for workplace
