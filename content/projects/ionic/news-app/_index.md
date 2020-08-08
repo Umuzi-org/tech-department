@@ -18,7 +18,7 @@ title: Build a news app with Ionic
 
 - Google first, ask if you are unclear.
 
-[News-App Tutorial](C:\Users\bentl\IdeaProjects\tech-department\content\topics\ionic\ionic-angular-typescript\_index.md)
+[News-App Tutorial](https://www.sitepoint.com/ionic-4-angular-build-app/)
 
 - In this project you will use Ionic 4.
 - VS Code is recommended.
