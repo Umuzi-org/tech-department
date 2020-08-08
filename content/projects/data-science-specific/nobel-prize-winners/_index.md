@@ -6,7 +6,8 @@ content_type: project
 prerequisites:
   hard:
   - topics/data-science-specific/datacamp/intro-to-python
-  soft: []
+  soft:
+  - topics/data-science-specific/intro-to-google-colab
 submission_type: repo
 ---
 
