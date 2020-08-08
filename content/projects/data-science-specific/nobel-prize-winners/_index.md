@@ -1,5 +1,5 @@
 ---
-Title: A Visual History of Nobel Prize Winners
+title: A Visual History of Nobel Prize Winners
 available_flavours:
 - python
 content_type: project
