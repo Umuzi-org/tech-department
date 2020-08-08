@@ -5,7 +5,7 @@ available_flavours:
 content_type: project
 prerequisites:
   hard:
-  - topics/data-science-specific/datacamp/
+  - topics/data-science-specific/datacamp/intro-to-python
   soft: []
 submission_type: repo
 ---
