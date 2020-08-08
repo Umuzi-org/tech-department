@@ -1,12 +1,12 @@
 ---
 _db_id: 122
 content_type: topic
-ready: true
-title: Introduction to Spring Boot - part 2
 prerequisites:
   hard:
-    - topics/java-specific/introduction-to-spring-boot/part-1
+  - topics/java-specific/introduction-to-spring-boot/part-1
   soft: []
+ready: true
+title: Introduction to Spring Boot - part 2
 ---
 
 ## Microservices

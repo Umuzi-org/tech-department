@@ -1,12 +1,12 @@
 ---
 _db_id: 118
 content_type: topic
-ready: true
-title: Introduction to Spring Boot - part 3
 prerequisites:
   hard:
-    - topics/java-specific/introduction-to-spring-boot/part-2
+  - topics/java-specific/introduction-to-spring-boot/part-2
   soft: []
+ready: true
+title: Introduction to Spring Boot - part 3
 ---
 
 Two of the most commonly used Api architectures currently in use are REST and SOAP.

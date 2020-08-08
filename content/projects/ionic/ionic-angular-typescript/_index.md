@@ -1,12 +1,12 @@
 ---
 _db_id: 492
 available_flavours:
-  - typescript
-  - ionic
+- typescript
+- ionic
 content_type: project
 prerequisites:
   hard:
-    - topics/ionic/introduction-to-ionic
+  - topics/ionic/introduction-to-ionic
   soft: []
 ready: true
 submission_type: repo

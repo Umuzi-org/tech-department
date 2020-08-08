@@ -5,6 +5,7 @@ any_language:
   - kotlin
   - swift
   - typescript
+#   - bash
 
 any_frontend_framework:
   - react
