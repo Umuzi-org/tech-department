@@ -12,7 +12,7 @@ submission_type: repo
 
 You will need to download and add all the relevant files from [here](https://drive.google.com/drive/folders/1M_5uFtd4G4X1UqLLmxffdBq9U9PkaJft?usp=sharing) and add them to the repo supplied.
 
-Further instructions can be found in the read me.
+Further instructions, as well as setup, can be found in the read me.
 
 
 
