@@ -6,6 +6,8 @@ title: Introduction to Tilde
 
 Welcome to Tilde. We built it with love.
 
+Here is little video tour of the first features you'll be interacting with: https://youtu.be/NC7PmQ-3aCg
+
 If you are new to dev stuff, it's going to look a little weird. Don't worry. Before you get too deep into how we actually use this thing, it'll be good for you to know a bit about the principles and practices that inspired the design.
 
 The first thing to know is that software development on a team is hard. And most techies work on a team. Back in the early days of software development things sucked. A lot. Software projects generally just failed, even big ones backed by people with really solid technical skills. Projects were mostly either late, broken, over-budget or the features were just wrong. If you want success in this line of work, knowing how to use tech is just the tip of the iceberg lettice.
