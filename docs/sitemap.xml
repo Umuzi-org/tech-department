@@ -151,6 +151,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/data-science-specific/nobel-prize-winners/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/apis/basics/</loc>
   </url>
   
@@ -804,6 +808,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/data-science-specific/datacamp/intro-to-python/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/data-infrastructure/database-comparison/</loc>
   </url>
   
@@ -817,6 +825,11 @@
   
   <url>
     <loc>/tech-department/tags/datacamp-logistic-regression/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/data-science-specific/datacamp/</loc>
     <priority>0</priority>
   </url>
   
@@ -1023,6 +1036,10 @@
   
   <url>
     <loc>/tech-department/projects/capstone-projects/gmail-text-scraper/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/data-science-specific/intro-to-google-colab/</loc>
   </url>
   
   <url>

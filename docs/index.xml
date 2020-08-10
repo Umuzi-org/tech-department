@@ -122,7 +122,7 @@ Expected output: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89 in this case n = 2:  </
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/syllabuses/hybrid-mobile-short/</guid>
-      <description>Part 1   TOPICS: Intro to hybrid mobile   TOPICS: Introduction to Typescript   TOPICS: Introduction to web design   PROJECTS: Level 1 programming katas   Part 2   TOPICS: Jasmine Unit testing   PROJECTS: Animals Part 2. Adding Tests   PROJECTS: Add logging to password checker   Part 3   TOPICS: Intro to Angular   PROJECTS: Angular Tutorial   PROJECTS: Add Redux to your semitone game   Part 4   TOPICS: Angular Elements   PROJECTS: Memory game using Angular Material   PROJECTS: [TODO] Game of life: Angular elements   TODO: - Summary project.</description>
+      <description>Part 1   TOPICS: Intro to hybrid mobile   TOPICS: Introduction to Typescript   TOPICS: Introduction to web design   PROJECTS: Level 1 programming katas   Part 2   TOPICS: Jasmine Unit testing  Project: Animal Part 1 (Prerequisite)  PROJECTS: Animals Part 2. Adding Tests  Project : Password-Checker (Prerequisite)  PROJECTS: Add logging to password checker   Part 3   TOPICS: Intro to Angular   PROJECTS: Angular Tutorial  Project : semitone difference - basic algorithm (Prerequisite) Project : make a simple GUI (Prerequisite)  PROJECTS: Add Redux to your semitone game   Part 4   TOPICS: Angular Elements   PROJECTS: Memory game using Angular Material   PROJECTS: [TODO] Game of life: Angular elements   Part 5   TOPICS: Angular testing with Cucumber and Protractor   TOPICS: Mocking with Angular   PROJECTS: Angular Testing with Cucumber   PROJECTS: Mocking with Angular   Part 6   TOPICS: Introduction to Ionic.</description>
     </item>
     
     <item>
@@ -131,7 +131,7 @@ Expected output: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89 in this case n = 2:  </
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/syllabuses/java/</guid>
-      <description>NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile &amp;amp; Scrum   WORKSHOPS: Agile and Scrum  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   PROJECTS: [TODO] Beginner Linux challenges   TOPICS: Python self-learning   TOPICS: Clean Code for Python   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  PROJECTS: Level 1 programming katas   PROJECTS: Build your first personal website   TOPICS: How to ask for help with your code   WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 10: Workshop: Giving and receiving constructive feedback</description>
+      <description>NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile &amp;amp; Scrum   WORKSHOPS: Agile and Scrum  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   PROJECTS: [TODO] Beginner Linux challenges   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  PROJECTS: Level 1 programming katas   PROJECTS: Build your first personal website   TOPICS: How to ask for help with your code   WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 10: Workshop: Giving and receiving constructive feedback</description>
     </item>
     
     <item>
