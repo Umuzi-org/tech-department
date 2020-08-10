@@ -1,13 +1,16 @@
 ---
 title: Hybrid mobile dev short course
 ---
+
 ## Part 1
+
 - {{% contentlink path="topics/intro-to-hybrid-mobile/" %}}
 - {{% contentlink path="topics/intro-to-typescript/" %}}
 - {{% contentlink path="topics/web-frontend/intro-to-web-design/" %}}
 - {{% contentlink path="projects/basic-flow-control-katas" flavour="typescript" %}}
 
 ## Part 2
+
 - {{% contentlink path="topics/jasmine-unit-tests" %}}
 - Project: Animal Part 1 (Prerequisite)
 - {{% contentlink path="projects/oop/animals/part2" flavour="typescript" %}}
@@ -35,7 +38,7 @@ title: Hybrid mobile dev short course
 - {{% contentlink path="projects/angular-testing-with-cucumber" flavour="typescript,angular" %}}
 - {{% contentlink path="projects/angular-mocking" flavour="typescript,angular" %}}
 
-## Part 6 
+## Part 6
 
 - {{% contentlink path="topics/ionic/introduction-to-ionic" flavour="typescript,angular,ionic" %}}
 - {{% contentlink path="projects/ionic/ionic-angular-typescript" flavour="typescript,angular,ionic" %}}
@@ -44,8 +47,8 @@ title: Hybrid mobile dev short course
 
 - {{% contentlink path="topics/ionic/ionic-tools-and-patterns" flavour="typescript,angular,ionic" %}}
 - {{% contentlink path="topics/ionic/progressive-web-apps" flavour="typescript,angular,ionic" %}}
-- {{% contentlink path="projects/ionic/news-app/_index.md" flavour="typescript,angular,ionic" %}}
-
+- {{% contentlink path="projects/ionic/news-app" flavour="typescript,angular,ionic" %}}
 
 TODO:
+
 - Summary project.

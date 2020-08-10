@@ -1,6 +1,7 @@
 ---
 _db_id: 494
 available_flavours:
+- angular
 - typescript
 - ionic
 content_type: project

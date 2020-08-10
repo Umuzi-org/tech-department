@@ -1,5 +1,8 @@
 ---
 _db_id: 475
+available_flavours:
+- angular
+- typescript
 content_type: topic
 prerequisites:
   hard:

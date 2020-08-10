@@ -1,5 +1,8 @@
 ---
 _db_id: 476
+available_flavours:
+- angular
+- typescript
 content_type: topic
 prerequisites:
   hard:
@@ -9,7 +12,7 @@ ready: true
 title: Angular testing with Cucumber and Protractor
 ---
 
-Go through the tutorials to get a better understanding of  testing using Cucumber and Protractor on top of Karma.
+Go through the tutorials to get a better understanding of testing using Cucumber and Protractor on top of Karma.
 
 [Protractor](http://www.protractortest.org/#/)
 

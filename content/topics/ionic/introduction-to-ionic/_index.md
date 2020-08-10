@@ -1,5 +1,9 @@
 ---
 _db_id: 472
+available_flavours:
+- angular
+- typescript
+- ionic
 content_type: topic
 prerequisites:
   hard:

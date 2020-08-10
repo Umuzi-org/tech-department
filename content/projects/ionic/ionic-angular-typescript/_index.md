@@ -2,6 +2,7 @@
 _db_id: 492
 available_flavours:
 - typescript
+- angular
 - ionic
 content_type: project
 prerequisites:
