@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Documentation for Umuzi Tech Department</title>
+    <link>/tech-department/tags/</link>
+    <description>Recent content in Tags on Documentation for Umuzi Tech Department</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="/tech-department/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Agile</title>
+      <link>/tech-department/tags/agile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/agile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ajax</title>
+      <link>/tech-department/tags/ajax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/ajax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apache Airflow</title>
+      <link>/tech-department/tags/apache-airflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/apache-airflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Api</title>
+      <link>/tech-department/tags/api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bash</title>
+      <link>/tech-department/tags/bash/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bdd</title>
+      <link>/tech-department/tags/bdd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/bdd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Combinereducers</title>
+      <link>/tech-department/tags/combinereducers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/combinereducers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Css</title>
+      <link>/tech-department/tags/css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dashboard</title>
+      <link>/tech-department/tags/dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/dashboard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Ethics</title>
+      <link>/tech-department/tags/data-ethics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/data-ethics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Visualisation Datacamp</title>
+      <link>/tech-department/tags/data-visualisation-datacamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/data-visualisation-datacamp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Visualisation Mobile Money</title>
+      <link>/tech-department/tags/data-visualisation-mobile-money/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/data-visualisation-mobile-money/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Wrangling</title>
+      <link>/tech-department/tags/data-wrangling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/data-wrangling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Datacamp Logistic Regression</title>
+      <link>/tech-department/tags/datacamp-logistic-regression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/datacamp-logistic-regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decision Trees</title>
+      <link>/tech-department/tags/decision-trees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/decision-trees/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decorators</title>
+      <link>/tech-department/tags/decorators/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/decorators/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker Compose</title>
+      <link>/tech-department/tags/docker-compose/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/docker-compose/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dom Manipulation</title>
+      <link>/tech-department/tags/dom-manipulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/dom-manipulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Environmental Variables</title>
+      <link>/tech-department/tags/environmental-variables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/environmental-variables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Error Checking</title>
+      <link>/tech-department/tags/error-checking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/error-checking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Express</title>
+      <link>/tech-department/tags/express/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/express/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fileio</title>
+      <link>/tech-department/tags/fileio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/fileio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>/tech-department/tags/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Datastudio</title>
+      <link>/tech-department/tags/google-datastudio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/google-datastudio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hcd</title>
+      <link>/tech-department/tags/hcd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/hcd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Html</title>
+      <link>/tech-department/tags/html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human Centered Design</title>
+      <link>/tech-department/tags/human-centered-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/human-centered-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kafka</title>
+      <link>/tech-department/tags/kafka/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/kafka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kmeans</title>
+      <link>/tech-department/tags/kmeans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/kmeans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>/tech-department/tags/linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Logging</title>
+      <link>/tech-department/tags/logging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/logging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Logistic Regression</title>
+      <link>/tech-department/tags/logistic-regression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/logistic-regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maths</title>
+      <link>/tech-department/tags/maths/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/maths/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mocks</title>
+      <link>/tech-department/tags/mocks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/mocks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mocks and Spies</title>
+      <link>/tech-department/tags/mocks-and-spies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/mocks-and-spies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiple Linear Regression</title>
+      <link>/tech-department/tags/multiple-linear-regression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/multiple-linear-regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ncit</title>
+      <link>/tech-department/tags/ncit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/ncit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nlp</title>
+      <link>/tech-department/tags/nlp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Node</title>
+      <link>/tech-department/tags/node/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/node/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oop</title>
+      <link>/tech-department/tags/oop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/oop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oop Data Sci</title>
+      <link>/tech-department/tags/oop-data-sci/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/oop-data-sci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plotly</title>
+      <link>/tech-department/tags/plotly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/plotly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Postgres</title>
+      <link>/tech-department/tags/postgres/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/postgres/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>/tech-department/tags/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rabbit Mq</title>
+      <link>/tech-department/tags/rabbit-mq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/rabbit-mq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Redux</title>
+      <link>/tech-department/tags/redux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/redux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regular Expressions</title>
+      <link>/tech-department/tags/regular-expressions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/regular-expressions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scrum</title>
+      <link>/tech-department/tags/scrum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/scrum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simple Linear Regression</title>
+      <link>/tech-department/tags/simple-linear-regression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/simple-linear-regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smtp</title>
+      <link>/tech-department/tags/smtp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/smtp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sql</title>
+      <link>/tech-department/tags/sql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stats</title>
+      <link>/tech-department/tags/stats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/stats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tdd</title>
+      <link>/tech-department/tags/tdd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/tdd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thunks</title>
+      <link>/tech-department/tags/thunks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/thunks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unit Testing</title>
+      <link>/tech-department/tags/unit-testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/unit-testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Webscraping</title>
+      <link>/tech-department/tags/webscraping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/tags/webscraping/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

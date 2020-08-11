@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Css on Documentation for Umuzi Tech Department</title>
+    <link>/tech-department/tags/css/</link>
+    <description>Recent content in Css on Documentation for Umuzi Tech Department</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="/tech-department/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Build your first personal website</title>
+      <link>/tech-department/projects/first-personal-website/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/projects/first-personal-website/</guid>
+      <description>For the learnership you will create a website with your CV and a portfolio of your work. Create the website and host it on Github. You will be expected to keep your portfolio up to date throughout the learnership.
+Instructions Create a personal website to showcase your talents and ambitions.
+The content and information you choose to display is up to you. There should be some information about your skills, interests, and previous experience, as well as information on how to get in touch with you.</description>
+    </item>
+    
+  </channel>
+</rss>
