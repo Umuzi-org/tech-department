@@ -14,6 +14,7 @@ Basically this is when the interviewer asks you to solve a code challenge on a w
 right there and then.Also in explaining the code,they get more information about your coding skills.
 
 These tips can help you prepare for the whiteboarding interviews;
+
 - Always participate in whiteboard challenges within your cohort,these will help you get used to explaining infront of people
 - Have a list of practice questions that you practice with
 - Watch how others do,this is going to help you see what you also can improve on
@@ -25,10 +26,11 @@ These tips can help you prepare for the whiteboarding interviews;
 Companies often want to see what you can or cannot do and code tests are valuable for that reason.
 Normally they dont expect juniors to get 100% but to get a better understanding of their skills.
 
-How to prepare for this
+How to prepare for this:
+
 - Practice makes perfect. There are a lot of sites that let you practice your coding skills.
 - Focus alot on your problem solving skills
-- 
+
 
 
 #### Technical questions
@@ -36,16 +38,18 @@ These are questions that are specific to the role that the Junior is going to be
 It helps interviewers see if the candidates know what the job inloves and if they can fulfil the role.
 
 You can prepare for this by:
+
 - Getting to know exactly what is involved in the role you are applying for so you can see what you need to either prepare for or sharpen.
 - Practice common terminologies in that specific language and be able to explain them
 - Gather material on coding,this can help you increase your knowledge and provide confident, thorough answers in your interview.
 
 
 Some examples of questions to help you prepare
--Web Development
+
+- Web Development
 https://learning.naukri.com/articles/top-20-web-developer-interview-questions-answers/
 
--JavaScript
+- JavaScript
 https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95
 
 #### Talking about experiences and portfolio
