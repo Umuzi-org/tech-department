@@ -16,7 +16,7 @@ https://docs.google.com/document/d/1O6IGatGF-rUZsMO3ORwVdIigLF4Cgx7-MKsmMQXd4y8/
 These interviews not only involve the questions but the following too;
 
 
- #### Whitebording
+#### Whitebording
 Basically this is when the interviwer asks the interviwee to solve some code challenges  on a whiteboard 
 right there and then.Also in explaining the code,we get more information about their coding skills.
 
