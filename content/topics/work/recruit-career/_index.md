@@ -3,7 +3,7 @@ ready: true
 title: Recruit Career Questionnaire
 ---
 
-Please complete the Questionaire below
+Please complete the Questionnaire below
 
 This is all invloved in preparing you for work experience
 
