@@ -31,11 +31,15 @@ How to prepare for this:
 - Practice makes perfect. There are a lot of sites that let you practice your coding skills.
 - Focus alot on your problem solving skills
 
+These links has perfect examples that can help you with this
+https://devskiller.com/coding-tests-skill/web-development/
+
+https://coderbyte.com/?utm_campaign=Employer%20-%20coderbyte.com/organizations&utm_source=orange_top_bar
 
 
 #### Technical questions
 These are questions that are specific to the role that the Junior is going to be filling.
-It helps interviewers see if the candidates know what the job inloves and if they can fulfil the role.
+It helps interviewers see if the candidates know what the job involves and if they can fulfil the role.
 
 You can prepare for this by:
 
@@ -51,6 +55,9 @@ https://learning.naukri.com/articles/top-20-web-developer-interview-questions-an
 
 - JavaScript
 https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95
+
+- DataScience
+https://www.simplilearn.com/tutorials/data-science-tutorial/data-science-interview-questions
 
 #### Talking about experiences and portfolio
 This is a very important part as it is a visual representation of the skills that a recruit/junior has.
