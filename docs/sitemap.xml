@@ -241,12 +241,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/android/</loc>
+    <loc>/tech-department/topics/android/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/topics/android/</loc>
+    <loc>/tech-department/projects/android/</loc>
     <priority>0</priority>
   </url>
   
@@ -428,10 +428,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/bootcamp/bash-for-bootcamp/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/basic-algorithmic-scripting/</loc>
   </url>
   
@@ -478,6 +474,10 @@
   
   <url>
     <loc>/tech-department/projects/linux/beginner/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/bootcamp/bash-for-bootcamp/</loc>
   </url>
   
   <url>
@@ -1497,12 +1497,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/javascript-specific/</loc>
+    <loc>/tech-department/workshops/javascript-specific/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/workshops/javascript-specific/</loc>
+    <loc>/tech-department/topics/javascript-specific/</loc>
     <priority>0</priority>
   </url>
   
@@ -2361,6 +2361,10 @@
   
   <url>
     <loc>/tech-department/syllabuses/web-dev/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/syllabuses/web-dev-no-ncit-external/</loc>
   </url>
   
   <url>
