@@ -1,6 +1,8 @@
 ---
-title: Introduction to Typescript
+_db_id: 179
+content_type: topic
 ready: true
+title: Introduction to Typescript
 ---
 
 As usual, the official docs say it best :)

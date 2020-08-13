@@ -1,7 +1,12 @@
 ---
-title: Agile Meetings
-ready: false
-tags: ["agile", "scrum"]
+_db_id: 357
+content_type: topic
 nqf: ncit
-unit_standards: [114051]
+ready: false
+tags:
+- agile
+- scrum
+title: Agile Meetings
+unit_standards:
+- 114051
 ---

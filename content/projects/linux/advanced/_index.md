@@ -1,6 +1,11 @@
 ---
-title: Advanced Linux challenges
+_db_id: 187
+available_flavours:
+- none
+content_type: project
 ready: false
+submission_type: repo
+title: Advanced Linux challenges
 todo: 2.4 doesn't make sense
 ---
 

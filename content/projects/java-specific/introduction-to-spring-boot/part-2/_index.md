@@ -1,17 +1,24 @@
 ---
-title: Introduction to Spring Boot - part 2
-ready: true
+_db_id: 218
+available_flavours:
+- java
+content_type: project
+from_repo: projects/java-specific/introduction-to-spring-boot/part-1
 prerequisites:
-  hard: ["projects/java-specific/introduction-to-spring-boot/part-1",
-         "topics/java-specific/introduction-to-spring-boot/part-2"]
+  hard:
+  - projects/java-specific/introduction-to-spring-boot/part-1
+  - topics/java-specific/introduction-to-spring-boot/part-2
   soft: []
+ready: true
+submission_type: continue_repo
+title: Introduction to Spring Boot - part 2
 ---
 
 We are going to work on Spring boot **Caching** and **Security** for this project
 
 ## Caching
 
-Continuing with {{% contentlink "projects/java-specific/introduction-to-spring-boot/part-1" %}} for the **User** we are going to add **security** and **caching** on the application and we will use test to see if the application does what we want it to.
+Continuing with {{% contentlink path="projects/java-specific/introduction-to-spring-boot/part-1" %}} for the **User** we are going to add **security** and **caching** on the application and we will use test to see if the application does what we want it to.
 
 **Step 1**
 

@@ -1,6 +1,8 @@
 ---
+_db_id: 314
+content_type: topic
+ready: true
 title: Intermediate Algorithm Scripting
-ready: True
 ---
 
 Make an account here if you haven't already: https://www.freecodecamp.org/learn

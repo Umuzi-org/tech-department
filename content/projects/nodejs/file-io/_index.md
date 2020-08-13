@@ -1,20 +1,26 @@
 ---
-title: Node & File IO
-ready: true
-weight: 1
-pre: "<b>1: </b>"
+_db_id: 280
+available_flavours:
+- javascript
+content_type: project
+pre: '<b>1: </b>'
 prerequisites:
-  hard: ["topics/js-and-node-specific/node"]
+  hard:
+  - topics/js-and-node-specific/node
   soft: []
-tags: ["Node", "FileIO"]
+ready: true
 story_points: 3
+submission_type: repo
+tags:
+- Node
+- FileIO
+title: Node & File IO
+weight: 1
 ---
 
 You are required to create a back-end service that will help capture basic information about prospective students who come to inquire here at Umuzi. In this project you'll just be storing and retrieving information from plain old json files.
 
 ## Instructions
-
-Create the following functionality in a TDD way.
 
 1. Create a class called Visitor. Instances of this class should have the following properties:
 

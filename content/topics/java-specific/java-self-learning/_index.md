@@ -1,6 +1,8 @@
 ---
-title: Java learning materials
+_db_id: 110
+content_type: topic
 ready: true
+title: Java learning materials
 ---
 
 You are expected to spend your free time learning and practicing your Java development skills. Here are some resources for you. Different people tend to prefer different resources because they support different styles of learning.

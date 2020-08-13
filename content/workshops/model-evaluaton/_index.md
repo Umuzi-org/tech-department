@@ -1,6 +1,8 @@
 ---
+_db_id: 12
+content_type: workshop
+ready: true
 title: Model Evaluation
-ready: True
 ---
 
 ### The slides to the workshop on Understanding Linear regression metrics

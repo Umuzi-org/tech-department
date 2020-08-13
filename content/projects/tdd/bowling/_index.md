@@ -1,7 +1,12 @@
 ---
-title: ten-pin bowling scoring system
-pre: "<b>HARD: </b>"
+_db_id: 272
+available_flavours:
+- any_language
+content_type: project
+pre: '<b>HARD: </b>'
 ready: true
+submission_type: repo
+title: ten-pin bowling scoring system
 ---
 
 ## Take Note
@@ -15,8 +20,6 @@ When you submit your code (on Github people!) then your tests MUST BE included i
 In a professional setting, untested code is incomplete code.
 
 In general: Follow recognized best practices around whatever language and test framework you are using. Eg: consistent naming conventions of functions, test files and literally everything else. Literally.
-
-Also this is a team project. Do this in groups of two following a TDD ping-pong approach as described here: {{% contentlink "workshops/intro-to-pair-programming/" %}}
 
 ## Instructions
 
@@ -63,4 +66,4 @@ PLEASE DO NOT IMPLEMENT A FANCY GUI. We don't care to see the bowling pins or th
 
 This is not a simple project. To build something awesome you should be aware of a few architectural concepts.
 
-- {{% contentlink "topics/basic-architecture-concepts" %}}
+- {{% contentlink path="topics/basic-architecture-concepts" %}}

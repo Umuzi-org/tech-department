@@ -1,6 +1,11 @@
 ---
-title: Incremental Counter
+_db_id: 201
+available_flavours:
+- kotlin
+content_type: project
 ready: true
+submission_type: repo
+title: Incremental Counter
 ---
 
 This project is an introduction to how the ui of an app communicates with the code in the associated activity.
@@ -17,7 +22,7 @@ example: When creating a button that's purpose is to save the data on the screen
 
 ## Project Description
 
-In this project you will create a screen containing 2 Buttons, a TextView and an EditText. 
+In this project you will create a screen containing 2 Buttons, a TextView and an EditText.
 
 - The TextView will start with a default value of "0".
 - The EditText should accept an integer input.
@@ -25,4 +30,3 @@ In this project you will create a screen containing 2 Buttons, a TextView and an
 - 1 Button will, when pressed decrement the value of the TextView by the number in the input field.
 
 The app should handle situations where a user inputs a non-numerical value by displaying a popup message indicating to the user that the input data was incorrect.
-

@@ -1,6 +1,8 @@
 ---
+_db_id: 162
+content_type: topic
+ready: true
 title: Web scraping with Python
-ready: True
 ---
 
 Python's `beautifulsoup` package is great for web-scraping. See the documentation at [beautifulsoup](https://pypi.org/project/beautifulsoup4/).

@@ -1,6 +1,8 @@
 ---
+_db_id: 90
+content_type: topic
+ready: true
 title: Introduction to pair programming
-ready: True
 ---
 
 ## What is it?

@@ -1,24 +1,29 @@
 ---
-title: OOP for data science
-pre: "<b>MEDIUM: </b>"
-ready: true
+_db_id: 232
+available_flavours:
+- python
+content_type: project
+pre: '<b>MEDIUM: </b>'
 prerequisites:
   hard:
-    [
-      "topics/python-specific/oop-for-python",
-      "projects/data-science-specific/cross-validation-and-simple-linear-regression",
-      "projects/data-science-specific/multivariate-linear-regression",
-    ]
-  soft: ["topics/python-specific/oop-basics"]
-tags: ["oop-data-sci"]
+  - topics/python-specific/oop-for-python
+  - projects/data-science-specific/cross-validation-and-simple-linear-regression
+  - projects/data-science-specific/multivariate-linear-regression
+  soft:
+  - topics/python-specific/oop-basics
+ready: true
 story_points: 5
+submission_type: repo
+tags:
+- oop-data-sci
+title: OOP for data science
 ---
 
 ## Prerequisite
 
-You need to complete the Multivariate Regression assignment using the salary dataset before doing this assignment ({{% contentlink "projects/data-science-specific/multivariate-linear-regression" %}}). You will use the data and the model you built in that assignment for this OOP assignment.
+You need to complete the Multivariate Regression assignment using the salary dataset before doing this assignment ({{% contentlink path="projects/data-science-specific/multivariate-linear-regression" %}}). You will use the data and the model you built in that assignment for this OOP assignment.
 
-Go through the OOP for Python topic {{% contentlink "topics/python-specific/oop-for-python" %}} before starting this assignment.
+Go through the OOP for Python topic {{% contentlink path="topics/python-specific/oop-for-python" %}} before starting this assignment.
 
 You may also want to look at Khan Academy's content on [interpreting residual plots](https://www.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data/assessing-the-fit-in-least-squares-regression/v/residual-plots).
 

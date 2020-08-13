@@ -1,6 +1,8 @@
 ---
+_db_id: 81
+content_type: topic
+ready: true
 title: Intro to functional programming
-ready: True
 ---
 
 This week is all about higher-order functions: map, reduce and filter.

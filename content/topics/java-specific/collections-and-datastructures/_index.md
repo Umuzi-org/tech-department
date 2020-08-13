@@ -1,6 +1,8 @@
 ---
-title: Java collections and data structures
+_db_id: 109
+content_type: topic
 ready: true
+title: Java collections and data structures
 ---
 
 Till now I am sure you have heard that the computer has storage either RAM or disk, which it uses to store information we care about. As people we care about a lot of things meaning a lot of information being stored  and efficiently enough for us to get access to it without any hassles.
@@ -29,4 +31,3 @@ https://www.geeksforgeeks.org/data-structures/
 https://www.geeksforgeeks.org/linked-list-vs-array/
 
 https://www.geeksforgeeks.org/collections-in-java-2/
-

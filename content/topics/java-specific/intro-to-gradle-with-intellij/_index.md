@@ -1,6 +1,8 @@
 ---
+_db_id: 113
+content_type: topic
+ready: true
 title: Introduction to Gradle
-ready: true 
 ---
 
 ## What is gradle
@@ -38,4 +40,3 @@ public class Gradle{
 }
 ```
 8. In the editor, in the left gutter, press icons toolwindows toolWindowRun svg and select Run 'HelloGradle.main()'.
-

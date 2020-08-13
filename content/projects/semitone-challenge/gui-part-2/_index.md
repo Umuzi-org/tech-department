@@ -1,8 +1,22 @@
 ---
-title: A gui that is more...awesome
-pre: "<b>4. </b>"
-weight: 4
+_db_id: 194
+available_flavours:
+- javascript
+- typescript
+- any_frontend_framework
+content_type: project
+from_repo: projects/semitone-challenge/basic-algorithm
+pre: <b>4. </b>
+prerequisites:
+  hard:
+  - projects/semitone-challenge/basic-algorithm
+  - projects/semitone-challenge/gui-part-1
+  - projects/semitone-challenge/advanced-algorithm
+  soft: []
 ready: true
+submission_type: continue_repo
+title: A gui that is more...awesome
+weight: 4
 ---
 
 Extend your simple gui with the following behavior:

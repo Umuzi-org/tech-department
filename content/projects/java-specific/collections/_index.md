@@ -1,17 +1,20 @@
 ---
-title: Java collections
-ready: true
+_db_id: 211
+available_flavours:
+- java
+content_type: project
 prerequisites:
-  hard: ["projects/oop/animals",
-        "topics/java-specific/collections-and-datastructures"]
+  hard:
+  - projects/oop/animals
+  - topics/java-specific/collections-and-datastructures
   soft:
-    [
-      "topics/intro-to-docker",
-      "topics/java-specific/intro-to-gradle-with-intellij",
-      "projects/how-to-submit-your-project",
-      "projects/oop/dice",
-      "projects/oop/person",
-    ]
+  - topics/intro-to-docker
+  - topics/java-specific/intro-to-gradle-with-intellij
+  - projects/oop/dice
+  - projects/oop/person
+ready: true
+submission_type: repo
+title: Java collections
 ---
 
 This project assumes you have gone through the reading for both data structures as well as collection, but for a quick recap for the purpose of this project:

@@ -1,6 +1,8 @@
 ---
+_db_id: 173
+content_type: topic
+ready: true
 title: Angular Elements
-ready: True
 ---
 
 Are you detecting a pattern yet?

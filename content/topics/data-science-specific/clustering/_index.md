@@ -1,6 +1,8 @@
 ---
+_db_id: 148
+content_type: topic
+ready: true
 title: K-Means Clustering
-ready: True
 ---
 
 There are many different clustering algorithms to cluster, or group, objects based on how similar (or close in terms of distance) their attributes are.

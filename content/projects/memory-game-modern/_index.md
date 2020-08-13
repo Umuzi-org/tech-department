@@ -1,15 +1,13 @@
 ---
-title: "Memory Game: rebuild using a modern web frontend framework"
+_db_id: 287
+available_flavours:
+- any_frontend_framework
+content_type: project
+submission_type: repo
+title: 'Memory Game: rebuild using a modern web frontend framework'
 ---
 
-## Prerequisites
-
-You should have already completed this:
-{{% contentlink "projects/memory-game-vanilla" %}}
-
-You should also have some solid TDD skills.
-
-You need to be familiar with either AngularJs or React.
+Take a look at this: {{% contentlink path="projects/memory-game-vanilla" %}}
 
 ## Instructions
 

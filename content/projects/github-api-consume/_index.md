@@ -1,11 +1,17 @@
 ---
-title: Consume Github API
-ready: true
+_db_id: 186
+available_flavours:
+- any_language
+content_type: project
 prerequisites:
-  hard: ["topics/apis/basics/"]
+  hard:
+  - topics/apis/basics/
   soft: []
-tags: []
+ready: true
 story_points: 3
+submission_type: repo
+tags: []
+title: Consume Github API
 ---
 
 In this project you'll make use of Github's awesome API. We chose Github for this project because:

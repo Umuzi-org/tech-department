@@ -1,6 +1,8 @@
 ---
+_db_id: 65
+content_type: topic
+ready: true
 title: DAGs with Airflow
-ready: True
 ---
 
 Apache airflow is what Airbnb use to manage their data pipelines. They built it and then gave it to the Apache foundation. It is now an Apache top level project. Read a little bit about Apache if you don't know the significance of that. TLDR; it's a solid piece of tech.

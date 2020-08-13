@@ -1,41 +1,18 @@
 ---
-title: Person
-ready: true
+_db_id: 223
+available_flavours:
+- any_language
+content_type: project
 prerequisites:
   hard: []
   soft: []
-tags: ["oop"]
+ready: true
 story_points: 2
+submission_type: repo
+tags:
+- oop
+title: Person
 ---
-
-## Project structure
-
-### Java
-
-The code you push to git should have the following structure:
-
-```
-├── build.gradle
-├── gradle
-│   └── wrapper
-│       ├── gradle-wrapper.jar
-│       └── gradle-wrapper.properties
-├── gradlew
-├── gradlew.bat
-├── settings.gradle
-└── src
-    ├── main
-        └── java
-            ├── Person.java       <-------- names are important
-            └── MainProgram.java  <-------- names are important
-
-```
-
-Please refer to the following to find out more: {{% contentlink "topics/java-specific/project-submission-requirements" %}}
-
-## Instructions
-
-Please follow TDD when implementing this code if you have covered TDD in your course.
 
 Create a `class` called `Person` which defines the generic data and functionality of a human.
 

@@ -2,30 +2,69 @@
 title: Android Development With Kotlin
 ---
 
-## Part 1
+## Basic Introduction and Control Flow.
 
+- {{% contentlink path="topics/kotlin/basic-control-flow" %}}
+- Project : Liner Layout using the Layout Editor (prerequisite)
+- {{% contentlink path="projects/kotlin/project-1/user-activity" flavour="kotlin" %}}
+
+## Layouts and Data Binding
+
+- {{% contentlink path="topics/kotlin/grid-layout" %}}
+- {{% contentlink path="topics/kotlin/data-binding" %}}
+- {{% contentlink path="topics/kotlin/data-classes" %}}
+- Project : Constraint Layout using Layout Editor (prerequisite)
+- {{% contentlink path="projects/kotlin/project-2/data-binding-basics"  flavour="kotlin" %}}
 - Basic Introduction and Control Flow.
-- {{% contentlink "topics/kotlin/basic-control-flow" %}}
-- {{% contentlink "projects/kotlin/liner-layout-using-the-layout-editor" %}}
+- {{% contentlink path="topics/kotlin/basic-control-flow" %}}
+- {{% contentlink path="projects/kotlin/project-1/liner-layout-using-the-layout-editor" flavour="kotlin" %}}
 
-## Part 2
-- Layouts and Data Binding
-- {{% contentlink "topics/kotlin/grid-layout" %}}
-- {{% contentlink "topics/kotlin/data-binding" %}}
-- {{% contentlink "topics/kotlin/data-classes" %}}
-- {{% contentlink "projects/kotlin/data-binding-basics" %}}
+## Layouts and Data Binding
 
-## Part 3
+- {{% contentlink path="topics/kotlin/grid-layout" %}}
+- {{% contentlink path="topics/kotlin/data-binding" %}}
+- {{% contentlink path="topics/kotlin/data-classes" %}}
+- {{% contentlink path="projects/kotlin/project-2/data-binding-basics" flavour="kotlin" %}}
 
+## Classes and Objects
+
+- Topic : Classes
+- Topic : Properties and Fields
+- Topic : Interface
+- Topic : Data Classes (Review)
+- {{% contentlink path="topics/kotlin/sealed-classes" %}}
+- Project : Create a Fragment (prerequisite)
+- Project : Define Navigation Paths (prerequisite)
+- {{% contentlink path="projects/kotlin/project-3/external-activity"  flavour="kotlin" %}}
 - Classes and Objects
-- {{% contentlink "topics/kotlin/sealed-classes" %}}
+- {{% contentlink path="topics/kotlin/sealed-classes" %}}
 
-## Part 4
+## Delegation, Generics and Classes.
 
+- Topic : Delegation
+- Topic : Delegated Properties
+- Topic : Generics
+- Topic : Nested Classes
+- {{% contentlink path="topics/kotlin/enum-classes" %}}
 - Generics, nested and enum classes.
-- {{% contentlink "topics/kotlin/enum-classes" %}}
+- {{% contentlink path="topics/kotlin/enum-classes" %}}
 
-## Part 5
+## Null Safety, Annotations, Constructor, Returns and Jumps.
 
+- Topic : Null Safety
+- Topic : Annotations
+- Topic : Constructor Default Values
+- {{% contentlink path="topics/kotlin/returns-and-jumps" %}}
+
+## Null Safety, Annotations, Constructor, Returns and Jumps.
+
+- Topic : Internet and Data Images.
+- Topic : Work Manager
+- Topic : Functions
+- {{% contentlink path="topics/kotlin/in-line-functions" %}}
+
+## Testing
+
+- Topic - Unit Testing
 - Delegation and delegated properties.
-- {{% contentlink "topics/kotlin/delegated-properties" %}}
+- {{% contentlink path="topics/kotlin/delegated-properties" %}}

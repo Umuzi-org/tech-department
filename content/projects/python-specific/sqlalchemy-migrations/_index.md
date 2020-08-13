@@ -1,10 +1,16 @@
 ---
-title: Database migrations with SQLAlchemy
-ready: True
+_db_id: 261
+available_flavours:
+- python
+content_type: project
 prerequisites:
-  hard: ["topics/python-specific/sqlalchemy/migrations"]
+  hard:
+  - topics/python-specific/sqlalchemy/migrations
   soft: []
+ready: true
+submission_type: repo
 tags: []
+title: Database migrations with SQLAlchemy
 ---
 
 In this project you will practice the basics of alembic based migrations. A lot of this stuff might seem quite straight-forward now, but focus! When mygrations go wrong in production then life gets way too hard, and real user data can be put at serious risk!

@@ -1,6 +1,8 @@
 ---
+_db_id: 49
+content_type: topic
+ready: true
 title: Introduction to Design Patterns
-ready: True
 ---
 
 Design patterns are reusable solutions for various programming tasks which programmers have encounter over years. They aim to give direction based on lessons learnt so you don't get to make the same mistakes in the future and they are also a great conversation started.😉

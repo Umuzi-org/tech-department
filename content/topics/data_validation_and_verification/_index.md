@@ -1,6 +1,8 @@
 ---
-title: Data Validation
+_db_id: 144
+content_type: topic
 ready: true
+title: Data Validation
 ---
 
 ### Data validation

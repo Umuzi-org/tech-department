@@ -1,6 +1,8 @@
 ---
-title: Git Basics
+_db_id: 143
+content_type: topic
 ready: true
+title: Git Basics
 todo: link to some videos?
 ---
 
@@ -31,10 +33,10 @@ As you progress through this course you will have to write a lot of code. All yo
 
 ## Github
 
-We use Github for keeping our code safe. [Here](https://guides.github.com/introduction/git-handbook/) is a little intro and 
+We use Github for keeping our code safe. [Here](https://guides.github.com/introduction/git-handbook/) is a little intro and
 [here](https://drive.google.com/open?id=1g5oD59DFQbrhPHvW7a8mW8NKI1UNV-dZ) is the official cheat sheet.
 
-Also checkout {{% contentlink "topics/bootcamp/git-for-bootcamp" %}}
+Also checkout {{% contentlink path="topics/bootcamp/git-for-bootcamp" %}}
 
 ## For our data recruits
 

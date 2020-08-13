@@ -11,17 +11,6 @@
     
     
     <item>
-      <title>C shape</title>
-      <link>/tech-department/katas/use-loops-to-print-patterns/c-shape/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tech-department/katas/use-loops-to-print-patterns/c-shape/</guid>
-      <description> C SHAPE Write a function that takes in number as argument and draws the C pattern/shape Input
-let cPattern(5) =&amp;gt; Expected output:  def cPattern(5):  Input
-***** * * * *****  </description>
-    </item>
-    
-    <item>
       <title>Ceasar cipher</title>
       <link>/tech-department/katas/ceasar-cipher/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -72,21 +61,6 @@ Expected output: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89 in this case n = 2:  </
     </item>
     
     <item>
-      <title>Squares</title>
-      <link>/tech-department/katas/use-loops-to-print-patterns/squares/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tech-department/katas/use-loops-to-print-patterns/squares/</guid>
-      <description> Print (triangles &amp;amp; squares) using loops 1. Write a function that takes in number as argument and prints a square
-Input
-let square(n) =&amp;gt;  def square(n):  Output
-expected output: remember to use &amp;quot;*&amp;quot; ##### ##### ##### ##### #####  2 Write a function that takes in number as argument and prints a hollow square in the center
-Input
-let square(n) =&amp;gt;  def square(n):  Output
-expected output: remember to use &amp;quot;*&amp;quot; ##### # # # # # # #####  </description>
-    </item>
-    
-    <item>
       <title>String reverse</title>
       <link>/tech-department/katas/string-reverse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -107,24 +81,12 @@ expected output: remember to use &amp;quot;*&amp;quot; ##### # # # # # # #####  
     </item>
     
     <item>
-      <title>Triangles</title>
-      <link>/tech-department/katas/use-loops-to-print-patterns/triangles/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tech-department/katas/use-loops-to-print-patterns/triangles/</guid>
-      <description>Print (triangles &amp;amp; squares) using loops 1. Write a function that takes in number as argument and draws a right angled triangle using the &amp;ldquo; * &amp;ldquo; characters. If the input is 4, then the output is a traingle with height 4
-Input
-let triangle(4) =&amp;gt;  def triangle(n):  Output
-expected output: RIGHT ANGLE TRIANGLE * ** *** ****  2. Write a function that takes in number as argument and draws a reflection/mirror of right angled triangle above using the &amp;ldquo; * &amp;ldquo; characters .</description>
-    </item>
-    
-    <item>
       <title>Android Development With Kotlin</title>
       <link>/tech-department/syllabuses/andriod-kotlin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/syllabuses/andriod-kotlin/</guid>
-      <description>Part 1  Basic Introduction and Control Flow.  TOPICS: Basic Control Flow   PROJECTS: Linear layout using the Layout Editor   Part 2  Layouts and Data Binding  TOPICS: Grid Layout   TOPICS: Data Binding   TOPICS: Data Classes   PROJECTS: Data Binding Basics   Part 3  Classes and Objects  TOPICS: Sealed Classes   Part 4  Generics, nested and enum classes.</description>
+      <description>Basic Introduction and Control Flow.   TOPICS: Basic Control Flow  Project : Liner Layout using the Layout Editor (prerequisite)  PROJECTS: User Activity   Layouts and Data Binding   TOPICS: Grid Layout   TOPICS: Data Binding   TOPICS: Data Classes  Project : Constraint Layout using Layout Editor (prerequisite)  PROJECTS: Data Binding Basics  Basic Introduction and Control Flow.  TOPICS: Basic Control Flow   PROJECTS: Linear layout using the Layout Editor   Layouts and Data Binding   TOPICS: Grid Layout   TOPICS: Data Binding   TOPICS: Data Classes   PROJECTS: Data Binding Basics   Classes and Objects  Topic : Classes Topic : Properties and Fields Topic : Interface Topic : Data Classes (Review)  TOPICS: Sealed Classes  Project : Create a Fragment (prerequisite) Project : Define Navigation Paths (prerequisite)  PROJECTS: Start an external activity.</description>
     </item>
     
     <item>
@@ -142,7 +104,7 @@ expected output: RIGHT ANGLE TRIANGLE * ** *** ****  2. Write a function that ta
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/syllabuses/data-sci/</guid>
-      <description> Introduction to NCIT curriculum NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile &amp;amp; Scrum   WORKSHOPS: Agile and Scrum  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   PROJECTS: [TODO] Beginner Linux challenges   TOPICS: Python self-learning   TOPICS: Clean Code for Python   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  PROJECTS: Level 1 programming katas   PROJECTS: Build your first personal website   TOPICS: How to ask for help with your code  NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)   TOPICS: [TODO] Python OOP basics   TOPICS: Automated Testing in Python   TOPICS: [TODO] Virtual Environments   WORKSHOPS: Survey design   WORKSHOPS: Google forms like a boss   PROJECTS: Assertive programming kata   PROJECTS: Data Visualisation Projects   WORKSHOPS: Data Ethics  NCIT 11: Test-driven development  PROJECTS: string-calculator   PROJECTS: Statistical Thinking   TOPICS: The Tech Landscape Terminology  NCIT 12: Business and technology  PROJECTS: Data Wrangling   PROJECTS: Cross-validation &amp;amp; Simple Linear Regression   PROJECTS: Multivariate Linear Regression  NCIT 13: Object-oriented programming  TOPICS: How the internet works   TOPICS: Data Ethics and Privacy  NCIT 05: History of the Internet NCIT 08: Pseudocode and documentation  PROJECTS: OOP for data science   PROJECTS: Plotly Dashboard Assignment  NCIT 14: Database Development  PROJECTS: SQL  NCIT 15: Analytics, Surveys, and Reports / Input &amp;amp; Output  PROJECTS: Logistic regression   WORKSHOPS: Agile and Scrum   PROJECTS: Decision Trees  NCIT 16: Thinking like a machine / Boolean algebra, logic NCIT 17: Search and sort techniques NCIT 18: Agile project management NCIT 19: Agile meetings NCIT 20: Managing the Software Development Process  TOPICS: optimizations and big-O  NCIT Summative assessment  WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap   TOPICS: Database Comparison   PROJECTS: K-Means Clustering Assignment   PROJECTS: Natural language processing   </description>
+      <description> Introduction to NCIT curriculum NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile &amp;amp; Scrum   WORKSHOPS: Agile and Scrum  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   PROJECTS: [TODO] Beginner Linux challenges   TOPICS: Python self-learning   TOPICS: Clean Code for Python   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  PROJECTS: Level 1 programming katas   PROJECTS: Build your first personal website   TOPICS: How to ask for help with your code  NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)   TOPICS: [TODO] Python OOP basics   TOPICS: Automated Testing in Python   TOPICS: [TODO] Virtual Environments   WORKSHOPS: Survey design   WORKSHOPS: Google forms like a boss   PROJECTS: Assertive programming kata   PROJECTS: [TODO] Data Visualisation Projects   WORKSHOPS: Data Ethics  NCIT 11: Test-driven development  PROJECTS: string-calculator   PROJECTS: Statistical Thinking   TOPICS: The Tech Landscape Terminology  NCIT 12: Business and technology  PROJECTS: Data Wrangling   PROJECTS: Cross-validation &amp;amp; Simple Linear Regression   PROJECTS: Multivariate Linear Regression  NCIT 13: Object-oriented programming  TOPICS: How the internet works   TOPICS: Data Ethics and Privacy  NCIT 05: History of the Internet NCIT 08: Pseudocode and documentation  PROJECTS: OOP for data science   PROJECTS: Plotly Dashboard Assignment  NCIT 14: Database Development  PROJECTS: SQL  NCIT 15: Analytics, Surveys, and Reports / Input &amp;amp; Output  PROJECTS: Logistic regression   WORKSHOPS: Agile and Scrum   PROJECTS: Decision Trees  NCIT 16: Thinking like a machine / Boolean algebra, logic NCIT 17: Search and sort techniques NCIT 18: Agile project management NCIT 19: Agile meetings NCIT 20: Managing the Software Development Process  TOPICS: optimizations and big-O  NCIT Summative assessment  WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap   TOPICS: Database Comparison   PROJECTS: K-Means Clustering Assignment   PROJECTS: Natural language processing   </description>
     </item>
     
     <item>
@@ -160,7 +122,7 @@ expected output: RIGHT ANGLE TRIANGLE * ** *** ****  2. Write a function that ta
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/syllabuses/hybrid-mobile-short/</guid>
-      <description>Part 1   TOPICS: Intro to hybrid mobile   TOPICS: Introduction to Typescript   TOPICS: Introduction to web design   PROJECTS: Level 1 programming katas   Part 2   TOPICS: Jasmine Unit testing   PROJECTS: Animals Part 2. Adding Tests   PROJECTS: Add logging to password checker   Part 3   TOPICS: Intro to Angular   PROJECTS: Angular Tutorial   PROJECTS: Add Redux to your semitone game   Part 4   TOPICS: Angular Elements   PROJECTS: Memory game using Angular Material   PROJECTS: [TODO] Game of life: Angular elements   TODO: Wiremock Connecting to mock services Connecting to Java backend services Unit testing.</description>
+      <description>Part 1   TOPICS: Intro to hybrid mobile   TOPICS: Introduction to Typescript   TOPICS: Introduction to web design   PROJECTS: Level 1 programming katas   Part 2   TOPICS: Jasmine Unit testing  Project: Animal Part 1 (Prerequisite)  PROJECTS: Animals Part 2. Adding Tests  Project : Password-Checker (Prerequisite)  PROJECTS: Add logging to password checker   Part 3   TOPICS: Intro to Angular   PROJECTS: Angular Tutorial  Project : semitone difference - basic algorithm (Prerequisite) Project : make a simple GUI (Prerequisite)  PROJECTS: Add Redux to your semitone game   Part 4   TOPICS: Angular Elements   PROJECTS: Memory game using Angular Material   PROJECTS: [TODO] Game of life: Angular elements   Part 5   TOPICS: Angular testing with Cucumber and Protractor   TOPICS: Mocking with Angular   PROJECTS: Angular Testing with Cucumber   PROJECTS: Mocking with Angular   Part 6   TOPICS: Introduction to Ionic.</description>
     </item>
     
     <item>
@@ -169,7 +131,17 @@ expected output: RIGHT ANGLE TRIANGLE * ** *** ****  2. Write a function that ta
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/syllabuses/java/</guid>
-      <description>Introduction to NCIT curriculum - NCIT 01: Conducting research and user interviews - NCIT 02: Reporting - NCIT 03: Research presentation - TOPICS: Agile &amp;amp; Scrum - WORKSHOPS: Agile and Scrum - NCIT 18: Agile project management - NCIT 19: Agile meetings - WORKSHOPS: How to be a professional - PROJECTS: [TODO] Beginner Linux challenges - TOPICS: Python self-learning - TOPICS: Clean Code for Python - PROJECTS: Git Basic Exercises - NCIT 04: Version control (GIT) for teamwork - PROJECTS: Level 1 programming katas - PROJECTS: Build your first personal website - TOPICS: How to ask for help with your code - WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)  OOP</description>
+      <description>NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile &amp;amp; Scrum   WORKSHOPS: Agile and Scrum  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   PROJECTS: [TODO] Beginner Linux challenges   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  PROJECTS: Level 1 programming katas   PROJECTS: Build your first personal website   TOPICS: How to ask for help with your code   WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 10: Workshop: Giving and receiving constructive feedback</description>
+    </item>
+    
+    <item>
+      <title>Java Bridging Course</title>
+      <link>/tech-department/syllabuses/java-bridging-course/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/syllabuses/java-bridging-course/</guid>
+      <description> You’ll notice that the content below is divided up into 2 major sections. Soft skills and Hard skills.
+Soft Skills   TOPICS: Learning How To Learn   TOPICS: Communication   TOPICS: Emotional Intelligence   TOPICS: Cognitive Biases   TOPICS: developer-habits   Maths   TOPICS: Pre-Algebra   TOPICS: Maths for Programmers - Sets and Logic   Bring on the Java   TOPICS: Solo Learn - Java - Module 6 - Exceptions, Lists, Threads &amp;amp; Files   TOPICS: Java OOP basics resources and readings   TOPICS: Code wars - Java Training   TOPICS: Advanced OOP - Design Patterns in Java   </description>
     </item>
     
     <item>
@@ -188,12 +160,14 @@ expected output: RIGHT ANGLE TRIANGLE * ** *** ****  2. Write a function that ta
     </item>
     
     <item>
-      <title>Web development boot camp</title>
-      <link>/tech-department/syllabuses/web-dev-boot/</link>
+      <title>Web development Bridging Course</title>
+      <link>/tech-department/syllabuses/web-dev-bridging/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tech-department/syllabuses/web-dev-boot/</guid>
-      <description>  TOPICS: [TODO] Success in bootcamp   TOPICS: [TODO] Introduction to gnomio   TOPICS: [TODO] Introduction to Tilde TODO: Create Content (Multiple instruction videos)  TOPICS: [TODO] Pseudocode and documentation   PROJECTS: Level 1 programming katas   PROJECTS: Bootcamp Writing Assignment   PROJECTS: Assertive programming kata   </description>
+      <guid>/tech-department/syllabuses/web-dev-bridging/</guid>
+      <description> In the Web development Bridging Course you will be mixing both soft skills and hard skills on a weekly basis.
+You should be completeing one Sololearn Goal each week along with the soft skills items that come above said goal.
+  TOPICS: Learning How To Learn   TOPICS: Test Driven Development   WORKSHOPS: [TODO] Effective Communication   TOPICS: Solo Learn - JavaScript - Module 3 - Conditionals and Loops   TOPICS: Curious learning and research strategy   TOPICS: developer-habits   TOPICS: Solo Learn - JavaScript - Module 5 - Objects   TOPICS: JavaScript OOP basics resources and readings   TOPICS: Solo Learn - JavaScript - Module 7 - DOM &amp;amp; Events   TOPICS: Advanced OOP - Design Patterns in Java   TOPICS: JavaScript OOP Design Patterns   TOPICS: Communication   TOPICS: Solo Learn - JavaScript - Module 8 - ECMAScript 6   Extra Soft Skills   TOPICS: Emotional Intelligence   TOPICS: Cognitive Biases   </description>
     </item>
     
     <item>

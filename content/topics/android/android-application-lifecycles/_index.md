@@ -1,6 +1,8 @@
 ---
-title: Android Application Lifecycle
+_db_id: 96
+content_type: topic
 ready: true
+title: Android Application Lifecycle
 ---
 
 The Android Application Lifecycle refers to how pages and the app handles navigation and the state of the app.
@@ -19,5 +21,3 @@ You can also view this [Video](https://www.youtube.com/watch?v=UJN3AL4tiqw).
 Fragments can be thought of as screens within a screen. A Fragment can take up a portion of the user interface on the screen.
 
 These Fragments also have their own lifecycle that should be accounted for. You can read more about that [here](https://developer.android.com/guide/components/fragments).
-
-

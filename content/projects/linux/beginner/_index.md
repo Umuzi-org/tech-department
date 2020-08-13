@@ -1,10 +1,19 @@
 ---
-title: Beginner Linux challenges
+_db_id: 188
+available_flavours:
+- none
+content_type: project
 prerequisites:
-  hard: ["topics/linux/intro-to-linux", "topics/linux/intro-to-bash"]
-  soft: ["workshops/intro-to-linux"]
-tags: ["bash"]
+  hard:
+  - topics/linux/intro-to-linux
+  - topics/linux/intro-to-bash
+  soft:
+  - workshops/intro-to-linux
 story_points: 1
+submission_type: repo
+tags:
+- bash
+title: Beginner Linux challenges
 ---
 
 ### Submission guidelines

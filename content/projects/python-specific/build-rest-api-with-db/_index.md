@@ -1,10 +1,17 @@
 ---
-title: create a REST api to interact with actual database
-ready: True
+_db_id: 263
+available_flavours:
+- python
+content_type: project
 prerequisites:
-  hard: ["topics/python-specific/sqlalchemy", "topics/apis/basics"]
+  hard:
+  - topics/python-specific/sqlalchemy
+  - topics/apis/basics
   soft: []
+ready: true
+submission_type: repo
 tags: []
+title: create a REST api to interact with actual database
 ---
 
 In this project you'll be taking a lot of your existing knowledge and pulling it together. At this point you know what it means to consume an API. Now you're going to make one :)

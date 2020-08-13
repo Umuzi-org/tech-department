@@ -1,10 +1,13 @@
 ---
-title: Sqlalchemy migrations with Alembic
-ready: True
+_db_id: 157
+content_type: topic
 prerequisites:
-  hard: ["topics/python-specific/sqlalchemy"]
+  hard:
+  - topics/python-specific/sqlalchemy
   soft: []
+ready: true
 tags: []
+title: Sqlalchemy migrations with Alembic
 ---
 
 Here's the official tutorial. It's really quite good.

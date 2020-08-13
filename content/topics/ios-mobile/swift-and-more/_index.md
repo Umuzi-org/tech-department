@@ -1,9 +1,12 @@
 ---
-title: Swift and More
-ready: True
+_db_id: 404
+content_type: topic
 prerequisites:
- hard: ["topics/ios-mobile/swift-and-more"]
- soft: []
+  hard:
+  - topics/ios-mobile/swift-and-more
+  soft: []
+ready: true
+title: Swift and More
 ---
 
 ## Slides:

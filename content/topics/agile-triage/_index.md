@@ -1,6 +1,8 @@
 ---
+_db_id: 377
+content_type: topic
+ready: true
 title: Agile Triage
-ready: True
 ---
 
 From this day forward you'll be expected to spend your workdays behaving like a professional on an agile team. Now we know you aren't an expert in agile just yet so what follows below is a little description of what is expected and why.
@@ -36,7 +38,7 @@ Basically if you have a team of developers working on a thing they generally wan
 
 To paraphrase:
 
-**Your code is useless until is is complete. Your team's code is useless until is is complete.**
+**Your code is useless until it is complete. Your team's code is useless until it is complete.**
 
 So your **TOP PRIORITY** is to get code to be complete!
 
@@ -124,7 +126,7 @@ If there is someone who is struggling and you feel like they need a staff member
 
 ## Enough squishy stuff! What else can you tell me?
 
-Of course you aren't just here to help others with their work, you are also here to build your own stuff. So resist your inner-hamster - take on one project at a time. Trust your peers to help move your cards to Complete.
+Of course you aren't just here to help others with their work, you are also here to build your own stuff. So resist your inner-hamster - take on one project at a time. Trust your peers to help move your cards to Complete. If you ask for help or for a review and you feel ignored, ask again! As a professional you need to pursue success like it really matters to you. That sometimes means annoying your co-workers.
 
 That's it really.
 

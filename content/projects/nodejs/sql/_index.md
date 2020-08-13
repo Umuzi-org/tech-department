@@ -1,18 +1,29 @@
 ---
-title: Node & SQL assignment
-ready: true
+_db_id: 282
+available_flavours:
+- javascript
+content_type: project
+from_repo: projects/nodejs/file-io
 prerequisites:
-  hard: ["projects/sql", "workshops/node-and-sql/"]
+  hard:
+  - projects/sql
+  - workshops/node-and-sql/
+  - projects/nodejs/file-io
   soft: []
-tags: ["node", "sql"]
+ready: true
 story_points: 5
+submission_type: continue_repo
+tags:
+- node
+- sql
+title: Node & SQL assignment
 ---
 
 You are required to create a back-end service that will help capture basic information about prospective students who come to inquire here at Umuzi.
 
 ## database setup
 
-1. Set up a postgresql database on your computer. Please use Docker to do this. You can find more information here: {{% contentlink "topics/intro-to-docker" %}}
+1. Set up a postgresql database on your computer. Please use Docker to do this. You can find more information here: {{% contentlink path="topics/intro-to-docker" %}}
 2. Create a table inside the database and name it Visiters.
 3. The table must contain the following fields :
 

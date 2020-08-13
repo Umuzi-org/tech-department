@@ -1,10 +1,17 @@
 ---
-title: DAGs with Airflow
-ready: True
+_db_id: 286
+available_flavours:
+- python
+content_type: project
 prerequisites:
-  hard: ["projects/rabbitmq"]
+  hard:
+  - projects/rabbitmq
   soft: []
-tags: ["apache-airflow"]
+ready: true
+submission_type: repo
+tags:
+- apache-airflow
+title: DAGs with Airflow
 ---
 
 Create a dag that does the following:

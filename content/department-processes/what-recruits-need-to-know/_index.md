@@ -21,19 +21,19 @@ You are expected to be online most of the time between _9am and 5pm (barring lun
 - Don't be disruptive and noisy during workshops and meetings.
 - Check your calendars daily. This includes the calendars mentioned below.
 - Check your Rocket Chat at lease 3 times daily (Morning, Midday, and before you log off).
-- Check your email  at lease 3 times daily (Morning, Midday, and before you log off).
+- Check your email at lease 3 times daily (Morning, Midday, and before you log off).
 - Submit your projects on time via Tilde.
 - Submit high quality work and do your best.
 - Communicate problems to the staff (you are not in this alone but we cannot help you if you don't communicate)
-- Always complete your attendance check here for details: {{% contentlink "remote-work"  %}}
+- Always complete your attendance check here for details: {{% contentlink path="remote-work"  %}}
 
 ## Tilde
 
-Tilde means home and during your time at Umuzi this will be the home of the majority or your learnings as well as the board that shows you your user journey and what you will be working on next. 
+Tilde means home and during your time at Umuzi this will be the home of the majority or your learnings as well as the board that shows you your user journey and what you will be working on next.
 
 You can access Tilde [Here](https://tilde-front-dot-umuzi-prod.nw.r.appspot.com/)
 
-Please also read {{% contentlink "topics/agile-triage"  %}}
+Please also read {{% contentlink path="topics/agile-triage"  %}}
 
 ## Daily Tech Events
 
@@ -90,7 +90,7 @@ The material and assessments are found on [Gnomio](http://umuzi.gnomio.com/). Th
 
 - [Leave Request Form](https://docs.google.com/forms/d/e/1FAIpQLSdRy444hA3WR4Vul4nTXOuC0x9ZuA3TFBaB8aA-PPMDCeQN8g/viewform?usp=sf_link) This is to be completed for any leave requested or taken.
 
-- [Disciplinary Policy](https://umuzi.gnomio.com/pluginfile.php/2134/mod_resource/content/1/Umuzi_Disciplinary%20Procedure.pdf) | [Disciplinary Guidelines](https://docs.google.com/spreadsheets/d/1C2DdiI0gdMvY3dFSJoJdWTAFxeTyixJs6auIt1wZVwU/edit?ts=5e732649#gid=0) |  [Code Of Conduct](https://umuzi.gnomio.com/pluginfile.php/2176/mod_resource/content/1/Umuzi%20Code%20of%20Conduct_December%202018.pdf) | [Sexual Harassment Policy](https://umuzi.gnomio.com/pluginfile.php/2304/mod_resource/content/1/Sexual%20Harassment%20Policy.pdf) These are the Umuzi policies please read through them and familiarise yourself with them.
+- [Disciplinary Policy](https://umuzi.gnomio.com/pluginfile.php/2134/mod_resource/content/1/Umuzi_Disciplinary%20Procedure.pdf) | [Disciplinary Guidelines](https://docs.google.com/spreadsheets/d/1C2DdiI0gdMvY3dFSJoJdWTAFxeTyixJs6auIt1wZVwU/edit?ts=5e732649#gid=0) | [Code Of Conduct](https://umuzi.gnomio.com/pluginfile.php/2176/mod_resource/content/1/Umuzi%20Code%20of%20Conduct_December%202018.pdf) | [Sexual Harassment Policy](https://umuzi.gnomio.com/pluginfile.php/2304/mod_resource/content/1/Sexual%20Harassment%20Policy.pdf) These are the Umuzi policies please read through them and familiarise yourself with them.
 
 - [Leave Policy](link to be inserted) [TODO]
 
@@ -101,28 +101,28 @@ The material and assessments are found on [Gnomio](http://umuzi.gnomio.com/). Th
 
 **Java**
 
- - Latoya Simbini - latifa.simbini@umuzi.org
+- Latoya Simbini - latifa.simbini@umuzi.org
 
 **Web Development:**
 
- - Elija Sepuru - elijah.sepuru@umuzi.org
- - Lisa Mabe - lerato.mabe@umuzi.org
- - Shaheedah Momoza - lindokuhle.momoza@umuzi.org
+- Elija Sepuru - elijah.sepuru@umuzi.org
+- Lisa Mabe - lerato.mabe@umuzi.org
+- Shaheedah Momoza - lindokuhle.momoza@umuzi.org
 
 **Data:**
 
- - Rokhuda Tshitimbi - rokhuda.tshitimbi@umuzi.org
+- Rokhuda Tshitimbi - rokhuda.tshitimbi@umuzi.org
 
 ### Senior Staff
 
 **General**
 
- - Ryan O'Connell - ryan.oconnell@umuzi.org
- - Lindelani Mbatha - lindelani.mbatha@umuzi.org
+- Ryan O'Connell - ryan.oconnell@umuzi.org
+- Lindelani Mbatha - lindelani.mbatha@umuzi.org
 
- **Java**
+**Java**
 
-  - Bentley Ritson - joshua.ritson@umuzi.org
+- Bentley Ritson - joshua.ritson@umuzi.org
 
 **Web Development:**
 

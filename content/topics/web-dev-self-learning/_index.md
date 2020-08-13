@@ -1,6 +1,8 @@
 ---
-title: Web Dev learning materials
+_db_id: 176
+content_type: topic
 ready: true
+title: Web Dev learning materials
 ---
 
 You are expected to spend your free time learning and practicing your web development skills. Here are some resources for you. Different people tend to prefer different resources because they support different styles of learning.
@@ -40,4 +42,4 @@ If you are prepping to attend the Umuzi bootcamp we suggest you concentrate on t
 - [Modern JavaScript Cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet) - Helps developers with basic knowledge to get familiar with modern codebases.
 - [ECMAScript Language Specification](http://ecma-international.org/publications/standards/Ecma-262.htm) - The standard JavaScript is based on. Only for very advanced learners.
 - [Spread Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) - ``` ... ```  Spread Operator description and use cases. 
-- [Ternary Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) -  ```?```  Ternary Operator description and use cases. 
+- [Ternary Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) -  ```?```  Ternary Operator description and use cases.

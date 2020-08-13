@@ -1,6 +1,11 @@
 ---
+_db_id: 416
+available_flavours:
+- any_language
+content_type: project
+ready: true
+submission_type: link
 title: Pre bootcamp challenges
-ready: True
 ---
 
 Complete these tasks in the correct language. If you are here to learn JavaScript, do them in JavaScript. If you have been told to use Python then use Python.
@@ -29,6 +34,8 @@ Print the value of y
 ```
 
 Check your understanding:
+
+Lots of people think this is easy then get it wrong later. Make sure you check yourself
 
 - do you know what pseudocode means? Did you look it up?
 - do you understand why x and y have the values they have at each point in the program?

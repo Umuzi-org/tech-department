@@ -1,10 +1,16 @@
 ---
-title: Java Generics
-ready: true
+_db_id: 203
+available_flavours:
+- java
+content_type: project
 prerequisites:
-  hard: ["projects/java-specific/data-structures",
-         "topics/java-specific/generics"]
+  hard:
+  - projects/java-specific/data-structures
+  - topics/java-specific/generics
   soft: []
+ready: true
+submission_type: repo
+title: Java Generics
 ---
 
 ## Generic method

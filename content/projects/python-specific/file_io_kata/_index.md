@@ -1,4 +1,9 @@
 ---
+_db_id: 255
+available_flavours:
+- python
+content_type: project
+submission_type: repo
 title: Getting to know Python
 ---
 

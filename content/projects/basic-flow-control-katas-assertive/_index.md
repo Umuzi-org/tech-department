@@ -1,11 +1,16 @@
 ---
-title: Assertive programming kata
-ready: True
-
+_db_id: 184
+available_flavours:
+- any_language
+content_type: project
 prerequisites:
-  hard: ["topics/intro-to-asserive-programming"]
+  hard:
+  - topics/intro-to-asserive-programming
   soft: []
-  story_points: 3
+ready: true
+story_points: 3
+submission_type: repo
+title: Assertive programming kata
 ---
 
 These katas are a bit harder than the last bunch. Make use of assertions to help make sure that your code is doing the right thing, and to add readability.

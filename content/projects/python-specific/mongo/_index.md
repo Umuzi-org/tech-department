@@ -1,10 +1,16 @@
 ---
-title: Python and MongoDB
-ready: True
+_db_id: 256
+available_flavours:
+- python
+content_type: project
 prerequisites:
-  hard: ["topics/python-specific/mongodb/"]
+  hard:
+  - topics/python-specific/mongodb/
   soft: []
+ready: true
+submission_type: repo
 tags: []
+title: Python and MongoDB
 ---
 
 Create a docker composition which will run mongodb. You will be connecting to this container while developing. Be sure to commit your composition to your repo.

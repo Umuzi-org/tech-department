@@ -1,14 +1,20 @@
 ---
-title: Plotly Dashboard Assignment
-pre: "<b> EASY: </b>"
-ready: true
+_db_id: 240
+available_flavours:
+- python
+content_type: project
+pre: '<b> EASY: </b>'
 prerequisites:
   hard:
-    ["projects/data-science-specific/data-visualisation"]
+  - projects/data-science-specific/data-visualisation
   soft:
-    ["projects/data-science-specific/data-wrangling"]
-tags: ["plotly"]    
+  - projects/data-science-specific/data-wrangling
+ready: true
 story_points: 8
+submission_type: repo
+tags:
+- plotly
+title: Plotly Dashboard Assignment
 ---
 
 ## Tutorials
@@ -18,6 +24,6 @@ story_points: 8
 
 ## Assignment
 
-In the Mobile Money Data Visualisation Assignment, you created graphs to display the relationship between the type of financial services accessed (non-mobile, mobile, both), how frequently these services were accessed, and socio-demographic information about the users (gender, land ownership type of income, and so forth).  Create a Plotly dashboard of the 3-5 most informative graphs from this assignment.
+In the Mobile Money Data Visualisation Assignment, you created graphs to display the relationship between the type of financial services accessed (non-mobile, mobile, both), how frequently these services were accessed, and socio-demographic information about the users (gender, land ownership type of income, and so forth). Create a Plotly dashboard of the 3-5 most informative graphs from this assignment.
 
 Your dashboard should be both visually appealing and informative.

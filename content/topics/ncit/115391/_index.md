@@ -1,7 +1,10 @@
 ---
-title: The Internet and World Wide Web
+_db_id: 356
+content_type: topic
+nqf: ncit
 ready: false
 tags: []
-nqf: ncit
-unit_standards: [115391]
+title: The Internet and World Wide Web
+unit_standards:
+- 115391
 ---

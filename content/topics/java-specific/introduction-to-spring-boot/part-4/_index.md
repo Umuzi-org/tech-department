@@ -1,6 +1,12 @@
 ---
-title: Introduction to Spring Boot - part 4
+_db_id: 119
+content_type: topic
+prerequisites:
+  hard:
+  - topics/java-specific/introduction-to-spring-boot/part-3
+  soft: []
 ready: true
+title: Introduction to Spring Boot - part 4
 ---
 
 Consuming an API refers to the process of calling an API from an application. The methods available for an application to consume an API are mapped to the API itself. For instance, if the API does not contain a GET endpoint, then the application can't consume the API using a Http(s) GET call.
@@ -12,17 +18,18 @@ You can either consume and existing SOAP service or a REST api and in this topic
 As we now know in development there is always more than one way to do something and this applies to consuming apis as well. In a spring application you can use 2 of the most popular rest clients which are:
 
 1. HttpClient: Sends request to and gets response from server over HTTp protocol and takes care of the following as well
-    - HTTP protocol interception
 
-    - Secure HTTP connections - SSL/TLS
+   - HTTP protocol interception
 
-    - HTTP proxy server handling
+   - Secure HTTP connections - SSL/TLS
 
-    - Handles HTTP cookies
+   - HTTP proxy server handling
 
-    - Connection pooling for different hosts, keep alive strategy,
+   - Handles HTTP cookies
 
-    - multi-threaded request execution  
+   - Connection pooling for different hosts, keep alive strategy,
+
+   - multi-threaded request execution
 
 2. Rest Template: is the central Spring class for client-side HTTP access. Conceptually, it is very similar to the JdbcTemplate, JmsTemplate, and the various other templates found in the Spring Framework and other portfolio projects. This means, for instance, that the RestTemplate is thread-safe once constructed, and that you can use callbacks to customize its operations. It uses HttpClient under the hood.
 
@@ -32,13 +39,11 @@ What you might need to learn first about consuming a REST api is the terminology
 
 1. `URl`: Uniform Resource Locator, is a reference to a web resource that specifies its location on a computer network. (e.g http://localhost:8080)
 
-2. `Body`: The body of an Http call refers to data that's being sent to the API that is not displayed in the url. A body is    usually sent using
-		POST-, PUT-, and PATCH-methods. The body must match what is expected in the API method. In Spring Boot, it must match the 
-		@RequestBody variable.
+2. `Body`: The body of an Http call refers to data that's being sent to the API that is not displayed in the url. A body is usually sent using
+   POST-, PUT-, and PATCH-methods. The body must match what is expected in the API method. In Spring Boot, it must match the
+   @RequestBody variable.
 
-3. `Headers`: Headers are additional information passed along in the Http request. Usual use cases for Headers are:
-		   - Passing through Authentication tokens.
-		   - Describing the format of the request body.
+3. `Headers`: Headers are additional information passed along in the Http request. Usual use cases for Headers are: - Passing through Authentication tokens. - Describing the format of the request body.
 
 **Now Consuming an API using REST**
 
@@ -58,13 +63,14 @@ ResponseEntity<String> response = restTemplate.getForEntity(userResourceUrl + "/
 assertThat(response.getStatusCode(), equalTo(HttpStatus.OK));
 
 ```
+
 Cause we have the entire response object we can do something a bit more cleaver when serializing objects from the response
 for example
 
 ```
 public class User implements Serializable {
     private long id;
- 
+
     private String name;
 
 	private String surname
@@ -92,7 +98,7 @@ HttpEntity<Foo> request = new HttpEntity<>(new User("Bob", "Khumalo"));
 User user = restTemplate.postForObject(UserResourceUrl, request, User.class);
 ```
 
-## DELETE call: Removing a record 
+## DELETE call: Removing a record
 
 If the DELETE endpoint is located at https://www.myapi.com/mydeleteendpoint, the DELETE endpoint would look
 like the following:
@@ -108,7 +114,7 @@ long id = 2;
 String entityUrl = userResourceUrl + "/" + id;
 restTemplate.delete(entityUrl);
 
-// You can do a get of the same ID afterwards to see if still exist 
+// You can do a get of the same ID afterwards to see if still exist
 
 ```
 
@@ -118,25 +124,25 @@ This is the second kind of web service you mights be required to consume which i
 
 First lets learn some terminology of all the things you will working on
 
-1. `wsdl`: web service description language -  is an XML-based file that basically tells the client application what the web service does. The WSDL file is used to describe in a nutshell what the web service does and gives the client all the information required to connect to the web service and use all the functionality provided by the web service. 
+1.  `wsdl`: web service description language - is an XML-based file that basically tells the client application what the web service does. The WSDL file is used to describe in a nutshell what the web service does and gives the client all the information required to connect to the web service and use all the functionality provided by the web service.
 
-	- Below is the general structure of a WSDL file
+    - Below is the general structure of a WSDL file
 
-		- Definition: It defines the name of the web service.
+          	- Definition: It defines the name of the web service.
 
-		- TargetNamespace: Is a convention of XML Schema that enables the WSDL document to refer to itself
+          	- TargetNamespace: Is a convention of XML Schema that enables the WSDL document to refer to itself
 
-		- DataTypes: Defines the types for input and output
+          	- DataTypes: Defines the types for input and output
 
-		- Messages: Defines the data elements for each operation
+          	- Messages: Defines the data elements for each operation
 
-		- Porttype: Describes the operations that can be performed and the messages involved.
+          	- Porttype: Describes the operations that can be performed and the messages involved.
 
-		- Bindings: Defines the protocol and data format for each port type.
+          	- Bindings: Defines the protocol and data format for each port type.
 
-		- service: A collection of related endpoints.
+          	- service: A collection of related endpoints.
 
-2. `xsd`: is a file used to define what elements and attributes may appear in an XML document. It also defines the relationship of the elements and what data may be stored in them
+2.  `xsd`: is a file used to define what elements and attributes may appear in an XML document. It also defines the relationship of the elements and what data may be stored in them
 
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:sch="https://medium.com/article" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="https://medium.com/article" targetNamespace="https://medium.com/article">
@@ -170,7 +176,7 @@ The first most important process of consuming a wsdl is generating classes from 
 
 The process of generating wsdl can be done as a build task so it execute at run time. You want to be able to do this so that your application can be deployed and function on different environments outside your local setting.
 
-This process is quite complex and lengthy but you can checkout the [example](https://spring.io/guides/gs/consuming-web-service/). I have added some code snippet and explanation below for some of the sections. 
+This process is quite complex and lengthy but you can checkout the [example](https://spring.io/guides/gs/consuming-web-service/). I have added some code snippet and explanation below for some of the sections.
 
 Basic gradle dependencies this will be coupled with a build task which points to the source and destination of the wsdl and generated files
 
@@ -237,7 +243,6 @@ public class UserConfiguration {
 
 ```
 
-
 There is however a more simpler way which is more suited for our use case which is generating the files local and testing them. I can imagine that you can add this command in a build script that run on a deployed application but maybe that exploration is for another day. To do this we need to know what `wsimport` is.
 
 - `wsimport`: Available in you JDK bin directory, is used to parse an existing Web Services Description Language (WSDL) file and generate required files for web service client to access the published web services.
@@ -260,16 +265,15 @@ Now we have the classes in the this package `com.mypackage.wsdl` we can start us
 public class EmployeeServiceClient {
     public static void main(String[] args) throws Exception {
         URL url = new URL("http://localhost:8080/employeeservice?wsdl");
- 
+
         EmployeeService_Service employeeService_Service = new EmployeeService_Service(url);
         EmployeeService employeeServiceProxy  = employeeService_Service.getEmployeeServiceImplPort();
- 
+
         List<Employee> allEmployees = employeeServiceProxy.getAllEmployees();
     }
 }
 
 ```
-
 
 ## References
 

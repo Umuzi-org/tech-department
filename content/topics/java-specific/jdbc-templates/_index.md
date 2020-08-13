@@ -1,6 +1,8 @@
 ---
-title: JDBC templates
+_db_id: 125
+content_type: topic
 ready: true
+title: JDBC templates
 ---
 
 Both Springboot and VanillaJS require a middle man to be able to talk to a database. This is where JDBC comes in. It can be used with multiple programming languages.

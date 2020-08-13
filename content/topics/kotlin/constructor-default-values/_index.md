@@ -1,9 +1,12 @@
 ---
-title: Constructor Default Values
-ready: true
+_db_id: 383
+content_type: topic
 prerequisites:
-  hard: ["topics/kotlin/null-safety"]
+  hard:
+  - topics/kotlin/null-safety
   soft: []
+ready: true
+title: Constructor Default Values
 ---
 
 ### Kotlin has two nice features that you’ll also find in Scala:

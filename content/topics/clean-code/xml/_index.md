@@ -1,6 +1,8 @@
 ---
+_db_id: 84
+content_type: topic
+ready: true
 title: Clean Code for XML
-ready: True
 ---
 
 A XML user interface can get quite nested and complicated, which is why it is very important to write clean and easy to read code.
@@ -61,4 +63,4 @@ example:
 
 Note: Leave one new line between elements to assist with differentating elements.
 
-For more information regarding XML `best practices`, you can read through this [documentation](https://docs.oracle.com/cd/E14571_01/web.1111/e13724/best.htm#XMLPG211). 
+For more information regarding XML `best practices`, you can read through this [documentation](https://docs.oracle.com/cd/E14571_01/web.1111/e13724/best.htm#XMLPG211).

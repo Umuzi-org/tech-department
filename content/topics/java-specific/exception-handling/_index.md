@@ -1,6 +1,8 @@
 ---
-title: Exception Handling 
-ready: true 
+_db_id: 112
+content_type: topic
+ready: true
+title: Exception Handling
 ---
 
 There are a number of things that can go wrong while a program is executing. Java enables you to handle exceptions so that you may recover from these problems. This is known as exception handling.
@@ -18,6 +20,3 @@ There are a number of things that can go wrong while a program is executing. Jav
 - [Worst pratices](https://stackabuse.com/exception-handling-in-java-a-complete-guide-with-best-and-worst-practices/) to handle Exceptions and more...
 
 - [Advantages](ocs.oracle.com/javase/tutorial/essential/exceptions/advantages.html) of using Exceptions.
-
-
-

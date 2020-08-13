@@ -1,17 +1,23 @@
 ---
-title: Memory game in vanilla js
-ready: True
+_db_id: 222
+available_flavours:
+- javascript
+content_type: project
 prerequisites:
   hard:
-    [
-      "topics/basic-architecture-concepts",
-      "topics/js-and-node-specific/dom-manipulation-with-vanilla-js",
-      "topics/jasmine-unit-tests",
-      "topics/unit-testing-mocks-and-spies",
-    ]
+  - topics/basic-architecture-concepts
+  - topics/js-and-node-specific/dom-manipulation-with-vanilla-js
+  - topics/jasmine-unit-tests
+  - topics/unit-testing-mocks-and-spies
   soft: []
-tags: ["TDD", "Dom Manipulation", "Mocks and spies"]
+ready: true
 story_points: 5
+submission_type: repo
+tags:
+- TDD
+- Dom Manipulation
+- Mocks and spies
+title: Memory game in vanilla js
 ---
 
 Here is an example of a memory game: http://dkmgames.com/memory/pairsrun.php

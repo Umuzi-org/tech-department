@@ -1,19 +1,25 @@
 ---
-title: Express, forms and templates
-ready: true
-weight: 3
-pre: "<b>3: </b>"
-
+_db_id: 279
+available_flavours:
+- javascript
+content_type: project
+from_repo: projects/nodejs/file-io
+pre: '<b>3: </b>'
 prerequisites:
   hard:
-    [
-      "projects/nodejs/sql",
-      "topics/js-and-node-specific/expressjs",
-      "workshops/intro-to-express",
-    ]
+  - projects/nodejs/sql
+  - projects/nodejs/file-io
+  - topics/js-and-node-specific/expressjs
+  - workshops/intro-to-express
   soft: []
-tags: ["node", "express"]
+ready: true
 story_points: 3
+submission_type: continue_repo
+tags:
+- node
+- express
+title: Express, forms and templates
+weight: 3
 ---
 
 There is no need to create a new git repo for this code submission. This is a continuation of your previous work.
@@ -46,6 +52,6 @@ Make use of the pug template engine to render the "Thank you" page
 
 ### Resources
 
-- {{% contentlink "topics/js-and-node-specific/expressjs/" %}}
-- {{% contentlink "topics/js-and-node-specific/template-engines" %}}
-- {{% contentlink "topics/js-and-node-specific/fetch" %}}
+- {{% contentlink path="topics/js-and-node-specific/expressjs/" %}}
+- {{% contentlink path="topics/js-and-node-specific/template-engines" %}}
+- {{% contentlink path="topics/js-and-node-specific/fetch" %}}
