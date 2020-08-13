@@ -1,7 +1,7 @@
 ---
 _db_id: 429
 available_flavours:
-- none
+  - none
 content_type: project
 ready: true
 submission_type: repo
@@ -29,6 +29,13 @@ If you are using ACode on your android device, you can press the "play" button i
 
 If you are running vscode you can right click on a markdown file and select "open preview" to see what your work looks like.
 
+### Why?
+
+There are a few reasons:
+
+1. We want to get to know you :)
+2. A lot of people dont really sit down and think about what they are trying to do in the long run. It's a really useful excercise
+
 ### The questions
 
 Please create a seperate file for each of these. Remember to pay attention to your sentence structure, spelling and grammar.
@@ -51,26 +58,27 @@ Do you have past experience that you think will be relevent? Maybe you learned t
 
 If you haven't got relevent experience, don't worry! We're all about giving people oppertunities to gain experience.
 
-#### 5. What makes you think you'll succeed at Umuzi? [<= 300 words]
+#### 5. What makes you think you'll succeed as a coder? [<= 300 words]
 
 What makes yuo think you have what it takes? What traits or attributes do you have that will be useful in this setting? Maybe it's past experience? Maybe you have an IQ of 203. Maybe you are good at asking questions.
 
 #### 6. What might get in the way of your success? [<= 300 words]
 
-The courses offered by Umuzi are hard - a lot of people struggle for lots of different reasons. It's our job to help you succeed so it's good for us to know what to expect so we can do a good job.
+The courses offered here are hard - a lot of people struggle for lots of different reasons.
 
 What weaknesses do you have that might stand in the way of your success? And what strategies do you have for overcoming these challenges? And do you need help?
 
 #### 7. Your routine
 
-Pre-COVID, Umuzi recruits were expected to come to our offices every day. Learning was a 9-5 job. That's 40 hours of Umuzi work every week. Now that everything is remote and people all get to work from home things are a lot more flexible. Please tell us how you think you'll structure your days in order to get your work done.
+Please tell us how you think you'll structure your days in order to get your work done.
 
 Also, the course is pretty much self-paced. So the faster you move the better things can be (so long as you understand)
 
 - Some people work best in the early hours of the morning. Some people work late at night.
 - Some people work on weekends
 - some people put in more than 40 hours per week because they just love this stuff, or because they want to get a job sooner
+- And of course dfferent code schools have different requirements
 
 #### 8. Your future
 
-If you succeed at Umuzi and get a high value career in your chosen field, what do you think your life will look like? Do you have personal goals? How will this effect your family and your community?
+If you succeed and get a high value career in your chosen field, what do you think your life will look like? Do you have personal goals? How will this effect your family and your community? Is ther a buig problem you want to solve? Or a business you want to start?

@@ -1,7 +1,7 @@
 ---
 _db_id: 219
 available_flavours:
-- any_language
+  - any_language
 content_type: project
 ready: true
 story_points: 3
@@ -22,7 +22,7 @@ The Exercises below are meant to be language-agnostic. If we use the word `print
 
 ## What does success look like
 
-Katas are pretty common in coding (and martil arts). Katas are about practicing and perfecting fundamental skills. There are a few different skills we need to see here.
+Katas are pretty common in coding (and martial arts). Katas are about practicing and perfecting fundamental skills. There are a few different skills we need to see here.
 
 The first thing is Git! It's seriously important so we want to see you developing good habits.
 

@@ -2,7 +2,7 @@
 _db_id: 394
 content_type: topic
 ready: true
-title: Bash for bootcamp
+title: Beginning Bash
 ---
 
 In order to interact properly with Git, you'll need to know a little bit about "the command line".
