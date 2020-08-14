@@ -1,21 +1,21 @@
 ---
 _db_id: 194
 available_flavours:
-- javascript
-- typescript
-- any_frontend_framework
+  - javascript
+  - typescript
+  - any_frontend_framework
 content_type: project
 from_repo: projects/semitone-challenge/basic-algorithm
 pre: <b>4. </b>
 prerequisites:
   hard:
-  - projects/semitone-challenge/basic-algorithm
-  - projects/semitone-challenge/gui-part-1
-  - projects/semitone-challenge/advanced-algorithm
+    - projects/semitone-challenge/basic-algorithm
+    - projects/semitone-challenge/gui-part-1
+    - projects/semitone-challenge/advanced-algorithm
   soft: []
 ready: true
 submission_type: continue_repo
-title: A gui that is more...awesome
+title: semitone difference - A gui that is more...awesome
 weight: 4
 ---
 

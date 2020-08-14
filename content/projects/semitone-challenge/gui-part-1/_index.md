@@ -13,7 +13,7 @@ prerequisites:
   soft: []
 ready: true
 submission_type: continue_repo
-title: Make a simple GUI
+title: semitone difference - Make a simple GUI
 weight: 2
 ---
 

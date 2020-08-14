@@ -1,18 +1,18 @@
 ---
 _db_id: 197
 available_flavours:
-- javascript
-- typescript
+  - javascript
+  - typescript
 content_type: project
 from_repo: projects/semitone-challenge/basic-algorithm
 pre: <b>3. </b>
 prerequisites:
   hard:
-  - projects/semitone-challenge/basic-algorithm
+    - projects/semitone-challenge/basic-algorithm
   soft: []
 ready: true
 submission_type: continue_repo
-title: Advanced algorithm
+title: semitone difference - Advanced algorithm
 weight: 3
 ---
 
