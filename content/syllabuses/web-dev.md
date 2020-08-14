@@ -14,7 +14,6 @@ title: Web Development
 - NCIT 18: Agile project management
 - NCIT 19: Agile meetings
 - {{% contentlink path="workshops/how-to-be-a-professional" %}}
-- {{% contentlink path="projects/linux/beginner" %}}
 - {{% contentlink path="topics/free-code-camp/javascript-data-structures-and-algorithms/es6" %}}
 - {{% contentlink path="topics/free-code-camp/javascript-data-structures-and-algorithms/debugging" %}}
 - {{% contentlink path="topics/web-dev-self-learning" %}}

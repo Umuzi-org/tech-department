@@ -1,4 +1,6 @@
 ---
+_db_id: 500
+content_type: topic
 title: Bootcamp Intro
 ---
 

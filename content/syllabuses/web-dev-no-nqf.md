@@ -1,5 +1,5 @@
 ---
-title: Web Development
+title: Web Development - No NQF
 ---
 
 - {{% contentlink path="topics/intro-to-tilde" %}}
@@ -16,7 +16,6 @@ title: Web Development
 - {{% contentlink path="topics/free-code-camp/javascript-data-structures-and-algorithms/basic-javascript/"%}}
 - {{% contentlink path="workshops/big-picture-web-dev" %}}
 - {{% contentlink path="workshops/how-to-be-a-professional" %}}
-- {{% contentlink path="projects/linux/beginner" %}}
 - {{% contentlink path="topics/free-code-camp/javascript-data-structures-and-algorithms/es6" %}}
 - {{% contentlink path="topics/free-code-camp/javascript-data-structures-and-algorithms/debugging" %}}
 - {{% contentlink path="topics/web-dev-self-learning" %}}
@@ -38,9 +37,9 @@ title: Web Development
 - {{% contentlink path="topics/free-code-camp/responsive-web-design/applied-accessability" %}}
 - {{% contentlink path="topics/free-code-camp/responsive-web-design/responsive-web-design-principles" %}}
 - {{% contentlink path="topics/free-code-camp/responsive-web-design/css-flexbox" optional="1" %}}
-- {{% contentlink path="projects/semitone-challenge/gui-part-2"  flavour="javascript,noframework" %}}
 - {{% contentlink path="topics/js-and-node-specific/logging" %}}
 - {{% contentlink path="topics/free-code-camp/javascript-data-structures-and-algorithms/regular-expressions" %}}
+- {{% contentlink path="projects/semitone-challenge/gui-part-2"  flavour="javascript,noframework" %}}
 - {{% contentlink path="projects/tdd/password-checker/part2" flavour="javascript" %}}
 - {{% contentlink path="projects/tdd/string-calculator" flavour="javascript" %}}
 - {{% contentlink path="topics/how-the-internet-works" %}}

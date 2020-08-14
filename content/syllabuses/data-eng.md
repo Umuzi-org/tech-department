@@ -11,7 +11,6 @@ title: Data Engineering
 - NCIT 18: Agile project management
 - NCIT 19: Agile meetings
 - {{% contentlink path="workshops/how-to-be-a-professional" %}}
-- {{% contentlink path="projects/linux/beginner" %}}
 - {{% contentlink path="topics/python-self-learning" %}}
 - {{% contentlink path="topics/clean-code/python" %}}
 - {{% contentlink path="projects/git-exercises" %}}
