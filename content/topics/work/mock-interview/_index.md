@@ -18,7 +18,7 @@ These tips can help you prepare for the whiteboarding interviews;
 - Always participate in whiteboard challenges within your cohort,these will help you get used to explaining infront of people
 - Have a list of practice questions that you practice with
 - Watch how others do,this is going to help you see what you also can improve on
--For more info and tips
+- For more info and tips
  https://hackernoon.com/the-best-whiteboard-interview-advice-i-ever-received-3ebbfa72e4a
 
 
