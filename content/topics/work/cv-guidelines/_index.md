@@ -1,5 +1,5 @@
 ---
-content_type: workshop
+content_type: topics
 title: CV Guidlines
 ---
 
