@@ -15,15 +15,15 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/semitone-challenge/gui-part-1/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/projects/nodejs/mongo/</loc>
   </url>
   
   <url>
     <loc>/tech-department/syllabuses/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/semitone-challenge/gui-part-1/</loc>
   </url>
   
   <url>
@@ -37,15 +37,11 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/semitone-challenge/advanced-algorithm/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/projects/nodejs/express-forms/</loc>
   </url>
   
   <url>
-    <loc>/tech-department/projects/semitone-challenge/gui-part-2/</loc>
+    <loc>/tech-department/projects/semitone-challenge/advanced-algorithm/</loc>
   </url>
   
   <url>
@@ -54,6 +50,10 @@
   
   <url>
     <loc>/tech-department/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/semitone-challenge/gui-part-2/</loc>
   </url>
   
   <url>
@@ -163,10 +163,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/semitone-challenge/add-redux/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/projects/tdd/password-checker/part2/</loc>
   </url>
   
@@ -241,12 +237,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/android/</loc>
+    <loc>/tech-department/projects/android/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/projects/android/</loc>
+    <loc>/tech-department/topics/android/</loc>
     <priority>0</priority>
   </url>
   
@@ -1487,22 +1483,22 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/solo-learn/java/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/code-wars/java/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/workshops/javascript-specific/</loc>
+    <loc>/tech-department/topics/solo-learn/java/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tech-department/topics/javascript-specific/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/javascript-specific/</loc>
     <priority>0</priority>
   </url>
   
@@ -2069,6 +2065,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/bootcamp/failure-at-bootcamp/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/department-processes/workshops_and_events/</loc>
   </url>
   
@@ -2364,7 +2364,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/syllabuses/web-dev-no-ncit-external/</loc>
+    <loc>/tech-department/syllabuses/web-dev-no-nqf/</loc>
   </url>
   
   <url>
@@ -2381,6 +2381,10 @@
   
   <url>
     <loc>/tech-department/syllabuses/web-dev-pre-boot/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/syllabuses/_web-frontend-foundations/</loc>
   </url>
   
   <url>
@@ -2502,6 +2506,10 @@
   
   <url>
     <loc>/tech-department/projects/tdd/recursive_search/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/semitone-challenge/add-redux/</loc>
   </url>
   
   <url>

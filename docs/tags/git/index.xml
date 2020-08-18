@@ -16,8 +16,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/projects/git-exercises/</guid>
-      <description>Introduction This little exercise will take you through the basic git mechanisms you need to know about in order to be productive. By the end of this exercise you&amp;rsquo;ll be able to create and manage your own git repos
-Creating and managing your own repo Note: you can do all of this stuff from the command line! You should be using linux. Open up a terminal and do the following:</description>
+      <description>Introduction This little exercise will take you through the basic git mechanisms you need to know about in order to be productive. By the end of this exercise you&amp;rsquo;ll be able to create and manage your own git repos.
+IMPORTANT Make sure you go through the prerequisites listed above. Otherwise you&amp;rsquo;ll be clueless!
+Skillz you&amp;rsquo;ll learn By the end of this you are expected to know:
+ How to set up a repository on Github How to make commits How to make branches and switch between them How to use gitignore files How to merge branches How to overcome merge conflicts  When you are finished with these excercises come re-read this section and make sure you know what all these things mean.</description>
     </item>
     
     <item>
