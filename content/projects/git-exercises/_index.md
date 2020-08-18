@@ -1,23 +1,39 @@
 ---
 _db_id: 288
 available_flavours:
-- none
+  - none
 content_type: project
 prerequisites:
   hard:
-  - topics/git
+    - topics/bootcamp/bash-for-bootcamp
+    - topics/git
   soft: []
 ready: true
 story_points: 1
 submission_type: repo
 tags:
-- git
+  - git
 title: Git Basic Exercises
 ---
 
 ## Introduction
 
-This little exercise will take you through the basic git mechanisms you need to know about in order to be productive. By the end of this exercise you'll be able to create and manage your own git repos
+This little exercise will take you through the basic git mechanisms you need to know about in order to be productive. By the end of this exercise you'll be able to create and manage your own git repos.
+
+**IMPORTANT** Make sure you go through the prerequisites listed above. Otherwise you'll be clueless!
+
+## Skillz you'll learn
+
+By the end of this you are expected to know:
+
+- How to set up a repository on Github
+- How to make commits
+- How to make branches and switch between them
+- How to use gitignore files
+- How to merge branches
+- How to overcome merge conflicts
+
+When you are finished with these excercises come re-read this section and make sure you know what all these things mean.
 
 ## Creating and managing your own repo
 
@@ -78,12 +94,12 @@ Date:   Tue Apr 23 14:43:51 2019 +0200
     initial commit
 ```
 
-Each commit has a "hash". That's the weird alphanumeric string thingy.
+Each commit has a "hash". That's the weird alphanumeric string thingy, eg `2103b6418ecf4f70effabb639cfad6ac9d57c089`.
 
 2. Copy the commit hash for your second commit. You can just select it with your mouse and right click and choose 'copy'
 3. press q to exit the log view. You should now be back at the terminal
 4. type in `git checkout` and then paste in the commit hash and press enter
-5. `cat README.md` It's like going back in time
+5. `cat README.md` It's like going back in time...
 6. `git checkout master`
 7. `cat README.md` Now we are up to date
 
@@ -91,9 +107,15 @@ You can jump to any commit using `git checkout`. You can checkout a branch, a co
 
 When you checkout a branch, you checkout the latest commit on that branch.
 
+Why would you want to do this? Well, it's very useful to be able to go back and look at an old version of your code. Maybe you made a mistake and there is a bug and you want to go back to when there was no bug.
+
 ### branching
 
-The real power of git is in branching. Branching is what allows big teams of developers to work on the same code base. Let's explore branching a little bit.
+The real power of git is in branching. Branching is what allows big teams of developers to work on the same code base. Basiclly differnt developers make branches for different things and then those branches can be merged together into one mighty application.
+
+**Please Note** At some point during this excercise you'll get an error message! It'll say something about a merge conflict. DONT PANIC! Merge conflicts are a fact of life and you'll need to figure out how to fix it. (This)[https://opensource.com/article/20/4/git-merge-conflict] should help.
+
+Let's explore branching a little bit.
 
 1. `git branch` This lists all your branches. Git makes a branch named `master` by default
 2. Now create a new branch called `milkshake-flavours`. git is not too restrictive when it comes to naming our branches. It's generally best to choose a name that has something to do with what the branch is for. Our branch is about milkshakes
@@ -300,11 +322,14 @@ This adds a commit to branch Y and doesn't change branch X
 
 2. You will see a bunch of weird looking things. There is a section entitled "…or push an existing repository from the command line". We have an existing repository and a command line. So this seems appropriate. Copy the commands from there and paste them into your terminal. this will push your changes to github.
 
-3. Refresh your browser. Cool eh?
+3. Refresh your browser. Cool eh? The url you are looking at should look like this: https://github.com/[YOUR_USERNAME]/git-basic-exercises
 
 Now you should see a little dropdown box on github that says "Branch: master". Click there. your other branches aren't available.
 
 4. Push your other branches to github. We want all branches to be listed
+
+**A cool trick we use all the time**:
+If your repo is available at https://github.com/[YOUR_USERNAME]/git-basic-exercises then take a look at https://github.com/[YOUR_USERNAME]/git-basic-exercises/network. I just added `/network` on the end there. You'll be able to see all the individual commits and all the different branches you've made and how they relate to each other.
 
 ### Pulling and remotes
 
