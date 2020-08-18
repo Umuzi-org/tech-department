@@ -100,9 +100,11 @@ This will polish your skills, working on a real team towards real goals is somet
 
 After the first 9 months of your contract with us, we start watching you extra closely and preparing you for job interviews.
 
-If we believe that you are work-ready then we hustle to get you an internship at an external company. The external company will give you a top-up on your salary at this point, at least an extra R3500. So you'd get R7000 total for the last 3 months.
+If we believe that you are work-ready then we hustle to get you an internship at an external company.
 
-**Note:** If you are not work ready at this point, we will not be sending you out. Umuzi is a reputable training organisation and we will only vouch for you if we believe in you.
+**Note:** If you are not work ready at this point, we will not be sending you out. We only send out our stars. So be aweseome!
+
+Umuzi is a reputable training organisation and we will only vouch for you if we believe in you.
 
 Also, VERY IMPORTANT, if you don't go out for work experience for any reason at all, then you will NOT be given the top up. Umuzi will pay your R3500 per month until your contract is concluded. Unless, of course, if a new contract is signed by all parties.
 
