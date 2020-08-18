@@ -392,14 +392,14 @@
 	"content": ""
 },
 {
-	"uri": "/tech-department/projects/android/",
+	"uri": "/tech-department/topics/android/",
 	"title": "Androids",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/tech-department/topics/android/",
+	"uri": "/tech-department/projects/android/",
 	"title": "Androids",
 	"tags": [],
 	"description": "",
@@ -1337,14 +1337,14 @@
 	"content": ""
 },
 {
-	"uri": "/tech-department/projects/data-science-specific/",
+	"uri": "/tech-department/topics/data-science-specific/",
 	"title": "Data-science-specifics",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/tech-department/topics/data-science-specific/",
+	"uri": "/tech-department/projects/data-science-specific/",
 	"title": "Data-science-specifics",
 	"tags": [],
 	"description": "",
@@ -2520,14 +2520,14 @@
 	"content": ""
 },
 {
-	"uri": "/tech-department/topics/javascript-specific/",
+	"uri": "/tech-department/workshops/javascript-specific/",
 	"title": "Javascript-specifics",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/tech-department/workshops/javascript-specific/",
+	"uri": "/tech-department/topics/javascript-specific/",
 	"title": "Javascript-specifics",
 	"tags": [],
 	"description": "",
