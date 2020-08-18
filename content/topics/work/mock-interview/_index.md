@@ -7,7 +7,7 @@ title: Mock Interviews
 As a recruit mock interviews are done so to give you a glimpse of what you can expect from a real
 life interview. This is a great way to prepare you of what is to come.
 
-The Mock Interview Process also invloves the following as we try to make it as real life as possible.
+The Mock Interview Process also invloves the following as we try to make it as realistic as possible.
 
 #### Whiteboarding
 Basically this is when the interviewer asks you to solve a code challenge on a whiteboard 
