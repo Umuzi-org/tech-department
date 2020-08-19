@@ -1,7 +1,7 @@
 ---
 _db_id: 219
 available_flavours:
-- any_language
+  - any_language
 content_type: project
 ready: true
 story_points: 3
@@ -19,6 +19,10 @@ Please follow best practices when doing this work!
 ## Note
 
 The Exercises below are meant to be language-agnostic. If we use the word `print` in an Exercise description then we mean output it to the terminal/console/stdout. We dont mean print to a printer, and we dont want a gui. These exercises just spit out some text.
+
+## Note to web devs
+
+Please dont submit any HTML or CSS. Please don't use `document.write`. We are interested in seeing how you implement these algorithms.
 
 ## What does success look like
 
