@@ -536,6 +536,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/work/cv-guidelines/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/capstone-projects/</loc>
   </url>
   
@@ -614,6 +618,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/syllabuses/coder-mock-interview/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/bridging-course-soft-skills/cognitive-biases/</loc>
   </url>
   
@@ -660,6 +668,10 @@
   
   <url>
     <loc>/tech-department/projects/kotlin/project-3/create-a-fragment/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/work/creating-a-statement/</loc>
   </url>
   
   <url>
@@ -798,12 +810,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/</loc>
+    <loc>/tech-department/projects/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/projects/data-science-specific/</loc>
+    <loc>/tech-department/topics/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
@@ -1493,12 +1505,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/workshops/javascript-specific/</loc>
+    <loc>/tech-department/topics/javascript-specific/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/topics/javascript-specific/</loc>
+    <loc>/tech-department/workshops/javascript-specific/</loc>
     <priority>0</priority>
   </url>
   
@@ -1649,6 +1661,18 @@
   <url>
     <loc>/tech-department/topics/messaging/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/department-processes/mock-interviews/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/work/mock-interview/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/work/mock-interview-survey/</loc>
   </url>
   
   <url>
@@ -1999,6 +2023,10 @@
   
   <url>
     <loc>/tech-department/projects/rabbitmq/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/work/recruit-career/</loc>
   </url>
   
   <url>
@@ -2434,6 +2462,11 @@
   
   <url>
     <loc>/tech-department/topics/android/video-assets/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/work/</loc>
+    <priority>0</priority>
   </url>
   
   <url>

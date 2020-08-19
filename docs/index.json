@@ -896,6 +896,13 @@
 	"content": "Make an account here if you haven\u0026rsquo;t already: https://www.freecodecamp.org/learn\nLook under \u0026ldquo;Responsive Web Design\u0026rdquo;\nYou\u0026rsquo;ll be hitting \u0026ldquo;CSS Grid\u0026rdquo;\n"
 },
 {
+	"uri": "/tech-department/topics/work/cv-guidelines/",
+	"title": "CV Guidlines",
+	"tags": [],
+	"description": "",
+	"content": " NB: After submitting your portfolios please go through these workshop slides https://docs.google.com/presentation/d/16kRtCa_6qXadX7svC25qBNGPmdynxAs5fZFEe-BPD_o/edit?usp=gmail\n"
+},
+{
 	"uri": "/tech-department/projects/capstone-projects/",
 	"title": "Capstone project",
 	"tags": [],
@@ -1029,6 +1036,13 @@
 	"content": ""
 },
 {
+	"uri": "/tech-department/syllabuses/coder-mock-interview/",
+	"title": "Coder Mock Interviews",
+	"tags": [],
+	"description": "",
+	"content": "  TOPICS: Recruit Career Questionnaire   PROJECTS: Build your first personal website   TOPICS: CV Guidlines   TOPICS: Creating A Memorable Statement   TOPICS: Mock Interviews Survey   TOPICS: Mock Interviews   "
+},
+{
 	"uri": "/tech-department/topics/bridging-course-soft-skills/cognitive-biases/",
 	"title": "Cognitive Biases",
 	"tags": [],
@@ -1111,6 +1125,13 @@
 	"tags": [],
 	"description": "",
 	"content": " App overview In the three projects that make up this lesson, you work on an app called AndroidTrivia. The completed app is a game in which the user answers three trivia questions about Android coding. If the user answers all three questions correctly, they win the game and can share their results.\nhe AndroidTrivia app illustrates navigation patterns and controls. The app has several components:\n In the title screen, shown on the left in the screenshot above, the user starts the game. In the game screen with questions, shown in the middle above, the user plays the game and submits their answers. The navigation drawer, shown on the right above, slides out from the side of the app and contains a menu with a header. The drawer icon opens the navigation drawer. The navigation-drawer menu contains a link to the About page and a link to the rules of the game.  The top of the app displays a colored view called the app bar, which is also known as the action bar.\nTask: Explore the starter app project In this project, you work from a starter app that provides template code and fragment classes that you need as you complete the Trivia app.\n1 - Download the AndroidTrivia-Starter Android Studio project.\n2 - Open the project in Android Studio and run the app. When the app opens, it doesn\u0026rsquo;t do anything other than display the app name and a blank screen.\n3 - In the Android Studio Project pane, open the Project: Android view to explore the project files. Open the app \u0026gt; java folder to see the MainActivity class and fragment classes.\n4 - Open the res \u0026gt; layout folder and double-click on activity_main.xml. The activity_main.xml file appears in the Layout Editor.\n5 - Click the Design tab. The Component Tree for the activity_main.xml file shows the root layout as vertical LinearLayout.\nIn a vertical linear layout, all the child views in the layout are aligned vertically.\nTask: Add a fragment A fragment represents a behavior or a portion of user interface (UI) in an activity. You can combine multiple fragments in a single activity to build a multi-pane UI, and you can reuse a fragment in multiple activities.\nThink of a fragment as a modular section of an activity, something like a \u0026ldquo;sub activity\u0026rdquo; that you can also use in other activities:\n A fragment has its own lifecycle and receives its own input events. You can add or remove a fragment while the activity is running. A fragment is defined in a Kotlin class. A fragment\u0026rsquo;s UI is defined in an XML layout file. The AndroidTrivia app has a main activity and several fragments. Most of the fragments and their layout files have been defined for you. In this task, you create a fragment and add the fragment to the app\u0026rsquo;s main activity.  Step 1: Add a fragment class In this step, you create a blank TitleFragment class. Start by creating a Kotlin class for a new fragment:\n1 - In Android Studio, click anywhere inside the Project pane to bring the focus back to the project files. For example, click the com.example.android.navigation folder.\n2 - Select File \u0026gt; New \u0026gt; Fragment \u0026gt; Fragment (Blank).\n3 - For the fragment name, use TitleFragment. Clear all the checkboxes, including create Layout XML, include fragment factory methods, and include interface callbacks.\n4 - Click Finish.\n5 - Open the TitleFragment.kt fragment file, if it is not already open. It contains the onCreateView() method, which is one of the methods that\u0026rsquo;s called during a fragment\u0026rsquo;s lifecycle.\n6 - In onCreateView(), remove the return TextView(activity).apply section, including the line that starts with setText. The onCreateView() function is left with only the following code:\nCreate a binding object The fragment won\u0026rsquo;t compile now. To make the fragment compile, you need to create a binding object and inflate the fragment\u0026rsquo;s view (which is equivalent to using setContentView() for an activity).\n1 - In the onCreateView() method in TitleFragment.kt, create a binding variable (val binding).\n2 - To inflate the fragment\u0026rsquo;s view, call the DataBindingUtil.inflate() method on the fragment\u0026rsquo;s Binding object, which is FragmentTitleBinding.\nPass four parameters into the method:\n inflater, which is the LayoutInflater used to inflate the binding layout.\n The XML layout resource of the layout to inflate. Use one of the layouts that is already defined for you, R.layout.fragment_title.\n container for the parent ViewGroup. (This parameter is optional.)\n false for the attachToParent value.\n Assign the binding that DataBindingUtil.inflate returns to the binding variable.\n Return binding.root from the method, which contains the inflated view. Your onCreateView() method now looks like the following code:\n  override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? { val binding = DataBindingUtil.inflate\u0026lt;FragmentTitleBinding\u0026gt;(inflater, R.layout.fragment_title,container,false) return binding.root }  Step 2: Add the new fragment to the main layout file In this step, you add the TitleFragment to the app\u0026rsquo;s activity_main.xml layout file.\n1 - Open res \u0026gt; layout \u0026gt; activity_main.xml and click the Text tab to view the layout XML code.\n2 - Inside the existing LinearLayout element, add a fragment element.\n3 - Set the fragment\u0026rsquo;s ID to titleFragment.\n4 - Set the fragment\u0026rsquo;s name to the full path of the fragment class, which in this case is com.example.android.navigation.TitleFragment.\n5 - Set the layout width and height to match_parent.\n\u0026lt;layout xmlns:android=\u0026quot;http://schemas.android.com/apk/res/android\u0026quot; xmlns:app=\u0026quot;http://schemas.android.com/apk/res-auto\u0026quot;\u0026gt; \u0026lt;LinearLayout android:layout_width=\u0026quot;match_parent\u0026quot; android:layout_height=\u0026quot;match_parent\u0026quot; android:orientation=\u0026quot;vertical\u0026quot;\u0026gt; \u0026lt;fragment android:id=\u0026quot;@+id/titleFragment\u0026quot; android:name=\u0026quot;com.example.android.navigation.TitleFragment\u0026quot; android:layout_width=\u0026quot;match_parent\u0026quot; android:layout_height=\u0026quot;match_parent\u0026quot; /\u0026gt; \u0026lt;/LinearLayout\u0026gt; \u0026lt;/layout\u0026gt;  6 - Run the app. The fragment has been added to your main screen.\nSummary In this project, you added a fragment to the AndroidTrivia app, which you will keep working on in the next two project in this lesson.\n A fragment is a modular section of an activity.\n A fragment has its own lifecycle and receives its own input events.\n Use the \u0026lt;fragment\u0026gt; tag to define the layout for the fragment in the XML layout file.\n Inflate the layout for a fragment in onCreateView().\n You can add or remove a fragment while the activity is running.\n  "
+},
+{
+	"uri": "/tech-department/topics/work/creating-a-statement/",
+	"title": "Creating A Memorable Statement",
+	"tags": [],
+	"description": "",
+	"content": "Your personal statement should give your prospective employer a sense of who you are and what drives you. Your work ethic, career goals and work philosophy. In simple english, your personal statement is about what you do and your career ambitions and what drives you in your craft.\nRevisit the CV Workshop slides for 3 Steps to Crafting a Memorable Personal Statement\nHere are a few examples:\n“Nyiko is a naturally analytical researcher who communicates complex information using simple and clear data visualisation. Being a Data Scientist he provides insights to complex business problems that may arise in the everchanging tech world. He is looking to offer his communication skills to an innovative ground breaking team working on cutting-edge products driven by data.”  “From a full-time musician to a self taught full-stack developer. Lwandile spends hours on his computer constantly upskilling in code. He prefers working in teams as he believes that it is through collaboration that understanding is developed, communication built and knowledge is gained. He teaches and shares as much as he learns, and desires to work with others who are also driven to achieve their goals.”  “Ntombi is an inquisitive UX Strategist who loves all things data and research. As an anthropology graduate she believes that through research that is timely, relevant and accurate, any problem can be solved. The blending of Strategy and Anthropology has created an innovative problem solver with a strong focus on human-centered design thinking in her strategies.”  “Karabo is a Digital User Interface and Graphic designer obsessed with line illustrations and designs. She is fascinated by art direction and the use of minimalism to design. Ideas around how design can improve the way that people perceive brands, advertising and marketing add fuel to Karabo’s passion for what she does. Her ultimate goal is to live her best creative life , doing yoga, painting and being a brand genius.”  You are now expected to come up with your own profile. Do not be cheesy or cliche, but be unique and professional. Keep in my mind this is selling your professional self in a few words.  "
 },
 {
 	"uri": "/tech-department/credits/",
@@ -1337,14 +1358,14 @@
 	"content": ""
 },
 {
-	"uri": "/tech-department/topics/data-science-specific/",
+	"uri": "/tech-department/projects/data-science-specific/",
 	"title": "Data-science-specifics",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/tech-department/projects/data-science-specific/",
+	"uri": "/tech-department/topics/data-science-specific/",
 	"title": "Data-science-specifics",
 	"tags": [],
 	"description": "",
@@ -2520,14 +2541,14 @@
 	"content": ""
 },
 {
-	"uri": "/tech-department/workshops/javascript-specific/",
+	"uri": "/tech-department/topics/javascript-specific/",
 	"title": "Javascript-specifics",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/tech-department/topics/javascript-specific/",
+	"uri": "/tech-department/workshops/javascript-specific/",
 	"title": "Javascript-specifics",
 	"tags": [],
 	"description": "",
@@ -2777,6 +2798,27 @@
 	"tags": [],
 	"description": "",
 	"content": ""
+},
+{
+	"uri": "/tech-department/department-processes/mock-interviews/",
+	"title": "Mock Interviews",
+	"tags": [],
+	"description": "",
+	"content": " For Managers Use Mock Interviews are done so to give recruits a glimpse of what they can expect from a real life interview. This is a great way to prepare them of what is to come.\nWe have compiled a couple of questions that we know are likely asked in a real life interview.\nThis document has those questions and are to be used when conducting a Mock Interview. https://docs.google.com/document/d/1O6IGatGF-rUZsMO3ORwVdIigLF4Cgx7-MKsmMQXd4y8/edit\nThese interviews not only involve the questions but the following too;\nThis is how we tell the recruits to prepare for it - TOPICS: Mock Interviews As a Staff Member after conducting a Mock Interview it is very important to fill in the feedback form. This way we can keep track of exactly who has done the mock interviews and most importantly how they performed, also the Plug team needs this information.\nThis is the form to be filled in this link. https://docs.google.com/forms/d/1Pi7Q_0PvbKbBgrTtmRj5ny6p_6cgK6DLj6KJmsOfHHw/viewform?edit_requested=true\n"
+},
+{
+	"uri": "/tech-department/topics/work/mock-interview/",
+	"title": "Mock Interviews",
+	"tags": [],
+	"description": "",
+	"content": " As a recruit mock interviews are done so to give you a glimpse of what you can expect from a real life interview. This is a great way to prepare you of what is to come.\nThe Mock Interview Process also invloves the following as we try to make it as realistic as possible.\nWhiteboarding Basically this is when the interviewer asks you to solve a code challenge on a whiteboard right there and then.Also in explaining the code,they get more information about your coding skills.\nThese tips can help you prepare for the whiteboarding interviews;\n Always participate in whiteboard challenges within your cohort,these will help you get used to explaining infront of people Have a list of practice questions that you practice with Watch how others do,this is going to help you see what you also can improve on For more info and tips https://hackernoon.com/the-best-whiteboard-interview-advice-i-ever-received-3ebbfa72e4a  Code Tests Companies often want to see what you can or cannot do and code tests are valuable for that reason. Normally they dont expect juniors to get 100% but to get a better understanding of their skills.\nHow to prepare for this:\n Practice makes perfect. There are a lot of sites that let you practice your coding skills. Focus alot on your problem solving skills  These links has perfect examples that can help you with this https://devskiller.com/coding-tests-skill/web-development/\nhttps://coderbyte.com/?utm_campaign=Employer%20-%20coderbyte.com/organizations\u0026amp;utm_source=orange_top_bar\nTechnical questions These are questions that are specific to the role that the Junior is going to be filling. It helps interviewers see if the candidates know what the job involves and if they can fulfil the role.\nYou can prepare for this by:\n Getting to know exactly what is involved in the role you are applying for so you can see what you need to either prepare for or sharpen. Practice common terminologies in that specific language and be able to explain them Gather material on coding,this can help you increase your knowledge and provide confident, thorough answers in your interview.  Some examples of questions to help you prepare\n Web Development https://learning.naukri.com/articles/top-20-web-developer-interview-questions-answers/\n JavaScript https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95\n DataScience https://www.simplilearn.com/tutorials/data-science-tutorial/data-science-interview-questions\n  Talking about experiences and portfolio This is a very important part as it is a visual representation of the skills that a recruit/junior has. Most companies ask for example for a link to the candidates repo to see their work.\n Know your CV very well,chances are you will be asked to talk about the work you\u0026rsquo;ve done. Make sure to have the correct link to your GitHub repo. Very important to check that everything works as it should.  Soft skills and culture fit This is basically to see if the interviewee is going to be a good addition to the company. These involve also getting a glimpse of their values and behaviours to certain things.\n"
+},
+{
+	"uri": "/tech-department/topics/work/mock-interview-survey/",
+	"title": "Mock Interviews Survey",
+	"tags": [],
+	"description": "",
+	"content": "As a recruit before your mock interview you will fill in this survey which will have general questions about yourself and also some information about your portfolio.\nPlease click on this link to find the survey. https://docs.google.com/forms/d/e/1FAIpQLScaglcXrLpgHdZbVWGxQwINbBTQ_Knp0N4-kHDcytQDVVWjsQ/viewform\n"
 },
 {
 	"uri": "/tech-department/projects/angular-mocking/",
@@ -3365,6 +3407,13 @@
 	"tags": ["rabbit-mq"],
 	"description": "",
 	"content": " RabbitMQ, despite its funny name, is a seriously useful piece of software.\nOn top of this, it\u0026rsquo;s a great introduction to parallel computing.\nTake a look at the offical tutorial here: https://www.rabbitmq.com/getstarted.html.\nInstructions Create one repo. Inside that repo create 6 directories, name them: one, two, three, etc. Inside directory one, implement tutorial 1 from here: https://www.rabbitmq.com/getstarted.html. Inside directory 2 implement tutorial 2, etc. Go up to number 6.\nNow pay close attention: Copy-pasting code is not sufficient.\nSuccess criteria 1: DRY CODE Each of your tutorial implementations must be DRY in itself. eg: If you have the string \u0026lsquo;hello\u0026rsquo; pasted all over the place then your code would not be DRY.\nHint: Here\u0026rsquo;s the expected file structure for the first tutorial:\none/ channel.py recieve.py send.py  Success criteria 2: Environmental variables Hard-coding the connection string is no good. You want to fetch it from an environmental variable. On top of that you want to be able to run your code successfully even if the environmental variable is not set.\neg:\npython send.py # this should work as per the tutorials export HOST=\u0026quot;35:456:145:235\u0026quot; python send.py # this should attempt to connect to a rabbitmq server at the given ip address  "
+},
+{
+	"uri": "/tech-department/topics/work/recruit-career/",
+	"title": "Recruit Career Questionnaire",
+	"tags": [],
+	"description": "",
+	"content": "Please complete the Questionnaire below\nThis is all invloved in preparing you for work experience\nhttps://docs.google.com/forms/d/e/1FAIpQLSfhKec2TgbYTdTL09EdaBnyJAD7UME9MuONkd4XxDrhOv5iJQ/viewform?usp=sf_link\n"
 },
 {
 	"uri": "/tech-department/tags/redux/",
@@ -4100,6 +4149,13 @@
 	"tags": [],
 	"description": "",
 	"content": " In Android when working with videos, you can either stream from a Url or you can add a video to your project and play it without using any data.\nExamples Stream a video from a url.\nPlay a video from the raw folder.\nHere\u0026rsquo;s an example of working with a video in Android.\n"
+},
+{
+	"uri": "/tech-department/topics/work/",
+	"title": "Works",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "/tech-department/topics/ncit/116389/",
