@@ -1,6 +1,7 @@
 ---
 content_type: topics
 title: CV Guidlines
+ready: True
 ---
 
 ### NB: After submitting your portfolios please go through these workshop slides
