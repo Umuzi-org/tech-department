@@ -25,7 +25,7 @@ Have some links :)
 
 To create a markdown file just create a file with the extension `.md`. That's it.
 
-If you are using ACode on your android device, you can press the "play" button in the editer and your markdown will get rendered as a website.
+If you are using ACode on your android device, you can press the "play" button in the editor and your markdown will get rendered as a website.
 
 If you are running vscode you can right click on a markdown file and select "open preview" to see what your work looks like.
 
@@ -38,7 +38,7 @@ There are a few reasons:
 
 ### The questions
 
-Please create a seperate file for each of these. Remember to pay attention to your sentence structure, spelling and grammar.
+Please create a separate file for each of these. Remember to pay attention to your sentence structure, spelling and grammar.
 
 #### 1. Your history [200 - 500 words]
 
@@ -54,9 +54,9 @@ How do you spend your free time? You can just give us a list of things you like 
 
 #### 4. Relevent experience [ <= 300 words]
 
-Do you have past experience that you think will be relevent? Maybe you learned to code in school, or built something cool already. Maybe you've even written code for money before. Maybe you taught yourself some stuff.
+Do you have past experience that you think will be relevant? Maybe you learned to code in school, or built something cool already. Maybe you've even written code for money before. Maybe you taught yourself some stuff.
 
-If you haven't got relevent experience, don't worry! We're all about giving people oppertunities to gain experience.
+If you haven't got relevant experience, don't worry! We're all about giving people opportunities to gain experience.
 
 #### 5. What makes you think you'll succeed as a coder? [<= 300 words]
 
@@ -77,8 +77,8 @@ Also, the course is pretty much self-paced. So the faster you move the better th
 - Some people work best in the early hours of the morning. Some people work late at night.
 - Some people work on weekends
 - some people put in more than 40 hours per week because they just love this stuff, or because they want to get a job sooner
-- And of course dfferent code schools have different requirements
+- And of course different code schools have different requirements
 
 #### 8. Your future
 
-If you succeed and get a high value career in your chosen field, what do you think your life will look like? Do you have personal goals? How will this effect your family and your community? Is ther a buig problem you want to solve? Or a business you want to start?
+If you succeed and get a high value career in your chosen field, what do you think your life will look like? Do you have personal goals? How will this effect your family and your community? Is there a big problem you want to solve? Or a business you want to start?
