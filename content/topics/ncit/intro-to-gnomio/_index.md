@@ -7,7 +7,7 @@ tags:
 title: Introduction to gnomio and NQF
 ---
 
-Umuzi's certifications are nationally recognised. This is pretty awesome, but it does mean we have to jump through a few hoops. Basicaly we need to give external assessors access to some of your work. For now we do that using a platform called Gnomio.
+Umuzi's certifications are nationally recognised. This is pretty awesome, but it does mean we have to jump through a few hoops. Basically we need to give external assessors access to some of your work. For now we do that using a platform called Gnomio.
 
 Here's the deal: You'll be given access to gnomio and there will be an assessment there for you to fill in.
 
