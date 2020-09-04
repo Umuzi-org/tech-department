@@ -1,6 +1,10 @@
 ---
 title: Tilde Mockups
-hard: content/topics/web-frontend/intro-to-web-design
+ready: True
+prerequisites:
+  hard:
+    - topics/web-frontend/intro-to-web-design
+  soft: []
 ---
 
 Tilde is pretty cool and stuff, but it still needs a lot of work. This is your chance to make your mark!
@@ -13,19 +17,20 @@ Your objective is not to make a fully functioning full stack web application. Yo
 
 - use `create-react-app` to set up your app
 - [material ui](https://material-ui.com/): we are already using this a lot
+- To get your site to be responsive, make use of [The material ui Grid component](https://material-ui.com/components/grid/)
 - [plotly](https://plotly.com/javascript/react/): This is something that our data scientists are quite familiar with - it's good to be consistant about out use of technologies in order to allow easy cross-functional communication. So if you draw any graphs look here first
 
 ## What does success look like?
 
 - Demonstrate knowledge of React by making multiple components
-- Make use of MAterial UI
+- Make use of Material UI
 - Your frontend should be intuitive for users. Try to empathise with the user. What will they want to see? Where will they be confused.
+- your website needs to be responsive. Make us of the
+- make sure you follow good architectural practices
 
 ## What does excellent look like?
 
 If you make use of state and props in order to demonstrate interactions then that would be pretty darn cool. But first make this thing look good.
-
-If you read ahead and implement a good quality architecture that would also be super cool.
 
 ## General procedure
 

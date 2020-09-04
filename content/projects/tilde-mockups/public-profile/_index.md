@@ -1,10 +1,13 @@
 ---
 title: Public Profile
+ready: True
 ---
 
 One exciting feature we want to build is a public profile page that recruits can use as a way to show off what they have learned with Tilde. We keep track of what people are learning and things like that on their boards.
 
-Build a public profile page that can act as a kind of portfolio for a recruit. Possible employers will be able to look.
+Build a public profile page that can act as a kind of portfolio for a recruit. This page can be sent out to potential employers and make the job hunt easier.
+
+You need to come up with a cool way of displaying the kinds of data we currently have access to, as well as some future stuff.
 
 ## What data do we currently keep?
 
@@ -15,11 +18,11 @@ For example: Maybe a recruit has done 8/10 of the tdd cards on their board. And 
 
 We also keep track of code reviews. So Another thing we can display is comments about excellent work and perhaps competent work.
 
-Eg: let's say Shindi reviews someone's api development code and says something wonderful. It would be very cool to have that show up.
+Eg: let's say Shindi reviews someone's api development code, marks it as excellent and says something wonderful. It would be very cool to have that show up on a the recruit's public profile page.
 
 We also keep track of what courses people registered for and when. A recruit can actually do multiple courses with us. For example one could do a full stack web dev course, then a course in React.
 
-One thing we are also quite excited about is supporting our Alumni. Once someone graduates from their course with us, we want to keep offering them value through giving them access to courses on our network. Ao their public profiles should get more awesome over time and show what they have been working on.
+One thing we are also quite excited about is supporting our Alumni. Once someone graduates from their course with us, we want to keep offering them value through giving them access to courses on our network. And their public profiles should get more awesome over time and show what they have been working on.
 
 ## What data do we currenly not keep
 
@@ -33,6 +36,7 @@ Here are a few ideas:
 
 - a profile picture
 - a "Hire me" button
+- employment history
 - testimonials from employers and staff
 - the recruit's own words about who they are, what are their plans, etc. Take a look at this for inspiration: {{% contentlink path="content/syllabuses/coder-mock-interview" %}}
 - Trophies and badges. One day we would like to build in some gamification features. For example a person might get a badge to say they are the fastest high quality code reviewer for the week

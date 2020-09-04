@@ -5,3 +5,4 @@ title: Virtual Environments
 ---
 
 and os.environ
+and pip

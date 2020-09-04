@@ -1,8 +1,8 @@
 ---
 _db_id: 18
 available_flavours:
-- javascript
-- typescript
+  - javascript
+  - typescript
 content_type: topic
 ready: true
 title: Basic introduction to Redux
@@ -155,3 +155,32 @@ Look up the "Command Pattern" . Redux isn't the same but it's super powers are v
 ## Industry
 
 Redux is mostly used in the context of React. It is used for frontend development. But there is so much more it could do.
+
+## How to structure your data for simplicity and efficiency
+
+Redux is very flexible when it comes to the shape of the objects stored in the store. Flexibility is great, but it does have a downside. Basically you need to be careful about how to structure your storage, otherwise redux can run quite slow and your reducers can get very complicated.
+
+Basically the thing to keep in mind is:
+
+> Flat is better than nested
+
+Ok, what does that mean?
+
+A nested data structure is something with many levels.
+
+Let's say we have an application that manages...agile cards one a board. Tose cards can be associated with other data structures such as repositories and reviews.
+
+Say we store a list of cards that look like this:
+
+```
+{ ...
+cards: [
+    {
+        "id": 123,
+        repository: {"id":667,"owner":"Wordz278","fullName":"Wordz278/person","sshUrl":"git@github.com:Wordz278/person.git","createdAt":"2020-02-11T12:23:43Z","private":false,"archived":false,"user":null}",
+        "reviews" : [
+            {id:}
+        ]
+    }
+]}
+```

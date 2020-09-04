@@ -1,6 +1,19 @@
 ---
-title: Memory game
-weight: 1
+_db_id: 222
+available_flavours:
+  - javascript
+  - typescript
+  - any_frontend_framework
+
+content_type: project
+ready: true
+story_points: 5
+submission_type: repo
+tags:
+  - TDD
+  - Dom Manipulation
+  - Mocks and spies
+title: Memory game web app
 ---
 
 Here is an example of a memory game: http://dkmgames.com/memory/pairsrun.php
@@ -17,6 +30,9 @@ Create a Memory game MVP. Requirements:
 
 Build your game in a TDD manner. If you don't include tests in your final submission you will be held back and you will be expected to start over.
 
-## Resources
+## Unit testing
 
-- {{% contentlink path="topics/basic-architecture-concepts" %}}
+Tests are very important. Please follow the following best practices:
+
+- tdd!!!
+- if you are using plain ol js then your tests need to make use of mocks and spies to check that the frontend is being updated as it should be

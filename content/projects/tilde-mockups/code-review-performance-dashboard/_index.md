@@ -1,5 +1,6 @@
 ---
 title: Code Review Performance Dashboard mockup
+ready: True
 ---
 
 As you should know by now, code review is the cornerstone of a successful dev team.
@@ -19,8 +20,8 @@ A recruit needs to be able to look at their code review dashboard and clearly se
 Basically we keep track of:
 
 1. Cards and their statusess. and who is assigned as a reviewer
-2. If a card is in the review coluonmn, we can see how long it has been chilling there by looking at when the review was requested
-3. We can see what reviews were on and when by who
+2. If a card is in the review column, we can see how long it has been chilling there by looking at when the review was requested
+3. We can see what reviews were done when and by who
 4. We also keep track of how many times a staff member disagrees with a review made by a recruit.
 
 ## And what does good look like?
@@ -36,13 +37,13 @@ Here are a few guidelines on what good looks like:
 - The faster someone reviews code the better. So if someone requests a review and then the card just chills in the review column getting ignored for ages then that's bad
 
 On top of those basics, it's good to know that staff members have the final say about if a project is competent (or excellent) or not. So another thing we keep track of is disagreements.
-Eg: if a reviewer says that some code is excellent, then a staff member says it's a red flag, then it means that the reviewer did a really kak job. Really seriously kak.
+Eg: if a reviewer says that some code is excellent, then a staff member says it's a red flag, then it means that the reviewer did a really bad job. Really seriously bad.
 
 So we count "disagreements" and keep track of when they happen, and on what cards/projects.
 
 Why do "disagreement"s happen? There are 2 main reasons:
 
-- junior coders make mistakes! So we expect some disagreements. But as the coder learns, they'll do a better job.
+- junior coders make mistakes because they are still learning! So we expect some disagreements. But as the coder learns, they'll do a better job.
 - some people rush through code reviews and do a bad job. Or just always mark their friends as competent and other such nonesense. These people need to know that that's not how life works.
 
 ## And the other side of the review coin
@@ -55,8 +56,8 @@ Acting quickly when someone gives you a thoughtful review is really a good thing
 
 So the things that are worth displaying here are:
 
-1. How quickly a crd moves from "review feedback" back into review
-2. How many times a re
+1. How quickly a card moves from "review feedback" back into review
+2. How many times a card moves back and forward between the "in review" and "review feedback" columns. If it's just getting kicked back and forth it might be the coder who is at fault
 
 ## Your task
 

@@ -1,5 +1,6 @@
 ---
 title: Volunteer Pair-programming Dashboard
+ready: True
 ---
 
 We have a growing number of volunteers getting involved with Umuzi in different ways. This is kiff. We have a bunch of awesome, experienced, senior developers and they want to help!
@@ -18,18 +19,20 @@ Volunteers need to be able to see recruit project submissions for the projects t
 
 Volunteers need to see previous code reviews for the projects, they also need to be able to add their own reviews.
 
-Basically the reviewer will need to have access to relevent info and actions across a bunch of Cards that belong to different recruits and actions.
+Basically the reviewer will need to have access to relevent info and actions across a bunch of ccards that belong to different recruits.
+
+Volunteers will also need to reach out to recruits to organise pair programming sessions (of course we can use RocketChat for that though) and they'll need to give us some feedback on how the sessions went and what was covered (and we can test this process with a simple google form). So this part initially needs no build.
 
 ## Prioritising pairing sessions
 
-Then we also need to be able to help the volunteers make good decisions about who to help.
+Then we also need to be able to help the volunteers make good decisions about who to help, and how to help:
 
 ### Getting people over the line
 
 If a project has been marked as competent by recruits, but a staff member thinks it is not yet competent then that means:
 
 - the recruit has already put in good effort so the pairing session will be fun and smooth
-- there is a knowledge gap that needs to be filled
+- there is a knowledge gap that needs to be filled, the recruit in question and the reviewers all dont know what competent looks like and could use some support.
 
 In these cases it is good to have a pairing session where:
 
@@ -41,15 +44,17 @@ In these cases it is good to have a pairing session where:
 
 If someone is working on a project and it keeps moving back and forth between the review and feedback columns in Tilde then it means something is going wrong.
 
-Wither the reviewer is doing a bad job of explaining things. Or the person writing the code is misunderstanding things or not being careful. Maybe the project specification is confusing.
+Whether the reviewer is doing a bad job of explaining things. Or the person writing the code is misunderstanding things or not being careful. Maybe the project specification is confusing.
 
-The volunteer can look at these and try and figure out what is going on and what the next moe shoud be.
+The volunteer can look at these and try and figure out what is going on and what the next move shoud be.
 
 ### Help the helpers
 
 If someone is doing a great job at code review then it means that if we give them knowledge they'll spread it. Helping someone who suports others is the best way to help as many people as possible.
 
 If someone is useless at code review then they should be at the bottom of the list beause the knowledge wont spread from this person.
+
+so basically if there is a list of tasks for a volunteer to do, tasks that help helpful people should be higher in the list.
 
 ## Who sould be excluded from this
 
