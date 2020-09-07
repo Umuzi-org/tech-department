@@ -5,7 +5,7 @@ any_language:
   - kotlin
   - swift
   - typescript
-#   - bash
+  - bash
 
 any_frontend_framework:
   - react
@@ -20,3 +20,6 @@ none:
 
 any_fullstack_web_framework:
   - django
+
+any_plain_text:
+  - markdown

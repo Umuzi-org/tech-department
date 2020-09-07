@@ -1,4 +1,6 @@
 ---
+_db_id: 524
+content_type: topic
 title: Redux Thunks
 ---
 

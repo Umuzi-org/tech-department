@@ -1,10 +1,12 @@
 ---
-title: Django official tutorial - part 5
+_db_id: 505
+content_type: topic
 prerequisites:
   hard:
-    - topics/django/official-tutorial/part-4
+  - topics/django/official-tutorial/part-4
   soft: []
 ready: true
+title: Django official tutorial - part 5
 ---
 
 Please go through the following tutorial.

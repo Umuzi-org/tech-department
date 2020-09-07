@@ -1,19 +1,19 @@
 ---
-_db_id: 469
+_db_id: 552
 available_flavours:
-  - javascript
-  - typescript
+- javascript
+- typescript
 content_type: project
+from_repo: projects/redux-intro/part-1
 prerequisites:
   hard:
-    - projects/redux-intro/part-1
+  - projects/redux-intro/part-1
 ready: true
 submission_type: continue_repo
-from_repo: projects/redux-intro/part-1
 tags:
-  - redux
-  - combineReducers
-title: "Intro to Redux for home automation: combine reducers"
+- redux
+- combineReducers
+title: 'Intro to Redux for home automation: combine reducers'
 ---
 
 ## Instructions

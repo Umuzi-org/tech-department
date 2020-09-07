@@ -1,15 +1,17 @@
 ---
-title: Tilde Mockups
-ready: True
+_db_id: 537
+available_flavours:
+- javascript
+- react
+content_type: project
 prerequisites:
   hard:
-    - topics/web-frontend/intro-to-web-design
-    - topics/web-frontend/react/basic-architecture
+  - topics/web-frontend/intro-to-web-design
+  - topics/web-frontend/react/basic-architecture
   soft: []
+ready: true
 submission_type: repo
-available_flavours:
-  - javascript
-  - react
+title: Tilde Mockups
 ---
 
 Tilde is pretty cool and stuff, but it still needs a lot of work. This is your chance to make your mark!

@@ -1,9 +1,10 @@
 ---
-title: Redux Saga Intro
-submission_type: repo
-
+_db_id: 538
 available_flavours:
-  - javascript
+- javascript
+content_type: project
+submission_type: repo
+title: Redux Saga Intro
 ---
 
 TODO

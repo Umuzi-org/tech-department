@@ -1,10 +1,12 @@
 ---
-title: "React: Basic basic architectural guidelines"
-ready: True
+_db_id: 514
+content_type: topic
 prerequisites:
   hard:
-    - topics/web-frontend/react/basic-tutorial
+  - topics/web-frontend/react/basic-tutorial
   soft: []
+ready: true
+title: 'React: Basic basic architectural guidelines'
 ---
 
 React is very powerful but allows a person to write some proper spaghetti code. It's best to develop some good habits early on so that you write code that is easy to grow and maintain.

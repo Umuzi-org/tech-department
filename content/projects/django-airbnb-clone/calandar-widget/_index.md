@@ -1,14 +1,19 @@
 ---
-title: CloudBnb - Calandar widget
+_db_id: 544
+available_flavours:
+- react
+- javascript
+- typescript
+content_type: project
+from_repo: projects/django-airbnb-clone/intro
 prerequisites:
   hard:
-    - projects/django-airbnb-clone/intro
-    - projects/django-airbnb-clone/property-search
-    - projects/django-airbnb-clone/users-can-make-bookings
+  - projects/django-airbnb-clone/intro
+  - projects/django-airbnb-clone/property-search
+  - projects/django-airbnb-clone/users-can-make-bookings
   soft: []
 submission_type: continue_repo
-from_repo: "projects/django-airbnb-clone/intro"
-available_flavours: ["react", "javascript", "typescript"]
+title: CloudBnb - Calandar widget
 ---
 
 Add a calandar widget to the search result details page. This should show what dates the accomodation has been booked. This will help the user choose dates to book.

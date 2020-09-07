@@ -1,10 +1,12 @@
 ---
-title: Public Profile
-ready: True
-submission_type: repo
+_db_id: 535
 available_flavours:
-  - javascript
-  - react
+- javascript
+- react
+content_type: project
+ready: true
+submission_type: repo
+title: Public Profile
 ---
 
 One exciting feature we want to build is a public profile page that recruits can use as a way to show off what they have learned with Tilde. We keep track of what people are learning and things like that on their boards.

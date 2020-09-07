@@ -1,8 +1,8 @@
 ---
 _db_id: 231
 available_flavours:
-  - angular
-  - typescript
+- angular
+- typescript
 content_type: project
 ready: true
 submission_type: repo

@@ -1,10 +1,12 @@
 ---
-title: Redux Saga
+_db_id: 501
+content_type: topic
 prerequisites:
   hard:
-    - topics/redux-thunks
+  - topics/redux-thunks
   soft: []
-ready: True
+ready: true
+title: Redux Saga
 ---
 
 So thunks are cool and all, but as soon as you try to do anythin actually complicated with them then you end up with some highly indented very messy scrambley code, commonly referred to as callback-hell.

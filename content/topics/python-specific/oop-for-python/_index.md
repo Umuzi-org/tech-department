@@ -2,9 +2,9 @@
 _db_id: 171
 content_type: topic
 ready: true
-title: Intro OOP(Object-oriented Programming) for Python
 tags:
-  - oop
+- oop
+title: Intro OOP(Object-oriented Programming) for Python
 ---
 
 This is a reading presentation of Object-oriented Programming (OOP) for Python.

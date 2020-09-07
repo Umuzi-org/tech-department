@@ -1,17 +1,19 @@
 ---
-title: CloudBnb - Users can make bookings
+_db_id: 540
+available_flavours:
+- django
+content_type: project
+from_repo: projects/django-airbnb-clone/intro
 prerequisites:
   hard:
-    - projects/django-airbnb-clone/intro
-    - projects/django-airbnb-clone/property-model-and-admin-panel
-    - projects/django-airbnb-clone/property-search
-    - projects/django-airbnb-clone/user-registration
+  - projects/django-airbnb-clone/intro
+  - projects/django-airbnb-clone/property-model-and-admin-panel
+  - projects/django-airbnb-clone/property-search
+  - projects/django-airbnb-clone/user-registration
   soft: []
-submission_type: continue_repo
-from_repo: projects/django-airbnb-clone/intro
 ready: true
-available_flavours:
-  - django
+submission_type: continue_repo
+title: CloudBnb - Users can make bookings
 ---
 
 Once a user has found where they would like to stay, they can make a booking.

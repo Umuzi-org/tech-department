@@ -1,7 +1,7 @@
 ---
 _db_id: 429
 available_flavours:
-- none
+- markdown
 content_type: project
 ready: true
 submission_type: repo

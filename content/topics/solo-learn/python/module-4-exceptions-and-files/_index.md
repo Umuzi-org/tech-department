@@ -1,11 +1,12 @@
 ---
-title: Solo Learn - Python - Module 4 - Exceptions and Files
+_db_id: 526
+content_type: topic
 prerequisites:
   hard:
-    - topics/solo-learn/python/module-3-functions-and-modules
+  - topics/solo-learn/python/module-3-functions-and-modules
   soft: []
-content_type: topic
 ready: true
+title: Solo Learn - Python - Module 4 - Exceptions and Files
 topic_needs_review: true
 ---
 

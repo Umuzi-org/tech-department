@@ -1,15 +1,17 @@
 ---
-title: CloudBnb - users can CRUD properties that they own
+_db_id: 547
+available_flavours:
+- django
+content_type: project
+from_repo: projects/django-airbnb-clone/intro
 prerequisites:
   hard:
-    - projects/django-airbnb-clone/intro
-    - projects/django-airbnb-clone/property-model-and-admin-panel
-    - projects/django-airbnb-clone/user-registration
+  - projects/django-airbnb-clone/intro
+  - projects/django-airbnb-clone/property-model-and-admin-panel
+  - projects/django-airbnb-clone/user-registration
   soft: []
 submission_type: continue_repo
-from_repo: projects/django-airbnb-clone/intro
-available_flavours:
-  - django
+title: CloudBnb - users can CRUD properties that they own
 ---
 
 Users using your application should be able to manage properties that they own. They need to be able to **C**reate, **R**ead, **U**pdate and **D**elete their properties. This is often referred to as CRUD.

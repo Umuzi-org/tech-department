@@ -1,18 +1,17 @@
 ---
 _db_id: 222
 available_flavours:
-  - javascript
-  - typescript
-  - any_frontend_framework
-
+- javascript
+- typescript
+- any_frontend_framework
 content_type: project
 ready: true
 story_points: 5
 submission_type: repo
 tags:
-  - TDD
-  - Dom Manipulation
-  - Mocks and spies
+- TDD
+- Dom Manipulation
+- Mocks and spies
 title: Memory game web app
 ---
 

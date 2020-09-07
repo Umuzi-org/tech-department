@@ -1,6 +1,8 @@
 ---
+_db_id: 509
+content_type: topic
+ready: true
 title: Why learn Django
-ready: True
 ---
 
 Django is the bew framewrk for "perfectionists with deadlines". It lets you build really robust and reliable web apps very very quickly.

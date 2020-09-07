@@ -1,14 +1,16 @@
 ---
-title: CloudBnb - User registration
-ready: True
+_db_id: 545
+available_flavours:
+- django
+content_type: project
+from_repo: projects/django-airbnb-clone/intro
 prerequisites:
   hard:
-    - projects/django-airbnb-clone/intro
+  - projects/django-airbnb-clone/intro
   soft: []
+ready: true
 submission_type: continue_repo
-from_repo: projects/django-airbnb-clone/intro
-available_flavours:
-  - django
+title: CloudBnb - User registration
 ---
 
 ## Instructions

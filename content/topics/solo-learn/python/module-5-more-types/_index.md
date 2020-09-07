@@ -1,11 +1,12 @@
 ---
-title: Solo Learn - Python - Module 5 - More Types
+_db_id: 529
+content_type: topic
 prerequisites:
   hard:
-    - topics/solo-learn/python/module-4-exceptions-and-files
+  - topics/solo-learn/python/module-4-exceptions-and-files
   soft: []
-content_type: topic
 ready: true
+title: Solo Learn - Python - Module 5 - More Types
 topic_needs_review: true
 ---
 

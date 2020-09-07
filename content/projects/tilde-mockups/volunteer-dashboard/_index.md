@@ -1,10 +1,12 @@
 ---
-title: Volunteer Pair-programming Dashboard
-ready: True
-submission_type: repo
+_db_id: 536
 available_flavours:
-  - javascript
-  - react
+- javascript
+- react
+content_type: project
+ready: true
+submission_type: repo
+title: Volunteer Pair-programming Dashboard
 ---
 
 We have a growing number of volunteers getting involved with Umuzi in different ways. This is kiff. We have a bunch of awesome, experienced, senior developers and they want to help!

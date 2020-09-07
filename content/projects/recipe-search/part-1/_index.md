@@ -1,19 +1,21 @@
 ---
-title: "React and Redux recipe search: Part 1. Presenting the form"
-tags:
-  - React
-  - Redux
-ready: true
+_db_id: 532
+available_flavours:
+- javascript
+- typescript
+content_type: project
 prerequisites:
   hard:
-    - projects/redux-intro/part-1
-    - projects/tilde-mockups
-    - topics/web-frontend/react/redux-architecture
+  - projects/redux-intro/part-1
+  - projects/tilde-mockups
+  - topics/web-frontend/react/redux-architecture
   soft: []
+ready: true
 submission_type: repo
-available_flavours:
-  - javascript
-  - typescript
+tags:
+- React
+- Redux
+title: 'React and Redux recipe search: Part 1. Presenting the form'
 ---
 
 This is part 1 of a project where we will be using Redux in order to build a recipe search user interface based on the (RecipePuppy API)[content/projects/recipe-search/part-1].

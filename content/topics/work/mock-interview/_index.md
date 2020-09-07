@@ -1,4 +1,6 @@
 ---
+_db_id: 520
+content_type: topic
 ready: true
 title: Mock Interviews
 ---

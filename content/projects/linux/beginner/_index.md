@@ -1,7 +1,7 @@
 ---
 _db_id: 188
 available_flavours:
-- none
+- bash
 content_type: project
 prerequisites:
   hard:

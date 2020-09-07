@@ -1,11 +1,12 @@
 ---
-title: Code Review Performance Dashboard mockup
-ready: True
-
-submission_type: repo
+_db_id: 534
 available_flavours:
-  - javascript
-  - react
+- javascript
+- react
+content_type: project
+ready: true
+submission_type: repo
+title: Code Review Performance Dashboard mockup
 ---
 
 As you should know by now, code review is the cornerstone of a successful dev team.

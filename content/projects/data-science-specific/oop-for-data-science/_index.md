@@ -1,20 +1,20 @@
 ---
 _db_id: 232
 available_flavours:
-  - python
+- python
 content_type: project
-pre: "<b>MEDIUM: </b>"
+pre: '<b>MEDIUM: </b>'
 prerequisites:
   hard:
-    - topics/python-specific/oop-for-python
-    - projects/data-science-specific/cross-validation-and-simple-linear-regression
-    - projects/data-science-specific/multivariate-linear-regression
+  - topics/python-specific/oop-for-python
+  - projects/data-science-specific/cross-validation-and-simple-linear-regression
+  - projects/data-science-specific/multivariate-linear-regression
   soft: []
 ready: true
 story_points: 5
 submission_type: repo
 tags:
-  - oop-data-sci
+- oop-data-sci
 title: OOP for data science
 ---
 

@@ -1,4 +1,6 @@
 ---
+_db_id: 512
+content_type: topic
 title: Storage options
 ---
 

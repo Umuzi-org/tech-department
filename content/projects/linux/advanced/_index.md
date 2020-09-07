@@ -1,7 +1,7 @@
 ---
 _db_id: 187
 available_flavours:
-- none
+- bash
 content_type: project
 ready: false
 submission_type: repo

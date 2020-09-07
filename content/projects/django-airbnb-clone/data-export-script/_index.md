@@ -1,15 +1,17 @@
 ---
-title: CloudBnb - Data export script
+_db_id: 546
+available_flavours:
+- django
+content_type: project
+from_repo: projects/django-airbnb-clone/intro
 prerequisites:
   hard:
-    - projects/django-airbnb-clone/intro
-    - projects/django-airbnb-clone/users-can-make-bookings
+  - projects/django-airbnb-clone/intro
+  - projects/django-airbnb-clone/users-can-make-bookings
   soft: []
-submission_type: continue_repo
-from_repo: projects/django-airbnb-clone/intro
 ready: true
-available_flavours:
-  - django
+submission_type: continue_repo
+title: CloudBnb - Data export script
 ---
 
 Generally businesses have a whole lot of people who are very comfortable dealing with spreadsheets and possibly even have their own business processes built around them. So it's often useful to write a quick little export script for internal use. Generally building little export scripts is much quicker than writing a whole big frontned.

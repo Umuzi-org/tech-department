@@ -1,11 +1,12 @@
 ---
-title: Solo Learn - Python - Module 3 - Functions & Modules
+_db_id: 528
+content_type: topic
 prerequisites:
   hard:
-    - topics/solo-learn/python/module-2-control-statements
+  - topics/solo-learn/python/module-2-control-statements
   soft: []
-content_type: topic
 ready: true
+title: Solo Learn - Python - Module 3 - Functions & Modules
 topic_needs_review: true
 ---
 

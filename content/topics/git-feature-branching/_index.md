@@ -1,6 +1,8 @@
 ---
-title: Git feature branching
+_db_id: 523
+content_type: topic
 ready: true
+title: Git feature branching
 ---
 
 Git is a powerful tool and has quite a lot of flexibility around when to make branches and what the branches mean to you and your team. It's important to come up with a shared stratergy for managing branches on a team in order to keep the chaos at bay. It also it important from the perspective of CI/CD (continuous integration and continuous deployment)

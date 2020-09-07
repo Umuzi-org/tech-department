@@ -1,10 +1,10 @@
 ---
 _db_id: 287
 available_flavours:
-  - any_frontend_framework
+- any_frontend_framework
 content_type: project
 submission_type: repo
-title: "Memory Game: rebuild using a modern web frontend framework"
+title: 'Memory Game: rebuild using a modern web frontend framework'
 ---
 
 Take a look at this: {{% contentlink path="projects/memory-game/part-1" %}}

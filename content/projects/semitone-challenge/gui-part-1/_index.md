@@ -1,15 +1,15 @@
 ---
 _db_id: 196
 available_flavours:
-  - javascript
-  - any_frontend_framework
+- javascript
+- any_frontend_framework
 content_type: project
 from_repo: projects/semitone-challenge/basic-algorithm
 pre: <b>1. </b>
 prerequisites:
   hard:
-    - projects/semitone-challenge/basic-algorithm
-    - topics/js-and-node-specific/dom-manipulation-with-vanilla-js
+  - projects/semitone-challenge/basic-algorithm
+  - topics/js-and-node-specific/dom-manipulation-with-vanilla-js
   soft: []
 ready: true
 submission_type: continue_repo

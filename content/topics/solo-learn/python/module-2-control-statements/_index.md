@@ -1,11 +1,12 @@
 ---
-title: Solo Learn - Python - Module 2 - Control Statements
+_db_id: 530
+content_type: topic
 prerequisites:
   hard:
-    - topics/solo-learn/python/module-1-basic-concepts
+  - topics/solo-learn/python/module-1-basic-concepts
   soft: []
-content_type: topic
 ready: true
+title: Solo Learn - Python - Module 2 - Control Statements
 topic_needs_review: true
 ---
 
