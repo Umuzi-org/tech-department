@@ -1,8 +1,8 @@
 ---
-_db_id: 502
+_db_id: 501
 content_type: topic
 ready: true
-title: 'SUPER IMPORTANT STUFF: how to not fail'
+title: "SUPER IMPORTANT STUFF: how to not fail"
 ---
 
 We want to help you to be successful here. There are a few things that you NEED to get right or you wont make it through our bootcamp.

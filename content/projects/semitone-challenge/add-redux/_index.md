@@ -10,7 +10,11 @@ prerequisites:
   hard:
   - projects/semitone-challenge/gui-part-1
   - projects/semitone-challenge/basic-algorithm
+<<<<<<< HEAD
   - projects/redux-intro/part-2
+=======
+  - projects/redux-intro
+>>>>>>> loading
   soft: []
 ready: true
 submission_type: continue_repo

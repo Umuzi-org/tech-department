@@ -117,4 +117,3 @@ First you’ll need to install GIT. Full details are here: https://git-scm.com/d
 This tutorial will outline how to create a repository (a new project), configure your account, and learn the basics of adding and updating files to the master branch.
 
 https://www.sitepoint.com/git-for-beginners/
-

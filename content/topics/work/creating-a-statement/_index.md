@@ -1,5 +1,5 @@
 ---
-_db_id: 519
+_db_id: 503
 content_type: topic
 ready: true
 title: Creating A Memorable Statement
@@ -22,9 +22,11 @@ Here are a few examples:
 ```
 “Ntombi is an inquisitive UX Strategist who loves all things data and research. As an anthropology graduate she believes that through research that is timely, relevant and accurate, any problem can be solved. The blending of Strategy and Anthropology has created an innovative problem solver with a strong focus on human-centered design thinking in her strategies.”
 ```
+
 ```
 “Karabo is a Digital User Interface and Graphic designer obsessed with line illustrations and designs. She is fascinated by art direction and the use of minimalism to design. Ideas around how design can improve the way that people perceive brands, advertising and marketing add fuel to Karabo’s passion for what she does. Her ultimate goal is to live her best creative life , doing yoga, painting and being a brand genius.”
 ```
+
 ```
-You are now expected to come up with your own profile. Do not be cheesy or cliche, but be unique and professional. Keep in my mind this is selling your professional self in a few words. 
+You are now expected to come up with your own profile. Do not be cheesy or cliche, but be unique and professional. Keep in my mind this is selling your professional self in a few words.
 ```
