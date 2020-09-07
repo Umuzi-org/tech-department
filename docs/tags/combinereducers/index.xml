@@ -11,13 +11,14 @@
     
     
     <item>
-      <title>Intro to Redux for home automation</title>
-      <link>/tech-department/projects/redux-intro/</link>
+      <title>Intro to Redux for home automation: combine reducers</title>
+      <link>/tech-department/projects/redux-intro/part-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tech-department/projects/redux-intro/</guid>
-      <description>Redux is generally explained in the context of frontend frameworks. Lots of people think that it is a React thing. Lots of people are wrong&amp;hellip; Redux is quite a versatile tool. It can even be used in the absence of a frontend.
-In this project we&amp;rsquo;ll be thinking about how we could use redux for a little bit of Internet of things home automation. Fo shizzle. It&amp;rsquo;s that awesome.</description>
+      <guid>/tech-department/projects/redux-intro/part-2/</guid>
+      <description>Instructions Often Redux is tied to pretty complicated applications. There are often many pages, widgets and whatnots that need to be controlled. As things get complicated your reducer can get really really big.
+That&amp;rsquo;s why redux has a thing called CombineReducers, it lets you split things up a bit.
+Create a few seperate reducers to control different things. You could have a sperate reducer per room, or you could have a sperate reducer for each major function (eg: you could have a &amp;ldquo;lighting&amp;rdquo; reducer that controls the lights for the whole house).</description>
     </item>
     
   </channel>

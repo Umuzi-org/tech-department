@@ -11,13 +11,61 @@
     
     
     <item>
-      <title>Intro to Redux for home automation</title>
-      <link>/tech-department/projects/redux-intro/</link>
+      <title>Intro to Redux for home automation: Party mode with thunks</title>
+      <link>/tech-department/projects/redux-intro/part-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tech-department/projects/redux-intro/</guid>
+      <guid>/tech-department/projects/redux-intro/part-3/</guid>
+      <description>Instructions Now one super cool thing about redux is that you dont really have to dispatch actions one at a time. You can have an action with side effects, and those side effects can dispatch other actions!
+There are two main ways to handle side effects in redux. Thunks and Sagas. Thunks are the easy way, and they are worth understanding before movin onto sagas.
+Your mission is to create a few more actions that use Thunks to combine a few of your existing actions.</description>
+    </item>
+    
+    <item>
+      <title>Intro to Redux for home automation: combine reducers</title>
+      <link>/tech-department/projects/redux-intro/part-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/projects/redux-intro/part-2/</guid>
+      <description>Instructions Often Redux is tied to pretty complicated applications. There are often many pages, widgets and whatnots that need to be controlled. As things get complicated your reducer can get really really big.
+That&amp;rsquo;s why redux has a thing called CombineReducers, it lets you split things up a bit.
+Create a few seperate reducers to control different things. You could have a sperate reducer per room, or you could have a sperate reducer for each major function (eg: you could have a &amp;ldquo;lighting&amp;rdquo; reducer that controls the lights for the whole house).</description>
+    </item>
+    
+    <item>
+      <title>Intro to Redux for home automation: the basics</title>
+      <link>/tech-department/projects/redux-intro/part-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/projects/redux-intro/part-1/</guid>
       <description>Redux is generally explained in the context of frontend frameworks. Lots of people think that it is a React thing. Lots of people are wrong&amp;hellip; Redux is quite a versatile tool. It can even be used in the absence of a frontend.
 In this project we&amp;rsquo;ll be thinking about how we could use redux for a little bit of Internet of things home automation. Fo shizzle. It&amp;rsquo;s that awesome.</description>
+    </item>
+    
+    <item>
+      <title>React and Redux recipe search: Part 1. Presenting the form</title>
+      <link>/tech-department/projects/recipe-search/part-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/projects/recipe-search/part-1/</guid>
+      <description>This is part 1 of a project where we will be using Redux in order to build a recipe search user interface based on the (RecipePuppy API)[content/projects/recipe-search/part-1].
+In this part of the excercise we wont be making any queries to the api, we&amp;rsquo;ll just be using React and Redux to build a kick-ass search form.
+Instructions Create a search page that has the following functionality:
+ It needs a search box where the user can enter keywords, for example &amp;ldquo;omlette&amp;rdquo; or &amp;ldquo;mexican&amp;rdquo; or whatever else they are keen on.</description>
+    </item>
+    
+    <item>
+      <title>React and Redux recipe search: Part 2. API Access with thunks</title>
+      <link>/tech-department/projects/recipe-search/part-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/projects/recipe-search/part-2/</guid>
+      <description>Now that your frontend is awesome, let&amp;rsquo;s get the &amp;ldquo;search&amp;rdquo; button to work.
+Take a look at this neat little API:
+http://www.recipepuppy.com/about/api/
+As APIs go it&amp;rsquo;s pairly straight-forward. It&amp;rsquo;s also free and requires no authentication.
+Instructions Add a Button labelled &amp;ldquo;Search&amp;rdquo; to your web application. When the user clicks on this button do the following:
+ Access the api using a thunk once the results arrive, display them in a nice table.</description>
     </item>
     
   </channel>

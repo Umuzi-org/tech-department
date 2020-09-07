@@ -11,13 +11,17 @@
     
     
     <item>
-      <title>Intro to Redux for home automation</title>
-      <link>/tech-department/projects/redux-intro/</link>
+      <title>React and Redux recipe search: Part 2. API Access with thunks</title>
+      <link>/tech-department/projects/recipe-search/part-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tech-department/projects/redux-intro/</guid>
-      <description>Redux is generally explained in the context of frontend frameworks. Lots of people think that it is a React thing. Lots of people are wrong&amp;hellip; Redux is quite a versatile tool. It can even be used in the absence of a frontend.
-In this project we&amp;rsquo;ll be thinking about how we could use redux for a little bit of Internet of things home automation. Fo shizzle. It&amp;rsquo;s that awesome.</description>
+      <guid>/tech-department/projects/recipe-search/part-2/</guid>
+      <description>Now that your frontend is awesome, let&amp;rsquo;s get the &amp;ldquo;search&amp;rdquo; button to work.
+Take a look at this neat little API:
+http://www.recipepuppy.com/about/api/
+As APIs go it&amp;rsquo;s pairly straight-forward. It&amp;rsquo;s also free and requires no authentication.
+Instructions Add a Button labelled &amp;ldquo;Search&amp;rdquo; to your web application. When the user clicks on this button do the following:
+ Access the api using a thunk once the results arrive, display them in a nice table.</description>
     </item>
     
   </channel>

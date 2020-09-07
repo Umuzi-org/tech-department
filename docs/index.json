@@ -84,6 +84,13 @@
 	"content": " Units of work with strict deadlines to be completed alone or in groups\nProjects have three parts:\nPROJECT INTRO This is when the project is given to the recruits. Everything is explained, they are pointed at useful resources and clear instructions, and they are told the deadline.\nPROJECT DEADLINE This is when the projects are due. Umuzi staff members will now review the code to give feedback.\nFor code projects The recruits need to provide evidence that they got another recruit to review their work, and that they reviewed another recruits work prior to the deadline.\nThe recruit is expected to submit code and documentation in the form of a git repo. All git, coding, testing and documentation best practices that the course has covered thus far need to be adhered to.\nPROJECT CODE REVIEW Once the staff members have reviewed code projects then a code review session will be held. This is a kind of workshop where an Umuzi staff member will present on the project submissions.\n If anyone did something awesome then highlight that If there is a common misconception or mistake then highlight that highlight any subtle lessons that should have been learned get feedback from the recruits, Q\u0026amp;A get a few of the recruits to explain parts of their code and approaches to the group  If anyone submitted nonesense - either they were sloppy or they just didn\u0026rsquo;t get it, then don\u0026rsquo;t make them the center of attention. Pull them aside after the code review and have a private discussion. This should happen after the group code review session because that way they will see the standard of the group as a whole and possibly be motivated to conform.\n"
 },
 {
+	"uri": "/tech-department/projects/memory-game/part-2/",
+	"title": "extra features for your memory game",
+	"tags": [],
+	"description": "",
+	"content": " Pleas emake sure you are following Git Feature Branching at this point. It\u0026rsquo;s really impportant and really useful.\n One branch per feature please! Every branch should come off master  feature 1: Configurable grid size As a user I want to be able to choose the dimensions of the grid each time I play the game. For example I might want to play on a 2x2 grid or a 3x2 grid.\nfeature 2: Timer As a user I want to see how long it takes for me to finish the game. When the game is done I want to see a message with the time on it\n"
+},
+{
 	"uri": "/tech-department/projects/semitone-challenge/gui-part-2/",
 	"title": "semitone difference - A gui that is more...awesome",
 	"tags": [],
@@ -774,7 +781,7 @@
 	"title": "Basic introduction to Redux",
 	"tags": [],
 	"description": "",
-	"content": " Redux is  marketed as a state managment tool. It can be used to manage state an a whole lot more usually used with React or other frontend web framework concepts are similar to the Command Pattern. The command pattern is an OOP design pattern that unlocks a lot of stuff beyond simple state managment  Resources The basics:\n This tutorial is really good: https://redux.js.org/basics/basic-tutorial (the official docs are always a winner) This logger middleware is really helpful: https://github.com/LogRocket/redux-logger  If you want to start using redux with asyncronous code (eg ajax requests) then you\u0026rsquo;ll need to use another tool:\n for simple stuff: https://github.com/reduxjs/redux-thunk for complicated side-effect models something like this is probably better: https://github.com/redux-saga/redux-saga  If you are using Typescript then this is useful: https://redux.js.org/recipes/usage-with-typescript\nConcepts There are a few concepts that are super important\nStore Lets say you are making a TODO application. This application has a beautiful frontend that automatically renders your todo items from a datastructure. Something like this:\nconst store = { todos : [ {title: \u0026quot;get groceries\u0026quot;, done: false}, {title: \u0026quot;call mom\u0026quot;, done: true}, {title: \u0026quot;learn Redux\u0026quot;, done: false}, {title: \u0026quot;walk dog\u0026quot;, done: false}, ] }  In redux, the store is immutable. We\u0026rsquo;ll see what that implies when we talk about reducers a little later.\nTools like React make it easy to take an application state and turn it into widgets but we wont get into that just yet. You can do this with pure vanilla JavaScript by looping over our todos and simply appending DOM elements.\nAction An action is also a JSON object. Here are some examples:\n{type: \u0026quot;ADD_TODO\u0026quot;, title: \u0026quot;pay rent\u0026quot;} {type: \u0026quot;DELETE_TODO\u0026quot;, index: 2} {type: \u0026quot;SET_DONE\u0026quot;, index: 1, done: true} {type: \u0026quot;SET_DONE\u0026quot;, index: 1, done: false}  Given the example \u0026ldquo;store\u0026rdquo; we set up above can you see what effects these actions should have? What does it look like we are trying to do here?\nNow there is some weird language around this. If you want Redux to execute an action then you dispatch the action. Then Redux should update the store through use of a reducer (we\u0026rsquo;ll get to those soon).\nSo if we wanted Redux to actually add a thing to our todo list we would do something like:\ndispatch({type: \u0026quot;ADD_TODO\u0026quot;, title: \u0026quot;pay rent\u0026quot;})  This is kinda a pain to write out so usually instead of doing thigs like this we make use of action creators. Eg:\nconst ADD_TODO = \u0026quot;ADD_TODO\u0026quot; function addTodo(title){ //action creator // validation maybe return {type: ADD_TODO, title: title} } dispatch(addTodo(\u0026quot;learn redux\u0026quot;))  Reducer Reducers are the things that execute actions on the state. Here is an example following from the above:\nconst initialState = { // note the use of const. This is immutable todos : [1,2,3], stuff : \u0026quot;things\u0026quot; } function theReducer(state = initialState, action){ // {type: ADD_TODO, title: \u0026quot;buy hats\u0026quot;} switch(action.type){ case ADD_TODO: return { ...state, // we copy all the things using some ES6 syntax todos: [...state.todos, {title: action.title, done:false }] } // { // todos : [1,2,3,{type: ADD_TODO, title: \u0026quot;buy hats\u0026quot;}], // stuff : \u0026quot;things\u0026quot; //} case DELETE_TODO: return { stuff } case SET_DONE: return { otherStuff } default: // nothing changes return state } }  But what about KISS? KISS == Keep It Simple, Stupid - wikipedia\nThis does seem like a complicated way to do a simple thing\u0026hellip;\nHere are some benefits:\n actions are objects. That means we can store them and track them in different ways. actions are executed in specific ways and have predictable results the hard \u0026ldquo;thinking\u0026rdquo; of your application is all held in reducers so that makes testing easy and consistent we have a history of every change made to the state of an application since actions are just JSON objects they can be easily transmitted between applications. For example you could have one application generate actions that get sent to another application that then dispatches the actions  Look up the \u0026ldquo;Command Pattern\u0026rdquo; . Redux isn\u0026rsquo;t the same but it\u0026rsquo;s super powers are very similar. Therefore there are similar applications.\n Frontend development: different buttons, inputsand widgets dispatch different actions in a predictable way Actions can be grouped. Meaning we can dispatch one action that dispatches a whole lot of different actions Macro recording. We can record the actions a user takes so that we can replay them later Reducers can be in a seperate code-base. we can send actions over a network and dispatch them elsewhere, we can send the same action to multiple computers to allow parallel processing undo/redo functionality becomes trivial feedback: if a number of actions need to be completed in order to complete a large task then we can track the completion of those actions and update a progress bar Actions can be added to a task queue instead of being dispatched immediately transactional behavior: you can have an action like {type: TRANSACTION_BEGIN} and then at some later stage {type: TRANSACTION_ROLLBACK} can be used to undo all the changes that happened in the transaction  Industry Redux is mostly used in the context of React. It is used for frontend development. But there is so much more it could do.\n"
+	"content": " Redux is  marketed as a state managment tool. It can be used to manage state an a whole lot more usually used with React or other frontend web framework concepts are similar to the Command Pattern. The command pattern is an OOP design pattern that unlocks a lot of stuff beyond simple state managment  Resources The basics:\n This tutorial is really good: https://redux.js.org/basics/basic-tutorial (the official docs are always a winner) This logger middleware is really helpful: https://github.com/LogRocket/redux-logger  If you want to start using redux with asyncronous code (eg ajax requests) then you\u0026rsquo;ll need to use another tool:\n for simple stuff: https://github.com/reduxjs/redux-thunk for complicated side-effect models something like this is probably better: https://github.com/redux-saga/redux-saga  If you are using Typescript then this is useful: https://redux.js.org/recipes/usage-with-typescript\nConcepts There are a few concepts that are super important\nStore Lets say you are making a TODO application. This application has a beautiful frontend that automatically renders your todo items from a datastructure. Something like this:\nconst store = { todos : [ {title: \u0026quot;get groceries\u0026quot;, done: false}, {title: \u0026quot;call mom\u0026quot;, done: true}, {title: \u0026quot;learn Redux\u0026quot;, done: false}, {title: \u0026quot;walk dog\u0026quot;, done: false}, ] }  In redux, the store is immutable. We\u0026rsquo;ll see what that implies when we talk about reducers a little later.\nTools like React make it easy to take an application state and turn it into widgets but we wont get into that just yet. You can do this with pure vanilla JavaScript by looping over our todos and simply appending DOM elements.\nAction An action is also a JSON object. Here are some examples:\n{type: \u0026quot;ADD_TODO\u0026quot;, title: \u0026quot;pay rent\u0026quot;} {type: \u0026quot;DELETE_TODO\u0026quot;, index: 2} {type: \u0026quot;SET_DONE\u0026quot;, index: 1, done: true} {type: \u0026quot;SET_DONE\u0026quot;, index: 1, done: false}  Given the example \u0026ldquo;store\u0026rdquo; we set up above can you see what effects these actions should have? What does it look like we are trying to do here?\nNow there is some weird language around this. If you want Redux to execute an action then you dispatch the action. Then Redux should update the store through use of a reducer (we\u0026rsquo;ll get to those soon).\nSo if we wanted Redux to actually add a thing to our todo list we would do something like:\ndispatch({type: \u0026quot;ADD_TODO\u0026quot;, title: \u0026quot;pay rent\u0026quot;})  This is kinda a pain to write out so usually instead of doing thigs like this we make use of action creators. Eg:\nconst ADD_TODO = \u0026quot;ADD_TODO\u0026quot; function addTodo(title){ //action creator // validation maybe return {type: ADD_TODO, title: title} } dispatch(addTodo(\u0026quot;learn redux\u0026quot;))  Reducer Reducers are the things that execute actions on the state. Here is an example following from the above:\nconst initialState = { // note the use of const. This is immutable todos : [1,2,3], stuff : \u0026quot;things\u0026quot; } function theReducer(state = initialState, action){ // {type: ADD_TODO, title: \u0026quot;buy hats\u0026quot;} switch(action.type){ case ADD_TODO: return { ...state, // we copy all the things using some ES6 syntax todos: [...state.todos, {title: action.title, done:false }] } // { // todos : [1,2,3,{type: ADD_TODO, title: \u0026quot;buy hats\u0026quot;}], // stuff : \u0026quot;things\u0026quot; //} case DELETE_TODO: return { stuff } case SET_DONE: return { otherStuff } default: // nothing changes return state } }  But what about KISS? KISS == Keep It Simple, Stupid - wikipedia\nThis does seem like a complicated way to do a simple thing\u0026hellip;\nHere are some benefits:\n actions are objects. That means we can store them and track them in different ways. actions are executed in specific ways and have predictable results the hard \u0026ldquo;thinking\u0026rdquo; of your application is all held in reducers so that makes testing easy and consistent we have a history of every change made to the state of an application since actions are just JSON objects they can be easily transmitted between applications. For example you could have one application generate actions that get sent to another application that then dispatches the actions  Look up the \u0026ldquo;Command Pattern\u0026rdquo; . Redux isn\u0026rsquo;t the same but it\u0026rsquo;s super powers are very similar. Therefore there are similar applications.\n Frontend development: different buttons, inputsand widgets dispatch different actions in a predictable way Actions can be grouped. Meaning we can dispatch one action that dispatches a whole lot of different actions Macro recording. We can record the actions a user takes so that we can replay them later Reducers can be in a seperate code-base. we can send actions over a network and dispatch them elsewhere, we can send the same action to multiple computers to allow parallel processing undo/redo functionality becomes trivial feedback: if a number of actions need to be completed in order to complete a large task then we can track the completion of those actions and update a progress bar Actions can be added to a task queue instead of being dispatched immediately transactional behavior: you can have an action like {type: TRANSACTION_BEGIN} and then at some later stage {type: TRANSACTION_ROLLBACK} can be used to undo all the changes that happened in the transaction  Industry Redux is mostly used in the context of React. It is used for frontend development. But there is so much more it could do.\nHow to structure your data for simplicity and efficiency Redux is very flexible when it comes to the shape of the objects stored in the store. Flexibility is great, but it does have a downside. Basically you need to be careful about how to structure your storage, otherwise redux can run quite slow and your reducers can get very complicated.\nBasically the thing to keep in mind is:\n Flat is better than nested\n Ok, what does that mean?\nA nested data structure is something with many levels.\nLet\u0026rsquo;s say we have an application that manages\u0026hellip;agile cards one a board. Tose cards can be associated with other data structures such as repositories and reviews.\nSay we store a list of cards that look like this:\n{ ... cards: [ { \u0026quot;id\u0026quot;: 123, repository: {\u0026quot;id\u0026quot;:667,\u0026quot;owner\u0026quot;:\u0026quot;Wordz278\u0026quot;,\u0026quot;fullName\u0026quot;:\u0026quot;Wordz278/person\u0026quot;,\u0026quot;sshUrl\u0026quot;:\u0026quot;git@github.com:Wordz278/person.git\u0026quot;,\u0026quot;createdAt\u0026quot;:\u0026quot;2020-02-11T12:23:43Z\u0026quot;,\u0026quot;private\u0026quot;:false,\u0026quot;archived\u0026quot;:false,\u0026quot;user\u0026quot;:null}\u0026quot;, \u0026quot;reviews\u0026quot; : [ {id:} ] } ]}  "
 },
 {
 	"uri": "/tech-department/tags/bdd/",
@@ -977,7 +984,7 @@
 	"title": "Clean Code for Python",
 	"tags": [],
 	"description": "",
-	"content": " Tabs or Spaces 4 spaces == 1 tab\nSpaces are the preferred indentation method. There are not many serious open source project uses tabs in Python code, so it is recommended that use spaces. Python 3 DISALLOWS mixing the use of tabs and spaces for indentation. Using a code formatter will make your life way easier. We recommend using Black.\nImports  Imports should usually be on separate lines:   Yes: import os import sys No: import sys, os  It\u0026rsquo;s okay to say this though:\nfrom subprocess import Popen, PIPE   Absolute imports are recommended, as they are usually more readable and tend to be better behaved (or at least give better error messages) if the import system is incorrectly configured (such as when a directory inside a package ends up on sys.path):\nimport mypkg.sibling from mypkg import sibling from mypkg.sibling import example   However, explicit relative imports are an acceptable alternative to absolute imports, especially when dealing with complex package layouts where using absolute imports would be unnecessarily verbose:\n from . import sibling from .sibling import example  Standard library code should avoid complex package layouts and always use absolute imports. Implicit relative imports should never be used and have been removed in Python 3.\nWhen importing a class from a class-containing module, it\u0026rsquo;s usually okay to spell this:\nfrom myclass import MyClass from foo.bar.yourclass import YourClass  If this spelling causes local name clashes, then spell them explicitly:\nimport myclass import foo.bar.yourclass  and use myclass.MyClass and foo.bar.yourclass.YourClass.\n Wildcard imports (from  import *) should be avoided, as they make it unclear which names are present in the namespace, confusing both readers and many automated tools. There is one defensible use case for a wildcard import, which is to republish an internal interface as part of a public API (for example, overwriting a pure Python implementation of an interface with the definitions from an optional accelerator module and exactly which definitions will be overwritten isn\u0026rsquo;t known in advance).  When republishing names this way, the guidelines below regarding public and internal interfaces still apply.\nStrings In Python, single-quoted strings and double-quoted strings are the same. This PEP does not make a recommendation for this. The recommended way of writing strings is by using f strings. They allow you to add variables into a string without using + to concatenate. That improves readability.\nNormal Strings:\n\u0026quot;Hi my name is \u0026quot; + name + \u0026quot; \u0026quot; + surname + \u0026quot; and I am part of \u0026quot; + company  F strings:\nf\u0026quot;Hi my name is {name} {surname} and I am part of {company}\u0026quot;  PEP 257 describes good docstring conventions. Note that most importantly, the \u0026ldquo;\u0026rdquo;\u0026rdquo; that ends a multiline docstring should be on a line by itself:\nNaming Conventions The naming conventions of Python\u0026rsquo;s library are a bit of a mess, so we\u0026rsquo;ll never get this completely consistent \u0026ndash; nevertheless, here are the currently recommended naming standards. New modules and packages (including third party frameworks) should be written to these standards, but where an existing library has a different style, internal consistency is preferred.\nClass Names Class names should normally use the CapitalizedWords convention. The naming convention for functions may be used instead in cases where the interface is documented and used primarily as a callable. Note that there is a separate convention for builtin names: most builtin names are single words (or two words run together), with the CapitalizedWords convention used only for exception names and builtin constants.\nPackage and Module Names Python packages should have short, all-lowercase names, although the use of _underscores_ is discouraged. When an extension module written in C or C++ has an accompanying Python module that provides a higher level (e.g. more object oriented) interface, the C/C++ module has a leading underscore (e.g. _socket).\nFunction and Variable Names Function names should be lowercase, with words separated by underscores as necessary to improve readability. Variable names follow the same convention as function names. mixedCase is allowed only in contexts where that\u0026rsquo;s already the prevailing style (e.g. threading.py), to retain backwards compatibility.\nConstants Constants are usually defined on a module level and written in UPPERCASE with underscores separating words. Examples include MAX_OVERFLOW and TOTAL.\nNames to Avoid Never use the characters \u0026lsquo;l\u0026rsquo; (lowercase letter el), \u0026lsquo;O\u0026rsquo; (uppercase letter oh), or \u0026lsquo;I\u0026rsquo; (uppercase letter eye) as single character variable names. In some fonts, these characters are indistinguishable from the numerals one and zero. When tempted to use \u0026lsquo;l\u0026rsquo;, use \u0026lsquo;L\u0026rsquo; instead.\nComments Block Comments Block comments generally apply to some (or all) code that follows them, and are indented to the same level as that code. Each line of a block comment starts with a # and a single space (unless it is indented text inside the comment). Paragraphs inside a block comment are separated by a line containing a single #.\nInline Comments Use inline comments sparingly.\nAn inline comment is a comment on the same line as a statement. Inline comments should be separated by at least two spaces from the statement. They should start with a # and a single space. Inline comments are unnecessary and in fact distracting if they state the obvious. Don\u0026rsquo;t do this:\nx = x + 1 # Increment x  But sometimes, this is useful:\nx = x + 1 # Compensate for border  Documentation Strings Conventions for writing good documentation strings (a.k.a. \u0026ldquo;docstrings\u0026rdquo;) are immortalized in PEP 257.\n Write docstrings for all public modules, functions, classes, and methods. Docstrings are not necessary for non-public methods, but you should have a comment that describes what the method does. This comment should appear after the def line. PEP 257 describes good docstring conventions. Note that most importantly, the \u0026ldquo;\u0026rdquo;\u0026rdquo; that ends a multiline docstring should be on a line by itself:   \u0026quot;\u0026quot;\u0026quot; this is the docstring for the module\u0026quot;\u0026quot;\u0026quot; module.py \u0026quot;\u0026quot;\u0026quot; this is not a docstring, this is a mistake\u0026quot;\u0026quot;\u0026quot; class Whatever: \u0026quot;\u0026quot;\u0026quot; classes can have docstrings too\u0026quot;\u0026quot;\u0026quot; def stuff( ...): \u0026quot;\u0026quot;\u0026quot;fnctions can have docstrings\u0026quot;\u0026quot;\u0026quot; def moar_Stuff(): \u0026quot;\u0026quot;\u0026quot;module level functions too\u0026quot;\u0026quot;\u0026quot;  "
+	"content": " Tabs or Spaces 4 spaces == 1 tab\nSpaces are the preferred indentation method. There are not many serious open source project uses tabs in Python code, so it is recommended that use spaces. Python 3 DISALLOWS mixing the use of tabs and spaces for indentation. Using a code formatter will make your life way easier. We recommend using Black.\nImports  Imports should usually be on separate lines:   Yes: import os import sys No: import sys, os  It\u0026rsquo;s okay to say this though:\nfrom subprocess import Popen, PIPE   Absolute imports are recommended, as they are usually more readable and tend to be better behaved (or at least give better error messages) if the import system is incorrectly configured (such as when a directory inside a package ends up on sys.path):\nimport mypkg.sibling from mypkg import sibling from mypkg.sibling import example   However, explicit relative imports are an acceptable alternative to absolute imports, especially when dealing with complex package layouts where using absolute imports would be unnecessarily verbose:\n from . import sibling from .sibling import example  Standard library code should avoid complex package layouts and always use absolute imports. Implicit relative imports should never be used and have been removed in Python 3.\nWhen importing a class from a class-containing module, it\u0026rsquo;s usually okay to spell this:\nfrom myclass import MyClass from foo.bar.yourclass import YourClass  If this spelling causes local name clashes, then spell them explicitly:\nimport myclass import foo.bar.yourclass  and use myclass.MyClass and foo.bar.yourclass.YourClass.\n Wildcard imports (from  import *) should be avoided, as they make it unclear which names are present in the namespace, confusing both readers and many automated tools. There is one defensible use case for a wildcard import, which is to republish an internal interface as part of a public API (for example, overwriting a pure Python implementation of an interface with the definitions from an optional accelerator module and exactly which definitions will be overwritten isn\u0026rsquo;t known in advance).  When republishing names this way, the guidelines below regarding public and internal interfaces still apply.\nStrings In Python, single-quoted strings and double-quoted strings are the same. This PEP does not make a recommendation for this. The recommended way of writing strings is by using f strings. They allow you to add variables into a string without using + to concatenate. That improves readability.\nNormal Strings:\n\u0026quot;Hi my name is \u0026quot; + name + \u0026quot; \u0026quot; + surname + \u0026quot; and I am part of \u0026quot; + company  F strings:\nf\u0026quot;Hi my name is {name} {surname} and I am part of {company}\u0026quot;  PEP 257 describes good docstring conventions. Note that most importantly, the \u0026ldquo;\u0026rdquo;\u0026rdquo; that ends a multiline docstring should be on a line by itself:\nNaming Conventions The naming conventions of Python\u0026rsquo;s library are a bit of a mess, so we\u0026rsquo;ll never get this completely consistent \u0026ndash; nevertheless, here are the currently recommended naming standards. New modules and packages (including third party frameworks) should be written to these standards, but where an existing library has a different style, internal consistency is preferred.\nClass Names Class names should normally use the CapitalizedWords convention. The naming convention for functions may be used instead in cases where the interface is documented and used primarily as a callable. Note that there is a separate convention for builtin names: most builtin names are single words (or two words run together), with the CapitalizedWords convention used only for exception names and builtin constants.\nPackage and Module Names Python packages should have short, all-lowercase names, although the use of _underscores_ is discouraged. When an extension module written in C or C++ has an accompanying Python module that provides a higher level (e.g. more object oriented) interface, the C/C++ module has a leading underscore (e.g. _socket).\nFunction and Variable Names Function names should be lowercase, with words separated by underscores as necessary to improve readability. Variable names follow the same convention as function names. mixedCase is allowed only in contexts where that\u0026rsquo;s already the prevailing style (e.g. threading.py), to retain backwards compatibility.\nConstants Constants are usually defined on a module level and written in UPPERCASE with underscores separating words. Examples include MAX_OVERFLOW and TOTAL.\nNames to Avoid Never use the characters \u0026lsquo;l\u0026rsquo; (lowercase letter el), \u0026lsquo;O\u0026rsquo; (uppercase letter oh), or \u0026lsquo;I\u0026rsquo; (uppercase letter eye) as single character variable names. In some fonts, these characters are indistinguishable from the numerals one and zero. When tempted to use \u0026lsquo;l\u0026rsquo;, use \u0026lsquo;L\u0026rsquo; instead.\nComments Block Comments Block comments generally apply to some (or all) code that follows them, and are indented to the same level as that code. Each line of a block comment starts with a # and a single space (unless it is indented text inside the comment). Paragraphs inside a block comment are separated by a line containing a single #.\nInline Comments Use inline comments sparingly.\nAn inline comment is a comment on the same line as a statement. Inline comments should be separated by at least two spaces from the statement. They should start with a # and a single space. Inline comments are unnecessary and in fact distracting if they state the obvious. Don\u0026rsquo;t do this:\nx = x + 1 # Increment x  But sometimes, this is useful:\nx = x + 1 # Compensate for border  Documentation Strings Conventions for writing good documentation strings (a.k.a. \u0026ldquo;docstrings\u0026rdquo;) are immortalized in PEP 257.\n Write docstrings for all non-obvious public modules, functions, classes, and methods. Docstrings are not necessary for non-public methods PEP 257 describes good docstring conventions. Note that most importantly, the \u0026ldquo;\u0026rdquo;\u0026rdquo; that ends a multiline docstring should be on a line by itself:  module.py:\n\u0026quot;\u0026quot;\u0026quot; this is the docstring for the module \u0026quot;\u0026quot;\u0026quot; \u0026quot;\u0026quot;\u0026quot; this is not a docstring, this is a mistake \u0026quot;\u0026quot;\u0026quot; class Whatever: \u0026quot;\u0026quot;\u0026quot;classes can have docstrings too \u0026quot;\u0026quot;\u0026quot; def stuff( ...): \u0026quot;\u0026quot;\u0026quot;functions can have docstrings \u0026quot;\u0026quot;\u0026quot; def moar_stuff(): \u0026quot;\u0026quot;\u0026quot;module level functions too \u0026quot;\u0026quot;\u0026quot;  "
 },
 {
 	"uri": "/tech-department/topics/clean-code/xml/",
@@ -994,6 +1001,83 @@
 	"content": ""
 },
 {
+	"uri": "/tech-department/projects/django-airbnb-clone/property-model-and-admin-panel/",
+	"title": "CloudBnb - Basic Property model and admin panel",
+	"tags": [],
+	"description": "",
+	"content": " Instructions Setup Make use of Postgres. Postgres should be running in a docker container.\nYour first model In this part of the project you need to implement a few models. Your first model should be called Property. This model would represent something that can be rented out temporarily.\nEvery Property has the following data associalted with it:\n a description pictures (more than one). One picture should be selected as the primary/fvorate image city suburb street address maximum number of guests price per night for one guest price per night per extra guest a bunch of Tags (use this: https://django-taggit.readthedocs.io/en/latest/). The tags can say things like \u0026ldquo;internet\u0026rdquo;, \u0026ldquo;washing machine\u0026rdquo;, \u0026ldquo;tv\u0026rdquo;, \u0026ldquo;dstv\u0026rdquo;, \u0026ldquo;  Admin panel Make sure that you can access this data through the admin panel. Create a few properties and add some tags to be sure.\nMigration files Make sure you commit your migration files to the repo\n"
+},
+{
+	"uri": "/tech-department/projects/django-airbnb-clone/calandar-widget/",
+	"title": "CloudBnb - Calandar widget",
+	"tags": [],
+	"description": "",
+	"content": "Add a calandar widget to the search result details page. This should show what dates the accomodation has been booked. This will help the user choose dates to book.\n"
+},
+{
+	"uri": "/tech-department/projects/django-airbnb-clone/data-export-script/",
+	"title": "CloudBnb - Data export script",
+	"tags": [],
+	"description": "",
+	"content": " Generally businesses have a whole lot of people who are very comfortable dealing with spreadsheets and possibly even have their own business processes built around them. So it\u0026rsquo;s often useful to write a quick little export script for internal use. Generally building little export scripts is much quicker than writing a whole big frontned.\nInstructions Create a Django managment script that you can run to create an excel spreadsheet of booking data for a single month.\nWe need to see the following data in the sheet:\n property owner email address area where the property is start and end dates of the booking total price of booking number of guests the id of the booking  The script should take a command line parameter that specifies the month and year of the data export.\nBy default the exporter should filter for bookings that are within the current month.\nResources  https://docs.djangoproject.com/en/3.1/howto/custom-management-commands/ https://openpyxl.readthedocs.io/en/stable/  "
+},
+{
+	"uri": "/tech-department/projects/django-airbnb-clone/rest-endpoints/",
+	"title": "CloudBnb - Expose apis to be consumed by modern mobile app",
+	"tags": [],
+	"description": "",
+	"content": " Django is great and all but the frontend it renders using views and templates is a little bit limited.\nImagine our airbnb clone becomes super duper popular and there is a business decision to invest in different kinds of frontends.\nFor example maybe the decision is made to use Ionic to build a cross-platform hybrid frontend. Or maybe React will be used to make a pwa. Or any number of other things.\nBy exposing nice clean APIs, we \u0026ldquo;decouple\u0026rdquo; our django app from the frontend. That gives us a lot of freedom in the tools we use.\nCan you think of other situations where exposng APIs would add flexibility to our application?\nUser journey We have 2 main kinds of users. Supply users and Demand users. On the supply side we have people who own property and try get it rented out. On the demand side there are people who need a place to stay.\nWe\u0026rsquo;re going to focus on the demand side now. The reasons for this are:\n there are likely more \u0026ldquo;demand\u0026rdquo; users than \u0026ldquo;supply\u0026rdquo; users our \u0026ldquo;demand\u0026rdquo; users are often people who are travelling, so they are morelikely to use their phones for making bookings.  Requirements Expose a bunch of apis in order to allow travellers to do everythin they need to do. This includes:\n registering on the system logging in and out searching for properties getting detailed info on a specific property making a booking  Technical requirements  Use the Django Rest Framework to do this. Test your api Keep things DRY!  "
+},
+{
+	"uri": "/tech-department/projects/django-airbnb-clone/property-search/",
+	"title": "CloudBnb - Property Search",
+	"tags": [],
+	"description": "",
+	"content": "/search/\n/results/\n/properties/{id}/details\n"
+},
+{
+	"uri": "/tech-department/projects/django-airbnb-clone/property-owner-dashboard-apis/",
+	"title": "CloudBnb - Property owner dashboard APIs",
+	"tags": [],
+	"description": "",
+	"content": "When a property owner logs in they should be able to navigate to a dashboard.\n"
+},
+{
+	"uri": "/tech-department/projects/django-airbnb-clone/property-owner-dashboard-ui/",
+	"title": "CloudBnb - Property owner dashboard user interface",
+	"tags": [],
+	"description": "",
+	"content": "When a property owner logs in they should be able to navigate to a dashboard.\n"
+},
+{
+	"uri": "/tech-department/projects/django-airbnb-clone/user-registration/",
+	"title": "CloudBnb - User registration",
+	"tags": [],
+	"description": "",
+	"content": " Instructions Users from the internet need to register to use the site. Create a simple registration form. This will NOT be a part of a t admin panel. This is user facing.\nWe need to store the following info for the user:\n email address cellphone number profile pic  That\u0026rsquo;s it really.\nUsers should also be able to log in and log out\nRemember KISS For now dont worry about any kind of email/cellphone verification. Step 1 is always just to make the code work. once you are through everything you can worry about adding bells and whistles.\nFollow best practices around User managment Take a looks at this: https://simpleisbetterthancomplex.com/tutorial/2018/01/18/how-to-implement-multiple-user-types-with-django.html\n"
+},
+{
+	"uri": "/tech-department/projects/django-airbnb-clone/users-can-make-bookings/",
+	"title": "CloudBnb - Users can make bookings",
+	"tags": [],
+	"description": "",
+	"content": " Once a user has found where they would like to stay, they can make a booking.\nData Model Make a new model to represent a Booking. It should refer to a Property and a User. A Booking will have the following attributes:\n start and an end date. number of guests comments  Frontend When booking a place, a user needs to specify all the info required by the model.\nIf the user tries to make a booking that overlaps with existing bookings, show them an error message. For example if a user tries to make a booking for the 5th to the 7th of this month, and another user already has a booking from the 6th to the 9th then there is a problem.\nNote that one user can check out on the same day that another one checks in. For example if a user tries to make a booking for the 5th to the 7th of this month, and another user already has a booking from the 7th to the 9th then there is No problem. The one user will leave the accomodation on the morning of the 7th and the other one will arrive later that day.\nIf a user tries to book for too many people then that is also an error. For example if a user tries to book a 2-guest apartment and tries to squeeze in 8 people then that would be a problem.\nIf the user tried to hake a booking for 1 or 2 guests then that would be fine.\nNotes on error messages The user experience must not be confusing, the error messages need to make sense to your grandma.\nDont say \u0026ldquo;Integrity Error\u0026rdquo; or \u0026ldquo;Your form is wrong\u0026rdquo; or any such nonesense. Empathise with the user. Dont say or do confusing things. Generally if you confuse a user they leave and dont come back.\n"
+},
+{
+	"uri": "/tech-department/projects/django-airbnb-clone/intro/",
+	"title": "CloudBnb - intro",
+	"tags": [],
+	"description": "",
+	"content": " In this project we\u0026rsquo;ll be building out a simple version of Airbnb. By the end there will be a lot of cool functionality. But we\u0026rsquo;ll do it piece by piece.\nTake a look at Airbnb if you haven\u0026rsquo;t already. https://www.airbnb.co.za/\nEnd goal By the end of this multi-part project we\u0026rsquo;ll need the following.\n register make bookings for specific dates see stats about the properties they own  And we need to give superusers/staff access to a a few different things. But we\u0026rsquo;ll get into that a bit later :)\nAirbnb clone\n expose all data with DRF pull property data and draw graphs for property owner using plotlyjs  KISS If you haven\u0026rsquo;t heard of the principle of KISS look it up now. Generally, when building a kick-ass and complicated piece of software, it\u0026rsquo;s very very important to focus on what is actually required.\nMany undisciplined developers fall down all sorts of rabbit holes and just build out a lot of half-broken and fully-useless bells and whistles instead of focusing.\nYou should always aim to follow the leanest, most steamlined path. Start off by making sure you will ne sucessful in building the stuff that is actually required before you consider scope creep.\nNever heard of scope creep? Look that up too.\nFeature branching Please follow best practices here.\nSome notes on infrastructure Please use a Postgres database. Run it in a docker container.\nWe use this for Tilde:\nhttps://github.com/Umuzi-org/Tilde/tree/master/database/localhost\nAnd you can look at the Tilde settings.py file here to see how we use environmental variables to set up database access:\nhttps://github.com/Umuzi-org/Tilde/blob/master/backend/backend/settings.py\nInstructions For this introductory part of the project you\u0026rsquo;ll need to just get a foundation in place on which you can work.\n Set up an empty Django project Connect to a postgres db Make sure you can create super users  "
+},
+{
+	"uri": "/tech-department/projects/django-airbnb-clone/users-can-crud-properties/",
+	"title": "CloudBnb - users can CRUD properties that they own",
+	"tags": [],
+	"description": "",
+	"content": " Users using your application should be able to manage properties that they own. They need to be able to Create, Read, Update and Delete their properties. This is often referred to as CRUD.\nWe\u0026rsquo;ll need views at the following urls:\n properties/create/: Display a form that allows a user to create a new property. If the form is saved then that property needs to be associated with the currently logged in user\n properties/: This should list out all the properties owned by the currently logged in user. The user should be able to see a delete and edit buttons for the different properties. The user should see:\n the main image associated with the property the location and desrcription tags  properties/{id}/: This should show all the details of a property in a form. The user can change the details and hit save.\n properties/{id}/delete: If the user lands on this page then display all the info about the property and have a message that says \u0026ldquo;Are you sure you want to delete this property?\u0026rdquo;. The user can click on \u0026ldquo;Yes\u0026rdquo; or \u0026ldquo;No\u0026rdquo;.\n  Notes on branching This spec actually has a few pieces to it.\nThere is a permission system thing that you ned to build. We can\u0026rsquo;t let just anyone edit any property, they can only edit the stuff that they own. And there are 4 different pages that need to be implemented.\nPlease make many pull requests. If you make one gigantic branch with everything in it then you\u0026rsquo;ll just be making the life of the reviewer hard. Plan your work properly. Every time anything gets merged into the master branch then it should make the master branch better. IT shouldn\u0026rsquo;t make the master branch broken.\nNotes on UX Always be thinking about the user experience. Think about:\n where a user will be redirected after submitting a form or taking an action. \u0026ldquo;escape hatches\u0026rdquo;: there should always be a way for the user to navigate out of a situation. For example if the user is on the \u0026ldquo;create property\u0026rdquo; page and they decide that they actually aren\u0026rsquo;t keen, what buttons can they use to get off that page? Where will the buttons take them?  Notes on testing Make sure you test things. Especially your permission system.\n"
+},
+{
 	"uri": "/tech-department/projects/ios-mobile/codable-file-manager-url/",
 	"title": "Codable, File Manager, URL",
 	"tags": [],
@@ -1006,6 +1090,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Information documented in this section can be used for a few different things:\n helping junior recruits and staff members learn what to look out for certain topics will come up here that should be turned into structured topics and workshops for future recruits we will be able to take learnings from here to refine the instructions given when giving assignments out  "
+},
+{
+	"uri": "/tech-department/projects/tilde-mockups/code-review-performance-dashboard/",
+	"title": "Code Review Performance Dashboard mockup",
+	"tags": [],
+	"description": "",
+	"content": " As you should know by now, code review is the cornerstone of a successful dev team.\nRapid feedback cycles lead to rapid learning and rapid adaptation. Effective code review is GOLDEN! It keeps everyone\u0026rsquo;s brains fed :)\nBut even though it is increadibly important and it should be a high priority for devs, code review is often left until the last possible moment.\nThere are a few reasons for this. One reason is that recruits/students just dont know what \u0026ldquo;good\u0026rdquo; looks like. And even if they knew what good looked like, they dont get easy clear access to metrics about their own performance or the performance of their group. They don\u0026rsquo;t know what we are even measuring or why.\nSo what we need is a dashboard. Colours, dials, graphs\u0026hellip; all that good stuff.\nA recruit needs to be able to look at their code review dashboard and clearly see if they are doing well or badly, and they need to see how they are doing in comparison to their group.\nThe data Basically we keep track of:\n Cards and their statusess. and who is assigned as a reviewer If a card is in the review column, we can see how long it has been chilling there by looking at when the review was requested We can see what reviews were done when and by who We also keep track of how many times a staff member disagrees with a review made by a recruit.  And what does good look like? We need to be able to show cool visuals that tell a person if they are doing a good job or not.\nHere are a few guidelines on what good looks like:\n Generally, the more reviews a person does, the better If a single card has lots of reviews by a single person then it means that the quality of the review might be low. It could be that  the reviewer is trying to trying to cheat the system or they didn\u0026rsquo;t do a thorough review the last time so there is some back and forth card movements. The better the review the fewer reviews are needed  The faster someone reviews code the better. So if someone requests a review and then the card just chills in the review column getting ignored for ages then that\u0026rsquo;s bad  On top of those basics, it\u0026rsquo;s good to know that staff members have the final say about if a project is competent (or excellent) or not. So another thing we keep track of is disagreements. Eg: if a reviewer says that some code is excellent, then a staff member says it\u0026rsquo;s a red flag, then it means that the reviewer did a really bad job. Really seriously bad.\nSo we count \u0026ldquo;disagreements\u0026rdquo; and keep track of when they happen, and on what cards/projects.\nWhy do \u0026ldquo;disagreement\u0026rdquo;s happen? There are 2 main reasons:\n junior coders make mistakes because they are still learning! So we expect some disagreements. But as the coder learns, they\u0026rsquo;ll do a better job. some people rush through code reviews and do a bad job. Or just always mark their friends as competent and other such nonesense. These people need to know that that\u0026rsquo;s not how life works.  And the other side of the review coin If a recruit gets feedback on one of their projects, it\u0026rsquo;s their job to react to it quickly and sort things out. A good coder works to get things finished! Responding to feedback as quickly as possible means that learnings can be better applied to future projects.\nPeople who delay on learning from feedback tend to make the same mistakes over and over again and just end up annoying the reviewers.\nActing quickly when someone gives you a thoughtful review is really a good thing to do.\nSo the things that are worth displaying here are:\n How quickly a card moves from \u0026ldquo;review feedback\u0026rdquo; back into review How many times a card moves back and forward between the \u0026ldquo;in review\u0026rdquo; and \u0026ldquo;review feedback\u0026rdquo; columns. If it\u0026rsquo;s just getting kicked back and forth it might be the coder who is at fault  Your task  Draw out what you would want to build before you build anything! Show it to at least 3 users (recruits) and get their feedack on your design. build your mockup in React  "
 },
 {
 	"uri": "/tech-department/topics/code-wars/java/java-basics/",
@@ -1037,6 +1128,13 @@
 },
 {
 	"uri": "/tech-department/syllabuses/coder-mock-interview/",
+	"title": "Coder Mock Interviews",
+	"tags": [],
+	"description": "",
+	"content": "  TOPICS: Recruit Career Questionnaire   PROJECTS: Build your first personal website   TOPICS: CV Guidlines   TOPICS: Creating A Memorable Statement   TOPICS: Mock Interviews Survey   TOPICS: Mock Interviews   "
+},
+{
+	"uri": "/tech-department/syllabuses/interview-prep/",
 	"title": "Coder Mock Interviews",
 	"tags": [],
 	"description": "",
@@ -1236,7 +1334,7 @@
 	"title": "Data Engineering",
 	"tags": [],
 	"description": "",
-	"content": " Introduction to NCIT curriculum NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   TOPICS: Python self-learning   TOPICS: Clean Code for Python   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  TOPICS: Automate the boring stuff: Chapter 0 – Introduction   TOPICS: Automate the boring stuff: Chapter 1 – Python Basics   TOPICS: Automate the boring stuff: Chapter 2 – Flow Control   TOPICS: Automate the boring stuff: Chapter 3 – Functions   PROJECTS: Level 1 programming katas   PROJECTS: Build your first personal website   TOPICS: How to ask for help with your code   WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)   TOPICS: Automate the boring stuff: Chapter 4 – Lists   TOPICS: Python Lists in depth   TOPICS: Automate the boring stuff: Chapter 5 – Dictionaries and Structuring Data   TOPICS: Automate the boring stuff: Chapter 6 – Manipulating Strings   TOPICS: Automate the boring stuff: Chapter 7 – Pattern Matching with Regular Expressions   TOPICS: [TODO] Python OOP basics   TOPICS: Automated Testing in Python   TOPICS: [TODO] Virtual Environments   PROJECTS: Animals Part 2. Adding Tests  NCIT 13: Object-oriented programming\n  TOPICS: How the internet works   TOPICS: Data Ethics and Privacy  NCIT 05: History of the Internet\n NCIT 08: Pseudocode and documentation\n  TOPICS: Automate the boring stuff: Chapter 8 – Input Validation   TOPICS: Automate the boring stuff: Chapter 9 – Reading and Writing Files   TOPICS: Automate the boring stuff: Chapter 10 – Organizing Files   TOPICS: Automate the boring stuff: Chapter 11 – Debugging   PROJECTS: Add logging to password checker  NCIT 11: Test-driven development\n  TOPICS: Intro to Docker and Docker-compose   PROJECTS: string-calculator   TOPICS: Python Exception handling   TOPICS: Python writing custom exceptions   TOPICS: Automate the boring stuff: Chapter 13 – Working with Excel Spreadsheets   TOPICS: Automate the boring stuff: Chapter 14 – Working with Google Spreadsheets   TOPICS: Automate the boring stuff: Chapter 16 – Working with CSV Files and JSON Data   TOPICS: Automate the boring stuff: Chapter 17 – Keeping Time, Scheduling Tasks, and Launching Programs   TOPICS: Automate the boring stuff: Chapter 18 – Sending Email and Text Messages   TOPICS: Python Decorators   TOPICS: Python Decorators - Intro   PROJECTS: Email random inspirational quote   PROJECTS: Consume Github API   TOPICS: Python Recursion by example   TOPICS: Python Iterators and Generators   TOPICS: Automate the boring stuff: Chapter 12 – Web Scraping   PROJECTS: SQL  NCIT 14: Database Development\n  TOPICS: The Tech Landscape Terminology   TOPICS: Database Comparison   PROJECTS: Database migrations with SQLAlchemy   PROJECTS: create a REST api to interact with actual database   PROJECTS: Python and MongoDB   PROJECTS: RabbitMQ   PROJECTS: DAGs with Airflow   PROJECTS: Python and Kafka  NCIT 15: Analytics, Surveys, and Reports / Input \u0026amp; Output\n  PROJECTS: [TODO] Python and Spark   TOPICS: [TODO] ZeroMQ versus RabbitMQ versus Kafka   TOPICS: optimizations and big-O   PROJECTS: Data Wrangling  NCIT 16: Thinking like a machine / Boolean algebra, logic\n NCIT 17: Search and sort techniques\n  WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap  NCIT 20: Managing the Software Development Process\n DATA_ENG:\n postgres stored procedures sql index optimisations Entity Relationship Diagrams (ERD) Data warehousing with Hive Overview of the Hadoop ecosystem Linear regressions   "
+	"content": " Introduction to NCIT curriculum NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   TOPICS: Python self-learning   TOPICS: Clean Code for Python   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  TOPICS: Automate the boring stuff: Chapter 0 – Introduction   TOPICS: Automate the boring stuff: Chapter 1 – Python Basics   TOPICS: Automate the boring stuff: Chapter 2 – Flow Control   TOPICS: Automate the boring stuff: Chapter 3 – Functions   PROJECTS: Level 1 programming katas   PROJECTS: Build your first personal website   TOPICS: How to ask for help with your code   WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)   TOPICS: Automate the boring stuff: Chapter 4 – Lists   TOPICS: Python Lists in depth   TOPICS: Automate the boring stuff: Chapter 5 – Dictionaries and Structuring Data   TOPICS: Automate the boring stuff: Chapter 6 – Manipulating Strings   TOPICS: Automate the boring stuff: Chapter 7 – Pattern Matching with Regular Expressions   TOPICS: Intro OOP(Object-oriented Programming) for Python   TOPICS: Automated Testing in Python   TOPICS: [TODO] Virtual Environments   PROJECTS: Animals Part 2. Adding Tests  NCIT 13: Object-oriented programming\n  TOPICS: How the internet works   TOPICS: Data Ethics and Privacy  NCIT 05: History of the Internet\n NCIT 08: Pseudocode and documentation\n  TOPICS: Automate the boring stuff: Chapter 8 – Input Validation   TOPICS: Automate the boring stuff: Chapter 9 – Reading and Writing Files   TOPICS: Automate the boring stuff: Chapter 10 – Organizing Files   TOPICS: Automate the boring stuff: Chapter 11 – Debugging   PROJECTS: Add logging to password checker  NCIT 11: Test-driven development\n  TOPICS: Intro to Docker and Docker-compose   PROJECTS: string-calculator   TOPICS: Python Exception handling   TOPICS: Python writing custom exceptions   TOPICS: Automate the boring stuff: Chapter 13 – Working with Excel Spreadsheets   TOPICS: Automate the boring stuff: Chapter 14 – Working with Google Spreadsheets   TOPICS: Automate the boring stuff: Chapter 16 – Working with CSV Files and JSON Data   TOPICS: Automate the boring stuff: Chapter 17 – Keeping Time, Scheduling Tasks, and Launching Programs   TOPICS: Automate the boring stuff: Chapter 18 – Sending Email and Text Messages   TOPICS: Python Decorators   TOPICS: Python Decorators - Intro   PROJECTS: Email random inspirational quote   PROJECTS: Consume Github API   TOPICS: Python Recursion by example   TOPICS: Python Iterators and Generators   TOPICS: Automate the boring stuff: Chapter 12 – Web Scraping   PROJECTS: SQL  NCIT 14: Database Development\n  TOPICS: The Tech Landscape Terminology   TOPICS: Database Comparison   PROJECTS: Database migrations with SQLAlchemy   PROJECTS: create a REST api to interact with actual database   PROJECTS: Python and MongoDB   PROJECTS: RabbitMQ   PROJECTS: DAGs with Airflow   PROJECTS: Python and Kafka  NCIT 15: Analytics, Surveys, and Reports / Input \u0026amp; Output\n  PROJECTS: [TODO] Python and Spark   TOPICS: [TODO] ZeroMQ versus RabbitMQ versus Kafka   TOPICS: optimizations and big-O   PROJECTS: Data Wrangling  NCIT 16: Thinking like a machine / Boolean algebra, logic\n NCIT 17: Search and sort techniques\n  WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap  NCIT 20: Managing the Software Development Process\n DATA_ENG:\n postgres stored procedures sql index optimisations Entity Relationship Diagrams (ERD) Data warehousing with Hive Overview of the Hadoop ecosystem Linear regressions   "
 },
 {
 	"uri": "/tech-department/tags/data-ethics/",
@@ -1271,7 +1369,7 @@
 	"title": "Data Science",
 	"tags": [],
 	"description": "",
-	"content": " Introduction to NCIT curriculum NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   TOPICS: Python self-learning   TOPICS: Clean Code for Python   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  PROJECTS: Level 1 programming katas   PROJECTS: Build your first personal website   TOPICS: How to ask for help with your code  NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)   TOPICS: [TODO] Python OOP basics   TOPICS: Automated Testing in Python   TOPICS: [TODO] Virtual Environments   WORKSHOPS: Survey design   WORKSHOPS: Google forms like a boss   PROJECTS: Assertive programming kata   PROJECTS: [TODO] Data Visualisation Projects   WORKSHOPS: Data Ethics  NCIT 11: Test-driven development  PROJECTS: string-calculator   PROJECTS: Statistical Thinking   TOPICS: The Tech Landscape Terminology  NCIT 12: Business and technology  PROJECTS: Data Wrangling   PROJECTS: Cross-validation \u0026amp; Simple Linear Regression   PROJECTS: Multivariate Linear Regression  NCIT 13: Object-oriented programming  TOPICS: How the internet works   TOPICS: Data Ethics and Privacy  NCIT 05: History of the Internet NCIT 08: Pseudocode and documentation  PROJECTS: OOP for data science   PROJECTS: Plotly Dashboard Assignment  NCIT 14: Database Development  PROJECTS: SQL  NCIT 15: Analytics, Surveys, and Reports / Input \u0026amp; Output  PROJECTS: Logistic regression   WORKSHOPS: Agile and Scrum   PROJECTS: Decision Trees  NCIT 16: Thinking like a machine / Boolean algebra, logic NCIT 17: Search and sort techniques NCIT 18: Agile project management NCIT 19: Agile meetings NCIT 20: Managing the Software Development Process  TOPICS: optimizations and big-O  NCIT Summative assessment  WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap   TOPICS: Database Comparison   PROJECTS: K-Means Clustering Assignment   PROJECTS: Natural language processing   "
+	"content": " Introduction to NCIT curriculum NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   TOPICS: Python self-learning   TOPICS: Clean Code for Python   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  PROJECTS: Level 1 programming katas   PROJECTS: Build your first personal website   TOPICS: How to ask for help with your code  NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)   TOPICS: Intro OOP(Object-oriented Programming) for Python   TOPICS: Automated Testing in Python   TOPICS: [TODO] Virtual Environments   WORKSHOPS: Survey design   WORKSHOPS: Google forms like a boss   PROJECTS: Assertive programming kata   PROJECTS: [TODO] Data Visualisation Projects   WORKSHOPS: Data Ethics  NCIT 11: Test-driven development  PROJECTS: string-calculator   PROJECTS: Statistical Thinking   TOPICS: The Tech Landscape Terminology  NCIT 12: Business and technology  PROJECTS: Data Wrangling   PROJECTS: Cross-validation \u0026amp; Simple Linear Regression   PROJECTS: Multivariate Linear Regression  NCIT 13: Object-oriented programming  TOPICS: How the internet works   TOPICS: Data Ethics and Privacy  NCIT 05: History of the Internet NCIT 08: Pseudocode and documentation  PROJECTS: OOP for data science   PROJECTS: Plotly Dashboard Assignment  NCIT 14: Database Development  PROJECTS: SQL  NCIT 15: Analytics, Surveys, and Reports / Input \u0026amp; Output  PROJECTS: Logistic regression   WORKSHOPS: Agile and Scrum   PROJECTS: Decision Trees  NCIT 16: Thinking like a machine / Boolean algebra, logic NCIT 17: Search and sort techniques NCIT 18: Agile project management NCIT 19: Agile meetings NCIT 20: Managing the Software Development Process  TOPICS: optimizations and big-O  NCIT Summative assessment  WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap   TOPICS: Database Comparison   PROJECTS: K-Means Clustering Assignment   PROJECTS: Natural language processing   "
 },
 {
 	"uri": "/tech-department/topics/data-science-specific/data-science-methodology/",
@@ -1358,14 +1456,14 @@
 	"content": ""
 },
 {
-	"uri": "/tech-department/projects/data-science-specific/",
+	"uri": "/tech-department/topics/data-science-specific/",
 	"title": "Data-science-specifics",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/tech-department/topics/data-science-specific/",
+	"uri": "/tech-department/projects/data-science-specific/",
 	"title": "Data-science-specifics",
 	"tags": [],
 	"description": "",
@@ -1489,6 +1587,69 @@
 	"tags": [],
 	"description": "",
 	"content": "Expose a simple TODO list api using Django. Take a look at this first:\n https://simpleisbetterthancomplex.com/series/beginners-guide/1.11/ https://realpython.com/django-migrations-a-primer/  This is about apis. Please don\u0026rsquo;t make a pretty frontend. Or even an ugly frontend. Just expose an api.\nHere is what you need to do:\n create a Django project (in a python3.7 venv) create some models and use them to set up a database. Make one model called TodoItem. Is should have a title and a description only turn the \u0026ldquo;admin\u0026rdquo; interface on and take a look around create some REST endpoints that allow a person to:  add a TODO item delete a TODO item edit a todo item list all TODO items   Next I want you to be able to update the models and see how that effects your database migrations.\nHint: If you find yourself deleting migration files: You are doing it wrong.\n Add a \u0026lsquo;done\u0026rsquo; boolean column to the TodoItem see how that effects your migrations update your REST endpoints accordingly  "
+},
+{
+	"uri": "/tech-department/topics/django/adding-javascript/",
+	"title": "Django and Javascript",
+	"tags": [],
+	"description": "",
+	"content": " As you now know, you can write Django views that generate HTML responses. What ends up running in the user\u0026rsquo;s browser is a plain ol website. And so you can do whatever you would usually do with HTML.\nThe following tutorial shows how to incorperate js into your Django frontend. Pretty cool.\nIt shows how to use javascript and HighChart.js to draw some useful charts.\nhttps://simpleisbetterthancomplex.com/tutorial/2018/04/03/how-to-integrate-highcharts-js-with-django.html\nNotes on static resources This tutorial shows how to use \u0026lt;script\u0026gt; tags to include your js right in your template. While this can be convenient and possibly even appropriate for short scripts, it\u0026rsquo;s not always the est thing to do.\nIf your script is long, then you might want to put it in a seperate file and refer to it as a static resource. This also of course adds to the reussability and testability of your javascript code. If everything is all jumbled together then your code can be very hard to unit test.\nTo learn about how Django allows you to manage static files, take a look here: https://docs.djangoproject.com/en/3.1/howto/static-files/\nNotes on ajax and apis the chart_data view can be called a JSON API endpoint. Your frontend sends a request to that endpoint to fech the data.\nCan you imagine how you would add a button to your frontend that re-fetches the chart data without reloading the page?\nYou can make other api endpoints to perform different actions and wire your frontend right to those. By doing this you can add a lot of functionality to a frontend through ajax.\n"
+},
+{
+	"uri": "/tech-department/syllabuses/django-for-web-devs/",
+	"title": "Django for Web devs",
+	"tags": [],
+	"description": "",
+	"content": "  TOPICS: Python versus JavaScript   TOPICS: Why learn Django   TOPICS: [TODO] Watch This Space   TOPICS: Solo Learn - Python - Module 5 - More Types   TOPICS: Intro OOP(Object-oriented Programming) for Python   TOPICS: Automated Testing in Python   TOPICS: Clean Code for Python   PROJECTS: Email random inspirational quote   PROJECTS: Animals Part 2. Adding Tests   TOPICS: Django official tutorial - part 5   TOPICS: [TODO] Understanding where the code runs and how the data flows   TOPICS: [TODO] Understanding Django Migrations   PROJECTS: [TODO] CloudBnb - users can CRUD properties that they own   PROJECTS: CloudBnb - Users can make bookings   PROJECTS: [TODO] CloudBnb - Property owner dashboard user interface   PROJECTS: CloudBnb - Data export script   PROJECTS: [TODO] CloudBnb - Expose apis to be consumed by modern mobile app   PROJECTS: [TODO] CloudBnb - Calandar widget   "
+},
+{
+	"uri": "/tech-department/topics/django/official-tutorial/part-1/",
+	"title": "Django official tutorial - part 1",
+	"tags": [],
+	"description": "",
+	"content": "Please go through the following tutorial.\nRemember that when using Django you should be using modern Python. If you are using Pythhon2.7 that would be a problem.\nTo check your python version:\npython --version  You should be using some version of Python 3. At time of writing Python3.8 is available.\nYou should also be using a virtual environment or similar to isolate your django application and its depedencies.\nhttps://docs.djangoproject.com/en/3.1/intro/tutorial01/\n"
+},
+{
+	"uri": "/tech-department/topics/django/official-tutorial/part-2/",
+	"title": "Django official tutorial - part 2",
+	"tags": [],
+	"description": "",
+	"content": "Please go through the following tutorial.\nRemember that when using Django you should be using modern Python. If you are using Pythhon2.7 that would be a problem.\nTo check your python version:\npython --version  You should be using some version of Python 3. At time of writing Python3.8 is available.\nYou should also be using a virtual environment or similar to isolate your django application and its depedencies.\nhttps://docs.djangoproject.com/en/3.1/intro/tutorial02/\n"
+},
+{
+	"uri": "/tech-department/topics/django/official-tutorial/part-3/",
+	"title": "Django official tutorial - part 3",
+	"tags": [],
+	"description": "",
+	"content": "Please go through the following tutorial.\nRemember that when using Django you should be using modern Python. If you are using Pythhon2.7 that would be a problem.\nTo check your python version:\npython --version  You should be using some version of Python 3. At time of writing Python3.8 is available.\nYou should also be using a virtual environment or similar to isolate your django application and its depedencies.\nhttps://docs.djangoproject.com/en/3.1/intro/tutorial03/\n"
+},
+{
+	"uri": "/tech-department/topics/django/official-tutorial/part-4/",
+	"title": "Django official tutorial - part 4",
+	"tags": [],
+	"description": "",
+	"content": "Please go through the following tutorial.\nRemember that when using Django you should be using modern Python. If you are using Pythhon2.7 that would be a problem.\nTo check your python version:\npython --version  You should be using some version of Python 3. At time of writing Python3.8 is available.\nYou should also be using a virtual environment or similar to isolate your django application and its depedencies.\nhttps://docs.djangoproject.com/en/3.1/intro/tutorial04/\n"
+},
+{
+	"uri": "/tech-department/topics/django/official-tutorial/part-5/",
+	"title": "Django official tutorial - part 5",
+	"tags": [],
+	"description": "",
+	"content": "Please go through the following tutorial.\nRemember that when using Django you should be using modern Python. If you are using Pythhon2.7 that would be a problem.\nTo check your python version:\npython --version  You should be using some version of Python 3. At time of writing Python3.8 is available.\nYou should also be using a virtual environment or similar to isolate your django application and its depedencies.\nhttps://docs.djangoproject.com/en/3.1/intro/tutorial05/\n"
+},
+{
+	"uri": "/tech-department/projects/django-airbnb-clone/",
+	"title": "Django-airbnb-clones",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/topics/django/",
+	"title": "Djangos",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "/tech-department/tags/docker-compose/",
@@ -1743,6 +1904,13 @@
 	"content": " "
 },
 {
+	"uri": "/tech-department/topics/git-feature-branching/",
+	"title": "Git feature branching",
+	"tags": [],
+	"description": "",
+	"content": " Git is a powerful tool and has quite a lot of flexibility around when to make branches and what the branches mean to you and your team. It\u0026rsquo;s important to come up with a shared stratergy for managing branches on a team in order to keep the chaos at bay. It also it important from the perspective of CI/CD (continuous integration and continuous deployment)\nGit feature branching is a very foundational branching stratergy. The reason we use it is that:\n It will build certain good habits, such as being aware of where your branch starts and what that implies. It is genuinely useful in real life projects, for example many open source projects use this Many other popular branching stratergies are based on feature-branching.  Resources  https://bocoup.com/blog/git-workflow-walkthrough-feature-branches https://www.atlassian.com/agile/software-development/branching  Some basic best practices Always make sure you have pulled the latest master branch before making a new branch\nAlways make sure that your branch starts at the head of the master branch.\ngit checkout master git pull git checkout -b $YOUR_SENSIBLE_BRANCH_NAME  Always give your branches meaningful names. If you name your branch any variation of my branch or branch 1 then you might as well name it I am a complete noob.\nBefore making a pull request then make sure your branch is up to date with the latest master branch. This is especially important when working on a team because sometimes things get merged into master that conflict with your code. If there are conflicts your code will not get merged. Period.\nThe first thing you need to do here is pull the latest master branch. Then you have 2 options:\nThis way is a plain old merge.\ngit checkout $YOUR_SENSIBLE_BRANCH_NAME git merge master  Many professionals prefere a rebase. This are a little bit trickier to understand but are generally considered best practice.\ngit checkout $YOUR_SENSIBLE_BRANCH_NAME git merge master  Also, please remember to push your code often. If you make a PR and your code on Github is out of date then that sucks. And if something bad happens to your computer it\u0026rsquo;s important to have a backup. git is your code bakup.\nMaking user-friendly PRs When you make a pull request, give it a good name.\nIf there is an ussue or a description of what you are supposed to do then link to that. Otherwise describe what you are trying to do.\nIf your PR includes code that makes a change to a user interface then it\u0026rsquo;s good to include a screenshot of the user interface. Sometimes it\u0026rsquo;s even good to include a short video demonstrating the feature you just added so that people can see what the code does without having to run everything.\n"
+},
+{
 	"uri": "/tech-department/workshops/git-for-teamwork/",
 	"title": "Git for Teamwork",
 	"tags": [],
@@ -1934,9 +2102,9 @@
 {
 	"uri": "/tech-department/topics/python-specific/oop-for-python/",
 	"title": "Intro OOP(Object-oriented Programming) for Python",
-	"tags": [],
+	"tags": ["oop"],
 	"description": "",
-	"content": " This is a reading presentation of Object-oriented Programming (OOP) for Python.\nNote This is an introduction, this is just to give you a clearer perspective on OOP.\nYoutube videos  Python OOP 1 - Classes and Instances Python OOP 2 - Class Variables Python OOP 3 - Classmethods and Staticmethods Python OOP 4 - Inheritance Python OOP 5 - Special (Magic/Dunder) Methods Python OOP 6 - Property Decorators  Reading Guttag. Introduction to Computation and Programming using Python. Chapter 8, Classes and Object Oriented Programming, p.90 - 110.\nSome Example Code The code below shows demonstrates composition and a little bit of inheritance. There is a lot more to be said about OOP.\n import random class Wheel: def __init__(self): self.tread = 1000 def still_ok(self): return self.tread \u0026gt; 0 def use(self, speed): self.tread -= random.random() * 10 * speed class Vehicle: # colour = \u0026#34;red\u0026#34; def __init__(self, color): self.color = color class Helicopter(Vehicle): pass class Car(Vehicle): has_fueltank = True def __init__(self, speed=1, wheels=4): print(f\u0026#34;entering constructor: {self} at address {id(self)}\u0026#34;) # super(Car,self).__init__(color=\u0026#34;red\u0026#34;) self.position = 0 self.speed = speed # self.wheels = [Wheel() for i in range(wheels)] self.wheels = [] for _ in range(wheels): self.wheels.append(Wheel()) print(\u0026#34;exiting constructor\u0026#34;) def drive_forward(self): print(\u0026#34;driving forwards\u0026#34;) self.position \u0026#43;= self.speed for wheel in self.wheels: wheel.use(self.speed) def needs_service(self): if self.position \u0026gt;= 10000: return True for wheel in self.wheels: if not wheel.still_ok(): return True return False  "
+	"content": " This is a reading presentation of Object-oriented Programming (OOP) for Python.\nNote This is an introduction, this is just to give you a clearer perspective on OOP.\nYoutube videos  Python OOP 1 - Classes and Instances Python OOP 2 - Class Variables Python OOP 3 - Classmethods and Staticmethods Python OOP 4 - Inheritance Python OOP 5 - Special (Magic/Dunder) Methods Python OOP 6 - Property Decorators  Reading https://realpython.com/python3-object-oriented-programming/\nSome Example Code The code below shows demonstrates composition and a little bit of inheritance. There is a lot more to be said about OOP.\n import random class Wheel: def __init__(self): self.tread = 1000 def still_ok(self): return self.tread \u0026gt; 0 def use(self, speed): self.tread -= random.random() * 10 * speed class Vehicle: # colour = \u0026#34;red\u0026#34; def __init__(self, color): self.color = color class Helicopter(Vehicle): pass class Car(Vehicle): has_fueltank = True def __init__(self, speed=1, wheels=4): print(f\u0026#34;entering constructor: {self} at address {id(self)}\u0026#34;) # super(Car,self).__init__(color=\u0026#34;red\u0026#34;) self.position = 0 self.speed = speed # self.wheels = [Wheel() for i in range(wheels)] self.wheels = [] for _ in range(wheels): self.wheels.append(Wheel()) print(\u0026#34;exiting constructor\u0026#34;) def drive_forward(self): print(\u0026#34;driving forwards\u0026#34;) self.position \u0026#43;= self.speed for wheel in self.wheels: wheel.use(self.speed) def needs_service(self): if self.position \u0026gt;= 10000: return True for wheel in self.wheels: if not wheel.still_ok(): return True return False  "
 },
 {
 	"uri": "/tech-department/topics/web-frontend/intro-to-angular/",
@@ -1995,18 +2163,32 @@
 	"content": "Link to the slides: https://docs.google.com/presentation/d/1gictqI99Sn58VNwbCTB2H1X_u8osahXT_3j97ATLuAo/edit?usp=sharing\n"
 },
 {
-	"uri": "/tech-department/topics/web-frontend/intro-to-react/",
+	"uri": "/tech-department/topics/web-frontend/react/intro-to-react/",
 	"title": "Intro to React",
 	"tags": [],
 	"description": "",
-	"content": " Official Intro - This tutorial doesn’t assume any existing React knowledge. Introduction to the React by FreeCodeCamp - React, created by Facebook, is an open-source JavaScript library for building user interfaces. It is used to create components, handle state and props, utilize event listeners and certain life cycle methods to update data as it changes.   Other useful links\n  Intro to Redux - The only introduction to Redux (and React-Redux) you’ll ever need All things React - Top 50 React Articles for the Past Year (v.2019)  "
+	"content": "React is a tool used to build web frontends. It’s used by Facebook, Dropbox, Instagram, Whatsapp, Khan Academy and many other giants. It basically makes frontend developers insanely productive.\nReact is one of many strong frontend tools and it will not last forever. React itself is a good teacher - by becoming good at React, a coder will develop a few transferable skills.\n Practice modern Javascript Better architectural thinking Cleaner code Experience with modern web frontend tools and methodologies Stronger ability to visualise data structuring and data flow Stronger ability to reason about asynchronous workflows Practice application state managment  React can also be a stepping stone on the way to a strong cross-platform mobile development skill set. Once React has been mastered, getting into ReactNative or Ionic is not terribly difficult. And once any serious frontend toolset has been learned it\u0026rsquo;s not hard to transfer those skills to another toolset. For example Vue and Angular are quite popular already.\nTake a look at this to see how React compares to the most popular web frameworks and libraries around:\n https://www.educative.io/blog/react-angular-vue-comparison https://programmingwithmosh.com/react/react-vs-angular/  "
 },
 {
-	"uri": "/tech-department/projects/redux-intro/",
-	"title": "Intro to Redux for home automation",
-	"tags": ["redux", "thunks", "combineReducers"],
+	"uri": "/tech-department/projects/redux-intro/part-3/",
+	"title": "Intro to Redux for home automation: Party mode with thunks",
+	"tags": ["redux", "redux-thunks"],
 	"description": "",
-	"content": " Redux is generally explained in the context of frontend frameworks. Lots of people think that it is a React thing. Lots of people are wrong\u0026hellip; Redux is quite a versatile tool. It can even be used in the absence of a frontend.\nIn this project we\u0026rsquo;ll be thinking about how we could use redux for a little bit of Internet of things home automation. Fo shizzle. It\u0026rsquo;s that awesome.\nOnce you have these foundations out of the way you can move onto integrating redux into a frontend. But let\u0026rsquo;s get the foundations out of the way first.\nInstructions The basics Take a little time to google IoT home automation and come up with a list of things you might want to automate in your home once you are a wealthy and successful professional coder. Arrange all the different things you might want to automate into a state object. Here\u0026rsquo;s an example:\nstate = { loungeLighting: \u0026quot;dim\u0026quot;, discoBallOn: true, alarmClockTime : \u0026quot;07:00\u0026quot;, nowPlaying: \u0026quot;https://www.youtube.com/watch?v=oHg5SJYRHA0\u0026quot;, }  Ok, run with it a little bit. What other things would you want to control?\nThe next step is to try to figure out what actions a user could take in order to update the state, and then to create some action creators for those.\nEg:\nfunction setNowPlaying(videoLink){ return { type: SET_NOW_PLAYING, videoLink } }  Now implement your reducers.\nMake sure you can dispatch your actions in order to update the state.\nOnce you have this down. it would probably be wise to make a PR. Rapid feedback for the win!\nCombine Reducers Often Redux is tied to pretty complicated applications. There are often many pages, widgets and whatnots that need to be controlled. As things get complicated your reducer can get really really big.\nThat\u0026rsquo;s why redux has a thing called CombineReducers, it lets you split things up a bit.\nCreate a few seperate reducers to control different things. You could have a sperate reducer per room, or you could have a sperate reducer for each major function (eg: you could have a \u0026ldquo;lighting\u0026rdquo; reducer that controls the lights for the whole house).\nDemonstrate your understanding of combineReducers.\nThis would be a good time to make another PR.\nThunks Now one super cool thing about redux is that you dont really have to dispatch actions one at a time. You can have an action with side effects, and those side effects can dispatch other actions!\nThere are two main ways to handle side effects in redux. Thunks and Sagas. Thunks are the easy way, and they are worth understanding before movin onto sagas.\nYour mission is to create a few more actions that use Thunks to combine a few of your existing actions. For example you might have an action with type GOOD_MORNING that starts playing soothing morning tunes and turns the kettle on. You might have another action of type PARTY_MODE that dimms the lights, turns on the disco ball, and changes the volume of the door bell.\nWhat combinations of actions would you want to trigger?\nDid you know? Did you know Tilde uses Redux? Open up the developer console (F12 usually) and you\u0026rsquo;ll be able to see how your interactions dispatch actions and update the state. Most of the state looks quite intense, look for Entities inside the state and see if you can recognise what\u0026rsquo;s going on in there and how it relates to what you are seeing on your board.\n"
+	"content": " Instructions Now one super cool thing about redux is that you dont really have to dispatch actions one at a time. You can have an action with side effects, and those side effects can dispatch other actions!\nThere are two main ways to handle side effects in redux. Thunks and Sagas. Thunks are the easy way, and they are worth understanding before movin onto sagas.\nYour mission is to create a few more actions that use Thunks to combine a few of your existing actions. For example you might have an action with type GOOD_MORNING that starts playing soothing morning tunes and turns the kettle on. You might have another action of type PARTY_MODE that dimms the lights, turns on the disco ball, and changes the volume of the door bell.\nWhat combinations of actions would you want to trigger?\n"
+},
+{
+	"uri": "/tech-department/projects/redux-intro/part-2/",
+	"title": "Intro to Redux for home automation: combine reducers",
+	"tags": ["redux", "combineReducers"],
+	"description": "",
+	"content": " Instructions Often Redux is tied to pretty complicated applications. There are often many pages, widgets and whatnots that need to be controlled. As things get complicated your reducer can get really really big.\nThat\u0026rsquo;s why redux has a thing called CombineReducers, it lets you split things up a bit.\nCreate a few seperate reducers to control different things. You could have a sperate reducer per room, or you could have a sperate reducer for each major function (eg: you could have a \u0026ldquo;lighting\u0026rdquo; reducer that controls the lights for the whole house).\nDemonstrate your understanding of combineReducers.\nThis would be a good time to make another PR.\n"
+},
+{
+	"uri": "/tech-department/projects/redux-intro/part-1/",
+	"title": "Intro to Redux for home automation: the basics",
+	"tags": ["redux"],
+	"description": "",
+	"content": " Redux is generally explained in the context of frontend frameworks. Lots of people think that it is a React thing. Lots of people are wrong\u0026hellip; Redux is quite a versatile tool. It can even be used in the absence of a frontend.\nIn this project we\u0026rsquo;ll be thinking about how we could use redux for a little bit of Internet of things home automation. Fo shizzle. It\u0026rsquo;s that awesome.\nOnce you have these foundations out of the way you can move onto integrating redux into a frontend. But let\u0026rsquo;s get the foundations out of the way first.\nInstructions Take a little time to google IoT home automation and come up with a list of things you might want to automate in your home once you are a wealthy and successful professional coder. Arrange all the different things you might want to automate into a state object. Here\u0026rsquo;s an example:\nstate = { loungeLighting: \u0026quot;dim\u0026quot;, discoBallOn: true, alarmClockTime : \u0026quot;07:00\u0026quot;, nowPlaying: \u0026quot;https://www.youtube.com/watch?v=oHg5SJYRHA0\u0026quot;, }  Ok, run with it a little bit. What other things would you want to control?\nThe next step is to try to figure out what actions a user could take in order to update the state, and then to create some action creators for those.\nEg:\nfunction setNowPlaying(videoLink){ return { type: SET_NOW_PLAYING, videoLink } }  Now implement your reducers.\nMake sure you can dispatch your actions in order to update the state.\nOnce you have this down. it would probably be wise to make a PR. Rapid feedback for the win!\nDid you know? Did you know Tilde uses Redux? Open up the developer console (F12 usually) and you\u0026rsquo;ll be able to see how your interactions dispatch actions and update the state. Most of the state looks quite intense, look for Entities inside the state and see if you can recognise what\u0026rsquo;s going on in there and how it relates to what you are seeing on your board.\n"
 },
 {
 	"uri": "/tech-department/topics/web-frontend/intro-to-vue/",
@@ -2527,13 +2709,6 @@
 	"content": " About javascript template engines (Short explanation) More on Javascript templates  "
 },
 {
-	"uri": "/tech-department/topics/solo-learn/java/",
-	"title": "Javas",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
 	"uri": "/tech-department/topics/code-wars/java/",
 	"title": "Javas",
 	"tags": [],
@@ -2541,14 +2716,21 @@
 	"content": ""
 },
 {
-	"uri": "/tech-department/workshops/javascript-specific/",
-	"title": "Javascript-specifics",
+	"uri": "/tech-department/topics/solo-learn/java/",
+	"title": "Javas",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
 	"uri": "/tech-department/topics/javascript-specific/",
+	"title": "Javascript-specifics",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/workshops/javascript-specific/",
 	"title": "Javascript-specifics",
 	"tags": [],
 	"description": "",
@@ -2776,21 +2958,28 @@
 	"title": "Memory Game: rebuild using a modern web frontend framework",
 	"tags": [],
 	"description": "",
-	"content": " Take a look at this: PROJECTS: Memory game in vanilla js Instructions Part 1: MVP Create an MVP memory game using Angular or React. Follow a TDD procedure.\n The game should draw a grid with 6 columns and 5 rows The cards in the game should be randomized When the game finishes then display a message on the screen that says \u0026ldquo;Congratulations! You are done!\u0026rdquo; There should be a button labelled \u0026ldquo;Play Again\u0026rdquo; that the player can use to restart the game  Part 2: Count-down  Draw a timer widget on the screen. It should start off showing 2 minutes and count down to zero The color of the timer should be green initially the timer should turn orange after one minute has passed the timer should turn red when there are 30 seconds left on the clock when the timer runs out:  flip all the cards over to reveal what is underneath display a message saying \u0026ldquo;Sorry! You lost the game\u0026rdquo;. There should be a button labelled \u0026ldquo;Play Again\u0026rdquo; that the player can use to restart the game   Part 3: Winning stats When the user wins the game then the congratulations message should include:\n the number of turns taken (1 turn == 2 clicks) the amount of time taken  Part 4: ExpressJs  Serve your game using ExpressJS (as static content) Connect a MongoDB database expose the following json api endpoints:  POST update_score: This should accept a json object like this {name:\u0026quot;a string\u0026quot;, time: number of seconds, turns: number of turns taken}. This endpoint must update the database GET leaderboard/time: This should return the top 10 fastest people to win the game GET leaderboard/turns: This should return the top 10 people to win the game using the fewest clicks   Part 5: Ajax  When the game starts then the user will need to enter their name\n Whenever a user successfully wins the game then:\n their score should be stored in MongoDB updated through use of the update_score endpoint the two leaderboards should be fetched and displayed on the page If the current user is on a leaderboard then they should be highlighted  Whenever a player loses the game\n display the two leaderboards   "
-},
-{
-	"uri": "/tech-department/projects/memory-game-vanilla/",
-	"title": "Memory game in vanilla js",
-	"tags": ["TDD", "Dom Manipulation", "Mocks and spies"],
-	"description": "",
-	"content": " Here is an example of a memory game: http://dkmgames.com/memory/pairsrun.php\nInstructions Create a Memory game MVP. Requirements:\n Take a moment to google MVP. If you add unnecessary features we\u0026rsquo;ll ask you to remove them make use of simple dom elements, no fancy graphics needed or canvas stuff a single player can play the game board is a pre-defined size board allows one set of symbols or images to be randomly hidden  Build your game in a TDD manner. If you don\u0026rsquo;t include tests in your final submission you will be held back and you will be expected to start over.\n"
+	"content": " Take a look at this: PROJECTS: Memory game web app Instructions Part 1: MVP Create an MVP memory game using Angular or React. Follow a TDD procedure.\n The game should draw a grid with 6 columns and 5 rows The cards in the game should be randomized When the game finishes then display a message on the screen that says \u0026ldquo;Congratulations! You are done!\u0026rdquo; There should be a button labelled \u0026ldquo;Play Again\u0026rdquo; that the player can use to restart the game  Part 2: Count-down  Draw a timer widget on the screen. It should start off showing 2 minutes and count down to zero The color of the timer should be green initially the timer should turn orange after one minute has passed the timer should turn red when there are 30 seconds left on the clock when the timer runs out:  flip all the cards over to reveal what is underneath display a message saying \u0026ldquo;Sorry! You lost the game\u0026rdquo;. There should be a button labelled \u0026ldquo;Play Again\u0026rdquo; that the player can use to restart the game   Part 3: Winning stats When the user wins the game then the congratulations message should include:\n the number of turns taken (1 turn == 2 clicks) the amount of time taken  Part 4: ExpressJs  Serve your game using ExpressJS (as static content) Connect a MongoDB database expose the following json api endpoints:  POST update_score: This should accept a json object like this {name:\u0026quot;a string\u0026quot;, time: number of seconds, turns: number of turns taken}. This endpoint must update the database GET leaderboard/time: This should return the top 10 fastest people to win the game GET leaderboard/turns: This should return the top 10 people to win the game using the fewest clicks   Part 5: Ajax  When the game starts then the user will need to enter their name\n Whenever a user successfully wins the game then:\n their score should be stored in MongoDB updated through use of the update_score endpoint the two leaderboards should be fetched and displayed on the page If the current user is on a leaderboard then they should be highlighted  Whenever a player loses the game\n display the two leaderboards   "
 },
 {
 	"uri": "/tech-department/projects/memory-game-angular-material/",
 	"title": "Memory game using Angular Material",
 	"tags": [],
 	"description": "",
-	"content": "Take a look at this: PROJECTS: Memory game in vanilla js Please build it using Angular Material\n"
+	"content": "Take a look at this: PROJECTS: Memory game web app Please build it using Angular Material\n"
+},
+{
+	"uri": "/tech-department/projects/memory-game/part-1/",
+	"title": "Memory game web app",
+	"tags": ["TDD", "Dom Manipulation", "Mocks and spies"],
+	"description": "",
+	"content": " Here is an example of a memory game: http://dkmgames.com/memory/pairsrun.php\nInstructions Create a Memory game MVP. Requirements:\n Take a moment to google MVP. If you add unnecessary features we\u0026rsquo;ll ask you to remove them make use of simple dom elements, no fancy graphics needed or canvas stuff a single player can play the game board is a pre-defined size board allows one set of symbols or images to be randomly hidden  Build your game in a TDD manner. If you don\u0026rsquo;t include tests in your final submission you will be held back and you will be expected to start over.\nUnit testing Tests are very important. Please follow the following best practices:\n tdd!!! if you are using plain ol js then your tests need to make use of mocks and spies to check that the frontend is being updated as it should be  "
+},
+{
+	"uri": "/tech-department/projects/memory-game/",
+	"title": "Memory-games",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "/tech-department/topics/messaging/",
@@ -2811,7 +3000,7 @@
 	"title": "Mock Interviews",
 	"tags": [],
 	"description": "",
-	"content": " As a recruit mock interviews are done so to give you a glimpse of what you can expect from a real life interview. This is a great way to prepare you of what is to come.\nThe Mock Interview Process also invloves the following as we try to make it as realistic as possible.\nWhiteboarding Basically this is when the interviewer asks you to solve a code challenge on a whiteboard right there and then.Also in explaining the code,they get more information about your coding skills.\nThese tips can help you prepare for the whiteboarding interviews;\n Always participate in whiteboard challenges within your cohort,these will help you get used to explaining infront of people Have a list of practice questions that you practice with Watch how others do,this is going to help you see what you also can improve on For more info and tips https://hackernoon.com/the-best-whiteboard-interview-advice-i-ever-received-3ebbfa72e4a  Code Tests Companies often want to see what you can or cannot do and code tests are valuable for that reason. Normally they dont expect juniors to get 100% but to get a better understanding of their skills.\nHow to prepare for this:\n Practice makes perfect. There are a lot of sites that let you practice your coding skills. Focus alot on your problem solving skills  These links has perfect examples that can help you with this https://devskiller.com/coding-tests-skill/web-development/\nhttps://coderbyte.com/?utm_campaign=Employer%20-%20coderbyte.com/organizations\u0026amp;utm_source=orange_top_bar\nTechnical questions These are questions that are specific to the role that the Junior is going to be filling. It helps interviewers see if the candidates know what the job involves and if they can fulfil the role.\nYou can prepare for this by:\n Getting to know exactly what is involved in the role you are applying for so you can see what you need to either prepare for or sharpen. Practice common terminologies in that specific language and be able to explain them Gather material on coding,this can help you increase your knowledge and provide confident, thorough answers in your interview.  Some examples of questions to help you prepare\n Web Development https://learning.naukri.com/articles/top-20-web-developer-interview-questions-answers/\n JavaScript https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95\n DataScience https://www.simplilearn.com/tutorials/data-science-tutorial/data-science-interview-questions\n  Talking about experiences and portfolio This is a very important part as it is a visual representation of the skills that a recruit/junior has. Most companies ask for example for a link to the candidates repo to see their work.\n Know your CV very well,chances are you will be asked to talk about the work you\u0026rsquo;ve done. Make sure to have the correct link to your GitHub repo. Very important to check that everything works as it should.  Soft skills and culture fit This is basically to see if the interviewee is going to be a good addition to the company. These involve also getting a glimpse of their values and behaviours to certain things.\n"
+	"content": " As a recruit mock interviews are done so to give you a glimpse of what you can expect from a real life interview. This is a great way to prepare you of what is to come.\nThe Mock Interview Process also invloves the following as we try to make it as realistic as possible.\nWhiteboarding Basically this is when the interviewer asks you to solve a code challenge on a whiteboard right there and then.Also in explaining the code,they get more information about your coding skills.\nThese tips can help you prepare for the whiteboarding interviews;\n Always participate in whiteboard challenges within your cohort,these will help you get used to explaining infront of people Have a list of practice questions that you practice with Watch how others do,this is going to help you see what you also can improve on For more info and tips https://hackernoon.com/the-best-whiteboard-interview-advice-i-ever-received-3ebbfa72e4a  Code Tests Companies often want to see what you can or cannot do and code tests are valuable for that reason. Normally they dont expect juniors to get 100% but to get a better understanding of their skills.\nHow to prepare for this:\n Practice makes perfect. There are a lot of sites that let you practice your coding skills. Focus alot on your problem solving skills  These links has perfect examples that can help you with this https://devskiller.com/coding-tests-skill/web-development/\nhttps://coderbyte.com/?utm_campaign=Employer%20-%20coderbyte.com/organizations\u0026amp;utm_source=orange_top_bar\nTechnical questions These are questions that are specific to the role that the Junior is going to be filling. It helps interviewers see if the candidates know what the job involves and if they can fulfil the role.\nYou can prepare for this by:\n Getting to know exactly what is involved in the role you are applying for so you can see what you need to either prepare for or sharpen. Practice common terminologies in that specific language and be able to explain them Gather material on coding,this can help you increase your knowledge and provide confident, thorough answers in your interview.  Some examples of questions to help you prepare\n Web Development https://learning.naukri.com/articles/top-20-web-developer-interview-questions-answers/\n JavaScript https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95\n DataScience https://www.simplilearn.com/tutorials/data-science-tutorial/data-science-interview-questions\n  Talking about experiences and portfolio This is a very important part as it is a visual representation of the skills that a recruit/junior has. Most companies ask for example for a link to the candidates repo to see their work.\n Know your CV very well,chances are you will be asked to talk about the work you\u0026rsquo;ve done. Make sure to have the correct link to your GitHub repo. Very important to check that everything works as it should.  Soft skills and culture fit This is basically to see if the interviewee is going to be a good addition to the company. These involve also getting a glimpse of their values and behaviours to certain things.\nResources https://medium.com/swlh/my-advice-after-interviewing-100-software-engineers-e34bc3cbc669\n"
 },
 {
 	"uri": "/tech-department/topics/work/mock-interview-survey/",
@@ -3059,6 +3248,20 @@
 	"content": ""
 },
 {
+	"uri": "/tech-department/topics/web-frontend/react/basic-tutorial/",
+	"title": "Official React Tutorial",
+	"tags": [],
+	"description": "",
+	"content": "Whenever learning a new tool, a good place to look for support is\nBefore getting into the main tutorial, it\u0026rsquo;s very important to make sure that your JS fundamentals are in place. Please read the following guide: https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript\nPay special attention to:\n https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const  Once you have mastered the above material you can\n Official Intro - This tutorial doesn’t assume any existing React knowledge.  "
+},
+{
+	"uri": "/tech-department/topics/django/official-tutorial/",
+	"title": "Official-tutorials",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "/tech-department/department-processes/team-onboarding/",
 	"title": "Onboarding - What the team needs to know and access",
 	"tags": [],
@@ -3255,6 +3458,13 @@
 	"content": " 1. Why document? Documenting software is one of the most crucial, but often most neglected, parts of the development process. Documenting your variables, functions, and entire programs is absolutely necessary if you are to succeed as a coder. Various sources will tell you to dedicate at least 10% of your development time to documentation. That is reasonable advice, and should be adopted when you are planning the development of any program or website.\nAfter we cover some best practices for documentation, we will cover the general process for documentation (listed below). Each of these will be covered in detail in the following sections.\nDocumentation Process  Pseudocode\n Convert pseudocode to comments\n Update comments as program changes\n Add summary/high-level instructions\n Develop user documentation (API docs) and technical docs (for other coders and administrators)\n  2. Best practices Documentation requirements The first step of documentation should take place before you write a single line of code. If your organization follows a “Waterfall” process, there will be several planning and “vision” documents that outline all the resources needed and plans for development. However, in the Agile project management process, teams produce far fewer documents before development starts. The product owner may create a document outlining user requirements and goals for the project, but most of the documentation will come during and after development.\nWhat are these development documents used for?\nThe main reasons why people need the technical design document for their work:\n Stakeholders require the reports.\n Customers need to feel more secure and at ease using the program.\n To keep track of everything on the project.\n For Audit purposes.\n As a training material for new people in the team.\n  Agile documentation best practices: Only the relevant information\nAgile suggests that only the most necessary information should be documented. What is the need for documenting something everyone knows? Create a vision, if it helps you to get fundraising. Write only the customer documents your customers require. Document your decisions only if there are alternatives and you need a reminder of what was behind those decisions.\nWait before documenting\nThis is the best way to avoid the false information in your papers. Document late. Wait until the decision is implemented and there’s no going back until you actually put it on paper. The information is stabilized and reliable. You economize the cost, time and effort, spent on redoing your documents. Note: This only applies to high-level documents that explain your program to a user. You should document your code with comments/pseudocode before you write any code.\nBe specific\nKeep in mind, that every project has its own requirements and specifics. You cannot apply the document templates for one project while working with another one. Some fields might not even exist in a project whilst some important ones are missing.\nIn addition, the customers are different and what works with one is simply not enough for the other. Let the customers decide on the content and amount of your documentation. It will save you some extra work and nerves.\nKeep it all in one place\nTechnical design documents have to be accessible and transparent. You need to have them available for anyone who might be in need for them. So as not to have a mess, keep all your papers in order and in one place. A real life-hack is to create your own Wiki or at least a separate folder in your GitHub repository that everyone can access.\nFor more info on Agile documentation can be found here.\n3. Pseudocode Once the general requirements and goals have been documented (or at least discussed and agreed upon by the team), you should start by writing pseudocode. Starting with pseudocode will help you think through all the functionality of your program without getting distracted by the technical details of how you will implement it. The added bonus of creating good pseudocode for all the functions of your program is that pseudocode is easily converted into comments.\nTo review the steps of how and why to write pseudocode, visit the following link:\nhttps://www.wikihow.com/Write-Pseudocode\nA quick summary (halfway down the page) with examples: http://userpages.wittenberg.edu/bshelburne/Comp150/Algorithms.htm\nA quick video description is here\n"
 },
 {
+	"uri": "/tech-department/projects/tilde-mockups/public-profile/",
+	"title": "Public Profile",
+	"tags": [],
+	"description": "",
+	"content": " One exciting feature we want to build is a public profile page that recruits can use as a way to show off what they have learned with Tilde. We keep track of what people are learning and things like that on their boards.\nBuild a public profile page that can act as a kind of portfolio for a recruit. This page can be sent out to potential employers and make the job hunt easier.\nYou need to come up with a cool way of displaying the kinds of data we currently have access to, as well as some future stuff.\nWhat data do we currently keep? Right now Tilde basically tracks cards. Cards have different tags associated with them. By looking at the tags of cards and their statuses we can see how far people are with different areas of course work.\nFor example: Maybe a recruit has done 8\u0026frasl;10 of the tdd cards on their board. And 1\u0026frasl;10 of their OOP projects.\nWe also keep track of code reviews. So Another thing we can display is comments about excellent work and perhaps competent work.\nEg: let\u0026rsquo;s say Shindi reviews someone\u0026rsquo;s api development code, marks it as excellent and says something wonderful. It would be very cool to have that show up on a the recruit\u0026rsquo;s public profile page.\nWe also keep track of what courses people registered for and when. A recruit can actually do multiple courses with us. For example one could do a full stack web dev course, then a course in React.\nOne thing we are also quite excited about is supporting our Alumni. Once someone graduates from their course with us, we want to keep offering them value through giving them access to courses on our network. And their public profiles should get more awesome over time and show what they have been working on.\nWhat data do we currenly not keep There is still a lot to build and track. So you have a bit of freedom here.\nWhat else would you like to see here?\nWhat else do you think employers would want to see?\nHere are a few ideas:\n a profile picture a \u0026ldquo;Hire me\u0026rdquo; button employment history testimonials from employers and staff the recruit\u0026rsquo;s own words about who they are, what are their plans, etc. Take a look at this for inspiration: TOPICS: Creating A Memorable Statement  Trophies and badges. One day we would like to build in some gamification features. For example a person might get a badge to say they are the fastest high quality code reviewer for the week You can use flair from different communities you are apart of. For example:   Your task  Draw some pictures of what you want to build. Nothing fancy. Show your ideas to a few other recruits so that they can help you improve your design Show your work to @liezel.vorster on rocketchat. She is very involved in helping recruits get their portfolios up to scratch and getting things done Build it in React  "
+},
+{
 	"uri": "/tech-department/topics/pull-requests/",
 	"title": "Pull Requests",
 	"tags": [],
@@ -3302,13 +3512,6 @@
 	"tags": ["python"],
 	"description": "",
 	"content": "https://www.codementor.io/@sheena/python-lists-in-depth-lrtmk7w4q\n"
-},
-{
-	"uri": "/tech-department/topics/python-specific/oop-basics/",
-	"title": "Python OOP basics",
-	"tags": ["oop"],
-	"description": "",
-	"content": ""
 },
 {
 	"uri": "/tech-department/topics/python-specific/recursion/",
@@ -3381,6 +3584,13 @@
 	"content": "You are expected to spend your free time upgrading your Python skills. Here are some resources for you:\n Learn Python Real Python CodeWars  "
 },
 {
+	"uri": "/tech-department/topics/python-vs-js/",
+	"title": "Python versus JavaScript",
+	"tags": [],
+	"description": "",
+	"content": "This brillinat article goes into all the nitty gritty details: https://realpython.com/python-vs-javascript/\n"
+},
+{
 	"uri": "/tech-department/topics/python-specific/custom-exceptions/",
 	"title": "Python writing custom exceptions",
 	"tags": [],
@@ -3390,6 +3600,13 @@
 {
 	"uri": "/tech-department/workshops/python-specific/",
 	"title": "Python-specifics",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/topics/solo-learn/python/",
+	"title": "Pythons",
 	"tags": [],
 	"description": "",
 	"content": ""
@@ -3407,6 +3624,69 @@
 	"tags": ["rabbit-mq"],
 	"description": "",
 	"content": " RabbitMQ, despite its funny name, is a seriously useful piece of software.\nOn top of this, it\u0026rsquo;s a great introduction to parallel computing.\nTake a look at the offical tutorial here: https://www.rabbitmq.com/getstarted.html.\nInstructions Create one repo. Inside that repo create 6 directories, name them: one, two, three, etc. Inside directory one, implement tutorial 1 from here: https://www.rabbitmq.com/getstarted.html. Inside directory 2 implement tutorial 2, etc. Go up to number 6.\nNow pay close attention: Copy-pasting code is not sufficient.\nSuccess criteria 1: DRY CODE Each of your tutorial implementations must be DRY in itself. eg: If you have the string \u0026lsquo;hello\u0026rsquo; pasted all over the place then your code would not be DRY.\nHint: Here\u0026rsquo;s the expected file structure for the first tutorial:\none/ channel.py recieve.py send.py  Success criteria 2: Environmental variables Hard-coding the connection string is no good. You want to fetch it from an environmental variable. On top of that you want to be able to run your code successfully even if the environmental variable is not set.\neg:\npython send.py # this should work as per the tutorials export HOST=\u0026quot;35:456:145:235\u0026quot; python send.py # this should attempt to connect to a rabbitmq server at the given ip address  "
+},
+{
+	"uri": "/tech-department/tags/react/",
+	"title": "React",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/topics/web-frontend/react/",
+	"title": "React",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/topics/web-frontend/react/redux-architecture/",
+	"title": "React + Redux architectural guidelines",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/syllabuses/react-specialisation/",
+	"title": "React Specialisation",
+	"tags": [],
+	"description": "",
+	"content": "  TOPICS: Intro to React   TOPICS: [TODO] Watch This Space   PROJECTS: Tilde Mockups   TOPICS: [TODO] React \u0026#43; Redux architectural guidelines   TOPICS: [TODO] React Unit testing   PROJECTS: Intro to Redux for home automation: Party mode with thunks   PROJECTS: [TODO] extra features for your memory game   PROJECTS: React and Redux recipe search: Part 2. API Access with thunks   TOPICS: [TODO] Storage options   TOPICS: Redux Saga   PROJECTS: [TODO] Redux Saga Intro   "
+},
+{
+	"uri": "/tech-department/topics/web-frontend/react/unit-testing/",
+	"title": "React Unit testing",
+	"tags": [],
+	"description": "",
+	"content": " https://www.youtube.com/watch?v=-bmdf1oATQo https://www.toptal.com/react/tdd-react-user-stories-to-development  "
+},
+{
+	"uri": "/tech-department/projects/recipe-search/part-1/",
+	"title": "React and Redux recipe search: Part 1. Presenting the form",
+	"tags": ["React", "Redux"],
+	"description": "",
+	"content": " This is part 1 of a project where we will be using Redux in order to build a recipe search user interface based on the (RecipePuppy API)[content/projects/recipe-search/part-1].\nIn this part of the excercise we wont be making any queries to the api, we\u0026rsquo;ll just be using React and Redux to build a kick-ass search form.\nInstructions Create a search page that has the following functionality:\n It needs a search box where the user can enter keywords, for example \u0026ldquo;omlette\u0026rdquo; or \u0026ldquo;mexican\u0026rdquo; or whatever else they are keen on. It also needs a mechanism for adding ingredients to the search. And removing ingredients if they made a mistake.  Here is a valid user journey:\n Tshepo is wondering what to make for dinner He looks around the kitchen to see what he has available He has some bacon, leeks, onions and tomatoes and he feels like something Italian. So he selects the ingredients and fills \u0026ldquo;Italian\u0026rdquo; into the search box he then realises that the leeks are mouldy so he removes \u0026ldquo;leeks\u0026rdquo; from the search.  Success criteria In this project you are expected to use redux for all your state managment. Don\u0026rsquo;t use useState or any other hooks.\nIn real life applictions it usually makes sense to use a combination of redux and react hook based state, but the purpose of this project is for you to practice getting redux and react to play nice.\nHints Take a look at the api. Be sure that you understand that the ingredients and the search query are two different things. The user should be made aware of this through an intuitive looking form.\n"
+},
+{
+	"uri": "/tech-department/projects/recipe-search/part-2/",
+	"title": "React and Redux recipe search: Part 2. API Access with thunks",
+	"tags": ["React", "Redux", "Thunks"],
+	"description": "",
+	"content": " Now that your frontend is awesome, let\u0026rsquo;s get the \u0026ldquo;search\u0026rdquo; button to work.\nTake a look at this neat little API:\nhttp://www.recipepuppy.com/about/api/\nAs APIs go it\u0026rsquo;s pairly straight-forward. It\u0026rsquo;s also free and requires no authentication.\nInstructions Add a Button labelled \u0026ldquo;Search\u0026rdquo; to your web application. When the user clicks on this button do the following:\n Access the api using a thunk once the results arrive, display them in a nice table. Make sure you display all the info and that it is nice and neat. Make sure that the user can easily do another search without having to refresh the page or anything weird like that  Getting to Excellent If you want to be marked as excellent then there are a few things you can do:\n Add a \u0026ldquo;next\u0026rdquo; and \u0026ldquo;previous\u0026rdquo; button to add paging to your application. Or, better yet, automatically fetch the next page of results as the user scrolls to the end of the returned recipes list. Make use of a spinner widget to show that the search results are still loading: https://material-ui.com/components/progress/  "
+},
+{
+	"uri": "/tech-department/topics/web-frontend/react/basic-architecture/",
+	"title": "React: Basic basic architectural guidelines",
+	"tags": [],
+	"description": "",
+	"content": " React is very powerful but allows a person to write some proper spaghetti code. It\u0026rsquo;s best to develop some good habits early on so that you write code that is easy to grow and maintain.\nHere are a few rules worth following\nUse function based components You have a choice of writing your components as functions or classes. Choose functions unless you are forced to use classes.\nWhy? The code is just smaller and cleaner. And React actually runs a little faster with function based components.\nThis is a class based component\nclass IconButton extends React.Component { [...] render() { return ( \u0026lt;button onClick={this.props.onClick()}\u0026gt; \u0026lt;i class={this.props.iconClass}\u0026gt;\u0026lt;/i\u0026gt; \u0026lt;/button\u0026gt; ); } }  But this would be better:\nconst IconButton = (props) =\u0026gt; { return ( \u0026lt;button onClick={this.props.onClick()}\u0026gt; \u0026lt;i class={this.props.iconClass}\u0026gt;\u0026lt;/i\u0026gt; \u0026lt;/button\u0026gt; ); }  NameComponentsLikeThis The standard in js is toNameYourFunctionsLikeThis. But the standard in react is to:\n\u0026lt;UseYourComponentsLikeThis/\u0026gt; \u0026lt;andNotLikeThis/\u0026gt;  If it walks like a compeont, and it quacks like a component, make sure it is accessable by a name that makes it look like a component.\nIf you are working on a team of devs and you say \u0026ldquo;Hey bro, just use the header menu component\u0026rdquo;, then your team mate should just know that they can use \u0026lt;HeaderMenu/\u0026gt; in their code. Thay should not have to guess or look things up. Components just behave like components.\nInstall Prettier Seriously.\nSeperate display stuff from logic and data stuff Unless a component is suuuuper simple it is good to seperate your display and data code. This is generally considered good practice.\nDifferent people recommend different naming schemes. This one is pretty clear.\nHave a directory hierarchy\nMyComponent/ index.js Presentation.js  Inside index.js we\u0026rsquo;d have something like this:\nimport React from \u0026quot;react\u0026quot;; import Presentation from \u0026quot;./Presentation\u0026quot;; // some logic and data and things function YourComponent(props){ // blah blah complicated stuff return \u0026lt;Presentation {presentationProps}/\u0026gt; } // etc etc more stuff export default YourComponent;  And inside Presentation.js you would have something like this:\n// imports // styling export default (props)=\u0026gt;{ //seriously no state here. Only props!!! return ( \u0026lt;Pretty\u0026gt; \u0026lt;Stuff\u0026gt; \u0026lt;That/\u0026gt; \u0026lt;Makes/\u0026gt; \u0026lt;Use/\u0026gt; \u0026lt;OfThoseProps/\u0026gt; \u0026lt;/Stuff\u0026gt; \u0026lt;Pretty\u0026gt; ) }  Then to import your component just do:\nimport MyComponent from \u0026quot;path/to/MyComponent\u0026quot;  Since MyComponent is a directory, the import will automatically grab whatever got exported from index.js.\nDont use a CSS pre-processor unless you are dealing with legacy code There are loads of css pre-processors around, eg Sass and Less. But that said, these days you dont need them React does the job of a CSS pre-processor just fine. And even if you weren\u0026rsquo;t using React, modern web technologies make css pre-processors into a pointless complication.\nSo avoid them on new projects.\nIf you want to know more about why, just look at how versatile React\u0026rsquo;s styling system is. And you can read up on the Shadow Dom as well if you want to.\n"
+},
+{
+	"uri": "/tech-department/projects/recipe-search/",
+	"title": "Recipe-searches",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "/tech-department/topics/work/recruit-career/",
@@ -3430,11 +3710,46 @@
 	"content": " Introduction to redux and the use of it with angular for state management. Redux state management with Angular\nThunk!? What is Thunk?\nThunk example with source code\n"
 },
 {
+	"uri": "/tech-department/topics/redux-saga/",
+	"title": "Redux Saga",
+	"tags": [],
+	"description": "",
+	"content": "So thunks are cool and all, but as soon as you try to do anythin actually complicated with them then you end up with some highly indented very messy scrambley code, commonly referred to as callback-hell.\nSaga allows you to write simple code in order to manage very complicated side effects.\nAs usual, the official docs are highly recommended: https://redux-saga.js.org/docs/introduction/BeginnerTutorial.html\n"
+},
+{
+	"uri": "/tech-department/projects/redux-saga-intro/",
+	"title": "Redux Saga Intro",
+	"tags": [],
+	"description": "",
+	"content": "TODO\n"
+},
+{
+	"uri": "/tech-department/tags/redux-thunks/",
+	"title": "Redux Thunks",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/topics/redux-thunks/",
+	"title": "Redux Thunks",
+	"tags": [],
+	"description": "",
+	"content": " https://redux.js.org/advanced/async-actions https://github.com/reduxjs/redux-thunk  "
+},
+{
 	"uri": "/tech-department/projects/redux-with-angular/",
 	"title": "Redux with Angular",
 	"tags": [],
 	"description": "",
 	"content": "Follow this tutorial using redux for state management with angular 4.\n This is a very small library but it has a lot of understanding to be grasped. Please take time to understand the concepts as speeding through it might lead to overall confusion.  Introduction To State Management With Angular 4\nHappy Coding\u0026hellip;\n"
+},
+{
+	"uri": "/tech-department/projects/redux-intro/",
+	"title": "Redux-intros",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "/tech-department/topics/data-science-specific/regression/",
@@ -3696,6 +4011,41 @@
 	"content": "Complete the above mentioned module on Solo Learn\nhttps://www.sololearn.com/Course/JavaScript/\n"
 },
 {
+	"uri": "/tech-department/topics/solo-learn/python/module-1-basic-concepts/",
+	"title": "Solo Learn - Python - Module 1 - Basic Concepts",
+	"tags": [],
+	"description": "",
+	"content": "Complete the above mentioned module on Solo Learn\nhttps://www.sololearn.com/Course/Python/\n"
+},
+{
+	"uri": "/tech-department/topics/solo-learn/python/module-2-control-statements/",
+	"title": "Solo Learn - Python - Module 2 - Control Statements",
+	"tags": [],
+	"description": "",
+	"content": "Complete the above mentioned module on Solo Learn\nhttps://www.sololearn.com/Course/Python/\n"
+},
+{
+	"uri": "/tech-department/topics/solo-learn/python/module-3-functions-and-modules/",
+	"title": "Solo Learn - Python - Module 3 - Functions &amp; Modules",
+	"tags": [],
+	"description": "",
+	"content": "Complete the above mentioned module on Solo Learn\nhttps://www.sololearn.com/Course/Python/\n"
+},
+{
+	"uri": "/tech-department/topics/solo-learn/python/module-4-exceptions-and-files/",
+	"title": "Solo Learn - Python - Module 4 - Exceptions and Files",
+	"tags": [],
+	"description": "",
+	"content": "Complete the above mentioned module on Solo Learn\nhttps://www.sololearn.com/Course/Python/\n"
+},
+{
+	"uri": "/tech-department/topics/solo-learn/python/module-5-more-types/",
+	"title": "Solo Learn - Python - Module 5 - More Types",
+	"tags": [],
+	"description": "",
+	"content": "Complete the above mentioned module on Solo Learn\nhttps://www.sololearn.com/Course/Python/\n"
+},
+{
 	"uri": "/tech-department/topics/solo-learn/",
 	"title": "Solo-learns",
 	"tags": [],
@@ -3764,6 +4114,13 @@
 	"tags": [],
 	"description": "",
 	"content": ""
+},
+{
+	"uri": "/tech-department/topics/web-frontend/browser-based-storage/",
+	"title": "Storage options",
+	"tags": [],
+	"description": "",
+	"content": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage\n"
 },
 {
 	"uri": "/tech-department/topics/java-specific/string-and-number-manipulation/",
@@ -3899,6 +4256,13 @@
 	"content": ""
 },
 {
+	"uri": "/tech-department/projects/tilde-mockups/",
+	"title": "Tilde Mockups",
+	"tags": [],
+	"description": "",
+	"content": " Tilde is pretty cool and stuff, but it still needs a lot of work. This is your chance to make your mark!\nIn this project you\u0026rsquo;ll get to pick one of the upcomming Tilde features and write a frontend that demonstrates the look and feel.\nYour objective is not to make a fully functioning full stack web application. Your goal is to create a Mockup. If your mockup is suitably kiff then we\u0026rsquo;ll put it into Tilde :)\nTechnologies in use:  use create-react-app to set up your app material ui: we are already using this a lot To get your site to be responsive, make use of The material ui Grid component plotly: This is something that our data scientists are quite familiar with - it\u0026rsquo;s good to be consistant about out use of technologies in order to allow easy cross-functional communication. So if you draw any graphs look here first  What does success look like?  Demonstrate knowledge of React by making multiple components Make use of Material UI Your frontend should be intuitive for users. Try to empathise with the user. What will they want to see? Where will they be confused. your website needs to be responsive. Make us of the make sure you follow good architectural practices  What does excellent look like? If you make use of state and props in order to demonstrate interactions then that would be pretty darn cool. But first make this thing look good.\nGeneral procedure  Draw pictures of what you want to build. This will help you refine your thinking. They dont need to be super beautiful or anything. Show the pictures to people and get feedback. Refine your thinking. Shew your stuff to other recruits, or to other people who are involved in whatever program/process you are trying to improve on. Build a mockup  Ready, set, go! Now it\u0026rsquo;s up to you. You can choose one of the following. Or if you think of something else that you would like to do, make a suggestion. Tilde is for you guys so if there is something you want to see, tell us about it!\n  PROJECTS: Code Review Performance Dashboard mockup   PROJECTS: Public Profile   PROJECTS: Volunteer Pair-programming Dashboard   "
+},
+{
 	"uri": "/tech-department/workshops/time-managment/",
 	"title": "Time Management",
 	"tags": [],
@@ -3918,6 +4282,20 @@
 	"tags": [],
 	"description": "",
 	"content": " Umuzi Tech Department This website/repo is the source of truth around what and how we teach here in Umuzi\u0026rsquo;s tech department. Let me show you around:\nIf you want to contribute to this repo Take a look at the contribution guide guide. This guide will tell you basically how this application works and will give you info on what a good pull request looks like.\nIf you are a recruit This here is basically how we work.\nIf you want to see the entire syllabus (as it currently exists) then take a look here. What you see in this section is constantly evolving based on feedback from you and from industry.\nIf you think anything we have in here can be improved upon we would love to know! You can even make a pull request. If we merge your stuff then you will show up on out credits page. Cool, eh?\nIf you are a staff member You are probably looking for our department processes documentation. Take a look here.\nIf you are interested in getting in touch with Umuzi Hi friend, we would love to meet you. Check out our contact page for more info\n"
+},
+{
+	"uri": "/tech-department/topics/django/understanding-migrations/",
+	"title": "Understanding Django Migrations",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/topics/django/understanding-where-the-code-runs/",
+	"title": "Understanding where the code runs and how the data flows",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "/tech-department/tags/unit-testing/",
@@ -4001,7 +4379,21 @@
 	"title": "Virtual Environments",
 	"tags": [],
 	"description": "",
-	"content": "and os.environ\n"
+	"content": "and os.environ and pip pipenv etc\n"
+},
+{
+	"uri": "/tech-department/projects/tilde-mockups/volunteer-dashboard/",
+	"title": "Volunteer Pair-programming Dashboard",
+	"tags": [],
+	"description": "",
+	"content": " We have a growing number of volunteers getting involved with Umuzi in different ways. This is kiff. We have a bunch of awesome, experienced, senior developers and they want to help!\nRight now there isn\u0026rsquo;t a really easy way to co-ordinate our volunteers. Basically we have a staff member who acts as our offical volunteer wrangler. But it\u0026rsquo;s a big job and it keeps getting bigger.\nWe want to set up a system so that volunteers can connect directly to individal students/recruits and share technical support and knowledge, without needing staff members to be involved. We need a process that is smooth, fun and meaningful.\nAnd we really really believe that pair programming adds a tonne of value to everyone.\nHere is the idea Volunteers need to be able to say what projects and languages they are keen on. For example Frank might be keen to help people with the Python version of the password checker project. And Bearded Ryan might be keen to help with the Javascript version.\nVolunteers need to be able to see recruit project submissions for the projects that they are interested in.\nVolunteers need to see previous code reviews for the projects, they also need to be able to add their own reviews.\nBasically the reviewer will need to have access to relevent info and actions across a bunch of ccards that belong to different recruits.\nVolunteers will also need to reach out to recruits to organise pair programming sessions (of course we can use RocketChat for that though) and they\u0026rsquo;ll need to give us some feedback on how the sessions went and what was covered (and we can test this process with a simple google form). So this part initially needs no build.\nPrioritising pairing sessions Then we also need to be able to help the volunteers make good decisions about who to help, and how to help:\nGetting people over the line If a project has been marked as competent by recruits, but a staff member thinks it is not yet competent then that means:\n the recruit has already put in good effort so the pairing session will be fun and smooth there is a knowledge gap that needs to be filled, the recruit in question and the reviewers all dont know what competent looks like and could use some support.  In these cases it is good to have a pairing session where:\n the volunteer is the navigator the coder who submitted the work is the driver the reviewers are also present so they can see what went wrong. They can observe the session or help with \u0026ldquo;driving\u0026rdquo;  People who are clearly struggling If someone is working on a project and it keeps moving back and forth between the review and feedback columns in Tilde then it means something is going wrong.\nWhether the reviewer is doing a bad job of explaining things. Or the person writing the code is misunderstanding things or not being careful. Maybe the project specification is confusing.\nThe volunteer can look at these and try and figure out what is going on and what the next move shoud be.\nHelp the helpers If someone is doing a great job at code review then it means that if we give them knowledge they\u0026rsquo;ll spread it. Helping someone who suports others is the best way to help as many people as possible.\nIf someone is useless at code review then they should be at the bottom of the list beause the knowledge wont spread from this person.\nso basically if there is a list of tasks for a volunteer to do, tasks that help helpful people should be higher in the list.\nWho sould be excluded from this For now if someone is getting RED FLAG reviews then we would rather keep them away from the technical volunteers. These recruits will rather be coached by our wellness team.\nThe procedure  Draw some pictures of what you want to build. Nothing fancy. Show your ideas to a few other recruits so that they can help you improve your design Show your work to a staff member involved in mentorship and volunteering in order to get feeback and improve your work. Build it in React  "
+},
+{
+	"uri": "/tech-department/topics/watch-this-space/",
+	"title": "Watch This Space",
+	"tags": [],
+	"description": "",
+	"content": " Resources for keeping your knowledge growing As a coder, it\u0026rsquo;s important to stay hip with the times. The tech landscape is huge. There is new stuff happening all the time. You dont need to be an expert in everything but it\u0026rsquo;s important to know what tools are out there so you can pick up the skills you need as you need them.\nAnd on the other hand coding has a colid core of good practices and hard-won lessons you should become expert at. There are certain meta-skills that will make the aquisition and use of other skills way easier. There are some skills that will amplify your abilities forever.\nWhat follows below are a few favorates. This list will change from time to time. So watch this space :)\nTODO "
 },
 {
 	"uri": "/tech-department/topics/ncit/115374/",
@@ -4022,14 +4414,14 @@
 	"title": "Web Development",
 	"tags": [],
 	"description": "",
-	"content": " Introduction to NCIT curriculum\n NCIT 01: Conducting research and user interviews\n NCIT 02: Reporting\n NCIT 03: Research presentation\n  TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum   TOPICS: Basic Javascript   WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 18: Agile project management\n NCIT 19: Agile meetings\n  WORKSHOPS: How to be a professional   TOPICS: ES6   TOPICS: Debugging   TOPICS: Web Dev learning materials   TOPICS: Clean Code   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork\n  TOPICS: [TODO] Super basic intro to Node   TOPICS: How to ask for help with your code   PROJECTS: Level 1 programming katas   TOPICS: Basic HTML and HTM5   TOPICS: Basic CSS   TOPICS: Applied Visual Design   WORKSHOPS: Intro to CSS architecture   TOPICS: Introduction to web design   PROJECTS: Build your first personal website  NCIT 06: Web design for business\n NCIT 07: Building an online business\n NCIT 12: Business and technology\n NCIT 08: Pseudocode and documentation\n NCIT 10: Workshop: Giving and receiving constructive feedback\n  WORKSHOPS: Clean Code (language agnostic)   TOPICS: Object Orientated Programming   TOPICS: Jasmine Unit testing   PROJECTS: Animals Part 2. Adding Tests  NCIT 13: Object-oriented programming\n  TOPICS: Basic Data Structures   TOPICS: Basic Algorithm Scripting   TOPICS: Applied Accessability   TOPICS: Responsive Web Design Principles   TOPICS: CSS Flexbox   PROJECTS: semitone difference - A gui that is more...awesome   TOPICS: Logging in Node and JS  NCIT 11: Test-driven development\n  TOPICS: Regular Expressions   PROJECTS: Add logging to password checker   PROJECTS: string-calculator   TOPICS: How the internet works   TOPICS: Data Ethics and Privacy  NCIT 05: History of the Internet\n NCIT 09: Ethics and Professionalism in IT\n  PROJECTS: Email random inspirational quote   PROJECTS: Consume Github API   TOPICS: The Tech Landscape Terminology   TOPICS: Functional Programming   TOPICS: Intermediate Algorithm Scripting   TOPICS: CSS Grid   PROJECTS: Memory game in vanilla js   TOPICS: Node   PROJECTS: Node \u0026amp; File IO   PROJECTS: Node \u0026amp; SQL assignment  NCIT 14: Database Development\n NCIT 15: Analytics, Surveys, and Reports / Input \u0026amp; Output\n NCIT 16: Thinking like a machine / Boolean algebra, logic\n NCIT 17: Search and sort techniques\n  TOPICS: Database Comparison   PROJECTS: Add a little Ajax   WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap  NCIT 20: Managing the Software Development Process\n NCIT Summative assessment\n  TOPICS: Intro to Angular   TOPICS: Intro to React   TOPICS: Intro to Vue   WORKSHOPS: [TODO] Nodejs intro to socketIO   TOPICS: Basic introduction to Redux   WORKSHOPS: [TODO] Node Sync/Async   TOPICS: MongoDB and JavaScript   TOPICS: [TODO] The dotenv module   "
+	"content": " Introduction to NCIT curriculum\n NCIT 01: Conducting research and user interviews\n NCIT 02: Reporting\n NCIT 03: Research presentation\n  TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum   TOPICS: Basic Javascript   WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 18: Agile project management\n NCIT 19: Agile meetings\n  WORKSHOPS: How to be a professional   TOPICS: ES6   TOPICS: Debugging   TOPICS: Web Dev learning materials   TOPICS: Clean Code   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork\n  TOPICS: [TODO] Super basic intro to Node   TOPICS: How to ask for help with your code   PROJECTS: Level 1 programming katas   TOPICS: Basic HTML and HTM5   TOPICS: Basic CSS   TOPICS: Applied Visual Design   WORKSHOPS: Intro to CSS architecture   TOPICS: Introduction to web design   PROJECTS: Build your first personal website  NCIT 06: Web design for business\n NCIT 07: Building an online business\n NCIT 12: Business and technology\n NCIT 08: Pseudocode and documentation\n NCIT 10: Workshop: Giving and receiving constructive feedback\n  WORKSHOPS: Clean Code (language agnostic)   TOPICS: Object Orientated Programming   TOPICS: Jasmine Unit testing   PROJECTS: Animals Part 2. Adding Tests  NCIT 13: Object-oriented programming\n  TOPICS: Basic Data Structures   TOPICS: Basic Algorithm Scripting   TOPICS: Applied Accessability   TOPICS: Responsive Web Design Principles   TOPICS: CSS Flexbox   PROJECTS: semitone difference - A gui that is more...awesome   TOPICS: Logging in Node and JS  NCIT 11: Test-driven development\n  TOPICS: Regular Expressions   PROJECTS: Add logging to password checker   PROJECTS: string-calculator   TOPICS: How the internet works   TOPICS: Data Ethics and Privacy  NCIT 05: History of the Internet\n NCIT 09: Ethics and Professionalism in IT\n  PROJECTS: Email random inspirational quote   PROJECTS: Consume Github API   TOPICS: The Tech Landscape Terminology   TOPICS: Functional Programming   TOPICS: Intermediate Algorithm Scripting   TOPICS: CSS Grid   TOPICS: Unit testing with mocks and spies   TOPICS: Intro to software architecture   TOPICS: Jasmine Unit testing   TOPICS: Unit testing with mocks and spies   PROJECTS: [TODO]   TOPICS: Node   PROJECTS: Node \u0026amp; File IO   PROJECTS: Node \u0026amp; SQL assignment  NCIT 14: Database Development\n NCIT 15: Analytics, Surveys, and Reports / Input \u0026amp; Output\n NCIT 16: Thinking like a machine / Boolean algebra, logic\n NCIT 17: Search and sort techniques\n  TOPICS: Database Comparison   PROJECTS: Add a little Ajax   WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap  NCIT 20: Managing the Software Development Process\n NCIT Summative assessment\n  TOPICS: Intro to Angular   TOPICS: Intro to React   TOPICS: Intro to Vue   WORKSHOPS: [TODO] Nodejs intro to socketIO   TOPICS: Basic introduction to Redux   WORKSHOPS: [TODO] Node Sync/Async   TOPICS: MongoDB and JavaScript   TOPICS: [TODO] The dotenv module   "
 },
 {
 	"uri": "/tech-department/syllabuses/web-dev-no-nqf/",
 	"title": "Web Development - No NQF",
 	"tags": [],
 	"description": "",
-	"content": "  TOPICS: [TODO] Introduction to Tilde   TOPICS: Basic Javascript   TOPICS: Beginning Bash   PROJECTS: Git Basic Exercises   TOPICS: Useful Git commands   TOPICS: Clean Code For JavaScript   TOPICS: How to ask for help with your code   PROJECTS: Level 1 programming katas   PROJECTS: Bootcamp Writing Assignment   TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum   TOPICS: Basic Javascript   WORKSHOPS: [TODO] Big Picture of Web Dev   WORKSHOPS: How to be a professional   TOPICS: ES6   TOPICS: Debugging   TOPICS: Web Dev learning materials   TOPICS: Clean Code   TOPICS: [TODO] Super basic intro to Node   PROJECTS: Level 1 programming katas   TOPICS: Basic HTML and HTM5   TOPICS: Basic CSS   TOPICS: Applied Visual Design   WORKSHOPS: Intro to CSS architecture   TOPICS: Introduction to web design   PROJECTS: Build your first personal website   WORKSHOPS: Clean Code (language agnostic)   TOPICS: Object Orientated Programming   TOPICS: Jasmine Unit testing   PROJECTS: Animals Part 2. Adding Tests   TOPICS: Basic Data Structures   TOPICS: Basic Algorithm Scripting   TOPICS: Applied Accessability   TOPICS: Responsive Web Design Principles   TOPICS: CSS Flexbox   TOPICS: Logging in Node and JS   TOPICS: Regular Expressions   PROJECTS: semitone difference - A gui that is more...awesome   PROJECTS: Add logging to password checker   PROJECTS: string-calculator   TOPICS: How the internet works   TOPICS: Data Ethics and Privacy   PROJECTS: Email random inspirational quote   PROJECTS: Consume Github API   TOPICS: The Tech Landscape Terminology   TOPICS: Functional Programming   TOPICS: Intermediate Algorithm Scripting   TOPICS: CSS Grid   PROJECTS: Memory game in vanilla js   TOPICS: Node   PROJECTS: Node \u0026amp; File IO   PROJECTS: Node \u0026amp; SQL assignment   TOPICS: Database Comparison   PROJECTS: Add a little Ajax   WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap   TOPICS: Intro to Angular   TOPICS: Intro to React   TOPICS: Intro to Vue   WORKSHOPS: [TODO] Nodejs intro to socketIO   TOPICS: Basic introduction to Redux   WORKSHOPS: [TODO] Node Sync/Async   TOPICS: MongoDB and JavaScript   TOPICS: [TODO] The dotenv module   "
+	"content": "  TOPICS: [TODO] Introduction to Tilde   TOPICS: Basic Javascript   TOPICS: Beginning Bash   PROJECTS: Git Basic Exercises   TOPICS: Useful Git commands   TOPICS: Clean Code For JavaScript   TOPICS: How to ask for help with your code   PROJECTS: Level 1 programming katas   PROJECTS: Bootcamp Writing Assignment   TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum   TOPICS: Basic Javascript   WORKSHOPS: [TODO] Big Picture of Web Dev   WORKSHOPS: How to be a professional   TOPICS: ES6   TOPICS: Debugging   TOPICS: Web Dev learning materials   TOPICS: Clean Code   TOPICS: [TODO] Super basic intro to Node   PROJECTS: Level 1 programming katas   TOPICS: Basic HTML and HTM5   TOPICS: Basic CSS   TOPICS: Applied Visual Design   WORKSHOPS: Intro to CSS architecture   TOPICS: Introduction to web design   PROJECTS: Build your first personal website   WORKSHOPS: Clean Code (language agnostic)   TOPICS: Object Orientated Programming   TOPICS: Jasmine Unit testing   PROJECTS: Animals Part 2. Adding Tests   TOPICS: Basic Data Structures   TOPICS: Basic Algorithm Scripting   TOPICS: Applied Accessability   TOPICS: Responsive Web Design Principles   TOPICS: CSS Flexbox   TOPICS: Logging in Node and JS   TOPICS: Regular Expressions   PROJECTS: semitone difference - A gui that is more...awesome   PROJECTS: Add logging to password checker   PROJECTS: string-calculator   TOPICS: How the internet works   TOPICS: Data Ethics and Privacy   PROJECTS: Email random inspirational quote   PROJECTS: Consume Github API   TOPICS: The Tech Landscape Terminology   TOPICS: Functional Programming   TOPICS: Intermediate Algorithm Scripting   TOPICS: CSS Grid   PROJECTS: [TODO] extra features for your memory game   TOPICS: Node   PROJECTS: Node \u0026amp; File IO   PROJECTS: Node \u0026amp; SQL assignment   TOPICS: Database Comparison   PROJECTS: Add a little Ajax   WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap   TOPICS: Intro to Angular   TOPICS: Intro to React   TOPICS: Intro to Vue   WORKSHOPS: [TODO] Nodejs intro to socketIO   TOPICS: Basic introduction to Redux   WORKSHOPS: [TODO] Node Sync/Async   TOPICS: MongoDB and JavaScript   TOPICS: [TODO] The dotenv module   "
 },
 {
 	"uri": "/tech-department/topics/web-frontend/",
@@ -4037,6 +4429,13 @@
 	"tags": [],
 	"description": "",
 	"content": ""
+},
+{
+	"uri": "/tech-department/syllabuses/_webapps-for-data-scientists/",
+	"title": "Web apps for data scientists",
+	"tags": [],
+	"description": "",
+	"content": "Motivation Junior data scientists complete the programme mostly focussing on tools and techniques for experimentation such as Jupyter notebooks, Google Datastudio, Dash and Plotly. They create dashboards mostly using Dash and Plotly to generate insights for use in designing better experiments in the data science projects. They have an in-depth understanding of machine learning principles, but lack an in-depth understanding of building dashboards and machine learning web applications for integration into software products. Django being a popular ubiquitous Python Web framework, it is an efficient way for data scientists to master techniques on building scalable, end-to-end data-driven solutions for dashboards, predictions and recommendations solutions for business insights.\nTransferable skills: Python Plotly Deep dive into database access with ORMs Database structuring Database versioning Architectural concerns of a data-driven full stack web application Syllabus Summary Python foundations Basic syntax and concepts (new concepts related to web applications) Some advanced tools: decorators and generators Unit tests and mocks in Python\nDjango foundations All concepts needed to make a full stack web application in Python Data structuring and visualisation in complex applications Database management with Migrations and git\nDjango advanced uses Creating apis Authentication and authorisation Advanced use of ORM, and when it falls short Advanced concepts in testing ETL tricks Rapid development of REST apis using Django Rest Framework (DRF)\n"
 },
 {
 	"uri": "/tech-department/topics/bootcamp/web-dev-enviroment-setup/",
@@ -4064,7 +4463,7 @@
 	"title": "Web frontend foundations",
 	"tags": [],
 	"description": "",
-	"content": "  TOPICS: Basic Javascript   TOPICS: Basic HTML and HTM5   TOPICS: Basic CSS   TOPICS: Applied Visual Design   TOPICS: Object Orientated Programming   TOPICS: Basic Data Structures   TOPICS: Basic Algorithm Scripting   TOPICS: Applied Accessability   TOPICS: Responsive Web Design Principles   TOPICS: CSS Flexbox   TOPICS: Functional Programming   TOPICS: Intermediate Algorithm Scripting   TOPICS: CSS Grid   TOPICS: [TODO] Introduction to Tilde   TOPICS: Beginning Bash   PROJECTS: Git Basic Exercises   TOPICS: Useful Git commands   TOPICS: Clean Code For JavaScript   TOPICS: How to ask for help with your code   PROJECTS: Level 1 programming katas   TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: [TODO] Big Picture of Web Dev   TOPICS: [TODO] Super basic intro to Node   TOPICS: Introduction to web design   PROJECTS: Build your first personal website   WORKSHOPS: Clean Code (language agnostic)   TOPICS: Jasmine Unit testing   PROJECTS: Animals Part 2. Adding Tests   PROJECTS: semitone difference - A gui that is more...awesome   PROJECTS: Add logging to password checker   TOPICS: How the internet works   TOPICS: Data Ethics and Privacy   PROJECTS: Memory game in vanilla js   TODO:\n consume an api from a frontend, no backend intro to course materials and structure (aka wy am I paying for this free stuff) -  "
+	"content": "  TOPICS: Basic Javascript   TOPICS: Basic HTML and HTM5   TOPICS: Basic CSS   TOPICS: Applied Visual Design   TOPICS: Object Orientated Programming   TOPICS: Basic Data Structures   TOPICS: Basic Algorithm Scripting   TOPICS: Applied Accessability   TOPICS: Responsive Web Design Principles   TOPICS: CSS Flexbox   TOPICS: Functional Programming   TOPICS: Intermediate Algorithm Scripting   TOPICS: CSS Grid   TOPICS: [TODO] Introduction to Tilde   TOPICS: Beginning Bash   PROJECTS: Git Basic Exercises   TOPICS: Useful Git commands   TOPICS: Clean Code For JavaScript   TOPICS: How to ask for help with your code   PROJECTS: Level 1 programming katas   TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: [TODO] Big Picture of Web Dev   TOPICS: [TODO] Super basic intro to Node   TOPICS: Introduction to web design   PROJECTS: Build your first personal website   WORKSHOPS: Clean Code (language agnostic)   TOPICS: Jasmine Unit testing   PROJECTS: Animals Part 2. Adding Tests   PROJECTS: semitone difference - A gui that is more...awesome   PROJECTS: Add logging to password checker   TOPICS: How the internet works   TOPICS: Data Ethics and Privacy   PROJECTS: Memory game web app   TODO:\n consume an api from a frontend, no backend intro to course materials and structure (aka wy am I paying for this free stuff) -  "
 },
 {
 	"uri": "/tech-department/topics/python-specific/web-scraping/",
@@ -4121,6 +4520,13 @@
 	"tags": [],
 	"description": "",
 	"content": ""
+},
+{
+	"uri": "/tech-department/topics/django/why-learn-django/",
+	"title": "Why learn Django",
+	"tags": [],
+	"description": "",
+	"content": "Django is the bew framewrk for \u0026ldquo;perfectionists with deadlines\u0026rdquo;. It lets you build really robust and reliable web apps very very quickly.\nTake a look at this: https://inmagik.com/blog/10-reasons-to-use-django-in-2020\nAnd for another thing, Django is a realy great teacher. It makes use of many solid design patterns and has been developerd by people who are pretty much obsessed with web dev and clean code.\nDjango is highly opinionated (unlike ExpressJS or Flask) which means it has a learning curve. But the opinions coded into the software are really worth understanding.\nOne of the really cool things about using a highly opinionated framework like Django is that if you are working on a serious software product with a team of professional devs, and you get to a point where your team needs to grow, onboarding new devs can be a very smooth process.\nDjango developers know their way around Django based projects because Django projects are all the same shape. If you were to hire a new dev to work on a project written in an unopinionated project based on a \u0026ldquo;micro-framework\u0026rdquo; like Express or Flask then the dev would have to spend a lot of time poking around. So the fact that Django is so opinionated means teams using it are easy(ish) to scale.\nThe same is of course true of other highly opinionated frameworks\nFor those of you who dont know, Tilde, our learning platform, used Django and Django REST Framework (DRF) on it\u0026rsquo;s backend. And it works like a dream.\n"
 },
 {
 	"uri": "/tech-department/topics/kotlin/work-manager/",

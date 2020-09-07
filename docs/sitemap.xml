@@ -53,6 +53,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/memory-game/part-2/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/semitone-challenge/gui-part-2/</loc>
   </url>
   
@@ -593,11 +597,59 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/django-airbnb-clone/property-model-and-admin-panel/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/django-airbnb-clone/calandar-widget/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/django-airbnb-clone/data-export-script/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/django-airbnb-clone/rest-endpoints/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/django-airbnb-clone/property-search/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/django-airbnb-clone/property-owner-dashboard-apis/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/django-airbnb-clone/property-owner-dashboard-ui/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/django-airbnb-clone/user-registration/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/django-airbnb-clone/users-can-make-bookings/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/django-airbnb-clone/intro/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/django-airbnb-clone/users-can-crud-properties/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/ios-mobile/codable-file-manager-url/</loc>
   </url>
   
   <url>
     <loc>/tech-department/code-review/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/tilde-mockups/code-review-performance-dashboard/</loc>
   </url>
   
   <url>
@@ -619,6 +671,10 @@
   
   <url>
     <loc>/tech-department/syllabuses/coder-mock-interview/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/syllabuses/interview-prep/</loc>
   </url>
   
   <url>
@@ -810,12 +866,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/data-science-specific/</loc>
+    <loc>/tech-department/topics/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/topics/data-science-specific/</loc>
+    <loc>/tech-department/projects/data-science-specific/</loc>
     <priority>0</priority>
   </url>
   
@@ -889,6 +945,44 @@
   
   <url>
     <loc>/tech-department/projects/python-specific/django-migrations/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/django/adding-javascript/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/syllabuses/django-for-web-devs/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/django/official-tutorial/part-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/django/official-tutorial/part-2/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/django/official-tutorial/part-3/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/django/official-tutorial/part-4/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/django/official-tutorial/part-5/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/django-airbnb-clone/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/django/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -1043,6 +1137,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/git-feature-branching/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/git-for-teamwork/</loc>
   </url>
   
@@ -1191,11 +1289,19 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/web-frontend/intro-to-react/</loc>
+    <loc>/tech-department/topics/web-frontend/react/intro-to-react/</loc>
   </url>
   
   <url>
-    <loc>/tech-department/projects/redux-intro/</loc>
+    <loc>/tech-department/projects/redux-intro/part-3/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/redux-intro/part-2/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/redux-intro/part-1/</loc>
   </url>
   
   <url>
@@ -1495,22 +1601,22 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/solo-learn/java/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/code-wars/java/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/workshops/javascript-specific/</loc>
+    <loc>/tech-department/topics/solo-learn/java/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tech-department/topics/javascript-specific/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/javascript-specific/</loc>
     <priority>0</priority>
   </url>
   
@@ -1651,11 +1757,16 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/memory-game-vanilla/</loc>
+    <loc>/tech-department/projects/memory-game-angular-material/</loc>
   </url>
   
   <url>
-    <loc>/tech-department/projects/memory-game-angular-material/</loc>
+    <loc>/tech-department/projects/memory-game/part-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/memory-game/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -1819,6 +1930,15 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/web-frontend/react/basic-tutorial/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/django/official-tutorial/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/department-processes/team-onboarding/</loc>
   </url>
   
@@ -1935,6 +2055,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/tilde-mockups/public-profile/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/pull-requests/</loc>
   </url>
   
@@ -1961,10 +2085,6 @@
   
   <url>
     <loc>/tech-department/topics/python-specific/lists-in-depth/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/topics/python-specific/oop-basics/</loc>
   </url>
   
   <url>
@@ -2008,11 +2128,20 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/python-vs-js/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/python-specific/custom-exceptions/</loc>
   </url>
   
   <url>
     <loc>/tech-department/workshops/python-specific/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/python/</loc>
     <priority>0</priority>
   </url>
   
@@ -2023,6 +2152,44 @@
   
   <url>
     <loc>/tech-department/projects/rabbitmq/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/react/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/web-frontend/react/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/web-frontend/react/redux-architecture/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/syllabuses/react-specialisation/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/web-frontend/react/unit-testing/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/recipe-search/part-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/recipe-search/part-2/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/web-frontend/react/basic-architecture/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/recipe-search/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -2039,7 +2206,29 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/redux-saga/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/redux-saga-intro/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/tags/redux-thunks/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/redux-thunks/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/redux-with-angular/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/redux-intro/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -2196,6 +2385,26 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/solo-learn/python/module-1-basic-concepts/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/python/module-2-control-statements/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/python/module-3-functions-and-modules/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/python/module-4-exceptions-and-files/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/solo-learn/python/module-5-more-types/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/solo-learn/</loc>
     <priority>0</priority>
   </url>
@@ -2236,6 +2445,10 @@
   <url>
     <loc>/tech-department/tags/stats/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/web-frontend/browser-based-storage/</loc>
   </url>
   
   <url>
@@ -2318,6 +2531,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/tilde-mockups/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/time-managment/</loc>
   </url>
   
@@ -2327,6 +2544,14 @@
   
   <url>
     <loc>/tech-department/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/django/understanding-migrations/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/django/understanding-where-the-code-runs/</loc>
   </url>
   
   <url>
@@ -2380,6 +2605,14 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/tilde-mockups/volunteer-dashboard/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/watch-this-space/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/ncit/115374/</loc>
   </url>
   
@@ -2397,6 +2630,10 @@
   
   <url>
     <loc>/tech-department/topics/web-frontend/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/syllabuses/_webapps-for-data-scientists/</loc>
   </url>
   
   <url>
@@ -2446,6 +2683,10 @@
   
   <url>
     <loc>/tech-department/workshops/what-to-put-in-your-cv/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/django/why-learn-django/</loc>
   </url>
   
   <url>
