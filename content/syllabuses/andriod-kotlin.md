@@ -39,7 +39,7 @@ title: Android Development With Kotlin
 - Classes and Objects
 - {{% contentlink path="topics/kotlin/sealed-classes" %}}
 
-## Delegation, Generics, Classes, Recycler View .
+## Delegation, Generics, Classes, Live Data and Bindings.
 
 - Topic : Delegation
 - Topic : Delegated Properties
@@ -52,7 +52,7 @@ title: Android Development With Kotlin
 - Project : Data binding with ViewModel and LiveData.
 - {{% contentlink path="projects/kotlin/project-5/live-data-transformations"%}}
 
-## Null Safety, Annotations, Constructor, Returns and Jumps.
+## Null Safety, Annotations, Constructor, Returns and Jumps, Recycler View.
 
 - Topic : Null Safety
 - Topic : Annotations
