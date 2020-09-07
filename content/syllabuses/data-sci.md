@@ -24,7 +24,7 @@ title: "Data Science"
 - NCIT 12: Business and technology
 - NCIT 09: Ethics and Professionalism in IT
 - {{% contentlink path="workshops/general-coding-best-practices" %}}
-- {{% contentlink path="topics/python-specific/oop-basics" %}}
+- {{% contentlink path="topics/python-specific/oop-for-python" %}}
 - {{% contentlink path="topics/python-specific/automated-testing-with-pytest"%}}
 - {{% contentlink path="topics/python-specific/virtual-envs/" %}}
 - {{% contentlink path="workshops/survey-design" %}}

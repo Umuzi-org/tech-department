@@ -14,7 +14,6 @@ There are not many serious open source project uses tabs in Python code, so it i
 Python 3 **DISALLOWS** mixing the use of tabs and spaces for indentation. Using a code formatter will make your life way easier.
 We recommend using [Black](https://github.com/psf/black).
 
-
 ## Imports
 
 - Imports should usually be on separate lines:
@@ -73,7 +72,7 @@ F strings:
 
     f"Hi my name is {name} {surname} and I am part of {company}"
 
- PEP 257 describes good docstring conventions. Note that most importantly, the """ that ends a multiline docstring should be on a line by itself:
+PEP 257 describes good docstring conventions. Note that most importantly, the """ that ends a multiline docstring should be on a line by itself:
 
 ## Naming Conventions
 
@@ -129,19 +128,27 @@ But sometimes, this is useful:
 
 Conventions for writing good documentation strings (a.k.a. "docstrings") are immortalized in [PEP 257](https://www.python.org/dev/peps/pep-0257).
 
-- Write docstrings for all public modules, functions, classes, and methods. Docstrings are not necessary for non-public methods, but you should have a comment that describes what the method does. This comment should appear after the def line.
+- Write docstrings for all non-obvious public modules, functions, classes, and methods. Docstrings are not necessary for non-public methods
 - PEP 257 describes good docstring conventions. Note that most importantly, the """ that ends a multiline docstring should be on a line by itself:
 
+`module.py`:
+
 ```
-    """ this is the docstring for the module"""
-    module.py
+""" this is the docstring for the module
+"""
 
-    """ this is not a docstring, this is a mistake"""
-    class Whatever:
-        """ classes can have docstrings too"""
+""" this is not a docstring, this is a mistake
+"""
+
+class Whatever:
+    """classes can have docstrings too
+    """
+
     def stuff( ...):
-            """fnctions can have docstrings"""
+        """functions can have docstrings
+        """
 
-    def moar_Stuff():
-    """module level functions too"""
+def moar_stuff():
+    """module level functions too
+    """
 ```

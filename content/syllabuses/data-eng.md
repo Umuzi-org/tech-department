@@ -36,7 +36,7 @@ title: Data Engineering
 - {{% contentlink path="topics/python-specific/automate-the-boring-stuff-book/chapter-6-manipulating-strings" %}}
 - {{% contentlink path="topics/python-specific/automate-the-boring-stuff-book/chapter-7-pattern-matching-with-regular-expressions" %}}
 
-- {{% contentlink path="topics/python-specific/oop-basics" %}}
+- {{% contentlink path="topics/python-specific/oop-for-python" %}}
 - {{% contentlink path="topics/python-specific/automated-testing-with-pytest"%}}
 - {{% contentlink path="topics/python-specific/virtual-envs/" %}}
 - {{% contentlink path="projects/oop/animals/part2" flavour="python" %}}

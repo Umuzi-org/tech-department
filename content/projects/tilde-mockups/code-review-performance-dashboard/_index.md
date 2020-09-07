@@ -1,6 +1,11 @@
 ---
 title: Code Review Performance Dashboard mockup
 ready: True
+
+submission_type: repo
+available_flavours:
+  - javascript
+  - react
 ---
 
 As you should know by now, code review is the cornerstone of a successful dev team.

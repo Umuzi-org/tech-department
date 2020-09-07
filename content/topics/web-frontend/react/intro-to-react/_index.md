@@ -3,6 +3,12 @@ _db_id: 75
 content_type: topic
 ready: true
 title: Intro to React
+# TODO: video tour of React: What can it do?
+
+# - create-react-app
+# - state
+# - props
+# - map
 ---
 
 React is a tool used to build web frontends. It’s used by Facebook, Dropbox, Instagram, Whatsapp, Khan Academy and many other giants. It basically makes frontend developers insanely productive.
@@ -23,10 +29,3 @@ Take a look at this to see how React compares to the most popular web frameworks
 
 - https://www.educative.io/blog/react-angular-vue-comparison
 - https://programmingwithmosh.com/react/react-vs-angular/
-
-TODO: video tour of React: What can it do?
-
-- create-react-app
-- state
-- props
-- map

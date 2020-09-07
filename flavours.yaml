@@ -17,3 +17,6 @@ any_mobile_development_toolset:
 
 none:
   - none
+
+any_fullstack_web_framework:
+  - django

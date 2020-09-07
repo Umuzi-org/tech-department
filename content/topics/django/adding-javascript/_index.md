@@ -1,8 +1,9 @@
 ---
 title: Django and Javascript
+ready: true
 ---
 
-As you now know, you can write Django views that generate HTML responses. What ends up running in the user's browser is a plain ol website. And so you can do whatever you would ususally do with HTML.
+As you now know, you can write Django views that generate HTML responses. What ends up running in the user's browser is a plain ol website. And so you can do whatever you would usually do with HTML.
 
 The following tutorial shows how to incorperate js into your Django frontend. Pretty cool.
 

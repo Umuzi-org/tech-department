@@ -1,6 +1,10 @@
 ---
 title: Volunteer Pair-programming Dashboard
 ready: True
+submission_type: repo
+available_flavours:
+  - javascript
+  - react
 ---
 
 We have a growing number of volunteers getting involved with Umuzi in different ways. This is kiff. We have a bunch of awesome, experienced, senior developers and they want to help!

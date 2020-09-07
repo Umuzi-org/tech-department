@@ -1,7 +1,7 @@
 ---
 title: "extra features for your memory game"
 weight: 4
-from_repo: content/projects/memory-game/part-1
+from_repo: projects/memory-game/part-1
 prerequisites:
   hard:
     - projects/tdd/password-checker/part1
@@ -12,6 +12,7 @@ available_flavours:
   - javascript
   - typescript
   - any_frontend_framework
+submission_type: continue_repo
 ---
 
 Pleas emake sure you are following Git Feature Branching at this point. It's really impportant and really useful.

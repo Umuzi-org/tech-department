@@ -1,6 +1,10 @@
 ---
 title: Public Profile
 ready: True
+submission_type: repo
+available_flavours:
+  - javascript
+  - react
 ---
 
 One exciting feature we want to build is a public profile page that recruits can use as a way to show off what they have learned with Tilde. We keep track of what people are learning and things like that on their boards.
@@ -38,7 +42,7 @@ Here are a few ideas:
 - a "Hire me" button
 - employment history
 - testimonials from employers and staff
-- the recruit's own words about who they are, what are their plans, etc. Take a look at this for inspiration: {{% contentlink path="content/syllabuses/coder-mock-interview" %}}
+- the recruit's own words about who they are, what are their plans, etc. Take a look at this for inspiration: {{% contentlink path="topics/work/creating-a-statement" %}}
 - Trophies and badges. One day we would like to build in some gamification features. For example a person might get a badge to say they are the fastest high quality code reviewer for the week
 - You can use flair from different communities you are apart of. For example:
 

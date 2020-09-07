@@ -4,7 +4,12 @@ ready: True
 prerequisites:
   hard:
     - topics/web-frontend/intro-to-web-design
+    - topics/web-frontend/react/basic-architecture
   soft: []
+submission_type: repo
+available_flavours:
+  - javascript
+  - react
 ---
 
 Tilde is pretty cool and stuff, but it still needs a lot of work. This is your chance to make your mark!
