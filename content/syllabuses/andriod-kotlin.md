@@ -52,13 +52,15 @@ title: Android Development With Kotlin
 - Project : Data binding with ViewModel and LiveData.
 - {{% contentlink path="projects/kotlin/project-5/live-data-transformations"%}}
 
-## Null Safety, Annotations, Constructor, Returns and Jumps, Recycler View.
+## Null Safety, Annotations, Constructor, Returns and Jumps, Database and Recycler View.
 
 - Topic : Null Safety
 - Topic : Annotations
 - Topic : Constructor Default Values
 - {{% contentlink path="topics/kotlin/returns-and-jumps" %}}
-- Project 6 : Create a Room Database.
+- Project : Create a Room Database.
+- Project : Recycler View.
+
 
 ## Null Safety, Annotations, Constructor, Returns and Jumps.
 
