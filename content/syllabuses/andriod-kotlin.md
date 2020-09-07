@@ -48,8 +48,9 @@ title: Android Development With Kotlin
 - {{% contentlink path="topics/kotlin/enum-classes" %}}
 - Generics, nested and enum classes.
 - {{% contentlink path="topics/kotlin/enum-classes" %}}
-- Project : LiveData and Live Data Observers
-- Project : Data binding with ViewModel and LiveData
+- Project : LiveData and Live Data Observers.
+- Project : Data binding with ViewModel and LiveData.
+- {{% contentlink path="projects/kotlin/project-5/live-data-transformations"%}}
 
 ## Null Safety, Annotations, Constructor, Returns and Jumps.
 
