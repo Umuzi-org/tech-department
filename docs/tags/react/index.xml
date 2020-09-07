@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>React on Documentation for Umuzi Tech Department</title>
+    <link>/tech-department/tags/react/</link>
+    <description>Recent content in React on Documentation for Umuzi Tech Department</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="/tech-department/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>React and Redux recipe search: Part 1. Presenting the form</title>
+      <link>/tech-department/projects/recipe-search/part-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/projects/recipe-search/part-1/</guid>
+      <description>This is part 1 of a project where we will be using Redux in order to build a recipe search user interface based on the (RecipePuppy API)[content/projects/recipe-search/part-1].
+In this part of the excercise we wont be making any queries to the api, we&amp;rsquo;ll just be using React and Redux to build a kick-ass search form.
+Instructions Create a search page that has the following functionality:
+ It needs a search box where the user can enter keywords, for example &amp;ldquo;omlette&amp;rdquo; or &amp;ldquo;mexican&amp;rdquo; or whatever else they are keen on.</description>
+    </item>
+    
+    <item>
+      <title>React and Redux recipe search: Part 2. API Access with thunks</title>
+      <link>/tech-department/projects/recipe-search/part-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/projects/recipe-search/part-2/</guid>
+      <description>Now that your frontend is awesome, let&amp;rsquo;s get the &amp;ldquo;search&amp;rdquo; button to work.
+Take a look at this neat little API:
+http://www.recipepuppy.com/about/api/
+As APIs go it&amp;rsquo;s pairly straight-forward. It&amp;rsquo;s also free and requires no authentication.
+Instructions Add a Button labelled &amp;ldquo;Search&amp;rdquo; to your web application. When the user clicks on this button do the following:
+ Access the api using a thunk once the results arrive, display them in a nice table.</description>
+    </item>
+    
+  </channel>
+</rss>
