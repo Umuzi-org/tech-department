@@ -1,13 +1,12 @@
 ---
 _db_id: 491
 available_flavours:
-  - javascript
-  - typescript
+- javascript
+- typescript
 content_type: project
 prerequisites:
   hard:
-    # - projects/redux-intro
-    - topics/redux-with-angular
+  - topics/redux-with-angular
   soft: []
 ready: true
 submission_type: repo

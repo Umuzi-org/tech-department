@@ -1,8 +1,9 @@
 ---
+_db_id: 504
+content_type: topic
 ready: true
 title: Mock Interviews
 ---
-
 
 As a recruit mock interviews are done so to give you a glimpse of what you can expect from a real
 life interview. This is a great way to prepare you of what is to come.

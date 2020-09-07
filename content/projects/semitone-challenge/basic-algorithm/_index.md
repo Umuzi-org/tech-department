@@ -1,18 +1,18 @@
 ---
 _db_id: 199
 available_flavours:
-  - typescript
-  - javascript
+- typescript
+- javascript
 content_type: project
 pre: <b>1. </b>
+prerequisites:
+  hard:
+  - projects/tdd/simple-calculator-part1
+  soft: []
 ready: true
 submission_type: repo
 title: semitone difference - basic algorithm
 weight: 1
-prerequisites:
-  hard:
-    - projects/tdd/simple-calculator-part1
-  soft: []
 ---
 
 This is a multi-step project designed to level up many different skills.

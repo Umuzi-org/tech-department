@@ -1,16 +1,16 @@
 ---
 _db_id: 195
 available_flavours:
-  - any_frontend_framework
-  - javascript
-  - typescript
+- any_frontend_framework
+- javascript
+- typescript
 content_type: project
 from_repo: projects/semitone-challenge/basic-algorithm
 prerequisites:
   hard:
-    - projects/semitone-challenge/gui-part-1
-    - projects/semitone-challenge/basic-algorithm
-    - projects/redux-intro
+  - projects/semitone-challenge/gui-part-1
+  - projects/semitone-challenge/basic-algorithm
+  - projects/redux-intro
   soft: []
 ready: true
 submission_type: continue_repo

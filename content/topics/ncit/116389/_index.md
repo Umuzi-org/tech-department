@@ -228,5 +228,4 @@ Now, let’s get to writing!
 
 1. Group your insights from your research
 2. Create a strong outline
-3. Start filling it out with details. 
-
+3. Start filling it out with details.
