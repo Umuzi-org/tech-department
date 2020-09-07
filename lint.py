@@ -102,6 +102,8 @@ def check_one_file_frontmatter(file_path):
     if str(file_path).startswith("content/projects"):
         required.append("submission_type")
 
+    hard_prereq = front.get("prerequisites", {}).get("hard", [])
+
     if "submission_type" in front:
         assert (
             front["submission_type"] in allowed_submission_types
@@ -109,9 +111,12 @@ def check_one_file_frontmatter(file_path):
         if front["submission_type"] == "continue_repo":
             required.append("from_repo")
 
+            # if front["title"] == "Calandar widget":
+            #     breakpoint()
+
             assert (
-                front["from_repo"] in front["prerequisites"]["hard"]
-            ), f"{file_path}: expected hard prepreq: {front['from_repo']}"
+                front["from_repo"] in hard_prereq
+            ), f"{file_path}: expected hard prepreq: '{front['from_repo']}'\nonly found: {hard_prereq}"
         if front["submission_type"] != "nosubmit":
             required.append("available_flavours")
         if front["submission_type"] == "repo":

@@ -9,8 +9,7 @@ prerequisites:
   - topics/python-specific/oop-for-python
   - projects/data-science-specific/cross-validation-and-simple-linear-regression
   - projects/data-science-specific/multivariate-linear-regression
-  soft:
-  - topics/python-specific/oop-basics
+  soft: []
 ready: true
 story_points: 5
 submission_type: repo

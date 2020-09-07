@@ -1,7 +1,8 @@
 ---
-content_type: topics
+_db_id: 521
+content_type: topic
+ready: true
 title: CV Guidlines
-ready: True
 ---
 
 ### NB: After submitting your portfolios please go through these workshop slides

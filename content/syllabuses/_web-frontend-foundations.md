@@ -34,7 +34,7 @@ title: Web frontend foundations
 - {{% contentlink path="projects/tdd/password-checker/part2" flavour="javascript" %}}
 - {{% contentlink path="topics/how-the-internet-works" %}}
 - {{% contentlink path="topics/data-ethics-and-privacy" %}}
-- {{% contentlink path="projects/memory-game-vanilla" flavour="javascript" %}}
+- {{% contentlink path="projects/memory-game/part-1" flavour="javascript" %}}
 
 TODO:
 

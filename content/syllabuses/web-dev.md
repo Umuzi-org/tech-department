@@ -68,7 +68,12 @@ title: Web Development
 
 * {{% contentlink path="topics/free-code-camp/responsive-web-design/css-grid" %}}
 
-- {{% contentlink path="projects/memory-game-vanilla" flavour="javascript" %}}
+- {{% contentlink path="topics/unit-testing-mocks-and-spies" %}}
+- {{% contentlink path="topics/basic-architecture-concepts" %}}
+- {{% contentlink path="topics/jasmine-unit-tests" %}}
+- {{% contentlink path="topics/unit-testing-mocks-and-spies" %}}
+
+- {{% contentlink path="projects/memory-game" flavour="javascript" %}}
 - {{% contentlink path="topics/js-and-node-specific/node" %}}
 - {{% contentlink path="projects/nodejs/file-io" flavour="javascript" %}}
 - {{% contentlink path="projects/nodejs/sql" flavour="javascript" %}}
@@ -89,7 +94,9 @@ title: Web Development
 - NCIT Summative assessment
 
 * {{% contentlink path="topics/web-frontend/intro-to-angular/" optional="1" %}}
-* {{% contentlink path="topics/web-frontend/intro-to-react/" optional="1" %}}
+
+- {{% contentlink path="topics/web-frontend/react/intro-to-react" %}}
+
 * {{% contentlink path="topics/web-frontend/intro-to-vue/" optional="1" %}}
 * {{% contentlink path="workshops/nodejs-intro-to-socketio/" optional="1" %}}
 * {{% contentlink path="topics/redux-intro/" optional="1" flavour="javascript" %}}

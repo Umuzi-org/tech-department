@@ -2,6 +2,8 @@
 _db_id: 171
 content_type: topic
 ready: true
+tags:
+- oop
 title: Intro OOP(Object-oriented Programming) for Python
 ---
 
@@ -22,7 +24,7 @@ This is an introduction, this is just to give you a clearer perspective on [OOP]
 
 ## Reading
 
-Guttag. Introduction to Computation and Programming using Python. Chapter 8, Classes and Object Oriented Programming, p.90 - 110.
+https://realpython.com/python3-object-oriented-programming/
 
 ## Some Example Code
 
