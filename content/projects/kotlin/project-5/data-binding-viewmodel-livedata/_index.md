@@ -5,11 +5,11 @@ available_flavours:
 content_type: project
 prerequisites:
   hard:
-  - projects/kotlin/project-5/lifecycles-and-logging
+  - projects/kotlin/project-5/live-data-observers
   soft: []
 ready: true
 submission_type: repo
-title: LiveData and LiveData observers.
+title: Data binding with ViewModel and LiveData.
 ---
 
 ### App overview
