@@ -23,8 +23,8 @@ Now you are meant to treat this bootcamp like a full time job. When we used to r
 
 We want to basically know how much time you are spending working and how well you plan out your day and what times of day you like to work.
 
-- [Morning form](https://forms.gle/E2W9cC5cpHQdu1EL7) Complete this when you start your work day
-- [End of day form](https://forms.gle/cmUR2DiTgZRisDad8) Complete this when you finish your work day
+- [Morning form](https://forms.gle/KUdirFChjKsxuxN6A) Complete this when you start your work day
+- [End of day form](https://forms.gle/h5e8sWKexB4au1k66) Complete this when you finish your work day
 
 Generally you'll want to spend at least 8 hours working every day. Some like to work more than that, but 8 is a good number.
 

@@ -29,7 +29,6 @@ title: Hybrid mobile dev short course
 
 - {{% contentlink path="topics/angular-elements" %}}
 - {{% contentlink path="projects/memory-game-angular-material" flavour="typescript,angular" %}}
-- {{% contentlink path="projects/game-of-life-angular-elements" flavour="typescript,angular" %}}
 
 ## Part 5
 
