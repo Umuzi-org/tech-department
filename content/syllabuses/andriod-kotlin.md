@@ -39,7 +39,7 @@ title: Android Development With Kotlin
 - Classes and Objects
 - {{% contentlink path="topics/kotlin/sealed-classes" %}}
 
-## Delegation, Generics and Classes.
+## Delegation, Generics, Classes, Recycler View .
 
 - Topic : Delegation
 - Topic : Delegated Properties
@@ -48,6 +48,7 @@ title: Android Development With Kotlin
 - {{% contentlink path="topics/kotlin/enum-classes" %}}
 - Generics, nested and enum classes.
 - {{% contentlink path="topics/kotlin/enum-classes" %}}
+- Project : LiveData and Live Data Observers
 
 ## Null Safety, Annotations, Constructor, Returns and Jumps.
 
