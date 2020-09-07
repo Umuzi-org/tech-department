@@ -1,5 +1,4 @@
 ---
-_db_id: 509
 content_type: topic
 ready: true
 title: Why learn Django

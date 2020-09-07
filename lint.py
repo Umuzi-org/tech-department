@@ -66,6 +66,22 @@ def check_all_frontmatter_and_directory_names(path):
 #     file_path.rename(new_path)
 
 
+class IdChaecker:
+    seen = {}
+
+    @classmethod
+    def check(cls, db_id, title, file_path):
+        if db_id in cls.seen:
+            print(f"id = {db_id}")
+            print(f"{cls.seen[db_id]['title']} {cls.seen[db_id]['file_path']}")
+            print(f"{title} {file_path}")
+            raise Exception(f"Repeated id! {db_id}")
+        cls.seen[db_id] = {
+            "title": title,
+            "file_path": file_path,
+        }
+
+
 def check_one_file_frontmatter(file_path):
     """ given the path to a markdown file, make sure that the frontmatter includes
     the required metadata
@@ -98,6 +114,9 @@ def check_one_file_frontmatter(file_path):
         "topic_needs_review"
         # "from_repo",
     ]
+
+    if "_db_id" in front:
+        IdChaecker.check(front["_db_id"], front["title"], file_path)
 
     if str(file_path).startswith("content/projects"):
         required.append("submission_type")

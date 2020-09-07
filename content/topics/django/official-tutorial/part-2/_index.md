@@ -1,9 +1,8 @@
 ---
-_db_id: 508
 content_type: topic
 prerequisites:
   hard:
-  - topics/django/official-tutorial/part-1
+    - topics/django/official-tutorial/part-1
   soft: []
 ready: true
 title: Django official tutorial - part 2

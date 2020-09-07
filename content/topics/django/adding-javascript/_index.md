@@ -1,5 +1,4 @@
 ---
-_db_id: 503
 content_type: topic
 ready: true
 title: Django and Javascript

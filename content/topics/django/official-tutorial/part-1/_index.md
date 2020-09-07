@@ -1,9 +1,8 @@
 ---
-_db_id: 507
 content_type: topic
 prerequisites:
   hard:
-  - topics/python-specific/virtual-envs
+    - topics/python-specific/virtual-envs
   soft: []
 ready: true
 title: Django official tutorial - part 1
