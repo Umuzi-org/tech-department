@@ -140,7 +140,7 @@ Expected output: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89 in this case n = 2:  </
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/syllabuses/django-for-web-devs/</guid>
-      <description>  TOPICS: Python versus JavaScript   TOPICS: Why learn Django   TOPICS: [TODO] Watch This Space   TOPICS: Solo Learn - Python - Module 5 - More Types   TOPICS: Intro OOP(Object-oriented Programming) for Python   TOPICS: Automated Testing in Python   TOPICS: Clean Code for Python   PROJECTS: Email random inspirational quote   PROJECTS: Animals Part 2. Adding Tests   TOPICS: Django official tutorial - part 5   TOPICS: [TODO] Understanding where the code runs and how the data flows   TOPICS: [TODO] Understanding Django Migrations   PROJECTS: [TODO] CloudBnb - users can CRUD properties that they own   PROJECTS: CloudBnb - Users can make bookings   PROJECTS: [TODO] CloudBnb - Property owner dashboard user interface   PROJECTS: CloudBnb - Data export script   PROJECTS: [TODO] CloudBnb - Expose apis to be consumed by modern mobile app   PROJECTS: [TODO] CloudBnb - Calandar widget   </description>
+      <description>  TOPICS: Python versus JavaScript   TOPICS: Why learn Django   TOPICS: [TODO] Watch This Space   TOPICS: Solo Learn - Python - Module 5 - More Types   TOPICS: Intro OOP(Object-oriented Programming) for Python   TOPICS: Automated Testing in Python   TOPICS: Clean Code for Python   PROJECTS: Email random inspirational quote   PROJECTS: Animals Part 2. Adding Tests   PROJECTS: [TODO] CloudBnb - users can CRUD properties that they own   PROJECTS: CloudBnb - Users can make bookings   PROJECTS: [TODO] CloudBnb - Property owner dashboard user interface   PROJECTS: CloudBnb - Data export script   PROJECTS: [TODO] CloudBnb - Expose apis to be consumed by modern mobile app   PROJECTS: [TODO] CloudBnb - Calandar widget   </description>
     </item>
     
     <item>
@@ -201,16 +201,16 @@ Soft Skills   TOPICS: Learning How To Learn   TOPICS: Communication   TOPICS: Em
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/syllabuses/web-dev-no-nqf/</guid>
-      <description>TOPICS: [TODO] Introduction to Tilde   TOPICS: Basic Javascript   TOPICS: Beginning Bash   PROJECTS: Git Basic Exercises   TOPICS: Useful Git commands   TOPICS: Clean Code For JavaScript   TOPICS: How to ask for help with your code   PROJECTS: Level 1 programming katas   PROJECTS: Bootcamp Writing Assignment   TOPICS: Agile &amp;amp; Scrum   WORKSHOPS: Agile and Scrum   TOPICS: Basic Javascript   WORKSHOPS: [TODO] Big Picture of Web Dev   WORKSHOPS: How to be a professional   TOPICS: ES6   TOPICS: Debugging   TOPICS: Web Dev learning materials   TOPICS: Clean Code   TOPICS: [TODO] Super basic intro to Node   PROJECTS: Level 1 programming katas   TOPICS: Basic HTML and HTM5   TOPICS: Basic CSS   TOPICS: Applied Visual Design   WORKSHOPS: Intro to CSS architecture   TOPICS: Introduction to web design   PROJECTS: Build your first personal website   WORKSHOPS: Clean Code (language agnostic)   TOPICS: Object Orientated Programming   TOPICS: Jasmine Unit testing   PROJECTS: Animals Part 2.</description>
+      <description>TOPICS: [TODO] Introduction to Tilde   TOPICS: Basic Javascript   TOPICS: Beginning Bash   PROJECTS: Git Basic Exercises   TOPICS: Useful Git commands   TOPICS: Clean Code For JavaScript   TOPICS: How to ask for help with your code   PROJECTS: Level 1 programming katas   TOPICS: Agile &amp;amp; Scrum   WORKSHOPS: Agile and Scrum   TOPICS: Basic Javascript   WORKSHOPS: [TODO] Big Picture of Web Dev   WORKSHOPS: How to be a professional   TOPICS: ES6   TOPICS: Debugging   TOPICS: Web Dev learning materials   TOPICS: Clean Code   TOPICS: [TODO] Super basic intro to Node   PROJECTS: Level 1 programming katas   TOPICS: Basic HTML and HTM5   TOPICS: Basic CSS   TOPICS: Applied Visual Design   WORKSHOPS: Intro to CSS architecture   TOPICS: Introduction to web design   PROJECTS: Build your first personal website   WORKSHOPS: Clean Code (language agnostic)   TOPICS: Object Orientated Programming   TOPICS: Jasmine Unit testing   PROJECTS: Animals Part 2.</description>
     </item>
     
     <item>
       <title>Web apps for data scientists</title>
-      <link>/tech-department/syllabuses/_webapps-for-data-scientists/</link>
+      <link>/tech-department/syllabuses/django-for-data-sci/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tech-department/syllabuses/_webapps-for-data-scientists/</guid>
-      <description>Motivation Junior data scientists complete the programme mostly focussing on tools and techniques for experimentation such as Jupyter notebooks, Google Datastudio, Dash and Plotly. They create dashboards mostly using Dash and Plotly to generate insights for use in designing better experiments in the data science projects. They have an in-depth understanding of machine learning principles, but lack an in-depth understanding of building dashboards and machine learning web applications for integration into software products.</description>
+      <guid>/tech-department/syllabuses/django-for-data-sci/</guid>
+      <description>TOPICS: Why should data scientiss learn Django?   TOPICS: [TODO] Watch This Space   WORKSHOPS: [TODO] Big Picture of Web Dev   PROJECTS: [TODO] Write an ETL script to populate the database   PROJECTS: [TODO] Visualise your data with plotly.py   PROJECTS: CloudBnb - Data export script   PROJECTS: [TODO] CloudBnb - Expose apis to be consumed by modern mobile app   PROJECTS: [TODO] Visualise your data with plotly.</description>
     </item>
     
     <item>

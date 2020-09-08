@@ -399,14 +399,14 @@
 	"content": ""
 },
 {
-	"uri": "/tech-department/projects/android/",
+	"uri": "/tech-department/topics/android/",
 	"title": "Androids",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/tech-department/topics/android/",
+	"uri": "/tech-department/projects/android/",
 	"title": "Androids",
 	"tags": [],
 	"description": "",
@@ -1456,14 +1456,14 @@
 	"content": ""
 },
 {
-	"uri": "/tech-department/topics/data-science-specific/",
+	"uri": "/tech-department/projects/data-science-specific/",
 	"title": "Data-science-specifics",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/tech-department/projects/data-science-specific/",
+	"uri": "/tech-department/topics/data-science-specific/",
 	"title": "Data-science-specifics",
 	"tags": [],
 	"description": "",
@@ -1600,39 +1600,39 @@
 	"title": "Django for Web devs",
 	"tags": [],
 	"description": "",
-	"content": "  TOPICS: Python versus JavaScript   TOPICS: Why learn Django   TOPICS: [TODO] Watch This Space   TOPICS: Solo Learn - Python - Module 5 - More Types   TOPICS: Intro OOP(Object-oriented Programming) for Python   TOPICS: Automated Testing in Python   TOPICS: Clean Code for Python   PROJECTS: Email random inspirational quote   PROJECTS: Animals Part 2. Adding Tests   TOPICS: Django official tutorial - part 5   TOPICS: [TODO] Understanding where the code runs and how the data flows   TOPICS: [TODO] Understanding Django Migrations   PROJECTS: [TODO] CloudBnb - users can CRUD properties that they own   PROJECTS: CloudBnb - Users can make bookings   PROJECTS: [TODO] CloudBnb - Property owner dashboard user interface   PROJECTS: CloudBnb - Data export script   PROJECTS: [TODO] CloudBnb - Expose apis to be consumed by modern mobile app   PROJECTS: [TODO] CloudBnb - Calandar widget   "
+	"content": "  TOPICS: Python versus JavaScript   TOPICS: Why learn Django   TOPICS: [TODO] Watch This Space   TOPICS: Solo Learn - Python - Module 5 - More Types   TOPICS: Intro OOP(Object-oriented Programming) for Python   TOPICS: Automated Testing in Python   TOPICS: Clean Code for Python   PROJECTS: Email random inspirational quote   PROJECTS: Animals Part 2. Adding Tests   PROJECTS: [TODO] CloudBnb - users can CRUD properties that they own   PROJECTS: CloudBnb - Users can make bookings   PROJECTS: [TODO] CloudBnb - Property owner dashboard user interface   PROJECTS: CloudBnb - Data export script   PROJECTS: [TODO] CloudBnb - Expose apis to be consumed by modern mobile app   PROJECTS: [TODO] CloudBnb - Calandar widget   "
 },
 {
 	"uri": "/tech-department/topics/django/official-tutorial/part-1/",
-	"title": "Django official tutorial - part 1",
+	"title": "Django official tutorial - part 1 - Setup",
 	"tags": [],
 	"description": "",
 	"content": "Please go through the following tutorial.\nRemember that when using Django you should be using modern Python. If you are using Pythhon2.7 that would be a problem.\nTo check your python version:\npython --version  You should be using some version of Python 3. At time of writing Python3.8 is available.\nYou should also be using a virtual environment or similar to isolate your django application and its depedencies.\nhttps://docs.djangoproject.com/en/3.1/intro/tutorial01/\n"
 },
 {
 	"uri": "/tech-department/topics/django/official-tutorial/part-2/",
-	"title": "Django official tutorial - part 2",
+	"title": "Django official tutorial - part 2 - Models and the Admin panel",
 	"tags": [],
 	"description": "",
 	"content": "Please go through the following tutorial.\nRemember that when using Django you should be using modern Python. If you are using Pythhon2.7 that would be a problem.\nTo check your python version:\npython --version  You should be using some version of Python 3. At time of writing Python3.8 is available.\nYou should also be using a virtual environment or similar to isolate your django application and its depedencies.\nhttps://docs.djangoproject.com/en/3.1/intro/tutorial02/\n"
 },
 {
 	"uri": "/tech-department/topics/django/official-tutorial/part-3/",
-	"title": "Django official tutorial - part 3",
+	"title": "Django official tutorial - part 3 - Views and Templates",
 	"tags": [],
 	"description": "",
 	"content": "Please go through the following tutorial.\nRemember that when using Django you should be using modern Python. If you are using Pythhon2.7 that would be a problem.\nTo check your python version:\npython --version  You should be using some version of Python 3. At time of writing Python3.8 is available.\nYou should also be using a virtual environment or similar to isolate your django application and its depedencies.\nhttps://docs.djangoproject.com/en/3.1/intro/tutorial03/\n"
 },
 {
 	"uri": "/tech-department/topics/django/official-tutorial/part-4/",
-	"title": "Django official tutorial - part 4",
+	"title": "Django official tutorial - part 4 - Forms",
 	"tags": [],
 	"description": "",
 	"content": "Please go through the following tutorial.\nRemember that when using Django you should be using modern Python. If you are using Pythhon2.7 that would be a problem.\nTo check your python version:\npython --version  You should be using some version of Python 3. At time of writing Python3.8 is available.\nYou should also be using a virtual environment or similar to isolate your django application and its depedencies.\nhttps://docs.djangoproject.com/en/3.1/intro/tutorial04/\n"
 },
 {
 	"uri": "/tech-department/topics/django/official-tutorial/part-5/",
-	"title": "Django official tutorial - part 5",
+	"title": "Django official tutorial - part 5 - testing",
 	"tags": [],
 	"description": "",
 	"content": "Please go through the following tutorial.\nRemember that when using Django you should be using modern Python. If you are using Pythhon2.7 that would be a problem.\nTo check your python version:\npython --version  You should be using some version of Python 3. At time of writing Python3.8 is available.\nYou should also be using a virtual environment or similar to isolate your django application and its depedencies.\nhttps://docs.djangoproject.com/en/3.1/intro/tutorial05/\n"
@@ -2709,13 +2709,6 @@
 	"content": " About javascript template engines (Short explanation) More on Javascript templates  "
 },
 {
-	"uri": "/tech-department/topics/code-wars/java/",
-	"title": "Javas",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
 	"uri": "/tech-department/topics/solo-learn/java/",
 	"title": "Javas",
 	"tags": [],
@@ -2723,14 +2716,21 @@
 	"content": ""
 },
 {
-	"uri": "/tech-department/topics/javascript-specific/",
-	"title": "Javascript-specifics",
+	"uri": "/tech-department/topics/code-wars/java/",
+	"title": "Javas",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
 	"uri": "/tech-department/workshops/javascript-specific/",
+	"title": "Javascript-specifics",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tech-department/topics/javascript-specific/",
 	"title": "Javascript-specifics",
 	"tags": [],
 	"description": "",
@@ -4382,6 +4382,20 @@
 	"content": "and os.environ and pip pipenv etc\n"
 },
 {
+	"uri": "/tech-department/projects/django-airbnb-clone/visualisations-with-plotly-js/",
+	"title": "Visualise your data with plotly.js",
+	"tags": [],
+	"description": "",
+	"content": "Plotly can be run in Python or in Js. What\u0026rsquo;s the difference?\nOne difference is that if you run Plotly on the frontent, you have much more control over how the page behaves.\n"
+},
+{
+	"uri": "/tech-department/projects/django-airbnb-clone/visualisations-with-plotly-py/",
+	"title": "Visualise your data with plotly.py",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "/tech-department/projects/tilde-mockups/volunteer-dashboard/",
 	"title": "Volunteer Pair-programming Dashboard",
 	"tags": [],
@@ -4414,14 +4428,14 @@
 	"title": "Web Development",
 	"tags": [],
 	"description": "",
-	"content": " Introduction to NCIT curriculum\n NCIT 01: Conducting research and user interviews\n NCIT 02: Reporting\n NCIT 03: Research presentation\n  TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum   TOPICS: Basic Javascript   WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 18: Agile project management\n NCIT 19: Agile meetings\n  WORKSHOPS: How to be a professional   TOPICS: ES6   TOPICS: Debugging   TOPICS: Web Dev learning materials   TOPICS: Clean Code   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork\n  TOPICS: [TODO] Super basic intro to Node   TOPICS: How to ask for help with your code   PROJECTS: Level 1 programming katas   TOPICS: Basic HTML and HTM5   TOPICS: Basic CSS   TOPICS: Applied Visual Design   WORKSHOPS: Intro to CSS architecture   TOPICS: Introduction to web design   PROJECTS: Build your first personal website  NCIT 06: Web design for business\n NCIT 07: Building an online business\n NCIT 12: Business and technology\n NCIT 08: Pseudocode and documentation\n NCIT 10: Workshop: Giving and receiving constructive feedback\n  WORKSHOPS: Clean Code (language agnostic)   TOPICS: Object Orientated Programming   TOPICS: Jasmine Unit testing   PROJECTS: Animals Part 2. Adding Tests  NCIT 13: Object-oriented programming\n  TOPICS: Basic Data Structures   TOPICS: Basic Algorithm Scripting   TOPICS: Applied Accessability   TOPICS: Responsive Web Design Principles   TOPICS: CSS Flexbox   PROJECTS: semitone difference - A gui that is more...awesome   TOPICS: Logging in Node and JS  NCIT 11: Test-driven development\n  TOPICS: Regular Expressions   PROJECTS: Add logging to password checker   PROJECTS: string-calculator   TOPICS: How the internet works   TOPICS: Data Ethics and Privacy  NCIT 05: History of the Internet\n NCIT 09: Ethics and Professionalism in IT\n  PROJECTS: Email random inspirational quote   PROJECTS: Consume Github API   TOPICS: The Tech Landscape Terminology   TOPICS: Functional Programming   TOPICS: Intermediate Algorithm Scripting   TOPICS: CSS Grid   TOPICS: Unit testing with mocks and spies   TOPICS: Intro to software architecture   TOPICS: Jasmine Unit testing   TOPICS: Unit testing with mocks and spies   PROJECTS: [TODO]   TOPICS: Node   PROJECTS: Node \u0026amp; File IO   PROJECTS: Node \u0026amp; SQL assignment  NCIT 14: Database Development\n NCIT 15: Analytics, Surveys, and Reports / Input \u0026amp; Output\n NCIT 16: Thinking like a machine / Boolean algebra, logic\n NCIT 17: Search and sort techniques\n  TOPICS: Database Comparison   PROJECTS: Add a little Ajax   WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap  NCIT 20: Managing the Software Development Process\n NCIT Summative assessment\n  TOPICS: Intro to Angular   TOPICS: Intro to React   TOPICS: Intro to Vue   WORKSHOPS: [TODO] Nodejs intro to socketIO   TOPICS: Basic introduction to Redux   WORKSHOPS: [TODO] Node Sync/Async   TOPICS: MongoDB and JavaScript   TOPICS: [TODO] The dotenv module   "
+	"content": " Introduction to NCIT curriculum\n NCIT 01: Conducting research and user interviews\n NCIT 02: Reporting\n NCIT 03: Research presentation\n  TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum   TOPICS: Basic Javascript   WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 18: Agile project management\n NCIT 19: Agile meetings\n  WORKSHOPS: How to be a professional   TOPICS: ES6   TOPICS: Debugging   TOPICS: Web Dev learning materials   TOPICS: Clean Code   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork\n  TOPICS: [TODO] Super basic intro to Node   TOPICS: How to ask for help with your code   PROJECTS: Level 1 programming katas   TOPICS: Basic HTML and HTM5   TOPICS: Basic CSS   TOPICS: Applied Visual Design   WORKSHOPS: Intro to CSS architecture   TOPICS: Introduction to web design   PROJECTS: Build your first personal website  NCIT 06: Web design for business\n NCIT 07: Building an online business\n NCIT 12: Business and technology\n NCIT 08: Pseudocode and documentation\n NCIT 10: Workshop: Giving and receiving constructive feedback\n  WORKSHOPS: Clean Code (language agnostic)   TOPICS: Object Orientated Programming   TOPICS: Jasmine Unit testing   PROJECTS: Animals Part 2. Adding Tests  NCIT 13: Object-oriented programming\n  TOPICS: Basic Data Structures   TOPICS: Basic Algorithm Scripting   TOPICS: Applied Accessability   TOPICS: Responsive Web Design Principles   TOPICS: CSS Flexbox   PROJECTS: semitone difference - A gui that is more...awesome   TOPICS: Logging in Node and JS  NCIT 11: Test-driven development\n  TOPICS: Regular Expressions   PROJECTS: Add logging to password checker   PROJECTS: string-calculator   TOPICS: How the internet works   TOPICS: Data Ethics and Privacy  NCIT 05: History of the Internet\n NCIT 09: Ethics and Professionalism in IT\n  PROJECTS: Email random inspirational quote   PROJECTS: Consume Github API   TOPICS: The Tech Landscape Terminology   TOPICS: Functional Programming   TOPICS: Intermediate Algorithm Scripting   TOPICS: CSS Grid   TOPICS: Unit testing with mocks and spies   TOPICS: Intro to software architecture   TOPICS: Jasmine Unit testing   TOPICS: Unit testing with mocks and spies   PROJECTS: [TODO] extra features for your memory game   TOPICS: Node   PROJECTS: Node \u0026amp; File IO   PROJECTS: Node \u0026amp; SQL assignment  NCIT 14: Database Development\n NCIT 15: Analytics, Surveys, and Reports / Input \u0026amp; Output\n NCIT 16: Thinking like a machine / Boolean algebra, logic\n NCIT 17: Search and sort techniques\n  TOPICS: Database Comparison   PROJECTS: Add a little Ajax   WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap  NCIT 20: Managing the Software Development Process\n NCIT Summative assessment\n  TOPICS: Intro to Angular   TOPICS: Intro to React   TOPICS: Intro to Vue   WORKSHOPS: [TODO] Nodejs intro to socketIO   TOPICS: Basic introduction to Redux   WORKSHOPS: [TODO] Node Sync/Async   TOPICS: MongoDB and JavaScript   TOPICS: [TODO] The dotenv module   "
 },
 {
 	"uri": "/tech-department/syllabuses/web-dev-no-nqf/",
 	"title": "Web Development - No NQF",
 	"tags": [],
 	"description": "",
-	"content": "  TOPICS: [TODO] Introduction to Tilde   TOPICS: Basic Javascript   TOPICS: Beginning Bash   PROJECTS: Git Basic Exercises   TOPICS: Useful Git commands   TOPICS: Clean Code For JavaScript   TOPICS: How to ask for help with your code   PROJECTS: Level 1 programming katas   PROJECTS: Bootcamp Writing Assignment   TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum   TOPICS: Basic Javascript   WORKSHOPS: [TODO] Big Picture of Web Dev   WORKSHOPS: How to be a professional   TOPICS: ES6   TOPICS: Debugging   TOPICS: Web Dev learning materials   TOPICS: Clean Code   TOPICS: [TODO] Super basic intro to Node   PROJECTS: Level 1 programming katas   TOPICS: Basic HTML and HTM5   TOPICS: Basic CSS   TOPICS: Applied Visual Design   WORKSHOPS: Intro to CSS architecture   TOPICS: Introduction to web design   PROJECTS: Build your first personal website   WORKSHOPS: Clean Code (language agnostic)   TOPICS: Object Orientated Programming   TOPICS: Jasmine Unit testing   PROJECTS: Animals Part 2. Adding Tests   TOPICS: Basic Data Structures   TOPICS: Basic Algorithm Scripting   TOPICS: Applied Accessability   TOPICS: Responsive Web Design Principles   TOPICS: CSS Flexbox   TOPICS: Logging in Node and JS   TOPICS: Regular Expressions   PROJECTS: semitone difference - A gui that is more...awesome   PROJECTS: Add logging to password checker   PROJECTS: string-calculator   TOPICS: How the internet works   TOPICS: Data Ethics and Privacy   PROJECTS: Email random inspirational quote   PROJECTS: Consume Github API   TOPICS: The Tech Landscape Terminology   TOPICS: Functional Programming   TOPICS: Intermediate Algorithm Scripting   TOPICS: CSS Grid   PROJECTS: [TODO] extra features for your memory game   TOPICS: Node   PROJECTS: Node \u0026amp; File IO   PROJECTS: Node \u0026amp; SQL assignment   TOPICS: Database Comparison   PROJECTS: Add a little Ajax   WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap   TOPICS: Intro to Angular   TOPICS: Intro to React   TOPICS: Intro to Vue   WORKSHOPS: [TODO] Nodejs intro to socketIO   TOPICS: Basic introduction to Redux   WORKSHOPS: [TODO] Node Sync/Async   TOPICS: MongoDB and JavaScript   TOPICS: [TODO] The dotenv module   "
+	"content": "  TOPICS: [TODO] Introduction to Tilde   TOPICS: Basic Javascript   TOPICS: Beginning Bash   PROJECTS: Git Basic Exercises   TOPICS: Useful Git commands   TOPICS: Clean Code For JavaScript   TOPICS: How to ask for help with your code   PROJECTS: Level 1 programming katas   TOPICS: Agile \u0026amp; Scrum   WORKSHOPS: Agile and Scrum   TOPICS: Basic Javascript   WORKSHOPS: [TODO] Big Picture of Web Dev   WORKSHOPS: How to be a professional   TOPICS: ES6   TOPICS: Debugging   TOPICS: Web Dev learning materials   TOPICS: Clean Code   TOPICS: [TODO] Super basic intro to Node   PROJECTS: Level 1 programming katas   TOPICS: Basic HTML and HTM5   TOPICS: Basic CSS   TOPICS: Applied Visual Design   WORKSHOPS: Intro to CSS architecture   TOPICS: Introduction to web design   PROJECTS: Build your first personal website   WORKSHOPS: Clean Code (language agnostic)   TOPICS: Object Orientated Programming   TOPICS: Jasmine Unit testing   PROJECTS: Animals Part 2. Adding Tests   TOPICS: Basic Data Structures   TOPICS: Basic Algorithm Scripting   TOPICS: Applied Accessability   TOPICS: Responsive Web Design Principles   TOPICS: CSS Flexbox   TOPICS: Logging in Node and JS   TOPICS: Regular Expressions   PROJECTS: semitone difference - A gui that is more...awesome   PROJECTS: Add logging to password checker   PROJECTS: string-calculator   TOPICS: How the internet works   TOPICS: Data Ethics and Privacy   PROJECTS: Email random inspirational quote   PROJECTS: Consume Github API   TOPICS: The Tech Landscape Terminology   TOPICS: Functional Programming   TOPICS: Intermediate Algorithm Scripting   TOPICS: CSS Grid   PROJECTS: [TODO] extra features for your memory game   TOPICS: Node   PROJECTS: Node \u0026amp; File IO   PROJECTS: Node \u0026amp; SQL assignment   TOPICS: Database Comparison   PROJECTS: Add a little Ajax   WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap   TOPICS: Intro to Angular   TOPICS: Intro to React   TOPICS: Intro to Vue   WORKSHOPS: [TODO] Nodejs intro to socketIO   TOPICS: Basic introduction to Redux   WORKSHOPS: [TODO] Node Sync/Async   TOPICS: MongoDB and JavaScript   TOPICS: [TODO] The dotenv module   "
 },
 {
 	"uri": "/tech-department/topics/web-frontend/",
@@ -4431,11 +4445,11 @@
 	"content": ""
 },
 {
-	"uri": "/tech-department/syllabuses/_webapps-for-data-scientists/",
+	"uri": "/tech-department/syllabuses/django-for-data-sci/",
 	"title": "Web apps for data scientists",
 	"tags": [],
 	"description": "",
-	"content": "Motivation Junior data scientists complete the programme mostly focussing on tools and techniques for experimentation such as Jupyter notebooks, Google Datastudio, Dash and Plotly. They create dashboards mostly using Dash and Plotly to generate insights for use in designing better experiments in the data science projects. They have an in-depth understanding of machine learning principles, but lack an in-depth understanding of building dashboards and machine learning web applications for integration into software products. Django being a popular ubiquitous Python Web framework, it is an efficient way for data scientists to master techniques on building scalable, end-to-end data-driven solutions for dashboards, predictions and recommendations solutions for business insights.\nTransferable skills: Python Plotly Deep dive into database access with ORMs Database structuring Database versioning Architectural concerns of a data-driven full stack web application Syllabus Summary Python foundations Basic syntax and concepts (new concepts related to web applications) Some advanced tools: decorators and generators Unit tests and mocks in Python\nDjango foundations All concepts needed to make a full stack web application in Python Data structuring and visualisation in complex applications Database management with Migrations and git\nDjango advanced uses Creating apis Authentication and authorisation Advanced use of ORM, and when it falls short Advanced concepts in testing ETL tricks Rapid development of REST apis using Django Rest Framework (DRF)\n"
+	"content": "  TOPICS: Why should data scientiss learn Django?   TOPICS: [TODO] Watch This Space   WORKSHOPS: [TODO] Big Picture of Web Dev   PROJECTS: [TODO] Write an ETL script to populate the database   PROJECTS: [TODO] Visualise your data with plotly.py   PROJECTS: CloudBnb - Data export script   PROJECTS: [TODO] CloudBnb - Expose apis to be consumed by modern mobile app   PROJECTS: [TODO] Visualise your data with plotly.js   PROJECTS: Email random inspirational quote   PROJECTS: [TODO] CloudBnb - Expose apis to be consumed by modern mobile app   PROJECTS: [TODO] CloudBnb - users can CRUD properties that they own   "
 },
 {
 	"uri": "/tech-department/topics/bootcamp/web-dev-enviroment-setup/",
@@ -4529,6 +4543,13 @@
 	"content": "Django is the bew framewrk for \u0026ldquo;perfectionists with deadlines\u0026rdquo;. It lets you build really robust and reliable web apps very very quickly.\nTake a look at this: https://inmagik.com/blog/10-reasons-to-use-django-in-2020\nAnd for another thing, Django is a realy great teacher. It makes use of many solid design patterns and has been developerd by people who are pretty much obsessed with web dev and clean code.\nDjango is highly opinionated (unlike ExpressJS or Flask) which means it has a learning curve. But the opinions coded into the software are really worth understanding.\nOne of the really cool things about using a highly opinionated framework like Django is that if you are working on a serious software product with a team of professional devs, and you get to a point where your team needs to grow, onboarding new devs can be a very smooth process.\nDjango developers know their way around Django based projects because Django projects are all the same shape. If you were to hire a new dev to work on a project written in an unopinionated project based on a \u0026ldquo;micro-framework\u0026rdquo; like Express or Flask then the dev would have to spend a lot of time poking around. So the fact that Django is so opinionated means teams using it are easy(ish) to scale.\nThe same is of course true of other highly opinionated frameworks\nFor those of you who dont know, Tilde, our learning platform, used Django and Django REST Framework (DRF) on it\u0026rsquo;s backend. And it works like a dream.\n"
 },
 {
+	"uri": "/tech-department/topics/django/why-datasci-should-learn-django/",
+	"title": "Why should data scientiss learn Django?",
+	"tags": [],
+	"description": "",
+	"content": "Junior data scientists complete the programme mostly focussing on tools and techniques for experimentation such as Jupyter notebooks, Google Datastudio, Dash and Plotly. They create dashboards mostly using Dash and Plotly to generate insights for use in designing better experiments in the data science projects. They have an in-depth understanding of machine learning principles, but lack an in-depth understanding of building dashboards and machine learning web applications for integration into software products. Django being a popular ubiquitous Python Web framework, it is an efficient way for data scientists to master techniques on building scalable, end-to-end data-driven solutions for dashboards, predictions and recommendations solutions for business insights.\nFor more on why Django is a good web framework to learn in general, please see TOPICS: Why learn Django "
+},
+{
 	"uri": "/tech-department/topics/kotlin/work-manager/",
 	"title": "Work Manager",
 	"tags": [],
@@ -4569,6 +4590,13 @@
 	"tags": [],
 	"description": "",
 	"content": " 1. What is a technical report? A technical report is the conventional format for reporting the results of your research, investigations, and design projects. The ability to produce a clear, concise, and professionally presented report is a skill you will need to develop in order to succeed in your future career. While reports vary in the type of information they present (for example, original research, the results of an investigative study, or the solution to a design problem), all of them share similar features and are based on a similar structure.\nKey features Common features of technical reports include:\n Designed for quick and easy communication of information\n Designed for selective reading (a manager or client may only read a section of the report depending on what they are interested in learning)\n Have sections with numbered headings and subheadings\n Use figures and diagrams to convey data\n Based primarily on original research\n If you use information, ideas, media, etc that someone else has created, you must properly cite your sources with footnotes.\n Failure to cite the sources of ideas in your report is considered plagiarism. This violates professional ethics and will result in you losing respect among peers and can even lead to the loss of a job.\n   Collecting and organising your information Based on the research you did during your HCD interviews and observations, you should have a lot information and insights that you can use to put into a report. Review the notes, photos, and other documents you made during the Empathise/Research phase and group them into big ideas or topics (review this section of the HCD curriculum if you are unclear what to do). Once you’ve figured out all the topics you want to cover, start to think about a logical order to present these ideas. One good way to organise your ideas is to create an outline.\n2. Outline and structure The first step in writing any report is to create an outline. An outline breaks down the parts of your report in a clear, hierarchical manner. You should always create an outline before you start writing, because it will help you organise your thoughts. If your outline is good, your paper should be easy to write.\nThe basic format for an outline uses an alternating series of numbers and letters, indented accordingly, to indicate levels of importance. Here is a very basic structure for an outline.:\n   Part of Outline Description     1. Introduction This is the first main section (after the title page and table of contents). This section is where you state your main argument, often called a thesis, and tell the reader what you will cover in the report. So an Introduction gives an overview of the topic and your thesis statement.   2. First main idea    2.1 Supporting evidence #1    2.2 Supporting evidence #2    2.2.1 Details about it    2.2.2 More details The body follows the introduction, and breaks down the points you wish to make.   3. Second main idea Note that most sections have subdivisions. The more information you can add to the supporting evidence of each idea, the easier it will be to write the full report   3.1 Supporting evidence #2 Often these “first main idea” sections will be the titles for the various sections of the report. The “supporting evidence” and “details” lines may be subheadings or, preferably, sentences which describe your findings in detail.   3.1.1 Details about it    3.1.2 More details    4 Third main idea    Etc.     Start your outline with a very brief description of each topic/section. Read through this and see if it makes sense. If it doesn’t, rearrange or add more topics to your outline until it makes sense. Then, if the order seems logical, continue to fill in the outline with more details. The more detail you include in your outline, the easier it will be to write the full report.\nSee a few examples here: http://www.austincc.edu/tmthomas/sample%20outline%201.htm\nOnce you’ve completed your outline you can start with writing your paper. Use your outline to create the appropriate headings for your paper and then start expanding upon the big ideas with full sentences (and images, if necessary).\nStructure of a report As you start writing, take a look at the table below. It lists all of the sections you must include in your paper. You’ll notice that your outline only covers the Introduction, Main sections, and Conclusions part of this table. The other section are formal parts that must be included in a technical report and they will be relatively straightforward to make. See the next section for more details on how to create references and a bibliography.\n   Section Details     Title page Must include the title of the report, name of author(s), the date is was produced, the company/organisation it was produced for   Executive Summary A summary of the whole report including important features, results and conclusions   Table of contents Numbers and lists all section and subsection headings with page numbers   Introduction States the objectives of the report and comments on the way the topic of the report is to be treated. Leads straight into the report itself.   Main sections of the report Divided into numbered and headed sections. These sections separate the main ideas in a logical order   Conclusions A short, logical summing up of the themes or insights developed in the main text   References Details of published sources of material referred to or quoted in the text   Bibliography / Further Reading Other sources not referred to in the text but useful for background or further reading   Acknowledgements List of people who helped you research or prepare the report, including your proof-readers   Appendices (if appropriate) Any further material which is essential for full understanding of your report (e.g. large scale diagrams, computer code, raw data, specifications) but not required by a casual reader    3. Writing the report Language Who is going to read the report? In professional contexts, the readers of a report might be managers, clients, or project team members. Depending on your audience (the readers) you will have to alter the language, content and technical details of your report. Remember that there will be varying levels of technical understanding amongst these groups and you should adjust your report accordingly.\nObjectivity Reports are intended as factual documents containing objective information. Avoid using ‘I’, ‘I think’ or ‘in my opinion.’ You want to present the information professionally.\nLayout While the content of your report is of the utmost importance, the presentation of information can also help make it more understandable. Think about:\nInformation Hierarchy  It can be very useful to take advantage of the default heading styles of your word processing software to layout your information eg. Heading 1 for titles, Heading 2 for subtitles etc.\n Perhaps some information is more easily read in a bulleted or numbered list\n You could start every chapter/section on a new page\n You could include horizontal lines to separate sub headings\n  Legibility  Is your font legible and professional? Is it a good size?\n Is double line spacing easier to read?\n Have you chosen a good colour? Black is best unless you have specific reasons to use other colours.\n  Aesthetics  Images in your document - Are they clearly labelled? and consistently laid out?\n Have you used a consistent colour palette - for headings? In your diagrams?\n  You might only think of these things once you have finished your first draft but it is useful to keep them in mind while writing to minimise the amount of formatting you have to do at the end.\nReferencing Whenever you make use of other people\u0026rsquo;s facts or ideas, you must indicate this. The source might be a website, a book, a video, another report, or a variety of other materials. Any phrases, sentences or paragraphs which are copied unaltered must be enclosed in quotation marks and material which has been paraphrased doesn’t need to be in quotation marks but must still be referenced. This is so that the reader can\n make sure the information is correct and the report is based on real facts.\n find more information on the subject.\n  There are many systems for doing this but you will be using the MLA8 system which uses footnotes and a reference list (at the end of your report). More information about this system can be found here: http://www.easybib.com/guides/citation-guides/mla-format/\nTo make referencing easier we recommend that you create an account with http://www.easybib.com or a similar online referencing tool.\nFootnotes When you have used information from a different source within your report, you cite it using a small number which can then be found in a footer at the bottom of the page with a citation of the referenced material:\nFor example:\nSome have argued that such an investigation would be fruitless. \u0026sup1;\n\u0026sup1; Russell, Tony. “Welcome to the Purdue OWL.” Purdue OWL: MLA Formatting and Style Guide, 23 Mar. 2018, owl.english.purdue.edu/owl/resource/747/04/.\nThis numbering system continues throughout the document. EasyBib (http://www.easybib.com) will help you generate the citations using information that you enter about the source.\nBroadly speaking most citations require:\n The name of the author(s)\n The title of the piece\n The publisher/website\n The URL\n The year the information was published/written\n The particular place in the source where you found the information eg. page number, video time\n  Reference List Apart from the footnotes on each page, at the end of the report you will also need to include a list of all the sources you have referenced. This is sometimes called a bibliography and it compiles all your sources organised in alphabetical order by last name of the author.\nYou will be able to do this easily using http://www.easybib.com. When you create an account it can keep track of all the sources you are using and generate a bibliography for you at the end.\nExample Reports Below are some example reports. Remember that they may be using a different referencing system and dealing with a completely different discipline.\nhttps://www.cibse.org/getmedia/81bb2666-9afd-4a10-8431-d8e948fbda3d/Technical-Report-4-CEng.pdf.aspx\nhttps://www.cibse.org/getmedia/c0758775-08ef-4cb9-9b8a-169074be5ee5/Technical-Report-1-CEng.pdf.aspx\nFirst Draft Most people will spend more time editing than initially writing the content for a report so get your ideas down and work from there. Once you have written all the content you want to include in the report, broadly organised it and referenced your materials you might consider printing it out and reading it. At this stage, you might know that it’s not finished and still want to tweak parts here and there but it is still good to get an overview of what you have written so far.\n4. Revising the report Proofreading Once you have created a draft of your report you, or someone else, should proofread it. This process refers to the checking of every aspect of a piece of written work from the content to the layout. You should acquire the habit of never sending or submitting any piece of written work without at least one, and preferably several, rounds of proofreading. This can be done digitally or on paper.\nSome specific things to look out for:\n Spelling mistakes, (your word processing software might do this automatically, but always check again when reviewing your work)\n Fluidity in the content? Does the introduction link directly to the conclusion? Do the points you have made lead logically to the conclusion?\n Does it look professional?\n Are your page numbers/table of content items correct?\n Are your diagrams and images useful and helpful to the reader?\n  You will probably go through this process a couple of times before you’re happy with your report.\nNow, let’s get to writing!\n Group your insights from your research Create a strong outline Start filling it out with details.  "
+},
+{
+	"uri": "/tech-department/projects/django-airbnb-clone/etl-script/",
+	"title": "Write an ETL script to populate the database",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "/tech-department/topics/data-infrastructure/choosing-a-task-queue/",

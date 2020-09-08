@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Django official tutorial - part 3 on Documentation for Umuzi Tech Department</title>
+    <title>Django official tutorial - part 3 - Views and Templates on Documentation for Umuzi Tech Department</title>
     <link>/tech-department/topics/django/official-tutorial/part-3/</link>
-    <description>Recent content in Django official tutorial - part 3 on Documentation for Umuzi Tech Department</description>
+    <description>Recent content in Django official tutorial - part 3 - Views and Templates on Documentation for Umuzi Tech Department</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     
