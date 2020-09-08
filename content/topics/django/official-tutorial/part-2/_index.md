@@ -6,7 +6,7 @@ prerequisites:
   - topics/django/official-tutorial/part-1
   soft: []
 ready: true
-title: Django official tutorial - part 2
+title: Django official tutorial - part 2 - Models and the Admin panel
 ---
 
 Please go through the following tutorial.

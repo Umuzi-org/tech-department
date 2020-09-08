@@ -6,6 +6,7 @@ content_type: project
 prerequisites:
   hard:
   - topics/git-feature-branching
+  - topics/django/official-tutorial/part-1
   soft: []
 submission_type: repo
 title: CloudBnb - intro

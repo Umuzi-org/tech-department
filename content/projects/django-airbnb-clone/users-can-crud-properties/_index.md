@@ -9,6 +9,7 @@ prerequisites:
   - projects/django-airbnb-clone/intro
   - projects/django-airbnb-clone/property-model-and-admin-panel
   - projects/django-airbnb-clone/user-registration
+  - topics/django/official-tutorial/part-4
   soft: []
 submission_type: continue_repo
 title: CloudBnb - users can CRUD properties that they own

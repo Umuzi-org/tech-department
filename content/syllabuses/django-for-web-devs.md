@@ -11,9 +11,6 @@ title: Django for Web devs
 - {{% contentlink path="topics/clean-code/python" %}}
 - {{% contentlink path="projects/basic-unit-test-mocks-kata" flavour="python" %}}
 - {{% contentlink path="projects/oop/animals/part2" flavour="python" %}}
-- {{% contentlink path="topics/django/official-tutorial/part-5" %}}
-- {{% contentlink path="topics/django/understanding-where-the-code-runs" %}}
-- {{% contentlink path="topics/django/understanding-migrations" %}}
 
 - {{% contentlink path="projects/django-airbnb-clone/users-can-crud-properties" flavour="django" %}}
 - {{% contentlink path="projects/django-airbnb-clone/users-can-make-bookings" flavour="django" %}}

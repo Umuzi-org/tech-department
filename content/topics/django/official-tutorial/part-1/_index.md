@@ -6,7 +6,7 @@ prerequisites:
   - topics/python-specific/virtual-envs
   soft: []
 ready: true
-title: Django official tutorial - part 1
+title: Django official tutorial - part 1 - Setup
 ---
 
 Please go through the following tutorial.

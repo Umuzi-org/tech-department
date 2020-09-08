@@ -1,6 +1,10 @@
 ---
 _db_id: 524
 content_type: topic
+prerequisites:
+  hard:
+  - topics/redux-intro
+  soft: []
 title: Redux Thunks
 ---
 

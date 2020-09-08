@@ -10,7 +10,6 @@ title: Web Development - No NQF
 - {{% contentlink path="topics/clean-code/java-script" %}}
 - {{% contentlink path="topics/how-to-ask-for-help-with-your-code" %}}
 - {{% contentlink path="projects/basic-flow-control-katas" flavour="javascript" %}}
-<!-- - {{%  path="projects/bootcamp-writing-assignment" %}} -->
 - {{% contentlink path="topics/agile-scrum" %}}
 - {{% contentlink path="workshops/agile-scrum/" %}}
 - {{% contentlink path="topics/free-code-camp/javascript-data-structures-and-algorithms/basic-javascript/"%}}

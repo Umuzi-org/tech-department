@@ -1,5 +1,5 @@
 ---
-_db_id: 541
+_db_id: 584
 available_flavours:
 - django
 content_type: project
@@ -8,12 +8,13 @@ prerequisites:
   hard:
   - topics/django/adding-javascript
   - projects/django-airbnb-clone/intro
-  - projects/django-airbnb-clone/property-owner-dashboard-apis
-  - projects/django-airbnb-clone/users-can-make-bookings
+  - projects/django-airbnb-clone/etl-script
   - topics/django/official-tutorial/part-3
   soft: []
 submission_type: continue_repo
-title: CloudBnb - Property owner dashboard user interface
+title: Visualise your data with plotly.js
 ---
 
-When a property owner logs in they should be able to navigate to a dashboard.
+Plotly can be run in Python or in Js. What's the difference?
+
+One difference is that if you run Plotly on the frontent, you have much more control over how the page behaves.

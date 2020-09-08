@@ -6,7 +6,7 @@ prerequisites:
   - topics/django/official-tutorial/part-2
   soft: []
 ready: true
-title: Django official tutorial - part 3
+title: Django official tutorial - part 3 - Views and Templates
 ---
 
 Please go through the following tutorial.

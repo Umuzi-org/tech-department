@@ -6,7 +6,7 @@ prerequisites:
   - topics/django/official-tutorial/part-3
   soft: []
 ready: true
-title: Django official tutorial - part 4
+title: Django official tutorial - part 4 - Forms
 ---
 
 Please go through the following tutorial.

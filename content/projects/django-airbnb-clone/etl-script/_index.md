@@ -1,5 +1,5 @@
 ---
-_db_id: 543
+_db_id: 583
 available_flavours:
 - django
 content_type: project
@@ -8,15 +8,7 @@ prerequisites:
   hard:
   - projects/django-airbnb-clone/intro
   - projects/django-airbnb-clone/property-model-and-admin-panel
-  - projects/django-airbnb-clone/user-registration
-  - topics/django/official-tutorial/part-5
   soft: []
 submission_type: continue_repo
-title: CloudBnb - Property Search
+title: Write an ETL script to populate the database
 ---
-
-`/search/`
-
-`/results/`
-
-`/properties/{id}/details`

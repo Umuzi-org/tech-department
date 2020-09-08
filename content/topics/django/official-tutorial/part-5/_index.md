@@ -6,7 +6,7 @@ prerequisites:
   - topics/django/official-tutorial/part-4
   soft: []
 ready: true
-title: Django official tutorial - part 5
+title: Django official tutorial - part 5 - testing
 ---
 
 Please go through the following tutorial.
