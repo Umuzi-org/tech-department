@@ -73,7 +73,7 @@ title: Web Development
 - {{% contentlink path="topics/jasmine-unit-tests" %}}
 - {{% contentlink path="topics/unit-testing-mocks-and-spies" %}}
 
-- {{% contentlink path="projects/memory-game" flavour="javascript" %}}
+- {{% contentlink path="projects/memory-game/part-2" flavour="javascript" %}}
 - {{% contentlink path="topics/js-and-node-specific/node" %}}
 - {{% contentlink path="projects/nodejs/file-io" flavour="javascript" %}}
 - {{% contentlink path="projects/nodejs/sql" flavour="javascript" %}}

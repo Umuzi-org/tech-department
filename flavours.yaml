@@ -23,3 +23,6 @@ any_fullstack_web_framework:
 
 any_plain_text:
   - markdown
+
+misc:
+  - redux

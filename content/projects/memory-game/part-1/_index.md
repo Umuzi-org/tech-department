@@ -4,6 +4,7 @@ available_flavours:
 - javascript
 - typescript
 - any_frontend_framework
+- redux
 content_type: project
 ready: true
 story_points: 5

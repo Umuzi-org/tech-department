@@ -1,8 +1,9 @@
 ---
+_db_id: 553
 content_type: topic
 prerequisites:
   hard:
-    - topics/redux-thunks
+  - topics/redux-thunks
   soft: []
 ready: true
 title: Redux Saga

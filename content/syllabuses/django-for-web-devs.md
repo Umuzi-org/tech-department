@@ -15,9 +15,9 @@ title: Django for Web devs
 - {{% contentlink path="topics/django/understanding-where-the-code-runs" %}}
 - {{% contentlink path="topics/django/understanding-migrations" %}}
 
-- {{% contentlink path="projects/django-airbnb-clone/users-can-crud-properties" %}}
-- {{% contentlink path="projects/django-airbnb-clone/users-can-make-bookings" %}}
-- {{% contentlink path="projects/django-airbnb-clone/property-owner-dashboard-ui" %}}
-- {{% contentlink path="projects/django-airbnb-clone/data-export-script" %}}
-- {{% contentlink path="projects/django-airbnb-clone/rest-endpoints" %}}
-- {{% contentlink path="projects/django-airbnb-clone/calandar-widget" %}}
+- {{% contentlink path="projects/django-airbnb-clone/users-can-crud-properties" flavour="django" %}}
+- {{% contentlink path="projects/django-airbnb-clone/users-can-make-bookings" flavour="django" %}}
+- {{% contentlink path="projects/django-airbnb-clone/property-owner-dashboard-ui" flavour="django" %}}
+- {{% contentlink path="projects/django-airbnb-clone/data-export-script" flavour="django" %}}
+- {{% contentlink path="projects/django-airbnb-clone/rest-endpoints" flavour="django" %}}
+- {{% contentlink path="projects/django-airbnb-clone/calandar-widget" flavour="django" %}}

@@ -1,9 +1,7 @@
 ---
 _db_id: 544
 available_flavours:
-- react
-- javascript
-- typescript
+- django
 content_type: project
 from_repo: projects/django-airbnb-clone/intro
 prerequisites:

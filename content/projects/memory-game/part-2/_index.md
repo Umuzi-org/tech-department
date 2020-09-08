@@ -4,6 +4,7 @@ available_flavours:
 - javascript
 - typescript
 - any_frontend_framework
+- redux
 content_type: project
 from_repo: projects/memory-game/part-1
 prerequisites:
