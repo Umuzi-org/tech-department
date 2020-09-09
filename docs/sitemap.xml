@@ -241,12 +241,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/android/</loc>
+    <loc>/tech-department/projects/android/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/projects/android/</loc>
+    <loc>/tech-department/topics/android/</loc>
     <priority>0</priority>
   </url>
   
@@ -1611,12 +1611,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/workshops/javascript-specific/</loc>
+    <loc>/tech-department/topics/javascript-specific/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/topics/javascript-specific/</loc>
+    <loc>/tech-department/workshops/javascript-specific/</loc>
     <priority>0</priority>
   </url>
   
