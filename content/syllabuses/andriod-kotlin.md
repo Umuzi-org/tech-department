@@ -50,7 +50,7 @@ title: Android Development With Kotlin
 - {{% contentlink path="topics/kotlin/enum-classes" %}}
 - Project : LiveData and Live Data Observers.
 - Project : Data binding with ViewModel and LiveData.
-- {{% contentlink path="projects/kotlin/project-5/live-data-transformations"%}}
+- {{% contentlink path="projects/kotlin/project-5/live-data-transformations"   flavour="kotlin" %}}
 
 ## Null Safety, Annotations, Constructor, Returns and Jumps, Recycler View.
 
