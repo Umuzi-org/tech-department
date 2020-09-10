@@ -6,7 +6,6 @@ submission_type: nosubmit
 title: Project 5
 ---
 
-- ViewModel and ViewModelFactory.
 - LiveData and LiveData observers.
 - Data binding with ViewModel and LiveData.
 - LiveData transformations.
