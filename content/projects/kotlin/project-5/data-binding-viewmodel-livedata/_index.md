@@ -44,7 +44,7 @@ In this codelab, you improve the GuessTheWord app by integrating data binding wi
 
 ![Title screen](4abf85983013d4f3.png)
 
-![Game screen](4abf85983013d4f3.png)
+![Game screen](e875f540ddb4279.png)
 
 ![Score screen](d6bf6cf728fb6c09.png)
 
