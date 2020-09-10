@@ -9,7 +9,7 @@ prerequisites:
   soft: []
 ready: true
 submission_type: repo
-title: Create a Room Database.
+title: Data binding with ViewModel and LiveData.
 ---
 
 ### App overview

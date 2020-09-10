@@ -59,7 +59,12 @@ title: Android Development With Kotlin
 - Topic : Constructor Default Values
 - {{% contentlink path="topics/kotlin/returns-and-jumps" %}}
 - Project : Create a Room Database.
-- Project : Recycler View.
+- Project : Interacting with RecyclerView items.
+- Project : Recycler View Fundamentals.
+- Project : Data binding with ViewModel and LiveData.
+- Project : DiffUtil and data binding with RecyclerView
+- Project : GridLayout with RecyclerView.
+- {{% contentlink path="projects/kotlin/project-7/headers-in-recyclerview" %}}
 
 
 ## Null Safety, Annotations, Constructor, Returns and Jumps.
