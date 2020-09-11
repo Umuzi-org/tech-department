@@ -79,6 +79,14 @@ title: Android Development With Kotlin
 - Project : Filtering and Detail Views with Internet Data
 - {{% contentlink path="projects/kotlin/project-8/repository" %}}
 
+
+
+## Styles, Design, Colours, Dimensions
+
+- Project : Styles and Themes
+- Project : 
+
+
 ## Testing
 
 - Topic - Unit Testing
