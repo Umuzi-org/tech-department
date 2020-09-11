@@ -74,6 +74,7 @@ title: Android Development With Kotlin
 - Topic : Functions
 - {{% contentlink path="topics/kotlin/in-line-functions" %}}
 - Project : Work Manager.
+- Project : Getting Data From The Internet.
 
 ## Testing
 
