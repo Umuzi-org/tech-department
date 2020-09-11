@@ -85,7 +85,7 @@ title: Android Development With Kotlin
 
 - Project : Styles and Themes
 - Project : Material Design, dimens, and colors
-
+- {{% contentlink path="projects/kotlin/project-9/design-for-everyone" %}}
 
 ## Testing
 
