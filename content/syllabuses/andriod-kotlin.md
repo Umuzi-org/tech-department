@@ -76,6 +76,7 @@ title: Android Development With Kotlin
 - Project : Work Manager.
 - Project : Getting Data From The Internet.
 - Project : Getting and Displaying Images From The Internet
+- Project : Filtering and Detail Views with Internet Data
 
 ## Testing
 
