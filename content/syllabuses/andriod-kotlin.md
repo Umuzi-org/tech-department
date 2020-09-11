@@ -84,7 +84,7 @@ title: Android Development With Kotlin
 ## Styles, Design, Colours, Dimensions
 
 - Project : Styles and Themes
-- Project : 
+- Project : Material Design, dimens, and colors
 
 
 ## Testing
