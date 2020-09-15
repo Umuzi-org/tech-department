@@ -1,5 +1,4 @@
----
-db_id: 
+--- 
 available_flavours:
 - kotlin
 content_type: project
