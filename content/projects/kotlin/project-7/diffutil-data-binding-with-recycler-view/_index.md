@@ -53,7 +53,7 @@ var data =  listOf<SleepNight>()
    }
 ```
 
-However, notifyDataSetChanged() tells RecyclerView that the entire list is potentially invalid. As a result, RecyclerView rebinds and redraws every item in the list, including items that are not visible on screen. This is a lot of unnecessary work. For large or complex lists, this process could take long enough that the display flickers or stutters as the user scrolls through the list.
+However, `notifyDataSetChanged()` tells RecyclerView that the entire list is potentially invalid. As a result, RecyclerView rebinds and redraws every item in the list, including items that are not visible on screen. This is a lot of unnecessary work. For large or complex lists, this process could take long enough that the display flickers or stutters as the user scrolls through the list.
 
 To fix this problem, you can tell RecyclerView exactly what has changed. RecyclerView can then update only the views that changed on screen.
 
@@ -100,7 +100,7 @@ This generates stubs inside SleepNightDiffCallback for the two methods, as shown
     }
 ```
 
-- Inside areItemsTheSame(), replace the TODO with code that tests whether the two passed-in SleepNight items, oldItem and newItem, are the same. If the items have the same nightId, they are the same item, so return true. Otherwise, return false. DiffUtil uses this test to help discover if an item was added, removed, or moved.
+- Inside `areItemsTheSame()`, replace the TODO with code that tests whether the two passed-in SleepNight items, oldItem and newItem, are the same. If the items have the same nightId, they are the same item, so return true. Otherwise, return false. DiffUtil uses this test to help discover if an item was added, removed, or moved.
 
 ```
 override fun areItemsTheSame(oldItem: SleepNight, newItem: SleepNight): Boolean {
@@ -108,7 +108,7 @@ override fun areItemsTheSame(oldItem: SleepNight, newItem: SleepNight): Boolean 
 }
 ```
 
-- Inside areContentsTheSame(), check whether oldItem and newItem contain the same data; that is, whether they are equal. This equality check will check all the fields, because SleepNight is a data class. Data classes automatically define equals and a few other methods for you. If there are differences between oldItem and newItem, this code tells DiffUtil that the item has been updated.
+- Inside `areContentsTheSame()`, check whether oldItem and newItem contain the same data; that is, whether they are equal. This equality check will check all the fields, because SleepNight is a data class. Data classes automatically define equals and a few other methods for you. If there are differences between oldItem and newItem, this code tells DiffUtil that the item has been updated.
 
 ```
 override fun areContentsTheSame(oldItem: SleepNight, newItem: SleepNight): Boolean {
@@ -124,7 +124,7 @@ ListAdapter keeps track of the list for you and notifies the adapter when the li
 
 #### Step 1: Change your adapter to extend ListAdapter
 - In the SleepNightAdapter.kt file, change the class signature of SleepNightAdapter to extend ListAdapter.
-- If prompted, import androidx.recyclerview.widget.ListAdapter.
+- If prompted, `import androidx.recyclerview.widget.ListAdapter`.
 - Add SleepNight as the first argument to the ListAdapter, before SleepNightAdapter.ViewHolder.
 - Add SleepNightDiffCallback() as a parameter to the constructor. The ListAdapter will use this to figure out what changed in the list. Your finished SleepNightAdapter class signature should look as shown below.
 
@@ -133,8 +133,8 @@ class SleepNightAdapter : ListAdapter<SleepNight, SleepNightAdapter.ViewHolder>(
 ```
 
 - Inside the SleepNightAdapter class, delete the data field, including the setter. You don't need it anymore, because ListAdapter keeps track of the list for you.
-- Delete the override of getItemCount(), because the ListAdapter implements this method for you.
-- To get rid of the error in onBindViewHolder(), change the item variable. Instead of using data to get an item, call the getItem(position) method that the ListAdapter provides.
+- Delete the override of `getItemCount()`, because the ListAdapter implements this method for you.
+- To get rid of the error in `onBindViewHolder()`, change the item variable. Instead of using data to get an item, call the getItem(position) method that the ListAdapter provides.
 
 ```
 val item = getItem(position)
@@ -145,7 +145,7 @@ val item = getItem(position)
 Your code needs to tell the ListAdapter when a changed list is available. ListAdapter provides a method called submitList() to tell ListAdapter that a new version of the list is available. When this method is called, the ListAdapter diffs the new list against the old one and detects items that were added, removed, moved, or changed. Then the ListAdapter updates the items shown by RecyclerView.
 
 - Open SleepTrackerFragment.kt.
-- In onCreateView(), in the observer on sleepTrackerViewModel, find the error where the data variable that you've deleted is referenced.
+- In `onCreateView()`, in the observer on sleepTrackerViewModel, find the error where the data variable that you've deleted is referenced.
 - Replace adapter.data = it with a call to adapter.submitList(it). The updated code is shown below.
 
 ```

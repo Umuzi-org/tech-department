@@ -30,7 +30,7 @@ The first player acts out the word, being careful not to actually say the word i
 
 - To end the game, press the End Game button. (This functionality isn't in the starter code for the first codelab in the series.)
 
-In this codelab, you improve the GuessTheWord app by integrating data binding with LiveData in ViewModel objects. This automates the communication between the views in the layout and the ViewModel objects, and it lets you simplify your code by using LiveData.
+In this project, you improve the GuessTheWord app by integrating data binding with LiveData in ViewModel objects. This automates the communication between the views in the layout and the ViewModel objects, and it lets you simplify your code by using LiveData.
 
 
 
