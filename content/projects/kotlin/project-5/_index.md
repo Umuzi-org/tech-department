@@ -2,7 +2,7 @@
 _db_id: 486
 content_type: project
 ready: true
-submission_type: nosubmit
+submission_type: repo
 title: Project 5
 ---
 
