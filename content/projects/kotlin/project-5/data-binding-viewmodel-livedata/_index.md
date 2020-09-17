@@ -13,7 +13,7 @@ title: Data binding with ViewModel and LiveData.
 
 ### App overview
 
-In the this project, you develop the GuessTheWord app, beginning with starter code. GuessTheWord is a two-player charades-style game, where the players collaborate to achieve the highest score possible.
+In this project, you develop the GuessTheWord app, beginning with starter code. GuessTheWord is a two-player charades-style game, where the players collaborate to achieve the highest score possible.
 
 The first player looks at the words in the app and acts each one out in turn, making sure not to show the word to the second player. The second player tries to guess the word.
 
@@ -204,7 +204,7 @@ binding.playAgainButton.setOnClickListener {  viewModel.onPlayAgain()  }
 
 Run your app. The app should work as before, but now the button views communicate directly with the ViewModel objects. The views no longer communicate via the button click handlers in ScoreFragment.
 
-Troubleshooting data-binding error messages
+### Troubleshooting data-binding error messages
 
 When an app uses data binding, the compilation process generates intermediate classes that are used for the data binding. An app can have errors that Android Studio doesn't detect until you try to compile the app, so you don't see warnings or red code while you're writing the code. But at compile time, you get cryptic errors that come from the generated intermediate classes.
 
@@ -234,7 +234,7 @@ Also note the misspelling of gameViewModel in the <data> section of the XML file
 
 Android Studio doesn't detect errors like these until you compile the app, and then the compiler shows an error message such as the following:
 
-error: cannot find symbol
+`error: cannot find symbol`
 
 ```
 import com.example.android.guesstheword.databinding.GameFragmentBindingImpl"
