@@ -160,7 +160,7 @@ sleepTrackerViewModel.nights.observe(viewLifecycleOwner, Observer {
 
 ### Task: Use DataBinding with RecyclerView
 
-In this task, you use the same technique as in previous codelabs to set up data binding, and you eliminate calls to findViewById().
+In this task, you use the same technique as in previous projects to set up data binding, and you eliminate calls to findViewById().
 
 #### Step 1: Add data binding to the layout file
 
