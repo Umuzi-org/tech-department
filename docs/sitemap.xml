@@ -155,6 +155,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/kotlin/project-1/user-activity/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/tilde/how-to-review-projects/</loc>
   </url>
   
@@ -249,12 +253,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/android/</loc>
+    <loc>/tech-department/projects/android/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/projects/android/</loc>
+    <loc>/tech-department/topics/android/</loc>
     <priority>0</priority>
   </url>
   
@@ -727,6 +731,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/kotlin/project-6/create-a-room-database/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/kotlin/project-3/create-a-fragment/</loc>
   </url>
   
@@ -861,6 +869,14 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/kotlin/project-5/data-binding-viewmodel-livedata/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/kotlin/project-7/diffutil-data-binding-with-recycler-view/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/data-validation-and-quality-control/</loc>
   </url>
   
@@ -937,6 +953,10 @@
   
   <url>
     <loc>/tech-department/topics/kotlin/delegation/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/kotlin/project-9/design-for-everyone/</loc>
   </url>
   
   <url>
@@ -1120,6 +1140,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/kotlin/project-8/getting-data-from-the-internet/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/python-specific/file_io_kata/</loc>
   </url>
   
@@ -1186,6 +1210,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/kotlin/project-7/gridlayout-and-recyclerview/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/tags/hcd/</loc>
     <priority>0</priority>
   </url>
@@ -1242,6 +1270,10 @@
   
   <url>
     <loc>/tech-department/projects/android/information-page/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/kotlin/project-7/interacting-with-recyclerview-items/</loc>
   </url>
   
   <url>
@@ -1719,6 +1751,22 @@
   
   <url>
     <loc>/tech-department/workshops/java-specific/live-code-java-intro/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/kotlin/project-5/live-data-observers/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/kotlin/project-5/live-data-transformations/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/kotlin/project-8/filtering-details-with-internet-data/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/kotlin/project-8/loading-displaying-images/</loc>
   </url>
   
   <url>
@@ -2205,6 +2253,14 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/kotlin/project-7/headers-in-recyclerview/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/kotlin/project-7/recyclerview-fundamentals/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/tags/redux/</loc>
     <priority>0</priority>
   </url>
@@ -2464,6 +2520,14 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/kotlin/project-9/material-designs-dimensions-and-colours/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/kotlin/project-9/styles-and-themes/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/bootcamp/success-in-bootcamp/</loc>
   </url>
   
@@ -2598,10 +2662,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/kotlin/project-1/user-activity/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/js-and-node-specific/fetch/</loc>
   </url>
   
@@ -2716,6 +2776,14 @@
   
   <url>
     <loc>/tech-department/topics/kotlin/work-manager/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/kotlin/project-8/repository/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/kotlin/project-8/work-manager/</loc>
   </url>
   
   <url>
