@@ -39,7 +39,7 @@ title: Android Development With Kotlin
 - Classes and Objects
 - {{% contentlink path="topics/kotlin/sealed-classes" %}}
 
-## Delegation, Generics and Classes.
+## Delegation, Generics, Classes, Live Data and Bindings.
 
 - Topic : Delegation
 - Topic : Delegated Properties
@@ -48,20 +48,44 @@ title: Android Development With Kotlin
 - {{% contentlink path="topics/kotlin/enum-classes" %}}
 - Generics, nested and enum classes.
 - {{% contentlink path="topics/kotlin/enum-classes" %}}
+- Project : LiveData and Live Data Observers.
+- Project : Data binding with ViewModel and LiveData.
+- {{% contentlink path="projects/kotlin/project-5/live-data-transformations"%}}
 
-## Null Safety, Annotations, Constructor, Returns and Jumps.
+## Null Safety, Annotations, Constructor, Returns and Jumps, Database and Recycler View.
 
 - Topic : Null Safety
 - Topic : Annotations
 - Topic : Constructor Default Values
 - {{% contentlink path="topics/kotlin/returns-and-jumps" %}}
+- Project : Create a Room Database.
+- Project : Interacting with RecyclerView items.
+- Project : Recycler View Fundamentals.
+- Project : Data binding with ViewModel and LiveData.
+- Project : DiffUtil and data binding with RecyclerView
+- Project : GridLayout with RecyclerView.
+- {{% contentlink path="projects/kotlin/project-7/headers-in-recyclerview" %}}
 
-## Null Safety, Annotations, Constructor, Returns and Jumps.
+
+## Work Manager, Internet Data, Images, Filtering, Functions.
 
 - Topic : Internet and Data Images.
 - Topic : Work Manager
 - Topic : Functions
 - {{% contentlink path="topics/kotlin/in-line-functions" %}}
+- Project : Work Manager.
+- Project : Getting Data From The Internet.
+- Project : Getting and Displaying Images From The Internet
+- Project : Filtering and Detail Views with Internet Data
+- {{% contentlink path="projects/kotlin/project-8/repository" %}}
+
+
+
+## Styles, Design, Colours, Dimensions
+
+- Project : Styles and Themes
+- Project : Material Design, dimens, and colors
+- {{% contentlink path="projects/kotlin/project-9/design-for-everyone" %}}
 
 ## Testing
 

@@ -37,11 +37,11 @@ Often, you want to change some behavior, or run some code when the activity life
 
 ![](f6b25a71cec4e401.png)
 
-A fragment also has a lifecycle. A fragment's lifecycle is similar to an activity's lifecycle, so a lot of what you learn applies to both. In this codelab, you focus on the activity lifecycle because it's a fundamental part of Android and the easiest to observe in a simple app. Here is the corresponding diagram for the fragment lifecycle:
+A fragment also has a lifecycle. A fragment's lifecycle is similar to an activity's lifecycle, so a lot of what you learn applies to both. In this project, you focus on the activity lifecycle because it's a fundamental part of Android and the easiest to observe in a simple app. Here is the corresponding diagram for the fragment lifecycle:
 
 ![](dfde69e6a42d54b3.png)
 
-It's important to know when these callbacks are invoked and what to do in each callback method. But both of these diagrams are complex and can be confusing. In this codelab, instead of just reading what each state and callback means, you're going to do some detective work and build your understanding of what's going on.
+It's important to know when these callbacks are invoked and what to do in each callback method. But both of these diagrams are complex and can be confusing. In this project, instead of just reading what each state and callback means, you're going to do some detective work and build your understanding of what's going on.
 
 ### Step 1: Examine the onCreate() method and add logging
 
@@ -135,7 +135,7 @@ override fun onStart() {
 5 - Press the Home button on the device, and then use the recents screen to return to the activity. Notice that the activity resumes where it left off, with all the same values, and that `onStart()` is logged a second time to Logcat. Notice also that the `onCreate()` method is usually not called again.
 
 ```
-Note: As you experiment with your device and observe the lifecycle callbacks, you might notice unusual behavior when you rotate your device. You'll learn about that behavior in the next codelab.
+Note: As you experiment with your device and observe the lifecycle callbacks, you might notice unusual behavior when you rotate your device. You'll learn about that behavior in the next project.
 ```
 
 ### Task: Use Timber for logging

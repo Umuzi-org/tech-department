@@ -14,7 +14,7 @@ title: Start an external activity.
 
 ## App overview
    
-The AndroidTrivia app, which you worked on in the previous two codelabs, is a game in which users answer questions about Android development. If the user answers three questions correctly, they win the game.
+The AndroidTrivia app, which you worked on in the previous two project, is a game in which users answer questions about Android development. If the user answers three questions correctly, they win the game.
   
   
 Use the previous project code as the starter code.
