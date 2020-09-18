@@ -7,6 +7,3 @@ title: Project 6
 ---
 
 - Create a Room database.
-- Coroutines and Room.
-- Use LiveData to control button states.
-- RecyclerView fundamentals.

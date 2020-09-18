@@ -8,7 +8,7 @@ prerequisites:
   soft: []
 ready: true
 submission_type: repo
-title: RecyclerView Fundamentals.
+title: Headers in Recycler-View.
 ---
 
 ## App overview
