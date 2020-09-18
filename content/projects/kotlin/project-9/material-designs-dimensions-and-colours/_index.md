@@ -8,7 +8,7 @@ prerequisites:
   soft: []
 ready: true
 submission_type: repo
-title: Styles and Themes.
+title: Material Designs and Dimensions and Colours.
 ---
 
 ### App overview

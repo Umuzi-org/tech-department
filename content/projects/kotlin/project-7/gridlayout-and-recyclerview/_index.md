@@ -4,7 +4,7 @@ available_flavours:
 content_type: project
 prerequisites:
   hard:
-  - projects/kotlin/project-6/diffutil-data-binding-with-recycler-view
+  - projects/kotlin/project-7/diffutil-data-binding-with-recycler-view
   soft: []
 ready: true
 submission_type: repo
