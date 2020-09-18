@@ -155,6 +155,14 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/tilde/how-to-review-projects/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/tilde/review-topic-card-tutorial/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/data-science-specific/nobel-prize-winners/</loc>
   </url>
   
@@ -241,12 +249,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/android/</loc>
+    <loc>/tech-department/topics/android/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/topics/android/</loc>
+    <loc>/tech-department/projects/android/</loc>
     <priority>0</priority>
   </url>
   
@@ -667,10 +675,6 @@
   <url>
     <loc>/tech-department/topics/code-wars/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tech-department/syllabuses/coder-mock-interview/</loc>
   </url>
   
   <url>
@@ -1305,6 +1309,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/syllabuses/intro-to-tilde-for-students/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/web-frontend/intro-to-vue/</loc>
   </url>
   
@@ -1461,7 +1469,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/intro-to-tilde/</loc>
+    <loc>/tech-department/topics/tilde/intro-to-tilde/</loc>
   </url>
   
   <url>
@@ -1611,12 +1619,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/javascript-specific/</loc>
+    <loc>/tech-department/workshops/javascript-specific/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/workshops/javascript-specific/</loc>
+    <loc>/tech-department/topics/javascript-specific/</loc>
     <priority>0</priority>
   </url>
   
@@ -2535,6 +2543,11 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/tilde/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/workshops/time-managment/</loc>
   </url>
   
@@ -2816,6 +2829,10 @@
   
   <url>
     <loc>/tech-department/projects/tdd/bowling/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/syllabuses/web-dev-free-trial/</loc>
   </url>
   
 </urlset>

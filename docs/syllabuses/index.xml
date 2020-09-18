@@ -21,15 +21,6 @@
     
     <item>
       <title>Coder Mock Interviews</title>
-      <link>/tech-department/syllabuses/coder-mock-interview/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tech-department/syllabuses/coder-mock-interview/</guid>
-      <description>  TOPICS: Recruit Career Questionnaire   PROJECTS: Build your first personal website   TOPICS: CV Guidlines   TOPICS: Creating A Memorable Statement   TOPICS: Mock Interviews Survey   TOPICS: Mock Interviews   </description>
-    </item>
-    
-    <item>
-      <title>Coder Mock Interviews</title>
       <link>/tech-department/syllabuses/interview-prep/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -43,7 +34,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/syllabuses/data-eng/</guid>
-      <description>Introduction to NCIT curriculum NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile &amp;amp; Scrum   WORKSHOPS: Agile and Scrum  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   TOPICS: Python self-learning   TOPICS: Clean Code for Python   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  TOPICS: Automate the boring stuff: Chapter 0 – Introduction   TOPICS: Automate the boring stuff: Chapter 1 – Python Basics   TOPICS: Automate the boring stuff: Chapter 2 – Flow Control   TOPICS: Automate the boring stuff: Chapter 3 – Functions   PROJECTS: Level 1 programming katas   PROJECTS: Build your first personal website   TOPICS: How to ask for help with your code   WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)   TOPICS: Automate the boring stuff: Chapter 4 – Lists   TOPICS: Python Lists in depth   TOPICS: Automate the boring stuff: Chapter 5 – Dictionaries and Structuring Data   TOPICS: Automate the boring stuff: Chapter 6 – Manipulating Strings   TOPICS: Automate the boring stuff: Chapter 7 – Pattern Matching with Regular Expressions   TOPICS: Intro OOP(Object-oriented Programming) for Python   TOPICS: Automated Testing in Python   TOPICS: [TODO] Virtual Environments   PROJECTS: Animals Part 2.</description>
+      <description>Introduction to NCIT curriculum NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile &amp;amp; Scrum   WORKSHOPS: Agile and Scrum  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   TOPICS: Python self-learning   TOPICS: Clean Code for Python   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  TOPICS: Automate the boring stuff: Chapter 0 – Introduction   TOPICS: Automate the boring stuff: Chapter 1 – Python Basics   TOPICS: Automate the boring stuff: Chapter 2 – Flow Control   TOPICS: Automate the boring stuff: Chapter 3 – Functions   PROJECTS: Level 1 programming katas   PROJECTS: Build your first personal website   TOPICS: How to ask for help with your code   WORKSHOPS: [TODO] Big Picture of Web Dev  NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)   TOPICS: Automate the boring stuff: Chapter 4 – Lists   TOPICS: Python Lists in depth   TOPICS: Automate the boring stuff: Chapter 5 – Dictionaries and Structuring Data   TOPICS: Automate the boring stuff: Chapter 6 – Manipulating Strings   TOPICS: Automate the boring stuff: Chapter 7 – Pattern Matching with Regular Expressions   TOPICS: Intro OOP(Object-oriented Programming) for Python   TOPICS: Automated Testing in Python   TOPICS: Virtual Environments   PROJECTS: Animals Part 2.</description>
     </item>
     
     <item>
@@ -52,7 +43,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/syllabuses/data-sci/</guid>
-      <description> Introduction to NCIT curriculum NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile &amp;amp; Scrum   WORKSHOPS: Agile and Scrum  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   TOPICS: Python self-learning   TOPICS: Clean Code for Python   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  PROJECTS: Level 1 programming katas   PROJECTS: Build your first personal website   TOPICS: How to ask for help with your code  NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)   TOPICS: Intro OOP(Object-oriented Programming) for Python   TOPICS: Automated Testing in Python   TOPICS: [TODO] Virtual Environments   WORKSHOPS: Survey design   WORKSHOPS: Google forms like a boss   PROJECTS: Assertive programming kata   PROJECTS: [TODO] Data Visualisation Projects   WORKSHOPS: Data Ethics  NCIT 11: Test-driven development  PROJECTS: string-calculator   PROJECTS: Statistical Thinking   TOPICS: The Tech Landscape Terminology  NCIT 12: Business and technology  PROJECTS: Data Wrangling   PROJECTS: Cross-validation &amp;amp; Simple Linear Regression   PROJECTS: Multivariate Linear Regression  NCIT 13: Object-oriented programming  TOPICS: How the internet works   TOPICS: Data Ethics and Privacy  NCIT 05: History of the Internet NCIT 08: Pseudocode and documentation  PROJECTS: OOP for data science   PROJECTS: Plotly Dashboard Assignment  NCIT 14: Database Development  PROJECTS: SQL  NCIT 15: Analytics, Surveys, and Reports / Input &amp;amp; Output  PROJECTS: Logistic regression   WORKSHOPS: Agile and Scrum   PROJECTS: Decision Trees  NCIT 16: Thinking like a machine / Boolean algebra, logic NCIT 17: Search and sort techniques NCIT 18: Agile project management NCIT 19: Agile meetings NCIT 20: Managing the Software Development Process  TOPICS: optimizations and big-O  NCIT Summative assessment  WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap   TOPICS: Database Comparison   PROJECTS: K-Means Clustering Assignment   PROJECTS: Natural language processing   </description>
+      <description> Introduction to NCIT curriculum NCIT 01: Conducting research and user interviews NCIT 02: Reporting NCIT 03: Research presentation  TOPICS: Agile &amp;amp; Scrum   WORKSHOPS: Agile and Scrum  NCIT 18: Agile project management NCIT 19: Agile meetings  WORKSHOPS: How to be a professional   TOPICS: Python self-learning   TOPICS: Clean Code for Python   PROJECTS: Git Basic Exercises  NCIT 04: Version control (GIT) for teamwork  PROJECTS: Level 1 programming katas   PROJECTS: Build your first personal website   TOPICS: How to ask for help with your code  NCIT 10: Workshop: Giving and receiving constructive feedback NCIT 06: Web design for business NCIT 07: Building an online business NCIT 12: Business and technology NCIT 09: Ethics and Professionalism in IT  WORKSHOPS: Clean Code (language agnostic)   TOPICS: Intro OOP(Object-oriented Programming) for Python   TOPICS: Automated Testing in Python   TOPICS: Virtual Environments   WORKSHOPS: Survey design   WORKSHOPS: Google forms like a boss   PROJECTS: Assertive programming kata   PROJECTS: [TODO] Data Visualisation Projects   WORKSHOPS: Data Ethics  NCIT 11: Test-driven development  PROJECTS: string-calculator   PROJECTS: Statistical Thinking   TOPICS: The Tech Landscape Terminology  NCIT 12: Business and technology  PROJECTS: Data Wrangling   PROJECTS: Cross-validation &amp;amp; Simple Linear Regression   PROJECTS: Multivariate Linear Regression  NCIT 13: Object-oriented programming  TOPICS: How the internet works   TOPICS: Data Ethics and Privacy  NCIT 05: History of the Internet NCIT 08: Pseudocode and documentation  PROJECTS: OOP for data science   PROJECTS: Plotly Dashboard Assignment  NCIT 14: Database Development  PROJECTS: SQL  NCIT 15: Analytics, Surveys, and Reports / Input &amp;amp; Output  PROJECTS: Logistic regression   WORKSHOPS: Agile and Scrum   PROJECTS: Decision Trees  NCIT 16: Thinking like a machine / Boolean algebra, logic NCIT 17: Search and sort techniques NCIT 18: Agile project management NCIT 19: Agile meetings NCIT 20: Managing the Software Development Process  TOPICS: optimizations and big-O  NCIT Summative assessment  WORKSHOPS: Git for Teamwork   WORKSHOPS: [TODO] Agile Recap   TOPICS: Database Comparison   PROJECTS: K-Means Clustering Assignment   PROJECTS: Natural language processing   </description>
     </item>
     
     <item>
@@ -80,6 +71,16 @@
       
       <guid>/tech-department/syllabuses/hybrid-mobile-short/</guid>
       <description>Part 1   TOPICS: Intro to hybrid mobile   TOPICS: Introduction to Typescript   TOPICS: Introduction to web design   PROJECTS: Level 1 programming katas   Part 2   TOPICS: Jasmine Unit testing  Project: Animal Part 1 (Prerequisite)  PROJECTS: Animals Part 2. Adding Tests  Project : Password-Checker (Prerequisite)  PROJECTS: Add logging to password checker   Part 3   TOPICS: Intro to Angular   PROJECTS: Angular Tutorial  Project : semitone difference - basic algorithm (Prerequisite) Project : make a simple GUI (Prerequisite)  PROJECTS: semitone difference - Add Redux   Part 4   TOPICS: Angular Elements   PROJECTS: Memory game using Angular Material   Part 5   TOPICS: Angular testing with Cucumber and Protractor   TOPICS: Mocking with Angular   PROJECTS: Angular Testing with Cucumber   PROJECTS: Mocking with Angular   Part 6   TOPICS: Introduction to Ionic.</description>
+    </item>
+    
+    <item>
+      <title>Intro to Tilde for students</title>
+      <link>/tech-department/syllabuses/intro-to-tilde-for-students/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/syllabuses/intro-to-tilde-for-students/</guid>
+      <description>The Tilde learning platform is not 100% intuitive to everyone from the get go. This mini-course introduces everyone to Topic and Project cards.
+  TOPICS: [TODO] Introduction to Tilde   TOPICS: [TODO]   TOPICS: [TODO]   PROJECTS: [MISSING title or page]  PROJECTS: [MISSING title or page]  </description>
     </item>
     
     <item>
@@ -131,7 +132,7 @@ Soft Skills   TOPICS: Learning How To Learn   TOPICS: Communication   TOPICS: Em
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/syllabuses/web-dev-no-nqf/</guid>
-      <description>TOPICS: [TODO] Introduction to Tilde   TOPICS: Basic Javascript   TOPICS: Beginning Bash   PROJECTS: Git Basic Exercises   TOPICS: Useful Git commands   TOPICS: Clean Code For JavaScript   TOPICS: How to ask for help with your code   PROJECTS: Level 1 programming katas   TOPICS: Agile &amp;amp; Scrum   WORKSHOPS: Agile and Scrum   TOPICS: Basic Javascript   WORKSHOPS: [TODO] Big Picture of Web Dev   WORKSHOPS: How to be a professional   TOPICS: ES6   TOPICS: Debugging   TOPICS: Web Dev learning materials   TOPICS: Clean Code   TOPICS: [TODO] Super basic intro to Node   PROJECTS: Level 1 programming katas   TOPICS: Basic HTML and HTM5   TOPICS: Basic CSS   TOPICS: Applied Visual Design   WORKSHOPS: Intro to CSS architecture   TOPICS: Introduction to web design   PROJECTS: Build your first personal website   WORKSHOPS: Clean Code (language agnostic)   TOPICS: Object Orientated Programming   TOPICS: Jasmine Unit testing   PROJECTS: Animals Part 2.</description>
+      <description>TOPICS: [MISSING title or page]  TOPICS: Basic Javascript   TOPICS: Beginning Bash   PROJECTS: Git Basic Exercises   TOPICS: Useful Git commands   TOPICS: Clean Code For JavaScript   TOPICS: How to ask for help with your code   PROJECTS: Level 1 programming katas   TOPICS: Agile &amp;amp; Scrum   WORKSHOPS: Agile and Scrum   TOPICS: Basic Javascript   WORKSHOPS: [TODO] Big Picture of Web Dev   WORKSHOPS: How to be a professional   TOPICS: ES6   TOPICS: Debugging   TOPICS: Web Dev learning materials   TOPICS: Clean Code   TOPICS: [TODO] Super basic intro to Node   PROJECTS: Level 1 programming katas   TOPICS: Basic HTML and HTM5   TOPICS: Basic CSS   TOPICS: Applied Visual Design   WORKSHOPS: Intro to CSS architecture   TOPICS: Introduction to web design   PROJECTS: Build your first personal website   WORKSHOPS: Clean Code (language agnostic)   TOPICS: Object Orientated Programming   TOPICS: Jasmine Unit testing   PROJECTS: Animals Part 2.</description>
     </item>
     
     <item>
@@ -169,7 +170,7 @@ You should be completeing one Sololearn Goal each week along with the soft skill
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/syllabuses/_web-frontend-foundations/</guid>
-      <description>TOPICS: Basic Javascript   TOPICS: Basic HTML and HTM5   TOPICS: Basic CSS   TOPICS: Applied Visual Design   TOPICS: Object Orientated Programming   TOPICS: Basic Data Structures   TOPICS: Basic Algorithm Scripting   TOPICS: Applied Accessability   TOPICS: Responsive Web Design Principles   TOPICS: CSS Flexbox   TOPICS: Functional Programming   TOPICS: Intermediate Algorithm Scripting   TOPICS: CSS Grid   TOPICS: [TODO] Introduction to Tilde   TOPICS: Beginning Bash   PROJECTS: Git Basic Exercises   TOPICS: Useful Git commands   TOPICS: Clean Code For JavaScript   TOPICS: How to ask for help with your code   PROJECTS: Level 1 programming katas   TOPICS: Agile &amp;amp; Scrum   WORKSHOPS: [TODO] Big Picture of Web Dev   TOPICS: [TODO] Super basic intro to Node   TOPICS: Introduction to web design   PROJECTS: Build your first personal website   WORKSHOPS: Clean Code (language agnostic)   TOPICS: Jasmine Unit testing   PROJECTS: Animals Part 2.</description>
+      <description>TOPICS: Basic Javascript   TOPICS: Basic HTML and HTM5   TOPICS: Basic CSS   TOPICS: Applied Visual Design   TOPICS: Object Orientated Programming   TOPICS: Basic Data Structures   TOPICS: Basic Algorithm Scripting   TOPICS: Applied Accessability   TOPICS: Responsive Web Design Principles   TOPICS: CSS Flexbox   TOPICS: Functional Programming   TOPICS: Intermediate Algorithm Scripting   TOPICS: CSS Grid   TOPICS: [MISSING title or page]  TOPICS: Beginning Bash   PROJECTS: Git Basic Exercises   TOPICS: Useful Git commands   TOPICS: Clean Code For JavaScript   TOPICS: How to ask for help with your code   PROJECTS: Level 1 programming katas   TOPICS: Agile &amp;amp; Scrum   WORKSHOPS: [TODO] Big Picture of Web Dev   TOPICS: [TODO] Super basic intro to Node   TOPICS: Introduction to web design   PROJECTS: Build your first personal website   WORKSHOPS: Clean Code (language agnostic)   TOPICS: Jasmine Unit testing   PROJECTS: Animals Part 2.</description>
     </item>
     
     <item>
@@ -184,6 +185,16 @@ Swift and More  Topic : iOS Overview Topic : MVC Topic : Swift Development and o
  Topic : Views continued, Gestures
  Topic : Multiple MVCs, Timer, Animation
  Topic : Animation</description>
+    </item>
+    
+    <item>
+      <title>web-dev-foundations Free Trial</title>
+      <link>/tech-department/syllabuses/web-dev-free-trial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/syllabuses/web-dev-free-trial/</guid>
+      <description>This short syllabus is given to new potential students. Basically they will need to see how everything works.
+  TOPICS: [MISSING title or page]  TOPICS: [MISSING title or page]  PROJECTS: Build your first personal website   TOPICS: Web dev bootcamp setup   TOPICS: Beginning Bash   PROJECTS: Git Basic Exercises   PROJECTS: Level 1 programming katas   </description>
     </item>
     
   </channel>
