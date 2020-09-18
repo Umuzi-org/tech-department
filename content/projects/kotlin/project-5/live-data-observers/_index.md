@@ -15,12 +15,6 @@ title: LiveData and LiveData observers.
 
 ![](dsadsaasdasd.png)
 
-The first player acts out the word, being careful not to actually say the word itself.
-
-- When the second player guesses the word correctly, the first player presses the Got It button, which increases the count by one and shows the next word.
-- If the second player can't guess the word, the first player presses the Skip button, which decreases the count by one and skips to the next word.
-- To end the game, press the End Game button. (This functionality isn't in the starter code for the first codelab in the series.)
-
 In this project, you improve the GuessTheWord app by adding an event to end the game when the user cycles through all the words in the app. You also add a Play Again button in the score fragment, so the user can play the game again.
 
 ![](4abf85983013d4f3.png),![](d6bf6cf728fb6c09.png)
@@ -28,14 +22,14 @@ In this project, you improve the GuessTheWord app by adding an event to end the 
 
 ### Task
 
-In this task, you locate and run your starter code for this project. You can use the GuessTheWord app that you built in previous codelab as your starter code, or you can download a starter app.
+In this task, you locate and run your starter code for this project. You can use the GuessTheWord app that you built in previous project as your starter code, or you can download a starter app.
 - (Optional) If you're not using your code from the previous project, [download](https://drive.google.com/drive/folders/1Lrek_RHa4i8sXpCH-6QcspSLRNULVlFY?usp=sharing) the starter code for this project. Unzip the code, and open the project in Android Studio.
 - Run the app and play the game.
 - Notice that the Skip button displays the next word and decreases the score by one, and the Got It button shows the next word and increases the score by one. The End Game button ends the game.
 
 ###Task: Add LiveData to the GameViewModel
 
-LiveData is an observable data holder class that is lifecycle-aware. For example, you can wrap a LiveData around the current score in the GuessTheWord app. In this codelab, you learn about several characteristics of LiveData:
+LiveData is an observable data holder class that is lifecycle-aware. For example, you can wrap a LiveData around the current score in the GuessTheWord app. In this project, you learn about several characteristics of LiveData:
 
 - LiveData is observable, which means that an observer is notified when the data held by the LiveData object changes.
 - LiveData holds data; LiveData is a wrapper that can be used with any data
@@ -179,7 +173,7 @@ When the value of score or the word changes, the score or word displayed on the 
 
 Encapsulation is a way to restrict direct access to some of an object's fields. When you encapsulate an object, you expose a set of public methods that modify the private internal fields. Using encapsulation, you control how other classes manipulate these internal fields.
 
-In your current code, any external class can modify the score and word variables using the value property, for example using viewModel.score.value. It might not matter in the app you're developing in this codelab, but in a production app, you want control over the data in the ViewModel objects.
+In your current code, any external class can modify the score and word variables using the value property, for example using viewModel.score.value. It might not matter in the app you're developing in this project, but in a production app, you want control over the data in the ViewModel objects.
 
 Only the ViewModel should edit the data in your app. But UI controllers need to read the data, so the data fields can't be completely private. To encapsulate your app's data, you use both MutableLiveData and LiveData objects.
 

@@ -38,12 +38,12 @@ In this task, you download and run the starter app and examine the starter code.
 
 ### Step 2: Explore the code
 
-The starter app comes with a lot of code that was introduced in the previous codelab. The starter code for this codelab has networking, user interface, offline cache, and repository modules. You can focus on scheduling the background task using WorkManager.
+The starter app comes with a lot of code that was introduced in the previous project. The starter code for this codelab has networking, user interface, offline cache, and repository modules. You can focus on scheduling the background task using WorkManager.
 
 - In Android Studio, expand all the packages.
 - Explore the database package. The package contains the database entities and the local database, which is implemented using Room.
 - Explore the repository package. The package contains the VideosRepository class that abstracts the data layer from the rest of the app.
-- Explore the rest of starter code on your own, and with the help of the previous codelab.
+- Explore the rest of starter code on your own, and with the help of the previous project.
 
 ### Concept: WorkManager
 WorkManager is one of the Android Architecture Components and part of Android Jetpack. WorkManager is for background work that's deferrable and requires guaranteed execution:
@@ -57,7 +57,7 @@ WorkManager is one of the Android Architecture Components and part of Android Je
 
 While WorkManager runs background work, it takes care of compatibility issues and best practices for battery and system health. WorkManager offers compatibility back to API level 14. WorkManager chooses an appropriate way to schedule a background task, depending on the device API level. It might use JobScheduler (on API 23 and higher) or a combination of AlarmManager and BroadcastReceiver.
 
-WorkManager also lets you set criteria on when the background task runs. For example, you might want the task to run only when the battery status, network status, or charge state meet certain criteria. You learn how to set constraints later in this codelab.
+WorkManager also lets you set criteria on when the background task runs. For example, you might want the task to run only when the battery status, network status, or charge state meet certain criteria. You learn how to set constraints later in this project.
 
 ```
 Note:

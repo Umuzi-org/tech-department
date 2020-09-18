@@ -28,7 +28,7 @@ The architecture for the MarsRealEstate app has two main modules:
 
 ![](c5333bd8ad9bc1d5.png)
 
-The app has a ViewModel for each fragment. For this codelab, you create a layer for the network service, and the ViewModel communicates directly with that network layer. This is similar to what you did in previous codelabs when the ViewModel communicated with the Room database.
+The app has a ViewModel for each fragment. For this project, you create a layer for the network service, and the ViewModel communicates directly with that network layer. This is similar to what you did in previous projects when the ViewModel communicated with the Room database.
 
 The overview ViewModel is responsible for making the network call to get the Mars real estate information. The detail ViewModel holds details for the single piece of Mars real estate that's displayed in the detail fragment. For each ViewModel, you use LiveData with lifecycle-aware data binding to update the app UI when the data changes.
 
@@ -57,9 +57,9 @@ In this task, you download and run the starter app for MarsRealEstate and famili
 
 - Examine the init block. When the ViewModel is created, it calls the getMarsRealEstateProperties() method.
 
-- Examine the getMarsRealEstateProperties() method. In this starter app, this method contains a placeholder response. The goal for this codelab is to update the response LiveData within the ViewModel using real data you get from the internet.
+- Examine the getMarsRealEstateProperties() method. In this starter app, this method contains a placeholder response. The goal for this project is to update the response LiveData within the ViewModel using real data you get from the internet.
 
-- Open app/res/layout/fragment_overview.xml. This is the layout for the overview fragment you work with in this codelab, and it includes the data binding for the view model. It imports the OverviewViewModel and then binds the response from the ViewModel to a TextView. In later codelabs, you replace the text view with a grid of images in a RecyclerView.
+- Open app/res/layout/fragment_overview.xml. This is the layout for the overview fragment you work with in this project, and it includes the data binding for the view model. It imports the OverviewViewModel and then binds the response from the ViewModel to a TextView. In later projects, you replace the text view with a grid of images in a RecyclerView.
 
 - Compile and run the app. All you see in the current version of this app is the starter response—"Set the Mars API Response here!"
 
@@ -79,7 +79,7 @@ https://android-kotlin-fun-mars-server.appspot.com/realestate
 
 The response from a web service is commonly formatted in JSON, an interchange format for representing structured data. You learn more about JSON in the next task, but the short explanation is that a JSON object is a collection of key-value pairs, sometimes called a dictionary, a hash map, or an associative array. A collection of JSON objects is a JSON array, and it's the array you get back as a response from a web service.
 
-To get this data into the app, your app needs to establish a network connection and communicate with that server, and then receive and parse the response data into a format the app can use. In this codelab, you use a REST client library called Retrofit to make this connection.
+To get this data into the app, your app needs to establish a network connection and communicate with that server, and then receive and parse the response data into a format the app can use. In this projects, you use a REST client library called Retrofit to make this connection.
 
 #### Step 1: Add Retrofit dependencies to Gradle
 

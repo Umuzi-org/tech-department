@@ -27,7 +27,7 @@ This app uses a simplified architecture with a UI controller, view model and Liv
 
 ![](49f975f1e5fe689.png)
 
-The sleep data is displayed in a RecyclerView. In this codelab, you change the app to use a GridLayout. The final screen will look like the screenshot below.
+The sleep data is displayed in a RecyclerView. In this project, you change the app to use a GridLayout. The final screen will look like the screenshot below.
 
 ![](b0abde98c5f99bf6.png)
 
@@ -67,10 +67,10 @@ When you create a GridLayoutManager, you specify the orientation separately from
 
 ### Task: Implement GridLayout
 
-In this task, you take the RecyclerView that you finished in the last exercise and update it to display data using a GridLayoutManager. You can continue using the sleep-tracker app from the previous codelab, or you can download the RecyclerViewGridLayout-Starter app from GitHub.
+In this task, you take the RecyclerView that you finished in the last exercise and update it to display data using a GridLayoutManager. You can continue using the sleep-tracker app from the previous project, or you can download the RecyclerViewGridLayout-Starter app from GitHub.
 
 ### Step 1: Change the LayoutManager
-- If needed, download the RecyclerViewGridLayout-Starter app for this codelab from GitHub and open the project in Android Studio.
+- If needed, download the RecyclerViewGridLayout-Starter app for this project from GitHub and open the project in Android Studio.
 - Open the fragment_sleep_tracker.xml layout file.
 - Remove the layout manager from the sleep_list RecyclerView definition.
 

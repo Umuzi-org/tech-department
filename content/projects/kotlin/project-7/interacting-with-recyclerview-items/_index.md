@@ -71,7 +71,7 @@ fun getNightWithId(key: Long): LiveData<SleepNight>
 
 - Step 2: Inspect the code for the sleep details screen
 
-In this project, you implement a click handler that navigates to a fragment that shows details about the clicked sleep night. Your starter code already contains the fragment and navigation graph for this SleepDetailFragment, because it's quite a bit of code, and fragments and navigation are not part of this codelab. Familiarize yourself with the following code:
+In this project, you implement a click handler that navigates to a fragment that shows details about the clicked sleep night. Your starter code already contains the fragment and navigation graph for this SleepDetailFragment, because it's quite a bit of code, and fragments and navigation are not part of this project. Familiarize yourself with the following code:
 
 - In your app, find the sleepdetail package. This package contains the fragment, view model, and view model factory for a fragment that displays details for one night of sleep.
 
@@ -111,7 +111,7 @@ While the ViewHolder is a great place to listen for clicks, it's not usually the
 - The Adapter displays data items in views, so you could handle clicks in the adapter. However, the adapter's job is to adapt data for display, not deal with app logic.
 - You should usually handle clicks in the ViewModel, because the ViewModel has access to the data and logic for determining what needs to happen in response to the click.
 
-***Tip: There are other patterns for implementing click listeners in RecyclerViews, but the one you work with in this codelab is easier to explain and more straightforward to implement. As you work on Android apps, you'll encounter different patterns for using click listeners in RecyclerViews. All the patterns have their advantages.***
+***Tip: There are other patterns for implementing click listeners in RecyclerViews, but the one you work with in this project is easier to explain and more straightforward to implement. As you work on Android apps, you'll encounter different patterns for using click listeners in RecyclerViews. All the patterns have their advantages.***
 
 ### Step 1: Create a click listener and trigger it from the item layout
 
@@ -270,7 +270,7 @@ sleepTrackerViewModel.onSleepNightClicked(nightId)
 
 - Open SleepTrackerFragment.kt.
 
-- In onCreateView(), right above the declaration of manager, add code to observe the new navigateToSleepDetail LiveData. When navigateToSleepDetail changes, navigate to the SleepDetailFragment, passing in the night, then call onSleepDetailNavigated() afterwards. Since you 've done this before in a previous codelab, here is the code:
+- In onCreateView(), right above the declaration of manager, add code to observe the new navigateToSleepDetail LiveData. When navigateToSleepDetail changes, navigate to the SleepDetailFragment, passing in the night, then call onSleepDetailNavigated() afterwards. Since you 've done this before in a previous project, here is the code:
 
 ```
 sleepTrackerViewModel.navigateToSleepDetail.observe(this, Observer { night ->

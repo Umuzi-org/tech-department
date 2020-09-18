@@ -53,9 +53,9 @@ This app uses a simplified architecture, as shown below in the context of the fu
 ##### Take a look at the Gradle files:
 
 - The project Gradle file
-- In the project-level build.gradle file, notice the variables that specify library versions. The versions used in the starter app work well together, and work well with this app. By the time you finish this codelab, Android Studio might prompt you to update some of the versions. It's up to you whether you want to update or stay with the versions that are in the app.
+- In the project-level build.gradle file, notice the variables that specify library versions. The versions used in the starter app work well together, and work well with this app. By the time you finish this project, Android Studio might prompt you to update some of the versions. It's up to you whether you want to update or stay with the versions that are in the app.
 - The module Gradle file. Notice the provided dependencies for all the Android Jetpack libraries, including Room, and the dependencies for coroutines.
-- Take a look at the packages and UI. The app is structured by functionality. The package contains placeholder files where you will add code throughout this series of codelabs.
+- Take a look at the packages and UI. The app is structured by functionality. The package contains placeholder files where you will add code throughout this series of projects.
 - The database package, for all code relating to the Room database.
 - The sleepquality and sleeptracker packages contain the fragment, view model, and view model factory for each screen.
 - Take a look at the Util.kt file, which contains functions to help display sleep-quality data. Some code is commented out because it references a view model that you create later.
@@ -338,7 +338,7 @@ instance = Room.databaseBuilder(
 
 - Add the required migration strategy to the builder. Use .fallbackToDestructiveMigration().
 
-Normally, you would have to provide a migration object with a migration strategy for when the schema changes. A migration object is an object that defines how you take all rows with the old schema and convert them to rows in the new schema, so that no data is lost. Migration is beyond the scope of this codelab. A simple solution is to destroy and rebuild the database, which means that the data is lost.
+Normally, you would have to provide a migration object with a migration strategy for when the schema changes. A migration object is an object that defines how you take all rows with the old schema and convert them to rows in the new schema, so that no data is lost. Migration is beyond the scope of this project. A simple solution is to destroy and rebuild the database, which means that the data is lost.
 
 ```
 .fallbackToDestructiveMigration()

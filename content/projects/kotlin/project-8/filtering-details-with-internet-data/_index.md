@@ -45,7 +45,7 @@ In this task, you start working with the Mars property type to add a dollar-sign
 
 #### Step 1: Update MarsProperty to include the type
 
-The MarsProperty class defines the data structure for each property provided by the web service. In a previous codelab, you used the Moshi library to parse the raw JSON response from the Mars web service into individual MarsProperty data objects.
+The MarsProperty class defines the data structure for each property provided by the web service. In a previous project, you used the Moshi library to parse the raw JSON response from the Mars web service into individual MarsProperty data objects.
 
 In this step, you add some logic to the MarsProperty class to indicate whether a property is for rent or not (that is, whether the type is the string "rent" or "buy"). You'll use this logic in more than one place, so it's better to have it here in the data class than to replicate it.
 
@@ -176,7 +176,7 @@ In this task, you modify the MarsApiService class to add a query option to the w
 
 #### Step 1: Update the Mars API service
 
-To change the request, you need to revisit the MarsApiService class that you implemented in the first codelab in this series. You modify the class to provide a filtering API.
+To change the request, you need to revisit the MarsApiService class that you implemented in the first project in this series. You modify the class to provide a filtering API.
 
 - Open network/MarsApiService.kt. Just below the imports, create an enum called MarsApiFilter to define constants that match the query values the web service expects.
 

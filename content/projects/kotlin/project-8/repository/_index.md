@@ -19,7 +19,7 @@ The DevBytes starter app fetches a list of video URLs from the network using the
 
 ![](30ee74d946a2f6ca.png)
 
-The starter app is online-only, so the user needs a network connection to use it. In this codelab, you implement offline caching to display results from the local database, instead of from the network. Your users will be able to use the app while their device is offline, or if they have a slow network connection.
+The starter app is online-only, so the user needs a network connection to use it. In this projects, you implement offline caching to display results from the local database, instead of from the network. Your users will be able to use the app while their device is offline, or if they have a slow network connection.
 
 To implement the offline cache, you use a Room database to make fetched data persistent in the device's local storage. You access and manage the Room database using a repository pattern, which is a design pattern that isolates data sources from the rest of the app. This technique provides a clean API for the rest of the app to use for accessing the data.
 
@@ -88,7 +88,7 @@ The network/DataTransferObjects.kt class contains the data class for a data tran
 
 - Try exploring the rest of starter code on your own.
 
-The rest of the apps' architecture is similar to the other apps used in the previous codelabs:
+The rest of the apps' architecture is similar to the other apps used in the previous projects:
 
 - The Retrofit service, network/Service.kt, fetches the devbytes playlist from the network.
 
@@ -100,7 +100,7 @@ The rest of the apps' architecture is similar to the other apps used in the prev
 
 After an app fetches data from the network, the app can cache the data by storing the data in a device's storage. You cache data so that you can access it later when the device is offline, or if you want to access the same data again.
 
-The following table shows several ways to implement network caching in Android. In this codelab, you use Room, because it's the recommended way to store structured data on a device file system.
+The following table shows several ways to implement network caching in Android. In this projects, you use Room, because it's the recommended way to store structured data on a device file system.
 
 | Caching technique | Uses |
 
@@ -451,7 +451,7 @@ If new data came in from the network, the screen would automatically update to s
 
 ***Tip: The easiest way to remove the cache for testing is to uninstall the app.***
 
-Great work! In this codelab, you implemented an offline cache using Room, attached the cache to a repository, and manipulated LiveData using a transformation. You also integrated the offline cache with the ViewModel to display the playlist from the repository instead of fetching the playlist from the network.
+Great work! In this project, you implemented an offline cache using Room, attached the cache to a repository, and manipulated LiveData using a transformation. You also integrated the offline cache with the ViewModel to display the playlist from the repository instead of fetching the playlist from the network.
 
 
 

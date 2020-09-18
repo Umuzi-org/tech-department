@@ -23,7 +23,7 @@ As you develop this app, you work on the real list of GDGs. The finder screen us
 
 If you're lucky and there's a GDG in your region, you can check out the website and sign up for their events! GDG events are a great way to meet other Android developers and learn industry best practices that didn't fit in this course.
 
-The screenshots below show how your app will change from the beginning to the end of this codelab.
+The screenshots below show how your app will change from the beginning to the end of this project.
 
 ![](ab0a2ee53dbd062a.png)
 
@@ -67,7 +67,7 @@ This is the default styling provided by the Android system.
 
 When Android styles a view, it applies a combination of themes, styles, and attributes, which you can customize. Attributes always overwrite anything specified in a style or theme. And styles always overwrite anything specified in a theme.
 
-The screenshots below show the GDG-finder app with light theme (left) and a dark theme (right), as well as with a custom font and header sizes. This can be implemented in several ways, and you learn some of them in this codelab.
+The screenshots below show the GDG-finder app with light theme (left) and a dark theme (right), as well as with a custom font and header sizes. This can be implemented in several ways, and you learn some of them in this project.
 
 ![](eab9826ee090267a.png)
 
@@ -285,7 +285,7 @@ The style has a parent, just as a theme can have a parent. But this time, instea
 
 - In home_fragment.xml, add the TextAppearance.Title style to the title text view. Delete the textSize and textColor attributes.
 
-Themes override any TextAppearance styling that you set. (The pyramid diagram at the beginning of the codelab shows the order in which styling is applied.) Use the textAppearance property to apply the style as a TextAppearance so that the font set in the Theme overrides what you set here.
+Themes override any TextAppearance styling that you set. (The pyramid diagram at the beginning of the project shows the order in which styling is applied.) Use the textAppearance property to apply the style as a TextAppearance so that the font set in the Theme overrides what you set here.
 
 ```
 <TextView

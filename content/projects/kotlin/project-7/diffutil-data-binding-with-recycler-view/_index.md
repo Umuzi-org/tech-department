@@ -24,7 +24,7 @@ This app is architected to use a UI controller, ViewModel and LiveData, and a Ro
 
 ![](49f975f1e5fe689.png)
 
-The sleep data is displayed in a RecyclerView. In this codelab, you build the DiffUtil and data-binding portion for the RecyclerView. After this codelab, your app will look exactly the same, but it will be more efficient and easier to scale and maintain.
+The sleep data is displayed in a RecyclerView. In this project, you build the DiffUtil and data-binding portion for the RecyclerView. After this project, your app will look exactly the same, but it will be more efficient and easier to scale and maintain.
 
 
 ### Task: Get started and review what you have so far

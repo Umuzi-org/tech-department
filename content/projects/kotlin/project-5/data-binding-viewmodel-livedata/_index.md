@@ -15,14 +15,6 @@ title: Data binding with ViewModel and LiveData.
 
 ![](697975f88441847a.png)
 
-The first player acts out the word, being careful not to actually say the word itself.
-
-- When the second player guesses the word correctly, the first player presses the Got It button, which increases the count by one and shows the next word.
-
-- If the second player can't guess the word, the first player presses the Skip button, which decreases the count by one and skips to the next word.
-
-- To end the game, press the End Game button. (This functionality isn't in the starter code for the first codelab in the series.)
-
 In this project, you improve the GuessTheWord app by integrating data binding with LiveData in ViewModel objects. This automates the communication between the views in the layout and the ViewModel objects, and it lets you simplify your code by using LiveData.
 
 
@@ -36,7 +28,7 @@ In this project, you improve the GuessTheWord app by integrating data binding wi
 
 ### Task: Get started
 
-In this task, you locate and run your starter code for the previous project. You can use the GuessTheWord app that you built in previous codelab as your starter code, or you can download a starter app.
+In this task, you locate and run your starter code for the previous project. You can use the GuessTheWord app that you built in previous project as your starter code, or you can download a starter app.
 
 - Run the app and play the game.
 - Notice that the Got It button shows the next word and increases the score by one while the Skip button displays the next word and decreases the score by one. The End Game button ends the game.

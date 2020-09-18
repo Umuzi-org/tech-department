@@ -15,21 +15,24 @@ title: LiveData transformations.
 
 ![](a.png)
 
-The first player acts out the word, being careful not to actually say the word itself.
-
-- When the second player guesses the word correctly, the first player presses the Got It button, which increases the count by one and shows the next word.
-- If the second player can't guess the word, the first player presses the Skip button, which decreases the count by one and skips to the next word.
-- To end the game, press the End Game button. (This functionality isn't in the starter code for the first codelab in the series.)
 
 In this project, you improve the GuessTheWord app by adding a one-minute countdown timer that appears above the score. The timer ends the game when the countdown reaches 0.
 
 You also use a transformation to format the elapsed time LiveData object into a timer string LiveData object. The transformed LiveData is the data binding source for the timer's text view.
 
+The first player acts out the word, being careful not to actually say the word itself.
+
+- When the second player guesses the word correctly, the first player presses the Got It button, which increases the count by one and shows the next word.
+
+- If the second player can't guess the word, the first player presses the Skip button, which decreases the count by one and skips to the next word.
+
+- To end the game, press the End Game button. (This functionality isn't in the starter code for the first project in the series.)
+
 ### Task: Get started
 
-In this task, you locate and run your starter code for this codelab. You can use the GuessTheWord app that you built in previous codelab as your starter code, or you can download a starter app.
+In this task, you locate and run your starter code for this project. You can use the GuessTheWord app that you built in previous codelab as your starter code, or you can download a starter app.
 
-- Use your code from the previous project, download the starter code for this codelab.
+- Use your code from the previous project, download the starter code for this project.
 - Run the app and play the game.
 - Notice that the Skip button displays the next word and decreases the score by one, and the Got It button shows the next word and increases the score by one. The End Game button ends the game.
 - Cycle through all the words, and notice that the app navigates automatically to the score screen.

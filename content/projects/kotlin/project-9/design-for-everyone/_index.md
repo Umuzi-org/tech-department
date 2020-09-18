@@ -155,7 +155,7 @@ getLayoutDirectionFromLocale() is a method to programatically get the locale tha
 
 #### Step 3: Explore folders for locales
 
-So far, you've just changed the direction of the default language used for the app. For a production app, you would send the strings.xml file to a translator to have it translated to a new language. For this codelab, the app provides a strings.xml file in Spanish (we used Google Translate to generate the translations, so they're not perfect.).
+So far, you've just changed the direction of the default language used for the app. For a production app, you would send the strings.xml file to a translator to have it translated to a new language. For this project, the app provides a strings.xml file in Spanish (we used Google Translate to generate the translations, so they're not perfect.).
 
 - In Android Studio, switch the project view to Project Files.
 
@@ -252,7 +252,7 @@ You should almost never grant a permission like this one, because the permission
 
 - In your app, navigate to the Apply for GDG screen and scan it with the Accessibility Scanner app. This gives quite a few suggestions, as shown below on the left. 12, to be exact. To be fair, some of those are duplicates for similar items.
 
-- Click the "stack"  icon in the bottom toolbar to get a list of all suggestions, as shown below on the right screenshot. You address all of these issues in this codelab.
+- Click the "stack"  icon in the bottom toolbar to get a list of all suggestions, as shown below on the right screenshot. You address all of these issues in this project.
 
 ![](ac4eb1b2948b674b.png)
 

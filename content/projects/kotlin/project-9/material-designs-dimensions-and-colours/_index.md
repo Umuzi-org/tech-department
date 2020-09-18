@@ -22,7 +22,7 @@ As you develop this app, you work on the real list of GDGs. The finder screen us
 
 If you're lucky and there's a GDG in your region, you can check out the website and sign up for their events! GDG events are a great way to meet other Android developers and learn industry best practices that didn't fit in this course.
 
-The screenshots below show how your app will change from the beginning to the end of this codelab.
+The screenshots below show how your app will change from the beginning to the end of this project.
 
 ![](eab9826ee090267a.png)
 
@@ -40,7 +40,7 @@ A FAB is a large round button that represents a primary action, which is the mai
 
 #### Step 1: Add a FAB to the home fragment layout
 
-- Download and run the GDGFinderStyles app, which is the starter app for this codelab. If you did the preceding codelab, you can continue from the final code of that codelab.
+- Download and run the GDGFinderStyles app, which is the starter app for this project. If you did the preceding project, you can continue from the final code of that project.
 
 - In build.gradle(Module: app), verify that the material library is included. To use Material Design components, you need to include this library.
 
@@ -107,7 +107,7 @@ In this step, you move the FAB to the bottom-right corner and add an image that 
 
 ### Step 3: Add a click listener to the FAB
 
-In this step, you add a click handler to the FAB that takes the user to a list of GDGs. You've added click handlers in previous codelabs, so the instructions are terse.
+In this step, you add a click handler to the FAB that takes the user to a list of GDGs. You've added click handlers in previous projects, so the instructions are terse.
 
 - In home_fragment.xml, in the <data> tag, define a variable viewModel for the provided HomeViewModel.
 

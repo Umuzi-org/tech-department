@@ -20,7 +20,7 @@ The version of the app you build in this project fills in the overview page, whi
 
 ### Task: Display an internet image
 
-Displaying a photo from a web URL might sound straightforward, but there is quite a bit of engineering to make it work well. The image has to be downloaded, buffered, and decoded from its compressed format to an image that Android can use. The image should be cached to an in-memory cache, a storage-based cache, or both. All this has to happen in low-priority background threads so the UI remains responsive. Also, for best network and CPU performance, you might want to fetch and decode more than one image at once. Learning how to effectively load images from the network could be a codelab in itself.
+Displaying a photo from a web URL might sound straightforward, but there is quite a bit of engineering to make it work well. The image has to be downloaded, buffered, and decoded from its compressed format to an image that Android can use. The image should be cached to an in-memory cache, a storage-based cache, or both. All this has to happen in low-priority background threads so the UI remains responsive. Also, for best network and CPU performance, you might want to fetch and decode more than one image at once. Learning how to effectively load images from the network could be a projects in itself.
 
 Fortunately, you can use a community-developed library called Glide to download, buffer, decode, and cache your images. Glide leaves you with a lot less work than if you had to do all of this from scratch.
 
@@ -142,7 +142,7 @@ Glide.with(imgView.context)
 
 Although Glide has loaded the image, there's nothing to see yet. The next step is to update the layout and the fragments with an ImageView to display the image.
  
-- Open res/layout/gridview_item.xml. This is the layout resource file you'll use for each item in the RecyclerView later in the codelab. You use it temporarily here to show just the single image.
+- Open res/layout/gridview_item.xml. This is the layout resource file you'll use for each item in the RecyclerView later in the projects. You use it temporarily here to show just the single image.
 
 - Above the <ImageView> element, add a <data> element for the data binding, and bind to the OverviewViewModel class:
 
@@ -210,7 +210,7 @@ fun bindImage(imgView: ImageView, imgUrl: String?) {
 }
 ```
 
-- Run the app. Depending on the speed of your network connection, you might briefly see the loading image as Glide downloads and displays the property image. But you won't see the broken-image icon yet, even if you turn off your network—you fix that in the last part of the codelab.
+- Run the app. Depending on the speed of your network connection, you might briefly see the loading image as Glide downloads and displays the property image. But you won't see the broken-image icon yet, even if you turn off your network—you fix that in the last part of the projects.
 
 #### Task: Display a grid of images with a RecyclerView
 
@@ -304,7 +304,7 @@ val binding = FragmentOverviewBinding.inflate(inflater)
 
 Now the fragment_overview layout has a RecyclerView while the grid_view_item layout has a single ImageView. In this step, you bind the data to the RecyclerView through a RecyclerView adapter.
 
-***Note: This might be a good time to review the RecyclerView codelabs!***
+***Note: This might be a good time to review the RecyclerView projects!***
 
 - Open overview/PhotoGridAdapter.kt.
 
@@ -468,7 +468,7 @@ To start, you create a LiveData in the view model to represent the status of the
 
 `enum class MarsApiStatus { LOADING, ERROR, DONE }`
 
-- Rename both the internal and external _response live data definitions throughout the OverviewViewModel class to _status. Because you added support for the _properties LiveData earlier in this codelab, the complete web service response has been unused. You need a LiveData here to keep track of the current status, so you can just rename the existing variables.
+- Rename both the internal and external _response live data definitions throughout the OverviewViewModel class to _status. Because you added support for the _properties LiveData earlier in this projects, the complete web service response has been unused. You need a LiveData here to keep track of the current status, so you can just rename the existing variables.
 
 - Also, change the types from String to MarsApiStatus.
 
