@@ -1,4 +1,5 @@
 ---
+---
 _db_id: 414
 available_flavours:
 - kotlin
@@ -101,7 +102,7 @@ Set the input type for the nickname field:
 
 1 - Set the `inputType` attribute to `textPersonName` for the `nickname_edit` edit text.
 
-2 - In the **Component Tree** pane, notice an `autoFillHints` warning. This warning does not apply to this app and is beyond the scope of this codelab, so you can ignore it.
+2 - In the **Component Tree** pane, notice an `autoFillHints` warning. This warning does not apply to this app and is beyond the scope of this project, so you can ignore it.
 
 ![](802c6b695fdaeb90.png)
 

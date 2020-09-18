@@ -6,6 +6,6 @@ submission_type: nosubmit
 title: Project 10
 ---
 
-- Styles and themes.
-- Material Design, dimens, and colors.
-- Design for everyone
+- Summary Project.
+
+- TODO

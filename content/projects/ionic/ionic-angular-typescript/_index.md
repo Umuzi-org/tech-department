@@ -16,4 +16,4 @@ title: Building Mobile Apps with Ionic, Angular, and TypeScript
 
 - Follow the tutorial, understanding is essential.
 
-[Building Mobile Apps with Ionic, Angular, and TypeScript](https://app.pluralsight.com/library/courses/ionic2-angular2-typescript-mobile-apps/table-of-contents)
+[Build your first mobile application with Ionic](https://ionicframework.com/docs/react/your-first-app)

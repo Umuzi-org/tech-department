@@ -14,7 +14,7 @@ title: Define navigation paths.
 
 ## App overview
 
-The AndroidTrivia app, which you started working on in the previous codelab, is a game in which users answer questions about Android development. If the user answers three questions correctly, they win the game.
+The AndroidTrivia app, which you started working on in the previous project, is a game in which users answer questions about Android development. If the user answers three questions correctly, they win the game.
 
 Use that code as the starter code for this project.
 
