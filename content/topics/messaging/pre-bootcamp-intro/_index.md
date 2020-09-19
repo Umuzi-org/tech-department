@@ -19,9 +19,11 @@ We've shared a bunch of content with you already. Get yourself comfortable with 
 2. get as far as possible with the content we have given you. WARNING: one thing we have asked you to do is learn git. You're probably going to think it's weird but it's super important. If you want to succeed at our bootcamp you'll need to be comfortable with the basics
 3. We've given you a bunch of stuff to learn, and also a couple of projects. Try your best to get the projects done, and make sure you _UNDERSTAND_ them
 
-## BONUS! If you do our bootcamp you will get a Nationally regognised certificate!
+## BONUS! If you do our bootcamp you will get a Nationally recognised certificate!
 
 We want to make sure that our bootcamp helps you in your career. Even if you don't get into Umuzi you'll have a few nice things to put on your CV.
+
+But only if you follow our Honor Code.
 
 ## Anything else?
 

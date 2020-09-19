@@ -2,7 +2,6 @@
 title: Web Development - No NQF
 ---
 
-- {{% contentlink path="topics/intro-to-tilde" %}}
 - {{% contentlink path="topics/free-code-camp/javascript-data-structures-and-algorithms/basic-javascript" %}}
 - {{% contentlink path="topics/bootcamp/bash-for-bootcamp" %}}
 - {{% contentlink path="projects/git-exercises" %}}

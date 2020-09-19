@@ -6,7 +6,7 @@ title: Data Science boot camp pre-learning
 - {{% contentlink path="topics/messaging/umuzi-recruit-user-journey" %}}
 - {{% contentlink path="topics/messaging/pre-bootcamp-intro-data-sci" %}}
 - {{% contentlink path="topics/khan-academy/quantitative-data-analysis" %}}
-- {{% contentlink path="topics/bootcamp/data-sci-environment-setup" %}}
+- {{% contentlink path="topics/bootcamp/environment-setup" %}}
 - {{% contentlink path="topics/bootcamp/bash-for-bootcamp" %}}
 - {{% contentlink path="projects/git-exercises" %}}
 - {{% contentlink path="topics/bootcamp/git-for-bootcamp" %}}
