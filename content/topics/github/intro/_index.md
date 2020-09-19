@@ -1,6 +1,8 @@
 ---
-title: "Basic introduction to Github"
-ready: True
+_db_id: 587
+content_type: topic
+ready: true
+title: Basic introduction to Github
 ---
 
 Git and Github are friggin wonderful. Trust me on this. During your time on this learning journey you'll be using these friggin wonderful tools a lot.

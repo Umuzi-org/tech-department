@@ -1,4 +1,5 @@
 ---
+_db_id: 592
 available_flavours:
 - kotlin
 content_type: project
@@ -571,4 +572,3 @@ This ImageView has the same constraints as the RecyclerView. However, the width 
 ![](eb0d20401060679c.png)
 
 - Tap the Back button to close the app, and turn off airplane mode. Use the recents screen to return the app. Depending on the speed of your network connection, you may see an extremely brief loading spinner when the app queries the web service before the images begin to load.
-

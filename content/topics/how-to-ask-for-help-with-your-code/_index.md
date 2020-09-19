@@ -1,7 +1,6 @@
 ---
 _db_id: 127
 content_type: topic
-# ready: true
 title: How to ask for help with your code
 ---
 

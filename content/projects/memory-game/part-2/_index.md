@@ -1,22 +1,22 @@
 ---
 _db_id: 550
 available_flavours:
-  - javascript
-  - typescript
-  - any_frontend_framework
-  - redux
+- javascript
+- typescript
+- any_frontend_framework
+- redux
 content_type: project
 from_repo: projects/memory-game/part-1
 prerequisites:
   hard:
-    - projects/tdd/password-checker/part1
-    - projects/memory-game/part-1
-    - topics/git-feature-branching
+  - projects/tdd/password-checker/part1
+  - projects/memory-game/part-1
+  - topics/git-feature-branching
   soft: []
+ready: true
 submission_type: continue_repo
 title: extra features for your memory game
 weight: 4
-ready: True
 ---
 
 Please make sure you are following Git Feature Branching at this point. It's really impportant and really useful.

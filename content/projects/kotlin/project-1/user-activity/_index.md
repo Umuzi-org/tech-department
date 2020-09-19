@@ -1,5 +1,4 @@
 ---
----
 _db_id: 414
 available_flavours:
 - kotlin

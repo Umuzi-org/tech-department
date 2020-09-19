@@ -1,4 +1,5 @@
 ---
+_db_id: 590
 available_flavours:
 - kotlin
 content_type: project
@@ -452,11 +453,3 @@ If new data came in from the network, the screen would automatically update to s
 ***Tip: The easiest way to remove the cache for testing is to uninstall the app.***
 
 Great work! In this project, you implemented an offline cache using Room, attached the cache to a repository, and manipulated LiveData using a transformation. You also integrated the offline cache with the ViewModel to display the playlist from the repository instead of fetching the playlist from the network.
-
-
-
-
-
-
-
-

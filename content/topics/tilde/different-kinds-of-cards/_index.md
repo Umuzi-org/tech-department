@@ -1,9 +1,11 @@
 ---
-title: "Tilde tutorial: How cards work"
+_db_id: 586
+content_type: topic
 prerequisites:
   hard:
-    - topics/tilde/intro-to-tilde
-ready: True
+  - topics/tilde/intro-to-tilde
+ready: true
+title: 'Tilde tutorial: How cards work'
 ---
 
 Now that you basically know what Tilde is, it's time to learn a bit more about how different kinds of cards _really_ work.

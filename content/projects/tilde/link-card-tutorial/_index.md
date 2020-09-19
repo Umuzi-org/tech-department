@@ -1,7 +1,11 @@
 ---
-title: "Tilde project tutorial: How to submit a link"
-submisison_type: link
-ready: True
+_db_id: 607
+available_flavours:
+- none
+content_type: project
+ready: true
+submission_type: link
+title: 'Tilde project tutorial: How to submit a link'
 ---
 
 There are a few kinds of projects you can do and they can be submitten in different ways. In this tutorial you'll see how to submit a link.

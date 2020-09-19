@@ -1,4 +1,5 @@
 ---
+_db_id: 599
 available_flavours:
 - kotlin
 content_type: project
@@ -458,11 +459,3 @@ colorOnSecondary: A color that passes accessibility guidelines for text and icon
 ```
 
 ![](b4f99105f2bf97f3.png)
-
-
-
-
-
-
-
-

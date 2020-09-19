@@ -1,4 +1,5 @@
---- 
+---
+_db_id: 604
 available_flavours:
 - kotlin
 content_type: project
@@ -8,10 +9,11 @@ prerequisites:
   soft: []
 ready: true
 submission_type: repo
-title: Diffutil Data Binding with Recycler-View.
+title: Diffutil Data Binding with Recycler-View
 ---
 
 ### App overview
+
 The sleep-tracker app has two screens, represented by fragments, as shown in the figure below.
 
 ![](76ec2be31e018176.png)
@@ -26,12 +28,12 @@ This app is architected to use a UI controller, ViewModel and LiveData, and a Ro
 
 The sleep data is displayed in a RecyclerView. In this project, you build the DiffUtil and data-binding portion for the RecyclerView. After this project, your app will look exactly the same, but it will be more efficient and easier to scale and maintain.
 
-
 ### Task: Get started and review what you have so far
 
 You can continue using the SleepTracker app from the previous project.
 
 -Run the app.
+
 - Open the SleepNightAdapter.kt file.
 - Inspect the code to familiarize yourself with the structure of the app. Refer to the diagram below for a recap of using RecyclerView with the adapter pattern to display sleep data to the user.
 
@@ -43,6 +45,7 @@ You can continue using the SleepTracker app from the previous project.
 - RecyclerView uses the SleepNightAdapter to determine how many items there are to display (getItemCount()). RecyclerView uses onCreateViewHolder() and onBindViewHolder() to get view holders bound to data for displaying.
 
 ### The notifyDataSetChanged() method is inefficient
+
 To tell RecyclerView that an item in the list has changed and needs to be updated, the current code calls notifyDataSetChanged() in the SleepNightAdapter, as shown below.
 
 ```
@@ -66,7 +69,6 @@ Fortunately, there's a better way.
 RecyclerView has a class called DiffUtil which is for calculating the differences between two lists. DiffUtil takes an old list and a new list and figures out what's different. It finds items that were added, removed, or changed. Then it uses an algorithm called a Eugene W. Myers's difference algorithm to figure out the minimum number of changes to make from the old list to produce the new list.
 
 Once DiffUtil figures out what has changed, RecyclerView can use that information to update only the items that were changed, added, removed, or moved, which is much more efficient than redoing the entire list.
-
 
 ### Task: Refresh list content with DiffUtil
 
@@ -123,6 +125,7 @@ It's a common pattern to use a RecyclerView to display a list that changes. Recy
 ListAdapter keeps track of the list for you and notifies the adapter when the list is updated.
 
 #### Step 1: Change your adapter to extend ListAdapter
+
 - In the SleepNightAdapter.kt file, change the class signature of SleepNightAdapter to extend ListAdapter.
 - If prompted, `import androidx.recyclerview.widget.ListAdapter`.
 - Add SleepNight as the first argument to the ListAdapter, before SleepNightAdapter.ViewHolder.
@@ -169,7 +172,7 @@ In this task, you use the same technique as in previous projects to set up data 
 - Select Convert to data binding layout. This wraps the layout into <layout> and adds a <data> tag inside.
 - Scroll back to the top, if necessary, and inside the <data> tag, declare a variable named sleep.
 - Make its type the fully qualified name of SleepNight, com.example.android.trackmysleepquality.database.SleepNight. Your finished <data> tag should look as shown below.
- 
+
 ```
    <data>
         <variable
@@ -253,6 +256,7 @@ In a previous project, you used the Transformations class to take LiveData and g
 You are going to implement three binding adapters, one for the quality image, and one for each text field. In summary, to declare a binding adapter, you define a method that takes an item and a view, and annotate it with @BindingAdapter. In the body of the method, you implement the transformation. In Kotlin, you can write a binding adapter as an extension function on the view class that receives the data.
 
 #### Step 1: Create binding adapters
+
 Note that you will have to import a number of classes in the step, and it will not be called out individually.
 
 - Open SleepNightAdapater.kt.
@@ -288,7 +292,6 @@ fun TextView.setSleepQualityString(item: SleepNight) {
    text = convertNumericQualityToString(item.sleepQuality, context.resources)
 }
 ```
-
 
 - The third binding adapter sets the image on an image view. Create the extension function on ImageView, call setSleepImage, and use the code from ViewHolder.bind(), as shown below.
 

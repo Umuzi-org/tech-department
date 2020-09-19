@@ -1,4 +1,5 @@
 ---
+_db_id: 596
 available_flavours:
 - kotlin
 content_type: project
@@ -352,4 +353,3 @@ viewModel.score.observe(viewLifecycleOwner, Observer { newScore ->
 ```
 
 - Clean, rebuild, and run your app, then play the game. Notice that the current word and the score are formatted in the game screen.
-

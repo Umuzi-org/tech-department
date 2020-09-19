@@ -1,4 +1,5 @@
---- 
+---
+_db_id: 598
 available_flavours:
 - kotlin
 content_type: project
@@ -8,7 +9,7 @@ prerequisites:
   soft: []
 ready: true
 submission_type: repo
-title: Styles and Themes.
+title: Styles and Themes
 ---
 
 ### App overview
@@ -52,6 +53,7 @@ Use for custom or one-off designs such as margins, paddings, or constraints.
 Apply a style to several views, overriding the default style. For example, use a style to make consistently styled headers or a set of buttons.
 
 ### Default style
+
 This is the default styling provided by the Android system.
 
 ### Themes
@@ -74,6 +76,7 @@ The screenshots below show the GDG-finder app with light theme (left) and a dark
 ![](80cc74df29081180.png)
 
 ### Task: Use attributes for styling
+
 In this task, you use attributes to style headers for the text in the app layout.
 
 - Download and run the [GDG-finder](https://drive.google.com/drive/folders/1lK9oGOOn5W21loLTnXjBB5JRzMXy0Vtl?usp=sharing) starter app.
@@ -110,8 +113,7 @@ android:textColor="#FF555555"
 
 - To open the Preview tab in Android Studio, select View > Tool Windows > Preview, or click the vertical Preview button on the right edge of the Layout Editor. In the preview, verify that the title is gray and larger than it was before, as shown below.
 
-
-***Tip: An aRGB value expresses a color's alpha transparency, red value, green value, and blue value. An aRGB value uses a hexadecimal number ranging from 00 to FF for each color component.***
+**_Tip: An aRGB value expresses a color's alpha transparency, red value, green value, and blue value. An aRGB value uses a hexadecimal number ranging from 00 to FF for each color component._**
 
 ```
 #(alpha)(red)(green)(blue)
@@ -207,8 +209,8 @@ In this task, you use downloadable fonts to set the font of every view in your a
 - Inside the AppTheme style, set the font family to lobster_two. You need to set both android:fontFamily and fontFamily, because the parent theme uses both. You can check home_fragment.xml in the Design tab to preview your changes.
 
 ```
-<style name="AppTheme"  
-...    
+<style name="AppTheme"
+...
         <item name="android:fontFamily">@font/lobster_two</item>
         <item name="fontFamily">@font/lobster_two</item>
 ```
@@ -269,6 +271,7 @@ The style has a parent, just as a theme can have a parent. But this time, instea
  <item name="android:textSize">24sp</item>
  <item name="android:textColor">#555555</item>
 ```
+
 - Define another style for the subtitles. Name it TextAppearance.Subtitle.
 
 - Because the only difference from TextAppearance.Title will be in the text size, make this style a child of TextAppearance.Title.
@@ -297,7 +300,7 @@ Also add the TextAppearance.Subtitle style to the subtitle text view, and delete
        android:textAppearance="@style/TextAppearance.Subtitle"
 ```
 
-***Important: When you have both themes and styles manipulating text, you must apply the text properties as a textAppearance attribute if you want the text properties in the theme to override what's set and inherited in the style.***
+**_Important: When you have both themes and styles manipulating text, you must apply the text properties as a textAppearance attribute if you want the text properties in the theme to override what's set and inherited in the style._**
 
 - Run the app and your text is now consistently styled.
 
