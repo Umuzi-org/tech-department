@@ -5,11 +5,11 @@ available_flavours:
 content_type: project
 ready: true
 submission_type: link
-title: Pre bootcamp challenges
+title: Pre bootcamp coding challenges
 
 prerequisites:
   hard:
-    - content/topics/messaging/honor-code
+    - topics/messaging/honor-code
 ---
 
 Complete these tasks in the correct language. If you are here to learn JavaScript, do them in JavaScript. If you have been told to use Python then use Python.
