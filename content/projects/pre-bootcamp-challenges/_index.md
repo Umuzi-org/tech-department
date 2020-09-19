@@ -1,11 +1,15 @@
 ---
 _db_id: 416
 available_flavours:
-- any_language
+  - any_language
 content_type: project
 ready: true
 submission_type: link
 title: Pre bootcamp challenges
+
+prerequisites:
+  hard:
+    - content/topics/messaging/honor-code
 ---
 
 Complete these tasks in the correct language. If you are here to learn JavaScript, do them in JavaScript. If you have been told to use Python then use Python.

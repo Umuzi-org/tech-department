@@ -14,4 +14,4 @@ submission_type: continue_repo
 title: CloudBnb - Calandar widget
 ---
 
-Add a calandar widget to the search result details page. This should show what dates the accomodation has been booked. This will help the user choose dates to book.
+Add a calandar widget to the search result details page. This should show what dates the accomodation has been booked. This will help the user choose dates to book

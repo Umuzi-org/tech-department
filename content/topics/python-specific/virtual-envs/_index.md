@@ -1,9 +1,9 @@
 ---
+TODO: virtualenv video
 _db_id: 165
 content_type: topic
+ready: true
 title: Virtual Environments
-TODO: virtualenv video
-ready: True
 ---
 
 A good solid underatanding of virtual environments is critical to any serious Python developer. The purpose of a virtual env is "isolation of dependencies". This will probably sound confusing but I'll explain with an example.
