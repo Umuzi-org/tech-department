@@ -4,7 +4,7 @@ available_flavours:
 content_type: project
 prerequisites:
   hard:
-  - projects/kotlin/project-7/create-a-room-database
+  - projects/kotlin/project-6/create-a-room-database
   soft: []
 ready: true
 submission_type: repo

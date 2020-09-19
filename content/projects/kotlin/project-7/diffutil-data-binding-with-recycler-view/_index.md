@@ -8,7 +8,7 @@ prerequisites:
   soft: []
 ready: true
 submission_type: repo
-title: Data binding with ViewModel and LiveData.
+title: Diffutil Data Binding with Recycler-View.
 ---
 
 ### App overview

@@ -8,7 +8,7 @@ prerequisites:
   soft: []
 ready: true
 submission_type: repo
-title: Loading and Displaying Images.
+title: Filtering Details With Internet Data.
 ---
 
 ### App overview

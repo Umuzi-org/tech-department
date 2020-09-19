@@ -4,11 +4,11 @@ available_flavours:
 content_type: project
 prerequisites:
   hard:
-  - projects/kotlin/project-7/filtering-details-with-internet-data
+  - projects/kotlin/project-8/filtering-details-with-internet-data
   soft: []
 ready: true
 submission_type: repo
-title: WorkManager.
+title: Repository.
 ---
 
 ### App overview
