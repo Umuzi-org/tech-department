@@ -163,10 +163,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/tilde/review-topic-card-tutorial/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/projects/data-science-specific/nobel-prize-winners/</loc>
   </url>
   
@@ -253,12 +249,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/android/</loc>
+    <loc>/tech-department/topics/android/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/topics/android/</loc>
+    <loc>/tech-department/projects/android/</loc>
     <priority>0</priority>
   </url>
   
@@ -473,6 +469,10 @@
   
   <url>
     <loc>/tech-department/workshops/java-specific/basic-intro-to-oop/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/github/intro/</loc>
   </url>
   
   <url>
@@ -834,10 +834,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/bootcamp/data-sci-environment-setup/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/data_validation_and_verification/</loc>
   </url>
   
@@ -870,10 +866,6 @@
   
   <url>
     <loc>/tech-department/projects/kotlin/project-5/data-binding-viewmodel-livedata/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/projects/kotlin/project-7/diffutil-data-binding-with-recycler-view/</loc>
   </url>
   
   <url>
@@ -961,6 +953,10 @@
   
   <url>
     <loc>/tech-department/projects/oop/dice/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/kotlin/project-7/diffutil-data-binding-with-recycler-view/</loc>
   </url>
   
   <url>
@@ -1112,6 +1108,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/kotlin/project-8/filtering-details-with-internet-data/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/data-science-specific/data-visualisation/mobile-money-viz/</loc>
   </url>
   
@@ -1144,6 +1144,10 @@
   </url>
   
   <url>
+    <loc>/tech-department/topics/bootcamp/environment-setup/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/python-specific/file_io_kata/</loc>
   </url>
   
@@ -1170,6 +1174,11 @@
   
   <url>
     <loc>/tech-department/workshops/git-for-teamwork/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/github/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -1216,6 +1225,14 @@
   <url>
     <loc>/tech-department/tags/hcd/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/kotlin/project-7/headers-in-recyclerview/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/messaging/honor-code/</loc>
   </url>
   
   <url>
@@ -1641,22 +1658,22 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/code-wars/java/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/solo-learn/java/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/workshops/javascript-specific/</loc>
+    <loc>/tech-department/topics/code-wars/java/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tech-department/topics/javascript-specific/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/javascript-specific/</loc>
     <priority>0</priority>
   </url>
   
@@ -1762,10 +1779,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/kotlin/project-8/filtering-details-with-internet-data/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/projects/kotlin/project-8/loading-displaying-images/</loc>
   </url>
   
@@ -1797,6 +1810,10 @@
   
   <url>
     <loc>/tech-department/topics/ncit/115392/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/kotlin/project-9/material-designs-dimensions-and-colours/</loc>
   </url>
   
   <url>
@@ -2253,10 +2270,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/kotlin/project-7/headers-in-recyclerview/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/projects/kotlin/project-7/recyclerview-fundamentals/</loc>
   </url>
   
@@ -2310,6 +2323,10 @@
   
   <url>
     <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/regular-expressions/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/kotlin/project-8/repository/</loc>
   </url>
   
   <url>
@@ -2520,10 +2537,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/kotlin/project-9/material-designs-dimensions-and-colours/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/projects/kotlin/project-9/styles-and-themes/</loc>
   </url>
   
@@ -2607,7 +2620,24 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/tilde/repo-card-tutorial/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/tilde/link-card-tutorial/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/tilde/different-kinds-of-cards/</loc>
+  </url>
+  
+  <url>
     <loc>/tech-department/topics/tilde/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/tilde/</loc>
     <priority>0</priority>
   </url>
   
@@ -2625,6 +2655,10 @@
   
   <url>
     <loc>/tech-department/topics/django/understanding-migrations/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/tilde/understanding-the-review-column/</loc>
   </url>
   
   <url>
@@ -2718,10 +2752,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/bootcamp/web-dev-enviroment-setup/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/syllabuses/web-dev-bridging/</loc>
   </url>
   
@@ -2776,10 +2806,6 @@
   
   <url>
     <loc>/tech-department/topics/kotlin/work-manager/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/projects/kotlin/project-8/repository/</loc>
   </url>
   
   <url>
