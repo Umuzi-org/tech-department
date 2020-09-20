@@ -50,7 +50,7 @@ title: Android Development With Kotlin
 - {{% contentlink path="topics/kotlin/enum-classes" %}}
 - Project : LiveData and Live Data Observers.
 - Project : Data binding with ViewModel and LiveData.
-- {{% contentlink path="projects/kotlin/project-5/live-data-transformations"%}}
+- {{% contentlink path="projects/kotlin/project-5/live-data-transformations" flavour="kotlin"%}}
 
 ## Null Safety, Annotations, Constructor, Returns and Jumps, Database and Recycler View.
 
@@ -64,8 +64,7 @@ title: Android Development With Kotlin
 - Project : Data binding with ViewModel and LiveData.
 - Project : DiffUtil and data binding with RecyclerView
 - Project : GridLayout with RecyclerView.
-- {{% contentlink path="projects/kotlin/project-7/headers-in-recyclerview" %}}
-
+- {{% contentlink path="projects/kotlin/project-7/headers-in-recyclerview" flavour="kotlin"%}}
 
 ## Work Manager, Internet Data, Images, Filtering, Functions.
 
@@ -77,15 +76,13 @@ title: Android Development With Kotlin
 - Project : Getting Data From The Internet.
 - Project : Getting and Displaying Images From The Internet
 - Project : Filtering and Detail Views with Internet Data
-- {{% contentlink path="projects/kotlin/project-8/repository" %}}
-
-
+- {{% contentlink path="projects/kotlin/project-8/repository" flavour="kotlin"%}}
 
 ## Styles, Design, Colours, Dimensions
 
 - Project : Styles and Themes
 - Project : Material Design, dimens, and colors
-- {{% contentlink path="projects/kotlin/project-9/design-for-everyone" %}}
+- {{% contentlink path="projects/kotlin/project-9/design-for-everyone" flavour="kotlin"%}}
 
 ## Testing
 

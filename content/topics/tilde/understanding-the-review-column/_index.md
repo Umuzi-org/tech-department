@@ -3,6 +3,7 @@ _db_id: 585
 content_type: topic
 ready: true
 title: Understanding the review column
+topic_needs_review: true
 ---
 
 The review column causes a lot of confusion for a lot of people. A lot of students do weird things and end up getting bad reviews. In this little
