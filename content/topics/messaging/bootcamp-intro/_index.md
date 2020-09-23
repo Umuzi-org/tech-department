@@ -13,7 +13,7 @@ The first thing you need to know is that yo'll be using our custom learning soft
 - {{% contentlink path="topics/intro-to-tilde" %}}
 - [Tilde - our learning platform](https://tilde-front-dot-umuzi-prod.nw.r.appspot.com/)
 
-You gave us a gmail address recently. Just click to log in with Google and use that addredd.
+You gave us a gmail address recently. Just click to log in with Google and use that address.
 
 **Please Note** The login mechanism uses a popup,if you are using ad blockers and popup blockers you'll need to turn that off.
 
