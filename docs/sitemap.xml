@@ -155,14 +155,6 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/kotlin/project-1/user-activity/</loc>
-  </url>
-  
-  <url>
-    <loc>/tech-department/topics/tilde/how-to-review-projects/</loc>
-  </url>
-  
-  <url>
     <loc>/tech-department/projects/data-science-specific/nobel-prize-winners/</loc>
   </url>
   
@@ -1358,7 +1350,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/syllabuses/intro-to-tilde-for-students/</loc>
+    <loc>/tech-department/syllabuses/tilde-intro-student/</loc>
   </url>
   
   <url>
@@ -1658,22 +1650,22 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/solo-learn/java/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/code-wars/java/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/topics/javascript-specific/</loc>
+    <loc>/tech-department/topics/solo-learn/java/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tech-department/workshops/javascript-specific/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/topics/javascript-specific/</loc>
     <priority>0</priority>
   </url>
   
@@ -2326,6 +2318,11 @@
   </url>
   
   <url>
+    <loc>/tech-department/projects/tilde/repo-card-tutorial/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tech-department/projects/kotlin/project-8/repository/</loc>
   </url>
   
@@ -2620,7 +2617,11 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/tilde/repo-card-tutorial/</loc>
+    <loc>/tech-department/projects/tilde/repo-card-tutorial/part-2/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/tilde/repo-card-tutorial/part-1/</loc>
   </url>
   
   <url>
@@ -2632,12 +2633,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/tilde/</loc>
+    <loc>/tech-department/projects/tilde/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/projects/tilde/</loc>
+    <loc>/tech-department/topics/tilde/</loc>
     <priority>0</priority>
   </url>
   
@@ -2693,6 +2694,10 @@
   
   <url>
     <loc>/tech-department/topics/bootcamp/git-for-bootcamp/</loc>
+  </url>
+  
+  <url>
+    <loc>/tech-department/projects/kotlin/project-1/user-activity/</loc>
   </url>
   
   <url>
