@@ -2,20 +2,13 @@
 _db_id: 500
 content_type: topic
 title: Bootcamp Intro
+prerequisites:
+  hard:
+    - topics/tilde/intro-to-tilde
+    - topics/messaging/honor-code
 ---
 
 Hello and welcome to the next phase of your journey with us. The Bootcamp!
-
-## Tilde
-
-The first thing you need to know is that yo'll be using our custom learning software to get through the bootcamp. Check out these links:
-
-- {{% contentlink path="topics/intro-to-tilde" %}}
-- [Tilde - our learning platform](https://tilde-front-dot-umuzi-prod.nw.r.appspot.com/)
-
-You gave us a gmail address recently. Just click to log in with Google and use that addredd.
-
-**Please Note** The login mechanism uses a popup,if you are using ad blockers and popup blockers you'll need to turn that off.
 
 ## Attendance
 

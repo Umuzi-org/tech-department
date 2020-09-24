@@ -1,14 +1,14 @@
 ---
 _db_id: 606
 available_flavours:
-- none
+  - none
 content_type: project
 prerequisites:
   hard:
-  - topics/github/intro
+    - topics/github/intro
 ready: true
 submission_type: repo
-title: 'Tilde project tutorial: How Repo projects work'
+title: "Tilde project tutorial: How Repo projects work"
 ---
 
 There are a few kinds of projects you can do and they can be submitted in different ways. In this tutorial you'll see how to get a repo project to complete.
@@ -49,7 +49,7 @@ We "protect" the master branch in order to stop you from pushing to it. The reas
 
 If you look at the project details you'll see that a repo has been created for you. Please click on the link and visit the repo page on Github.
 
-### 1. MAke a branch
+### 1. Make a branch
 
 Create a branch. In your branch add a markdown file. This is a plain text file with the extension `.md`. You can create one of these with ny old text editer. We'll learn more about markdown later, it's a useful tool for documenting projects.
 
@@ -69,13 +69,31 @@ If everyone does their best to review stuff quickly and respond quickly then nob
 
 If there aren't enough collaborators on your repo in order to get your stuff merged, please make a noise. A staff member will help out.
 
-### 4. Move your card to the REVIEW column
+**Common problem:**
+
+Sometimes people struggle to get their PRs merged because there aren't enough people on the repo, or because the people who are meant to review your work aren't moving quickly enough.
+
+Please remember that it is **YOUR RESPONSIBILITY** to get stuff merged. There are people around who you need to work with in order to achieve your goals, but you need to remember that getting stuff merged is **YOUR JOB**.
+
+1. If you dont have enough people on your repo so there is nobody to review your work: Ask a staff member to assign some reviewers to your work
+2. Nag your reviewers to review your work. Be as annoying as you need to be. It's on you to chase reviews
+3. If your reviewers are being too slow, please tell a staff member.
+
+On the flip side, if someone asks you to review their work then treat that as your highest priority task. Do it as soon as possible. Get into the habit of supporting the people around you by giving them fast and accurate feedback. Then when you get your first serious dev job, your team will love you.
+
+### 4. Move your card to the REVIEW column (AFTER YOUR PR IS MERGED! NOT BEFORE!)
+
+**NOTE:** If your PR is not merged you will be marked as Not Yet Competent or Red Flag!!
 
 Now that your master branch is totally up to date with all the things, you can ask for a final review by clicking on the "Request Review" button on your Tilde board.
 
 This tells your peers and staff that you think your master branch is up to date and complete, and that you think your work is Competent or Excellent.
 
-DONT DO THIS IF:
+**DONT DO THIS IF:**
 
 - your stuff isn't merged
 - you didn't complete the project, for example, if you skipped part 4 of a 5 part excercise then make a PR to complete your work first
+
+### 5. Double check that your master branch is up to date!
+
+If your master branch is empty at this point then cancel your review request, get your work merged, then put your card back into the review column

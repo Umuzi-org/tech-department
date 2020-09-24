@@ -15,7 +15,7 @@ title: Web frontend foundations
 - {{% contentlink path="topics/free-code-camp/javascript-data-structures-and-algorithms/functional-programming" %}}
 - {{% contentlink path="topics/free-code-camp/javascript-data-structures-and-algorithms/intermediate-algorithmic-scripting" %}}
 - {{% contentlink path="topics/free-code-camp/responsive-web-design/css-grid" %}}
-- {{% contentlink path="topics/intro-to-tilde" %}}
+- {{% contentlink path="topics/tilde/intro-to-tilde" %}}
 - {{% contentlink path="topics/bootcamp/bash-for-bootcamp" %}}
 - {{% contentlink path="projects/git-exercises" %}}
 - {{% contentlink path="topics/bootcamp/git-for-bootcamp" %}}

@@ -127,7 +127,7 @@ Let's explore branching a little bit.
 7. commit your new file with the message `"added initial flavours"`
 8. take a look at your git log again. It should make sense
 9. checkout your master branch. It'll look a little different. Can you see why?
-10. from your master branch, create a new branch called `history` and check it out. If you say `git log` it should only have three commits
+10. from your master branch, create a new branch called `history` and check it out. If you say `git log` it should only have three commits. And if you use `git branch` you should see 3 branches! **This is important!**
 11. type in `history > history.txt`. Can you guess what it does?
 12. commit your changes with the message `"added history"`. Take a look at the `git log`
 13. now checkout your milkshake branch and look at the `git log`. it should have your three master commits and your one milkshake commit
@@ -329,8 +329,11 @@ Now you should see a little dropdown box on github that says "Branch: master". C
 
 4. Push your other branches to github. We want all branches to be listed
 
-**A cool trick we use all the time**:
+**A cool trick we use all the time: the network page!**:
+
 If your repo is available at https://github.com/[YOUR_USERNAME]/git-basic-exercises then take a look at https://github.com/[YOUR_USERNAME]/git-basic-exercises/network. I just added `/network` on the end there. You'll be able to see all the individual commits and all the different branches you've made and how they relate to each other.
+
+Go look at your network page. each of the dots there represent commits you made. Can you see how they relate to what you did? Can you see the individual branches?
 
 ### Pulling and remotes
 
