@@ -1,19 +1,19 @@
 ---
 _db_id: 288
 available_flavours:
-  - none
+- none
 content_type: project
 prerequisites:
   hard:
-    - topics/github/intro
-    - topics/bootcamp/bash-for-bootcamp
-    - topics/git
+  - topics/github/intro
+  - topics/bootcamp/bash-for-bootcamp
+  - topics/git
   soft: []
 ready: true
 story_points: 1
 submission_type: link
 tags:
-  - git
+- git
 title: Git Basic Exercises
 ---
 

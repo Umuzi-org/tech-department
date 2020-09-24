@@ -1,14 +1,15 @@
 ---
+_db_id: 608
 available_flavours:
-  - none
+- none
 content_type: project
+from_repo: projects/tilde/repo-card-tutorial/part-1
 prerequisites:
   hard:
-    - projects/tilde/repo-card-tutorial/part-1
+  - projects/tilde/repo-card-tutorial/part-1
 ready: true
 submission_type: continue_repo
-from_repo: projects/tilde/repo-card-tutorial/part-1
-title: "Tilde project tutorial: How Continue Repo projects work"
+title: 'Tilde project tutorial: How Continue Repo projects work'
 ---
 
 There are a few kinds of projects you can do and they can be submitted in different ways. In this tutorial you'll see how to get a "continue repo" project to complete.

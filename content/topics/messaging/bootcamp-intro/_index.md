@@ -1,11 +1,11 @@
 ---
 _db_id: 500
 content_type: topic
-title: Bootcamp Intro
 prerequisites:
   hard:
-    - topics/tilde/intro-to-tilde
-    - topics/messaging/honor-code
+  - topics/tilde/intro-to-tilde
+  - topics/messaging/honor-code
+title: Bootcamp Intro
 ---
 
 Hello and welcome to the next phase of your journey with us. The Bootcamp!
