@@ -7,7 +7,7 @@ title: Web development boot camp pre-learning
 - {{% contentlink path="topics/messaging/pre-bootcamp-intro-web-dev" %}}
 - {{% contentlink path="topics/bootcamp/failure-at-bootcamp" %}}
 - {{% contentlink path="topics/bootcamp/environment-setup" %}}
-- {{% contentlink path="topics/free-code-camp/javascript-data-structures-and-algorithms/basic-javascript" %}}
+- {{% contentlink path="topics/free-code-camp/javascript-data-structures-and-algorithms/1-basic-javascript" %}}
 - {{% contentlink path="topics/bootcamp/bash-for-bootcamp" %}}
 - {{% contentlink path="projects/git-exercises" %}}
 - {{% contentlink path="topics/bootcamp/git-for-bootcamp" %}}

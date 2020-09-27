@@ -2,18 +2,18 @@
 title: Web frontend foundations
 ---
 
-- {{% contentlink path="topics/free-code-camp/javascript-data-structures-and-algorithms/basic-javascript" %}}
+- {{% contentlink path="topics/free-code-camp/javascript-data-structures-and-algorithms/1-basic-javascript" %}}
 - {{% contentlink path="topics/free-code-camp/responsive-web-design/basic-html-and-html-5" %}}
 - {{% contentlink path="topics/free-code-camp/responsive-web-design/basic-css" %}}
 - {{% contentlink path="topics/free-code-camp/responsive-web-design/applied-visual-design" %}}
-- {{% contentlink path="topics/free-code-camp/javascript-data-structures-and-algorithms/object-orientated-programming" %}}
-- {{% contentlink path="topics/free-code-camp/javascript-data-structures-and-algorithms/basic-data-structures" %}}
-- {{% contentlink path="topics/free-code-camp/javascript-data-structures-and-algorithms/basic-algorithmic-scripting" %}}
+- {{% contentlink path="topics/free-code-camp/javascript-data-structures-and-algorithms/5-basic-data-structures" %}}
+- {{% contentlink path="topics/free-code-camp/javascript-data-structures-and-algorithms/6-basic-algorithmic-scripting" %}}
+- {{% contentlink path="topics/free-code-camp/javascript-data-structures-and-algorithms/7-object-orientated-programming" %}}
 - {{% contentlink path="topics/free-code-camp/responsive-web-design/applied-accessability" %}}
 - {{% contentlink path="topics/free-code-camp/responsive-web-design/responsive-web-design-principles" %}}
 - {{% contentlink path="topics/free-code-camp/responsive-web-design/css-flexbox" optional="1" %}}
-- {{% contentlink path="topics/free-code-camp/javascript-data-structures-and-algorithms/functional-programming" %}}
-- {{% contentlink path="topics/free-code-camp/javascript-data-structures-and-algorithms/intermediate-algorithmic-scripting" %}}
+- {{% contentlink path="topics/free-code-camp/javascript-data-structures-and-algorithms/8-functional-programming" %}}
+- {{% contentlink path="topics/free-code-camp/javascript-data-structures-and-algorithms/9-intermediate-algorithmic-scripting" %}}
 - {{% contentlink path="topics/free-code-camp/responsive-web-design/css-grid" %}}
 - {{% contentlink path="topics/tilde/intro-to-tilde" %}}
 - {{% contentlink path="topics/bootcamp/bash-for-bootcamp" %}}
