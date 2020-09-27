@@ -428,7 +428,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/basic-algorithmic-scripting/</loc>
+    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/6-basic-algorithmic-scripting/</loc>
   </url>
   
   <url>
@@ -440,7 +440,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/basic-data-structures/</loc>
+    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/5-basic-data-structures/</loc>
   </url>
   
   <url>
@@ -452,7 +452,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/basic-javascript/</loc>
+    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/1-basic-javascript/</loc>
   </url>
   
   <url>
@@ -910,7 +910,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/debugging/</loc>
+    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/4-debugging/</loc>
   </url>
   
   <url>
@@ -1012,7 +1012,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/es6/</loc>
+    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/2-es6/</loc>
   </url>
   
   <url>
@@ -1112,7 +1112,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/functional-programming/</loc>
+    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/8-functional-programming/</loc>
   </url>
   
   <url>
@@ -1290,7 +1290,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/intermediate-algorithmic-scripting/</loc>
+    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/9-intermediate-algorithmic-scripting/</loc>
   </url>
   
   <url>
@@ -1650,22 +1650,22 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/code-wars/java/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tech-department/topics/solo-learn/java/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/workshops/javascript-specific/</loc>
+    <loc>/tech-department/topics/code-wars/java/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tech-department/topics/javascript-specific/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tech-department/workshops/javascript-specific/</loc>
     <priority>0</priority>
   </url>
   
@@ -1987,7 +1987,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/object-orientated-programming/</loc>
+    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/7-object-orientated-programming/</loc>
   </url>
   
   <url>
@@ -2314,7 +2314,7 @@
   </url>
   
   <url>
-    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/regular-expressions/</loc>
+    <loc>/tech-department/topics/free-code-camp/javascript-data-structures-and-algorithms/3-regular-expressions/</loc>
   </url>
   
   <url>
@@ -2633,12 +2633,12 @@
   </url>
   
   <url>
-    <loc>/tech-department/projects/tilde/</loc>
+    <loc>/tech-department/topics/tilde/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tech-department/topics/tilde/</loc>
+    <loc>/tech-department/projects/tilde/</loc>
     <priority>0</priority>
   </url>
   
