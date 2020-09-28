@@ -9,7 +9,7 @@ Integrity is important to us and our partners. And if you want to have an epic c
 
 What is Integrity?
 
-Integrity is doing the right thing, even when nobody is looking.
+> Integrity is doing the right thing, even when nobody is looking.
 
 **Your job here** is to learn. You need to learn the technical materials and you need to learn how to behave like a professional.
 

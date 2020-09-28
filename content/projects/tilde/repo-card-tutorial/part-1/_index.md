@@ -1,14 +1,14 @@
 ---
 _db_id: 606
 available_flavours:
-- none
+  - none
 content_type: project
 prerequisites:
   hard:
-  - topics/github/intro
+    - topics/github/intro
 ready: true
 submission_type: repo
-title: 'Tilde project tutorial: How Repo projects work'
+title: "Tilde project tutorial: How Repo projects work"
 ---
 
 There are a few kinds of projects you can do and they can be submitted in different ways. In this tutorial you'll see how to get a repo project to complete.
@@ -61,7 +61,11 @@ Make a PR that in order to merge your stuff into master. You'll notice that you 
 
 ### 3. Get your PR merged
 
-In order to get your stuff merged into master, you need 2 people to "Approve" your PR. Remember that it is _YOUR JOB_ to get _YOUR CONTRIBUTIONS_ merged. If you need someone to review your stuff then poke them and nag them until it gets done. And of course if someone asks you to review their stuff, do your best to review it quickly, accurately and completely.
+In order to get your stuff merged into master, you need 2 people to "Approve" your PR.
+
+Read more about PR approvals here: https://docs.github.com/en/enterprise/2.13/user/articles/approving-a-pull-request-with-required-reviews
+
+Remember that it is _YOUR JOB_ to get _YOUR CONTRIBUTIONS_ merged. If you need someone to review your stuff then poke them and nag them until it gets done. And of course if someone asks you to review their stuff, do your best to review it quickly, accurately and completely.
 
 If someone requests changes on your PR then you'll need to act on those as quickly as possible. Always try to learn from feedback quickly. Otherwise you'll just make repetitive mistakes.
 
@@ -69,7 +73,7 @@ If everyone does their best to review stuff quickly and respond quickly then nob
 
 If there aren't enough collaborators on your repo in order to get your stuff merged, please make a noise. A staff member will help out.
 
-**Common problem:**
+**Common problems:**
 
 Sometimes people struggle to get their PRs merged because there aren't enough people on the repo, or because the people who are meant to review your work aren't moving quickly enough.
 

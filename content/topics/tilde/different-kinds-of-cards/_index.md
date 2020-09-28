@@ -3,9 +3,9 @@ _db_id: 586
 content_type: topic
 prerequisites:
   hard:
-  - topics/tilde/intro-to-tilde
+    - topics/tilde/intro-to-tilde
 ready: true
-title: 'Tilde tutorial: How cards work'
+title: "Tilde tutorial: How cards work"
 ---
 
 Now that you basically know what Tilde is, it's time to learn a bit more about how different kinds of cards _really_ work.
@@ -32,7 +32,7 @@ Most topics will move straight to Complete, and others will need some kind of ve
 
 Workshops are live events that are a part of your curriculum. There aren't a lot of these. You can't move these cards yourself. The staff member running the workshop will move the card when they mark attendance.
 
-There aren't a lot of workshop cards. We are super keen on letting your learning journey be as self-paced and self-directed as possible so we are slowly converting all the Workshops into Topics. So if you dont see any on your board, DONT PANIC!
+There aren't a lot of workshop cards. We are super keen on letting your learning journey be as self-paced and self-directed as possible so we are slowly converting all the Workshops into Topics. So if you don't see any on your board, DON'T PANIC!
 
 ### Projects
 
@@ -42,7 +42,7 @@ Projects are deliverables. We need to see you demonstrate your skillz. By submit
 
 Projects come in two different forms: Link projects and Repo projects. These behave a little bit differently to each other. We'll go into detail and demonstrate those differences by actually doing a few projects and moving them to Complete.
 
-Please take note that there is a "details" button on project cards that have some progress. Basically, as projects move forward through the board, they can be assocated with all sorts of extra info. You will be able to view that information by clickking on "Details".
+Please take note that there is a "details" button on project cards that have some progress. Basically, as projects move forward through the board, they can be associated with all sorts of extra info. You will be able to view that information by clicking on "Details".
 
 If there are no details to be displayed, there wont be a details button. The button will be displayed when it becomes useful.
 
@@ -56,7 +56,7 @@ We do have some restrictions in place:
 
 1. You can't start a project that is too low down in the list. Because collaboration is hard if everyone is doing completely different things.
 2. You can't have too many things in progress at the same time. Because multi tasking is a lie. Seriously, it's just inefficient
-3. You cant start a card whose prerequisites have not been met. You'll see that some cards are greyed out and you can't start working on them. If you want to work on these cards you need to unblock them by Completing all their prerequisites. Eg: you cant do "password checker part 2" until you've completed "password checker part 1"
+3. You cant start a card whose prerequisites have not been met. You'll see that some cards are grayed out and you can't start working on them. If you want to work on these cards you need to unblock them by Completing all their prerequisites. Eg: you cant do "password checker part 2" until you've completed "password checker part 1"
 
 ## Goal cards
 

@@ -6,7 +6,7 @@ title: Understanding the review column
 topic_needs_review: true
 ---
 
-The review column causes a lot of confusion for a lot of people. A lot of students do weird things and end up getting bad reviews. In this little
+The review column causes a lot of confusion for a lot of people. A lot of students do weird things and end up getting bad reviews.
 
 ## When to put cards into the review column
 
@@ -22,7 +22,7 @@ The master branch needs to be complete and demonstrate that you are at least com
 
 This one is simpler. You need to hit these requirements before requesting review:
 
-1. Linked your card to whatever you were supposed to. Eg if you were meant to create a Google Doc then your card should link to the doc
+1. Link your card to whatever you were supposed to. Eg if you were meant to create a Google Doc then your card should link to the doc
 2. Anyone with the link should be able to access your project. Ie: your work should not be private
 3. The project should be complete and demonstrate competence.
 

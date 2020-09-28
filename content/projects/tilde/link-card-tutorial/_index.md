@@ -1,14 +1,14 @@
 ---
 _db_id: 607
 available_flavours:
-- none
+  - none
 content_type: project
 ready: true
 submission_type: link
-title: 'Tilde project tutorial: How to submit a link'
+title: "Tilde project tutorial: How to submit a link"
 ---
 
-There are a few kinds of projects you can do and they can be submitten in different ways. In this tutorial you'll see how to submit a link.
+There are a few kinds of projects you can do and they can be submitted in different ways. In this tutorial you'll see how to submit a link.
 
 Link projects expect you to submit a link to your work. If the instructions say you need to make a repo, then you'll need to submit a link to your repo. If the instructions say you need to use Google Docs then you need to submit a link to your document.
 
@@ -42,8 +42,8 @@ Whenever you attach a link to a card, you need to make sure that whoever is revi
 - if we ask you to link to a google document or sheet, make sure that anyone with the link has access
 - if we ask you to link to absolutely anything, you need to make sure we can actually access your work.
 
-The other common problem is people deleting their work. Once we have reviewed your work it is super duper important that you dont change the privacy settings or delete it. We do interact with external assessors (that is why we are accredited!) so if we say a student is competent in something and we can't prove it then that's bad. In these cases we would expect you to redo the work.
+The other common problem is people deleting their work. Once we have reviewed your work it is super duper important that you don't change the privacy settings or delete it. We do interact with external assessors (that is why we are accredited!) so if we say a student is competent in something and we can't prove it then that's bad. In these cases we would expect you to redo the work.
 
 **So seriosly, dont delete stuff that you have submitted!**
 
-(Except maybe this perfectly useless doc. If you want. Becasuse it acually is useless)
+(Except maybe this perfectly useless doc. If you want. Because it actually is useless)

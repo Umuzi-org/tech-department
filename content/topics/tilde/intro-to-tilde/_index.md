@@ -9,7 +9,7 @@ Welcome to Tilde. We built it with love.
 
 Here is little video tour of the first features you'll be interacting with: https://youtu.be/NC7PmQ-3aCg
 
-**Please Note** The login mechanism uses a popup,if you are using ad blockers and popup blockers you'll need to turn that off.
+**Please Note:** The login mechanism uses a popup,if you are using ad blockers and popup blockers you'll need to turn that off.
 
 If you are new to dev stuff, it's going to look a little weird. Don't worry. Before you get too deep into how we actually use this thing, it'll be good for you to know a bit about the principles and practices that inspired the design.
 
@@ -21,7 +21,7 @@ Basically, Tilde is based on a thing called Kanban. Read this excellent article 
 
 Ok cool! So Tilde is basically a kanban board. Each card you see on the board is a piece of work that you need to get done. And it's your mission to get al the cards from the Backlog to Complete.
 
-And of course, the whole point of this thing is to make sure you get the skills you need to launch your successful career. This is not a box-ticking excercise. In getting your cards to Complete you need to make sure you really understand all the concepts that the card is about. Don't race to finish, the point is not to move as quicky as possible. The point is to understand.
+And of course, the whole point of this thing is to make sure you get the skills you need to launch your successful career. This is not a box-ticking exercise. In getting your cards to Complete you need to make sure you really understand all the concepts that the card is about. Don't race to finish, the point is not to move as quickly as possible. The point is to understand.
 
 So please ask questions when you need to :)
 
