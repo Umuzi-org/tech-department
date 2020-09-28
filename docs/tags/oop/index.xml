@@ -60,7 +60,12 @@ Youtube videos  Python OOP 1 - Classes and Instances Python OOP 2 - Class Variab
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/topics/ncit/115378/</guid>
-      <description></description>
+      <description>1. OOP theory and practice Object-oriented programming is one of the most powerful design philosophies in all of software development. It is a conceptual framework (sometimes called a paradigm) that you can use in many different programming languages and on many different projects. At the most introductory level, OOP consists of 4 key concepts:
+ Encapsulation
+ Abstraction
+ Inheritance
+ Polymorphism
+  These sound like very technical and difficult concepts, but as this video will show, they are relatively straightforward to understand and use.</description>
     </item>
     
     <item>

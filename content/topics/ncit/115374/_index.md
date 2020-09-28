@@ -185,4 +185,3 @@ Some important points to keep in mind:
 
 ### The need to protect a web site
 It seems you cannot go a day without hearing about someone or some group hacking a website or stealing credit card and other sensitive data from eCommerce sites. Once placed on a website, malware can then be used to spread viruses, steal personal or financial data, and even hijack computers. It is not easily detected and may infect your customers' computers after they visit your website. Ultimately, this negatively affects your company's reputation and can result in lost business. If your website will store sensitive information from users (even a username or password), then keeping that data secure must be a top priority.
-

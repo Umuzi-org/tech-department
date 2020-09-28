@@ -5,15 +5,19 @@ ready: true
 title: Git feature branching
 ---
 
-Git is a powerful tool and has quite a lot of flexibility around when to make branches and what the branches mean to you and your team. It's important to come up with a shared stratergy for managing branches on a team in order to keep the chaos at bay. It also it important from the perspective of CI/CD (continuous integration and continuous deployment)
+Git is a powerful tool and has quite a lot of flexibility around when to make branches and what the branches mean to you and your team. It's important to come up with a shared stratergy for managing branches on a team in order to keep the chaos at bay. It also it important from the perspective of CI/CD (continuous integration and continuous deployment).
 
 Git feature branching is a very foundational branching stratergy. The reason we use it is that:
 
 1. It will build certain good habits, such as being aware of where your branch starts and what that implies.
 2. It is genuinely useful in real life projects, for example many open source projects use this
-3. Many other popular branching stratergies are based on feature-branching.
+3. All serious git branching stratergies are based on feature-branching. If you pursue a techie career you will need to understand this stuff.
 
 ## Resources
+
+This mmight be the clearest description of feature branching in the known universe: https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
+
+And here are a few more resources to help you understand.
 
 - https://bocoup.com/blog/git-workflow-walkthrough-feature-branches
 - https://www.atlassian.com/agile/software-development/branching
