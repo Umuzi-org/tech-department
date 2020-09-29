@@ -1,14 +1,14 @@
 ---
 _db_id: 606
 available_flavours:
-  - none
+- none
 content_type: project
 prerequisites:
   hard:
-    - topics/github/intro
+  - topics/github/intro
 ready: true
 submission_type: repo
-title: "Tilde project tutorial: How Repo projects work"
+title: 'Tilde project tutorial: How Repo projects work'
 ---
 
 There are a few kinds of projects you can do and they can be submitted in different ways. In this tutorial you'll see how to get a repo project to complete.

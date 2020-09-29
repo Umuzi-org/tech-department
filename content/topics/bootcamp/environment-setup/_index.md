@@ -25,13 +25,13 @@ You'll need to run your code using Python. Ideally you should be using a modern 
 
 ### If you are doing data science
 
-Optional: You can also start practising to use Anaconda and use its Integrated Development Environment, but all the the pre-bootcamp learning resources can be done on any Python-friendly IDE like Visual studio above.
+Optional: You can also start practicing to use Anaconda and use its Integrated Development Environment, but all the the pre-bootcamp learning resources can be done on any Python-friendly IDE like Visual studio above.
 
 Follow latest installation instruction from the official Anaconda website - https://www.anaconda.com/download/
 
 ### If you are doing web dev
 
-Optional: Install [Node](https://nodejs.org/en/download/). Node gives you a way to run javascript code without having to use a web page.
+Optional: Install [Node](https://nodejs.org/en/download/). Node gives you a way to run JavaScript code without having to use a web page.
 
 In a command line you can then do things like `node my_script.js`. This can be quite convenient.
 
@@ -86,6 +86,7 @@ Then you can open a python interpreter at any point with the command `python`.
 You can also run your python scripts like so:
 
 ```
+cd /path/to/wherever/you/stored/your/goodies
 python my_script.py
 ```
 

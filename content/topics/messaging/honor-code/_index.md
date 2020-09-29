@@ -32,8 +32,8 @@ If you graduate and get a job, you will expected to solve new problems. You will
 
 If you want a solid career, understanding is golden.
 
-And from our side, if people who graduate from our program dont know what they are doing then it makes it much harder for use to create oppertunities for people. If you pursue understanding then you'll help us to help more people.
+And from our side, if people who graduate from our program don't know what they are doing then it makes it much harder for use to create opportunities for people. If you pursue understanding then you'll help us to help more people.
 
 ## What is plagiarism?
 
-It's taking someone else's work, and submitting it as your own. That's the short version. If you are caught plagerising we might not even let you into our full program. If you are caught plagerising repeatedly we will have to kick you off the program.
+It's taking someone else's work, and submitting it as your own. That's the short version. If you are caught plagiarising we might not even let you into our full program. If you are caught plagiarising repeatedly we will have to kick you off the program.

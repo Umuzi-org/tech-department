@@ -5,12 +5,10 @@ available_flavours:
 content_type: project
 prerequisites:
   hard:
-  - workshops/what-to-put-on-a-cv
-  soft:
-  - topics/web-frontend/intro-to-web-design/
-  - workshops/intro-to-css-architecture
   - topics/free-code-camp/responsive-web-design/basic-html-and-html-5
   - topics/free-code-camp/responsive-web-design/basic-css
+  - topics/what-to-put-in-your-cv
+  - topics/web-frontend/intro-to-web-design/
 ready: true
 story_points: 3
 submission_type: link
