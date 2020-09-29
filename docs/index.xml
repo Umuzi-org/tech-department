@@ -108,6 +108,15 @@ Expected output: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89 in this case n = 2:  </
     </item>
     
     <item>
+      <title>Data Engineering boot camp pre-learning</title>
+      <link>/tech-department/syllabuses/data-eng-pre-boot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech-department/syllabuses/data-eng-pre-boot/</guid>
+      <description>  TOPICS: Introduction to Bootcamp Preparation phase   TOPICS: The journey of an Umuzi recruit   TOPICS: Getting set up to write code on your device   TOPICS: Beginning Bash   PROJECTS: Git Basic Exercises   TOPICS: Useful Git commands   TOPICS: Solo Learn - Python - Module 1 - Basic Concepts   TOPICS: Solo Learn - Python - Module 2 - Control Statements   TOPICS: Solo Learn - Python - Module 3 - Functions &amp;amp; Modules   PROJECTS: Pre bootcamp coding challenges   </description>
+    </item>
+    
+    <item>
       <title>Data Science</title>
       <link>/tech-department/syllabuses/data-sci/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -264,7 +273,7 @@ Swift and More  Topic : iOS Overview Topic : MVC Topic : Swift Development and o
       
       <guid>/tech-department/syllabuses/web-dev-free-trial/</guid>
       <description>This short syllabus is given to new potential students. Basically they will need to see how everything works.
- path=&amp;ldquo;topics/messaging/honor-code-and-engineers-mindset&amp;rdquo; path=&amp;ldquo;topics/messaging/our-content-philosophy&amp;rdquo; path=&amp;ldquo;projects/first-personal-website&amp;rdquo; path=&amp;ldquo;topics/bootcamp/web-dev-enviroment-setup&amp;rdquo; path=&amp;ldquo;topics/bootcamp/bash-for-bootcamp&amp;rdquo; path=&amp;ldquo;projects/git-exercises&amp;rdquo; path=&amp;ldquo;projects/basic-flow-control-katas&amp;rdquo; flavour=&amp;ldquo;javascript&amp;rdquo;  </description>
+  TOPICS: Our content philosophy   TOPICS: Getting set up to write code on your device   PROJECTS: Build your first personal website   TOPICS: Beginning Bash   PROJECTS: Git Basic Exercises   </description>
     </item>
     
   </channel>
