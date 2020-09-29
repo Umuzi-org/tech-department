@@ -16,4 +16,5 @@ title: TDD and Unit Testing
 
 - Subscribe to the free service using the above link.
 - Download the starter code by clicking on the `Download Materials` button on the site.
-- Using the starter code downloaded begin your Unit Testing journey. 
+- Using the starter code downloaded begin your Unit Testing journey.
+- Submit your code for this to the repo provided. 
