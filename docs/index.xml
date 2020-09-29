@@ -113,7 +113,7 @@ Expected output: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89 in this case n = 2:  </
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/syllabuses/data-eng-pre-boot/</guid>
-      <description>  TOPICS: Introduction to Bootcamp Preparation phase   TOPICS: The journey of an Umuzi recruit   TOPICS: Getting set up to write code on your device   TOPICS: Beginning Bash   PROJECTS: Git Basic Exercises   TOPICS: Useful Git commands   TOPICS: Solo Learn - Python - Module 1 - Basic Concepts   TOPICS: Solo Learn - Python - Module 2 - Control Statements   TOPICS: Solo Learn - Python - Module 3 - Functions &amp;amp; Modules   PROJECTS: Pre bootcamp coding challenges   </description>
+      <description>  TOPICS: Introduction to Bootcamp Preparation phase   TOPICS: The journey of an Umuzi recruit   TOPICS: Getting set up to write code on your device   TOPICS: Beginning Bash   TOPICS: Honor Code   PROJECTS: Git Basic Exercises   TOPICS: Useful Git commands   TOPICS: Solo Learn - Python - Module 1 - Basic Concepts   TOPICS: Solo Learn - Python - Module 2 - Control Statements   TOPICS: Solo Learn - Python - Module 3 - Functions &amp;amp; Modules   PROJECTS: Pre bootcamp coding challenges   </description>
     </item>
     
     <item>
@@ -131,7 +131,7 @@ Expected output: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89 in this case n = 2:  </
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/syllabuses/data-sci-prebootcamp/</guid>
-      <description>  TOPICS: Introduction to Bootcamp Preparation phase   TOPICS: The journey of an Umuzi recruit   TOPICS: Extra bootcamp preparation instructions for data science   TOPICS: Statistics and Probability - Quantitative data analysis   TOPICS: Getting set up to write code on your device   TOPICS: Beginning Bash   PROJECTS: Git Basic Exercises   TOPICS: Useful Git commands   TOPICS: Scientific Computing with Python   TOPICS: Data Analysis with Python   PROJECTS: Pre bootcamp coding challenges   </description>
+      <description>  TOPICS: Introduction to Bootcamp Preparation phase   TOPICS: The journey of an Umuzi recruit   TOPICS: Extra bootcamp preparation instructions for data science   TOPICS: Statistics and Probability - Quantitative data analysis   TOPICS: Getting set up to write code on your device   TOPICS: Beginning Bash   TOPICS: Honor Code   PROJECTS: Git Basic Exercises   TOPICS: Useful Git commands   TOPICS: Scientific Computing with Python   TOPICS: Data Analysis with Python   PROJECTS: Pre bootcamp coding challenges   </description>
     </item>
     
     <item>
@@ -240,7 +240,7 @@ You should be completeing one Sololearn Goal each week along with the soft skill
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tech-department/syllabuses/web-dev-pre-boot/</guid>
-      <description>  TOPICS: The journey of an Umuzi recruit   TOPICS: Introduction to Bootcamp Preparation phase   TOPICS: Extra bootcamp preparation instructions for web devs   TOPICS: SUPER IMPORTANT STUFF: how to not fail   TOPICS: Getting set up to write code on your device   TOPICS: Basic Javascript   TOPICS: Beginning Bash   PROJECTS: Git Basic Exercises   TOPICS: Useful Git commands   PROJECTS: Pre bootcamp coding challenges   </description>
+      <description>  TOPICS: The journey of an Umuzi recruit   TOPICS: Introduction to Bootcamp Preparation phase   TOPICS: Extra bootcamp preparation instructions for web devs   TOPICS: SUPER IMPORTANT STUFF: how to not fail   TOPICS: Getting set up to write code on your device   TOPICS: Basic Javascript   TOPICS: Beginning Bash   TOPICS: Honor Code   PROJECTS: Git Basic Exercises   TOPICS: Useful Git commands   PROJECTS: Pre bootcamp coding challenges   </description>
     </item>
     
     <item>
