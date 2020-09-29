@@ -2,10 +2,18 @@
 _db_id: 490
 content_type: project
 ready: true
-submission_type: nosubmit
-title: Project 10
+submission_type: repo
+title: TDD and Unit Testing
 ---
 
-- Summary Project.
+### A light introductory tutorial from the jetbrains family the founders of kotlin:
+ 
+[Tutorial: Test-driven development with Kotlin](https://www.jetbrains.com/help/idea/tdd-with-kotlin.html)
 
-- TODO
+### More in depth look at TDD and Unit testing 
+
+[Test-Driven Development Tutorial for Android: Getting Started](https://www.raywenderlich.com/7109-test-driven-development-tutorial-for-android-getting-started)
+
+- Subscribe to the free service using the above link.
+- Download the starter code by clicking on the `Download Materials` button on the site.
+- Using the starter code downloaded begin your Unit Testing journey. 
