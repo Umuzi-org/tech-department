@@ -1,6 +1,11 @@
 ---
 _db_id: 490
+available_flavours:
+- kotlin
 content_type: project
+prerequisites:
+  hard: []
+  soft: []
 ready: true
 submission_type: repo
 title: TDD and Unit Testing
