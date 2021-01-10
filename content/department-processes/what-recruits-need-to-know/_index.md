@@ -51,6 +51,18 @@ These are currently carried out online due to COVID-19 keep an eye on the `#meet
 
 [Here](https://umuzi-org.github.io/tech-department/remote-work/) you can see how we work remotely and our current conventions and practices, we also make changes to our procedures as and when needed but try to keep this up to date as we evolve.
 
+## Getting help
+
+You'll notice that those forms we ask you to fill in are supposed to show us who needs help and who doesn't. There sure are a lot of you so we'll try our best to keep track of what everyone needs. But we are all only human. If you feel like you are not being noticed please feel free to contact:
+
+- your cohort
+- your mentor
+- your team mates
+- your cohort leadership
+- managment
+
+Seriously, we're all dedicated to helping you grow as much as possible. Help us to do that by asking for help when you need it.
+
 ## Communication
 
 Communication is a crucial part of the department and also encourages productivity.
