@@ -94,6 +94,28 @@ The material and assessments are found on [Gnomio](http://umuzi.gnomio.com/). Th
 
 - [Disciplinary Policy](https://umuzi.gnomio.com/pluginfile.php/2134/mod_resource/content/1/Umuzi_Disciplinary%20Procedure.pdf) | [Disciplinary Guidelines](https://docs.google.com/spreadsheets/d/1C2DdiI0gdMvY3dFSJoJdWTAFxeTyixJs6auIt1wZVwU/edit?ts=5e732649#gid=0) | [Code Of Conduct](https://umuzi.gnomio.com/pluginfile.php/2176/mod_resource/content/1/Umuzi%20Code%20of%20Conduct_December%202018.pdf) | [Sexual Harassment Policy](https://umuzi.gnomio.com/pluginfile.php/2304/mod_resource/content/1/Sexual%20Harassment%20Policy.pdf) These are the Umuzi policies please read through them and familiarise yourself with them.
 
+## How to learn extra quickly
+
+If you want to turbocharge your education there are a few things you can do. Here are just a few suggestions:
+
+Build something useful in your spare time! We've seen all sorts of cool stuff come from our recruits. There's been a chatbot, a chess tournament system, a library managment system, games... what can you build in your free time?
+
+If you have some ideas and need a little bit of help knowing where to start just ask :)
+
+Another thing you can do is just practice. If you practice your problem solving skills you'll be more hirable. The bigger the problems you can solve the further you'll go in your career. These are all wonderful resources.
+
+- https://codewars.com
+- https://www.hackerrank.com/
+- https://projecteuler.net/archives
+
+And of course, you can work on your "soft skills". Spoiler alert, soft skills are actually pretty hard to master.
+
+You can start by working on the top 8 developer habits. Try watch this until the end:
+
+- [Top 8 developer habits - Part 1](https://www.youtube.com/watch?v=DwQ7psiU23I)
+- [Top 8 developer habits - Part 2](https://www.youtube.com/watch?v=mZNXkQxu9Rw)
+- [Top 8 developer habits - Part 3](https://www.youtube.com/watch?v=RleN-6uMF04)
+
 ### Senior Tech Staff
 
 - Sheena O'Connell - sheena.oconnell@umuzi.org
