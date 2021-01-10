@@ -3,7 +3,7 @@ title: How students work remotely
 ready: True
 ---
 
-Here's the plan, the technologies and the processes you need to be aware of:
+Here are the roles, events and allocations you need to be aware of.
 
 ## Roles
 
