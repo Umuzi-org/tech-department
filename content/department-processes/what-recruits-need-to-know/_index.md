@@ -59,7 +59,7 @@ You'll notice that those forms we ask you to fill in are supposed to show us who
 - your mentor
 - your team mates
 - your cohort leadership
-- managment
+- management
 
 Seriously, we're all dedicated to helping you grow as much as possible. Help us to do that by asking for help when you need it.
 
