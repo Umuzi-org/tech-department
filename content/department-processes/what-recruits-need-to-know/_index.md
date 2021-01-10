@@ -1,31 +1,39 @@
 ---
-title: "What You Need To Know (as a recruit)"
+title: "What You Need To Know (as a tech recruit)"
 ready: true
 ---
-
-**NOTE: While we are in remote-work mode things will be a little bit different. Any reference to being at your desk and what not might not apply.**
-
-This is a guide to the Tech Department and how it works. It contains contact details, important links to documents we use and software that are useful.
-
-## Umuzi Handbook
-
-This documentation has EVERYTHING you need to know about Umuzi. The recruit user journey, the processes and protocols and the culture of Umuzi are all found [here](https://docs.google.com/document/d/1aal5u4dUAU1WvAWEWeW4uYVu8c4Q2JbwZuFcJqG2kbQ/edit#heading=h.qudvz63naw4s)
-
 ## Ground Rules
 
 In order to be efficient and productive we have some ground rules:
 You are expected to be online most of the time between _9am and 5pm (barring lunch)_
 
-- Don't be late for workshops.
-- Don't be late for standup.
-- Don't be disruptive and noisy during workshops and meetings.
+There are a few things that can go wrong:
+
+1. Loadshedding: In the case of loadshedding we still expect you to fill in the form as early as possible
+2. Personal illness or emergency. You can apply for leave using [this form](https://docs.google.com/forms/d/e/1FAIpQLSdRy444hA3WR4Vul4nTXOuC0x9ZuA3TFBaB8aA-PPMDCeQN8g/viewform). And if something crazy comes up just communicate with your cohort leader via Rocketchat.
+
+### Good professional behaviour
+
+When people arrive at Umuzi they aren't professionals yet. But when they leave they are.
+
+Here are a few professional behaviors you should start practicing today:
+
+- **Communicate Communicate Communicate** communication is key to success. 
+ - If you were or will be late or absent **communicate**
+ - If you have a problem **communicate**
+ - If you are unsure of something **communicate**
 - Check your calendars daily. This includes the calendars mentioned below.
 - Check your Rocket Chat at lease 3 times daily (Morning, Midday, and before you log off).
 - Check your email at lease 3 times daily (Morning, Midday, and before you log off).
-- Submit your projects on time via Tilde.
-- Submit high quality work and do your best.
-- Communicate problems to the staff (you are not in this alone but we cannot help you if you don't communicate)
-- Always complete your attendance check here for details: {{% contentlink path="remote-work"  %}}
+- Always be on time for workshops and meetings
+- Always be respectful and helpful to your peers
+- Ask the dumb questions! Some people are too shy to ask so ask for them
+- Push to github daily.
+- Always submit high quality work
+- Always submit your work on time
+- DO NOT copy or plagiarize your work.
+- Strive for understanding
+- When you get feedback about your work, implement it
 
 ## Tilde
 
@@ -33,21 +41,27 @@ Tilde means home and during your time at Umuzi this will be the home of the majo
 
 You can access Tilde [Here](https://tilde-front-dot-umuzi-prod.nw.r.appspot.com/)
 
-Please also read {{% contentlink path="topics/agile-triage"  %}}
-
-## Daily Tech Events
-
-These happen everyday and are compulsory for everyone to attend.
-
-##### Stand up
-
-This is how we begin our day, announcements are shared and we discuss anything that hinders progress.
-
-- Every morning at 09:00
+Please also read [Agile Triage](http://syllabus.africacode.net/agile/agile-triage/) and [Kanban wastes](http://syllabus.africacode.net/agile/kanban-wastes/)
 
 ##### Tech Meetups
 
 These are currently carried out online due to COVID-19 keep an eye on the `#meetups-and-events` channel on Rocket Chat
+
+## How we work remotely
+
+[Here](https://umuzi-org.github.io/tech-department/remote-work/) you can see how we work remotely and our current conventions and practices, we also make changes to our procedures as and when needed but try to keep this up to date as we evolve.
+
+## Getting help
+
+You'll notice that those forms we ask you to fill in are supposed to show us who needs help and who doesn't. There sure are a lot of you so we'll try our best to keep track of what everyone needs. But we are all only human. If you feel like you are not being noticed please feel free to contact:
+
+- your cohort
+- your mentor
+- your team mates
+- your cohort leadership
+- management
+
+Seriously, we're all dedicated to helping you grow as much as possible. Help us to do that by asking for help when you need it.
 
 ## Communication
 
@@ -92,66 +106,30 @@ The material and assessments are found on [Gnomio](http://umuzi.gnomio.com/). Th
 
 - [Disciplinary Policy](https://umuzi.gnomio.com/pluginfile.php/2134/mod_resource/content/1/Umuzi_Disciplinary%20Procedure.pdf) | [Disciplinary Guidelines](https://docs.google.com/spreadsheets/d/1C2DdiI0gdMvY3dFSJoJdWTAFxeTyixJs6auIt1wZVwU/edit?ts=5e732649#gid=0) | [Code Of Conduct](https://umuzi.gnomio.com/pluginfile.php/2176/mod_resource/content/1/Umuzi%20Code%20of%20Conduct_December%202018.pdf) | [Sexual Harassment Policy](https://umuzi.gnomio.com/pluginfile.php/2304/mod_resource/content/1/Sexual%20Harassment%20Policy.pdf) These are the Umuzi policies please read through them and familiarise yourself with them.
 
-- [Leave Policy](link to be inserted) [TODO]
+## How to learn extra quickly
 
-- To help us improve our content please review or rate by clicking [here](https://docs.google.com/forms/d/e/1FAIpQLSfHCI5JtVCo28Yrvjn2xUq3sWTyvFFAtvs0h3eaPEMHRGBr6Q/viewform?usp=sf_link)
-  If you have any queries, these are the people to contact:
+If you want to turbocharge your education there are a few things you can do. Here are just a few suggestions:
 
-### Junior Tech Facilitators
+Build something useful in your spare time! We've seen all sorts of cool stuff come from our recruits. There's been a chatbot, a chess tournament system, a library managment system, games... what can you build in your free time?
 
-**Java**
+If you have some ideas and need a little bit of help knowing where to start just ask :)
 
-- Latoya Simbini - latifa.simbini@umuzi.org
+Another thing you can do is just practice. If you practice your problem solving skills you'll be more hirable. The bigger the problems you can solve the further you'll go in your career. These are all wonderful resources.
 
-**Web Development:**
+- https://codewars.com
+- https://www.hackerrank.com/
+- https://projecteuler.net/archives
 
-- Elija Sepuru - elijah.sepuru@umuzi.org
-- Lisa Mabe - lerato.mabe@umuzi.org
-- Shaheedah Momoza - lindokuhle.momoza@umuzi.org
+And of course, you can work on your "soft skills". Spoiler alert, soft skills are actually pretty hard to master.
 
-**Data:**
+You can start by working on the top 8 developer habits. Try watch this until the end:
 
-- Rokhuda Tshitimbi - rokhuda.tshitimbi@umuzi.org
+- [Top 8 developer habits - Part 1](https://www.youtube.com/watch?v=DwQ7psiU23I)
+- [Top 8 developer habits - Part 2](https://www.youtube.com/watch?v=mZNXkQxu9Rw)
+- [Top 8 developer habits - Part 3](https://www.youtube.com/watch?v=RleN-6uMF04)
 
-### Senior Staff
+### Senior Tech Staff
 
-**General**
-
+- Sheena O'Connell - sheena.oconnell@umuzi.org
+- Sam Hampton - samantha.hampton@umuzi.org
 - Ryan O'Connell - ryan.oconnell@umuzi.org
-- Lindelani Mbatha - lindelani.mbatha@umuzi.org
-
-**Java**
-
-- Bentley Ritson - joshua.ritson@umuzi.org
-
-**Web Development:**
-
-- Dibwe Kalangu - dibwe.kalangu@umuzi.org
-- Thandiwe Nyandeni - thandiwe.nyandeni@umuzi.org
-
-**Data:**
-
-- Webster Gova - webster.gova@umuzi.org
-
-### Department Head
-
-- Sheena O’Connell - sheena.oconnell@umuzi.org
-
-## Softwares to use
-
-### Text Editors
-
-These are all good. Choose your favorite
-
-- Visual Studio Code - https://code.visualstudio.com/download
-- Atom - https://atom.io/
-- Sublime Text - https://www.sublimetext.com/3
-
-## Time Management & Project Management tool
-
-- Trello, https://trello.com/
-- Rescue Time,https://www.rescuetime.com/
-
-## Useful android apps
-
-- https://play.google.com/store/apps/details?id=com.trello
